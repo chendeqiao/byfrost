@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Șterge istoricul și cache-ul</item>
+        <item>Nu întreba din nou</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Formulare</item>
+        <item>Istoric</item>
+        <item>Parole</item>
+        <item>Acces locație</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Șterge conținuturile și bazele de date stocate local</item>
+        <item>Șterge toate cookie-urile</item>
+        <item>Șterge toate datele salvate ale formularului</item>
+        <item>Șterge tot istoricul de navigare</item>
+        <item>Șterge toate conturile și parolele salvate</item>
+        <item>Anulează permisiunea de a obține locația de la site-uri</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chineză (GBK)</item>
+        <item>Chineză (Big5)</item>
+        <item>Japoneză (ISO-2022-JP)</item>
+        <item>Japoneză (SHIFT_JIS)</item>
+        <item>Japoneză (EUC-JP)</item>
+        <item>Coreeană (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Mic</item>
+        <item>Mic</item>
+        <item>Normal</item>
+        <item>Mare</item>
+        <item>Uriaș</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Implicit</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Calculator</item>
+    </string-array>
+    <string name="abnormal_recover_message">Doriți să restaurați ultima pagină web?</string>
+    <string name="abnormal_recover_ok">Restaurare</string>
+    <string name="abnormal_recover_recovered">Paginile din ultima sesiune au fost restaurate.</string>
+    <string name="accessibility_button_addbookmark">Adaugă marcaj</string>
+    <string name="accessibility_button_bookmarks_folder_up">Dosar anterior</string>
+    <string name="accessibility_button_closetab">Închide tab-ul</string>
+    <string name="accessibility_button_forward">Mergi înainte</string>
+    <string name="accessibility_button_more">Mai multe opțiuni</string>
+    <string name="accessibility_button_newtab">Deschide tab nou</string>
+    <string name="accessibility_button_refresh">Reîmprospătează pagina</string>
+    <string name="accessibility_button_search">Căutare</string>
+    <string name="accessibility_button_stop">Oprește încărcarea paginii</string>
+    <string name="accessibility_button_uaswitch">Schimbă agenții utilizatorului</string>
+    <string name="accessibility_button_voice">Începe căutarea vocală</string>
+    <string name="accessibility_state_frozen">Pagini salvate</string>
+    <string name="accessibility_state_incognito">Pagină incognito</string>
+    <string name="accessibility_transition_navscreen">Gestionare tab-uri</string>
+    <string name="account">Cont</string>
+    <string name="action">Conectare</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Anunțuri localizate, activați Blocarea Publicității acum?</string>
+    <string name="adblock_rules_error_prompt">Eroare de sintaxă, vă rugăm să editați din nou!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Adaugă</string>
+    <string name="add_new_bookmark">Adaugă marcaj</string>
+    <string name="add_pic">Adaugă imagine:</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="add_to_desktop_success">Adăugat pe desktop</string>
+    <string name="add_to_homepage">Adaugă pe pagina principală</string>
+    <string name="add_to_homepage_success">Adăugat la pagina de start</string>
+    <string name="add_to_homescreen_menu_option">Ecran principal</string>
+    <string name="add_to_other_folder_menu_option">Alt folder</string>
+    <string name="add_up_to_15">Adaugă până la 20</string>
+    <string name="added_new_bookmark">Adăugați marcaj</string>
+    <string name="allow">Permite</string>
+    <string name="allow_download">Permite descărcarea</string>
+    <string name="allow_download_no">Conectează Wi-Fi-ul</string>
+    <string name="already_cleared">Șters</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Disponibil</string>
+    <string name="block">Blochează</string>
+    <string name="bookmark_cannot_save_url">Nu se poate salva această adresă URL</string>
+    <string name="bookmark_list">Lista de marcaje</string>
+    <string name="bookmark_needs_title">„Marcajul trebuie să aibă un nume”</string>
+    <string name="bookmark_needs_url">„Marcajul trebuie să aibă o locație”</string>
+    <string name="bookmark_not_saved">Nu s-a putut salva marcajul</string>
+    <string name="bookmark_saved">Salvat în marcaje</string>
+    <string name="bookmark_this_page">Salvați această pagină</string>
+    <string name="bookmark_url_not_valid">Această adresă URL nu este validă</string>
+    <string name="bookmarks">Marcaje</string>
+    <string name="bookmarks_add_page">Salvează marcaj</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">Problemă cu fișierul</string>
+    <string name="browserFrameFormResubmitMessage">Pagina pe care încerci să o vizualizezi conține date care au fost deja trimise ("POSTDATA"). Dacă retrimiți datele, orice acțiune efectuată de formularul de pe pagină (precum o căutare sau o achiziție online) va fi repetată.</string>
+    <string name="browserFrameNetworkErrorLabel">Problemă de conexiune</string>
+    <string name="browser_admin_panel">Centru utilizator</string>
+    <string name="browser_hot_word_title" translatable="false">Listă de căutări populare</string>
+    <string name="browser_navigation">Navigare</string>
+    <string name="browser_net_error_refresh" translatable="false">Faceți clic pe zona goală pentru a reîncărca pagina</string>
+    <string name="browser_open_all_most_visited" translatable="false">Extindeți site-urile recomandate</string>
+    <string name="browser_permission_camera">Permisiune cameră refuzată, vă rugăm să o activați manual</string>
+    <string name="browser_permission_notification">Permisiune bară de notificări refuzată, vă rugăm să o activați manual</string>
+    <string name="browser_permission_qr">Această funcție necesită permisiune de acces la memorie. Vă rugăm să o activați manual în setări</string>
+    <string name="browser_permission_setwall">Setarea wallpaper-ului telefonului necesită permisiune de stocare. Vă rugăm să o activați manual în setări</string>
+    <string name="browser_permission_strone">Descărcarea fișierelor necesită permisiune de stocare. Vă rugăm să o activați manual în setări</string>
+    <string name="browser_privacy_tips">Datele dvs. personale vor fi tratate conform Politicii noastre de Confidențialitate.</string>
+    <string name="browser_product_agree_tips">Trebuie să fiți de acord cu politica.</string>
+    <string name="browser_product_start">Începeți</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nToate drepturile rezervate.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Căutați liber tot ce aveți nevoie</string>
+    <string name="browser_slogo_fast">Mai rapid</string>
+    <string name="browser_slogo_intelligence">Mai inteligent</string>
+    <string name="browser_slogo_safe">Mai sigur</string>
+    <string name="browser_tools">Unelte</string>
+    <string name="btn_recommend_add">Adaugă</string>
+    <string name="byfrost_slogan">Byfrost - Descoperiți o lume mai mare!</string>
+    <string name="byfrost_suggestion">Am primit sugestia dvs., vă mulțumim.</string>
+    <string name="byfrost_suggestion_time">Timpul de feedback nu poate fi mai mic de 1 minut față de ultima sugestie.</string>
+    <string name="cancel">Anulează</string>
+    <string name="cancelDel">Anulează ștergerea?</string>
+    <string name="cannot_open_the_file">Nu există o aplicație pentru a deschide acest tip de fișier</string>
+    <string name="check_for_update">verifică actualizarea...</string>
+    <string name="check_network">Trimiterea a eșuat din cauza unei probleme de rețea, te rugăm să verifici.</string>
+    <string name="choosertitle_sharevia">Distribuiți prin</string>
+    <string name="clear">Șterge</string>
+    <string name="clear_all">Șterge tot</string>
+    <string name="clear_all_already">Toate datele au fost șterse!</string>
+    <string name="clear_data_success">Ștergere reușită</string>
+    <string name="clear_default_browser">Șterge setarea ca browser implicit</string>
+    <string name="clear_default_setting_please">Un alt browser este setat ca browser implicit, vă rugăm să ștergeți setările browserului implicit.</string>
+    <string name="clear_history_all">Șterge toată istoria</string>
+    <string name="click_again_quit">Apăsați din nou pentru a ieși</string>
+    <string name="close_all_incognito_notification">Închide toate filele incognito</string>
+    <string name="commit_fail">Trimiterea a eșuat, te rugăm să încerci mai târziu</string>
+    <string name="confirm_deletion">Șterge acest element?</string>
+    <string name="confirm_deletion_all">Șterge tot?</string>
+    <string name="contact_us_on_facebook">Contactați-ne pe Facebook</string>
+    <string name="containing_folder">Adăugați în</string>
+    <string name="contextheader_folder_bookmarkcount">%d marcaje</string>
+    <string name="contextheader_folder_empty">Folder gol</string>
+    <string name="contextmenu_add_contact">Adăugați contact</string>
+    <string name="contextmenu_copy">Copiați</string>
+    <string name="contextmenu_copylink">Copiați URL-ul linkului</string>
+    <string name="contextmenu_dial_dot">Apelați…</string>
+    <string name="contextmenu_download_image">Salvați imaginea</string>
+    <string name="contextmenu_map">Hartă</string>
+    <string name="contextmenu_openlink_newwindow">Deschideți în tab nou</string>
+    <string name="contextmenu_openlink_newwindow_background">Deschideți în fundal</string>
+    <string name="contextmenu_savelink">Salvați linkul</string>
+    <string name="contextmenu_send_mail">Trimiteți email</string>
+    <string name="contextmenu_set_wallpaper">Setați ca fundal</string>
+    <string name="contextmenu_set_wallpaper_image">Fundal</string>
+    <string name="contextmenu_share_app">Împărtășiți aplicația</string>
+    <string name="contextmenu_share_website">Împărtășiți site-ul web</string>
+    <string name="contextmenu_sharelink">Distribuiți linkul</string>
+    <string name="contextmenu_view_image">Vizualizați imaginea</string>
+    <string name="copy_link">Copiază linkul</string>
+    <string name="copylink_success">Link-ul a fost copiat</string>
+    <string name="create_shortcut_bookmark">Adăugați scurtătură pe ecranul principal</string>
+    <string name="custom_rules">Filtre personalizate AdBlock</string>
+    <string name="custom_rules_title">Filtre AdBlock</string>
+    <string name="default_bookmark">Marcaj implicit</string>
+    <string name="default_location">Locația implicită: %1$s</string>
+    <string name="delete">Șterge</string>
+    <string name="delete_bookmark_warning">Ștergeți marcajul „%s”?</string>
+    <string name="delete_folder">Ștergeți folderul</string>
+    <string name="deletion_all">Ștergeți toate</string>
+    <string name="desktop">Desktop</string>
+    <string name="done">FINALIZAT</string>
+    <string name="download">Descarcă</string>
+    <string name="download_allow_mobile">Permite descărcarea fișierelor prin rețea mobilă?</string>
+    <string name="download_failed">Descarcare eșuată</string>
+    <string name="download_list">Listă de descărcări</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Un card SD este necesar pentru a descărca %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Fără card SD</string>
+    <string name="download_pause">Descarcare pauzată</string>
+    <string name="download_pending">Se începe descărcarea...</string>
+    <string name="download_removed">A fost eliminat</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Cardul SD este ocupat. Pentru a permite descărcările, atinge Dezactivează stocarea USB în notificare.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Card SD indisponibil</string>
+    <string name="downloaded">Descarcat</string>
+    <string name="downloading">Se descarcă</string>
+    <string name="downloadmanager_disabled">Managerul de descărcări este dezactivat. Vă rugăm să îl activați.</string>
+    <string name="edit">Editează</string>
+    <string name="edit_bookmark">Modificați marcajul</string>
+    <string name="edit_folder">Modificați folderul</string>
+    <string name="edited">EDITAT</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Te rugăm să introduci un număr de telefon corect</string>
+    <string name="empty_bookmarks_folder">Foaia ta de marcaje este goală</string>
+    <string name="empty_history">Nu există istoric de navigare</string>
+    <string name="empty_info_most_visited">Fără înregistrări</string>
+    <string name="empty_snapshots_folder">Nu există pagini salvate</string>
+    <string name="enter_incognito_mode">Schimbați în incognito</string>
+    <string name="enter_normal_mode">Schimbați în mod normal</string>
+    <string name="enter_settings_page">Accesați Setări după ce ștergerea este completă.</string>
+    <string name="enter_website_name">Introduceți numele site-ului</string>
+    <string name="error_console_eval_button_text" translatable="false">Evaluează</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evaluează JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Consola JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">Arată consola JavaScript</string>
+    <string name="exit">Ieșire</string>
+    <string name="exit_dialog_title">Ieși din Browser?</string>
+    <string name="feed_back_sucess">Am primit comentariile și sugestiile tale, mulțumim.</string>
+    <string name="feedback_other">Altele:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Opțional)</string>
+    <string name="feedback_submit">trimite</string>
+    <string name="file_exist">Fișierul există deja</string>
+    <string name="file_name">Nume fișier</string>
+    <string name="file_not_exist">Fișierul nu există</string>
+    <string name="filename_empty">Numele fișierului nu poate fi gol</string>
+    <string name="find_on_page">Căutare pe pagină</string>
+    <string name="five_stars">5 stele</string>
+    <string name="five_stars_comment">Oferă sugestii.</string>
+    <string name="five_stars_content">Evaluarea ta cu 5 stele contează foarte mult pentru noi.</string>
+    <string name="five_stars_later">Mai târziu</string>
+    <string name="five_stars_titile">Îți place %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Refuză</string>
+    <string name="geolocation_permissions_prompt_message">%s vrea să afle locația ta</string>
+    <string name="geolocation_permissions_prompt_share">Partajează locația</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Acest site poate accesa locația ta. Modifică aceasta în Setări > Avansat > Setări site-uri.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Acest site nu poate accesa locația ta. Modifică aceasta în Setări > Avansat > Setări site-uri.</string>
+    <string name="geolocation_settings_page_dialog_message">Șterge accesul la locație pentru acest site?</string>
+    <string name="geolocation_settings_page_summary_allowed">Acest site poate accesa locația ta</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Acest site nu poate accesa locația ta</string>
+    <string name="geolocation_settings_page_title">Anulează permisiunea de a obține locația ta</string>
+    <string name="get_photo_failure">Eșec la obținerea imaginilor</string>
+    <string name="go">Mergi</string>
+    <string name="go_back">Întoarce-te</string>
+    <string name="history">Istoric</string>
+    <string name="home_page">Pagina principală</string>
+    <string name="incognito_home">Sunteți în mod Incognito</string>
+    <string name="incognito_home_content">Acum sunteți în modul incognito.</string>
+    <string name="incognito_home_tip">Puteți ieși din incognito și reveni la normal.</string>
+    <string name="input_over_flow">Eșec la trimiterea pentru că %1$d caractere depășesc limita</string>
+    <string name="instructions_label">Instrucțiuni de utilizare</string>
+    <string name="is_latest">Este deja ultima versiune!</string>
+    <string name="js_ad_block_count">Fișiere JavaScript blocate</string>
+    <string name="js_disable_host_error_prompt">Eroare domeniu, vă rugăm să editați din nou!</string>
+    <string name="js_disable_hosts">Setați limita de timp pentru marcatorul publicitar</string>
+    <string name="js_disable_hosts_title">Domenii anumite</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Unelte</string>
+    <string name="lable_calendar">Calendar</string>
+    <string name="lable_lifestyle">Viață</string>
+    <string name="lable_maps">Hărți</string>
+    <string name="lable_news">Știri</string>
+    <string name="lable_translate">Traducere</string>
+    <string name="lable_video">Videoclipuri</string>
+    <string name="lable_weather">Vreme</string>
+    <string name="leadpage_back">Înapoi</string>
+    <string name="leadpage_forward">Înainte</string>
+    <string name="leadpage_home">Acasă</string>
+    <string name="loading_video">Se încarcă video...</string>
+    <string name="local_bookmarks">Local</string>
+    <string name="location">Adresă</string>
+    <string name="mark_image_ad">Marcați publicitatea</string>
+    <string name="mark_image_ad_fail">Marcare eșuată</string>
+    <string name="max_tabs_warning">Nu mai sunt disponibile tab-uri</string>
+    <string name="menu_browser_Tools">Instrumente</string>
+    <string name="menu_browser_add_bookmark">Adaugă Marcaj</string>
+    <string name="menu_browser_bookmarks">Marcaje</string>
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_downloads">Descărcări</string>
+    <string name="menu_browser_font_size">Mărimea fontului</string>
+    <string name="menu_browser_full_screen">Ecran complet</string>
+    <string name="menu_browser_history">Istoric</string>
+    <string name="menu_browser_incognito">Incognito</string>
+    <string name="menu_browser_night">Protector pentru ochi</string>
+    <string name="menu_browser_no_image">Fără imagini</string>
+    <string name="menu_browser_quit">Ieși</string>
+    <string name="menu_browser_search_page">Căutare în pagină</string>
+    <string name="menu_browser_settings">Setări</string>
+    <string name="menu_browser_snapshots">Salvează pagina</string>
+    <string name="menu_preferences">Setări</string>
+    <string name="menu_tools_box">Cutie de unelte</string>
+    <string name="messageContent">Există o versiune nouă pentru %s, o poți actualiza acum.</string>
+    <string name="modify">Modifică</string>
+    <string name="most_visited">Cele mai vizitate</string>
+    <string name="my_qrcode" translatable="false">Codul meu QR</string>
+    <string name="name">Etichetă</string>
+    <string name="name_cannot_empty">Numele site-ului nu poate fi gol</string>
+    <string name="new_file">Creează fișier nou</string>
+    <string name="new_folder">Folder nou</string>
+    <string name="new_incognito_tab">Tab incognito nou</string>
+    <string name="new_tab">Tab nou</string>
+    <string name="no_downloads">Fără descărcări</string>
+    <string name="no_prompt">Nu întreba din nou</string>
+    <string name="no_subfolders">Fără subfoldere.</string>
+    <string name="notification_content_text">Faceți clic pentru a vizualiza</string>
+    <string name="notification_download_finish">Descărcare finalizată</string>
+    <string name="null_rules_prompt">Puteți adăuga propriile reguli. Regulele trebuie să urmeze regulile de sintaxă Adblock Plus. Instrucțiuni de utilizare.</string>
+    <string name="ok">OK</string>
+    <string name="open">Deschide</string>
+    <string name="open_all_in_new_window">Deschideți toate în taburi noi</string>
+    <string name="open_most_visited">Deschideți cele mai vizitate >></string>
+    <string name="optional">(Opțional)</string>
+    <string name="other_bookmarks">Alte marcaje</string>
+    <string name="page_info">Informații pagină</string>
+    <string name="page_info_address">Adresă:</string>
+    <string name="page_info_view">Vizualizează informațiile paginii</string>
+    <string name="password">Parolă</string>
+    <string name="permissions_prompt_deny">Refuză</string>
+    <string name="permissions_prompt_message">%1$s vrea să folosească %2$s.</string>
+    <string name="pic_ad_block_count">Imagini blocate</string>
+    <string name="picture_nocodeinfo" translatable="false">Nu a fost recunoscută informația din codul QR din imagine</string>
+    <string name="picture_scannoinfo" translatable="false">Nu a fost scanată nicio informație din codul QR</string>
+    <string name="please_input_over_six">Te rugăm să introduci 6 sau mai multe caractere</string>
+    <string name="please_input_under_max">Te rugăm să introduci cel mult %1$d caractere</string>
+    <string name="please_leave_your_email">Te rugăm să lași adresa ta de email</string>
+    <string name="popup_ad_block_count">Pop-up-uri blocate</string>
+    <string name="pref_about">Despre</string>
+    <string name="pref_ad_block">Blocare publicitate</string>
+    <string name="pref_agreement">Termeni de utilizare</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_check_update">Verifică actualizarea</string>
+    <string name="pref_confirm_on_exit">Confirmă la ieșire</string>
+    <string name="pref_contact_us">Contactați-ne:</string>
+    <string name="pref_content_search_engine">Setați motorul de căutare</string>
+    <string name="pref_default_ad_time">Timp marcaj publicitate</string>
+    <string name="pref_default_browser">Setează browserul implicit</string>
+    <string name="pref_default_text_encoding">Codare text</string>
+    <string name="pref_deverloper_options">Opțiuni dezvoltator</string>
+    <string name="pref_download">Setări de descărcare</string>
+    <string name="pref_download_path_setting_screen_title">Cale de descărcare personalizată</string>
+    <string name="pref_download_with_ADM">Descarcă cu ADM</string>
+    <string name="pref_extras_reset_default">Resetează la valorile implicite</string>
+    <string name="pref_extras_reset_default_dlg">Dorești să revii la setările implicite?</string>
+    <string name="pref_extras_website_settings">Setări site</string>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_five_star">Cinci stele</string>
+    <string name="pref_font_size">Mărimea textului</string>
+    <string name="pref_font_size_summary">Ajustează dimensiunea textului și a fonturilor</string>
+    <string name="pref_force_userscalable">Forțează activarea zoom-ului</string>
+    <string name="pref_force_userscalable_summary">Suprascrieți cererea unui site de a controla comportamentul de zoom</string>
+    <string name="pref_min_font_size">Dimensiunea minimă a fontului</string>
+    <string name="pref_notification_tool_show">Arătați bara de căutare în panoul de notificări</string>
+    <string name="pref_privacy_clear_data">Șterge datele</string>
+    <string name="pref_privacy_enable_geolocation">Activează locația</string>
+    <string name="pref_privacy_enable_geolocation_summary">Permite site-urilor să solicite acces la locația ta</string>
+    <string name="pref_privacy_policy">Politica de confidențialitate</string>
+    <string name="pref_privacy_security_title">Confidențialitate &amp; Securitate</string>
+    <string name="pref_privacy_security_title_summary">Permiteți browserului să rețină parole, formulare salvate etc.</string>
+    <string name="pref_search_engine_dialog_title">Alegeți motorul</string>
+    <string name="pref_security_accept_cookies">Acceptă cookie-uri</string>
+    <string name="pref_security_accept_cookies_summary">Permite site-urilor să salveze și să citească datele cookie</string>
+    <string name="pref_security_remember_passwords">Salvează parolele</string>
+    <string name="pref_security_remember_passwords_summary">Salvează numele de utilizator și parolele pentru site-uri</string>
+    <string name="pref_security_save_form_data">Salvează datele formularelor</string>
+    <string name="pref_security_save_form_data_summary">Salvează datele pe care le-am introdus în formulare</string>
+    <string name="pref_security_show_security_warning">Afișează avertizările de securitate</string>
+    <string name="pref_security_show_security_warning_summary">Afișează un avertisment dacă există o problemă de securitate cu un site</string>
+    <string name="pref_show_download_dialog">Afișează dialogul de descărcare</string>
+    <string name="pref_show_header_news">Afișați timpul/vremea/noutăți de pe pagina precedentă</string>
+    <string name="pref_show_red_badge_notity">Afișați notificarea cu semnul roșu</string>
+    <string name="pref_show_status_bar">Bara de stare este afișată</string>
+    <string name="pref_text_zoom">Scalare text</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">De acord</string>
+    <string name="product_no_agree">Nu sunt de acord</string>
+    <string name="progress_dialog_setting_wallpaper">Se setează fundalul...</string>
+    <string name="prompt_already_saved_bookmark">Ați adăugat deja acest marcaj</string>
+    <string name="prompt_already_saved_off">Ați salvat deja această pagină</string>
+    <string name="prompt_saved_off_line">Salvat în pagini offline</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Plasați codul QR în interiorul căsuței și începeți scanarea</string>
+    <string name="refresh">Reîmprospătează</string>
+    <string name="remember_preference">Ține minte preferințele</string>
+    <string name="remove">Eliminați</string>
+    <string name="remove_bookmark">Ștergeți marcajul</string>
+    <string name="remove_items_all">Șterge articolele</string>
+    <string name="remove_snapshot">Șterge pagina salvată</string>
+    <string name="removed_from_bookmarks">Eliminat din marcaje.</string>
+    <string name="rename">Redenumește fișierele</string>
+    <string name="rename_failed">Redenumirea a eșuat</string>
+    <string name="rename_success">Redenumire reușită</string>
+    <string name="replace_file">Înlocuiește fișierul</string>
+    <string name="request_fail">Cererea a eșuat, încercați mai târziu</string>
+    <string name="request_read_external_storage_error">Eșec la cererea pentru accesarea memoriei telefonului</string>
+    <string name="resource_audio_capture">microfon</string>
+    <string name="resource_protected_media_id">ID media protejat</string>
+    <string name="resource_video_capture">cameră</string>
+    <string name="right_recommend_add_link_not_title">Vă rugăm să introduceți titlul</string>
+    <string name="right_recommend_add_link_not_url">Vă rugăm să introduceți URL-ul</string>
+    <string name="right_recommend_add_link_repeat">URL-ul există deja</string>
+    <string name="right_recommend_add_link_saved">Salvat</string>
+    <string name="right_recommend_add_link_url_format">Acest URL este incorect</string>
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Șterge</string>
+    <string name="sdcard_free">%1$s liber/%2$s</string>
+    <string name="search_hint">Căutare sau introducere URL</string>
+    <string name="search_history">Istoricul căutărilor</string>
+    <string name="search_settings_description">Marcaje și istoric web</string>
+    <string name="search_the_web">Căutare pe web</string>
+    <string name="security_warning">Avertisment de securitate</string>
+    <string name="select_dot">Selectați text</string>
+    <string name="select_download_path">Selectați folderul \"%s\" ca locație de descărcare</string>
+    <string name="select_location">Selectează locația</string>
+    <string name="select_qr_code" translatable="false">Selectați imaginea codului QR</string>
+    <string name="sendText">Alege o acțiune pentru text</string>
+    <string name="set_as_homepage">Setați ca pagină de start</string>
+    <string name="set_default_browser">Setează browserul implicit</string>
+    <string name="set_default_failure">Setare eșuată. Încercați din nou, vă rog.</string>
+    <string name="set_default_success">Setare reușită!</string>
+    <string name="setting_bottom_day">Mod luminos</string>
+    <string name="setting_bottom_expanding">Extindere</string>
+    <string name="setting_bottom_night">Mod întunecat</string>
+    <string name="setting_update_speech_recognition">Introducerea vocală este interzisă, vă rugăm să actualizați serviciul Google Voice</string>
+    <string name="share">Împărtășește</string>
+    <string name="share_dialog_title" translatable="false">Împărtășește pagina web</string>
+    <string name="shortcut_bookmark">Marcaj</string>
+    <string name="shortcut_bookmark_title">Alegeți un marcaj</string>
+    <string name="show_dev_on">Ești acum un dezvoltator!</string>
+    <string name="sign_in_to">Conectează-te la %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Fără titlu</string>
+    <string name="ssl_certificate">Certificat de securitate</string>
+    <string name="ssl_certificate_is_valid">Acest certificat este valid.</string>
+    <string name="ssl_continue">Continuă</string>
+    <string name="ssl_date_invalid">Acest certificat are o dată invalidă.</string>
+    <string name="ssl_expired">Acest certificat a expirat.</string>
+    <string name="ssl_invalid">Acest certificat este invalid.</string>
+    <string name="ssl_mismatch">Numele site-ului nu corespunde cu numele de pe certificat.</string>
+    <string name="ssl_not_yet_valid">Acest certificat nu este încă valid.</string>
+    <string name="ssl_unknown">Eroare necunoscută a certificatului.</string>
+    <string name="ssl_untrusted">Acest certificat nu provine de la o autoritate de încredere.</string>
+    <string name="ssl_warnings_header">Există probleme cu certificatul de securitate pentru acest site.</string>
+    <string name="stopping">Oprire...</string>
+    <string name="storage_space_lack">Nu există suficient spațiu de stocare disponibil</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Vă rugăm să confirmați că ați selectat imaginea corectă</string>
+    <string name="swipe_up_tip">Puteți glisa în sus pentru a șterge tab-ul</string>
+    <string name="tab_snapshots">Pagini salvate</string>
+    <string name="text_count_can_input">%1$d caractere pot fi introduse</string>
+    <string name="title_activity_add_link">Adaugă link</string>
+    <string name="title_clear_all_history">Ștergeți tot istoricul?</string>
+    <string name="title_clear_bookmark">Ștergeți marcajul?</string>
+    <string name="title_clear_history">Ștergeți istoricul?</string>
+    <string name="title_clear_off_line">Ștergeți paginile salvate?</string>
+    <string name="too_many_subwindows_dialog_message">Poate fi deschis doar un pop-up deodată.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up deja deschis</string>
+    <string name="too_many_windows_dialog_message">Nu poți deschide un tab nou până nu închizi unul.</string>
+    <string name="toolbox_menu_off">DEZACTIVAT</string>
+    <string name="toolbox_menu_on">ACTIVAT</string>
+    <string name="total">Total</string>
+    <string name="ua_switcher_desktop">Solicită site-ul pentru desktop</string>
+    <string name="unknown">necunoscut</string>
+    <string name="unknown_error">Eroare necunoscută, vă rugăm să încercați din nou.</string>
+    <string name="unknown_file">tipuri de fișiere necunoscute</string>
+    <string name="update_at_once">Actualizează</string>
+    <string name="update_content1">1. Oamenii noștri super-inteligenți au făcut ca paginile web să se încarce extrem de rapid!</string>
+    <string name="update_content2">2. Designerul nostru minunat a făcut ca totul să arate și mai frumos!</string>
+    <string name="update_content3">3. Și dezvoltatorii noștri uimitori? Au stat până târziu, băut cafea și au eliminat toate bug-urile!</string>
+    <string name="update_later">Actualizați mai târziu</string>
+    <string name="update_now">Descarcă aplicația de pe Google Play.</string>
+    <string name="update_remind">Notificare actualizare</string>
+    <string name="update_tips1">Da, ați ghicit! O nouă actualizare este aici!</string>
+    <string name="update_tips2">✨Totul pentru a vă îmbunătăți experiența!\nActualizați acum și vedeți ce s-a schimbat! ✨</string>
+    <string name="update_title">Nouă versiune găsită</string>
+    <string name="upload_image">Încarcă imagini</string>
+    <string name="uploads_disabled">Încărcările de fișiere sunt dezactivate.</string>
+    <string name="username">Nume</string>
+    <string name="versionUpdate">Actualizează</string>
+    <string name="video_mobile_pause">Anulează</string>
+    <string name="video_mobile_permission">Folosești rețeaua mobilă. Vrei totuși să redai?</string>
+    <string name="video_mobile_play">Redă</string>
+    <string name="view">Vizualizează</string>
+    <string name="view_certificate">Vizualizează certificatul</string>
+    <string name="view_select_all">Selectează tot</string>
+    <string name="visit_url_ok">Vizitează</string>
+    <string name="visit_url_title">Vizitează acest URL din clipboard-ul tău?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Popular</string>
+    <string name="website_lifestyle">Viață</string>
+    <string name="website_news">Știri•Sport</string>
+    <string name="website_recommend">Recomandate</string>
+    <string name="website_settings_list_header_text">Acces locație</string>
+    <string name="website_shoping">Divertisment•Shopping</string>
+    <string name="website_social">Social</string>
+    <string name="website_tools">Unelte</string>
+    <string name="website_videos">Videoclipuri</string>
+    <string name="webstorage_clear_data_title">Șterge datele stocate</string>
+    <string name="webstorage_origin_summary_mb_stored">MB stocați pe telefonul tău</string>
+    <string name="webstorage_outofspace_notification_text">Atinge pentru a elibera spațiu.</string>
+    <string name="webstorage_outofspace_notification_title">Stocare browser plină</string>
+    <string name="write_advice_please">Te rugăm să descrii opinia sau sugestia ta în cuvinte... (1000 de cuvinte)</string>
+    <string name="zxing_button_ok">Acceptă</string>
+    <string name="zxing_msg_camera_framework_bug">Probleme cu camera foto. Repornește dispozitivul.</string>
+    <string name="zxing_msg_default_status">Plasează codul de bare în interiorul vizorului pentru a-l scana</string>
+</resources>

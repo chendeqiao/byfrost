@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="uploads_disabled">파일 업로드가 비활성화되었습니다.</string>
+    <string name="new_tab">새 탭</string>
+    <string name="new_incognito_tab">새 시크릿 탭</string>
+    <string name="tab_snapshots">저장된 페이지</string>
+    <string name="removed_from_bookmarks">북마크에서 제거됨.</string>
+    <string name="sign_in_to">%1$s \"%2$s\"에 로그인</string>
+    <string name="username">이름</string>
+    <string name="password">비밀번호</string>
+    <string name="action">로그인</string>
+    <string name="bookmarks_add_page">북마크 저장</string>
+    <string name="bookmarks_search">브라우저</string>
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="delete">삭제</string>
+    <string name="modify">수정</string>
+    <string name="add_to_homepage">홈 화면에 추가</string>
+    <string name="add_to_desktop">데스크탑</string>
+    <string name="rename">파일 이름 변경</string>
+    <string name="copy_link">링크 복사</string>
+    <string name="share">공유</string>
+    <string name="most_visited">가장 많이 방문한</string>
+
+    <string name="allow">허용</string>
+    <string name="go_back">뒤로 가기</string>
+    <string name="bookmarks">북마크</string>
+    <string name="bookmark_list">북마크 목록</string>
+    <string name="go">이동</string>
+    <string name="clear">초기화</string>
+    <string name="clear_default_browser">기본 브라우저 설정 해제</string>
+    <string name="already_cleared">초기화 완료</string>
+    <string name="open">열기</string>
+    <string name="history">히스토리</string>
+    <string name="remember_preference">설정 기억하기</string>
+    <string name="block">차단</string>
+    <string name="clear_data_success">초기화 성공</string>
+    <string name="exit">종료</string>
+    <string name="clear_all">모두 초기화</string>
+
+    <string name="page_info">페이지 정보</string>
+    <string name="page_info_view">페이지 정보 보기</string>
+    <string name="page_info_address">주소:</string>
+
+    <string name="ssl_warnings_header">이 사이트의 보안 인증서에 문제가 있습니다.</string>
+    <string name="ssl_continue">계속</string>
+    <string name="security_warning">보안 경고</string>
+    <string name="view_certificate">인증서 보기</string>
+
+    <string name="ssl_certificate">보안 인증서</string>
+    <string name="ssl_untrusted">이 인증서는 신뢰할 수 있는 기관에서 발급되지 않았습니다.</string>
+    <string name="ssl_mismatch">사이트 이름이 인증서의 이름과 일치하지 않습니다.</string>
+    <string name="ssl_expired">이 인증서는 만료되었습니다.</string>
+    <string name="ssl_not_yet_valid">이 인증서는 아직 유효하지 않습니다.</string>
+    <string name="ssl_date_invalid">이 인증서의 날짜가 유효하지 않습니다.</string>
+    <string name="ssl_invalid">이 인증서는 유효하지 않습니다.</string>
+    <string name="ssl_certificate_is_valid">이 인증서는 유효합니다.</string>
+    <string name="ssl_unknown">알 수 없는 인증서 오류입니다.</string>
+    <string name="stopping">정지 중…</string>
+
+    <string name="location">주소</string>
+    <string name="account">계정</string>
+    <string name="containing_folder">추가 위치</string>
+    <string name="new_folder">새 폴더</string>
+    <string name="edit_folder">폴더 수정</string>
+    <string name="delete_folder">폴더 삭제</string>
+    <string name="no_subfolders">하위 폴더 없음</string>
+    <string name="add_to_homescreen_menu_option">홈 화면</string>
+    <string name="add_to_other_folder_menu_option">다른 폴더</string>
+    <string name="name">라벨</string>
+    <string name="bookmark_this_page">이 페이지 북마크</string>
+    <string name="remove">제거</string>
+    <string name="edit_bookmark">북마크 수정</string>
+    <string name="create_shortcut_bookmark">홈에 바로가기 추가</string>
+    <string name="remove_bookmark">북마크 삭제</string>
+    <string name="set_as_homepage">홈페이지로 설정</string>
+    <string name="bookmark_saved">북마크에 저장됨</string>
+    <string name="bookmark_not_saved">북마크를 저장할 수 없습니다</string>
+    <string name="bookmark_needs_title">"북마크에는 이름이 필요합니다"</string>
+    <string name="bookmark_needs_url">"북마크에는 위치가 필요합니다"</string>
+    <string name="bookmark_url_not_valid">이 URL은 유효하지 않습니다</string>
+    <string name="bookmark_cannot_save_url">이 URL은 북마크로 저장할 수 없습니다</string>
+    <string name="delete_bookmark_warning">북마크 \"%s\"을 삭제하시겠습니까?</string>
+    <string name="open_all_in_new_window">새 탭에서 모두 열기</string>
+    <string name="select_dot">텍스트 선택</string>
+    <string name="shortcut_bookmark">북마크</string>
+    <string name="shortcut_bookmark_title">북마크 선택</string>
+    <string name="contextheader_folder_bookmarkcount">%d 개의 북마크</string>
+    <string name="contextheader_folder_empty">빈 폴더</string>
+    <string name="contextmenu_openlink_newwindow">새 탭에서 열기</string>
+    <string name="contextmenu_openlink_newwindow_background">배경에서 열기</string>
+    <string name="contextmenu_savelink">링크 저장</string>
+    <string name="contextmenu_sharelink">링크 공유</string>
+    <string name="contextmenu_copy">복사</string>
+    <string name="contextmenu_copylink">링크 URL 복사</string>
+    <string name="contextmenu_download_image">이미지 저장</string>
+    <string name="contextmenu_view_image">이미지 보기</string>
+    <string name="contextmenu_set_wallpaper">배경화면으로 설정</string>
+    <string name="contextmenu_set_wallpaper_image">배경화면</string>
+
+    <string name="contextmenu_dial_dot">전화 걸기…</string>
+    <string name="contextmenu_add_contact">연락처 추가</string>
+    <string name="contextmenu_send_mail">이메일 보내기</string>
+    <string name="contextmenu_map">지도</string>
+    <string name="choosertitle_sharevia">공유 방법</string>
+    <string name="menu_preferences">설정</string>
+
+    <string name="pref_ad_block">광고 차단</string>
+    <string name="pref_notification_tool_show">알림 패널에서 검색 바 표시</string>
+    <string name="pref_force_userscalable_summary">웹사이트의 확대/축소 제어 요청 무시</string>
+    <string name="pref_default_text_encoding">텍스트 인코딩</string>
+    <string name="pref_default_ad_time">광고 표시 시간</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>라틴어-1 (ISO-8859-1)</item>
+        <item>유니코드 (UTF-8)</item>
+        <item>중국어 (GBK)</item>
+        <item>중국어 (Big5)</item>
+        <item>일본어 (ISO-2022-JP)</item>
+        <item>일본어 (SHIFT_JIS)</item>
+        <item>일본어 (EUC-JP)</item>
+        <item>한국어 (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">웹사이트 설정</string>
+    <string name="pref_content_search_engine">검색 엔진 설정</string>
+    <string name="pref_search_engine_dialog_title">엔진 선택</string>
+    <string name="pref_download_path_setting_screen_title">사용자 지정 다운로드 경로</string>
+    <string name="pref_privacy_security_title">개인 정보 보호 및 보안</string>
+    <string name="pref_privacy_security_title_summary">브라우저가 비밀번호, 저장된 양식 등을 기억하도록 허용</string>
+
+    <string name="pref_privacy_clear_data">데이터 삭제</string>
+    <string-array name="pref_clear_data_choices">
+        <item>캐시</item>
+        <item>쿠키</item>
+        <item>양식</item>
+        <item>기록</item>
+        <item>비밀번호</item>
+        <item>위치 접근</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>로컬 캐시된 콘텐츠와 데이터베이스 삭제</item>
+        <item>모든 쿠키 삭제</item>
+        <item>저장된 모든 양식 데이터 삭제</item>
+        <item>모든 브라우징 기록 삭제</item>
+        <item>저장된 모든 계정과 비밀번호 삭제</item>
+        <item>웹사이트가 내 위치를 조회할 수 있는 권한 취소</item>
+    </string-array>
+    <string name="pref_feedback">피드백</string>
+    <string name="pref_default_browser">기본 브라우저 설정</string>
+    <string name="pref_confirm_on_exit">종료 시 확인</string>
+    <string name="pref_show_status_bar">상태 표시줄 표시</string>
+    <string name="pref_about">정보</string>
+    <string name="pref_extras_reset_default">기본값으로 초기화</string>
+    <string name="pref_extras_reset_default_dlg">설정을 기본값으로 되돌리시겠습니까?</string>
+
+    <string name="accessibility_button_uaswitch">사용자 에이전트 전환</string>
+    <string-array name="pref_user_agent_choices">
+        <item>기본</item>
+        <item>아이폰</item>
+        <item>아이패드</item>
+        <item>컴퓨터</item>
+    </string-array>
+    <string name="pref_font_size">텍스트 크기</string>
+    <string name="pref_font_size_summary">텍스트 및 글꼴 크기 조정</string>
+    <string name="pref_force_userscalable">줌 강제 활성화</string>
+
+    <string name="pref_security_accept_cookies">쿠키 허용</string>
+    <string name="pref_security_accept_cookies_summary">웹사이트가 쿠키 데이터를 저장하고 읽을 수 있도록 허용</string>
+    <string name="pref_privacy_enable_geolocation">위치 활성화</string>
+    <string name="pref_privacy_enable_geolocation_summary">웹사이트가 내 위치 접근을 요청할 수 있도록 허용</string>
+    <string name="pref_security_save_form_data">양식 데이터 기억</string>
+    <string name="pref_security_save_form_data_summary">내가 입력한 양식 데이터 기억</string>
+    <string name="pref_security_remember_passwords">비밀번호 기억</string>
+    <string name="pref_security_remember_passwords_summary">웹사이트의 사용자 이름과 비밀번호 저장</string>
+    <string name="pref_security_show_security_warning">보안 경고 표시</string>
+    <string name="pref_security_show_security_warning_summary">사이트 보안에 문제가 있을 경우 경고 표시</string>
+    <string name="pref_download_with_ADM">ADM으로 다운로드</string>
+    <string name="pref_show_download_dialog">다운로드 대화상자 표시</string>
+
+    <string name="pref_download">다운로드 설정</string>
+    <string-array name="pref_text_size_choices">
+        <item>아주 작음</item>
+        <item>작음</item>
+        <item>보통</item>
+        <item>큼</item>
+        <item>매우 큼</item>
+    </string-array>
+    <string name="pref_text_zoom">텍스트 크기 비율</string>
+    <string name="pref_min_font_size">최소 글꼴 크기</string>
+
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+
+    <string name="browserFrameNetworkErrorLabel">연결 문제</string>
+    <string name="browserFrameFileErrorLabel">파일 문제</string>
+    <string name="browserFrameFormResubmitMessage">보려는 페이지에 이미 제출된 데이터(“POSTDATA”)가 포함되어 있습니다. 데이터를 다시 전송하면 페이지에서 실행된 모든 작업(예: 검색, 온라인 구매)이 반복됩니다.</string>
+    <string name="empty_history">브라우징 기록 없음</string>
+    <string name="add_new_bookmark">북마크 추가</string>
+    <string name="find_on_page">페이지에서 찾기</string>
+    <string name="search_hint">검색 또는 URL 입력</string>
+    <string name="search_settings_description">북마크 및 웹 기록</string>
+
+    <string name="too_many_windows_dialog_message">새 탭을 열려면 하나를 닫아야 합니다.</string>
+    <string name="too_many_subwindows_dialog_title">이미 팝업이 열려 있습니다</string>
+    <string name="too_many_subwindows_dialog_message">하나의 팝업만 열 수 있습니다.</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">SD 카드 없음</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">다운로드하려면 SD 카드가 필요합니다.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD 카드 사용 불가</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD 카드가 사용 중입니다. 다운로드를 허용하려면 알림에서 USB 저장소 끄기를 누르세요.</string>
+
+    <string name="download_pending">다운로드 시작 중...</string>
+    <string name="search_the_web">웹 검색</string>
+
+    <string name="webstorage_outofspace_notification_title">브라우저 저장소 가득 참</string>
+    <string name="webstorage_outofspace_notification_text">공간을 비우려면 터치하세요.</string>
+    <string name="webstorage_clear_data_title">저장된 데이터 삭제</string>
+    <string name="webstorage_origin_summary_mb_stored">휴대폰에 저장된 MB</string>
+    <string name="loading_video">비디오 로딩 중...</string>
+    <string name="permissions_prompt_message">%1$s가(이) %2$s을 사용하려고 합니다.</string>
+    <string name="permissions_prompt_deny">거부</string>
+    <string name="resource_protected_media_id">보호된 미디어 ID</string>
+    <string name="resource_video_capture">카메라</string>
+    <string name="resource_audio_capture">마이크</string>
+    <string name="geolocation_permissions_prompt_message">%s가(이) 내 위치를 알고자 합니다</string>
+    <string name="geolocation_permissions_prompt_share">위치 공유</string>
+    <string name="geolocation_permissions_prompt_dont_share">거부</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">이 사이트가 내 위치를 접근할 수 있습니다. 설정 > 고급 > 웹사이트 설정에서 변경할 수 있습니다.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">이 사이트가 내 위치를 접근할 수 없습니다. 설정 > 고급 > 웹사이트 설정에서 변경할 수 있습니다.</string>
+    <string name="geolocation_settings_page_title">위치 접근 권한 취소</string>
+    <string name="geolocation_settings_page_summary_allowed">이 사이트가 현재 내 위치에 접근할 수 있습니다</string>
+    <string name="geolocation_settings_page_summary_not_allowed">이 사이트가 현재 내 위치에 접근할 수 없습니다</string>
+    <string name="geolocation_settings_page_dialog_message">이 웹사이트에 대한 위치 접근을 지우시겠습니까?</string>
+    <string name="website_settings_list_header_text">위치 접근</string>
+
+    <string name="progress_dialog_setting_wallpaper">배경화면 설정 중...</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">JavaScript 콘솔 표시</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript 콘솔</string>
+    <string name="error_console_eval_text_hint" translatable="false">JavaScript 평가</string>
+    <string name="error_console_eval_button_text" translatable="false">평가</string>
+    <string name="empty_bookmarks_folder">북마크가 비어 있습니다</string>
+    <string name="other_bookmarks">기타 북마크</string>
+    <string name="max_tabs_warning">더 이상 탭을 열 수 없습니다</string>
+    <string name="local_bookmarks">로컬</string>
+    <string name="empty_snapshots_folder">저장된 페이지가 없습니다</string>
+    <string name="remove_snapshot">저장된 페이지 삭제</string>
+    <string name="accessibility_button_forward">앞으로 가기</string>
+    <string name="accessibility_button_refresh">페이지 새로 고침</string>
+    <string name="accessibility_button_stop">페이지 로딩 중지</string>
+    <string name="accessibility_button_addbookmark">페이지 북마크</string>
+    <string name="accessibility_button_search">검색</string>
+    <string name="accessibility_button_voice">음성 검색 시작</string>
+    <string name="accessibility_button_closetab">탭 닫기</string>
+    <string name="accessibility_button_newtab">새 탭 열기</string>
+    <string name="accessibility_button_more">더 많은 옵션</string>
+
+    <string name="accessibility_state_incognito">비공개 페이지</string>
+    <string name="accessibility_state_frozen">저장된 페이지</string>
+
+    <string name="accessibility_transition_navscreen">탭 관리</string>
+    <string name="accessibility_button_bookmarks_folder_up">이전 폴더</string>
+    <string name="sendText">텍스트에 대한 작업 선택</string>
+
+    <string name="cancelDel">삭제 취소?</string>
+
+    <string name="write_advice_please">의견이나 제안을 작성해 주세요... (1000자 이하)</string>
+    <string name="feed_back_sucess">귀하의 의견을 받았습니다. 감사합니다.</string>
+    <string name="check_network">네트워크 문제로 제출 실패, 확인해 주세요.</string>
+    <string name="commit_fail">제출 실패, 나중에 다시 시도해 주세요.</string>
+    <string name="please_input_over_six">6자 이상 입력해 주세요</string>
+    <string name="please_input_under_max">최대 %1$d자 이하로 입력해 주세요</string>
+    <string name="email">이메일:</string>
+    <string name="email_is_error">올바른 전화번호를 입력해 주세요</string>
+    <string name="add_pic">이미지 추가:</string>
+    <string name="optional">(선택사항)</string>
+    <string name="please_leave_your_email">이메일 주소를 남겨주세요</string>
+    <string name="feedback_other">기타:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (선택)</string>
+    <string name="feedback_submit">제출</string>
+
+    <string name="versionUpdate">업데이트</string>
+    <string name="messageContent">%s의 새로운 버전이 있습니다. 지금 업데이트 하세요.</string>
+    <string name="update_at_once">업데이트</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">업데이트 확인</string>
+    <string name="pref_contact_us">문의하기:</string>
+
+    <string name="pref_agreement">이용 약관</string>
+    <string name="pref_privacy_policy">개인정보 처리방침</string>
+
+    <string name="check_for_update">업데이트 확인 중...</string>
+    <string name="request_fail">요청 실패, 나중에 다시 시도해 주세요</string>
+    <string name="update_remind">업데이트 알림</string>
+    <string name="is_latest">이미 최신 버전입니다!</string>
+    <string name="no_prompt">다시 묻지 않기</string>
+
+    <string name="download">다운로드</string>
+    <string name="downloading">다운로드 중</string>
+    <string name="downloaded">다운로드 완료</string>
+    <string name="download_removed">삭제됨</string>
+    <string name="download_pause">다운로드 일시정지</string>
+    <string name="download_failed">다운로드 실패</string>
+    <string name="unknown_file">알 수 없는 파일 형식</string>
+    <string name="no_downloads">다운로드 없음</string>
+    <string name="downloadmanager_disabled">다운로드 관리자가 비활성화되었습니다. 활성화해 주세요.</string>
+    <string name="cannot_open_the_file">이 파일을 열 수 있는 프로그램이 없습니다</string>
+    <string name="download_allow_mobile">모바일 네트워크로 파일 다운로드를 허용하시겠습니까?</string>
+    <string name="allow_download">다운로드 허용</string>
+    <string name="allow_download_no">Wi-Fi 연결</string>
+    <string name="download_list">다운로드 목록</string>
+    <string name="storage_space_lack">저장 공간 부족</string>
+    <string name="new_file">새 파일 만들기</string>
+    <string name="replace_file">파일 교체</string>
+
+    <string name="default_location">기본 위치: %1$s</string>
+    <string name="select_location">위치 선택</string>
+    <string name="sdcard_free">%1$s 남음/%2$s</string>
+    <!--&lt;!&ndash;bottomMenuItem&ndash;&gt;-->
+    <string name="menu_browser_add_bookmark">북마크 추가</string>
+    <string name="menu_browser_night">눈 보호기</string>
+    <string name="menu_browser_incognito">비공개</string>
+    <string name="menu_browser_close_incognito">일반</string>
+    <string name="menu_browser_history">기록</string>
+    <string name="menu_browser_bookmarks">북마크</string>
+    <string name="menu_browser_downloads">다운로드</string>
+    <string name="menu_browser_no_image">이미지 없음</string>
+    <string name="menu_browser_full_screen">전체 화면</string>
+    <string name="menu_browser_font_size">글꼴 크기</string>
+    <string name="menu_browser_search_page">페이지 내 검색</string>
+    <string name="menu_browser_snapshots">페이지 저장</string>
+
+    <string name="menu_browser_settings">설정</string>
+    <string name="menu_browser_Tools">도구</string>
+    <string name="menu_browser_quit">종료</string>
+
+    <string name="title_clear_off_line">저장된 페이지를 지우시겠습니까?</string>
+    <string name="title_clear_history">기록을 지우시겠습니까?</string>
+    <string name="title_clear_all_history">모든 기록을 지우시겠습니까?</string>
+    <string name="title_clear_bookmark">북마크를 지우시겠습니까?</string>
+    <string name="enter_incognito_mode">비공개 모드로 전환</string>
+    <string name="enter_normal_mode">일반 모드로 전환</string>
+    <string name="swipe_up_tip">탭을 삭제하려면 위로 스와이프하세요</string>
+    <string name="empty_info_most_visited">기록 없음</string>
+
+    <string name="prompt_saved_off_line">오프라인 페이지로 저장됨</string>
+    <string name="prompt_already_saved_off">이미 이 페이지를 저장했습니다</string>
+    <string name="prompt_already_saved_bookmark">이미 이 북마크를 추가했습니다</string>
+    <string name="incognito_home">비공개 모드입니다</string>
+    <string name="incognito_home_content">현재 비공개 모드입니다.</string>
+    <string name="edit">편집</string>
+
+    <string name="exit_dialog_title">브라우저를 종료하시겠습니까?</string>
+    <string-array name="exit_dialog_choices">
+        <item>기록 및 캐시 지우기</item>
+        <item>다시 묻지 않기</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">광고가 감지되었습니다. AD 차단을 활성화하시겠습니까?</string>
+    <string name="visit_url_title">클립보드에서 이 URL을 방문하시겠습니까?</string>
+    <string name="visit_url_ok">방문</string>
+    <string name="incognito_home_tip">비공개 모드를 종료하고 일반 모드로 돌아갈 수 있습니다.</string>
+    <string name="snap_shot_no_title">제목 없음</string>
+    <string name="view_select_all">모두 선택</string>
+    <string name="set_default_browser">기본 브라우저 설정</string>
+    <string name="enter_settings_page">삭제 후 설정으로 들어가세요.</string>
+    <string name="clear_default_setting_please">다른 브라우저가 기본 브라우저로 설정되어 있습니다. 기본 설정을 지워 주세요.</string>
+    <string name="unknown_error">알 수 없는 오류, 다시 시도해 주세요.</string>
+    <string name="set_default_success">기본 설정 완료!</string>
+    <string name="set_default_failure">기본 설정 실패. 다시 시도해 주세요.</string>
+
+    <string name="default_bookmark">기본 북마크</string>
+
+    <string name="click_again_quit">뒤로 가기를 눌러 종료</string>
+    <string name="clear_all_already">모든 데이터를 이미 삭제했습니다!</string>
+    <string name="select_download_path">폴더 \"%s\"를 다운로드 위치로 선택</string>
+
+    <string name="contact_us_on_facebook">페이스북에서 연락하기</string>
+    <string name="text_count_can_input">%1$d자 입력 가능</string>
+    <string name="input_over_flow">%1$d자 초과로 제출 실패</string>
+    <string name="upload_image">이미지 업로드</string>
+    <string name="request_read_external_storage_error">전화 메모리 접근 요청 실패</string>
+    <string name="get_photo_failure">사진을 가져오지 못했습니다</string>
+
+    <string name="title_activity_add_link">링크 추가</string>
+    <string name="btn_recommend_add">추가</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">제목을 입력하세요</string>
+    <string name="right_recommend_add_link_not_url">URL을 입력하세요</string>
+    <string name="right_recommend_add_link_url_format">잘못된 URL입니다</string>
+    <string name="right_recommend_add_link_saved">저장됨</string>
+    <string name="right_recommend_add_link_repeat">URL이 이미 존재합니다</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">데스크탑</string>
+    <string name="right_recommend_tools_remove">삭제</string>
+
+    <string name="file_name">파일 이름</string>
+    <string name="copylink_success">링크가 복사되었습니다</string>
+    <string name="add_to_homepage_success">홈페이지에 추가됨</string>
+    <string name="add_to_desktop_success">데스크탑에 추가됨</string>
+    <string name="clear_history_all">전체 기록 삭제</string>
+    <string name="remove_items_all">항목 삭제</string>
+    <string name="rename_failed">이름 변경 실패</string>
+    <string name="rename_success">이름 변경 성공</string>
+    <string name="filename_empty">파일 이름은 비어 있을 수 없습니다</string>
+    <string name="file_exist">파일이 존재합니다</string>
+    <string name="file_not_exist">파일이 존재하지 않습니다</string>
+
+    <string name="menu_tools_box">도구 상자</string>
+    <string name="toolbox_menu_on">켜짐</string>
+    <string name="toolbox_menu_off">꺼짐</string>
+    <string name="home_page">홈페이지</string>
+    <string name="desktop">데스크탑</string>
+    <string name="name_cannot_empty">웹 이름은 비어 있을 수 없습니다</string>
+
+    <string name="setting_update_speech_recognition">음성 입력이 금지되었습니다. Google 음성 서비스 업데이트 해주세요</string>
+    <string name="done">완료</string>
+    <string name="edited">편집됨</string>
+    <string name="enter_website_name">웹사이트 이름을 입력하세요</string>
+
+    <string name="unknown">알 수 없음</string>
+    <string name="available">사용 가능</string>
+    <string name="total">총</string>
+    <string name="notification_content_text">보기 클릭</string>
+    <string name="notification_download_finish">다운로드 완료</string>
+    <string name="view">보기</string>
+
+    <string name="five_stars_titile">%s를 즐기셨나요?</string>
+    <string name="five_stars_content">여러분의 5성급 평가는 저희에게 큰 도움이 됩니다.</string>
+    <string name="five_stars_later">나중에</string>
+    <string name="five_stars">5성급</string>
+    <string name="refresh">새로고침</string>
+    <string name="ua_switcher_desktop">데스크탑 사이트 요청</string>
+
+    <string name="video_mobile_permission">현재 모바일 네트워크를 사용 중입니다. 계속 재생하시겠습니까?</string>
+    <string name="video_mobile_play">재생</string>
+    <string name="video_mobile_pause">취소</string>
+    <string name="close_all_incognito_notification">모든 비공개 탭 닫기</string>
+    <string name="add_up_to_15">최대 20개 추가</string>
+    <string name="pref_deverloper_options">개발자 옵션</string>
+    <string name="show_dev_on">이제 개발자입니다!</string>
+
+    <string name="pic_ad_block_count">차단된 이미지</string>
+    <string name="js_ad_block_count">차단된 JavaScript 파일</string>
+    <string name="popup_ad_block_count">차단된 팝업</string>
+    <string name="custom_rules">사용자 정의 광고 차단 필터</string>
+    <string name="custom_rules_title">광고 차단 필터</string>
+    <string name="confirm_deletion">이 항목을 삭제하시겠습니까?</string>
+    <string name="add">추가</string>
+    <string name="confirm_deletion_all">모두 삭제하시겠습니까?</string>
+
+    <string name="js_disable_hosts">광고 마커 시간 제한 설정</string>
+    <string name="js_disable_hosts_title">특정 도메인</string>
+    <string name="null_rules_prompt">사용자 정의 규칙을 추가할 수 있습니다. 규칙은 Adblock Plus의 문법 규칙을 따라야 합니다. 사용 설명서</string>
+
+    <string name="instructions_label">사용 설명서</string>
+    <string name="adblock_rules_error_prompt">구문 오류, 다시 편집해주세요!</string>
+    <string name="js_disable_host_error_prompt">도메인 오류, 다시 편집해주세요!</string>
+
+    <string name="leadpage_home">홈</string>
+    <string name="leadpage_back">뒤로</string>
+
+    <string name="leadpage_forward">앞으로</string>
+    <string name="abnormal_recover_ok">복원</string>
+    <string name="abnormal_recover_message">마지막 웹페이지를 복원하시겠습니까?</string>
+    <string name="abnormal_recover_recovered">지난 세션의 페이지가 복원되었습니다.</string>
+
+    <string name="open_most_visited">가장 많이 방문한 사이트 열기 >></string>
+    <string name="contextmenu_share_app">앱 공유</string>
+    <string name="contextmenu_share_website">웹사이트 공유</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">도구</string>
+
+    <string name="pref_show_red_badge_notity">빨간 배지 알림 표시</string>
+    <string name="pref_show_header_news">이전 페이지의 시간/날씨/뉴스 표시</string>
+
+    <string name="added_new_bookmark">북마크 추가</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">별 5개</string>
+    <string name="deletion_all">모두 삭제</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="mark_image_ad">광고 표시</string>
+    <string name="mark_image_ad_fail">표시 실패</string>
+    <string name="product_agree">동의</string>
+    <string name="product_no_agree">동의하지 않음</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">확장</string>
+    <string name="setting_bottom_night">어두운 모드</string>
+    <string name="setting_bottom_day">밝은 모드</string>
+
+    <string name="update_now">구글 플레이에서 앱을 다운로드하세요.</string>
+    <string name="update_title">새 버전이 발견되었습니다</string>
+    <string name="update_later">나중에 업데이트</string>
+    <string name="five_stars_comment">제안 사항을 남겨주세요.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">검색 기록</string>
+    <string name="browser_admin_panel">사용자 센터</string>
+    <string name="browser_navigation">탐색</string>
+
+    <string name="browser_slogo_fast">빠른</string>
+    <string name="browser_slogo_safe">안전한</string>
+    <string name="browser_slogo_intelligence">스마트한</string>
+
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nAll Rights Reserved.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">QR 코드를 박스 안에 놓고 스캔을 시작하세요</string>
+    <string name="picture_nocodeinfo" translatable="false">이미지에서 QR 코드 정보를 인식할 수 없습니다</string>
+    <string name="picture_scannoinfo" translatable="false">QR 코드 정보를 스캔하지 못했습니다</string>
+    <string name="share_dialog_title" translatable="false">웹페이지 공유</string>
+    <string name="my_qrcode" translatable="false">내 QR 코드</string>
+    <string name="select_qr_code" translatable="false">QR 코드 이미지 선택</string>
+    <string name="sure_select_true_picture" translatable="false">선택한 이미지가 맞는지 확인해주세요</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">추천 웹사이트 확장</string>
+    <string name="browser_slogan" translatable="false">필요한 모든 것을 자유롭게 검색하세요</string>
+    <string name="browser_net_error_refresh" translatable="false">빈 공간을 클릭하여 페이지를 새로 고침하세요</string>
+
+    <string name="browser_hot_word_title" translatable="false">인기 검색 목록</string>
+    <string name="browser_permission_camera">카메라 권한이 거부되었습니다. 수동으로 활성화해주세요</string>
+    <string name="browser_permission_notification">알림 권한이 거부되었습니다. 수동으로 활성화해주세요</string>
+    <string name="browser_permission_strone">파일 다운로드에는 저장 권한이 필요합니다. 설정에서 권한을 활성화해주세요</string>
+
+    <string name="browser_permission_qr">이 기능은 메모리 접근 권한이 필요합니다. 설정에서 권한을 활성화해주세요</string>
+    <string name="browser_permission_setwall">배경화면 설정에는 메모리 저장 권한이 필요합니다. 설정에서 권한을 활성화해주세요</string>
+    <string name="browser_product_start">시작</string>
+    <string name="browser_product_agree_tips">정책에 동의해야 합니다.</string>
+    <string name="browser_privacy_tips">귀하의 개인 데이터는 우리의 《개인정보 처리방침》에 따라 처리됩니다.</string>
+
+    <string name="byfrost_slogan">Byfrost-더 넓은 세상을 보세요!</string>
+    <string name="byfrost_suggestion">제안을 받았습니다. 감사합니다.</string>
+    <string name="byfrost_suggestion_time">피드백은 마지막 제출 후 1분 이상 간격을 두어야 합니다.</string>
+    <string name="update_tips2">✨당신의 경험을 더 나은 것으로 만들기 위해 노력했습니다!\n지금 바로 업데이트하고 확인해보세요! ✨</string>
+    <string name="update_tips1">맞습니다, 새로운 업데이트가 왔습니다!</string>
+    <string name="update_content1">1. 우리의 슈퍼 스마트한 과학자들이 웹 페이지 로딩을 번개처럼 빠르게 만들었습니다!</string>
+    <string name="update_content2">2. 사랑스러운 디자이너가 마법을 부려서 모든 것이 더 예뻐졌습니다!</string>
+    <string name="update_content3">3. 놀라운 개발자들은 커피를 마시며 늦게까지 버그를 모두 잡았습니다!</string>
+
+    <string name="lable_news">뉴스</string>
+    <string name="lable_video">동영상</string>
+    <string name="lable_lifestyle">생활</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">도구</string>
+
+    <string name="lable_weather">날씨</string>
+    <string name="lable_calendar">일정</string>
+    <string name="lable_maps">지도</string>
+    <string name="lable_translate">번역</string>
+
+    <string name="website_recommend">추천</string>
+    <string name="website_social">소셜</string>
+    <string name="website_lifestyle">생활</string>
+    <string name="website_news">뉴스•스포츠</string>
+    <string name="website_AI">AI</string>
+    <string name="website_videos">동영상</string>
+    <string name="website_shoping">오락•쇼핑</string>
+    <string name="website_tools">도구</string>
+    <string name="website_hot">핫</string>
+
+    <string name="zxing_button_ok">확인</string>
+    <string name="zxing_msg_camera_framework_bug">죄송합니다. 기기의 카메라에 오류가 생겼습니다. 기기를 재시작 해야될 수도 있습니다.</string>
+    <string name="zxing_msg_default_status">바코드를 사각형 안에 비춰주세요.</string>
+</resources>

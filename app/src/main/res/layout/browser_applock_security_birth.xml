@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.intelligence.browser.markLock.lock.BGLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:background="@drawable/browser_bg_main_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:src="@drawable/browser_setting_back_white"
+            android:id="@+id/iv_left_up"
+            android:layout_gravity="center_vertical"
+            android:layout_width="24dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="24dp" >
+            <requestFocus/>
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="48dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="@string/lock_your_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:maxLines="2"
+        android:gravity="center"
+        android:id="@+id/tv_top2"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        android:alpha="0.7"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/lock_check_birth_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <FrameLayout
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.intelligence.browser.markLock.lock.BirthdayPicker
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:id="@+id/birthdayPicker"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+
+    </FrameLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_marginBottom="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_gravity="center|bottom"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/done"
+            android:id="@+id/btn_bottom"
+            android:background="@drawable/browser_button_complete"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </FrameLayout>
+
+
+</com.intelligence.browser.markLock.lock.BGLinearLayout>

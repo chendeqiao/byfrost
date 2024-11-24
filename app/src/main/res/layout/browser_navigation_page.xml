@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/search_hot_word"
+            android:layout_width="@dimen/search_card_marigin_right"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/browser_back"/>
+
+        <FrameLayout
+            android:id="@+id/article_header_shallow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="60dp"
+            android:layout_toRightOf="@+id/search_hot_word"
+            android:layout_toEndOf="@+id/search_hot_word"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/browser_search_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <com.intelligence.news.news.SearchBar
+                android:id="@+id/article_search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true" />
+        </FrameLayout>
+        <ImageView
+            android:id="@+id/browser_navigation_setting"
+            android:layout_width="@dimen/search_card_marigin_right"
+            android:paddingRight="18dp"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/browser_setting"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"/>
+    </RelativeLayout>
+    <com.intelligence.browser.view.TopScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.intelligence.news.news.header.AppSitesView
+                android:id="@+id/browser_app_sites"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+
+            <com.intelligence.news.news.header.website.WebSitesView
+                android:id="@+id/browser_websites_view"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content" />
+
+            <com.intelligence.news.news.header.BrowserHisotryView
+                android:id="@+id/browser_history_view"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:id="@+id/browser_header_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="@dimen/browser_margin_left_right"
+                android:layout_marginEnd="@dimen/browser_margin_left_right"
+                android:layout_marginTop="12dp"
+                android:visibility="gone"
+                android:layout_marginBottom="12dp"/>
+        <LinearLayout
+            android:id="@+id/navigation_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        </LinearLayout>
+    </com.intelligence.browser.view.TopScrollView>
+</LinearLayout>

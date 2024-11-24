@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "236876831712",
+    "firebase_url": "https://byfrost-8864c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "byfrost-8864c",
+    "storage_bucket": "byfrost-8864c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236876831712:android:b808d14d95a3749739e985",
+        "android_client_info": {
+          "package_name": "com.byfrost.browser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNUTrwE0gb0trQRpK2hRWbsPp7HtZAQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

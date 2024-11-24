@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Cancella cronologia e cache</item>
+        <item>Non chiedere più</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookie</item>
+        <item>Moduli</item>
+        <item>Cronologia</item>
+        <item>Password</item>
+        <item>Accesso alla posizione</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Cancella i contenuti e i database memorizzati localmente</item>
+        <item>Cancella tutti i cookie</item>
+        <item>Cancella tutti i dati dei moduli salvati</item>
+        <item>Cancella tutta la cronologia di navigazione</item>
+        <item>Cancella tutti gli account e le password salvati</item>
+        <item>Annulla il permesso a tutti i siti web di ottenere la tua posizione</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Cinese (GBK)</item>
+        <item>Cinese (Big5)</item>
+        <item>Giapponese (ISO-2022-JP)</item>
+        <item>Giapponese (SHIFT_JIS)</item>
+        <item>Giapponese (EUC-JP)</item>
+        <item>Coreano (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Piccolo</item>
+        <item>Normale</item>
+        <item>Grande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Predefinito</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Computer</item>
+    </string-array>
+    <string name="abnormal_recover_message">Ripristinare l\'ultima pagina web?</string>
+    <string name="abnormal_recover_ok">Ripristina</string>
+    <string name="abnormal_recover_recovered">Le pagine della sessione precedente sono state ripristinate.</string>
+    <string name="accessibility_button_addbookmark">Aggiungi segnalibro</string>
+    <string name="accessibility_button_bookmarks_folder_up">Cartella precedente</string>
+    <string name="accessibility_button_closetab">Chiudi scheda</string>
+    <string name="accessibility_button_forward">Vai avanti</string>
+    <string name="accessibility_button_more">Altre opzioni</string>
+    <string name="accessibility_button_newtab">Apri nuova scheda</string>
+    <string name="accessibility_button_refresh">Ricarica pagina</string>
+    <string name="accessibility_button_search">Cerca</string>
+    <string name="accessibility_button_stop">Ferma il caricamento della pagina</string>
+    <string name="accessibility_button_uaswitch">Cambia user agent</string>
+    <string name="accessibility_button_voice">Inizia ricerca vocale</string>
+    <string name="accessibility_state_frozen">Pagina salvata</string>
+    <string name="accessibility_state_incognito">Pagina in incognito</string>
+    <string name="accessibility_transition_navscreen">Gestione schede</string>
+    <string name="account">Account</string>
+    <string name="action">Accedi</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Annunci rilevati, attivare AdBlock ora?</string>
+    <string name="adblock_rules_error_prompt">Errore di sintassi, per favore modifica!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Aggiungi</string>
+    <string name="add_new_bookmark">Aggiungi segnalibro</string>
+    <string name="add_pic">Aggiungi immagine:</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="add_to_desktop_success">Aggiunto al desktop</string>
+    <string name="add_to_homepage">Aggiungi alla home</string>
+    <string name="add_to_homepage_success">Aggiunto alla homepage</string>
+    <string name="add_to_homescreen_menu_option">Schermata principale</string>
+    <string name="add_to_other_folder_menu_option">Altra cartella</string>
+    <string name="add_up_to_15">Aggiungi fino a 20</string>
+    <string name="added_new_bookmark">Aggiungi segnalibro</string>
+    <string name="allow">Consenti</string>
+    <string name="allow_download">Consenti download</string>
+    <string name="allow_download_no">Connetti al WiFi</string>
+    <string name="already_cleared">Pulito</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Disponibile</string>
+    <string name="block">Blocca</string>
+    <string name="bookmark_cannot_save_url">Questo URL non può essere aggiunto ai segnalibri</string>
+    <string name="bookmark_list">Segnalibri</string>
+    <string name="bookmark_needs_title">"Il segnalibro deve avere un nome"</string>
+    <string name="bookmark_needs_url">"Il segnalibro deve avere un URL"</string>
+    <string name="bookmark_not_saved">Impossibile salvare il segnalibro</string>
+    <string name="bookmark_saved">Salvato nei segnalibri</string>
+    <string name="bookmark_this_page">Aggiungi ai segnalibri</string>
+    <string name="bookmark_url_not_valid">Questo URL non è valido</string>
+    <string name="bookmarks">Segnalibri</string>
+    <string name="bookmarks_add_page">Salva segnalibro</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">Problema con il file</string>
+    <string name="browserFrameFormResubmitMessage">La pagina che stai cercando di visualizzare contiene dati che sono già stati inviati ("POSTDATA"). Se invii nuovamente i dati, qualsiasi azione eseguita dal modulo sulla pagina (come una ricerca o un acquisto online) verrà ripetuta.</string>
+    <string name="browserFrameNetworkErrorLabel">Problema di connessione</string>
+    <string name="browser_admin_panel">Centro Utente</string>
+    <string name="browser_hot_word_title" translatable="false">Lista di ricerche popolari</string>
+    <string name="browser_navigation">Navigazione</string>
+    <string name="browser_net_error_refresh" translatable="false">Clicca nell\'area vuota per aggiornare la pagina</string>
+    <string name="browser_open_all_most_visited" translatable="false">Espandi siti web consigliati</string>
+    <string name="browser_permission_camera">Permesso fotocamera negato, abilitalo manualmente</string>
+    <string name="browser_permission_notification">Permesso barra delle notifiche negato, abilitalo manualmente</string>
+    <string name="browser_permission_qr">Questa funzione richiede il permesso di accesso alla memoria. Abilitalo manualmente nelle impostazioni</string>
+    <string name="browser_permission_setwall">Impostare lo sfondo richiede il permesso di archiviazione. Abilitalo nelle impostazioni</string>
+    <string name="browser_permission_strone">Il download dei file richiede il permesso di archiviazione. Abilitalo manualmente nelle impostazioni</string>
+    <string name="browser_privacy_tips">I tuoi dati personali saranno trattati secondo la nostra "Privacy Policy".</string>
+    <string name="browser_product_agree_tips">Devi accettare la politica.</string>
+    <string name="browser_product_start">Inizia</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nTutti i diritti riservati.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Cerca liberamente tutto ciò di cui hai bisogno</string>
+    <string name="browser_slogo_fast">Più veloce</string>
+    <string name="browser_slogo_intelligence">Più intelligente</string>
+    <string name="browser_slogo_safe">Più sicuro</string>
+    <string msgid="6709237687234102240" name="browser_tools">Strumenti</string>
+    <string name="btn_recommend_add">Aggiungi</string>
+    <string name="byfrost_slogan">Byfrost - Vedere un mondo più grande!</string>
+    <string name="byfrost_suggestion">Abbiamo ricevuto il tuo suggerimento, grazie.</string>
+    <string name="byfrost_suggestion_time">Il tempo di feedback non può essere inferiore a 1 minuto dall\'ultimo.</string>
+    <string name="cancel">Annulla</string>
+    <string name="cancelDel">Annulla eliminazione?</string>
+    <string name="cannot_open_the_file">Nessuna procedura per aprire questo tipo di file</string>
+    <string name="check_for_update">verifica aggiornamenti...</string>
+    <string name="check_network">Invio fallito a causa di un problema di rete, per favore controlla.</string>
+    <string name="choosertitle_sharevia">Condividi tramite</string>
+    <string name="clear">Pulisci</string>
+    <string name="clear_all">Pulisci tutto</string>
+    <string name="clear_all_already">Tutti i dati sono già stati cancellati!</string>
+    <string name="clear_data_success">Cancellazione riuscita</string>
+    <string name="clear_default_browser">Rimuovi come browser predefinito</string>
+    <string name="clear_default_setting_please">Un altro browser è impostato come predefinito, per favore rimuovi la configurazione predefinita del browser.</string>
+    <string name="clear_history_all">Cancella tutta la cronologia</string>
+    <string name="click_again_quit">Tocca indietro per uscire</string>
+    <string name="close_all_incognito_notification">Chiudi tutte le schede in incognito</string>
+    <string name="commit_fail">Invio fallito, riprova più tardi</string>
+    <string name="confirm_deletion">Eliminare questo?</string>
+    <string name="confirm_deletion_all">Eliminare tutto?</string>
+    <string name="contact_us_on_facebook">Contattaci su Facebook</string>
+    <string name="containing_folder">Aggiungi a</string>
+    <string name="contextheader_folder_bookmarkcount">%d segnalibri</string>
+    <string name="contextheader_folder_empty">Cartella vuota</string>
+    <string name="contextmenu_add_contact">Aggiungi contatto</string>
+    <string name="contextmenu_copy">Copia</string>
+    <string name="contextmenu_copylink">Copia URL del link</string>
+    <string name="contextmenu_dial_dot">Chiama\u2026</string>
+    <string name="contextmenu_download_image">Salva immagine</string>
+    <string name="contextmenu_map">Mappa</string>
+    <string name="contextmenu_openlink_newwindow">Apri in nuova scheda</string>
+    <string name="contextmenu_openlink_newwindow_background">Apri in background</string>
+    <string name="contextmenu_savelink">Salva link</string>
+    <string name="contextmenu_send_mail">Invia email</string>
+    <string name="contextmenu_set_wallpaper">Imposta come sfondo</string>
+    <string name="contextmenu_set_wallpaper_image">Sfondo</string>
+    <string name="contextmenu_share_app">Condividi App</string>
+    <string name="contextmenu_share_website">Condividi Sito Web</string>
+    <string name="contextmenu_sharelink">Condividi link</string>
+    <string name="contextmenu_view_image">Visualizza immagine</string>
+    <string name="copy_link">Copia link</string>
+    <string name="copylink_success">Link copiato</string>
+    <string name="create_shortcut_bookmark">Aggiungi scorciatoia alla home</string>
+    <string name="custom_rules">Filtri AdBlock personalizzati</string>
+    <string name="custom_rules_title">Filtri AdBlock</string>
+    <string name="default_bookmark">Segnalibro predefinito</string>
+    <string name="default_location">Posizione predefinita: %1$s</string>
+    <string name="delete">Elimina</string>
+    <string name="delete_bookmark_warning">Eliminare il segnalibro \"%s\"?</string>
+    <string name="delete_folder">Elimina cartella</string>
+    <string name="deletion_all">Elimina tutto</string>
+    <string name="desktop">Desktop</string>
+    <string name="done">Fatto</string>
+    <string name="download">Scarica</string>
+    <string name="download_allow_mobile">Consentire il download dei file tramite rete mobile?</string>
+    <string name="download_failed">download fallito</string>
+    <string name="download_list">Lista download</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">È necessaria una scheda SD per scaricare %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Nessuna scheda SD</string>
+    <string name="download_pause">download in pausa</string>
+    <string name="download_pending">Avvio del download\u2026</string>
+    <string name="download_removed">Rimosso</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">La scheda SD è occupata. Per consentire i download, tocca Disattiva archiviazione USB nella notifica.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Scheda SD non disponibile</string>
+    <string name="downloaded">Scaricato</string>
+    <string name="downloading">In download</string>
+    <string name="downloadmanager_disabled">Download Manager disabilitato. Abilitalo.</string>
+    <string name="edit">Modifica</string>
+    <string name="edit_bookmark">Modifica segnalibro</string>
+    <string name="edit_folder">Modifica cartella</string>
+    <string name="edited">Modificato</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Per favore inserisci un numero di telefono corretto</string>
+    <string name="empty_bookmarks_folder">I tuoi segnalibri sono vuoti</string>
+    <string name="empty_history">Nessuna cronologia di navigazione</string>
+    <string name="empty_info_most_visited">Nessun record</string>
+    <string name="empty_snapshots_folder">Nessuna pagina salvata</string>
+    <string name="enter_incognito_mode">Passa alla modalità incognito</string>
+    <string name="enter_normal_mode">Passa alla modalità normale</string>
+    <string name="enter_settings_page">Vai nelle impostazioni dopo che la cancellazione è stata completata.</string>
+    <string name="enter_website_name">Inserisci il nome del sito</string>
+    <string name="error_console_eval_button_text" translatable="false">Valuta</string>
+    <string name="error_console_eval_text_hint" translatable="false">Valuta JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Console JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">Mostra la console JavaScript</string>
+    <string name="exit">Esci</string>
+    <string name="exit_dialog_title">Uscire dal Browser?</string>
+    <string name="feed_back_sucess">Abbiamo ricevuto i tuoi commenti e suggerimenti, grazie.</string>
+    <string name="feedback_other">Altro:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Facoltativo)</string>
+    <string name="feedback_submit">Invia</string>
+    <string name="file_exist">Il file esiste</string>
+    <string name="file_name">Nome del file</string>
+    <string name="file_not_exist">Il file non esiste</string>
+    <string name="filename_empty">Il nome del file non può essere vuoto</string>
+    <string name="find_on_page">Trova nella pagina</string>
+    <string name="five_stars">5 stelle</string>
+    <string name="five_stars_comment">Lascia un suggerimento.</string>
+    <string name="five_stars_content">La tua valutazione a cinque stelle è molto importante per noi.</string>
+    <string name="five_stars_later">Più tardi</string>
+    <string name="five_stars_titile">Ti piace %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Rifiuta</string>
+    <string name="geolocation_permissions_prompt_message">%s vuole conoscere la tua posizione</string>
+    <string name="geolocation_permissions_prompt_share">Condividi posizione</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Questo sito può accedere alla tua posizione. Cambia questa impostazione in Impostazioni > Avanzate > Impostazioni sito web.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Questo sito non può accedere alla tua posizione. Cambia questa impostazione in Impostazioni > Avanzate > Impostazioni sito web.</string>
+    <string name="geolocation_settings_page_dialog_message">Vuoi cancellare l\'accesso alla posizione per questo sito?</string>
+    <string name="geolocation_settings_page_summary_allowed">Questo sito può attualmente accedere alla tua posizione</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Questo sito non può attualmente accedere alla tua posizione</string>
+    <string name="geolocation_settings_page_title">Annulla il permesso per ottenere la tua posizione</string>
+    <string name="get_photo_failure">Impossibile ottenere le foto</string>
+    <string name="go">Vai</string>
+    <string name="go_back">Torna indietro</string>
+    <string name="history">Cronologia</string>
+    <string name="home_page">Pagina principale</string>
+    <string name="incognito_home">Sei in modalità incognito</string>
+    <string name="incognito_home_content">Ora sei in modalità incognito.</string>
+    <string name="incognito_home_tip">Puoi uscire dalla modalità in incognito e tornare alla modalità normale.</string>
+    <string name="input_over_flow">Errore di invio, %1$d caratteri superano il limite</string>
+    <string name="instructions_label">Istruzioni per l\'uso</string>
+    <string name="is_latest">Già l\'ultima versione!</string>
+    <string name="js_ad_block_count">File JavaScript bloccati</string>
+    <string name="js_disable_host_error_prompt">Errore nel dominio, per favore modifica!</string>
+    <string name="js_disable_hosts">Imposta limite di tempo per il marcatore pubblicitario</string>
+    <string name="js_disable_hosts_title">Domini specifici</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Strumenti</string>
+    <string name="lable_calendar">Calendario</string>
+    <string name="lable_lifestyle">Vita</string>
+    <string name="lable_maps">Mappe</string>
+    <string name="lable_news">Notizie</string>
+    <string name="lable_translate">Traduci</string>
+    <string name="lable_video">Video</string>
+    <string name="lable_weather">Meteo</string>
+    <string name="leadpage_back">Indietro</string>
+    <string name="leadpage_forward">Avanti</string>
+    <string name="leadpage_home">Home</string>
+    <string name="loading_video">Caricamento video…</string>
+    <string name="local_bookmarks">Locale</string>
+    <string name="location">Indirizzo</string>
+    <string name="mark_image_ad">Segna Ad</string>
+    <string name="mark_image_ad_fail">Marcatura fallita</string>
+    <string name="max_tabs_warning">Non ci sono più schede disponibili</string>
+    <string name="menu_browser_Tools">Strumenti</string>
+    <string name="menu_browser_add_bookmark">Aggiungi ai segnalibri</string>
+    <string name="menu_browser_bookmarks">Segnalibri</string>
+    <string name="menu_browser_close_incognito">Normale</string>
+    <string name="menu_browser_downloads">Download</string>
+    <string name="menu_browser_font_size">Dimensione font</string>
+    <string name="menu_browser_full_screen">Schermo intero</string>
+    <string name="menu_browser_history">Cronologia</string>
+    <string name="menu_browser_incognito">In incognito</string>
+    <string name="menu_browser_night">Protezione occhi</string>
+    <string name="menu_browser_no_image">Nessuna immagine</string>
+    <string name="menu_browser_quit">Esci</string>
+    <string name="menu_browser_search_page">Cerca nella pagina</string>
+    <string name="menu_browser_settings">Impostazioni</string>
+    <string name="menu_browser_snapshots">Salva pagina</string>
+    <string name="menu_preferences">Impostazioni</string>
+    <string name="menu_tools_box">Strumenti</string>
+    <string name="messageContent">C\'è una nuova versione di %s, puoi aggiornarla ora.</string>
+    <string name="modify">Modifica</string>
+    <string name="most_visited">Più visitati</string>
+    <string name="my_qrcode" translatable="false">Il mio codice QR</string>
+    <string name="name">Etichetta</string>
+    <string name="name_cannot_empty">Il nome del sito non può essere vuoto</string>
+    <string name="new_file">Crea nuovo file</string>
+    <string name="new_folder">Nuova cartella</string>
+    <string name="new_incognito_tab">Nuova scheda in incognito</string>
+    <string name="new_tab">Nuova scheda</string>
+    <string name="no_downloads">Nessun download</string>
+    <string name="no_prompt">Non chiedere più</string>
+    <string name="no_subfolders">Nessuna sottocartella.</string>
+    <string name="notification_content_text">Clicca per visualizzare</string>
+    <string name="notification_download_finish">Download completato</string>
+    <string name="null_rules_prompt">Puoi aggiungere le tue regole. Le tue regole devono seguire le regole di sintassi di Adblock Plus. Istruzioni per l\'uso.</string>
+    <string name="ok">OK</string>
+    <string name="open">Apri</string>
+    <string name="open_all_in_new_window">Apri tutto in nuove schede</string>
+    <string name="open_most_visited">Apri i più visitati>></string>
+    <string name="optional">(Facoltativo)</string>
+    <string name="other_bookmarks">Altri segnalibri</string>
+    <string name="page_info">Informazioni sulla pagina</string>
+    <string name="page_info_address">Indirizzo:</string>
+    <string name="page_info_view">Visualizza informazioni sulla pagina</string>
+    <string name="password">Password</string>
+    <string name="permissions_prompt_deny">Nega</string>
+    <string name="permissions_prompt_message">%1$s vuole utilizzare il tuo %2$s.</string>
+    <string name="pic_ad_block_count">Immagini bloccate</string>
+    <string name="picture_nocodeinfo" translatable="false">Nessuna informazione di codice QR riconosciuta nell\'immagine</string>
+    <string name="picture_scannoinfo" translatable="false">Nessuna informazione del codice QR scansionata</string>
+    <string name="please_input_over_six">Inserisci almeno 6 caratteri</string>
+    <string name="please_input_under_max">Inserisci non più di %1$d caratteri</string>
+    <string name="please_leave_your_email">Per favore lascia il tuo indirizzo email</string>
+    <string name="popup_ad_block_count">Popup bloccati</string>
+    <string name="pref_about">Informazioni</string>
+    <string name="pref_ad_block">Blocco pubblicità</string>
+    <string name="pref_agreement">Termini utente</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_check_update">Controlla aggiornamenti</string>
+    <string name="pref_confirm_on_exit">Conferma alla chiusura</string>
+    <string name="pref_contact_us">Contattaci:</string>
+    <string name="pref_content_search_engine">Imposta motore di ricerca</string>
+    <string name="pref_default_ad_time">Tempo di marcatura pubblicità</string>
+    <string name="pref_default_browser">Imposta browser predefinito</string>
+    <string name="pref_default_text_encoding">Codifica del testo</string>
+    <string name="pref_deverloper_options">Opzioni sviluppatore</string>
+    <string name="pref_download">Impostazioni download</string>
+    <string name="pref_download_path_setting_screen_title">Percorso di download personalizzato</string>
+    <string name="pref_download_with_ADM">Scarica con ADM</string>
+    <string name="pref_extras_reset_default">Ripristina predefiniti</string>
+    <string name="pref_extras_reset_default_dlg">Ripristinare le impostazioni ai valori predefiniti?</string>
+    <string name="pref_extras_website_settings">Impostazioni del sito web</string>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_five_star">Cinque stelle</string>
+    <string name="pref_font_size">Dimensione del testo</string>
+    <string name="pref_font_size_summary">Regola la dimensione del testo e dei caratteri</string>
+    <string name="pref_force_userscalable">Forza abilitazione dello zoom</string>
+    <string name="pref_force_userscalable_summary">Ignora la richiesta di un sito web di controllare il comportamento di zoom</string>
+    <string name="pref_min_font_size">Dimensione minima del carattere</string>
+    <string name="pref_notification_tool_show">Mostra barra di ricerca nel pannello delle notifiche</string>
+    <string name="pref_privacy_clear_data">Cancella dati</string>
+    <string name="pref_privacy_enable_geolocation">Abilita la posizione</string>
+    <string name="pref_privacy_enable_geolocation_summary">Permetti ai siti di richiedere l\'accesso alla tua posizione</string>
+    <string name="pref_privacy_policy">Informativa sulla privacy</string>
+    <string name="pref_privacy_security_title">Privacy &amp; Sicurezza</string>
+    <string name="pref_privacy_security_title_summary">Consenti al browser di ricordare le password, i moduli salvati, ecc.</string>
+    <string name="pref_search_engine_dialog_title">Scegli motore</string>
+    <string name="pref_security_accept_cookies">Accetta cookie</string>
+    <string name="pref_security_accept_cookies_summary">Permetti ai siti di salvare e leggere i dati dei cookie</string>
+    <string name="pref_security_remember_passwords">Ricorda le password</string>
+    <string name="pref_security_remember_passwords_summary">Salva i nomi utente e le password per i siti web</string>
+    <string name="pref_security_save_form_data">Ricorda i dati dei moduli</string>
+    <string name="pref_security_save_form_data_summary">Ricorda i dati che ho inserito nel modulo</string>
+    <string name="pref_security_show_security_warning">Mostra avvisi di sicurezza</string>
+    <string name="pref_security_show_security_warning_summary">Mostra un avviso se c\'è un problema con la sicurezza di un sito</string>
+    <string name="pref_show_download_dialog">Mostra la finestra di download</string>
+    <string name="pref_show_header_news">Mostra orario/meteo/notizie della pagina precedente</string>
+    <string name="pref_show_red_badge_notity">Mostra notifica badge rosso</string>
+    <string name="pref_show_status_bar">La barra di stato è visibile</string>
+    <string name="pref_text_zoom">Scala del testo</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Accetto</string>
+    <string name="product_no_agree">Non accetto</string>
+    <string name="progress_dialog_setting_wallpaper">Impostazione sfondo…</string>
+    <string name="prompt_already_saved_bookmark">Hai già aggiunto questo segnalibro</string>
+    <string name="prompt_already_saved_off">Hai già salvato questa pagina</string>
+    <string name="prompt_saved_off_line">Salvato nelle pagine offline</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Posiziona il codice QR dentro la scatola e inizia la scansione</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="remember_preference">Ricorda preferenze</string>
+    <string name="remove">Rimuovi</string>
+    <string name="remove_bookmark">Elimina segnalibro</string>
+    <string name="remove_items_all">Rimuovi gli elementi</string>
+    <string name="remove_snapshot">Elimina pagina salvata</string>
+    <string name="removed_from_bookmarks">Rimosso dai segnalibri.</string>
+    <string name="rename">Rinomina file</string>
+    <string name="rename_failed">Rinominamento fallito</string>
+    <string name="rename_success">Rinominamento riuscito</string>
+    <string name="replace_file">Sostituisci file</string>
+    <string name="request_fail">Richiesta fallita, riprova più tardi</string>
+    <string name="request_read_external_storage_error">Errore nella richiesta di accesso alla memoria del telefono</string>
+    <string name="resource_audio_capture">microfono</string>
+    <string name="resource_protected_media_id">ID media protetto</string>
+    <string name="resource_video_capture">fotocamera</string>
+    <string name="right_recommend_add_link_not_title">Per favore inserisci il titolo</string>
+    <string name="right_recommend_add_link_not_url">Per favore inserisci l\'URL</string>
+    <string name="right_recommend_add_link_repeat">L\'URL esiste già</string>
+    <string name="right_recommend_add_link_saved">Salvato</string>
+    <string name="right_recommend_add_link_url_format">Questo URL è errato</string>
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Rimuovi</string>
+    <string name="sdcard_free">%1$s Libero/%2$s</string>
+    <string name="search_hint">Cerca o inserisci URL</string>
+    <string name="search_history">Storico ricerche</string>
+    <string name="search_settings_description">Segnalibri e cronologia web</string>
+    <string name="search_the_web">Cerca nel web</string>
+    <string name="security_warning">Avviso di sicurezza</string>
+    <string name="select_dot">Seleziona testo</string>
+    <string name="select_download_path">Seleziona la cartella \"%s\" come posizione di download</string>
+    <string name="select_location">Seleziona posizione</string>
+    <string name="select_qr_code" translatable="false">Seleziona l\'immagine del codice QR</string>
+    <string name="sendText">Scegli un\'azione per il testo</string>
+    <string name="set_as_homepage">Imposta come homepage</string>
+    <string name="set_default_browser">Imposta come browser predefinito</string>
+    <string name="set_default_failure">Impostazione predefinita fallita. Riprova per favore.</string>
+    <string name="set_default_success">Impostazione riuscita!</string>
+    <string name="setting_bottom_day">Modalità chiara</string>
+    <string name="setting_bottom_expanding">Espandi</string>
+    <string name="setting_bottom_night">Modalità scura</string>
+    <string name="setting_update_speech_recognition">Input vocale disabilitato, aggiorna il servizio vocale di Google</string>
+    <string name="share">Condividi</string>
+    <string name="share_dialog_title" translatable="false">Condividi pagina web</string>
+    <string name="shortcut_bookmark">Segnalibro</string>
+    <string name="shortcut_bookmark_title">Scegli un segnalibro</string>
+    <string name="show_dev_on">Sei ora uno sviluppatore!</string>
+    <string name="sign_in_to">Accedi a %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Senza titolo</string>
+    <string name="ssl_certificate">Certificato di sicurezza</string>
+    <string name="ssl_certificate_is_valid">Questo certificato è valido.</string>
+    <string name="ssl_continue">Continua</string>
+    <string name="ssl_date_invalid">Questo certificato ha una data non valida.</string>
+    <string name="ssl_expired">Questo certificato è scaduto.</string>
+    <string name="ssl_invalid">Questo certificato non è valido.</string>
+    <string name="ssl_mismatch">Il nome del sito non corrisponde al nome nel certificato.</string>
+    <string name="ssl_not_yet_valid">Questo certificato non è ancora valido.</string>
+    <string name="ssl_unknown">Errore sconosciuto del certificato.</string>
+    <string name="ssl_untrusted">Questo certificato non proviene da un\'autorità di fiducia.</string>
+    <string name="ssl_warnings_header">Ci sono problemi con il certificato di sicurezza per questo sito.</string>
+    <string name="stopping">Interruzione in corso\u2026</string>
+    <string name="storage_space_lack">Spazio di archiviazione insufficiente</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Conferma di aver selezionato l\'immagine corretta</string>
+    <string name="swipe_up_tip">Puoi scorrere verso l\'alto per eliminare la scheda</string>
+    <string name="tab_snapshots">Pagine salvate</string>
+    <string name="text_count_can_input">%1$d caratteri possono essere inseriti</string>
+    <string name="title_activity_add_link">Aggiungi link</string>
+    <string name="title_clear_all_history">Cancellare tutta la cronologia?</string>
+    <string name="title_clear_bookmark">Cancellare il segnalibro?</string>
+    <string name="title_clear_history">Cancellare la cronologia?</string>
+    <string name="title_clear_off_line">Cancellare le pagine salvate?</string>
+    <string name="too_many_subwindows_dialog_message">Può essere aperto un solo pop-up alla volta.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up già aperto</string>
+    <string name="too_many_windows_dialog_message">Non puoi aprire una nuova scheda finché non ne chiudi una.</string>
+    <string name="toolbox_menu_off">SPENTO</string>
+    <string name="toolbox_menu_on">ACCESO</string>
+    <string name="total">Totale</string>
+    <string name="ua_switcher_desktop">Richiedi versione desktop</string>
+    <string name="unknown">sconosciuto</string>
+    <string name="unknown_error">Errore sconosciuto, per favore riprova.</string>
+    <string name="unknown_file">tipi di file sconosciuti</string>
+    <string name="update_at_once">Aggiorna</string>
+    <string name="update_content1">1. I nostri scienziati super intelligenti hanno reso il caricamento delle pagine velocissimo!</string>
+    <string name="update_content2">2. La nostra fantastica designer ha reso tutto ancora più bello!</string>
+    <string name="update_content3">3. E i nostri incredibili sviluppatori? Sono rimasti svegli fino a tardi a bere caffè per eliminare tutti quei fastidiosi bug!</string>
+    <string name="update_later">Aggiorna più tardi</string>
+    <string name="update_now">Vai su Google Play per scaricare l\'app.</string>
+    <string name="update_remind">Avviso di aggiornamento</string>
+    <string name="update_tips1">Sì, l\'hai indovinato! Un nuovo aggiornamento è qui!</string>
+    <string name="update_tips2">✨Tutto per migliorare la tua esperienza!\nVai avanti, aggiorna ora e scopri tutto! ✨</string>
+    <string name="update_title">Nuova versione disponibile</string>
+    <string name="upload_image">Carica immagini</string>
+    <string name="uploads_disabled">Caricamenti disabilitati.</string>
+    <string name="username">Nome</string>
+    <string name="versionUpdate">Aggiorna</string>
+    <string name="video_mobile_pause">Annulla</string>
+    <string name="video_mobile_permission">Stai usando la rete mobile. Vuoi comunque riprodurre?</string>
+    <string name="video_mobile_play">Riproduci</string>
+    <string name="view">Visualizza</string>
+    <string name="view_certificate">Visualizza certificato</string>
+    <string name="view_select_all">Seleziona tutto</string>
+    <string name="visit_url_ok">Visita</string>
+    <string name="visit_url_title">Visitare questo URL dalla tua appunti?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Popolare</string>
+    <string name="website_lifestyle">Vita</string>
+    <string name="website_news">Notizie•Sport</string>
+    <string name="website_recommend">Consigliato</string>
+    <string name="website_settings_list_header_text">Accesso alla posizione</string>
+    <string name="website_shoping">Intrattenimento•Shopping</string>
+    <string name="website_social">Social</string>
+    <string name="website_tools">Strumenti</string>
+    <string name="website_videos">Video</string>
+    <string name="webstorage_clear_data_title">Svuota i dati memorizzati</string>
+    <string name="webstorage_origin_summary_mb_stored">MB memorizzati sul tuo telefono</string>
+    <string name="webstorage_outofspace_notification_text">Tocca per liberare spazio.</string>
+    <string name="webstorage_outofspace_notification_title">Memoria del browser piena</string>
+    <string name="write_advice_please">Descrivi la tua opinione o suggerimento... (1000 parole)</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Spiacenti, la fotocamera Android ha riscontrato un problema. Potrebbe essere necessario riavviare il dispositivo.</string>
+    <string name="zxing_msg_default_status">Posiziona un codice a barre dentro il mirino rettangolare per la scansione.</string>
+</resources>

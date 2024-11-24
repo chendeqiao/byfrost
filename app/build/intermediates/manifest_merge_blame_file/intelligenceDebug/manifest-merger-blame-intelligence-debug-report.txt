@@ -1,0 +1,1657 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.byfrost.browser"
+4    android:versionCode="126"
+5    android:versionName="1.2.6" >
+6
+7    <uses-sdk
+7-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:4:5-69
+8        android:minSdkVersion="21"
+8-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:4:5-69
+9        android:targetSdkVersion="34" />
+9-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:4:5-69
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:6:5-81
+11-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:8:5-79
+13-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:9:5-76
+14-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+16-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:11:5-72
+16-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:11:22-69
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:12:5-68
+17-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:13:5-81
+18-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+19-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:14:5-88
+19-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:14:22-85
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:15:5-66
+20-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:15:22-63
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:16:5-75
+21-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:16:22-72
+22    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+22-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:17:5-73
+22-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:17:22-70
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:18:5-77
+23-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:18:22-74
+24    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+24-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:19:5-83
+24-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:19:22-80
+25    <uses-permission android:name="android.permission.GET_TASKS" />
+25-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:20:5-68
+25-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:20:22-65
+26    <uses-permission android:name="android.permission.GET_CLIPBOARD_SERVICE" />
+26-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:21:5-80
+26-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:21:22-77
+27    <uses-permission android:name="android.permission.READ_CLIPBOARD" />
+27-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:22:5-73
+27-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:22:22-70
+28    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+28-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:23:5-84
+28-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:23:22-81
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:24:5-77
+29-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:24:22-74
+30    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+30-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:25:5-93
+30-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:25:22-90
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:26:5-65
+31-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:26:22-62
+32    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+32-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+32-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+33    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+33-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+33-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+34    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+34-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+35-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+36    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
+36-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:29:5-83
+36-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:29:22-80
+37    <queries>
+37-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:35:5-68:15
+38
+39        <!-- For browser content -->
+40        <intent>
+40-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:38:9-44:18
+41            <action android:name="android.intent.action.VIEW" />
+41-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+41-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+42
+43            <category android:name="android.intent.category.BROWSABLE" />
+43-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+43-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+44
+45            <data android:scheme="https" />
+45-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+45-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+46        </intent>
+47        <!-- End of browser content -->
+48        <!-- For CustomTabsService -->
+49        <intent>
+49-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:47:9-49:18
+50            <action android:name="android.support.customtabs.action.CustomTabsService" />
+50-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:48:13-90
+50-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:48:21-87
+51        </intent>
+52        <!-- End of CustomTabsService -->
+53        <!-- For MRAID capabilities -->
+54        <intent>
+54-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:52:9-56:18
+55            <action android:name="android.intent.action.INSERT" />
+55-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:318:17-71
+55-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:318:25-68
+56
+57            <data android:mimeType="vnd.android.cursor.dir/event" />
+57-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+57-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+58        </intent>
+59        <intent>
+59-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:57:9-61:18
+60            <action android:name="android.intent.action.VIEW" />
+60-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+60-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+61
+62            <data android:scheme="sms" />
+62-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+62-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+63        </intent>
+64        <intent>
+64-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:62:9-66:18
+65            <action android:name="android.intent.action.DIAL" />
+65-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:63:13-65
+65-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:63:21-62
+66
+67            <data android:path="tel:" />
+67-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+67-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+68        </intent>
+69        <!-- End of MRAID capabilities -->
+70    </queries>
+71
+72    <permission
+72-->[androidx.core:core:1.9.0] /Users/chendeqiao/.gradle/caches/transforms-3/e8f8016555c32f733224bceda5b65b26/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+73        android:name="com.byfrost.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+73-->[androidx.core:core:1.9.0] /Users/chendeqiao/.gradle/caches/transforms-3/e8f8016555c32f733224bceda5b65b26/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+74        android:protectionLevel="signature" />
+74-->[androidx.core:core:1.9.0] /Users/chendeqiao/.gradle/caches/transforms-3/e8f8016555c32f733224bceda5b65b26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+75
+76    <uses-permission android:name="com.byfrost.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+76-->[androidx.core:core:1.9.0] /Users/chendeqiao/.gradle/caches/transforms-3/e8f8016555c32f733224bceda5b65b26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+76-->[androidx.core:core:1.9.0] /Users/chendeqiao/.gradle/caches/transforms-3/e8f8016555c32f733224bceda5b65b26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+77
+78    <application
+79        android:name="com.intelligence.browser.BrowserApplication"
+79-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:29:9-67
+80        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+80-->[androidx.core:core:1.9.0] /Users/chendeqiao/.gradle/caches/transforms-3/e8f8016555c32f733224bceda5b65b26/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+81        android:backupAgent="com.intelligence.browser.manager.BrowserBackupAgent"
+81-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:30:9-82
+82        android:debuggable="true"
+83        android:hardwareAccelerated="true"
+83-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:31:9-43
+84        android:icon="@drawable/browser_app_icon"
+84-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:32:9-50
+85        android:label="@string/application_name"
+85-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:33:9-49
+86        android:largeHeap="true"
+86-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:34:9-33
+87        android:networkSecurityConfig="@xml/browser_network_security_config"
+87-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:35:9-77
+88        android:requestLegacyExternalStorage="true"
+88-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:36:9-52
+89        android:resizeableActivity="false"
+89-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:37:9-43
+90        android:screenOrientation="locked"
+90-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:38:9-43
+91        android:supportsRtl="true"
+91-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:39:9-35
+92        android:taskAffinity="com.byfrost.browser"
+92-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:40:9-47
+93        android:testOnly="true"
+94        android:usesCleartextTraffic="true" >
+94-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:41:9-44
+95        <meta-data
+95-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:45:9-47:35
+96            android:name="android.max_aspect"
+96-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:46:13-46
+97            android:value="2.4" />
+97-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:47:13-32
+98        <meta-data
+98-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:49:9-51:70
+99            android:name="com.google.android.gms.ads.APPLICATION_ID"
+99-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:50:13-69
+100            android:value="ca-app-pub-7100088665720611~5196594817" />
+100-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:51:13-67
+101
+102        <provider
+103            android:name="androidx.core.content.FileProvider"
+103-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:54:13-62
+104            android:authorities="com.byfrost.browser.fileprovider"
+104-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:55:13-63
+105            android:exported="false"
+105-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:56:13-37
+106            android:grantUriPermissions="true" >
+106-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:57:13-47
+107            <meta-data
+107-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:58:13-60:53
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:59:17-67
+109                android:resource="@xml/filepaths" />
+109-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:60:17-50
+110        </provider>
+111
+112        <!-- 广告配置 -->
+113        <!-- <provider -->
+114        <!-- android:name="com.bytedance.sdk.openadsdk.TTFileProvider" -->
+115        <!-- android:authorities="${applicationId}.TTFileProvider" -->
+116        <!-- android:exported="false" -->
+117        <!-- android:grantUriPermissions="true"> -->
+118        <!-- <meta-data -->
+119        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+120        <!-- android:resource="@xml/file_paths" /> -->
+121        <!-- </provider> -->
+122        <!-- <provider -->
+123        <!-- android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" -->
+124        <!-- android:authorities="${applicationId}.TTMultiProvider" -->
+125        <!-- android:exported="false" /> -->
+126
+127        <provider
+128            android:name="com.intelligence.browser.database.provider.BrowserProvider2"
+128-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:79:13-87
+129            android:authorities="com.byfrost.browser;byfrost"
+129-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:80:13-66
+130            android:exported="true"
+130-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:81:13-36
+131            android:multiprocess="false"
+131-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:82:13-41
+132            android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
+132-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:83:13-91
+133            android:writePermission="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" >
+133-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:84:13-93
+134            <path-permission
+134-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:85:13-87:77
+135                android:path="/bookmarks/search_suggest_query"
+135-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:86:17-63
+136                android:readPermission="android.permission.GLOBAL_SEARCH" />
+136-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:87:17-74
+137        </provider>
+138
+139        <activity
+139-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:90:9-200:20
+140            android:name="com.intelligence.browser.ui.activity.SplashActivity"
+140-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:91:13-79
+141            android:alwaysRetainTaskState="true"
+141-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:92:13-49
+142            android:exported="true"
+142-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:93:13-36
+143            android:label="@string/application_name"
+143-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:94:13-53
+144            android:launchMode="singleTask"
+144-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:95:13-44
+145            android:screenOrientation="portrait"
+145-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:96:13-49
+146            android:theme="@style/BaseBrowserTheme" >
+146-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:97:13-52
+147            <intent-filter>
+147-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:98:13-101:29
+148                <action android:name="android.speech.action.VOICE_SEARCH_RESULTS" />
+148-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:99:17-85
+148-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:99:25-82
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+150-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+151            </intent-filter>
+152            <!--
+153                 For these schemes were not particular MIME type has been
+154                 supplied, we are a good candidate.
+155            -->
+156            <intent-filter>
+156-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:104:13-114:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+157-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+159-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+160-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+161
+162                <data android:scheme="http" />
+162-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+162-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+163                <data android:scheme="https" />
+163-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+163-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+164                <data android:scheme="about" />
+164-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+164-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+165                <data android:scheme="javascript" />
+165-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+165-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+166            </intent-filter>
+167            <!--
+168                  For these schemes where any of these particular MIME types
+169                  have been supplied, we are a good candidate.
+170            -->
+171            <intent-filter>
+171-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:117:13-131:29
+172                <action android:name="android.intent.action.VIEW" />
+172-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+172-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+173
+174                <category android:name="android.intent.category.BROWSABLE" />
+174-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+174-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+175                <category android:name="android.intent.category.DEFAULT" />
+175-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+175-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+176
+177                <data android:scheme="http" />
+177-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+177-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+178                <data android:scheme="https" />
+178-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+178-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+179                <data android:scheme="inline" />
+179-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+179-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+180                <data android:scheme="content" />
+180-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+180-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+181                <data android:mimeType="text/html" />
+181-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+181-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+182                <data android:mimeType="text/plain" />
+182-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+182-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+183                <data android:mimeType="application/xhtml+xml" />
+183-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+183-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+184                <data android:mimeType="application/vnd.wap.xhtml+xml" />
+184-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+184-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+185            </intent-filter>
+186            <intent-filter>
+186-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:133:13-144:29
+187
+188                <!-- 文件类型的ACTION -->
+189                <action android:name="android.intent.action.VIEW" />
+189-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+189-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+190                <!-- CATEGORY，指定为能够启动的Activity -->
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+191-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+192                <!-- CATEGORY，支持外部应用发送的文件 -->
+193                <category android:name="android.intent.category.BROWSABLE" />
+193-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+193-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+194                <!-- 指定支持的视频文件类型 -->
+195                <data android:scheme="content" />
+195-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+195-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+196                <data android:scheme="file" />
+196-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+196-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+197                <data android:mimeType="video/*" />
+197-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+197-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+198            </intent-filter>
+199            <intent-filter>
+199-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:145:13-153:29
+200                <action android:name="android.intent.action.VIEW" />
+200-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+200-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+201
+202                <category android:name="android.intent.category.DEFAULT" />
+202-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+202-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+203                <category android:name="android.intent.category.BROWSABLE" />
+203-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+203-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+204                <!-- 支持文件类型为图片 -->
+205                <data android:scheme="content" />
+205-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+205-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+206                <data android:scheme="file" />
+206-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+206-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+207                <data android:mimeType="audio/*" />
+207-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+207-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+208            </intent-filter>
+209            <intent-filter>
+209-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:154:13-163:29
+210
+211                <!-- 接收外部打开的文件 -->
+212                <action android:name="android.intent.action.VIEW" />
+212-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+212-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+213
+214                <category android:name="android.intent.category.DEFAULT" />
+214-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+214-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+215                <category android:name="android.intent.category.BROWSABLE" />
+215-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+215-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+216                <!-- 支持文件类型为图片 -->
+217                <data android:scheme="content" />
+217-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+217-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+218                <data android:scheme="file" />
+218-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+218-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+219                <data android:mimeType="image/*" />
+219-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+219-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+220            </intent-filter>
+221            <!-- For viewing saved web archives. -->
+222            <intent-filter>
+222-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:165:13-175:29
+223                <action android:name="android.intent.action.VIEW" />
+223-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+223-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+224
+225                <category android:name="android.intent.category.BROWSABLE" />
+225-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+225-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+226-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+227
+228                <data android:scheme="http" />
+228-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+228-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+229                <data android:scheme="https" />
+229-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+229-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+230                <data android:scheme="file" />
+230-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+230-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+231                <data android:mimeType="application/x-webarchive-xml" />
+231-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+231-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+232            </intent-filter>
+233            <!-- We are also the main entry point of the browser. -->
+234            <intent-filter>
+234-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:177:13-184:29
+235                <action android:name="android.intent.action.MAIN" />
+235-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:178:17-69
+235-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:178:25-66
+236
+237                <category android:name="android.intent.category.DEFAULT" />
+237-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+237-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+238                <category android:name="android.intent.category.LAUNCHER" />
+238-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:181:17-77
+238-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:181:27-74
+239                <category android:name="android.intent.category.BROWSABLE" />
+239-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+239-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+240                <category android:name="android.intent.category.APP_BROWSER" />
+240-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:183:17-80
+240-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:183:27-77
+241            </intent-filter>
+242            <intent-filter>
+242-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:185:13-190:29
+243                <action android:name="android.intent.action.WEB_SEARCH" />
+243-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:186:17-75
+243-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:186:25-72
+244
+245                <category android:name="android.intent.category.DEFAULT" />
+245-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+245-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+246                <category android:name="android.intent.category.BROWSABLE" />
+246-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+246-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+247            </intent-filter>
+248            <intent-filter>
+248-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:191:13-194:29
+249                <action android:name="android.intent.action.MEDIA_SEARCH" />
+249-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:192:17-77
+249-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:192:25-74
+250
+251                <category android:name="android.intent.category.DEFAULT" />
+251-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+251-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+252            </intent-filter>
+253            <intent-filter>
+253-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:195:13-198:29
+254                <action android:name="android.intent.action.SEARCH" />
+254-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:196:17-71
+254-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:196:25-68
+255
+256                <category android:name="android.intent.category.DEFAULT" />
+256-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+256-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+257            </intent-filter>
+258        </activity>
+259        <activity
+259-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:202:9-230:20
+260            android:name="com.intelligence.browser.ui.MainActivity"
+260-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:203:13-68
+261            android:alwaysRetainTaskState="true"
+261-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:204:13-49
+262            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout"
+262-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:205:13-103
+263            android:exported="true"
+263-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:206:13-36
+264            android:label="@string/application_name"
+264-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:207:13-53
+265            android:launchMode="singleTask"
+265-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:208:13-44
+266            android:screenOrientation="portrait"
+266-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:209:13-49
+267            android:theme="@style/BaseBrowserTheme"
+267-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:210:13-52
+268            android:windowSoftInputMode="stateHidden|adjustPan" >
+268-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:211:13-64
+269            <intent-filter>
+269-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:214:13-224:29
+270                <action android:name="android.intent.action.VIEW" />
+270-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+270-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+271
+272                <category android:name="android.intent.category.DEFAULT" />
+272-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+272-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+273                <category android:name="android.intent.category.BROWSABLE" />
+273-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+273-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+274
+275                <data
+275-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+276                    android:host="browser"
+276-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+277                    android:path="/home"
+277-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+278                    android:scheme="yunxin" />
+278-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+279            </intent-filter>
+280
+281            <meta-data
+281-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:226:13-228:62
+282                android:name="android.app.searchable"
+282-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:227:17-54
+283                android:resource="@xml/browser_searchable" />
+283-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:228:17-59
+284        </activity>
+285        <activity
+285-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:232:9-245:20
+286            android:name="com.intelligence.browser.ui.media.PhotoViewPagerActivity"
+286-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:233:13-60
+287            android:exported="true"
+287-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:234:13-36
+288            android:icon="@drawable/browser_app_icon"
+288-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:235:13-54
+289            android:label="phtoto"
+289-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:236:13-35
+290            android:screenOrientation="locked"
+290-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:237:13-47
+291            android:theme="@style/AppTheme.Fullscreen" >
+291-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:238:13-55
+292            <intent-filter>
+292-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:240:13-244:29
+293                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+293-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:241:17-80
+293-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:241:25-77
+294
+295                <category android:name="android.intent.category.DEFAULT" />
+295-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+295-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+296
+297                <data android:mimeType="image/*" />
+297-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+297-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+298            </intent-filter>
+299        </activity>
+300        <activity
+300-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:247:9-252:64
+301            android:name="com.intelligence.browser.settings.multilanguage.LanguageSettingActivity"
+301-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:248:13-75
+302            android:configChanges="orientation|keyboardHidden|screenSize"
+302-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:249:13-74
+303            android:exported="true"
+303-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:250:13-36
+304            android:screenOrientation="portrait"
+304-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:251:13-49
+305            android:theme="@style/BaseBrowserTheme" />
+305-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:252:13-52
+306        <activity
+306-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:254:9-260:20
+307            android:name="com.intelligence.browser.ui.media.VideoActivity"
+307-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:255:13-51
+308            android:configChanges="orientation|keyboardHidden|screenSize"
+308-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:256:13-74
+309            android:exported="true"
+309-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:257:13-36
+310            android:screenOrientation="sensor"
+310-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:258:13-47
+311            android:theme="@style/BaseBrowserTheme" >
+311-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:259:13-52
+312        </activity>
+313        <activity
+313-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:262:9-275:20
+314            android:name="com.intelligence.browser.historybookmark.BrowserShortcutActivity"
+314-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:263:13-92
+315            android:exported="true"
+315-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:264:13-36
+316            android:icon="@drawable/browser_app_icon"
+316-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:265:13-54
+317            android:label="@string/shortcut_bookmark"
+317-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:266:13-54
+318            android:screenOrientation="locked"
+318-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:267:13-47
+319            android:theme="@style/ShortcutTheme" >
+319-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:268:13-49
+320            <intent-filter>
+320-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:270:13-273:29
+321                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+321-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:241:17-80
+321-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:241:25-77
+322
+323                <category android:name="android.intent.category.DEFAULT" />
+323-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+323-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+324            </intent-filter>
+325        </activity>
+326        <activity
+326-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:277:9-290:20
+327            android:name="com.intelligence.browser.settings.BrowserSettingActivity"
+327-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:278:13-84
+328            android:configChanges="orientation|screenSize"
+328-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:279:13-59
+329            android:exported="true"
+329-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:280:13-36
+330            android:label="@string/menu_preferences"
+330-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:281:13-53
+331            android:launchMode="singleTask"
+331-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:282:13-44
+332            android:screenOrientation="locked"
+332-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:283:13-47
+333            android:theme="@style/BaseBrowserTheme"
+333-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:284:13-52
+334            android:windowSoftInputMode="adjustResize" >
+334-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:285:13-55
+335            <intent-filter>
+335-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:286:13-289:29
+336                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+336-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:287:17-85
+336-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:287:25-82
+337
+338                <category android:name="android.intent.category.DEFAULT" />
+338-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+338-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+339            </intent-filter>
+340        </activity>
+341        <activity
+341-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:292:9-307:20
+342            android:name="com.intelligence.browser.historybookmark.BrowserBookmarkSearch"
+342-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:293:13-90
+343            android:excludeFromRecents="true"
+343-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:294:13-46
+344            android:exported="true"
+344-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:295:13-36
+345            android:label="@string/bookmarks_search"
+345-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:296:13-53
+346            android:screenOrientation="locked"
+346-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:297:13-47
+347            android:stateNotNeeded="true"
+347-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:298:13-42
+348            android:theme="@style/BaseBrowserTheme" >
+348-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:299:13-52
+349            <intent-filter>
+349-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:195:13-198:29
+350                <action android:name="android.intent.action.SEARCH" />
+350-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:196:17-71
+350-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:196:25-68
+351
+352                <category android:name="android.intent.category.DEFAULT" />
+352-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+352-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+353            </intent-filter>
+354
+355            <meta-data
+355-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:226:13-228:62
+356                android:name="android.app.searchable"
+356-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:227:17-54
+357                android:resource="@xml/browser_bookmarks_searchable" />
+357-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:228:17-59
+358        </activity>
+359        <activity
+359-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:309:9-322:20
+360            android:name="com.intelligence.browser.historybookmark.BrowserAddBookmarkPage"
+360-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:310:13-91
+361            android:configChanges="orientation|keyboardHidden|screenSize"
+361-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:311:13-74
+362            android:exported="true"
+362-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:312:13-36
+363            android:label="@string/bookmarks_add_page"
+363-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:313:13-55
+364            android:screenOrientation="locked"
+364-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:314:13-47
+365            android:theme="@style/BaseBrowserTheme"
+365-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:315:13-52
+366            android:windowSoftInputMode="stateVisible|adjustPan" >
+366-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:316:13-65
+367            <intent-filter>
+367-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:317:13-321:29
+368                <action android:name="android.intent.action.INSERT" />
+368-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:318:17-71
+368-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:318:25-68
+369
+370                <category android:name="android.intent.category.DEFAULT" />
+370-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+370-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+371
+372                <data android:mimeType="vnd.android.cursor.dir/bookmark" />
+372-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+372-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:127:23-51
+373            </intent-filter>
+374        </activity>
+375        <activity
+375-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:324:9-331:77
+376            android:name="com.intelligence.browser.downloads.BrowserDownloadRenamePage"
+376-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:325:13-88
+377            android:configChanges="orientation|keyboardHidden|screenSize"
+377-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:326:13-74
+378            android:exported="true"
+378-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:327:13-36
+379            android:label="@string/bookmarks_add_page"
+379-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:328:13-55
+380            android:screenOrientation="locked"
+380-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:329:13-47
+381            android:theme="@style/BaseBrowserTheme"
+381-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:330:13-52
+382            android:windowSoftInputMode="stateVisible|adjustPan" />
+382-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:331:13-65
+383        <activity
+383-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:333:9-351:20
+384            android:name="com.intelligence.browser.ui.activity.BrowserComboActivity"
+384-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:334:13-85
+385            android:exported="true"
+385-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:335:13-36
+386            android:launchMode="singleTop"
+386-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:336:13-43
+387            android:screenOrientation="portrait"
+387-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:337:13-49
+388            android:theme="@style/BaseBrowserTheme" >
+388-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:338:13-52
+389            <intent-filter>
+389-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:340:13-350:29
+390                <action android:name="android.intent.action.VIEW" />
+390-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+390-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+391
+392                <category android:name="android.intent.category.DEFAULT" />
+392-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+392-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+393                <category android:name="android.intent.category.BROWSABLE" />
+393-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+393-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+394
+395                <data
+395-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+396                    android:host="browser"
+396-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+397                    android:path="/history"
+397-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+398                    android:scheme="yunxin" />
+398-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+399            </intent-filter>
+400        </activity>
+401        <activity
+401-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:353:9-371:20
+402            android:name="com.intelligence.browser.ui.activity.BrowserDownloadActivity"
+402-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:354:13-88
+403            android:exported="true"
+403-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:355:13-36
+404            android:launchMode="singleTop"
+404-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:356:13-43
+405            android:screenOrientation="portrait"
+405-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:357:13-49
+406            android:theme="@style/BaseBrowserTheme" >
+406-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:358:13-52
+407            <intent-filter>
+407-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:360:13-370:29
+408                <action android:name="android.intent.action.VIEW" />
+408-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+408-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+409
+410                <category android:name="android.intent.category.DEFAULT" />
+410-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+410-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+411                <category android:name="android.intent.category.BROWSABLE" />
+411-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+411-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+412
+413                <data
+413-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+414                    android:host="browser"
+414-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+415                    android:path="/download"
+415-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+416                    android:scheme="yunxin" />
+416-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+417            </intent-filter>
+418        </activity>
+419        <activity
+419-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:373:9-380:20
+420            android:name="com.intelligence.browser.ui.activity.BrowserProductActivity"
+420-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:374:13-87
+421            android:exported="true"
+421-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:375:13-36
+422            android:launchMode="singleTop"
+422-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:376:13-43
+423            android:screenOrientation="locked"
+423-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:377:13-47
+424            android:theme="@style/BaseBrowserTheme" >
+424-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:378:13-52
+425        </activity>
+426        <activity
+426-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:381:9-400:20
+427            android:name="com.intelligence.browser.ui.activity.BrowserSearchActivity"
+427-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:382:13-86
+428            android:exported="true"
+428-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:383:13-36
+429            android:launchMode="singleTop"
+429-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:384:13-43
+430            android:screenOrientation="locked"
+430-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:385:13-47
+431            android:theme="@style/BaseBrowserTheme"
+431-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:386:13-52
+432            android:windowSoftInputMode="adjustPan|stateVisible" >
+432-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:387:13-65
+433            <intent-filter>
+433-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:389:13-399:29
+434                <action android:name="android.intent.action.VIEW" />
+434-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+434-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+435
+436                <category android:name="android.intent.category.DEFAULT" />
+436-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+436-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+437                <category android:name="android.intent.category.BROWSABLE" />
+437-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+437-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+438
+439                <data
+439-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+440                    android:host="browser"
+440-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+441                    android:path="/search"
+441-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+442                    android:scheme="yunxin" />
+442-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+443            </intent-filter>
+444        </activity>
+445
+446        <receiver
+446-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:402:9-413:20
+447            android:name="com.intelligence.browser.ui.widget.BookmarkThumbnailWidgetProvider"
+447-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:403:13-94
+448            android:exported="true"
+448-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:404:13-36
+449            android:label="@string/bookmarks" >
+449-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:405:13-46
+450            <intent-filter>
+450-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:406:13-409:29
+451                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+451-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:407:17-84
+451-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:407:25-81
+452                <action android:name="com.android.browser.BOOKMARK_APPWIDGET_UPDATE" />
+452-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:408:17-88
+452-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:408:25-85
+453            </intent-filter>
+454
+455            <meta-data
+455-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:410:13-412:80
+456                android:name="android.appwidget.provider"
+456-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:411:17-58
+457                android:resource="@xml/browser_bookmarkthumbnailwidget_info" />
+457-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:412:17-77
+458        </receiver>
+459
+460        <service
+460-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:414:9-417:72
+461            android:name="com.intelligence.browser.ui.widget.BookmarkThumbnailWidgetService"
+461-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:415:13-93
+462            android:exported="true"
+462-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:416:13-36
+463            android:permission="android.permission.BIND_REMOTEVIEWS" />
+463-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:417:13-69
+464
+465        <receiver
+465-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:418:9-420:39
+466            android:name="com.intelligence.browser.ui.widget.BookmarkWidgetProxy"
+466-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:419:13-82
+467            android:exported="true" />
+467-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:420:13-36
+468
+469        <activity
+469-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:421:9-429:20
+470            android:name="com.intelligence.browser.ui.widget.BrowserBookmarkWidgetConfigure"
+470-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:422:13-93
+471            android:exported="true"
+471-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:423:13-36
+472            android:screenOrientation="locked"
+472-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:424:13-47
+473            android:theme="@android:style/Theme.Holo.DialogWhenLarge" >
+473-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:425:13-70
+474            <intent-filter>
+474-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:426:13-428:29
+475                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+475-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:427:17-87
+475-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:427:25-84
+476            </intent-filter>
+477        </activity>
+478
+479        <!-- Makes .BrowserActivity the search target for any activity in Browser -->
+480        <meta-data
+480-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:432:9-434:48
+481            android:name="android.app.default_searchable"
+481-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:433:13-58
+482            android:value=".BrowserActivity" />
+482-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:434:13-45
+483
+484        <receiver
+484-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:436:9-442:20
+485            android:name="com.intelligence.browser.downloads.DownloadOpenReceiver"
+485-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:437:13-83
+486            android:exported="true" >
+486-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:438:13-36
+487            <intent-filter>
+487-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:439:13-441:29
+488                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+488-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:440:17-94
+488-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:440:25-91
+489            </intent-filter>
+490        </receiver>
+491
+492        <!-- For custom home pages (like most visited) -->
+493        <provider
+494            android:name="com.intelligence.browser.ui.home.HomeProvider"
+494-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:446:13-73
+495            android:authorities="com.byfrost.browser.home"
+495-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:447:13-55
+496            android:exported="false"
+496-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:448:13-37
+497            android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+497-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:449:13-91
+498
+499        <receiver
+499-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:451:9-462:20
+500            android:name="com.intelligence.browser.base.BrowserReceiver"
+500-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:452:13-73
+501            android:exported="true" >
+501-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:453:13-36
+502            <intent-filter>
+502-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:454:13-461:29
+503                <action android:name="com.byfrost.browser.action.checkconfiguration" />
+503-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:455:25-81
+504                <action android:name="com.byfrost.browser.action.checkaction" />
+504-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:456:25-74
+505                <action android:name="com.byfrost.browser.action.hoturl" />
+505-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:457:25-69
+506                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+506-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:458:17-82
+506-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:458:25-79
+507                <action android:name="com.byfrost.browser.action.download.view" />
+507-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:459:25-76
+508                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+508-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:460:17-79
+508-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:460:25-76
+509            </intent-filter>
+510        </receiver>
+511
+512        <provider
+513            android:name="com.intelligence.browser.database.provider.SnapshotProvider"
+513-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:465:13-87
+514            android:authorities="com.byfrost.browser.snapshots"
+514-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:466:13-60
+515            android:exported="true" />
+515-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:467:13-36
+516
+517        <service
+517-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:468:9-470:39
+518            android:name="com.intelligence.browser.ui.widget.IncognitoNotificationService"
+518-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:469:13-91
+519            android:exported="true" />
+519-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:470:13-36
+520
+521        <activity
+521-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:472:9-491:20
+522            android:name="com.intelligence.qr.BrowserQRCodeActivity"
+522-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:473:13-69
+523            android:exported="true"
+523-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:474:13-36
+524            android:label="@string/qr_code"
+524-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:475:13-44
+525            android:launchMode="singleTask"
+525-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:476:13-44
+526            android:screenOrientation="locked"
+526-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:477:13-47
+527            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+527-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:478:13-71
+528            <intent-filter>
+528-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:480:13-490:29
+529                <action android:name="android.intent.action.VIEW" />
+529-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+529-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+530
+531                <category android:name="android.intent.category.DEFAULT" />
+531-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+531-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+532                <category android:name="android.intent.category.BROWSABLE" />
+532-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+532-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+533
+534                <data
+534-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+535                    android:host="browser"
+535-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+536                    android:path="/qrcode"
+536-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+537                    android:scheme="yunxin" />
+537-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+538            </intent-filter>
+539        </activity>
+540        <activity
+540-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:493:9-514:20
+541            android:name="com.intelligence.browser.ui.home.navigation.EditNavigationActivity"
+541-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:494:13-70
+542            android:exported="true"
+542-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:495:13-36
+543            android:launchMode="singleTask"
+543-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:496:13-44
+544            android:screenOrientation="locked"
+544-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:497:13-47
+545            android:theme="@style/BaseBrowserTheme" >
+545-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:498:13-52
+546            <intent-filter>
+546-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:499:13-513:29
+547                <action android:name="android.intent.action.MAIN" />
+547-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:178:17-69
+547-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:178:25-66
+548                <action android:name="android.intent.action.VIEW" />
+548-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+548-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+549
+550                <category android:name="android.intent.category.LAUNCHER" />
+550-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:181:17-77
+550-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:181:27-74
+551                <category android:name="android.intent.category.DEFAULT" />
+551-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+551-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+552                <category android:name="android.intent.category.BROWSABLE" />
+552-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+552-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+553
+554                <data
+554-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+555                    android:host="browser"
+555-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+556                    android:path="/editnavigation"
+556-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+557                    android:scheme="yunxin" />
+557-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+558            </intent-filter>
+559        </activity>
+560        <activity
+560-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:515:9-536:20
+561            android:name="com.intelligence.news.news.NavigationActivity"
+561-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:516:13-73
+562            android:exported="true"
+562-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:517:13-36
+563            android:launchMode="singleTask"
+563-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:518:13-44
+564            android:screenOrientation="locked"
+564-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:519:13-47
+565            android:theme="@style/TransparentActivityTheme" >
+565-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:520:13-60
+566            <intent-filter>
+566-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:521:13-535:29
+567                <action android:name="android.intent.action.MAIN" />
+567-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:178:17-69
+567-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:178:25-66
+568                <action android:name="android.intent.action.VIEW" />
+568-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+568-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+569
+570                <category android:name="android.intent.category.LAUNCHER" />
+570-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:181:17-77
+570-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:181:27-74
+571                <category android:name="android.intent.category.DEFAULT" />
+571-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+571-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+572                <category android:name="android.intent.category.BROWSABLE" />
+572-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+572-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+573
+574                <data
+574-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+575                    android:host="browser"
+575-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+576                    android:path="/news"
+576-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+577                    android:scheme="yunxin" />
+577-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+578            </intent-filter>
+579        </activity>
+580        <activity
+580-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:538:9-555:20
+581            android:name="com.intelligence.news.hotword.HotSearchActivity"
+581-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:539:13-75
+582            android:exported="true"
+582-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:540:13-36
+583            android:launchMode="singleTop"
+583-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:541:13-43
+584            android:screenOrientation="locked"
+584-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:542:13-47
+585            android:theme="@style/BaseFullBrowserTheme" >
+585-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:543:13-56
+586            <intent-filter>
+586-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:544:13-554:29
+587                <action android:name="android.intent.action.VIEW" />
+587-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:17-69
+587-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:105:25-66
+588
+589                <category android:name="android.intent.category.DEFAULT" />
+589-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:17-76
+589-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:100:27-73
+590                <category android:name="android.intent.category.BROWSABLE" />
+590-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:17-78
+590-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:108:27-75
+591
+592                <data
+592-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:17-47
+593                    android:host="browser"
+593-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:221:21-43
+594                    android:path="/hotsearch"
+594-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:222:21-41
+595                    android:scheme="yunxin" />
+595-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:110:23-44
+596            </intent-filter>
+597        </activity>
+598        <activity
+598-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:557:9-560:52
+599            android:name="com.intelligence.browser.markLock.MarkLockSetActivity"
+599-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:558:13-57
+600            android:configChanges="orientation|keyboardHidden|screenSize"
+600-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:559:13-74
+601            android:screenOrientation="portrait" />
+601-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:560:13-49
+602        <activity
+602-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:561:9-564:52
+603            android:name="com.intelligence.browser.markLock.MarkLockPassActivity"
+603-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:562:13-58
+604            android:configChanges="orientation|keyboardHidden|screenSize"
+604-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:563:13-74
+605            android:screenOrientation="portrait" />
+605-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:564:13-49
+606        <activity
+606-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:565:9-568:52
+607            android:name="com.intelligence.browser.markLock.CheckSecurityBirthActivity"
+607-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:566:13-64
+608            android:configChanges="orientation|keyboardHidden|screenSize"
+608-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:567:13-74
+609            android:screenOrientation="portrait" />
+609-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:568:13-49
+610        <activity
+610-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:570:9-576:63
+611            android:name="com.intelligence.qr.BrowserCaptureActivity"
+611-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:571:13-70
+612            android:clearTaskOnLaunch="true"
+612-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:572:13-45
+613            android:screenOrientation="portrait"
+613-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:573:13-49
+614            android:stateNotNeeded="true"
+614-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:574:13-42
+615            android:theme="@style/zxing_CaptureTheme"
+615-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:575:13-54
+616            android:windowSoftInputMode="stateAlwaysHidden" />
+616-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:576:13-60
+617
+618        <service
+618-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:12:9-21:19
+619            android:name="com.google.firebase.components.ComponentDiscoveryService"
+619-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:13:13-84
+620            android:directBootAware="true"
+620-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+621            android:exported="false" >
+621-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:14:13-37
+622            <meta-data
+622-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:15:13-17:85
+623                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+623-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:16:17-126
+624                android:value="com.google.firebase.components.ComponentRegistrar" />
+624-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:17:17-82
+625            <meta-data
+625-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:18:13-20:85
+626                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+626-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:19:17-115
+627                android:value="com.google.firebase.components.ComponentRegistrar" />
+627-->[com.google.firebase:firebase-crashlytics:19.2.0] /Users/chendeqiao/.gradle/caches/transforms-3/638c777862a4433689cb78cfe4d5664f/transformed/jetified-firebase-crashlytics-19.2.0/AndroidManifest.xml:20:17-82
+628            <meta-data
+628-->[com.google.firebase:firebase-config:22.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/6b9ddde262a6293d0b72847c4da5bbdd/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:29:13-31:85
+629                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar"
+629-->[com.google.firebase:firebase-config:22.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/6b9ddde262a6293d0b72847c4da5bbdd/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:30:17-128
+630                android:value="com.google.firebase.components.ComponentRegistrar" />
+630-->[com.google.firebase:firebase-config:22.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/6b9ddde262a6293d0b72847c4da5bbdd/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:31:17-82
+631            <meta-data
+631-->[com.google.firebase:firebase-config:22.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/6b9ddde262a6293d0b72847c4da5bbdd/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:32:13-34:85
+632                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+632-->[com.google.firebase:firebase-config:22.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/6b9ddde262a6293d0b72847c4da5bbdd/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:33:17-117
+633                android:value="com.google.firebase.components.ComponentRegistrar" />
+633-->[com.google.firebase:firebase-config:22.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/6b9ddde262a6293d0b72847c4da5bbdd/transformed/jetified-firebase-config-22.0.0/AndroidManifest.xml:34:17-82
+634            <meta-data
+634-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:29:13-31:85
+635                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+635-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:30:17-117
+636                android:value="com.google.firebase.components.ComponentRegistrar" />
+636-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:31:17-82
+637            <meta-data
+637-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/c347d88456e98cb5e2f062c998451fe0/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+638                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+638-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/c347d88456e98cb5e2f062c998451fe0/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+639                android:value="com.google.firebase.components.ComponentRegistrar" />
+639-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/c347d88456e98cb5e2f062c998451fe0/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+640            <meta-data
+640-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+641                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+641-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+642                android:value="com.google.firebase.components.ComponentRegistrar" />
+642-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+643            <meta-data
+643-->[com.google.firebase:firebase-installations:18.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/51468c550ce290b14f51557d0aaa5e72/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+644                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+644-->[com.google.firebase:firebase-installations:18.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/51468c550ce290b14f51557d0aaa5e72/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+645                android:value="com.google.firebase.components.ComponentRegistrar" />
+645-->[com.google.firebase:firebase-installations:18.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/51468c550ce290b14f51557d0aaa5e72/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+646            <meta-data
+646-->[com.google.firebase:firebase-installations:18.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/51468c550ce290b14f51557d0aaa5e72/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+647                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+647-->[com.google.firebase:firebase-installations:18.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/51468c550ce290b14f51557d0aaa5e72/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+648                android:value="com.google.firebase.components.ComponentRegistrar" />
+648-->[com.google.firebase:firebase-installations:18.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/51468c550ce290b14f51557d0aaa5e72/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+649            <meta-data
+649-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/e364e4809f31c45169e437f04f29b32b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+650                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+650-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/e364e4809f31c45169e437f04f29b32b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+651                android:value="com.google.firebase.components.ComponentRegistrar" />
+651-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/e364e4809f31c45169e437f04f29b32b/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+652            <meta-data
+652-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+653                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+653-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+654                android:value="com.google.firebase.components.ComponentRegistrar" />
+654-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+655            <meta-data
+655-->[com.google.firebase:firebase-abt:21.1.1] /Users/chendeqiao/.gradle/caches/transforms-3/c24afd14c0f4bcba1a8da918026cd2b2/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+656                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+656-->[com.google.firebase:firebase-abt:21.1.1] /Users/chendeqiao/.gradle/caches/transforms-3/c24afd14c0f4bcba1a8da918026cd2b2/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+657                android:value="com.google.firebase.components.ComponentRegistrar" />
+657-->[com.google.firebase:firebase-abt:21.1.1] /Users/chendeqiao/.gradle/caches/transforms-3/c24afd14c0f4bcba1a8da918026cd2b2/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+658        </service>
+659        <service
+659-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:22:9-25:40
+660            android:name="com.google.firebase.sessions.SessionLifecycleService"
+660-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:23:13-80
+661            android:enabled="true"
+661-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:24:13-35
+662            android:exported="false" />
+662-->[com.google.firebase:firebase-sessions:2.0.5] /Users/chendeqiao/.gradle/caches/transforms-3/e76cff57deb9f57893a5aa4f377163d8/transformed/jetified-firebase-sessions-2.0.5/AndroidManifest.xml:25:13-37
+663        <service
+663-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/3e20089d31de0989a9a040c84956ef9d/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+664            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+664-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/3e20089d31de0989a9a040c84956ef9d/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+665            android:exported="false" >
+665-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/3e20089d31de0989a9a040c84956ef9d/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+666            <meta-data
+666-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/3e20089d31de0989a9a040c84956ef9d/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+667                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+667-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/3e20089d31de0989a9a040c84956ef9d/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+668                android:value="cct" />
+668-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/3e20089d31de0989a9a040c84956ef9d/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+669        </service>
+670        <service
+670-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+671            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+671-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+672            android:exported="false"
+672-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+673            android:permission="android.permission.BIND_JOB_SERVICE" >
+673-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+674        </service>
+675
+676        <receiver
+676-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+677            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+677-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+678            android:exported="false" />
+678-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/chendeqiao/.gradle/caches/transforms-3/d6ae9cac3239d30ace232ac5bf112ff0/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+679
+680        <property
+680-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+681            android:name="android.adservices.AD_SERVICES_CONFIG"
+681-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+682            android:resource="@xml/ga_ad_services_config" />
+682-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+683
+684        <provider
+684-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+685            android:name="com.google.firebase.provider.FirebaseInitProvider"
+685-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+686            android:authorities="com.byfrost.browser.firebaseinitprovider"
+686-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+687            android:directBootAware="true"
+687-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+688            android:exported="false"
+688-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+689            android:initOrder="100" />
+689-->[com.google.firebase:firebase-common:21.0.0] /Users/chendeqiao/.gradle/caches/transforms-3/0c2d8580edbbb12eeb6594faa4ee5e4b/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+690
+691        <receiver
+691-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+692            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+692-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+693            android:enabled="true"
+693-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+694            android:exported="false" >
+694-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+695        </receiver>
+696
+697        <service
+697-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+698            android:name="com.google.android.gms.measurement.AppMeasurementService"
+698-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+699            android:enabled="true"
+699-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+700            android:exported="false" />
+700-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+701        <service
+701-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+702            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+702-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+703            android:enabled="true"
+703-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+704            android:exported="false"
+704-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+705            android:permission="android.permission.BIND_JOB_SERVICE" />
+705-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/f8125891262c02c754783a7f03802543/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+706
+707        <uses-library
+707-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/chendeqiao/.gradle/caches/transforms-3/619677f27238cfdb76c4293b235c48de/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+708            android:name="android.ext.adservices"
+708-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/chendeqiao/.gradle/caches/transforms-3/619677f27238cfdb76c4293b235c48de/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+709            android:required="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+709-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/chendeqiao/.gradle/caches/transforms-3/619677f27238cfdb76c4293b235c48de/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+710        <activity
+710-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:73:9-78:43
+711            android:name="com.google.android.gms.ads.AdActivity"
+711-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:74:13-65
+712            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+712-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:75:13-122
+713            android:exported="false"
+713-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:76:13-37
+714            android:theme="@android:style/Theme.Translucent" />
+714-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:77:13-61
+715
+716        <provider
+716-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:80:9-85:43
+717            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+717-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:81:13-76
+718            android:authorities="com.byfrost.browser.mobileadsinitprovider"
+718-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:82:13-73
+719            android:exported="false"
+719-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:83:13-37
+720            android:initOrder="100" />
+720-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:84:13-36
+721
+722        <service
+722-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:87:9-91:43
+723            android:name="com.google.android.gms.ads.AdService"
+723-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:88:13-64
+724            android:enabled="true"
+724-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:89:13-35
+725            android:exported="false" />
+725-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:90:13-37
+726
+727        <activity
+727-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:93:9-97:43
+728            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+728-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:94:13-82
+729            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+729-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:95:13-122
+730            android:exported="false" />
+730-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:96:13-37
+731        <activity
+731-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:98:9-105:43
+732            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+732-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:99:13-82
+733            android:excludeFromRecents="true"
+733-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:100:13-46
+734            android:exported="false"
+734-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:101:13-37
+735            android:launchMode="singleTask"
+735-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:102:13-44
+736            android:taskAffinity=""
+736-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:103:13-36
+737            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+737-->[com.google.android.gms:play-services-ads-lite:23.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/c0be4a766f889e5bc53dd2da2523230b/transformed/jetified-play-services-ads-lite-23.4.0/AndroidManifest.xml:104:13-72
+738
+739        <property
+739-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+740            android:name="android.adservices.AD_SERVICES_CONFIG"
+740-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+741            android:resource="@xml/gma_ad_services_config" />
+741-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/chendeqiao/.gradle/caches/transforms-3/272becdda35c8ae6dedbbd14b60e5d9f/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+742
+743        <activity
+743-->[com.google.android.gms:play-services-base:18.5.0] /Users/chendeqiao/.gradle/caches/transforms-3/be2ab4452e10777ff5f0c051554a5f43/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+744            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+744-->[com.google.android.gms:play-services-base:18.5.0] /Users/chendeqiao/.gradle/caches/transforms-3/be2ab4452e10777ff5f0c051554a5f43/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+745            android:exported="false"
+745-->[com.google.android.gms:play-services-base:18.5.0] /Users/chendeqiao/.gradle/caches/transforms-3/be2ab4452e10777ff5f0c051554a5f43/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+746            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+746-->[com.google.android.gms:play-services-base:18.5.0] /Users/chendeqiao/.gradle/caches/transforms-3/be2ab4452e10777ff5f0c051554a5f43/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+747
+748        <meta-data
+748-->[com.google.android.gms:play-services-basement:18.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/252331725866f2d7cfea0e39770368b4/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+749            android:name="com.google.android.gms.version"
+749-->[com.google.android.gms:play-services-basement:18.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/252331725866f2d7cfea0e39770368b4/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+750            android:value="@integer/google_play_services_version" />
+750-->[com.google.android.gms:play-services-basement:18.4.0] /Users/chendeqiao/.gradle/caches/transforms-3/252331725866f2d7cfea0e39770368b4/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+751
+752        <provider
+752-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+753            android:name="androidx.startup.InitializationProvider"
+753-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+754            android:authorities="com.byfrost.browser.androidx-startup"
+754-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+755            android:exported="false" >
+755-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+756            <meta-data
+756-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+757                android:name="androidx.work.WorkManagerInitializer"
+757-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+758                android:value="androidx.startup" />
+758-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+759        </provider>
+760
+761        <service
+761-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+762            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+762-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+763            android:directBootAware="false"
+763-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+764            android:enabled="@bool/enable_system_alarm_service_default"
+764-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+765            android:exported="false" />
+765-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+766        <service
+766-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+767            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+767-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+768            android:directBootAware="false"
+768-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+769            android:enabled="@bool/enable_system_job_service_default"
+769-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+770            android:exported="true"
+770-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+771            android:permission="android.permission.BIND_JOB_SERVICE" />
+771-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+772        <service
+772-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+773            android:name="androidx.work.impl.foreground.SystemForegroundService"
+773-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+774            android:directBootAware="false"
+774-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+775            android:enabled="@bool/enable_system_foreground_service_default"
+775-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+776            android:exported="false" />
+776-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+777
+778        <receiver
+778-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+779            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+779-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+780            android:directBootAware="false"
+780-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+781            android:enabled="true"
+781-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+782            android:exported="false" />
+782-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+783        <receiver
+783-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+784            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+784-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+785            android:directBootAware="false"
+785-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+786            android:enabled="false"
+786-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+787            android:exported="false" >
+787-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+788            <intent-filter>
+788-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+789                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+789-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+789-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+790                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+790-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+790-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+791            </intent-filter>
+792        </receiver>
+793        <receiver
+793-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+794            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+794-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+795            android:directBootAware="false"
+795-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+796            android:enabled="false"
+796-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+797            android:exported="false" >
+797-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+798            <intent-filter>
+798-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+799                <action android:name="android.intent.action.BATTERY_OKAY" />
+799-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+799-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+800                <action android:name="android.intent.action.BATTERY_LOW" />
+800-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+800-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+801            </intent-filter>
+802        </receiver>
+803        <receiver
+803-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+804            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+804-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+805            android:directBootAware="false"
+805-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+806            android:enabled="false"
+806-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+807            android:exported="false" >
+807-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+808            <intent-filter>
+808-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+809                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+809-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+809-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+810                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+810-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+810-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+811            </intent-filter>
+812        </receiver>
+813        <receiver
+813-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+814            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+814-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+815            android:directBootAware="false"
+815-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+816            android:enabled="false"
+816-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+817            android:exported="false" >
+817-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+818            <intent-filter>
+818-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+819                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+819-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:460:17-79
+819-->/Users/chendeqiao/Desktop/workspace/xbrowser/app/src/main/AndroidManifest.xml:460:25-76
+820            </intent-filter>
+821        </receiver>
+822        <receiver
+822-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+823            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+823-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+824            android:directBootAware="false"
+824-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+825            android:enabled="false"
+825-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+826            android:exported="false" >
+826-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+827            <intent-filter>
+827-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+828                <action android:name="android.intent.action.BOOT_COMPLETED" />
+828-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+828-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+829                <action android:name="android.intent.action.TIME_SET" />
+829-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+829-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+830                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+830-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+830-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+831            </intent-filter>
+832        </receiver>
+833        <receiver
+833-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+834            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+834-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+835            android:directBootAware="false"
+835-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+836            android:enabled="@bool/enable_system_alarm_service_default"
+836-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+837            android:exported="false" >
+837-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+838            <intent-filter>
+838-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+839                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+839-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+839-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+840            </intent-filter>
+841        </receiver>
+842        <receiver
+842-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+843            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+843-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+844            android:directBootAware="false"
+844-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+845            android:enabled="true"
+845-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+846            android:exported="true"
+846-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+847            android:permission="android.permission.DUMP" >
+847-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+848            <intent-filter>
+848-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+849                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+849-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+849-->[androidx.work:work-runtime:2.7.0] /Users/chendeqiao/.gradle/caches/transforms-3/2da944e32650aca61227e5e236ca33a9/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+850            </intent-filter>
+851        </receiver>
+852
+853        <service
+853-->[androidx.room:room-runtime:2.2.5] /Users/chendeqiao/.gradle/caches/transforms-3/6667b4095dff818dc6347ab043dd13ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+854            android:name="androidx.room.MultiInstanceInvalidationService"
+854-->[androidx.room:room-runtime:2.2.5] /Users/chendeqiao/.gradle/caches/transforms-3/6667b4095dff818dc6347ab043dd13ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+855            android:directBootAware="true"
+855-->[androidx.room:room-runtime:2.2.5] /Users/chendeqiao/.gradle/caches/transforms-3/6667b4095dff818dc6347ab043dd13ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+856            android:exported="false" />
+856-->[androidx.room:room-runtime:2.2.5] /Users/chendeqiao/.gradle/caches/transforms-3/6667b4095dff818dc6347ab043dd13ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+857    </application>
+858
+859</manifest>

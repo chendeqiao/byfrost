@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+   <item>تاریخ اور کیشے صاف کریں</item>
+   <item>دوبارہ نہ پوچھیں</item>
+  </string-array>
+    <string-array name="pref_clear_data_choices">
+   <item>کیشے</item>
+   <item>ککیز</item>
+   <item>فارمز</item>
+   <item>ہسٹری</item>
+   <item>پاس ورڈز</item>
+   <item>مقام تک رسائی</item>
+  </string-array>
+    <string-array name="pref_clear_data_descriptions">
+   <item>مقامی طور پر کیش شدہ مواد اور ڈیٹا بیس صاف کریں</item>
+   <item>تمام ککیز صاف کریں</item>
+   <item>تمام محفوظ شدہ فارم ڈیٹا صاف کریں</item>
+   <item>تمام براؤزنگ ہسٹری صاف کریں</item>
+   <item>تمام محفوظ شدہ اکاؤنٹس اور پاس ورڈ صاف کریں</item>
+   <item>تمام ویب سائٹس کو آپ کا مقام حاصل کرنے کی اجازت منسوخ کریں</item>
+  </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+   <item>لاطینی-1 (ISO-8859-1)</item>
+   <item>یونی کوڈ (UTF-8)</item>
+   <item>چینی (GBK)</item>
+   <item>چینی (Big5)</item>
+   <item>جاپانی (ISO-2022-JP)</item>
+   <item>جاپانی (SHIFT_JIS)</item>
+   <item>جاپانی (EUC-JP)</item>
+   <item>کوریائی (EUC-KR)</item>
+  </string-array>
+    <string-array name="pref_text_size_choices">
+   <item>چھوٹا</item>
+   <item>عام</item>
+   <item>معتدل</item>
+   <item>بڑا</item>
+   <item>بہت بڑا</item>
+  </string-array>
+    <string-array name="pref_user_agent_choices">
+   <item>ڈیفالٹ</item>
+   <item>آئی فون</item>
+   <item>آئی پیڈ</item>
+   <item>کمپیوٹر</item>
+  </string-array>
+    <string name="abnormal_recover_message">کیا آپ آخری ویب پیج کو بحال کرنا چاہتے ہیں؟</string>
+    <string name="abnormal_recover_ok">بحال کریں</string>
+    <string name="abnormal_recover_recovered">پچھلے سیشن کے صفحات بحال ہوگئے ہیں۔</string>
+    <string name="accessibility_button_addbookmark">صفحہ بک مارک کریں</string>
+    <string name="accessibility_button_bookmarks_folder_up">پچھلا فولڈر</string>
+    <string name="accessibility_button_closetab">ٹیب بند کریں</string>
+    <string name="accessibility_button_forward">آگے جائیں</string>
+    <string name="accessibility_button_more">مزید آپشنز</string>
+    <string name="accessibility_button_newtab">نیا ٹیب کھولیں</string>
+    <string name="accessibility_button_refresh">صفحہ دوبارہ لوڈ کریں</string>
+    <string name="accessibility_button_search">تلاش کریں</string>
+    <string name="accessibility_button_stop">صفحہ لوڈ روکیں</string>
+    <string name="accessibility_button_uaswitch">یوزر ایجنٹ تبدیل کریں</string>
+    <string name="accessibility_button_voice">آواز کے ذریعے تلاش شروع کریں</string>
+    <string name="accessibility_state_frozen">محفوظ شدہ صفحہ</string>
+    <string name="accessibility_state_incognito">انکگنیٹو صفحہ</string>
+    <string name="accessibility_transition_navscreen">ٹیب انتظام</string>
+    <string name="account">اکاؤنٹ</string>
+    <string name="action">سائن ان کریں</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">ایڈز تلاش ہو گئے ہیں، کیا آپ ایڈ بلاک کو فعال کرنا چاہتے ہیں؟</string>
+    <string name="adblock_rules_error_prompt">نحو کی غلطی، براہ کرم دوبارہ ترمیم کریں!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">شامل کریں</string>
+    <string name="add_new_bookmark">نیا بک مارک شامل کریں</string>
+    <string name="add_pic">تصویر شامل کریں:</string>
+    <string name="add_to_desktop">ڈیسک ٹاپ</string>
+    <string name="add_to_desktop_success">ڈیسک ٹاپ پر شامل کر لیا</string>
+    <string name="add_to_homepage">ہوم پیج پر شامل کریں</string>
+    <string name="add_to_homepage_success">ہوم پیج پر شامل کر لیا</string>
+    <string name="add_to_homescreen_menu_option">ہوم اسکرین</string>
+    <string name="add_to_other_folder_menu_option">دوسرا فولڈر</string>
+    <string name="add_up_to_15">20 تک شامل کریں</string>
+    <string name="added_new_bookmark">بک مارک شامل کریں</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="allow_download">ڈاؤن لوڈ کی اجازت دیں</string>
+    <string name="allow_download_no">وائی فائی سے جڑیں</string>
+    <string name="already_cleared">صاف کر دیا گیا</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">دستیاب</string>
+    <string name="block">بلاک کریں</string>
+    <string name="bookmark_cannot_save_url">اس URL کو بک مارک نہیں کیا جا سکتا</string>
+    <string name="bookmark_list">مارک بک کی فہرست</string>
+    <string name="bookmark_needs_title">"بک مارک کا نام ہونا ضروری ہے"</string>
+    <string name="bookmark_needs_url">"بک مارک کے لیے پتہ ہونا ضروری ہے"</string>
+    <string name="bookmark_not_saved">بک مارک محفوظ نہیں ہو سکا</string>
+    <string name="bookmark_saved">بک مارک میں محفوظ کر لیا گیا</string>
+    <string name="bookmark_this_page">اس صفحے کو بک مارک کریں</string>
+    <string name="bookmark_url_not_valid">یہ URL درست نہیں ہے</string>
+    <string name="bookmarks">مارک بک</string>
+    <string name="bookmarks_add_page">مارک بک میں محفوظ کریں</string>
+    <string name="bookmarks_search">براؤزر</string>
+    <string name="browserFrameFileErrorLabel">فائل کا مسئلہ</string>
+    <string name="browserFrameFormResubmitMessage">جو صفحہ آپ دیکھنے کی کوشش کر رہے ہیں اس میں وہ ڈیٹا موجود ہے جو پہلے ہی بھیجا جا چکا ہے ("POSTDATA")۔ اگر آپ ڈیٹا دوبارہ بھیجتے ہیں تو صفحہ پر فارم کی کوئی بھی کارروائی (جیسے تلاش یا آن لائن خریداری) دوبارہ ہو گی۔</string>
+    <string name="browserFrameNetworkErrorLabel">کنکشن کا مسئلہ</string>
+    <string name="browser_admin_panel">صارف کا مرکز</string>
+    <string name="browser_hot_word_title" translatable="false">گرم تلاش کی فہرست</string>
+    <string name="browser_navigation">نیویگیشن</string>
+    <string name="browser_net_error_refresh" translatable="false">صفحہ کو تازہ کرنے کے لئے خالی جگہ پر کلک کریں</string>
+    <string name="browser_open_all_most_visited" translatable="false">تجویز کردہ ویب سائٹ کو بڑھائیں</string>
+    <string name="browser_permission_camera">کیمرا اجازت رد کر دی گئی ہے، براہ کرم اسے دستی طور پر فعال کریں</string>
+    <string name="browser_permission_notification">نوٹیفکیشن بار کی اجازت رد کر دی گئی ہے، براہ کرم اسے دستی طور پر فعال کریں</string>
+    <string name="browser_permission_qr">اس فنکشن کو میموری تک رسائی کی اجازت درکار ہے۔ براہ کرم سیٹنگز میں اجازت کو دستی طور پر فعال کریں</string>
+    <string name="browser_permission_setwall">فون کا وال پیپر سیٹ کرنے کے لیے میموری اسٹوریج کی اجازت درکار ہے۔ براہ کرم اسے سیٹنگز پیج پر دستی طور پر کھولیں</string>
+    <string name="browser_permission_strone">فائلز ڈاؤن لوڈ کرنے کے لیے اسٹوریج کی اجازت درکار ہے۔ براہ کرم سیٹنگز میں اسٹوریج کی اجازت کو دستی طور پر کھولیں</string>
+    <string name="browser_privacy_tips">آپ کے ذاتی ڈیٹا کو ہماری 《پرائیویسی پالیسی》 کے مطابق ڈیل کیا جائے گا۔</string>
+    <string name="browser_product_agree_tips">آپ کو پالیسی سے متفق ہونا ضروری ہے۔</string>
+    <string name="browser_product_start">شروع کریں</string>
+    <string name="browser_rights" translatable="false">کاپی رائٹ © 2024 Byfrost براؤزر۔ \nتمام حقوق محفوظ ہیں۔</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">آپ کی ضرورت کی ہر چیز کے لئے آزادانہ تلاش کریں</string>
+    <string name="browser_slogo_fast">تیز تر</string>
+    <string name="browser_slogo_intelligence">ذہین تر</string>
+    <string name="browser_slogo_safe">محفوظ تر</string>
+    <string msgid="6709237687234102240" name="browser_tools">ٹولز</string>
+    <string name="btn_recommend_add">شامل کریں</string>
+    <string name="byfrost_slogan">Byfrost-دنیا کو بڑے انداز میں دیکھیں!</string>
+    <string name="byfrost_suggestion">ہم نے آپ کی تجویز وصول کر لی ہے، شکریہ۔</string>
+    <string name="byfrost_suggestion_time">پچھلے وقت سے 1 منٹ سے کم کا ردعمل نہیں دیا جا سکتا۔</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="cancelDel">حذف کو واپس لائیں؟</string>
+    <string name="cannot_open_the_file">اس قسم کی فائل کھولنے کے لیے کوئی طریقہ موجود نہیں ہے</string>
+    <string name="check_for_update">اپ ڈیٹ کے لیے چیک کریں...</string>
+    <string name="check_network">نیٹ ورک کے مسئلے کی وجہ سے جمع کرانے میں ناکامی، براہ کرم چیک کریں۔</string>
+    <string name="choosertitle_sharevia">کے ذریعے شیئر کریں</string>
+    <string name="clear">صاف کریں</string>
+    <string name="clear_all">سب صاف کریں</string>
+    <string name="clear_all_already">تمام ڈیٹا صاف ہو چکا ہے!</string>
+    <string name="clear_data_success">ڈیٹا صاف کرنے میں کامیابی</string>
+    <string name="clear_default_browser">ڈیفالٹ براؤزر کے طور پر سیٹ صاف کریں</string>
+    <string name="clear_default_setting_please">دوسرے براؤزر کو ڈیفالٹ براؤزر کے طور پر سیٹ کیا گیا ہے، براہ کرم براؤزر کی ڈیفالٹ سیٹنگ صاف کریں۔</string>
+    <string name="clear_history_all">تمام تاریخ صاف کریں</string>
+    <string name="click_again_quit">خارج ہونے کے لیے واپس ٹیپ کریں</string>
+    <string name="close_all_incognito_notification">تمام انکگنیٹو ٹیب بند کریں</string>
+    <string name="commit_fail">جمع کرانے میں ناکامی، براہ کرم بعد میں دوبارہ کوشش کریں</string>
+    <string name="confirm_deletion">کیا آپ اس کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="confirm_deletion_all">کیا آپ سب کچھ حذف کرنا چاہتے ہیں؟</string>
+    <string name="contact_us_on_facebook">فیس بک پر ہم سے رابطہ کریں</string>
+    <string name="containing_folder">شامل کریں</string>
+    <string name="contextheader_folder_bookmarkcount">%d بک مارکس</string>
+    <string name="contextheader_folder_empty">خالی فولڈر</string>
+    <string name="contextmenu_add_contact">رابطہ شامل کریں</string>
+    <string name="contextmenu_copy">کاپی کریں</string>
+    <string name="contextmenu_copylink">لنک کا URL کاپی کریں</string>
+    <string name="contextmenu_dial_dot">ڈائل کریں\u2026</string>
+    <string name="contextmenu_download_image">تصویر محفوظ کریں</string>
+    <string name="contextmenu_map">نقشہ</string>
+    <string name="contextmenu_openlink_newwindow">نئے ٹیب میں کھولیں</string>
+    <string name="contextmenu_openlink_newwindow_background">پس منظر میں کھولیں</string>
+    <string name="contextmenu_savelink">لنک محفوظ کریں</string>
+    <string name="contextmenu_send_mail">ای میل بھیجیں</string>
+    <string name="contextmenu_set_wallpaper">وال پیپر کے طور پر سیٹ کریں</string>
+    <string name="contextmenu_set_wallpaper_image">وال پیپر</string>
+    <string name="contextmenu_share_app">ایپ شیئر کریں</string>
+    <string name="contextmenu_share_website">ویب سائٹ شیئر کریں</string>
+    <string name="contextmenu_sharelink">لنک شیئر کریں</string>
+    <string name="contextmenu_view_image">تصویر دیکھیں</string>
+    <string name="copy_link">لنک کاپی کریں</string>
+    <string name="copylink_success">لنک کاپی ہو گیا</string>
+    <string name="create_shortcut_bookmark">ہوم اسکرین پر شارٹ کٹ شامل کریں</string>
+    <string name="custom_rules">حسب ضرورت ایڈ بلاک کے فلٹر</string>
+    <string name="custom_rules_title">ایڈ بلاک کے فلٹر</string>
+    <string name="default_bookmark">ڈیفالٹ کتاب نشان</string>
+    <string name="default_location">ڈیفالٹ لوکیشن: %1$s</string>
+    <string name="delete">مٹائیں</string>
+    <string name="delete_bookmark_warning">بک مارک \"%s\" حذف کریں؟</string>
+    <string name="delete_folder">فولڈر حذف کریں</string>
+    <string name="deletion_all">سب کچھ حذف کریں</string>
+    <string name="desktop">ڈیسک ٹاپ</string>
+    <string name="done">مکمل</string>
+    <string name="download">ڈاؤن لوڈ کریں</string>
+    <string name="download_allow_mobile">موبائل نیٹ ورک کے ذریعے فائل ڈاؤن لوڈ کی اجازت دیں؟</string>
+    <string name="download_failed">ڈاؤن لوڈ ناکام</string>
+    <string name="download_list">ڈاؤن لوڈ کی فہرست</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">%s ڈاؤن لوڈ کرنے کے لئے SD کارڈ کی ضرورت ہے۔</string>
+    <string name="download_no_sdcard_dlg_title" product="default">SD کارڈ نہیں ہے</string>
+    <string name="download_pause">ڈاؤن لوڈ توقف</string>
+    <string name="download_pending">ڈاؤن لوڈ شروع ہو رہا ہے\u2026</string>
+    <string name="download_removed">حذف کر دیا گیا ہے</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD کارڈ مصروف ہے۔ ڈاؤن لوڈ کی اجازت دینے کے لئے نوٹیفکیشن میں USB اسٹوریج بند کریں۔</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD کارڈ دستیاب نہیں</string>
+    <string name="downloaded">ڈاؤن لوڈ ہو چکا ہے</string>
+    <string name="downloading">ڈاؤن لوڈ ہو رہا ہے</string>
+    <string name="downloadmanager_disabled">ڈاؤن لوڈ منیجر غیر فعال ہے۔ براہ کرم اسے فعال کریں۔</string>
+    <string name="edit">ترمیم کریں</string>
+    <string name="edit_bookmark">بک مارک ترمیم کریں</string>
+    <string name="edit_folder">فولڈر ترمیم کریں</string>
+    <string name="edited">ترمیم شدہ</string>
+    <string name="email">ای میل:</string>
+    <string name="email_is_error">براہ کرم درست فون نمبر درج کریں</string>
+    <string name="empty_bookmarks_folder">آپ کے بک مارکس خالی ہیں</string>
+    <string name="empty_history">کوئی براؤزنگ ہسٹری نہیں ہے</string>
+    <string name="empty_info_most_visited">کوئی ریکارڈ نہیں</string>
+    <string name="empty_snapshots_folder">کوئی محفوظ شدہ صفحات نہیں ہیں</string>
+    <string name="enter_incognito_mode">انکگنیٹو میں سوئچ کریں</string>
+    <string name="enter_normal_mode">عام میں سوئچ کریں</string>
+    <string name="enter_settings_page">براہ کرم صفا ہونے کے بعد سیٹنگز میں جائیں۔</string>
+    <string name="enter_website_name">ویب سائٹ کا نام درج کریں</string>
+    <string name="error_console_eval_button_text" translatable="false">اندازہ لگائیں</string>
+    <string name="error_console_eval_text_hint" translatable="false">جاوا اسکرپٹ کا اندازہ لگائیں</string>
+    <string name="error_console_header_text_maximized" translatable="false">جاوا اسکرپٹ کنسول</string>
+    <string name="error_console_header_text_minimized" translatable="false">جاوا اسکرپٹ کنسول دکھائیں</string>
+    <string name="exit">باہر نکلیں</string>
+    <string name="exit_dialog_title">براؤزر بند کرنا چاہتے ہیں؟</string>
+    <string name="feed_back_sucess">ہمیں آپ کے تبصرے اور تجاویز موصول ہو گئے ہیں، شکریہ۔</string>
+    <string name="feedback_other">دیگر:</string>
+    <string name="feedback_other_optional">فیس بک/ٹوئٹر/گوگل+ (اختیاری)</string>
+    <string name="feedback_submit">جمع کرائیں</string>
+    <string name="file_exist">فائل موجود ہے</string>
+    <string name="file_name">فائل کا نام</string>
+    <string name="file_not_exist">فائل موجود نہیں ہے</string>
+    <string name="filename_empty">فائل کا نام خالی نہیں ہو سکتا</string>
+    <string name="find_on_page">صفحے پر تلاش کریں</string>
+    <string name="five_stars">5 ستارے</string>
+    <string name="five_stars_comment">رائے دیں</string>
+    <string name="five_stars_content">آپ کی پانچ ستاروں کی درجہ بندی ہمارے لیے بہت اہم ہے۔</string>
+    <string name="five_stars_later">بعد میں</string>
+    <string name="five_stars_titile">کیا آپ %s سے لطف اندوز ہو رہے ہیں؟</string>
+    <string name="geolocation_permissions_prompt_dont_share">انکار کریں</string>
+    <string name="geolocation_permissions_prompt_message">%s آپ کا مقام جاننا چاہتا ہے</string>
+    <string name="geolocation_permissions_prompt_share">مقام شیئر کریں</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">اس سائٹ کو آپ کا مقام تک رسائی حاصل ہے۔ اس کو سیٹنگز > ایڈوانسڈ > ویب سائٹ سیٹنگز میں تبدیل کریں۔</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">اس سائٹ کو آپ کا مقام تک رسائی حاصل نہیں ہے۔ اس کو سیٹنگز > ایڈوانسڈ > ویب سائٹ سیٹنگز میں تبدیل کریں۔</string>
+    <string name="geolocation_settings_page_dialog_message">کیا آپ اس ویب سائٹ کے لئے مقام تک رسائی صاف کرنا چاہتے ہیں؟</string>
+    <string name="geolocation_settings_page_summary_allowed">اس سائٹ کو آپ کا مقام تک رسائی حاصل ہے</string>
+    <string name="geolocation_settings_page_summary_not_allowed">اس سائٹ کو آپ کا مقام تک رسائی حاصل نہیں ہے</string>
+    <string name="geolocation_settings_page_title">آپ کی مقام تک رسائی کی اجازت منسوخ کریں</string>
+    <string name="get_photo_failure">تصاویر حاصل کرنے میں ناکامی</string>
+    <string name="go">جائیں</string>
+    <string name="go_back">پیچھے جائیں</string>
+    <string name="history">تاریخ</string>
+    <string name="home_page">ہوم پیج</string>
+    <string name="incognito_home">آپ انکگنیٹو میں ہیں</string>
+    <string name="incognito_home_content">اب آپ انکگنیٹو موڈ میں ہیں۔</string>
+    <string name="incognito_home_tip">آپ انکگنیٹو سے باہر جا سکتے ہیں اور عام موڈ میں واپس جا سکتے ہیں۔</string>
+    <string name="input_over_flow">%1$d حروف کی حد سے تجاوز کرنے کی وجہ سے جمع کرنے میں ناکامی</string>
+    <string name="instructions_label">استعمال کی ہدایات</string>
+    <string name="is_latest">یہ پہلے ہی جدید ورژن ہے!</string>
+    <string name="js_ad_block_count">روک شدہ جاوا اسکرپٹ فائلیں</string>
+    <string name="js_disable_host_error_prompt">ڈومین کی غلطی، براہ کرم دوبارہ ترمیم کریں!</string>
+    <string name="js_disable_hosts">اشتہاری مارکر کے وقت کی حد سیٹ کریں</string>
+    <string name="js_disable_hosts_title">کچھ ڈومینز</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">اوزار</string>
+    <string name="lable_calendar">کیلنڈر</string>
+    <string name="lable_lifestyle">زندگی کا انداز</string>
+    <string name="lable_maps">نقشے</string>
+    <string name="lable_news">خبریں</string>
+    <string name="lable_translate">ترجمہ</string>
+    <string name="lable_video">ویڈیوز</string>
+    <string name="lable_weather">موسم</string>
+    <string name="leadpage_back">پیچھے</string>
+    <string name="leadpage_forward">آگے</string>
+    <string name="leadpage_home">ہوم</string>
+    <string name="loading_video">ویڈیو لوڈ ہو رہا ہے\u2026</string>
+    <string name="local_bookmarks">مقامی</string>
+    <string name="location">پتہ</string>
+    <string name="mark_image_ad">اشتہار مارک کریں</string>
+    <string name="mark_image_ad_fail">مارکنگ ناکام</string>
+    <string name="max_tabs_warning">مزید ٹیبز دستیاب نہیں</string>
+    <string name="menu_browser_Tools">اوزار</string>
+    <string name="menu_browser_add_bookmark">کتاب نشان شامل کریں</string>
+    <string name="menu_browser_bookmarks">کتاب نشان</string>
+    <string name="menu_browser_close_incognito">عام</string>
+    <string name="menu_browser_downloads">ڈاؤن لوڈ</string>
+    <string name="menu_browser_font_size">فونٹ سائز</string>
+    <string name="menu_browser_full_screen">مکمل اسکرین</string>
+    <string name="menu_browser_history">تاریخ</string>
+    <string name="menu_browser_incognito">انکگنیٹو</string>
+    <string name="menu_browser_night">آنکھوں کا محافظ</string>
+    <string name="menu_browser_no_image">کوئی تصویر نہیں</string>
+    <string name="menu_browser_quit">خارج کریں</string>
+    <string name="menu_browser_search_page">صفحہ میں تلاش کریں</string>
+    <string name="menu_browser_settings">سیٹنگز</string>
+    <string name="menu_browser_snapshots">صفحة محفوظ کریں</string>
+    <string name="menu_preferences">ترتیبات</string>
+    <string name="menu_tools_box">ٹول باکس</string>
+    <string name="messageContent">%s کے لیے نئی ورژن دستیاب ہے، آپ ابھی اپ ڈیٹ کر سکتے ہیں۔</string>
+    <string name="modify">ترمیم کریں</string>
+    <string name="most_visited">سب سے زیادہ وزٹ کی گئی</string>
+    <string name="my_qrcode" translatable="false">میرا QR کوڈ</string>
+    <string name="name">لیبل</string>
+    <string name="name_cannot_empty">ویب کا نام خالی نہیں ہو سکتا</string>
+    <string name="new_file">نئی فائل بنائیں</string>
+    <string name="new_folder">نیا فولڈر</string>
+    <string name="new_incognito_tab">نیا انکوگنیٹو ٹیب</string>
+    <string name="new_tab">نیا ٹیب</string>
+    <string name="no_downloads">کوئی ڈاؤن لوڈ نہیں ہیں</string>
+    <string name="no_prompt">دوبارہ نہ پوچھیں</string>
+    <string name="no_subfolders">کوئی سب فولڈرز نہیں۔</string>
+    <string name="notification_content_text">دیکھنے کے لئے کلک کریں</string>
+    <string name="notification_download_finish">ڈاؤن لوڈ مکمل ہوگیا</string>
+    <string name="null_rules_prompt">آپ اپنے قواعد شامل کر سکتے ہیں۔ آپ کے قواعد کو ایڈ بلاک پلس کے گرامر اصولوں کے مطابق ہونا چاہیے۔ استعمال کے لیے ہدایات۔</string>
+    <string name="ok">اوکے</string>
+    <string name="open">کھولیں</string>
+    <string name="open_all_in_new_window">تمام کو نئے ٹیبز میں کھولیں</string>
+    <string name="open_most_visited">سب سے زیادہ وزٹ کیے گئے صفحات کھولیں>></string>
+    <string name="optional">(اختیاری)</string>
+    <string name="other_bookmarks">دیگر بک مارکس</string>
+    <string name="page_info">صفحے کی معلومات</string>
+    <string name="page_info_address">پتہ:</string>
+    <string name="page_info_view">صفحے کی معلومات دیکھیں</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="permissions_prompt_deny">مسترد کریں</string>
+    <string name="permissions_prompt_message">%1$s آپ کا %2$s استعمال کرنا چاہتا ہے۔</string>
+    <string name="pic_ad_block_count">روک شدہ تصاویر</string>
+    <string name="picture_nocodeinfo" translatable="false">تصویر میں QR کوڈ کی معلومات نہیں ملی</string>
+    <string name="picture_scannoinfo" translatable="false">کوئی QR کوڈ معلومات اسکین نہیں کی گئی</string>
+    <string name="please_input_over_six">براہ کرم 6 یا اس سے زیادہ حروف درج کریں</string>
+    <string name="please_input_under_max">براہ کرم زیادہ سے زیادہ %1$d حروف درج کریں</string>
+    <string name="please_leave_your_email">براہ کرم اپنا ای میل پتہ چھوڑیں</string>
+    <string name="popup_ad_block_count">روک شدہ پاپ اپ</string>
+    <string name="pref_about">متعلقہ</string>
+    <string name="pref_ad_block">ایڈ بلاک</string>
+    <string name="pref_agreement">صارف کے شرائط</string>
+    <string name="pref_always" translatable="false">ہمیشہ</string>
+    <string name="pref_check_update">اپ ڈیٹ چیک کریں</string>
+    <string name="pref_confirm_on_exit">ایکسٹ پر تصدیق کریں</string>
+    <string name="pref_contact_us">ہم سے رابطہ کریں:</string>
+    <string name="pref_content_search_engine">سرچ انجن منتخب کریں</string>
+    <string name="pref_default_ad_time">اشتہار کی نشان دہی کا وقت</string>
+    <string name="pref_default_browser">ڈیفالٹ براؤزر سیٹ کریں</string>
+    <string name="pref_default_text_encoding">متن کی انکوڈنگ</string>
+    <string name="pref_deverloper_options">ڈیولپر کے اختیارات</string>
+    <string name="pref_download">ڈاؤن لوڈ کی ترتیبات</string>
+    <string name="pref_download_path_setting_screen_title">کسٹم ڈاؤن لوڈ پاتھ</string>
+    <string name="pref_download_with_ADM">ADM کے ساتھ ڈاؤن لوڈ کریں</string>
+    <string name="pref_extras_reset_default">ڈیفالٹ پر دوبارہ سیٹ کریں</string>
+    <string name="pref_extras_reset_default_dlg">سیٹنگز کو ڈیفالٹ قیمتوں پر واپس کریں؟</string>
+    <string name="pref_extras_website_settings">ویب سائٹ کی ترتیبات</string>
+    <string name="pref_feedback">فیڈبیک</string>
+    <string name="pref_five_star">پانچ ستارے</string>
+    <string name="pref_font_size">متن کا سائز</string>
+    <string name="pref_font_size_summary">متن اور فونٹس کا سائز ایڈجسٹ کریں</string>
+    <string name="pref_force_userscalable">زوم کو فعال کریں</string>
+    <string name="pref_force_userscalable_summary">ویب سائٹ کی زوم رویے کو کنٹرول کرنے کی درخواست کو اووررائیڈ کریں</string>
+    <string name="pref_min_font_size">کم سے کم فونٹ سائز</string>
+    <string name="pref_notification_tool_show">نوٹیفکیشن پینل میں سرچ بار دکھائیں</string>
+    <string name="pref_privacy_clear_data">ڈیٹا صاف کریں</string>
+    <string name="pref_privacy_enable_geolocation">مقام کو فعال کریں</string>
+    <string name="pref_privacy_enable_geolocation_summary">ویب سائٹس کو آپ کی مقام تک رسائی کی درخواست کرنے کی اجازت دیں</string>
+    <string name="pref_privacy_policy">پرائیویسی پالیسی</string>
+    <string name="pref_privacy_security_title">پرائیویسی اور سیکیورٹی</string>
+    <string name="pref_privacy_security_title_summary">براؤزر کو پاس ورڈز، محفوظ فارم وغیرہ یاد رکھنے کی اجازت دیں</string>
+    <string name="pref_search_engine_dialog_title">انجن منتخب کریں</string>
+    <string name="pref_security_accept_cookies">ککیز کو قبول کریں</string>
+    <string name="pref_security_accept_cookies_summary">ویب سائٹس کو ککی ڈیٹا محفوظ اور پڑھنے کی اجازت دیں</string>
+    <string name="pref_security_remember_passwords">پاس ورڈز یاد رکھیں</string>
+    <string name="pref_security_remember_passwords_summary">ویب سائٹس کے لئے یوزر نیم اور پاس ورڈز محفوظ کریں</string>
+    <string name="pref_security_save_form_data">فارم ڈیٹا یاد رکھیں</string>
+    <string name="pref_security_save_form_data_summary">فارم میں درج کی گئی معلومات کو یاد رکھیں</string>
+    <string name="pref_security_show_security_warning">سیکیورٹی وارننگ دکھائیں</string>
+    <string name="pref_security_show_security_warning_summary">اگر ویب سائٹ کی سیکیورٹی میں کوئی مسئلہ ہو تو وارننگ دکھائیں</string>
+    <string name="pref_show_download_dialog">ڈاؤن لوڈ ڈائیلاگ دکھائیں</string>
+    <string name="pref_show_header_news">پچھلے صفحے کا وقت/موسم/خبریں دکھائیں</string>
+    <string name="pref_show_red_badge_notity">سرخ بیج کی اطلاع دکھائیں</string>
+    <string name="pref_show_status_bar">اسٹیٹس بار دکھائیں</string>
+    <string name="pref_text_zoom">متن کی اسکیلنگ</string>
+    <string name="pref_wifi_only" translatable="false">صرف WIFI</string>
+    <string name="product_agree">متفق ہوں</string>
+    <string name="product_no_agree">متفق نہیں ہوں</string>
+    <string name="progress_dialog_setting_wallpaper">وال پیپر سیٹ کیا جا رہا ہے\u2026</string>
+    <string name="prompt_already_saved_bookmark">آپ نے اس کتاب نشان کو پہلے ہی شامل کیا ہے</string>
+    <string name="prompt_already_saved_off">آپ نے اس صفحہ کو پہلے ہی محفوظ کیا ہے</string>
+    <string name="prompt_saved_off_line">آف لائن صفحات میں محفوظ کیا گیا</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">QR کوڈ کو باکس میں رکھیں اور اسکیننگ شروع کریں</string>
+    <string name="refresh">تازہ کریں</string>
+    <string name="remember_preference">ترجیح یاد رکھیں</string>
+    <string name="remove">ہٹائیں</string>
+    <string name="remove_bookmark">بک مارک حذف کریں</string>
+    <string name="remove_items_all">تمام آئٹمز ہٹائیں</string>
+    <string name="remove_snapshot">محفوظ شدہ صفحہ حذف کریں</string>
+    <string name="removed_from_bookmarks">مارک کی فہرست سے ہٹا دیا گیا۔</string>
+    <string name="rename">فائل کا نام تبدیل کریں</string>
+    <string name="rename_failed">نام تبدیل کرنے میں ناکامی</string>
+    <string name="rename_success">نام تبدیل کر لیا</string>
+    <string name="replace_file">فائل تبدیل کریں</string>
+    <string name="request_fail">درخواست ناکام ہو گئی، براہ کرم بعد میں دوبارہ کوشش کریں</string>
+    <string name="request_read_external_storage_error">فون کی میموری تک رسائی کی درخواست ناکام</string>
+    <string name="resource_audio_capture">مائکروفون</string>
+    <string name="resource_protected_media_id">محفوظ میڈیا آئی ڈی</string>
+    <string name="resource_video_capture">کیمرا</string>
+    <string name="right_recommend_add_link_not_title">براہ کرم عنوان درج کریں</string>
+    <string name="right_recommend_add_link_not_url">براہ کرم URL درج کریں</string>
+    <string name="right_recommend_add_link_repeat">URL پہلے ہی موجود ہے</string>
+    <string name="right_recommend_add_link_saved">محفوظ کر لیا گیا</string>
+    <string name="right_recommend_add_link_url_format">یہ URL غلط ہے</string>
+    <string name="right_recommend_tools_desktop">ڈیسک ٹاپ</string>
+    <string name="right_recommend_tools_remove">ہٹائیں</string>
+    <string name="sdcard_free">%1$s فری/%2$s</string>
+    <string name="search_hint">تلاش کریں یا URL ٹائپ کریں</string>
+    <string name="search_history">تلاش کی تاریخ</string>
+    <string name="search_settings_description">بک مارکس اور ویب ہسٹری</string>
+    <string name="search_the_web">ویب پر تلاش کریں</string>
+    <string name="security_warning">سیکیورٹی کا انتباہ</string>
+    <string name="select_dot">متن منتخب کریں</string>
+    <string name="select_download_path">فولڈر "%s" کو ڈاؤن لوڈ مقام کے طور پر منتخب کریں</string>
+    <string name="select_location">مقام منتخب کریں</string>
+    <string name="select_qr_code" translatable="false">QR کوڈ کی تصویر منتخب کریں</string>
+    <string name="sendText">متن کے لیے ایکشن منتخب کریں</string>
+    <string name="set_as_homepage">ہوم پیج کے طور پر سیٹ کریں</string>
+    <string name="set_default_browser">ڈیفالٹ براؤزر سیٹ کریں</string>
+    <string name="set_default_failure">ڈیفالٹ سیٹ کرنے میں ناکامی۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="set_default_success">سیٹنگ کامیاب!</string>
+    <string name="setting_bottom_day">لائٹ موڈ</string>
+    <string name="setting_bottom_expanding">پھیل رہا ہے</string>
+    <string name="setting_bottom_night">ڈارک موڈ</string>
+    <string name="setting_update_speech_recognition">آواز کی ان پٹ بند ہے، براہ کرم گوگل آواز کی سروس اپ ڈیٹ کریں</string>
+    <string name="share">شیئر کریں</string>
+    <string name="share_dialog_title" translatable="false">ویب پیج شیئر کریں</string>
+    <string name="shortcut_bookmark">بک مارک</string>
+    <string name="shortcut_bookmark_title">بک مارک منتخب کریں</string>
+    <string name="show_dev_on">آپ اب ایک ڈویلپر ہیں!</string>
+    <string name="sign_in_to">سائن ان کریں %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">بغیر عنوان کے</string>
+    <string name="ssl_certificate">سیکیورٹی سرٹیفکیٹ</string>
+    <string name="ssl_certificate_is_valid">یہ سرٹیفکیٹ درست ہے۔</string>
+    <string name="ssl_continue">جاری رکھیں</string>
+    <string name="ssl_date_invalid">اس سرٹیفکیٹ کی تاریخ غلط ہے۔</string>
+    <string name="ssl_expired">یہ سرٹیفکیٹ کی میعاد ختم ہو چکی ہے۔</string>
+    <string name="ssl_invalid">یہ سرٹیفکیٹ غلط ہے۔</string>
+    <string name="ssl_mismatch">سائٹ کا نام سرٹیفکیٹ کے نام سے میل نہیں کھاتا۔</string>
+    <string name="ssl_not_yet_valid">یہ سرٹیفکیٹ ابھی تک قابلِ قبول نہیں ہے۔</string>
+    <string name="ssl_unknown">نامعلوم سرٹیفکیٹ کی غلطی۔</string>
+    <string name="ssl_untrusted">یہ سرٹیفکیٹ کسی معتبر اتھارٹی سے نہیں ہے۔</string>
+    <string name="ssl_warnings_header">اس سائٹ کے لئے سیکیورٹی سرٹیفکیٹ میں مسائل ہیں۔</string>
+    <string name="stopping">رکنا\u2026</string>
+    <string name="storage_space_lack">کافی اسٹوریج دستیاب نہیں ہے</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">براہ کرم تصدیق کریں کہ آپ نے درست تصویر منتخب کی ہے</string>
+    <string name="swipe_up_tip">آپ ٹیاب کو حذف کرنے کے لیے اوپر سوائپ کر سکتے ہیں</string>
+    <string name="tab_snapshots">محفوظ شدہ صفحات</string>
+    <string name="text_count_can_input">%1$d حروف درج کیے جا سکتے ہیں</string>
+    <string name="title_activity_add_link">لنک شامل کریں</string>
+    <string name="title_clear_all_history">تمام تاریخ صاف کریں؟</string>
+    <string name="title_clear_bookmark">کتاب نشان صاف کریں؟</string>
+    <string name="title_clear_history">تاریخ صاف کریں؟</string>
+    <string name="title_clear_off_line">محفوظ شدہ صفحات صاف کریں؟</string>
+    <string name="too_many_subwindows_dialog_message">ایک وقت میں صرف ایک پاپ اپ کھولا جا سکتا ہے۔</string>
+    <string name="too_many_subwindows_dialog_title">پاپ اپ پہلے ہی کھلا ہے</string>
+    <string name="too_many_windows_dialog_message">نیا ٹیب کھولنے سے پہلے ایک بند کریں۔</string>
+    <string name="toolbox_menu_off">آف</string>
+    <string name="toolbox_menu_on">آن</string>
+    <string name="total">مجموعی</string>
+    <string name="ua_switcher_desktop">ڈیسک ٹاپ سائٹ درخواست کریں</string>
+    <string name="unknown">نامعلوم</string>
+    <string name="unknown_error">نامعلوم خرابی، براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="unknown_file">نامعلوم فائل کی قسمیں</string>
+    <string name="update_at_once">ابھی اپ ڈیٹ کریں</string>
+    <string name="update_content1">1. ہمارے سپر ذہین سائنسدانوں نے ویب صفحات کو بجلی کی تیزی سے لوڈ کرنے کے لئے کام کیا ہے!</string>
+    <string name="update_content2">2. ہماری پیاری ڈیزائنر نے اپنا جادو کیا اور سب کچھ اور بھی خوبصورت بنایا!</string>
+    <string name="update_content3">3. اور ہمارے شاندار ڈیوپ؟ وہ دیر تک جاگتے رہے، کافی پیتے رہے، اور تمام مزاحم کیڑے بھگا دیے!</string>
+    <string name="update_later">بعد میں اپ ڈیٹ کریں</string>
+    <string name="update_now">گوگل پلے سے ایپ ڈاؤن لوڈ کریں</string>
+    <string name="update_remind">اپ ڈیٹ کا نوٹس</string>
+    <string name="update_tips1">جی ہاں، آپ نے صحیح اندازہ لگایا! ایک نیا اپ ڈیٹ آیا ہے!</string>
+    <string name="update_tips2">✨سب کچھ آپ کے تجربے کو بہتر بنانے کے لئے!\nآگے بڑھیں، ابھی اپ ڈیٹ کریں اور چیک کریں! ✨</string>
+    <string name="update_title">نیا ورژن پایا گیا</string>
+    <string name="upload_image">تصاویر اپ لوڈ کریں</string>
+    <string name="uploads_disabled">فائل اپ لوڈ غیر فعال ہیں۔</string>
+    <string name="username">نام</string>
+    <string name="versionUpdate">اپ ڈیٹ کریں</string>
+    <string name="video_mobile_pause">منسوخ کریں</string>
+    <string name="video_mobile_permission">آپ موبائل نیٹ ورک استعمال کر رہے ہیں۔ کیا آپ ابھی بھی ویڈیو چلانا چاہتے ہیں؟</string>
+    <string name="video_mobile_play">چلائیں</string>
+    <string name="view">دیکھیں</string>
+    <string name="view_certificate">سرٹیفکیٹ دیکھیں</string>
+    <string name="view_select_all">سب منتخب کریں</string>
+    <string name="visit_url_ok">جائیں</string>
+    <string name="visit_url_title">کیا آپ اس URL پر جانا چاہتے ہیں جو آپ کے کلپ بورڈ پر ہے؟</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">گرم</string>
+    <string name="website_lifestyle">زندگی کا انداز</string>
+    <string name="website_news">خبریں•کھیل</string>
+    <string name="website_recommend">تجویز کردہ</string>
+    <string name="website_settings_list_header_text">مقام تک رسائی</string>
+    <string name="website_shoping">تفریح•خریداری</string>
+    <string name="website_social">سوشل</string>
+    <string name="website_tools">اوزار</string>
+    <string name="website_videos">ویڈیوز</string>
+    <string name="webstorage_clear_data_title">محفوظ شدہ ڈیٹا صاف کریں</string>
+    <string name="webstorage_origin_summary_mb_stored">آپ کے فون پر MB محفوظ ہیں</string>
+    <string name="webstorage_outofspace_notification_text">جگہ خالی کرنے کے لئے ٹچ کریں۔</string>
+    <string name="webstorage_outofspace_notification_title">براؤزر اسٹوریج مکمل</string>
+    <string name="write_advice_please">براہ کرم اپنی رائے یا تجویز الفاظ میں بیان کریں... (1000 الفاظ)</string>
+</resources>

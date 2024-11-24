@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/navigation_edit_line"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/browser_voice_bg_color" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/browser_navigation_websites_margin_top"
+        android:layout_marginBottom="@dimen/browser_navigation_websites_margin_bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="|"
+            android:layout_gravity="center_vertical"
+            android:padding="1dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:includeFontPadding="false"
+            android:textStyle="bold"
+            android:background="@color/browser_title_blue"/>
+
+        <TextView
+            android:id="@+id/sugar_module_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="体育"
+            android:textColor="@color/c_b11"
+            android:textSize="@dimen/web_sites_title_size"
+            android:includeFontPadding="false"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/browser_websites_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="@dimen/browser_navigation_lables_margin_top"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/browser_lable_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+

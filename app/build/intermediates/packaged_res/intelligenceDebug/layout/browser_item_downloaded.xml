@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/browser_download_item_height"
+    android:layoutDirection="ltr"> <!-- 默认为左到右布局 -->
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/settings_list_divider_margin"
+        android:paddingStart="@dimen/settings_list_divider_margin"
+        android:layoutDirection="ltr"> <!-- 默认为左到右布局 -->
+
+        <FrameLayout
+            android:layout_width="@dimen/browser_download_icon_size"
+            android:layout_gravity="center_vertical|start"
+            android:layout_height="@dimen/browser_download_icon_size">
+            <com.intelligence.browser.view.SimpleRoundedImageView
+                android:id="@+id/item_icon"
+                android:layout_width="@dimen/browser_download_icon_size"
+                android:layout_height="@dimen/browser_download_icon_size"
+                tools:ignore="ContentDescription"/>
+            <ImageView
+                android:id="@+id/download_video_play_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:background="@drawable/browser_download_video_icon_bg"
+                android:src="@drawable/browser_video_play_icon"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layoutDirection="ltr"> <!-- 默认为左到右布局 -->
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:gravity="start"
+                android:textColor="@color/browser_title_color"
+                android:textSize="16sp"
+                tools:text="The Healing Power of Nature"
+                android:singleLine="true"
+                android:textDirection="ltr"/> <!-- 文本方向设置为从左到右 -->
+
+            <TextView
+                android:id="@+id/item_size"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/browser_tips_color"
+                android:textSize="12sp"
+                tools:text="大小: 1.2MB"
+                android:textDirection="ltr"/> <!-- 文本方向设置为从左到右 -->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_action"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"> <!-- 默认为左到右布局 -->
+
+            <ImageView
+                android:id="@+id/download_item_edit_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/browser_home_other_more_gray"
+                tools:ignore="ContentDescription"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

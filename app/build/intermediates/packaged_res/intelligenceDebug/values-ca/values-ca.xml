@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Esborrar historial i memòria cau</item>
+        <item>No tornar a preguntar</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Memòria cau</item>
+        <item>Cookies</item>
+        <item>Formularis</item>
+        <item>Historial</item>
+        <item>Contrasenyes</item>
+        <item>Accés a la ubicació</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Esborrar els continguts i bases de dades emmagatzemades localment</item>
+        <item>Esborrar totes les cookies</item>
+        <item>Esborrar totes les dades de formularis guardades</item>
+        <item>Esborrar tot l\'historial de navegació</item>
+        <item>Esborrar totes les comptes i contrasenyes guardades</item>
+        <item>Cancel·lar el permís a tots els llocs web per obtenir la teva ubicació</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latí-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Xines (GBK)</item>
+        <item>Xines (Big5)</item>
+        <item>Japonès (ISO-2022-JP)</item>
+        <item>Japonès (SHIFT_JIS)</item>
+        <item>Japonès (EUC-JP)</item>
+        <item>Koreà (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Petita</item>
+        <item>Normal</item>
+        <item>Gran</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Per defecte</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Ordinador</item>
+    </string-array>
+    <string name="abnormal_recover_message">Vols restaurar la darrera pàgina web?</string>
+    <string name="abnormal_recover_ok">Restaura</string>
+    <string name="abnormal_recover_recovered">Les pàgines de la darrera sessió han estat restaurades.</string>
+    <string name="accessibility_button_addbookmark">Afegir marcador</string>
+    <string name="accessibility_button_bookmarks_folder_up">Carpeta anterior</string>
+    <string name="accessibility_button_closetab">Tancar pestanya</string>
+    <string name="accessibility_button_forward">Anar endavant</string>
+    <string name="accessibility_button_more">Més opcions</string>
+    <string name="accessibility_button_newtab">Obrir nova pestanya</string>
+    <string name="accessibility_button_refresh">Actualitzar pàgina</string>
+    <string name="accessibility_button_search">Cercar</string>
+    <string name="accessibility_button_stop">Aturar càrrega de la pàgina</string>
+    <string name="accessibility_button_uaswitch">Canviar agent d\'usuari</string>
+    <string name="accessibility_button_voice">Iniciar cerca per veu</string>
+    <string name="accessibility_state_frozen">Pàgina desada</string>
+    <string name="accessibility_state_incognito">Pàgina d\'incògnit</string>
+    <string name="accessibility_transition_navscreen">Gestió de pestanyes</string>
+    <string name="account">Compte</string>
+    <string name="action">Iniciar sessió</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">S\'han localitzat anuncis, activar bloqueig d\'anuncis ara?</string>
+    <string name="adblock_rules_error_prompt">Error de sintaxi, si us plau, edita-ho de nou!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Afegir</string>
+    <string name="add_new_bookmark">Afegir marcador</string>
+    <string name="add_pic">Afegir imatge:</string>
+    <string name="add_to_desktop">Escritori</string>
+    <string name="add_to_desktop_success">Afegit a l\'escriptori</string>
+    <string name="add_to_homepage">Afegeix a la pàgina d\'inici</string>
+    <string name="add_to_homepage_success">Afegit a la pàgina d\'inici</string>
+    <string name="add_to_homescreen_menu_option">Pantalla d\'inici</string>
+    <string name="add_to_other_folder_menu_option">Una altra carpeta</string>
+    <string name="add_up_to_15">Afegir fins a 20</string>
+    <string name="added_new_bookmark">Afegir a marcadors</string>
+    <string name="allow">Permet</string>
+    <string name="allow_download">Permetre la descàrrega</string>
+    <string name="allow_download_no">Connecta\'t a Wi-Fi</string>
+    <string name="already_cleared">Netejat</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Disponible</string>
+    <string name="block">Bloqueja</string>
+    <string name="bookmark_cannot_save_url">Aquesta URL no es pot marcar</string>
+    <string name="bookmark_list">Marcadors</string>
+    <string name="bookmark_needs_title">El marcador ha de tenir un nom</string>
+    <string name="bookmark_needs_url">El marcador ha de tenir una ubicació</string>
+    <string name="bookmark_not_saved">No s\'ha pogut desar el marcador</string>
+    <string name="bookmark_saved">Desat als marcadors</string>
+    <string name="bookmark_this_page">Marca aquesta pàgina</string>
+    <string name="bookmark_url_not_valid">Aquesta URL no és vàlida</string>
+    <string name="bookmarks">Marcadors</string>
+    <string name="bookmarks_add_page">Desa el marcador</string>
+    <string name="bookmarks_search">Navegador</string>
+    <string name="browserFrameFileErrorLabel">Problema de fitxer</string>
+    <string name="browserFrameFormResubmitMessage">La pàgina que estàs intentant veure conté dades que ja han estat enviades (\"POSTDATA\"). Si tornen a enviar-se les dades, qualsevol acció realitzada pel formulari (com ara una cerca o compra en línia) es repetirà.</string>
+    <string name="browserFrameNetworkErrorLabel">Problema de connexió</string>
+    <string name="browser_admin_panel">Centre d\'usuari</string>
+    <string name="browser_hot_word_title" translatable="false">Llista de cerques populars</string>
+    <string name="browser_navigation">Navegació</string>
+    <string name="browser_net_error_refresh" translatable="false">Fes clic a l\'àrea en blanc per actualitzar la pàgina</string>
+    <string name="browser_open_all_most_visited" translatable="false">Expandir llocs web recomanats</string>
+    <string name="browser_permission_camera">Permís de càmera denegat, si us plau, activa\'l manualment</string>
+    <string name="browser_permission_notification">Permís de la barra de notificacions denegat, si us plau, activa\'l manualment</string>
+    <string name="browser_permission_qr">Aquesta funció requereix permís d\'accés a la memòria. Si us plau, activa\'l manualment a la configuració</string>
+    <string name="browser_permission_setwall">Per establir el fons de pantalla del telèfon es necessita permís d\'emmagatzematge. Si us plau, obriu-lo manualment a la pàgina de configuració</string>
+    <string name="browser_permission_strone">Per descarregar arxius es necessita permís d\'emmagatzematge. Si us plau, obre el permís manualment a la configuració</string>
+    <string name="browser_privacy_tips">Les teves dades personals seran tractades d\'acord amb la nostra 《Política de privacitat》.</string>
+    <string name="browser_product_agree_tips">Has de consentir la política.</string>
+    <string name="browser_product_start">Començar</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nTots els drets reservats.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Cerca lliurement tot el que necessites</string>
+    <string name="browser_slogo_fast">Més ràpid</string>
+    <string name="browser_slogo_intelligence">Més intel·ligent</string>
+    <string name="browser_slogo_safe">Més segur</string>
+    <string msgid="6709237687234102240" name="browser_tools">Eines</string>
+    <string name="btn_recommend_add">Afegir</string>
+    <string name="byfrost_slogan">Byfrost - Veient un món més gran!</string>
+    <string name="byfrost_suggestion">Hem rebut el teu suggeriment, gràcies.</string>
+    <string name="byfrost_suggestion_time">El temps de retroalimentació no pot ser inferior a 1 minut des de l\'última vegada.</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="cancelDel">Desfer eliminació?</string>
+    <string name="cannot_open_the_file">No hi ha cap programa per obrir aquest tipus de fitxer</string>
+    <string name="check_for_update">comprovant actualitzacions...</string>
+    <string name="check_network">Enviament fallit per un problema de xarxa, si us plau comprova-ho.</string>
+    <string name="choosertitle_sharevia">Comparteix via</string>
+    <string name="clear">Neteja</string>
+    <string name="clear_all">Neteja tot</string>
+    <string name="clear_all_already">Ja s\'han esborrat totes les dades!</string>
+    <string name="clear_data_success">Neteja realitzada amb èxit</string>
+    <string name="clear_default_browser">Neteja la configuració com a navegador predeterminat</string>
+    <string name="clear_default_setting_please">Un altre navegador està configurat com a navegador per defecte, si us plau esborra la configuració per defecte del navegador.</string>
+    <string name="clear_history_all">Esborrar tot l\'historial</string>
+    <string name="click_again_quit">Toca enrere per sortir</string>
+    <string name="close_all_incognito_notification">Tancar totes les pestanyes d\'incògnit</string>
+    <string name="commit_fail">Enviament fallit, si us plau intenta més tard</string>
+    <string name="confirm_deletion">Eliminar aquest element?</string>
+    <string name="confirm_deletion_all">Eliminar tots els elements?</string>
+    <string name="contact_us_on_facebook">Contacta\'ns a Facebook</string>
+    <string name="containing_folder">Afegir a</string>
+    <string name="contextheader_folder_bookmarkcount">%d marcadors</string>
+    <string name="contextheader_folder_empty">Carpeta buida</string>
+    <string name="contextmenu_add_contact">Afegeix contacte</string>
+    <string name="contextmenu_copy">Copia</string>
+    <string name="contextmenu_copylink">Copia l\'URL de l\'enllaç</string>
+    <string name="contextmenu_dial_dot">Marca...</string>
+    <string name="contextmenu_download_image">Desa la imatge</string>
+    <string name="contextmenu_map">Mapa</string>
+    <string name="contextmenu_openlink_newwindow">Obre en nova pestanya</string>
+    <string name="contextmenu_openlink_newwindow_background">Obre al fons</string>
+    <string name="contextmenu_savelink">Desa l\'enllaç</string>
+    <string name="contextmenu_send_mail">Envia correu electrònic</string>
+    <string name="contextmenu_set_wallpaper">Estableix com a fons d\'escriptori</string>
+    <string name="contextmenu_set_wallpaper_image">Fons d\'escriptori</string>
+    <string name="contextmenu_share_app">Compartir aplicació</string>
+    <string name="contextmenu_share_website">Compartir lloc web</string>
+    <string name="contextmenu_sharelink">Comparteix l\'enllaç</string>
+    <string name="contextmenu_view_image">Veure imatge</string>
+    <string name="copy_link">Copia l\'enllaç</string>
+    <string name="copylink_success">Enllaç copiat</string>
+    <string name="create_shortcut_bookmark">Afegeix drecera a la pantalla d\'inici</string>
+    <string name="custom_rules">Filtres personalitzats d\'AdBlock</string>
+    <string name="custom_rules_title">Filtres d\'AdBlock</string>
+    <string name="default_bookmark">Marcador per defecte</string>
+    <string name="default_location">Ubicació per defecte: %1$s</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_bookmark_warning">Eliminar el marcador \"%s\"?</string>
+    <string name="delete_folder">Elimina la carpeta</string>
+    <string name="deletion_all">Eliminar tot</string>
+    <string name="desktop">Escriptori</string>
+    <string name="done">FET</string>
+    <string name="download">Descarregar</string>
+    <string name="download_allow_mobile">Permetre la descàrrega per xarxa mòbil?</string>
+    <string name="download_failed">descarrega fallida</string>
+    <string name="download_list">Llista de descàrregues</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Es requereix una targeta SD per descarregar %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Sense targeta SD</string>
+    <string name="download_pause">descarrega en pausa</string>
+    <string name="download_pending">Iniciant la descàrrega…</string>
+    <string name="download_removed">Eliminat</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">La targeta SD està ocupada. Per permetre les descàrregues, toca "Apagar l'emmagatzematge USB" a la notificació.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Targeta SD no disponible</string>
+    <string name="downloaded">Descarregat</string>
+    <string name="downloading">Descarregant</string>
+    <string name="downloadmanager_disabled">El Gestor de Descàrregues està desactivat. Habilita\'l, si us plau.</string>
+    <string name="edit">Edita</string>
+    <string name="edit_bookmark">Edita el marcador</string>
+    <string name="edit_folder">Edita la carpeta</string>
+    <string name="edited">EDITAT</string>
+    <string name="email">Correu electrònic:</string>
+    <string name="email_is_error">Si us plau introdueix un número de telèfon correcte</string>
+    <string name="empty_bookmarks_folder">Els teus marcadors estan buits</string>
+    <string name="empty_history">Sense historial de navegació</string>
+    <string name="empty_info_most_visited">Sense registre</string>
+    <string name="empty_snapshots_folder">No hi ha pàgines desades</string>
+    <string name="enter_incognito_mode">Canviar a mode d\'incògnit</string>
+    <string name="enter_normal_mode">Canviar a mode normal</string>
+    <string name="enter_settings_page">Entra a la configuració després de completar l\'esborrat, si us plau.</string>
+    <string name="enter_website_name">Introduïu el nom del lloc web</string>
+    <string name="error_console_eval_button_text" translatable="false">Avaluar</string>
+    <string name="error_console_eval_text_hint" translatable="false">Avaluar JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Consola JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">Mostrar consola JavaScript</string>
+    <string name="exit">Sortir</string>
+    <string name="exit_dialog_title">Sortir del navegador?</string>
+    <string name="feed_back_sucess">Hem rebut els teus comentaris i suggeriments, gràcies.</string>
+    <string name="feedback_other">Altres:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Opcional)</string>
+    <string name="feedback_submit">enviar</string>
+    <string name="file_exist">El fitxer ja existeix</string>
+    <string name="file_name">Nom del fitxer</string>
+    <string name="file_not_exist">El fitxer no existeix</string>
+    <string name="filename_empty">El nom del fitxer no pot estar buit</string>
+    <string name="find_on_page">Cercar a la pàgina</string>
+    <string name="five_stars">5 estrelles</string>
+    <string name="five_stars_comment">dona suggeriments.</string>
+    <string name="five_stars_content">La teva valoració de cinc estrelles és molt important per a nosaltres.</string>
+    <string name="five_stars_later">Més tard</string>
+    <string name="five_stars_titile">T\'agrada %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Rebutjar</string>
+    <string name="geolocation_permissions_prompt_message">%s vol conèixer la teva ubicació</string>
+    <string name="geolocation_permissions_prompt_share">Compartir ubicació</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Aquest lloc pot accedir a la teva ubicació. Canvia-ho a Configuració > Avançat > Configuració de llocs web.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Aquest lloc no pot accedir a la teva ubicació. Canvia-ho a Configuració > Avançat > Configuració de llocs web.</string>
+    <string name="geolocation_settings_page_dialog_message">Esborrar l\'accés a la ubicació per a aquest lloc web?</string>
+    <string name="geolocation_settings_page_summary_allowed">Aquest lloc pot accedir a la teva ubicació actualment</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Aquest lloc no pot accedir a la teva ubicació actualment</string>
+    <string name="geolocation_settings_page_title">Cancel·lar permís per obtenir la teva ubicació</string>
+    <string name="get_photo_failure">No s\'han pogut obtenir les imatges</string>
+    <string name="go">Ves</string>
+    <string name="go_back">Torna enrere</string>
+    <string name="history">Historial</string>
+    <string name="home_page">Pàgina d\'inici</string>
+    <string name="incognito_home">Estàs en mode d\'incògnit</string>
+    <string name="incognito_home_content">Ara estàs en mode d\'incògnit.</string>
+    <string name="incognito_home_tip">Pots sortir del mode d\'incògnit i tornar al mode normal.</string>
+    <string name="input_over_flow">Fallo en la submissió, %1$d caràcters excedeixen el límit</string>
+    <string name="instructions_label">Instruccions d\'ús</string>
+    <string name="is_latest">Ja és l\'última versió!</string>
+    <string name="js_ad_block_count">Fitxers JavaScript bloquejats</string>
+    <string name="js_disable_host_error_prompt">Error de domini, si us plau, edita-ho de nou!</string>
+    <string name="js_disable_hosts">Establir límit de temps per a l\'advertència d\'anuncis</string>
+    <string name="js_disable_hosts_title">Certs dominis</string>
+    <string name="lable_AI">IA</string>
+    <string name="lable_Tools">Eines</string>
+    <string name="lable_calendar">Calendari</string>
+    <string name="lable_lifestyle">Vida</string>
+    <string name="lable_maps">Mapes</string>
+    <string name="lable_news">Notícies</string>
+    <string name="lable_translate">Traduir</string>
+    <string name="lable_video">Vídeos</string>
+    <string name="lable_weather">Temps</string>
+    <string name="leadpage_back">Enrere</string>
+    <string name="leadpage_forward">Endavant</string>
+    <string name="leadpage_home">Inici</string>
+    <string name="loading_video">Carregant vídeo…</string>
+    <string name="local_bookmarks">Local</string>
+    <string name="location">Adreça</string>
+    <string name="mark_image_ad">Marcar publicitat</string>
+    <string name="mark_image_ad_fail">Marcat fallit</string>
+    <string name="max_tabs_warning">No hi ha més pestanyes disponibles</string>
+    <string name="menu_browser_Tools">Eines</string>
+    <string name="menu_browser_add_bookmark">Afegir marcador</string>
+    <string name="menu_browser_bookmarks">Marcadors</string>
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_downloads">Descàrregues</string>
+    <string name="menu_browser_font_size">Mida de la font</string>
+    <string name="menu_browser_full_screen">Pantalla completa</string>
+    <string name="menu_browser_history">Historial</string>
+    <string name="menu_browser_incognito">Mode d\'incògnit</string>
+    <string name="menu_browser_night">Protector d\'ulls</string>
+    <string name="menu_browser_no_image">Sense imatge</string>
+    <string name="menu_browser_quit">Sortir</string>
+    <string name="menu_browser_search_page">Cercar a la pàgina</string>
+    <string name="menu_browser_settings">Configuració</string>
+    <string name="menu_browser_snapshots">Desar pàgina</string>
+    <string name="menu_preferences">Configuració</string>
+    <string name="menu_tools_box">Caixa d\'eines</string>
+    <string name="messageContent">Hi ha una nova versió de %s, pots actualitzar-la ara.</string>
+    <string name="modify">Modificar</string>
+    <string name="most_visited">Més visitades</string>
+    <string name="my_qrcode" translatable="false">El meu codi QR</string>
+    <string name="name">Etiqueta</string>
+    <string name="name_cannot_empty">El nom del lloc web no pot estar buit</string>
+    <string name="new_file">Crear nou fitxer</string>
+    <string name="new_folder">Nova carpeta</string>
+    <string name="new_incognito_tab">Nou tauler d\'incògnit</string>
+    <string name="new_tab">Nou tauler</string>
+    <string name="no_downloads">Sense descàrregues</string>
+    <string name="no_prompt">No preguntar més</string>
+    <string name="no_subfolders">No hi ha subcarpetes.</string>
+    <string name="notification_content_text">Feu clic per veure</string>
+    <string name="notification_download_finish">Descarrega completada</string>
+    <string name="null_rules_prompt">Podeu afegir les vostres pròpies regles. Les vostres regles han de seguir les regles de sintaxi de Adblock Plus. Instruccions d\'ús.</string>
+    <string name="ok">D\'acord</string>
+    <string name="open">Obre</string>
+    <string name="open_all_in_new_window">Obre tots en noves pestanyes</string>
+    <string name="open_most_visited">obrir els més visitats>></string>
+    <string name="optional">(Opcional)</string>
+    <string name="other_bookmarks">Altres marcadors</string>
+    <string name="page_info">Informació de la pàgina</string>
+    <string name="page_info_address">Adreça:</string>
+    <string name="page_info_view">Veure informació de la pàgina</string>
+    <string name="password">Contrasenya</string>
+    <string name="permissions_prompt_deny">Denegar</string>
+    <string name="permissions_prompt_message">%1$s vol utilitzar el teu %2$s.</string>
+    <string name="pic_ad_block_count">Imatges bloquejades</string>
+    <string name="picture_nocodeinfo" translatable="false">No s\'ha reconegut informació del codi QR a la imatge</string>
+    <string name="picture_scannoinfo" translatable="false">No s\'ha escanejat informació de codi QR</string>
+    <string name="please_input_over_six">Si us plau introdueix 6 o més caràcters</string>
+    <string name="please_input_under_max">Si us plau introdueix no més de %1$d caràcters</string>
+    <string name="please_leave_your_email">Si us plau deixa la teva adreça de correu electrònic</string>
+    <string name="popup_ad_block_count">Popups bloquejats</string>
+    <string name="pref_about">Quant a</string>
+    <string name="pref_ad_block">Bloqueig d\'anuncis</string>
+    <string name="pref_agreement">Termes d\'ús</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_check_update">Comprovar actualitzacions</string>
+    <string name="pref_confirm_on_exit">Confirmar en sortir</string>
+    <string name="pref_contact_us">Contacta amb nosaltres:</string>
+    <string name="pref_content_search_engine">Configura el motor de cerca</string>
+    <string name="pref_default_ad_time">Temps de marcatge d\'anuncis</string>
+    <string name="pref_default_browser">Configura el navegador per defecte</string>
+    <string name="pref_default_text_encoding">Codificació de text</string>
+    <string name="pref_deverloper_options">Opcions de desenvolupador</string>
+    <string name="pref_download">Configuració de descàrregues</string>
+    <string name="pref_download_path_setting_screen_title">Ruta de descàrrega personalitzada</string>
+    <string name="pref_download_with_ADM">Descarregar amb ADM</string>
+    <string name="pref_extras_reset_default">Restaurar a valors per defecte</string>
+    <string name="pref_extras_reset_default_dlg">Vols restablir la configuració a les valors per defecte?</string>
+    <string name="pref_extras_website_settings">Configuració del lloc web</string>
+    <string name="pref_feedback">Comentaris</string>
+    <string name="pref_five_star">cinc estrelles</string>
+    <string name="pref_font_size">Mida del text</string>
+    <string name="pref_font_size_summary">Ajustar la mida del text i les fonts</string>
+    <string name="pref_force_userscalable">Forçar l\'habilitació del zoom</string>
+    <string name="pref_force_userscalable_summary">Forçar la petició d\'un lloc web per controlar el comportament del zoom</string>
+    <string name="pref_min_font_size">Mida mínima de la font</string>
+    <string name="pref_notification_tool_show">Mostrar la barra de cerca al panell de notificacions</string>
+    <string name="pref_privacy_clear_data">Esborrar dades</string>
+    <string name="pref_privacy_enable_geolocation">Habilitar ubicació</string>
+    <string name="pref_privacy_enable_geolocation_summary">Permetre que els llocs web sol·licitin accés a la teva ubicació</string>
+    <string name="pref_privacy_policy">Política de privacitat</string>
+    <string name="pref_privacy_security_title">Privadesa i seguretat</string>
+    <string name="pref_privacy_security_title_summary">Permetre que el navegador recordi contrasenyes, formularis guardats, etc.</string>
+    <string name="pref_search_engine_dialog_title">Tria el motor</string>
+    <string name="pref_security_accept_cookies">Acceptar cookies</string>
+    <string name="pref_security_accept_cookies_summary">Permetre que els llocs web guardin i llegeixin les dades de cookies</string>
+    <string name="pref_security_remember_passwords">Recordar contrasenyes</string>
+    <string name="pref_security_remember_passwords_summary">Desar els noms d\'usuari i les contrasenyes dels llocs web</string>
+    <string name="pref_security_save_form_data">Recordar dades de formularis</string>
+    <string name="pref_security_save_form_data_summary">Recordar les dades que vaig introduir al formulari</string>
+    <string name="pref_security_show_security_warning">Mostrar advertències de seguretat</string>
+    <string name="pref_security_show_security_warning_summary">Mostrar una advertència si hi ha un problema amb la seguretat d\'un lloc web</string>
+    <string name="pref_show_download_dialog">Mostrar diàleg de descàrrega</string>
+    <string name="pref_show_header_news">Mostrar hora/temps/notícies de la pàgina anterior</string>
+    <string name="pref_show_red_badge_notity">Mostrar notificació amb distintiu vermell</string>
+    <string name="pref_show_status_bar">Mostrar la barra d\'estat</string>
+    <string name="pref_text_zoom">Escala de text</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Acceptar</string>
+    <string name="product_no_agree">No acceptar</string>
+    <string name="progress_dialog_setting_wallpaper">Configurant fons de pantalla…</string>
+    <string name="prompt_already_saved_bookmark">Aquest marcador ja està afegit</string>
+    <string name="prompt_already_saved_off">Aquesta pàgina ja està desada</string>
+    <string name="prompt_saved_off_line">Desat a pàgines offline</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Col·loca el codi QR dins de la caixa i comença a escanejar</string>
+    <string name="refresh">Actualitzar</string>
+    <string name="remember_preference">Recorda la preferència</string>
+    <string name="remove">Eliminar</string>
+    <string name="remove_bookmark">Elimina el marcador</string>
+    <string name="remove_items_all">Eliminar elements</string>
+    <string name="remove_snapshot">Eliminar pàgina desada</string>
+    <string name="removed_from_bookmarks">Eliminat dels marcadors.</string>
+    <string name="rename">Renomena fitxers</string>
+    <string name="rename_failed">Error en el canvi de nom</string>
+    <string name="rename_success">Canvi de nom realitzat</string>
+    <string name="replace_file">Substituir fitxer</string>
+    <string name="request_fail">Sol·licitud fallida, si us plau torna a provar més tard</string>
+    <string name="request_read_external_storage_error">Error en sol·licitar l\'accés a la memòria del telèfon</string>
+    <string name="resource_audio_capture">micròfon</string>
+    <string name="resource_protected_media_id">ID de mitjà protegit</string>
+    <string name="resource_video_capture">càmera</string>
+    <string name="right_recommend_add_link_not_title">Si us plau, introduïu el títol</string>
+    <string name="right_recommend_add_link_not_url">Si us plau, introduïu la URL</string>
+    <string name="right_recommend_add_link_repeat">La URL ja existeix</string>
+    <string name="right_recommend_add_link_saved">Desat</string>
+    <string name="right_recommend_add_link_url_format">Aquesta URL és incorrecta</string>
+    <string name="right_recommend_tools_desktop">Escriptori</string>
+    <string name="right_recommend_tools_remove">Eliminar</string>
+    <string name="sdcard_free">%1$s lliure/%2$s</string>
+    <string name="search_hint">Cerca o escriu URL</string>
+    <string name="search_history">Historial de cerca</string>
+    <string name="search_settings_description">Marcadors i historial web</string>
+    <string name="search_the_web">Cerca a la web</string>
+    <string name="security_warning">Advertència de seguretat</string>
+    <string name="select_dot">Selecciona el text</string>
+    <string name="select_download_path">Seleccionar la carpeta \"%s\" com a ubicació de descàrrega</string>
+    <string name="select_location">Seleccionar ubicació</string>
+    <string name="select_qr_code" translatable="false">Selecciona la imatge del codi QR</string>
+    <string name="sendText">Tria una acció per al text</string>
+    <string name="set_as_homepage">Estableix com a pàgina d\'inici</string>
+    <string name="set_default_browser">Establir com a navegador per defecte</string>
+    <string name="set_default_failure">Error en establir com a predeterminat. Torna a provar, si us plau.</string>
+    <string name="set_default_success">Configuració feta amb èxit!</string>
+    <string name="setting_bottom_day">Mode clar</string>
+    <string name="setting_bottom_expanding">expandint</string>
+    <string name="setting_bottom_night">Mode fosc</string>
+    <string name="setting_update_speech_recognition">Entrada de veu desactivada, si us plau, actualitzeu el servei de veu de Google</string>
+    <string name="share">Comparteix</string>
+    <string name="share_dialog_title" translatable="false">Compartir pàgina web</string>
+    <string name="shortcut_bookmark">Marcador</string>
+    <string name="shortcut_bookmark_title">Tria un marcador</string>
+    <string name="show_dev_on">Ara ets un desenvolupador!</string>
+    <string name="sign_in_to">Iniciar sessió a %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Sense títol</string>
+    <string name="ssl_certificate">Certificat de seguretat</string>
+    <string name="ssl_certificate_is_valid">Aquest certificat és vàlid.</string>
+    <string name="ssl_continue">Continuar</string>
+    <string name="ssl_date_invalid">Aquest certificat té una data no vàlida.</string>
+    <string name="ssl_expired">Aquest certificat ha caducat.</string>
+    <string name="ssl_invalid">Aquest certificat no és vàlid.</string>
+    <string name="ssl_mismatch">El nom del lloc no coincideix amb el nom al certificat.</string>
+    <string name="ssl_not_yet_valid">Aquest certificat encara no és vàlid.</string>
+    <string name="ssl_unknown">Error desconegut del certificat.</string>
+    <string name="ssl_untrusted">Aquest certificat no és de cap autoritat de confiança.</string>
+    <string name="ssl_warnings_header">Hi ha problemes amb el certificat de seguretat d\'aquest lloc.</string>
+    <string name="stopping">Aturant...</string>
+    <string name="storage_space_lack">Espai d\'emmagatzematge insuficient</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Confirma que has seleccionat la imatge correcta</string>
+    <string name="swipe_up_tip">Pots lliscar cap amunt per esborrar la pestanya</string>
+    <string name="tab_snapshots">Pàgines desades</string>
+    <string name="text_count_can_input">%1$d caràcters disponibles per introduir</string>
+    <string name="title_activity_add_link">Afegir enllaç</string>
+    <string name="title_clear_all_history">Esborrar tot l\'historial?</string>
+    <string name="title_clear_bookmark">Esborrar marcador?</string>
+    <string name="title_clear_history">Esborrar historial?</string>
+    <string name="title_clear_off_line">Esborrar pàgines desades?</string>
+    <string name="too_many_subwindows_dialog_message">Només es pot obrir una finestra emergent al mateix temps.</string>
+    <string name="too_many_subwindows_dialog_title">Emergent ja obert</string>
+    <string name="too_many_windows_dialog_message">No es pot obrir una nova pestanya fins que tanquis una.</string>
+    <string name="toolbox_menu_off">DESACTIVAT</string>
+    <string name="toolbox_menu_on">ACTIVAT</string>
+    <string name="total">Total</string>
+    <string name="ua_switcher_desktop">Sol·licitar la versió d\'escriptori</string>
+    <string name="unknown">desconegut</string>
+    <string name="unknown_error">Error desconegut, si us plau torna a provar.</string>
+    <string name="unknown_file">tipus de fitxer desconegut</string>
+    <string name="update_at_once">Actualitza</string>
+    <string name="update_content1">1. Els nostres científics súper intel·ligents han fet que les pàgines web carreguin a la velocitat del llamp!</string>
+    <string name="update_content2">2. La nostra dissenyadora encantadora ha fet màgia i ha fet que tot sembli encara més bonic!</string>
+    <string name="update_content3">3. I els nostres increïbles desenvolupadors? Es van quedar fins tard bevent cafè, espantant tots aquests molestos errors!</string>
+    <string name="update_later">Actualitzar més tard</string>
+    <string name="update_now">Vés a Google Play per descarregar l\'aplicació.</string>
+    <string name="update_remind">Notificació d\'actualització</string>
+    <string name="update_tips1">Sí, ho has encertat! Una nova actualització està aquí!</string>
+    <string name="update_tips2">✨Tot per millorar la teva experiència!\nVés-hi, actualitza ara i descobreix-ho! ✨</string>
+    <string name="update_title">S\'ha trobat una nova versió</string>
+    <string name="upload_image">Pujar imatges</string>
+    <string name="uploads_disabled">Els càrrecs de fitxers estan desactivats.</string>
+    <string name="username">Nom</string>
+    <string name="versionUpdate">Actualitza</string>
+    <string name="video_mobile_pause">Cancel·lar</string>
+    <string name="video_mobile_permission">Estàs utilitzant la xarxa mòbil. Vols continuar jugant?</string>
+    <string name="video_mobile_play">Reproduir</string>
+    <string name="view">Veure</string>
+    <string name="view_certificate">Veure certificat</string>
+    <string name="view_select_all">Seleccionar tot</string>
+    <string name="visit_url_ok">Visitar</string>
+    <string name="visit_url_title">Visitar aquesta URL des del teu porta-retalls?</string>
+    <string name="website_AI">IA</string>
+    <string name="website_hot">Popular</string>
+    <string name="website_lifestyle">Vida</string>
+    <string name="website_news">Notícies•Esports</string>
+    <string name="website_recommend">Recomanat</string>
+    <string name="website_settings_list_header_text">Accés a la ubicació</string>
+    <string name="website_shoping">Entreteniment•Compres</string>
+    <string name="website_social">Social</string>
+    <string name="website_tools">Eines</string>
+    <string name="website_videos">Vídeos</string>
+    <string name="webstorage_clear_data_title">Esborrar dades emmagatzemades</string>
+    <string name="webstorage_origin_summary_mb_stored">MB emmagatzemats al teu telèfon</string>
+    <string name="webstorage_outofspace_notification_text">Toca per alliberar espai.</string>
+    <string name="webstorage_outofspace_notification_title">Emmagatzematge del navegador ple</string>
+    <string name="write_advice_please">Descriu la teva opinió o suggeriment amb paraules... (1000 paraules)</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">D\'acord</string>
+    <string name="zxing_msg_camera_framework_bug">S\'ha produït un problema amb la càmera de l\'Android. Potser haureu de reiniciar el dispositiu.</string>
+    <string name="zxing_msg_default_status">Poseu un codi de barres dins el rectangle per escanejar-lo.</string>
+</resources>

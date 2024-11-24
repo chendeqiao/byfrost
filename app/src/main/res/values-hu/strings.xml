@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="uploads_disabled">A fájlok feltöltése le van tiltva.</string>
+    <string name="new_tab">Új fül</string>
+    <string name="new_incognito_tab">Új inkognitó fül</string>
+    <string name="tab_snapshots">Mentett oldalak</string>
+    <string name="removed_from_bookmarks">Eltávolítva a könyvjelzőkből.</string>
+    <string name="sign_in_to">Bejelentkezés a %1$s \"%2$s\" alkalmazásba</string>
+    <string name="username">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="action">Bejelentkezés</string>
+    <string name="bookmarks_add_page">Oldal hozzáadása könyvjelzőkhöz</string>
+    <string name="bookmarks_search">Böngésző</string>
+    <string name="cancel">Mégse</string>
+    <string name="ok">OK</string>
+    <string name="delete">Törlés</string>
+    <string name="modify">Módosítás</string>
+    <string name="add_to_homepage">Hozzáadás a kezdőlaphoz</string>
+    <string name="add_to_desktop">Asztal</string>
+    <string name="rename">Fájl átnevezése</string>
+    <string name="copy_link">Hivatkozás másolása</string>
+    <string name="share">Megosztás</string>
+    <string name="most_visited">Legtöbbet látogatott</string>
+
+    <string name="allow">Engedélyezés</string>
+    <string name="go_back">Vissza</string>
+    <string name="bookmarks">Könyvjelzők</string>
+    <string name="bookmark_list">Könyvjelzők listája</string>
+    <string name="go">Mehet</string>
+    <string name="clear">Törlés</string>
+    <string name="clear_default_browser">Alapértelmezett böngésző beállításainak törlése</string>
+    <string name="already_cleared">Törölve</string>
+    <string name="open">Megnyitás</string>
+    <string name="history">Történelem</string>
+    <string name="remember_preference">Beállítások megjegyzése</string>
+    <string name="block">Blokkolás</string>
+    <string name="clear_data_success">Törlés sikeresen</string>
+    <string name="exit">Kilépés</string>
+    <string name="clear_all">Összes törlése</string>
+
+    <string name="page_info">Oldal információ</string>
+    <string name="page_info_view">Oldal információ megtekintése</string>
+    <string name="page_info_address">Cím:</string>
+
+    <string name="ssl_warnings_header">Problémák merültek fel az oldal biztonsági tanúsítványával.</string>
+    <string name="ssl_continue">Folytatás</string>
+    <string name="security_warning">Biztonsági figyelmeztetés</string>
+    <string name="view_certificate">Tanúsítvány megtekintése</string>
+    <string name="ssl_certificate">Biztonsági tanúsítvány</string>
+    <string name="ssl_untrusted">Ez a tanúsítvány nem megbízható hatóságtól származik.</string>
+    <string name="ssl_mismatch">Az oldal neve nem egyezik a tanúsítványon szereplő névvel.</string>
+    <string name="ssl_expired">Ez a tanúsítvány lejárt.</string>
+    <string name="ssl_not_yet_valid">Ez a tanúsítvány még nem érvényes.</string>
+    <string name="ssl_date_invalid">Ez a tanúsítvány érvénytelen dátumot tartalmaz.</string>
+    <string name="ssl_invalid">Ez a tanúsítvány érvénytelen.</string>
+    <string name="ssl_certificate_is_valid">Ez a tanúsítvány érvényes.</string>
+    <string name="ssl_unknown">Ismeretlen tanúsítvány hiba.</string>
+    <string name="stopping">Leállítás\u2026</string>
+
+    <string name="location">Cím</string>
+    <string name="account">Fiók</string>
+    <string name="containing_folder">Hozzáadás ide</string>
+    <string name="new_folder">Új mappa</string>
+    <string name="edit_folder">Mappa szerkesztése</string>
+    <string name="delete_folder">Mappa törlése</string>
+    <string name="no_subfolders">Nincsenek almappák.</string>
+    <string name="add_to_homescreen_menu_option">Kezdőképernyő</string>
+    <string name="add_to_other_folder_menu_option">Másik mappa</string>
+    <string name="name">Címke</string>
+    <string name="bookmark_this_page">Oldal könyvjelzőzése</string>
+    <string name="remove">Eltávolítás</string>
+    <string name="edit_bookmark">Könyvjelző szerkesztése</string>
+    <string name="create_shortcut_bookmark">Parancsikon hozzáadása a kezdőképernyőhöz</string>
+    <string name="remove_bookmark">Könyvjelző törlése</string>
+    <string name="set_as_homepage">Beállítás kezdőlapnak</string>
+    <string name="bookmark_saved">Könyvjelzőhöz mentve</string>
+    <string name="bookmark_not_saved">A könyvjelző mentése nem sikerült</string>
+    <string name="bookmark_needs_title">\"A könyvjelzőnek rendelkeznie kell névvel\"</string>
+    <string name="bookmark_needs_url">\"A könyvjelzőhöz URL szükséges\"</string>
+    <string name="bookmark_url_not_valid">Ez az URL érvénytelen</string>
+    <string name="bookmark_cannot_save_url">Ez az URL nem könyvjelzőzhető</string>
+    <string name="delete_bookmark_warning">Biztosan törli a \"%s\" könyvjelzőt?</string>
+    <string name="open_all_in_new_window">Összes megnyitása új fülekben</string>
+    <string name="select_dot">Szöveg kijelölése</string>
+    <string name="shortcut_bookmark">Könyvjelző</string>
+    <string name="shortcut_bookmark_title">Válasszon egy könyvjelzőt</string>
+    <string name="contextheader_folder_bookmarkcount">%d könyvjelző</string>
+    <string name="contextheader_folder_empty">Üres mappa</string>
+    <string name="contextmenu_openlink_newwindow">Megnyitás új fülben</string>
+    <string name="contextmenu_openlink_newwindow_background">Megnyitás háttérben</string>
+    <string name="contextmenu_savelink">Hivatkozás mentése</string>
+    <string name="contextmenu_sharelink">Hivatkozás megosztása</string>
+    <string name="contextmenu_copy">Másolás</string>
+    <string name="contextmenu_copylink">Hivatkozás URL másolása</string>
+    <string name="contextmenu_download_image">Kép mentése</string>
+    <string name="contextmenu_view_image">Kép megtekintése</string>
+    <string name="contextmenu_set_wallpaper">Beállítás háttérképnek</string>
+    <string name="contextmenu_set_wallpaper_image">Háttérkép</string>
+
+    <string name="contextmenu_dial_dot">Hívás\u2026</string>
+    <string name="contextmenu_add_contact">Kapcsolat hozzáadása</string>
+    <string name="contextmenu_send_mail">E-mail küldése</string>
+    <string name="contextmenu_map">Térkép</string>
+    <string name="choosertitle_sharevia">Megosztás itt:</string>
+    <string name="menu_preferences">Beállítások</string>
+
+    <string name="pref_ad_block">Hirdetésblokkolás</string>
+    <string name="pref_notification_tool_show">Keresősáv megjelenítése az értesítési panelen</string>
+    <string name="pref_force_userscalable_summary">Felülírja az oldal kérését a zoom viselkedés irányítására</string>
+    <string name="pref_default_text_encoding">Szövegkódolás</string>
+    <string name="pref_default_ad_time">Hirdetésjelölési idő</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kínai (GBK)</item>
+        <item>Kínai (Big5)</item>
+        <item>Japán (ISO-2022-JP)</item>
+        <item>Japán (SHIFT_JIS)</item>
+        <item>Japán (EUC-JP)</item>
+        <item>Koreai (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">Webhelybeállítások</string>
+    <string name="pref_content_search_engine">Keresőmotor beállítása</string>
+    <string name="pref_search_engine_dialog_title">Válasszon keresőmotort</string>
+    <string name="pref_download_path_setting_screen_title">Egyéni letöltési mappa</string>
+    <string name="pref_privacy_security_title">Adatvédelem és biztonság</string>
+    <string name="pref_privacy_security_title_summary">Engedélyezze a böngésző számára, hogy megjegyezze a jelszavakat, mentett űrlapokat stb.</string>
+
+    <string name="pref_privacy_clear_data">Adatok törlése</string>
+    <string-array name="pref_clear_data_choices">
+        <item>Gyorsítótár</item>
+        <item>Cookie-k</item>
+        <item>Űrlapok</item>
+        <item>Történelem</item>
+        <item>Jelszavak</item>
+        <item>Helyhozzáférés</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Helyben tárolt gyorsítótár és adatbázisok törlése</item>
+        <item>Az összes süti törlése</item>
+        <item>Az összes mentett űrlap adat törlése</item>
+        <item>Az összes böngészési előzmény törlése</item>
+        <item>Az összes mentett fiók és jelszó törlése</item>
+        <item>A helyhozzáférési engedélyek visszavonása az összes webhely számára</item>
+    </string-array>
+    <string name="pref_feedback">Visszajelzés</string>
+    <string name="pref_default_browser">Alapértelmezett böngésző beállítása</string>
+    <string name="pref_confirm_on_exit">Kérdezzen rá kilépés előtt</string>
+    <string name="pref_show_status_bar">A státuszsor megjelenítése</string>
+    <string name="pref_about">Névjegy</string>
+    <string name="pref_extras_reset_default">Alapértelmezett értékek visszaállítása</string>
+    <string name="pref_extras_reset_default_dlg">Visszaállítja a beállításokat az alapértelmezett értékekre?</string>
+
+    <string name="accessibility_button_uaswitch">Felhasználói ügynök váltása</string>
+    <string-array name="pref_user_agent_choices">
+        <item>Alapértelmezett</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Számítógép</item>
+    </string-array>
+    <string name="pref_font_size">Betűméret</string>
+    <string name="pref_font_size_summary">A szöveg és betűtípus méretének módosítása</string>
+    <string name="pref_force_userscalable">Zoom kényszerített engedélyezése</string>
+
+    <string name="pref_security_accept_cookies">Sütik elfogadása</string>
+    <string name="pref_security_accept_cookies_summary">Engedélyezze a webhelyek számára, hogy süti adatokat tároljanak és olvassanak</string>
+    <string name="pref_privacy_enable_geolocation">Helymeghatározás engedélyezése</string>
+    <string name="pref_privacy_enable_geolocation_summary">Engedélyezze a webhelyek számára, hogy hozzáférjenek a helyéhez</string>
+    <string name="pref_security_save_form_data">Űrlapadatok mentése</string>
+    <string name="pref_security_save_form_data_summary">Mentse a kitöltött űrlapadatokat</string>
+    <string name="pref_security_remember_passwords">Jelszavak megjegyzése</string>
+    <string name="pref_security_remember_passwords_summary">Mentse a felhasználóneveket és jelszavakat a webhelyekhez</string>
+    <string name="pref_security_show_security_warning">Biztonsági figyelmeztetések megjelenítése</string>
+    <string name="pref_security_show_security_warning_summary">Figyelmeztetés megjelenítése, ha biztonsági probléma van egy webhellyel</string>
+    <string name="pref_download_with_ADM">Letöltés ADM-mel</string>
+    <string name="pref_show_download_dialog">Letöltési párbeszédablak megjelenítése</string>
+
+    <string name="pref_download">Letöltési beállítások</string>
+    <string-array name="pref_text_size_choices">
+        <item>Kicsi</item>
+        <item>Közepes</item>
+        <item>Normál</item>
+        <item>Nagy</item>
+        <item>Óriási</item>
+    </string-array>
+    <string name="pref_text_zoom">Szöveg skálázás</string>
+    <string name="pref_min_font_size">Minimális betűméret</string>
+
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_always" translatable="false">ALWAY</string>
+
+    <string name="browserFrameNetworkErrorLabel">Kapcsolódási hiba</string>
+    <string name="browserFrameFileErrorLabel">Fájl hiba</string>
+    <string name="browserFrameFormResubmitMessage">A megtekinteni kívánt oldalon olyan adat található, amely már el lett küldve ("POSTDATA"). Ha újra elküldi az adatokat, az oldal űrlapja által végrehajtott bármilyen művelet (például keresés vagy online vásárlás) megismétlődik.</string>
+    <string name="empty_history">Nincsenek böngészési előzmények</string>
+    <string name="add_new_bookmark">Hozzáadás könyvjelzőhöz</string>
+    <string name="find_on_page">Keresés az oldalon</string>
+    <string name="search_hint">Keresés vagy URL beírása</string>
+    <string name="search_settings_description">Könyvjelzők és webtörténet</string>
+
+    <string name="too_many_windows_dialog_message">Nem nyithatsz új lapot, amíg nem zársz be egyet.</string>
+    <string name="too_many_subwindows_dialog_title">Már nyitva van egy felugró ablak</string>
+    <string name="too_many_subwindows_dialog_message">Csak egy felugró ablak lehet nyitva egyszerre.</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">Nincs SD-kártya</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">SD-kártya szükséges a %s letöltéséhez.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD-kártya nem elérhető</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Az SD-kártya foglalt. A letöltés engedélyezéséhez érintse meg az USB-tároló kikapcsolása opciót az értesítések között.</string>
+
+    <string name="download_pending">Letöltés indítása...</string>
+    <string name="search_the_web">Web keresése</string>
+
+    <string name="webstorage_outofspace_notification_title">Böngésző tároló megtelt</string>
+    <string name="webstorage_outofspace_notification_text">Érintse meg a hely felszabadításához.</string>
+    <string name="webstorage_clear_data_title">Tárolt adatok törlése</string>
+    <string name="webstorage_origin_summary_mb_stored">MB tárolva a telefonján</string>
+    <string name="loading_video">Videó betöltése...</string>
+    <string name="permissions_prompt_message">%1$s szeretné használni a %2$s-t.</string>
+    <string name="permissions_prompt_deny">Elutasítás</string>
+    <string name="resource_protected_media_id">védett média azonosító</string>
+    <string name="resource_video_capture">kamera</string>
+    <string name="resource_audio_capture">mikrofon</string>
+    <string name="geolocation_permissions_prompt_message">%s szeretné tudni a tartózkodási helyét</string>
+    <string name="geolocation_permissions_prompt_share">Hely megosztása</string>
+    <string name="geolocation_permissions_prompt_dont_share">Elutasítás</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Ez az oldal hozzáférhet a helyzetéhez. Módosíthatja a Beállítások > Speciális > Weboldal beállítások menüpontban.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Ez az oldal nem férhet hozzá a helyzetéhez. Módosíthatja a Beállítások > Speciális > Weboldal beállítások menüpontban.</string>
+    <string name="geolocation_settings_page_title">Hozzáférés letiltása a helyzetéhez</string>
+    <string name="geolocation_settings_page_summary_allowed">Ez az oldal jelenleg hozzáférhet a helyzetéhez</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Ez az oldal nem férhet hozzá a helyzetéhez</string>
+    <string name="geolocation_settings_page_dialog_message">Törölje a helyhez való hozzáférést ezen a weboldalon?</string>
+    <string name="website_settings_list_header_text">Helyhozzáférés</string>
+
+    <string name="progress_dialog_setting_wallpaper">Háttérkép beállítása...</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">JavaScript konzol megjelenítése</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript konzol</string>
+    <string name="error_console_eval_text_hint" translatable="false">JavaScript kiértékelése</string>
+    <string name="error_console_eval_button_text" translatable="false">Kiértékelés</string>
+    <string name="empty_bookmarks_folder">A könyvjelzői üresek</string>
+    <string name="other_bookmarks">Egyéb könyvjelzők</string>
+
+    <string name="max_tabs_warning">Nincs több elérhető lap</string>
+    <string name="local_bookmarks">Helyi</string>
+    <string name="empty_snapshots_folder">Nincsenek elmentett oldalak</string>
+    <string name="remove_snapshot">Elmentett oldal törlése</string>
+    <string name="accessibility_button_forward">Előre lépés</string>
+    <string name="accessibility_button_refresh">Oldal frissítése</string>
+    <string name="accessibility_button_stop">Oldal betöltésének leállítása</string>
+    <string name="accessibility_button_addbookmark">Oldal könyvjelzőzése</string>
+    <string name="accessibility_button_search">Keresés</string>
+    <string name="accessibility_button_voice">Hang alapú keresés indítása</string>
+    <string name="accessibility_button_closetab">Lap bezárása</string>
+    <string name="accessibility_button_newtab">Új lap megnyitása</string>
+    <string name="accessibility_button_more">További lehetőségek</string>
+
+    <string name="accessibility_state_incognito">Inkognitó oldal</string>
+    <string name="accessibility_state_frozen">Elmentett oldal</string>
+
+    <string name="accessibility_transition_navscreen">Lapkezelés</string>
+    <string name="accessibility_button_bookmarks_folder_up">Előző mappa</string>
+    <string name="sendText">Válasszon műveletet a szövegre</string>
+
+    <string name="cancelDel">Mégse törlés?</string>
+
+    <string name="write_advice_please">Kérjük, írja le véleményét vagy javaslatát... (1000 szó)</string>
+    <string name="feed_back_sucess">Megkaptuk a véleményét és javaslatait, köszönjük.</string>
+    <string name="check_network">A hálózati probléma miatt a beküldés nem sikerült, kérjük ellenőrizze.</string>
+    <string name="commit_fail">A beküldés nem sikerült, próbálja újra később</string>
+    <string name="please_input_over_six">Kérjük, adjon meg legalább 6 karaktert</string>
+    <string name="please_input_under_max">Kérjük, adjon meg legfeljebb %1$d karaktert</string>
+    <string name="email">E-mail:</string>
+    <string name="email_is_error">Kérjük, adjon meg egy helyes telefonszámot</string>
+    <string name="add_pic">Kép hozzáadása:</string>
+    <string name="optional">(Opcionális)</string>
+    <string name="please_leave_your_email">Kérjük, adja meg az e-mail címét</string>
+    <string name="feedback_other">Egyéb:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Opcionális)</string>
+    <string name="feedback_submit">Beküldés</string>
+
+    <string name="versionUpdate">Frissítés</string>
+    <string name="messageContent">Új verzió érhető el a %s-hez, frissíthet most.</string>
+    <string name="update_at_once">Frissítés</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">Frissítés ellenőrzése</string>
+    <string name="pref_contact_us">Kapcsolatfelvétel:</string>
+
+    <string name="pref_agreement">Felhasználási feltételek</string>
+    <string name="pref_privacy_policy">Adatvédelmi irányelvek</string>
+
+    <string name="check_for_update">Frissítés keresése...</string>
+    <string name="request_fail">A kérés nem sikerült, próbálja újra később</string>
+    <string name="update_remind">Frissítési értesítés</string>
+    <string name="is_latest">Ez már a legújabb verzió!</string>
+    <string name="no_prompt">Ne kérdezzen többet</string>
+    <string name="download">Letöltés</string>
+    <string name="downloading">Letöltés folyamatban</string>
+    <string name="downloaded">Letöltve</string>
+    <string name="download_removed">Eltávolítva</string>
+    <string name="download_pause">Letöltés szüneteltetve</string>
+    <string name="download_failed">Letöltés sikertelen</string>
+    <string name="unknown_file">Ismeretlen fájltípusok</string>
+    <string name="no_downloads">Nincs letöltés</string>
+    <string name="downloadmanager_disabled">A letöltéskezelő le van tiltva. Kérjük, engedélyezze.</string>
+    <string name="cannot_open_the_file">Nincs eljárás a fájl megnyitására</string>
+    <string name="download_allow_mobile">Engedélyezze a fájl letöltést mobilhálózaton?</string>
+    <string name="allow_download">Letöltés engedélyezése</string>
+    <string name="allow_download_no">Csatlakoztassa a WiFi-t</string>
+    <string name="download_list">Letöltési lista</string>
+    <string name="storage_space_lack">Nincs elég szabad hely</string>
+    <string name="new_file">Új fájl létrehozása</string>
+    <string name="replace_file">Fájl cseréje</string>
+
+    <string name="default_location">Alapértelmezett hely:%1$s</string>
+    <string name="select_location">Hely kiválasztása</string>
+    <string name="sdcard_free">%1$s szabad/%2$s</string>
+
+    <string name="menu_browser_add_bookmark">Könyvjelző hozzáadása</string>
+    <string name="menu_browser_night">Szem védő</string>
+    <string name="menu_browser_incognito">Inkognitó</string>
+    <string name="menu_browser_close_incognito">Normál</string>
+    <string name="menu_browser_history">Történelem</string>
+    <string name="menu_browser_bookmarks">Könyvjelzők</string>
+    <string name="menu_browser_downloads">Letöltések</string>
+    <string name="menu_browser_no_image">Nincs kép</string>
+    <string name="menu_browser_full_screen">Teljes képernyő</string>
+    <string name="menu_browser_font_size">Betűméret</string>
+    <string name="menu_browser_search_page">Keresés az oldalon</string>
+    <string name="menu_browser_snapshots">Oldal mentése</string>
+
+    <string name="menu_browser_settings">Beállítások</string>
+    <string name="menu_browser_Tools">Eszközök</string>
+    <string name="menu_browser_quit">Kilépés</string>
+
+    <string name="title_clear_off_line">Törölje a mentett oldalakat?</string>
+    <string name="title_clear_history">Törölje a történelmet?</string>
+    <string name="title_clear_all_history">Törölje az összes történelmet?</string>
+    <string name="title_clear_bookmark">Törölje a könyvjelzőt?</string>
+    <string name="enter_incognito_mode">Átváltás inkognitó módra</string>
+    <string name="enter_normal_mode">Átváltás normál módra</string>
+    <string name="swipe_up_tip">Felfelé húzással törölheti a lapot</string>
+    <string name="empty_info_most_visited">Nincs rekord</string>
+
+    <string name="prompt_saved_off_line">Mentve az offline oldalakra</string>
+    <string name="prompt_already_saved_off">Már elmentette ezt az oldalt</string>
+    <string name="prompt_already_saved_bookmark">Már hozzáadta ezt a könyvjelzőt</string>
+    <string name="incognito_home">Ön inkognitó módban van</string>
+    <string name="incognito_home_content">Most inkognitó módban van.</string>
+    <string name="edit">Szerkesztés</string>
+
+    <string name="exit_dialog_title">Kilépés a böngészőből?</string>
+    <string-array name="exit_dialog_choices">
+        <item>Történelem és gyorsítótár törlése</item>
+        <item>Ne kérdezze meg újra</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">Hirdetést találtunk, engedélyezze most az AD Block-ot?</string>
+    <string name="visit_url_title">Látogasson el erre az URL-re a vágólapról?</string>
+    <string name="visit_url_ok">Látogatás</string>
+    <string name="incognito_home_tip">Kiléphet inkognitó módból és visszatérhet a normál módba.</string>
+    <string name="snap_shot_no_title">Cím nélküli</string>
+    <string name="view_select_all">Összes kijelölése</string>
+    <string name="set_default_browser">Alapértelmezett böngésző beállítása</string>
+    <string name="enter_settings_page">Kérjük, lépjen be a Beállítások oldalra, miután a törlés befejeződött.</string>
+    <string name="clear_default_setting_please">Egy másik böngésző van beállítva alapértelmezettként, kérjük, törölje a böngésző alapértelmezett beállítását.</string>
+    <string name="unknown_error">Ismeretlen hiba, próbálja újra.</string>
+    <string name="set_default_success">A beállítás sikeres!</string>
+    <string name="set_default_failure">Alapértelmezett beállítási hiba. Kérjük, próbálja újra.</string>
+
+    <string name="default_bookmark">Alapértelmezett könyvjelző</string>
+
+    <string name="click_again_quit">Koppintson újra a kilépéshez</string>
+    <string name="clear_all_already">Már törölve minden adat!</string>
+    <string name="select_download_path">Válassza a \"%s\" mappát letöltési helyül</string>
+
+    <string name="contact_us_on_facebook">Lépjen velünk kapcsolatba a Facebookon</string>
+    <string name="text_count_can_input">%1$d karaktert írhat be</string>
+    <string name="input_over_flow">Beküldési hiba, %1$d karakter meghaladja a korlátot</string>
+    <string name="upload_image">Képek feltöltése</string>
+    <string name="request_read_external_storage_error">Hozzáférési hiba a telefon memóriájához</string>
+    <string name="get_photo_failure">Képek beszerzésének hibája</string>
+
+    <string name="title_activity_add_link">Link hozzáadása</string>
+    <string name="btn_recommend_add">Hozzáadás</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">Kérjük, adja meg a címet</string>
+    <string name="right_recommend_add_link_not_url">Kérjük, adja meg az URL-t</string>
+    <string name="right_recommend_add_link_url_format">Ez az URL hibás</string>
+    <string name="right_recommend_add_link_saved">Elmentve</string>
+    <string name="right_recommend_add_link_repeat">Az URL már létezik</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">Asztali</string>
+    <string name="right_recommend_tools_remove">Eltávolítás</string>
+
+    <string name="file_name">Fájl neve</string>
+    <string name="copylink_success">Link másolva</string>
+    <string name="add_to_homepage_success">Hozzáadva a kezdőlaphoz</string>
+    <string name="add_to_desktop_success">Hozzáadva az asztalihoz</string>
+    <string name="clear_history_all">Összes történelem törlése</string>
+    <string name="remove_items_all">Elemek eltávolítása</string>
+    <string name="rename_failed">Átnevezés sikertelen</string>
+    <string name="rename_success">Átnevezés sikeres</string>
+    <string name="filename_empty">A fájl neve nem lehet üres</string>
+    <string name="file_exist">A fájl már létezik</string>
+    <string name="file_not_exist">A fájl nem létezik</string>
+
+    <string name="menu_tools_box">Eszköztár</string>
+    <string name="toolbox_menu_on">BE</string>
+    <string name="toolbox_menu_off">KI</string>
+    <string name="home_page">Kezdőlap</string>
+    <string name="desktop">Asztal</string>
+    <string name="name_cannot_empty">A webhely neve nem lehet üres</string>
+
+    <string name="setting_update_speech_recognition">A hangbevitel letiltva, kérjük, frissítse a Google hangszolgáltatást</string>
+    <string name="done">KÉSZ</string>
+    <string name="edited">SZERKESZTVE</string>
+    <string name="enter_website_name">Adja meg a webhely nevét</string>
+
+    <string name="unknown">ismeretlen</string>
+    <string name="available">Elérhető</string>
+    <string name="total">Összesen</string>
+    <string name="notification_content_text">Kattintson a megtekintéshez</string>
+    <string name="notification_download_finish">Letöltés befejezve</string>
+    <string name="view">Megtekintés</string>
+
+    <string name="five_stars_titile">Élvezed a %s?-t?</string>
+    <string name="five_stars_content">Az 5 csillagos értékelés sokat jelent számunkra.</string>
+    <string name="five_stars_later">Később</string>
+    <string name="five_stars">5 csillag</string>
+    <string name="refresh">Frissítés</string>
+    <string name="ua_switcher_desktop">Asztali webhely kérés</string>
+
+    <string name="video_mobile_permission">Mobilhálózatot használ. Továbbra is szeretnéd lejátszani?</string>
+    <string name="video_mobile_play">Lejátszás</string>
+    <string name="video_mobile_pause">Mégse</string>
+    <string name="close_all_incognito_notification">Az összes inkognitó fül bezárása</string>
+    <string name="add_up_to_15">Maximálisan 20 hozzáadása</string>
+    <string name="pref_deverloper_options">Fejlesztői beállítások</string>
+    <string name="show_dev_on">Most már fejlesztő vagy!</string>
+
+    <string name="pic_ad_block_count">Blokkolt képek</string>
+    <string name="js_ad_block_count">Blokkolt JavaScript fájlok</string>
+    <string name="popup_ad_block_count">Blokkolt felugró ablakok</string>
+    <string name="custom_rules">Egyéni AdBlock szűrők</string>
+    <string name="custom_rules_title">AdBlock szűrők</string>
+    <string name="confirm_deletion">Törölni szeretné?</string>
+    <string name="add">Hozzáadás</string>
+    <string name="confirm_deletion_all">Összes törlése?</string>
+
+    <string name="js_disable_hosts">Állítson be reklámmegjelenítési időkorlátot</string>
+    <string name="js_disable_hosts_title">Bizonyos domainek</string>
+    <string name="null_rules_prompt">Hozzáadhatja a saját szabályait. A szabályoknak az Adblock Plus szintaxisát kell követniük. Használati útmutató.</string>
+
+    <string name="instructions_label">Használati útmutató</string>
+    <string name="adblock_rules_error_prompt">Szintaxis hiba, kérjük, szerkessze újra!</string>
+    <string name="js_disable_host_error_prompt">Domaine hiba, kérjük, szerkessze újra!</string>
+
+    <string name="leadpage_home">Kezdőlap</string>
+    <string name="leadpage_back">Vissza</string>
+
+    <string name="leadpage_forward">Tovább</string>
+    <string name="abnormal_recover_ok">Visszaállítás</string>
+    <string name="abnormal_recover_message">Visszaállítja az utolsó weboldalt?</string>
+    <string name="abnormal_recover_recovered">Az utolsó munkamenet oldalai visszaállítva.</string>
+
+    <string name="open_most_visited">A leglátogatottabbak megnyitása>></string>
+    <string name="contextmenu_share_app">Alkalmazás megosztása</string>
+    <string name="contextmenu_share_website">Webhely megosztása</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">Eszközök</string>
+
+    <string name="pref_show_red_badge_notity">Piros jelzés megjelenítése</string>
+    <string name="pref_show_header_news">Időjárás/hírek az előző oldalon</string>
+
+    <string name="added_new_bookmark">Könyvjelző hozzáadása</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">Öt csillag</string>
+    <string name="deletion_all">Összes törlése</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="mark_image_ad">Reklám megjelölése</string>
+    <string name="mark_image_ad_fail">Megjelölés sikertelen</string>
+    <string name="product_agree">Elfogadom</string>
+    <string name="product_no_agree">Nem fogadom el</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">Bővítés</string>
+    <string name="setting_bottom_night">Sötét mód</string>
+    <string name="setting_bottom_day">Világos mód</string>
+
+    <string name="update_now">Menj a Google Play Áruházba és töltsd le az alkalmazást.</string>
+    <string name="update_title">Új verzió elérhető</string>
+    <string name="update_later">Később frissíteni</string>
+    <string name="five_stars_comment">Adj javaslatot.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">Keresési előzmények</string>
+    <string name="browser_admin_panel">Felhasználói központ</string>
+    <string name="browser_navigation">Navigáció</string>
+
+    <string name="browser_slogo_fast">Gyorsabb</string>
+    <string name="browser_slogo_safe">Biztonságosabb</string>
+    <string name="browser_slogo_intelligence">Okosabb</string>
+
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost böngésző. \nMinden jog fenntartva.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">Helyezze a QR-kódot a dobozba, és kezdje el a szkennelést</string>
+    <string name="picture_nocodeinfo" translatable="false">Nincs QR-kód információ az képben</string>
+    <string name="picture_scannoinfo" translatable="false">Nincs QR-kód információ a szkenneléskor</string>
+    <string name="share_dialog_title" translatable="false">Weboldal megosztása</string>
+    <string name="my_qrcode" translatable="false">Saját QR-kódom</string>
+    <string name="select_qr_code" translatable="false">QR-kód kiválasztása</string>
+    <string name="sure_select_true_picture" translatable="false">Kérjük, erősítse meg, hogy a helyes képet választotta</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">Bővítse a javasolt webhelyet</string>
+    <string name="browser_slogan" translatable="false">Böngésszen szabadon mindent, amire szüksége van</string>
+    <string name="browser_net_error_refresh" translatable="false">Kattintson az üres területre az oldal frissítéséhez</string>
+
+    <string name="browser_hot_word_title" translatable="false">Népszerű keresési lista</string>
+    <string name="browser_permission_camera">A kamera engedély elutasítva, kérjük, manuálisan engedélyezze</string>
+    <string name="browser_permission_notification">Értesítési sáv engedély elutasítva, kérjük, manuálisan engedélyezze</string>
+    <string name="browser_permission_strone">A fájlok letöltéséhez tárolási engedély szükséges. Kérjük, manuálisan nyissa meg a tárolási engedélyt a beállításokban</string>
+
+    <string name="browser_permission_qr">Ez a funkció memóriahozzáférést igényel. Kérjük, manuálisan engedélyezze a beállításokban</string>
+    <string name="browser_permission_setwall">A telefon háttérképének beállításához memória tárolási engedély szükséges. Kérjük, manuálisan engedélyezze a beállításokban</string>
+    <string name="browser_product_start">Indítás</string>
+    <string name="browser_product_agree_tips">El kell fogadnia a szabályzatot.</string>
+    <string name="browser_privacy_tips">A személyes adatokat a 《Adatvédelmi irányelveink》 szerint kezeljük.</string>
+
+    <string name="byfrost_slogan">Byfrost - Lásd a nagyobb világot!</string>
+    <string name="byfrost_suggestion">Megkaptuk a javaslatát, köszönjük.</string>
+    <string name="byfrost_suggestion_time">A visszajelzési idő nem lehet kevesebb, mint 1 perc az utolsó visszajelzés óta.</string>
+    <string name="update_tips2">✨Minden azért, hogy jobb élményt nyújtsunk!\nNe habozzon, frissítsen most, és nézze meg! ✨</string>
+    <string name="update_tips1">Igen, kitalálta! Itt van egy vadonatúj frissítés!</string>
+    <string name="update_content1">1. A szuperintelligens tudósaink villámgyorsan betöltötték a weboldalakat!</string>
+    <string name="update_content2">2. A kedves tervezőnk varázslatot tett, hogy még szebbé tegye mindent!</string>
+    <string name="update_content3">3. És a csodálatos fejlesztőink? Késő estig kávét szürcsölve üldözték azokat az idegesítő hibákat!</string>
+
+    <string name="lable_news">Hírek</string>
+    <string name="lable_video">Videók</string>
+    <string name="lable_lifestyle">Életmód</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Eszközök</string>
+
+    <string name="lable_weather">Időjárás</string>
+    <string name="lable_calendar">Naptár</string>
+    <string name="lable_maps">Térképek</string>
+    <string name="lable_translate">Fordítás</string>
+
+    <string name="website_recommend">Ajánlott</string>
+    <string name="website_social">Társadalmi</string>
+    <string name="website_lifestyle">Életmód</string>
+    <string name="website_news">Hírek•Sport</string>
+    <string name="website_AI">AI</string>
+    <string name="website_videos">Videók</string>
+    <string name="website_shoping">Szórakozás•Vásárlás</string>
+    <string name="website_tools">Eszközök</string>
+    <string name="website_hot">Forró</string>
+
+
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Android kamera hiba. Lehet, hogy újra kell indítania a készüléket.</string>
+    <string name="zxing_msg_default_status">Pozícionálja a vonalkódot a kereső téglalapba a szkenneléshez.</string>
+</resources>

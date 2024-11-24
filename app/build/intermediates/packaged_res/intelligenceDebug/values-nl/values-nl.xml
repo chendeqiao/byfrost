@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Wis geschiedenis &amp; cache</item>
+        <item>Niet meer vragen</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Formulieren</item>
+        <item>Geschiedenis</item>
+        <item>Wachtwoorden</item>
+        <item>Locatie toegang</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Wis lokaal opgeslagen inhoud en databases</item>
+        <item>Wis alle cookies</item>
+        <item>Wis alle opgeslagen formuliergegevens</item>
+        <item>Wis alle browsegeschiedenis</item>
+        <item>Wis alle opgeslagen accounts en wachtwoorden</item>
+        <item>Annuleer de toestemming voor websites om je locatie op te vragen</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinees (GBK)</item>
+        <item>Chinees (Big5)</item>
+        <item>Japans (ISO-2022-JP)</item>
+        <item>Japans (SHIFT_JIS)</item>
+        <item>Japans (EUC-JP)</item>
+        <item>Koreaans (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Klein</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Enorm</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Standaard</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Computer</item>
+    </string-array>
+    <string name="abnormal_recover_message">Laatste webpagina herstellen?</string>
+    <string name="abnormal_recover_ok">Herstellen</string>
+    <string name="abnormal_recover_recovered">Pagina\'s van de laatste sessie zijn hersteld.</string>
+    <string name="accessibility_button_addbookmark">Bladwijzer toevoegen</string>
+    <string name="accessibility_button_bookmarks_folder_up">Vorige map</string>
+    <string name="accessibility_button_closetab">Tabblad sluiten</string>
+    <string name="accessibility_button_forward">Ga vooruit</string>
+    <string name="accessibility_button_more">Meer opties</string>
+    <string name="accessibility_button_newtab">Nieuw tabblad openen</string>
+    <string name="accessibility_button_refresh">Vernieuw pagina</string>
+    <string name="accessibility_button_search">Zoeken</string>
+    <string name="accessibility_button_stop">Stop pagina laden</string>
+    <string name="accessibility_button_uaswitch">Schakel gebruikersagent</string>
+    <string name="accessibility_button_voice">Start spraakzoekopdracht</string>
+    <string name="accessibility_state_frozen">Opgeslagen pagina</string>
+    <string name="accessibility_state_incognito">Incognito pagina</string>
+    <string name="accessibility_transition_navscreen">Tabbladbeheer</string>
+    <string name="account">Account</string>
+    <string name="action">Inloggen</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Advertenties gedetecteerd, wil je AD-blokkering inschakelen?</string>
+    <string name="adblock_rules_error_prompt">Syntaxisfout, bewerk opnieuw!</string>
+    <string name="adblockplus_url">https://adblockplus.org/nl/filters</string>
+    <string name="add">Toevoegen</string>
+    <string name="add_new_bookmark">Bladwijzer toevoegen</string>
+    <string name="add_pic">Afbeelding toevoegen:</string>
+    <string name="add_to_desktop">Bureaublad</string>
+    <string name="add_to_desktop_success">Toegevoegd aan bureaublad</string>
+    <string name="add_to_homepage">Toevoegen aan startpagina</string>
+    <string name="add_to_homepage_success">Toegevoegd aan startpagina</string>
+    <string name="add_to_homescreen_menu_option">Startpagina</string>
+    <string name="add_to_other_folder_menu_option">Andere map</string>
+    <string name="add_up_to_15">Voeg maximaal 20 toe</string>
+    <string name="added_new_bookmark">Bookmark toevoegen</string>
+    <string name="allow">Toestaan</string>
+    <string name="allow_download">Download toestaan</string>
+    <string name="allow_download_no">Verbind met WiFi</string>
+    <string name="already_cleared">Wist</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Beschikbaar</string>
+    <string name="block">Blokkeren</string>
+    <string name="bookmark_cannot_save_url">Deze URL kan niet worden gebookmarkt</string>
+    <string name="bookmark_list">Bladwijzerlijst</string>
+    <string name="bookmark_needs_title">"Bladwijzer moet een naam hebben"</string>
+    <string name="bookmark_needs_url">"Bladwijzer moet een locatie hebben"</string>
+    <string name="bookmark_not_saved">Kon bladwijzer niet opslaan</string>
+    <string name="bookmark_saved">Opgeslagen in bladwijzers</string>
+    <string name="bookmark_this_page">Bladwijzer deze pagina</string>
+    <string name="bookmark_url_not_valid">Deze URL is ongeldig</string>
+    <string name="bookmarks">Bladwijzers</string>
+    <string name="bookmarks_add_page">Bladwijzer opslaan</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">Bestandprobleem</string>
+    <string name="browserFrameFormResubmitMessage">De pagina die je probeert te bekijken bevat gegevens die al zijn verzonden ("POSTDATA"). Als je de gegevens opnieuw verzendt, wordt elke actie die het formulier op de pagina uitvoerde (zoals een zoekopdracht of online aankoop) herhaald.</string>
+    <string name="browserFrameNetworkErrorLabel">Verbindingsprobleem</string>
+    <string name="browser_admin_panel">Gebruikerscentrum</string>
+    <string name="browser_hot_word_title" translatable="false">Hot search list</string>
+    <string name="browser_navigation">Navigatie</string>
+    <string name="browser_net_error_refresh" translatable="false">Klik op het lege gebied om de pagina opnieuw te laden</string>
+    <string name="browser_open_all_most_visited" translatable="false">Brei aanbevolen website uit</string>
+    <string name="browser_permission_camera">Camera-permissie geweigerd, schakel het handmatig in</string>
+    <string name="browser_permission_notification">Melding permissie geweigerd, schakel het handmatig in</string>
+    <string name="browser_permission_qr">Deze functie vereist toegang tot geheugen. Schakel deze handmatig in in de instellingen</string>
+    <string name="browser_permission_setwall">Instellen van telefoonachtergrond vereist opslag permissie. Schakel deze in de instellingen in</string>
+    <string name="browser_permission_strone">Bestand downloaden vereist opslag permissie. Schakel deze handmatig in in de instellingen</string>
+    <string name="browser_privacy_tips">Je persoonlijke gegevens worden verwerkt volgens ons 《Privacybeleid》.</string>
+    <string name="browser_product_agree_tips">Je moet het beleid accepteren.</string>
+    <string name="browser_product_start">Start</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nAlle rechten voorbehouden.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Zoek vrij naar alles wat je nodig hebt</string>
+    <string name="browser_slogo_fast">Sneller</string>
+    <string name="browser_slogo_intelligence">Slimmer</string>
+    <string name="browser_slogo_safe">Veiliger</string>
+    <string msgid="6709237687234102240" name="browser_tools">Hulpmiddelen</string>
+    <string name="btn_recommend_add">Toevoegen</string>
+    <string name="byfrost_slogan">Byfrost-Zie een grotere wereld!</string>
+    <string name="byfrost_suggestion">We hebben je suggestie ontvangen, bedankt.</string>
+    <string name="byfrost_suggestion_time">De feedbacktijd mag niet minder dan 1 minuut zijn sinds de laatste keer.</string>
+    <string name="cancel">Annuleren</string>
+    <string name="cancelDel">Verwijder ongedaan maken?</string>
+    <string name="cannot_open_the_file">Geen programma om dit bestandstype te openen</string>
+    <string name="check_for_update">Controleer op update...</string>
+    <string name="check_network">Indiening mislukt door netwerkprobleem, controleer alstublieft.</string>
+    <string name="choosertitle_sharevia">Deel via</string>
+    <string name="clear">Wissen</string>
+    <string name="clear_all">Alles wissen</string>
+    <string name="clear_all_already">Alle gegevens zijn al gewist!</string>
+    <string name="clear_data_success">Wissen gelukt</string>
+    <string name="clear_default_browser">Verwijder standaard browserinstelling</string>
+    <string name="clear_default_setting_please">Een andere browser is ingesteld als standaard. Wis de standaardinstelling van deze browser.</string>
+    <string name="clear_history_all">Wis alle geschiedenis</string>
+    <string name="click_again_quit">Tik op terug om af te sluiten</string>
+    <string name="close_all_incognito_notification">Sluit alle incognito-tabbladen</string>
+    <string name="commit_fail">Indiening mislukt, probeer het later opnieuw.</string>
+    <string name="confirm_deletion">Verwijderen?</string>
+    <string name="confirm_deletion_all">Alles verwijderen?</string>
+    <string name="contact_us_on_facebook">Neem contact op met ons op Facebook</string>
+    <string name="containing_folder">Toevoegen aan</string>
+    <string name="contextheader_folder_bookmarkcount">%d bladwijzers</string>
+    <string name="contextheader_folder_empty">Lege map</string>
+    <string name="contextmenu_add_contact">Contact toevoegen</string>
+    <string name="contextmenu_copy">Kopiëren</string>
+    <string name="contextmenu_copylink">Kopieer link URL</string>
+    <string name="contextmenu_dial_dot">Bellen\u2026</string>
+    <string name="contextmenu_download_image">Sla afbeelding op</string>
+    <string name="contextmenu_map">Kaart</string>
+    <string name="contextmenu_openlink_newwindow">Open in nieuw tabblad</string>
+    <string name="contextmenu_openlink_newwindow_background">Open op de achtergrond</string>
+    <string name="contextmenu_savelink">Sla link op</string>
+    <string name="contextmenu_send_mail">Verstuur e-mail</string>
+    <string name="contextmenu_set_wallpaper">Instellen als achtergrond</string>
+    <string name="contextmenu_set_wallpaper_image">Achtergrond</string>
+    <string name="contextmenu_share_app">Deel app</string>
+    <string name="contextmenu_share_website">Deel website</string>
+    <string name="contextmenu_sharelink">Deel link</string>
+    <string name="contextmenu_view_image">Bekijk afbeelding</string>
+    <string name="copy_link">Kopieer link</string>
+    <string name="copylink_success">Link is gekopieerd</string>
+    <string name="create_shortcut_bookmark">Snelkoppeling toevoegen aan startpagina</string>
+    <string name="custom_rules">Aangepaste AdBlock-filter</string>
+    <string name="custom_rules_title">AdBlock-filter</string>
+    <string name="default_bookmark">Standaard bladwijzer</string>
+    <string name="default_location">Standaardlocatie: %1$s</string>
+    <string name="delete">Verwijderen</string>
+    <string name="delete_bookmark_warning">Bladwijzer "%s" verwijderen?</string>
+    <string name="delete_folder">Map verwijderen</string>
+    <string name="deletion_all">Alles verwijderen</string>
+    <string name="desktop">Bureaublad</string>
+    <string name="done">Klaar</string>
+    <string name="download">Downloaden</string>
+    <string name="download_allow_mobile">Bestand downloaden via mobiel netwerk toestaan?</string>
+    <string name="download_failed">Download mislukt</string>
+    <string name="download_list">Downloadlijst</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Een SD-kaart is vereist om %s te downloaden.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Geen SD-kaart</string>
+    <string name="download_pause">Download gepauzeerd</string>
+    <string name="download_pending">Download starten\u2026</string>
+    <string name="download_removed">Verwijderd</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">De SD-kaart is bezig. Om downloads toe te staan, tik op "Schakel USB-opslag uit" in de melding.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD-kaart niet beschikbaar</string>
+    <string name="downloaded">Gedownload</string>
+    <string name="downloading">Bezig met downloaden</string>
+    <string name="downloadmanager_disabled">Downloadmanager is uitgeschakeld. Zet het aan.</string>
+    <string name="edit">Bewerken</string>
+    <string name="edit_bookmark">Bewerk bladwijzer</string>
+    <string name="edit_folder">Map bewerken</string>
+    <string name="edited">Bewerkt</string>
+    <string name="email">E-mail:</string>
+    <string name="email_is_error">Voer een correct telefoonnummer in</string>
+    <string name="empty_bookmarks_folder">Je bladwijzers zijn leeg</string>
+    <string name="empty_history">Geen browsegeschiedenis</string>
+    <string name="empty_info_most_visited">Geen records</string>
+    <string name="empty_snapshots_folder">Geen opgeslagen pagina\'s</string>
+    <string name="enter_incognito_mode">Schakel over naar incognito</string>
+    <string name="enter_normal_mode">Schakel over naar normaal</string>
+    <string name="enter_settings_page">Ga naar Instellingen nadat het wissen is voltooid.</string>
+    <string name="enter_website_name">Voer de website naam in</string>
+    <string name="error_console_eval_button_text" translatable="false">Evalueren</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evalueer JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript-console</string>
+    <string name="error_console_header_text_minimized" translatable="false">Toon JavaScript-console</string>
+    <string name="exit">Afsluiten</string>
+    <string name="exit_dialog_title">Browser afsluiten?</string>
+    <string name="feed_back_sucess">We hebben uw opmerkingen en suggesties ontvangen, bedankt.</string>
+    <string name="feedback_other">Overig:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Optioneel)</string>
+    <string name="feedback_submit">indienen</string>
+    <string name="file_exist">Bestand bestaat al</string>
+    <string name="file_name">Bestandsnaam</string>
+    <string name="file_not_exist">Bestand bestaat niet</string>
+    <string name="filename_empty">Bestandsnaam mag niet leeg zijn</string>
+    <string name="find_on_page">Zoeken op pagina</string>
+    <string name="five_stars">5 sterren</string>
+    <string name="five_stars_comment">geef suggestie.</string>
+    <string name="five_stars_content">Jouw vijf sterren beoordeling betekent veel voor ons.</string>
+    <string name="five_stars_later">Later</string>
+    <string name="five_stars_titile">Geniet je van %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Weigeren</string>
+    <string name="geolocation_permissions_prompt_message">%s wil je locatie weten</string>
+    <string name="geolocation_permissions_prompt_share">Deel locatie</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Deze site kan je locatie benaderen. Wijzig dit in Instellingen > Geavanceerd > Website-instellingen.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Deze site kan je locatie niet benaderen. Wijzig dit in Instellingen > Geavanceerd > Website-instellingen.</string>
+    <string name="geolocation_settings_page_dialog_message">Locatietoegang voor deze website wissen?</string>
+    <string name="geolocation_settings_page_summary_allowed">Deze site kan momenteel je locatie benaderen</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Deze site kan momenteel je locatie niet benaderen</string>
+    <string name="geolocation_settings_page_title">Toestemming voor locatie opheffen</string>
+    <string name="get_photo_failure">Fout bij het verkrijgen van foto\'s</string>
+    <string name="go">Ga</string>
+    <string name="go_back">Teruggaan</string>
+    <string name="history">Geschiedenis</string>
+    <string name="home_page">Startpagina</string>
+    <string name="incognito_home">Je bent in Incognito</string>
+    <string name="incognito_home_content">Je bevindt je nu in incognito-modus.</string>
+    <string name="incognito_home_tip">Je kunt incognito verlaten en terug naar normaal.</string>
+    <string name="input_over_flow">Indiening mislukt, %1$d tekens overschrijden de limiet</string>
+    <string name="instructions_label">Gebruiksaanwijzing</string>
+    <string name="is_latest">Al de laatste versie!</string>
+    <string name="js_ad_block_count">Geblokkeerde JavaScript-bestanden</string>
+    <string name="js_disable_host_error_prompt">Domeinfout, bewerk opnieuw!</string>
+    <string name="js_disable_hosts">Stel tijdslimiet voor advertentiemarker in</string>
+    <string name="js_disable_hosts_title">Bepaalde domeinen</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Hulpmiddelen</string>
+    <string name="lable_calendar">Agenda</string>
+    <string name="lable_lifestyle">Leven</string>
+    <string name="lable_maps">Kaarten</string>
+    <string name="lable_news">Nieuws</string>
+    <string name="lable_translate">Vertalen</string>
+    <string name="lable_video">Video\'s</string>
+    <string name="lable_weather">weer</string>
+    <string name="leadpage_back">Terug</string>
+    <string name="leadpage_forward">Vooruit</string>
+    <string name="leadpage_home">Home</string>
+    <string name="loading_video">Video wordt geladen\u2026</string>
+    <string name="local_bookmarks">Lokaal</string>
+    <string name="location">Adres</string>
+    <string name="mark_image_ad">Markeer advertentie</string>
+    <string name="mark_image_ad_fail">Markeren mislukt</string>
+    <string name="max_tabs_warning">Geen tabbladen meer beschikbaar</string>
+    <string name="menu_browser_Tools">Hulpmiddelen</string>
+    <string name="menu_browser_add_bookmark">Bladwijzer toevoegen</string>
+    <string name="menu_browser_bookmarks">Bladwijzers</string>
+    <string name="menu_browser_close_incognito">Normaal</string>
+    <string name="menu_browser_downloads">Downloads</string>
+    <string name="menu_browser_font_size">Lettergrootte</string>
+    <string name="menu_browser_full_screen">Volledig scherm</string>
+    <string name="menu_browser_history">Geschiedenis</string>
+    <string name="menu_browser_incognito">Incognito</string>
+    <string name="menu_browser_night">Oogbeschermer</string>
+    <string name="menu_browser_no_image">Geen afbeelding</string>
+    <string name="menu_browser_quit">Afsluiten</string>
+    <string name="menu_browser_search_page">Zoeken op pagina</string>
+    <string name="menu_browser_settings">Instellingen</string>
+    <string name="menu_browser_snapshots">Pagina opslaan</string>
+    <string name="menu_preferences">Instellingen</string>
+    <string name="menu_tools_box">Gereedschapskist</string>
+    <string name="messageContent">Er is een nieuwe versie voor %s, u kunt deze nu bijwerken.</string>
+    <string name="modify">Wijzigen</string>
+    <string name="most_visited">Meest bezochte</string>
+    <string name="my_qrcode" translatable="false">Mijn QR-code</string>
+    <string name="name">Label</string>
+    <string name="name_cannot_empty">Webnaam mag niet leeg zijn</string>
+    <string name="new_file">Nieuw bestand maken</string>
+    <string name="new_folder">Nieuwe map</string>
+    <string name="new_incognito_tab">Nieuw incognito tabblad</string>
+    <string name="new_tab">Nieuw tabblad</string>
+    <string name="no_downloads">Geen downloads</string>
+    <string name="no_prompt">Niet meer vragen</string>
+    <string name="no_subfolders">Geen submappen.</string>
+    <string name="notification_content_text">Klik om te bekijken</string>
+    <string name="notification_download_finish">Download voltooid</string>
+    <string name="null_rules_prompt">Je kunt je eigen regels toevoegen. Je regels moeten voldoen aan de grammatica van Adblock Plus. Gebruiksaanwijzing.</string>
+    <string name="ok">OK</string>
+    <string name="open">Openen</string>
+    <string name="open_all_in_new_window">Open alles in nieuwe tabbladen</string>
+    <string name="open_most_visited">open meest bezochte>></string>
+    <string name="optional">(Optioneel)</string>
+    <string name="other_bookmarks">Andere bladwijzers</string>
+    <string name="page_info">Paginainformatie</string>
+    <string name="page_info_address">Adres:</string>
+    <string name="page_info_view">Bekijk paginainformatie</string>
+    <string name="password">Wachtwoord</string>
+    <string name="permissions_prompt_deny">Weigeren</string>
+    <string name="permissions_prompt_message">%1$s wil je %2$s gebruiken.</string>
+    <string name="pic_ad_block_count">Geblokkeerde afbeeldingen</string>
+    <string name="picture_nocodeinfo" translatable="false">Geen QR-code informatie gevonden in de afbeelding</string>
+    <string name="picture_scannoinfo" translatable="false">Geen QR-code informatie gescand</string>
+    <string name="please_input_over_six">Voer 6 of meer tekens in</string>
+    <string name="please_input_under_max">Voer maximaal %1$d tekens in</string>
+    <string name="please_leave_your_email">Laat uw e-mailadres achter</string>
+    <string name="popup_ad_block_count">Geblokkeerde pop-ups</string>
+    <string name="pref_about">Over</string>
+    <string name="pref_ad_block">Advertentieblokker</string>
+    <string name="pref_agreement">Gebruikersvoorwaarden</string>
+    <string name="pref_always" translatable="false">ALTIJD</string>
+    <string name="pref_check_update">Controleer op update</string>
+    <string name="pref_confirm_on_exit">Bevestigen bij afsluiten</string>
+    <string name="pref_contact_us">Neem contact met ons op:</string>
+    <string name="pref_content_search_engine">Stel zoekmachine in</string>
+    <string name="pref_default_ad_time">Advertentietijd markeren</string>
+    <string name="pref_default_browser">Stel standaardbrowser in</string>
+    <string name="pref_default_text_encoding">Tekstcodering</string>
+    <string name="pref_deverloper_options">Ontwikkelaarsopties</string>
+    <string name="pref_download">Downloadinstellingen</string>
+    <string name="pref_download_path_setting_screen_title">Aangepaste downloadmap</string>
+    <string name="pref_download_with_ADM">Downloaden met ADM</string>
+    <string name="pref_extras_reset_default">Standaardinstellingen herstellen</string>
+    <string name="pref_extras_reset_default_dlg">Instellingen terugzetten naar standaardwaarden?</string>
+    <string name="pref_extras_website_settings">Website-instellingen</string>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_five_star">vijf sterren</string>
+    <string name="pref_font_size">Tekstgrootte</string>
+    <string name="pref_font_size_summary">Pas de grootte van tekst en lettertypen aan</string>
+    <string name="pref_force_userscalable">Forceer inzoomen inschakelen</string>
+    <string name="pref_force_userscalable_summary">Overschrijf het verzoek van een website om zoomgedrag te beheersen</string>
+    <string name="pref_min_font_size">Minimale lettergrootte</string>
+    <string name="pref_notification_tool_show">Toon zoekbalk in meldingen</string>
+    <string name="pref_privacy_clear_data">Gegevens wissen</string>
+    <string name="pref_privacy_enable_geolocation">Locatie inschakelen</string>
+    <string name="pref_privacy_enable_geolocation_summary">Sta sites toe om toegang tot je locatie aan te vragen</string>
+    <string name="pref_privacy_policy">Privacybeleid</string>
+    <string name="pref_privacy_security_title">Privacy &amp; Beveiliging</string>
+    <string name="pref_privacy_security_title_summary">Sta de browser toe om wachtwoorden, opgeslagen formulieren, enz. te onthouden</string>
+    <string name="pref_search_engine_dialog_title">Kies zoekmachine</string>
+    <string name="pref_security_accept_cookies">Cookies accepteren</string>
+    <string name="pref_security_accept_cookies_summary">Sta sites toe om cookiegegevens op te slaan en te lezen</string>
+    <string name="pref_security_remember_passwords">Wachtwoorden onthouden</string>
+    <string name="pref_security_remember_passwords_summary">Onthoud gebruikersnamen en wachtwoorden voor websites</string>
+    <string name="pref_security_save_form_data">Formuliergegevens onthouden</string>
+    <string name="pref_security_save_form_data_summary">Onthoud de gegevens die ik in het formulier invoer</string>
+    <string name="pref_security_show_security_warning">Beveiligingswaarschuwingen tonen</string>
+    <string name="pref_security_show_security_warning_summary">Toon een waarschuwing als er een probleem is met de beveiliging van een site</string>
+    <string name="pref_show_download_dialog">Downloaddialoog tonen</string>
+    <string name="pref_show_header_news">Toon tijd/weer/nieuws van vorige pagina</string>
+    <string name="pref_show_red_badge_notity">Toon rode badge meldingen</string>
+    <string name="pref_show_status_bar">De statusbalk weergeven</string>
+    <string name="pref_text_zoom">Tekstschaling</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Akkoord</string>
+    <string name="product_no_agree">Niet akkoord</string>
+    <string name="progress_dialog_setting_wallpaper">Achtergrond instellen\u2026</string>
+    <string name="prompt_already_saved_bookmark">Deze bladwijzer is al toegevoegd</string>
+    <string name="prompt_already_saved_off">Deze pagina is al opgeslagen</string>
+    <string name="prompt_saved_off_line">Opgeslagen in offline pagina\'s</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Plaats de QR-code binnen de doos en begin met scannen</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="remember_preference">Voorkeur onthouden</string>
+    <string name="remove">Verwijderen</string>
+    <string name="remove_bookmark">Verwijder bladwijzer</string>
+    <string name="remove_items_all">Verwijder items</string>
+    <string name="remove_snapshot">Verwijder opgeslagen pagina</string>
+    <string name="removed_from_bookmarks">Verwijderd uit bladwijzers.</string>
+    <string name="rename">Bestanden hernoemen</string>
+    <string name="rename_failed">Hernoemen mislukt</string>
+    <string name="rename_success">Hernoemen geslaagd</string>
+    <string name="replace_file">Vervang bestand</string>
+    <string name="request_fail">Verzoek mislukt, probeer het later opnieuw</string>
+    <string name="request_read_external_storage_error">Fout bij het aanvragen van toegang tot het telefoongeheugen</string>
+    <string name="resource_audio_capture">microfoon</string>
+    <string name="resource_protected_media_id">beschermde media-ID</string>
+    <string name="resource_video_capture">camera</string>
+    <string name="right_recommend_add_link_not_title">Voer een titel in</string>
+    <string name="right_recommend_add_link_not_url">Voer een URL in</string>
+    <string name="right_recommend_add_link_repeat">URL bestaat al</string>
+    <string name="right_recommend_add_link_saved">Opgeslagen</string>
+    <string name="right_recommend_add_link_url_format">Deze URL is onjuist</string>
+    <string name="right_recommend_tools_desktop">Bureaublad</string>
+    <string name="right_recommend_tools_remove">Verwijderen</string>
+    <string name="sdcard_free">%1$s Vrij/%2$s</string>
+    <string name="search_hint">Zoeken of URL typen</string>
+    <string name="search_history">Zoekgeschiedenis</string>
+    <string name="search_settings_description">Bladwijzers en webgeschiedenis</string>
+    <string name="search_the_web">Zoeken op het web</string>
+    <string name="security_warning">Beveiligingswaarschuwing</string>
+    <string name="select_dot">Selecteer tekst</string>
+    <string name="select_download_path">Selecteer de map \"%s\" als downloadlocatie</string>
+    <string name="select_location">Selecteer locatie</string>
+    <string name="select_qr_code" translatable="false">Selecteer QR-code afbeelding</string>
+    <string name="sendText">Kies een actie voor tekst</string>
+    <string name="set_as_homepage">Instellen als startpagina</string>
+    <string name="set_default_browser">Stel als standaardbrowser in</string>
+    <string name="set_default_failure">Standaard instellen mislukt. Probeer het opnieuw.</string>
+    <string name="set_default_success">Instelling geslaagd!</string>
+    <string name="setting_bottom_day">Lichte modus</string>
+    <string name="setting_bottom_expanding">uitvouwen</string>
+    <string name="setting_bottom_night">Donkere modus</string>
+    <string name="setting_update_speech_recognition">Spraakinput is verboden, werk de Google-spraakservice bij</string>
+    <string name="share">Delen</string>
+    <string name="share_dialog_title" translatable="false">Deel webpagina</string>
+    <string name="shortcut_bookmark">Bladwijzer</string>
+    <string name="shortcut_bookmark_title">Kies een bladwijzer</string>
+    <string name="show_dev_on">Je bent nu een ontwikkelaar!</string>
+    <string name="sign_in_to">Inloggen bij %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Geen titel</string>
+    <string name="ssl_certificate">Beveiligingscertificaat</string>
+    <string name="ssl_certificate_is_valid">Dit certificaat is geldig.</string>
+    <string name="ssl_continue">Doorgaan</string>
+    <string name="ssl_date_invalid">Dit certificaat heeft een ongeldige datum.</string>
+    <string name="ssl_expired">Dit certificaat is verlopen.</string>
+    <string name="ssl_invalid">Dit certificaat is ongeldig.</string>
+    <string name="ssl_mismatch">De naam van de site komt niet overeen met de naam op het certificaat.</string>
+    <string name="ssl_not_yet_valid">Dit certificaat is nog niet geldig.</string>
+    <string name="ssl_unknown">Onbekende certificaatfout.</string>
+    <string name="ssl_untrusted">Dit certificaat komt niet van een vertrouwde autoriteit.</string>
+    <string name="ssl_warnings_header">Er zijn problemen met het beveiligingscertificaat voor deze site.</string>
+    <string name="stopping">Stoppen\u2026</string>
+    <string name="storage_space_lack">Niet genoeg opslagruimte beschikbaar</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Bevestig dat je de juiste afbeelding hebt geselecteerd</string>
+    <string name="swipe_up_tip">Veeg omhoog om het tabblad te verwijderen</string>
+    <string name="tab_snapshots">Opgeslagen pagina\'s</string>
+    <string name="text_count_can_input">%1$d tekens kunnen worden ingevoerd</string>
+    <string name="title_activity_add_link">Link toevoegen</string>
+    <string name="title_clear_all_history">Alle geschiedenis wissen?</string>
+    <string name="title_clear_bookmark">Bladwijzer wissen?</string>
+    <string name="title_clear_history">Geschiedenis wissen?</string>
+    <string name="title_clear_off_line">Opgeslagen pagina\'s wissen?</string>
+    <string name="too_many_subwindows_dialog_message">Er kan maar één pop-up tegelijk open zijn.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up al geopend</string>
+    <string name="too_many_windows_dialog_message">Je kunt geen nieuw tabblad openen totdat je er een sluit.</string>
+    <string name="toolbox_menu_off">UIT</string>
+    <string name="toolbox_menu_on">AAN</string>
+    <string name="total">Totaal</string>
+    <string name="ua_switcher_desktop">Vraag bureaubladversie aan</string>
+    <string name="unknown">Onbekend</string>
+    <string name="unknown_error">Onbekende fout, probeer het opnieuw.</string>
+    <string name="unknown_file">Onbekende bestandstypen</string>
+    <string name="update_at_once">Bijwerken</string>
+    <string name="update_content1">1. Onze superslimme wetenschappers hebben webpagina\'s bliksemsnel geladen!</string>
+    <string name="update_content2">2. Onze lieve designer heeft haar magie gewerkt en alles nog mooier gemaakt!</string>
+    <string name="update_content3">3. En onze geweldige ontwikkelaars? Ze bleven laat op en dronken koffie om die vervelende bugs te verjagen!</string>
+    <string name="update_later">Later bijwerken</string>
+    <string name="update_now">Ga naar Google Play om de app te downloaden.</string>
+    <string name="update_remind">Update melding</string>
+    <string name="update_tips1">Ja, je hebt het geraden! Een gloednieuwe update is hier!</string>
+    <string name="update_tips2">✨Alles om je ervaring beter te maken!\nUpdate nu en ontdek het! ✨</string>
+    <string name="update_title">Nieuwe versie gevonden</string>
+    <string name="upload_image">Upload afbeeldingen</string>
+    <string name="uploads_disabled">Bestand uploads zijn uitgeschakeld.</string>
+    <string name="username">Naam</string>
+    <string name="versionUpdate">Bijwerken</string>
+    <string name="video_mobile_pause">Annuleren</string>
+    <string name="video_mobile_permission">Je gebruikt het mobiele netwerk. Wil je nog steeds afspelen?</string>
+    <string name="video_mobile_play">Afspelen</string>
+    <string name="view">Bekijk</string>
+    <string name="view_certificate">Bekijk certificaat</string>
+    <string name="view_select_all">Selecteer alles</string>
+    <string name="visit_url_ok">Bezoek</string>
+    <string name="visit_url_title">Deze URL van je klembord bezoeken?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Populair</string>
+    <string name="website_lifestyle">Leven</string>
+    <string name="website_news">Nieuws•Sport</string>
+    <string name="website_recommend">Aanbevolen</string>
+    <string name="website_settings_list_header_text">Locatietoegang</string>
+    <string name="website_shoping">Entertainment•Winkelen</string>
+    <string name="website_social">Sociaal</string>
+    <string name="website_tools">Hulpmiddelen</string>
+    <string name="website_videos">Video\'s</string>
+    <string name="webstorage_clear_data_title">Opgeslagen gegevens wissen</string>
+    <string name="webstorage_origin_summary_mb_stored">MB opgeslagen op je telefoon</string>
+    <string name="webstorage_outofspace_notification_text">Tik om ruimte vrij te maken.</string>
+    <string name="webstorage_outofspace_notification_title">Browseropslag vol</string>
+    <string name="write_advice_please">Beschrijf uw mening of suggestie in woorden... (1000 woorden)</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.</string>
+    <string name="zxing_msg_default_status">Plaats een barcode binnen de rechthoek om deze te scannen.</string>
+</resources>

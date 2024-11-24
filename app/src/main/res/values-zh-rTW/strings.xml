@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="uploads_disabled">檔案上傳已停用。</string>
+    <string name="new_tab">新分頁</string>
+    <string name="new_incognito_tab">隱身模式新分頁</string>
+    <string name="tab_snapshots">已保存頁面</string>
+    <string name="removed_from_bookmarks">已從書籤移除。</string>
+    <string name="sign_in_to">登入 %1$s \"%2$s\"</string>
+    <string name="username">名稱</string>
+    <string name="password">密碼</string>
+    <string name="action">登入</string>
+    <string name="bookmarks_add_page">保存書籤</string>
+    <string name="bookmarks_search">瀏覽器</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    <string name="delete">刪除</string>
+    <string name="modify">修改</string>
+    <string name="add_to_homepage">加入主頁</string>
+    <string name="add_to_desktop">桌面</string>
+    <string name="rename">重新命名檔案</string>
+    <string name="copy_link">複製連結</string>
+    <string name="share">分享</string>
+    <string name="most_visited">最常訪問</string>
+
+    <string name="allow">允許</string>
+    <string name="go_back">返回</string>
+    <string name="bookmarks">書籤</string>
+    <string name="bookmark_list">書籤列表</string>
+    <string name="go">前往</string>
+    <string name="clear">清除</string>
+    <string name="clear_default_browser">清除設置為預設瀏覽器</string>
+    <string name="already_cleared">已清除</string>
+    <string name="open">開啟</string>
+    <string name="history">歷史紀錄</string>
+    <string name="remember_preference">記住設定</string>
+    <string name="block">阻擋</string>
+    <string name="clear_data_success">清除成功</string>
+    <string name="exit">退出</string>
+    <string name="clear_all">清除全部</string>
+
+    <string name="page_info">頁面資訊</string>
+    <string name="page_info_view">查看頁面資訊</string>
+    <string name="page_info_address">地址：</string>
+
+    <string name="ssl_warnings_header">此網站的安全證書存在問題。</string>
+    <string name="ssl_continue">繼續</string>
+    <string name="security_warning">安全警告</string>
+    <string name="view_certificate">查看證書</string>
+
+    <string name="ssl_certificate">安全證書</string>
+    <string name="ssl_untrusted">此證書來自不受信任的機構。</string>
+    <string name="ssl_mismatch">網站名稱與證書上的名稱不匹配。</string>
+    <string name="ssl_expired">此證書已過期。</string>
+    <string name="ssl_not_yet_valid">此證書尚未生效。</string>
+    <string name="ssl_date_invalid">此證書的日期無效。</string>
+    <string name="ssl_invalid">此證書無效。</string>
+    <string name="ssl_certificate_is_valid">此證書有效。</string>
+    <string name="ssl_unknown">未知的證書錯誤。</string>
+    <string name="stopping">停止中...</string>
+
+    <string name="location">地址</string>
+    <string name="account">帳戶</string>
+    <string name="containing_folder">加入至</string>
+    <string name="new_folder">新資料夾</string>
+    <string name="edit_folder">編輯資料夾</string>
+    <string name="delete_folder">刪除資料夾</string>
+    <string name="no_subfolders">無子資料夾。</string>
+    <string name="add_to_homescreen_menu_option">主畫面</string>
+    <string name="add_to_other_folder_menu_option">其他資料夾</string>
+    <string name="name">標籤</string>
+    <string name="bookmark_this_page">加入此頁為書籤</string>
+    <string name="remove">移除</string>
+    <string name="edit_bookmark">編輯書籤</string>
+    <string name="create_shortcut_bookmark">加入快捷方式至主畫面</string>
+    <string name="remove_bookmark">刪除書籤</string>
+    <string name="set_as_homepage">設定為首頁</string>
+    <string name="bookmark_saved">已保存至書籤</string>
+    <string name="bookmark_not_saved">無法保存書籤</string>
+    <string name="bookmark_needs_title">「書籤必須有名稱」</string>
+    <string name="bookmark_needs_url">「書籤必須有位置」</string>
+    <string name="bookmark_url_not_valid">此 URL 無效</string>
+    <string name="bookmark_cannot_save_url">無法保存此 URL 為書籤</string>
+    <string name="delete_bookmark_warning">刪除書籤「%s」？</string>
+    <string name="open_all_in_new_window">在新分頁開啟全部</string>
+    <string name="select_dot">選取文字</string>
+    <string name="shortcut_bookmark">書籤</string>
+    <string name="shortcut_bookmark_title">選擇書籤</string>
+    <string name="contextheader_folder_bookmarkcount">%d 書籤</string>
+    <string name="contextheader_folder_empty">空資料夾</string>
+    <string name="contextmenu_openlink_newwindow">在新分頁開啟</string>
+    <string name="contextmenu_openlink_newwindow_background">在背景開啟</string>
+    <string name="contextmenu_savelink">保存連結</string>
+    <string name="contextmenu_sharelink">分享連結</string>
+    <string name="contextmenu_copy">複製</string>
+    <string name="contextmenu_copylink">複製連結 URL</string>
+    <string name="contextmenu_download_image">保存圖片</string>
+    <string name="contextmenu_view_image">查看圖片</string>
+    <string name="contextmenu_set_wallpaper">設為桌面背景</string>
+    <string name="contextmenu_set_wallpaper_image">桌面背景</string>
+
+    <string name="contextmenu_dial_dot">撥號...</string>
+    <string name="contextmenu_add_contact">新增聯絡人</string>
+    <string name="contextmenu_send_mail">發送郵件</string>
+    <string name="contextmenu_map">地圖</string>
+    <string name="choosertitle_sharevia">透過分享</string>
+    <string name="menu_preferences">設定</string>
+
+    <string name="pref_ad_block">廣告封鎖</string>
+    <string name="pref_notification_tool_show">在通知欄顯示搜尋欄</string>
+    <string name="pref_force_userscalable_summary">覆寫網站要求的縮放行為</string>
+    <string name="pref_default_text_encoding">文字編碼</string>
+    <string name="pref_default_ad_time">廣告標記時間</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">網站設定</string>
+    <string name="pref_content_search_engine">設定搜尋引擎</string>
+    <string name="pref_search_engine_dialog_title">選擇引擎</string>
+    <string name="pref_download_path_setting_screen_title">自訂下載路徑</string>
+    <string name="pref_privacy_security_title">隱私與安全</string>
+    <string name="pref_privacy_security_title_summary">允許瀏覽器記住密碼、已保存的表單等。</string>
+
+    <string name="pref_privacy_clear_data">清除資料</string>
+    <string-array name="pref_clear_data_choices">
+        <item>快取</item>
+        <item>Cookies</item>
+        <item>表單</item>
+        <item>瀏覽歷史</item>
+        <item>密碼</item>
+        <item>位置存取</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>清除本機快取的內容與資料庫</item>
+        <item>清除所有 Cookies</item>
+        <item>清除所有已儲存的表單資料</item>
+        <item>清除所有瀏覽歷史</item>
+        <item>清除所有已儲存的帳號與密碼</item>
+        <item>取消所有網站對您位置的存取權限</item>
+    </string-array>
+    <string name="pref_feedback">回饋</string>
+    <string name="pref_default_browser">設定預設瀏覽器</string>
+    <string name="pref_confirm_on_exit">離開時確認</string>
+    <string name="pref_show_status_bar">顯示狀態列</string>
+    <string name="pref_about">關於</string>
+    <string name="pref_extras_reset_default">重設為預設值</string>
+
+    <string name="pref_extras_reset_default_dlg">是否將設定還原為預設值？</string>
+
+    <string name="accessibility_button_uaswitch">切換使用者代理</string>
+    <string-array name="pref_user_agent_choices">
+        <item>預設</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>電腦</item>
+    </string-array>
+    <string name="pref_font_size">文字大小</string>
+    <string name="pref_font_size_summary">調整文字與字型的大小</string>
+    <string name="pref_force_userscalable">強制啟用縮放</string>
+
+    <string name="pref_security_accept_cookies">接受 Cookies</string>
+    <string name="pref_security_accept_cookies_summary">允許網站儲存並讀取 Cookie 資料</string>
+    <string name="pref_privacy_enable_geolocation">啟用位置服務</string>
+    <string name="pref_privacy_enable_geolocation_summary">允許網站請求存取您的位置</string>
+    <string name="pref_security_save_form_data">記住表單資料</string>
+    <string name="pref_security_save_form_data_summary">記住我在表單中輸入的資料</string>
+    <string name="pref_security_remember_passwords">記住密碼</string>
+    <string name="pref_security_remember_passwords_summary">儲存網站的帳號與密碼</string>
+    <string name="pref_security_show_security_warning">顯示安全警告</string>
+    <string name="pref_security_show_security_warning_summary">若網站安全有問題，顯示警告</string>
+    <string name="pref_download_with_ADM">使用 ADM 下載</string>
+    <string name="pref_show_download_dialog">顯示下載對話框</string>
+
+    <string name="pref_download">下載設定</string>
+    <string-array name="pref_text_size_choices">
+        <item>極小</item>
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+        <item>極大</item>
+    </string-array>
+    <string name="pref_text_zoom">文字縮放</string>
+    <string name="pref_min_font_size">最小字型大小</string>
+
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+
+    <string name="browserFrameNetworkErrorLabel">連線問題</string>
+    <string name="browserFrameFileErrorLabel">檔案問題</string>
+    <string name="browserFrameFormResubmitMessage">您嘗試查看的頁面包含已提交的資料（"POSTDATA"）。若重新傳送資料，頁面上的任何操作（例如搜尋或線上購買）將會重複。</string>
+    <string name="empty_history">無瀏覽紀錄</string>
+    <string name="add_new_bookmark">新增書籤</string>
+    <string name="find_on_page">在頁面中尋找</string>
+    <string name="search_hint">搜尋或輸入網址</string>
+    <string name="search_settings_description">書籤與網站歷史</string>
+
+    <string name="too_many_windows_dialog_message">請先關閉一個標籤頁，才能開啟新的標籤頁。</string>
+    <string name="too_many_subwindows_dialog_title">彈出視窗已開啟</string>
+    <string name="too_many_subwindows_dialog_message">每次只能開啟一個彈出視窗。</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">無 SD 卡</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">下載 %s 需要 SD 卡。</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD 卡不可用</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD 卡正忙碌中。若要允許下載，請在通知中點選關閉 USB 儲存。</string>
+
+    <string name="download_pending">開始下載中\u2026</string>
+    <string name="search_the_web">搜尋網路</string>
+
+    <string name="webstorage_outofspace_notification_title">瀏覽器儲存空間已滿</string>
+    <string name="webstorage_outofspace_notification_text">點選以釋放空間。</string>
+    <string name="webstorage_clear_data_title">清除儲存的資料</string>
+    <string name="webstorage_origin_summary_mb_stored">已儲存 MB 在您的手機上</string>
+    <string name="loading_video">載入影片\u2026</string>
+    <string name="permissions_prompt_message">%1$s 想使用您的 %2$s。</string>
+    <string name="permissions_prompt_deny">拒絕</string>
+    <string name="resource_protected_media_id">受保護的媒體 ID</string>
+    <string name="resource_video_capture">相機</string>
+    <string name="resource_audio_capture">麥克風</string>
+    <string name="geolocation_permissions_prompt_message">%s 想知道您的位置</string>
+    <string name="geolocation_permissions_prompt_share">分享位置</string>
+    <string name="geolocation_permissions_prompt_dont_share">拒絕</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">此網站可以存取您的位置。您可以在設定 &gt; 進階 &gt; 網站設定中更改此設定。</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">此網站無法存取您的位置。您可以在設定 &gt; 進階 &gt; 網站設定中更改此設定。</string>
+    <string name="geolocation_settings_page_title">取消網站存取您的位置權限</string>
+    <string name="geolocation_settings_page_summary_allowed">此網站目前可以存取您的位置</string>
+    <string name="geolocation_settings_page_summary_not_allowed">此網站目前無法存取您的位置</string>
+    <string name="geolocation_settings_page_dialog_message">是否清除此網站的地理位置存取權限？</string>
+    <string name="website_settings_list_header_text">位置存取</string>
+
+    <string name="progress_dialog_setting_wallpaper">設定桌布\u2026</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">顯示 JavaScript 控制台</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript 控制台</string>
+    <string name="error_console_eval_text_hint" translatable="false">執行 JavaScript</string>
+    <string name="error_console_eval_button_text" translatable="false">執行</string>
+    <string name="empty_bookmarks_folder">您的書籤資料夾為空</string>
+    <string name="other_bookmarks">其他書籤</string>
+
+    <string name="max_tabs_warning">無法開啟更多標籤頁</string>
+    <string name="local_bookmarks">本地</string>
+    <string name="empty_snapshots_folder">無儲存頁面</string>
+    <string name="remove_snapshot">刪除儲存頁面</string>
+    <string name="accessibility_button_forward">前進</string>
+    <string name="accessibility_button_refresh">重新整理頁面</string>
+    <string name="accessibility_button_stop">停止載入頁面</string>
+    <string name="accessibility_button_addbookmark">加入書籤</string>
+    <string name="accessibility_button_search">搜尋</string>
+    <string name="accessibility_button_voice">啟動語音搜尋</string>
+    <string name="accessibility_button_closetab">關閉標籤頁</string>
+    <string name="accessibility_button_newtab">開啟新標籤頁</string>
+    <string name="accessibility_button_more">更多選項</string>
+
+    <string name="accessibility_state_incognito">隱私模式頁面</string>
+    <string name="accessibility_state_frozen">儲存頁面</string>
+
+    <string name="accessibility_transition_navscreen">標籤頁管理</string>
+    <string name="accessibility_button_bookmarks_folder_up">上一層資料夾</string>
+    <string name="sendText">選擇文字操作</string>
+
+    <string name="cancelDel">確定撤銷刪除？</string>
+
+    <string name="write_advice_please">請描述您的意見或建議...(最多1000字)</string>
+    <string name="feed_back_sucess">我們已收到您的意見和建議，謝謝您。</string>
+    <string name="check_network">提交失敗，請檢查網絡連線。</string>
+    <string name="commit_fail">提交失敗，請稍後再試。</string>
+    <string name="please_input_over_six">請輸入至少6個字元</string>
+    <string name="please_input_under_max">請輸入不超過 %1$d 個字元</string>
+    <string name="email">電子郵件：</string>
+    <string name="email_is_error">請輸入正確的電子郵件</string>
+    <string name="add_pic">新增圖片：</string>
+    <string name="optional">(選填)</string>
+    <string name="please_leave_your_email">請留下您的電子郵件</string>
+    <string name="feedback_other">其他：</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+（選填）</string>
+    <string name="feedback_submit">提交</string>
+
+    <string name="versionUpdate">更新</string>
+    <string name="messageContent">有新版本的 %s，您現在可以更新。</string>
+    <string name="update_at_once">立即更新</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">檢查更新</string>
+    <string name="pref_contact_us">聯絡我們：</string>
+
+    <string name="pref_agreement">使用者條款</string>
+    <string name="pref_privacy_policy">隱私政策</string>
+
+    <string name="check_for_update">正在檢查更新...</string>
+    <string name="request_fail">請稍後再試</string>
+    <string name="update_remind">更新通知</string>
+    <string name="is_latest">已是最新版本！</string>
+    <string name="no_prompt">不再提示</string>
+
+    <string name="download">下載</string>
+    <string name="downloading">下載中</string>
+    <string name="downloaded">已下載</string>
+    <string name="download_removed">已移除</string>
+    <string name="download_pause">下載暫停</string>
+    <string name="download_failed">下載失敗</string>
+    <string name="unknown_file">未知檔案類型</string>
+    <string name="no_downloads">無下載項目</string>
+    <string name="downloadmanager_disabled">下載管理器已停用，請啟用。</string>
+    <string name="cannot_open_the_file">無法打開此類型的檔案</string>
+    <string name="download_allow_mobile">是否允許通過行動網路下載檔案？</string>
+    <string name="allow_download">允許下載</string>
+    <string name="allow_download_no">請連接 WiFi</string>
+    <string name="download_list">下載清單</string>
+    <string name="storage_space_lack">儲存空間不足</string>
+    <string name="new_file">創建新檔案</string>
+    <string name="replace_file">替換檔案</string>
+
+    <string name="default_location">預設位置：%1$s</string>
+    <string name="select_location">選擇位置</string>
+    <string name="sdcard_free">%1$s 可用/%2$s</string>
+
+    <string name="menu_browser_add_bookmark">新增書籤</string>
+    <string name="menu_browser_night">護眼模式</string>
+    <string name="menu_browser_incognito">隱私模式</string>
+    <string name="menu_browser_close_incognito">普通模式</string>
+    <string name="menu_browser_history">歷史紀錄</string>
+    <string name="menu_browser_bookmarks">書籤</string>
+    <string name="menu_browser_downloads">下載</string>
+    <string name="menu_browser_no_image">無圖片</string>
+    <string name="menu_browser_full_screen">全螢幕</string>
+    <string name="menu_browser_font_size">字型大小</string>
+    <string name="menu_browser_search_page">頁面搜尋</string>
+    <string name="menu_browser_snapshots">儲存頁面</string>
+
+    <string name="menu_browser_settings">設定</string>
+    <string name="menu_browser_Tools">工具</string>
+    <string name="menu_browser_quit">退出</string>
+
+    <string name="title_clear_off_line">清除儲存頁面？</string>
+    <string name="title_clear_history">清除歷史紀錄？</string>
+    <string name="title_clear_all_history">清除所有歷史紀錄？</string>
+    <string name="title_clear_bookmark">清除書籤？</string>
+    <string name="enter_incognito_mode">切換到隱私模式</string>
+    <string name="enter_normal_mode">切換到普通模式</string>
+    <string name="swipe_up_tip">您可以向上滑動以刪除標籤頁</string>
+    <string name="empty_info_most_visited">無紀錄</string>
+
+    <string name="prompt_saved_off_line">已儲存至離線頁面</string>
+    <string name="prompt_already_saved_off">您已經儲存此頁面</string>
+    <string name="prompt_already_saved_bookmark">您已經加入此書籤</string>
+    <string name="incognito_home">您處於隱私模式</string>
+    <string name="incognito_home_content">您現在處於隱私模式。</string>
+    <string name="edit">編輯</string>
+
+    <string name="exit_dialog_title">確定退出瀏覽器？</string>
+    <string-array name="exit_dialog_choices">
+        <item>清除歷史紀錄 &amp; 快取</item>
+        <item>不再詢問</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">檢測到廣告，是否啟用廣告攔截？</string>
+    <string name="visit_url_title">是否訪問剪貼簿中的 URL？</string>
+    <string name="visit_url_ok">訪問</string>
+    <string name="incognito_home_tip">您可以退出隱私模式並回到普通模式。</string>
+    <string name="snap_shot_no_title">無標題</string>
+    <string name="view_select_all">全選</string>
+    <string name="set_default_browser">設為預設瀏覽器</string>
+    <string name="enter_settings_page">清除後請進入設定頁面。</string>
+    <string name="clear_default_setting_please">另一個瀏覽器已設為預設，請清除預設設置。</string>
+    <string name="unknown_error">未知錯誤，請再試一次。</string>
+    <string name="set_default_success">設置成功！</string>
+    <string name="set_default_failure">設置失敗，請再試一次。</string>
+
+    <string name="default_bookmark">預設書籤</string>
+
+    <string name="click_again_quit">點擊返回鍵退出</string>
+    <string name="clear_all_already">所有資料已清除！</string>
+    <string name="select_download_path">選擇「%s」資料夾作為下載位置</string>
+
+    <string name="contact_us_on_facebook">通過 Facebook 聯繫我們</string>
+    <string name="text_count_can_input">%1$d 字元可輸入</string>
+    <string name="input_over_flow">提交失敗，%1$d 字元超過限制</string>
+    <string name="upload_image">上傳圖片</string>
+    <string name="request_read_external_storage_error">請求訪問手機內存失敗</string>
+    <string name="get_photo_failure">獲取圖片失敗</string>
+
+    <string name="title_activity_add_link">新增連結</string>
+    <string name="btn_recommend_add">新增</string>
+
+    <string name="right_recommend_add_link_not_title">請輸入標題</string>
+    <string name="right_recommend_add_link_not_url">請輸入 URL</string>
+    <string name="right_recommend_add_link_url_format">URL 格式錯誤</string>
+
+    <string name="right_recommend_add_link_saved">已儲存</string>
+    <string name="right_recommend_add_link_repeat">URL 已存在</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">桌面版</string>
+    <string name="right_recommend_tools_remove">移除</string>
+
+    <string name="file_name">檔案名稱</string>
+    <string name="copylink_success">連結已複製</string>
+    <string name="add_to_homepage_success">已新增至首頁</string>
+    <string name="add_to_desktop_success">已新增至桌面</string>
+    <string name="clear_history_all">清除所有歷史紀錄</string>
+    <string name="remove_items_all">移除項目</string>
+    <string name="rename_failed">重新命名失敗</string>
+    <string name="rename_success">重新命名成功</string>
+    <string name="filename_empty">檔名不能為空</string>
+    <string name="file_exist">檔案已存在</string>
+    <string name="file_not_exist">檔案不存在</string>
+
+    <string name="menu_tools_box">工具箱</string>
+    <string name="toolbox_menu_on">開啟</string>
+    <string name="toolbox_menu_off">關閉</string>
+    <string name="home_page">首頁</string>
+    <string name="desktop">桌面</string>
+    <string name="name_cannot_empty">網站名稱不能為空</string>
+
+    <string name="setting_update_speech_recognition">語音輸入已禁用，請更新 Google 語音服務</string>
+    <string name="done">完成</string>
+    <string name="edited">已編輯</string>
+    <string name="enter_website_name">輸入網站名稱</string>
+
+    <string name="unknown">未知</string>
+    <string name="available">可用</string>
+    <string name="total">總計</string>
+    <string name="notification_content_text">點擊查看</string>
+    <string name="notification_download_finish">下載完成</string>
+    <string name="view">查看</string>
+
+    <string name="five_stars_titile">享受 %s 嗎？</string>
+    <string name="five_stars_content">您的五顆星評價對我們非常重要。</string>
+    <string name="five_stars_later">稍後</string>
+    <string name="five_stars">5 顆星</string>
+    <string name="refresh">更新</string>
+    <string name="ua_switcher_desktop">請求桌面版網站</string>
+
+    <string name="video_mobile_permission">您正在使用行動網路，是否仍要播放？</string>
+    <string name="video_mobile_play">播放</string>
+    <string name="video_mobile_pause">取消</string>
+    <string name="close_all_incognito_notification">關閉所有隱身分頁</string>
+    <string name="add_up_to_15">最多可新增 20 個</string>
+    <string name="pref_deverloper_options">開發者選項</string>
+    <string name="show_dev_on">您現在是開發者！</string>
+
+    <string name="pic_ad_block_count">已阻擋圖片</string>
+    <string name="js_ad_block_count">已阻擋 JavaScript 檔案</string>
+    <string name="popup_ad_block_count">已阻擋彈出廣告</string>
+    <string name="custom_rules">自訂 AdBlock 過濾器</string>
+    <string name="custom_rules_title">AdBlock 過濾器</string>
+    <string name="confirm_deletion">是否刪除？</string>
+    <string name="add">新增</string>
+    <string name="confirm_deletion_all">是否刪除所有？</string>
+
+    <string name="js_disable_hosts">設置廣告標記時間限制</string>
+    <string name="js_disable_hosts_title">某些域名</string>
+    <string name="null_rules_prompt">您可以新增自訂規則。您的規則必須遵循 Adblock Plus 的語法規則。使用說明。</string>
+
+    <string name="instructions_label">使用說明</string>
+    <string name="adblock_rules_error_prompt">語法錯誤，請重新編輯！</string>
+    <string name="js_disable_host_error_prompt">域名錯誤，請重新編輯！</string>
+
+    <string name="leadpage_home">首頁</string>
+    <string name="leadpage_back">返回</string>
+
+    <string name="leadpage_forward">前進</string>
+    <string name="abnormal_recover_ok">恢復</string>
+    <string name="abnormal_recover_message">恢復上次的網頁嗎？</string>
+    <string name="abnormal_recover_recovered">已恢復上次會話的網頁。</string>
+
+    <string name="open_most_visited">開啟最常訪問的網站&gt;&gt;</string>
+    <string name="contextmenu_share_app">分享應用程式</string>
+    <string name="contextmenu_share_website">分享網站</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">工具</string>
+
+    <string name="pref_show_red_badge_notity">顯示紅色徽章通知</string>
+    <string name="pref_show_header_news">顯示預頁的時間/天氣/新聞</string>
+
+    <string name="added_new_bookmark">新增書籤</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">五顆星</string>
+    <string name="deletion_all">刪除所有</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="mark_image_ad">標註廣告</string>
+    <string name="mark_image_ad_fail">標註失敗</string>
+    <string name="product_agree">同意</string>
+    <string name="product_no_agree">不同意</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">展開中</string>
+    <string name="setting_bottom_night">深色模式</string>
+    <string name="setting_bottom_day">淺色模式</string>
+
+    <string name="update_now">前往 Google Play 更新應用</string>
+    <string name="update_title">發現新版本</string>
+    <string name="update_later">稍後更新</string>
+    <string name="five_stars_comment">給我們建議。</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">搜尋歷史</string>
+    <string name="browser_admin_panel">用戶中心</string>
+    <string name="browser_navigation">導航</string>
+
+    <string name="browser_slogo_fast">更快</string>
+    <string name="browser_slogo_safe">更安全</string>
+    <string name="browser_slogo_intelligence">更智能</string>
+
+    <string name="browser_rights" translatable="false">版權所有 © 2021 Byfrost 瀏覽器。 \n保留所有權利。</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">將 QR 碼放入框內開始掃描</string>
+    <string name="picture_nocodeinfo" translatable="false">圖片中無法識別 QR 碼資訊</string>
+    <string name="picture_scannoinfo" translatable="false">未掃描到 QR 碼資訊</string>
+    <string name="share_dialog_title" translatable="false">分享網頁</string>
+    <string name="my_qrcode" translatable="false">我的 QR 碼</string>
+    <string name="select_qr_code" translatable="false">選擇 QR 碼圖片</string>
+    <string name="sure_select_true_picture" translatable="false">請確認選擇正確的圖片</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">展開推薦網站</string>
+    <string name="browser_slogan" translatable="false">自由搜尋，滿足所有需求</string>
+    <string name="browser_net_error_refresh" translatable="false">點擊空白區域刷新頁面</string>
+
+    <string name="browser_hot_word_title" translatable="false">熱門搜尋列表</string>
+    <string name="browser_permission_camera">相機權限被拒絕，請手動開啟</string>
+    <string name="browser_permission_notification">通知欄權限被拒絕，請手動開啟</string>
+    <string name="browser_permission_strone">下載檔案需要存儲權限，請手動開啟存儲權限</string>
+
+    <string name="browser_permission_qr">此功能需要記憶體存取權限，請手動開啟設定中的權限</string>
+    <string name="browser_permission_setwall">設置手機壁紙需要記憶體存儲權限，請在設定頁面手動開啟</string>
+    <string name="browser_product_start">開始</string>
+    <string name="browser_product_agree_tips">您需要同意政策。</string>
+    <string name="browser_privacy_tips">您的個人資料將根據我們的《隱私政策》處理。</string>
+
+    <string name="byfrost_slogan">Byfrost-看到更大的世界！</string>
+    <string name="byfrost_suggestion">我們已收到您的建議，謝謝。</string>
+    <string name="byfrost_suggestion_time">回饋時間不得少於上次回饋的 1 分鐘。</string>
+    <string name="update_tips2">✨所有為了讓您的體驗更好！\n快點，更新看看吧！✨</string>
+    <string name="update_tips1">沒錯，您猜對了！全新更新來了！</string>
+    <string name="update_content1">1. 我們超級聰明的科學家讓網頁加載速度快如閃電！</string>
+    <string name="update_content2">2. 我們可愛的設計師施展魔法，讓一切看起來更漂亮！</string>
+    <string name="update_content3">3. 至於我們了不起的開發人員？他們熬夜喝咖啡，趕走那些煩人的錯誤！</string>
+
+    <string name="lable_news">新聞</string>
+    <string name="lable_video">影片</string>
+    <string name="lable_lifestyle">生活風格</string>
+    <string name="lable_AI">人工智慧</string>
+    <string name="lable_Tools">工具</string>
+
+    <string name="lable_weather">天氣</string>
+    <string name="lable_calendar">日曆</string>
+    <string name="lable_maps">地圖</string>
+    <string name="lable_translate">翻譯</string>
+
+    <string name="website_recommend">推薦網站</string>
+    <string name="website_social">社交</string>
+    <string name="website_lifestyle">生活風格</string>
+    <string name="website_news">新聞•體育</string>
+    <string name="website_AI">人工智慧</string>
+    <string name="website_videos">影片</string>
+    <string name="website_shoping">娛樂•購物</string>
+    <string name="website_tools">工具</string>
+    <string name="website_hot">熱門</string>
+
+    <string name="zxing_button_ok">確定</string>
+    <string name="zxing_msg_camera_framework_bug">很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。</string>
+    <string name="zxing_msg_default_status">將條碼置於鏡頭範圍內以進行掃描。</string>
+</resources>

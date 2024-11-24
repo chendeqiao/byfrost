@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uploads_disabled">File uploads are disabled.</string>
+    <string name="new_tab">New tab</string>
+    <string name="new_incognito_tab">New incognito tab</string>
+    <string name="tab_snapshots">Saved pages</string>
+    <string name="removed_from_bookmarks">Removed from bookmarks.</string>
+    <string name="sign_in_to">Sign in to %1$s \"%2$s\"</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+    <string name="action">Sign in</string>
+    <string name="bookmarks_add_page">Save bookmark</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="add_to_homepage">Add to homepage</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="rename">Rename files</string>
+    <string name="copy_link">Copy link</string>
+    <string name="share">Share</string>
+    <string name="most_visited">Most visited</string>
+
+    <string name="allow">Allow</string>
+    <string name="go_back">Go back</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmark_list">Bookmarks</string>
+    <string name="go">Go</string>
+    <string name="clear">Clear</string>
+    <string name="clear_default_browser">Clear setting as default browser</string>
+    <string name="already_cleared">Cleared</string>
+    <string name="open">Open</string>
+    <string name="history">History</string>
+    <string name="remember_preference">Remember preference</string>
+    <string name="block">Block</string>
+    <string name="clear_data_success">Clear success</string>
+    <string name="exit">Exit</string>
+    <string name="clear_all">Clear all</string>
+
+    <string name="page_info">Page info</string>
+    <string name="page_info_view">View page info</string>
+    <string name="page_info_address">Address:</string>
+
+    <string name="ssl_warnings_header">There are problems with the security certificate for this site.</string>
+    <string name="ssl_continue">Continue</string>
+    <string name="security_warning">Security warning</string>
+    <string name="view_certificate">View certificate</string>
+
+    <string name="ssl_certificate">Security certificate</string>
+    <string name="ssl_untrusted">This certificate isn\'t from a trusted authority.</string>
+    <string name="ssl_mismatch">The name of the site doesn\'t match the name on the certificate.</string>
+    <string name="ssl_expired">This certificate has expired.</string>
+    <string name="ssl_not_yet_valid">This certificate isn\'t valid yet.</string>
+    <string name="ssl_date_invalid">This certificate has an invalid date.</string>
+    <string name="ssl_invalid">This certificate is invalid.</string>
+    <string name="ssl_certificate_is_valid">This certificate is valid.</string>
+    <string name="ssl_unknown">Unknown certificate error.</string>
+    <string name="stopping">Stopping\u2026</string>
+
+    <string name="location">Address</string>
+    <string name="account">Account</string>
+    <string name="containing_folder">Add to</string>
+    <string name="new_folder">New folder</string>
+    <string name="edit_folder">Edit folder</string>
+    <string name="delete_folder">Delete folder</string>
+    <string name="no_subfolders">No subfolders.</string>
+    <string name="add_to_homescreen_menu_option">Home screen</string>
+    <string name="add_to_other_folder_menu_option">Other folder</string>
+    <string name="name">Label</string>
+    <string name="bookmark_this_page">Bookmark this page</string>
+    <string name="remove">Remove</string>
+    <string name="edit_bookmark">Edit bookmark</string>
+    <string name="create_shortcut_bookmark">Add shortcut to home</string>
+    <string name="remove_bookmark">Delete bookmark</string>
+    <string name="set_as_homepage">Set as homepage</string>
+    <string name="bookmark_saved">Saved to bookmarks</string>
+    <string name="bookmark_not_saved">Couldn\'t save bookmark</string>
+    <string name="bookmark_needs_title">"Bookmark must have a name"</string>
+    <string name="bookmark_needs_url">"Bookmark must have a location"</string>
+    <string name="bookmark_url_not_valid">This URL isn\'t valid</string>
+    <string name="bookmark_cannot_save_url">This URL can\'t be bookmarked</string>
+    <string name="delete_bookmark_warning">Delete bookmark \"%s\"?</string>
+    <string name="open_all_in_new_window">Open all in new tabs</string>
+    <string name="select_dot">Select text</string>
+    <string name="shortcut_bookmark">Bookmark</string>
+    <string name="shortcut_bookmark_title">Choose a bookmark</string>
+    <string name="contextheader_folder_bookmarkcount">%d bookmarks</string>
+    <string name="contextheader_folder_empty">Empty folder</string>
+    <string name="contextmenu_openlink_newwindow">Open in new tab</string>
+    <string name="contextmenu_openlink_newwindow_background">Open in background</string>
+    <string name="contextmenu_savelink">Save link</string>
+    <string name="contextmenu_sharelink">Share link</string>
+    <string name="contextmenu_copy">Copy</string>
+    <string name="contextmenu_copylink">Copy link URL</string>
+    <string name="contextmenu_download_image">Save image</string>
+    <string name="contextmenu_view_image">View image</string>
+    <string name="contextmenu_set_wallpaper">Set as wallpaper</string>
+    <string name="contextmenu_set_wallpaper_image">Wallpaper</string>
+
+    <string name="contextmenu_dial_dot">Dial\u2026</string>
+    <string name="contextmenu_add_contact">Add contact</string>
+    <string name="contextmenu_send_mail">Send email</string>
+    <string name="contextmenu_map">Map</string>
+    <string name="choosertitle_sharevia">Share via</string>
+    <string name="menu_preferences">Settings</string>
+
+    <string name="pref_ad_block">AD Block</string>
+    <string name="pref_notification_tool_show">Show Search Bar in Notification Panel</string>
+    <string name="pref_force_userscalable_summary">Override a website\'s request to control zoom behavior</string>
+    <string name="pref_default_text_encoding">Text encoding</string>
+    <string name="pref_default_ad_time">Ad Marking Time</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">Website settings</string>
+    <string name="pref_content_search_engine">Set search engine</string>
+    <string name="pref_search_engine_dialog_title">Choose engine</string>
+    <string name="pref_download_path_setting_screen_title">Custom download path</string>
+    <string name="pref_privacy_security_title">Privacy &amp; Security</string>
+    <string name="pref_privacy_security_title_summary">Allow the browser to remember passwords, saved forms, etc.</string>
+
+    <string name="pref_privacy_clear_data">Clear data</string>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Forms</item>
+        <item>History</item>
+        <item>Passwords</item>
+        <item>Location access</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Clear locally cached contents and databases</item>
+        <item>Clear all cookies</item>
+        <item>Clear all saved form data</item>
+        <item>Clear all browsing history</item>
+        <item>Clear all saved accounts and passwords</item>
+        <item>Cancel permission to all websites to obtain your location</item>
+    </string-array>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_default_browser">Set default browser</string>
+    <string name="pref_confirm_on_exit">Confirm on exit</string>
+    <string name="pref_show_status_bar">The status bar is displayed</string>
+    <string name="pref_about">About</string>
+    <string name="pref_extras_reset_default">Reset to default</string>
+
+    <string name="pref_extras_reset_default_dlg">Revert settings to default values?</string>
+
+    <string name="accessibility_button_uaswitch">Switch user agent</string>
+    <string-array name="pref_user_agent_choices">
+        <item>Default</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Computer</item>
+    </string-array>
+    <string name="pref_font_size">Text size</string>
+    <string name="pref_font_size_summary">Adjust size of text and fonts</string>
+    <string name="pref_force_userscalable">Force enable zoom</string>
+
+    <string name="pref_security_accept_cookies">Accept cookies</string>
+    <string name="pref_security_accept_cookies_summary">Allow sites to save and read cookie data</string>
+    <string name="pref_privacy_enable_geolocation">Enable location</string>
+    <string name="pref_privacy_enable_geolocation_summary">Allow sites to request access to your location</string>
+    <string name="pref_security_save_form_data">Remember form data</string>
+    <string name="pref_security_save_form_data_summary">Remember the data I entered in the form</string>
+    <string name="pref_security_remember_passwords">Remember passwords</string>
+    <string name="pref_security_remember_passwords_summary">Save usernames and passwords for websites</string>
+    <string name="pref_security_show_security_warning">Show security warnings</string>
+    <string name="pref_security_show_security_warning_summary">Show warning if there\'s a problem with a site\'s security</string>
+    <string name="pref_download_with_ADM">Download with ADM</string>
+    <string name="pref_show_download_dialog">Show download dialog</string>
+
+    <string name="pref_download">Download settings</string>
+    <string-array name="pref_text_size_choices">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string name="pref_text_zoom">Text scaling</string>
+    <string name="pref_min_font_size">Minimum font size</string>
+
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+
+    <string name="browserFrameNetworkErrorLabel">Connection problem</string>
+    <string name="browserFrameFileErrorLabel">File problem</string>
+    <string name="browserFrameFormResubmitMessage">The page you\'re trying to view contains data that has already been submitted (\"POSTDATA\"). If you resend the data, any action the form on the page carried out (such as a search or online purchase) will be repeated.</string>
+    <string name="empty_history">No browsing history</string>
+    <string name="add_new_bookmark">Add bookmark</string>
+    <string name="find_on_page">Find on page</string>
+    <string name="search_hint">Search or Type URL</string>
+    <string name="search_settings_description">Bookmarks and web history</string>
+
+    <string name="too_many_windows_dialog_message">Can\'t open a new tab until you close one.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up already open</string>
+    <string name="too_many_subwindows_dialog_message">Only one pop-up can be open at a time.</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">No SD card</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">An SD card is required to download %s.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD card unavailable</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">The SD card is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="search_the_web">Search the web</string>
+
+    <string name="webstorage_outofspace_notification_title">Browser storage full</string>
+    <string name="webstorage_outofspace_notification_text">Touch to free up space.</string>
+    <string name="webstorage_clear_data_title">Clear stored data</string>
+    <string name="webstorage_origin_summary_mb_stored">MB stored on your phone</string>
+    <string name="loading_video">Loading video\u2026</string>
+    <string name="permissions_prompt_message">%1$s wants to use your %2$s.</string>
+    <string name="permissions_prompt_deny">Deny</string>
+    <string name="resource_protected_media_id">protected media ID</string>
+    <string name="resource_video_capture">camera</string>
+    <string name="resource_audio_capture">microphone</string>
+    <string name="geolocation_permissions_prompt_message">%s wants to know your location</string>
+    <string name="geolocation_permissions_prompt_share">Share location</string>
+    <string name="geolocation_permissions_prompt_dont_share">Decline</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location. Change this on the Settings &gt; Advanced &gt; Website Settings.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location. Change this on the Settings &gt; Advanced &gt; Website Settings.</string>
+    <string name="geolocation_settings_page_title">Cancel permission  to obtain your location</string>
+    <string name="geolocation_settings_page_summary_allowed">This site can currently access your location</string>
+    <string name="geolocation_settings_page_summary_not_allowed">This site can\'t currently access your location</string>
+    <string name="geolocation_settings_page_dialog_message">Clear location access for this website?</string>
+    <string name="website_settings_list_header_text">Location Access</string>
+
+    <string name="progress_dialog_setting_wallpaper">Setting wallpaper\u2026</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">Show JavaScript console</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript console</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evaluate JavaScript</string>
+    <string name="error_console_eval_button_text" translatable="false">Evaluate</string>
+    <string name="empty_bookmarks_folder">Your bookmarks are empty</string>
+    <string name="other_bookmarks">Other Bookmarks</string>
+
+    <string name="max_tabs_warning">No more tabs available</string>
+    <string name="local_bookmarks">Local</string>
+    <string name="empty_snapshots_folder">No saved pages</string>
+    <string name="remove_snapshot">Delete saved page</string>
+    <string name="accessibility_button_forward">Go forward</string>
+    <string name="accessibility_button_refresh">Refresh page</string>
+    <string name="accessibility_button_stop">Stop page load</string>
+    <string name="accessibility_button_addbookmark">Bookmark page</string>
+    <string name="accessibility_button_search">Search</string>
+    <string name="accessibility_button_voice">Start voice search</string>
+    <string name="accessibility_button_closetab">Close tab</string>
+    <string name="accessibility_button_newtab">Open new tab</string>
+    <string name="accessibility_button_more">More options</string>
+
+    <string name="accessibility_state_incognito">Incognito page</string>
+    <string name="accessibility_state_frozen">Saved page</string>
+
+    <string name="accessibility_transition_navscreen">Tab management</string>
+    <string name="accessibility_button_bookmarks_folder_up">Previous folder</string>
+    <string name="sendText">Choose an action for text</string>
+
+    <string name="cancelDel">Undo delete？</string>
+
+    <string name="write_advice_please">Please describe your opinion or suggestion in words... (1000 words)</string>
+    <string name="feed_back_sucess">We have received your comments and suggestions, thank you.</string>
+    <string name="check_network">Submission failed due to network issue, please check.</string>
+    <string name="commit_fail">Submission failed, Please try later</string>
+    <string name="please_input_over_six">Please enter 6 or more characters</string>
+    <string name="please_input_under_max">Please enter no more than %1$d characters</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Please enter the correct phone numble</string>
+    <string name="add_pic">Add image:</string>
+    <string name="optional">(Optional)</string>
+    <string name="please_leave_your_email">Please leave your email address</string>
+    <string name="feedback_other">Other:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Optional)</string>
+    <string name="feedback_submit">submit</string>
+
+    <string name="versionUpdate">Update</string>
+    <string name="messageContent">There is a new version for %s, you can update it now.</string>
+    <string name="update_at_once">Update</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">Check Update</string>
+    <string name="pref_contact_us">Contact us:</string>
+
+    <string name="pref_agreement">User Terms</string>
+    <string name="pref_privacy_policy">Privacy Policy</string>
+
+    <string name="check_for_update">check for update...</string>
+    <string name="request_fail">Request failed, please try later</string>
+    <string name="update_remind">Update notice</string>
+    <string name="is_latest">Already the latest version!</string>
+    <string name="no_prompt">Don\'t ask again</string>
+
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="download_removed">Has removed</string>
+    <string name="download_pause">download pause</string>
+    <string name="download_failed">download failed</string>
+    <string name="unknown_file">unknown file types</string>
+    <string name="no_downloads">No Downloads</string>
+    <string name="downloadmanager_disabled">Download Manager is disabled. Please enable it.</string>
+    <string name="cannot_open_the_file">No procedure to open this type of file</string>
+    <string name="download_allow_mobile">Allow file download via mobile network?</string>
+    <string name="allow_download">Allow Download</string>
+    <string name="allow_download_no">Connect WiFi</string>
+    <string name="download_list">Download List</string>
+    <string name="storage_space_lack">Not enough storage available</string>
+    <string name="new_file">Create new file</string>
+    <string name="replace_file">Replace file</string>
+
+    <string name="default_location">Default location:%1$s</string>
+    <string name="select_location">Select location</string>
+    <string name="sdcard_free">%1$s Free/%2$s</string>
+    <!--&lt;!&ndash;bottomMenuItem&ndash;&gt;-->
+    <string name="menu_browser_add_bookmark">Add Bookmark</string>
+    <string name="menu_browser_night">Eyes Protector</string>
+    <string name="menu_browser_incognito">Incognito</string>
+    <!--    <string name="menu_browser_close_picture">Normal</string>-->
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_history">History</string>
+    <string name="menu_browser_bookmarks">Bookmarks</string>
+    <string name="menu_browser_downloads">Downloads</string>
+    <string name="menu_browser_no_image">No Image</string>
+    <string name="menu_browser_full_screen">Full Screen</string>
+    <string name="menu_browser_font_size">Font Size</string>
+    <string name="menu_browser_search_page">Search in Page</string>
+    <string name="menu_browser_snapshots">Save Page</string>
+
+    <string name="menu_browser_settings">Settings</string>
+    <string name="menu_browser_Tools">Tools</string>
+    <string name="menu_browser_quit">Quit</string>
+
+    <string name="title_clear_off_line">Clear saved pages?</string>
+    <string name="title_clear_history">Clear history?</string>
+    <string name="title_clear_all_history">Clear all history?</string>
+    <string name="title_clear_bookmark">Clear bookmark?</string>
+    <string name="enter_incognito_mode">Switch to incognito</string>
+    <string name="enter_normal_mode">Switch to normal</string>
+    <string name="swipe_up_tip">You can swipe up to delete the tab</string>
+    <string name="empty_info_most_visited">No record</string>
+
+    <string name="prompt_saved_off_line">Saved to offline pages</string>
+    <string name="prompt_already_saved_off">You have already saved this page</string>
+    <string name="prompt_already_saved_bookmark">You have already added this bookmark</string>
+    <string name="incognito_home">You\'re in Incognito</string>
+    <string name="incognito_home_content">Now you are in incognito mode.</string>
+    <string name="edit">Edit</string>
+
+    <string name="exit_dialog_title">Exit Browser?</string>
+    <string-array name="exit_dialog_choices">
+        <item>Clear history &amp; cache</item>
+        <item>Don\'t ask again</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">Ads located, enable AD Block now?</string>
+    <string name="visit_url_title">Visit this URL from your clipboard?</string>
+    <string name="visit_url_ok">Visit</string>
+    <string name="incognito_home_tip">You can exit incognito and back to normal.</string>
+    <string name="snap_shot_no_title">Untitled</string>
+    <string name="view_select_all">Select All</string>
+    <string name="set_default_browser">Set default browser</string>
+    <string name="enter_settings_page">Enter Settings after clear is done, please.</string>
+    <string name="clear_default_setting_please">Another browser is set as default browser, please clear the browser\'s default setting.</string>
+    <string name="unknown_error">Unknown error, please try again.</string>
+    <string name="set_default_success">Setting up successful!</string>
+    <string name="set_default_failure">Set default failure. Try again please.</string>
+
+    <string name="default_bookmark">Default Bookmark</string>
+
+    <string name="click_again_quit">Tap back to quit</string>
+    <string name="clear_all_already">Clear all data already!</string>
+    <string name="select_download_path">Select the folder \"%s\" as the download location</string>
+
+    <string name="contact_us_on_facebook">Contact us on Facebook</string>
+    <string name="text_count_can_input">%1$d characters can be inputed</string>
+    <string name="input_over_flow">Submission failure for %1$d characters exceed the limit</string>
+    <string name="upload_image">Upload images</string>
+    <string name="request_read_external_storage_error">Request failure to access the phone memory</string>
+    <string name="get_photo_failure">Failure to obtain pictures</string>
+
+    <string name="title_activity_add_link">Add link</string>
+    <string name="btn_recommend_add">Add</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">Please enter title</string>
+    <string name="right_recommend_add_link_not_url">Please enter URL</string>
+    <string name="right_recommend_add_link_url_format">This URL is wrong</string>
+    <string name="right_recommend_add_link_saved">Saved</string>
+    <string name="right_recommend_add_link_repeat">URL already exists</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Remove</string>
+
+    <string name="file_name">File Name</string>
+    <string name="copylink_success">Link is copied</string>
+    <string name="add_to_homepage_success">Added to homepage</string>
+    <string name="add_to_desktop_success">Added to desktop</string>
+    <string name="clear_history_all">Clear history all</string>
+    <string name="remove_items_all">Remove items</string>
+    <string name="rename_failed">Rename Failed</string>
+    <string name="rename_success">Rename Success</string>
+    <string name="filename_empty">File name can\'t be empty</string>
+    <string name="file_exist">File is exist</string>
+    <string name="file_not_exist">File does not exist</string>
+
+    <string name="menu_tools_box">Toolbox</string>
+    <string name="toolbox_menu_on">ON</string>
+    <string name="toolbox_menu_off">OFF</string>
+    <string name="home_page">Home Page</string>
+    <string name="desktop">Desktop</string>
+    <string name="name_cannot_empty">Web name can\'t be empty</string>
+
+    <string name="setting_update_speech_recognition">voice input forbidden, please update Google voice service</string>
+    <string name="done">DONE</string>
+    <string name="edited">EDITED</string>
+    <string name="enter_website_name">Enter website name</string>
+
+    <string name="unknown">unknown</string>
+    <string name="available">Available</string>
+    <string name="total">Total</string>
+    <string name="notification_content_text">Click to view</string>
+    <string name="notification_download_finish">Download completed</string>
+    <string name="view">View</string>
+
+    <string name="five_stars_titile">Enjoy %s?</string>
+    <string name="five_stars_content">Your five stars rating matters a lot to us.</string>
+    <string name="five_stars_later">Later</string>
+    <string name="five_stars">5 stars</string>
+    <string name="refresh">Refresh</string>
+    <string name="ua_switcher_desktop">Request desktop site</string>
+
+    <string name="video_mobile_permission">You are using the mobile network. Still want to play?</string>
+    <string name="video_mobile_play">Play</string>
+    <string name="video_mobile_pause">Cancel</string>
+    <string name="close_all_incognito_notification">Close all incognito tabs</string>
+    <string name="add_up_to_15">Add up to 20</string>
+    <string name="pref_deverloper_options">Deverloper options</string>
+    <string name="show_dev_on">You are now a developer!</string>
+
+    <string name="pic_ad_block_count">Blocked Images</string>
+    <string name="js_ad_block_count">Blocked JavaScript files</string>
+    <string name="popup_ad_block_count">Blocked Popups</string>
+    <string name="custom_rules">Custom AdBlock\'s filters</string>
+    <string name="custom_rules_title">AdBlock\'s filters</string>
+    <string name="confirm_deletion">Delete this?</string>
+    <string name="add">Add</string>
+    <string name="confirm_deletion_all">Delete all?</string>
+
+    <string name="js_disable_hosts">Set advertising marker time limit</string>
+    <string name="js_disable_hosts_title">Certain domains</string>
+    <string name="null_rules_prompt">You can add your own rules. Your rules must follow the grammar rules of Adblock Plus. Instructions for use.</string>
+
+    <string name="instructions_label">Instructions for use</string>
+    <string name="adblock_rules_error_prompt">Syntax error, please edit again!</string>
+    <string name="js_disable_host_error_prompt">Domain error, please edit again!</string>
+
+    <string name="leadpage_home">Home</string>
+    <string name="leadpage_back">Back</string>
+
+    <string name="leadpage_forward">Forward</string>
+    <string name="abnormal_recover_ok">Restore</string>
+    <string name="abnormal_recover_message">Restore the last webpage?</string>
+    <string name="abnormal_recover_recovered">Pages from the last session are restored.</string>
+
+    <string name="open_most_visited" translatable="false">open most visited>></string>
+    <string name="contextmenu_share_app">Share App</string>
+    <string name="contextmenu_share_website">Share Website</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">Tools</string>
+
+    <string name="pref_show_red_badge_notity">Show Red badge notify</string>
+    <string name="pref_show_header_news">Show time/weather/news of pre page</string>
+
+    <string name="added_new_bookmark">Add bookmark</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">five star</string>
+    <string name="deletion_all">Delete all</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="mark_image_ad">Mark Ad</string>
+    <string name="mark_image_ad_fail">Marked fail</string>
+    <string name="product_agree">Agree</string>
+    <string name="product_no_agree">no Agree</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">expanding</string>
+    <string name="setting_bottom_night">Dark mode</string>
+    <string name="setting_bottom_day">Light mode</string>
+
+    <string name="update_now">Go googleplay down app.</string>
+    <string name="update_title">New version found</string>
+    <string name="update_later">Later update</string>
+    <string name="five_stars_comment">give suguestion.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">Search history</string>
+    <string name="browser_admin_panel">User Center</string>
+    <string name="browser_navigation">Navigation</string>
+
+    <string name="browser_slogo_fast">Faster</string>
+    <string name="browser_slogo_safe">Safer</string>
+    <string name="browser_slogo_intelligence">Smarter</string>
+
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nAll Rights Reserved.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">Place the QR code inside the box and start scanning</string>
+    <string name="picture_nocodeinfo" translatable="false">No recognition of QR code information in the image</string>
+    <string name="picture_scannoinfo" translatable="false">No QR code information was scanned</string>
+    <string name="share_dialog_title" translatable="false">Share webpage</string>
+    <string name="my_qrcode" translatable="false">My QR code</string>
+    <string name="select_qr_code" translatable="false">Select QR code image</string>
+    <string name="sure_select_true_picture" translatable="false">Please confirm that you have selected the correct image</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">Expand recommended website</string>
+    <string name="browser_slogan" translatable="false">Search freely for everything you need</string>
+    <string name="browser_net_error_refresh" translatable="false">Click on the blank area to refresh the page</string>
+
+    <string name="browser_hot_word_title" translatable="false">Hot search list</string>
+    <string name="browser_permission_camera">Camera permission denied, please manually enable it</string>
+    <string name="browser_permission_notification">Notification bar permission denied, please manually enable it</string>
+    <string name="browser_permission_strone">Downloading files requires storage permission. Please manually open the storage permission in the settings</string>
+
+    <string name="browser_permission_qr">This function requires memory access permission. Please manually enable the permission in the settings</string>
+    <string name="browser_permission_setwall">Setting phone wallpaper requires memory storage permission. Please manually open it on the settings page</string>
+    <string name="browser_product_start">Start</string>
+    <string name="browser_product_agree_tips">You need agree the policy.</string>
+    <string name="browser_privacy_tips">Your personal data will be handled in accordance with our 《Privacy Policy》.</string>
+
+    <string name="byfrost_slogan">Byfrost AI Browser – Discover a Bigger, Smarter World!</string>
+    <string name="byfrost_suggestion">We have received your suggestion,thank you.</string>
+    <string name="byfrost_suggestion_time">The feedback time cannot be less than 1 minute from the last time.</string>
+    <string name="update_tips2">✨All to make your experience better!\nGo ahead, update now and check it out! ✨</string>
+    <string name="update_tips1">Yup, you guessed it! A brand-new update is here!</string>
+    <string name="update_content1">1. Our super-smart scientists have made web pages load lightning fast!</string>
+    <string name="update_content2">2. Our lovely designer worked her magic and made everything look even prettier!</string>
+    <string name="update_content3">3. And our amazing devs? They stayed up late sipping coffee, chasing away all those pesky bugs!</string>
+
+    <string name="lable_news">News</string>
+    <string name="lable_video">Videos</string>
+    <string name="lable_lifestyle">LifeStyle</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Tools</string>
+
+    <string name="lable_weather">weather</string>
+    <string name="lable_calendar">Calendar</string>
+    <string name="lable_maps">Maps</string>
+    <string name="lable_translate">Translate</string>
+
+    <string name="website_recommend">Recommended</string>
+    <string name="website_social">Social</string>
+    <string name="website_lifestyle">LifeStyle</string>
+    <string name="website_news">News•Sport</string>
+    <string name="website_AI">AI</string>
+    <string name="website_videos">Videos</string>
+    <string name="website_shoping">Entertainment•Shopping</string>
+    <string name="website_tools">Tools</string>
+    <string name="website_hot">Hot</string>
+
+
+
+    <string name="browser_show_most_visited" translatable="false">Show \'Most Visited\' on the Homepage</string>
+    <string name="browser_hide_most_visited" translatable="false">Hide \'Most Visited\' on the Homepage</string>
+    <string name="browser_search_hint" translatable="false">Search Anything.</string>
+    <string name="browser_full_video_orientation" translatable="false">Switch video fullscreen orientation</string>
+    <string name="browser_setting_video_title" translatable="false">Video Display Mode</string>
+    <string name="browser_default_setting_tips" translatable="false">Make us your default browser and enjoy faster, smarter, and smoother browsing!</string>
+    <string name="browser_setting_guide_card_tips" translatable="false">Customize your unique browsing experience, set up personalized features now, and embark on a smarter browsing journey!</string>
+    <string name="browser_setting_guide_card_title" translatable="false">Customize Your Settings</string>
+    <string name="browser_setting_swipe_title" translatable="false">Swipe to Go Back/Forward</string>
+    <string name="browser_setting_swipe_enabled" translatable="false">Swipe to Go Back/Forward is now enabled.</string>
+    <string name="browser_setting_swipe_closed" translatable="false">Swipe to Go Back/Forward is now disabled.</string>
+    <string name="browser_setting_ad_time" translatable="false">Ad Marking Duration</string>
+    <string name="browser_setting_notify_title" translatable="false">Enable Quick Access for faster, easier use!</string>
+    <string name="browser_setting_notify_button" translatable="false">Enable</string>
+    <string name="browser_tab_close_all" translatable="false">Close All</string>
+    <string name="browser_setting_multi_language">Language</string>
+    <string name="browser_setting_language_title">Choose Your Language</string>
+    <string name="browser_setting_language_des">Welcome to the app! Please select your preferred language. You can change this later in settings.</string>
+    <string name="browser_setting_app_lock">Set Up App Lock</string>
+    <string name="browser_close_app_lock">Turn Off App Lock</string>
+    <string name="browser_life_text">Life</string>
+    <string-array name="pref_user_video_choices">
+        <item>Default</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+</resources>

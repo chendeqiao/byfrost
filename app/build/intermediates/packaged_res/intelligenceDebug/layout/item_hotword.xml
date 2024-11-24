@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:paddingLeft="@dimen/settings_list_item_text_marginstart"
+    android:paddingRight="@dimen/settings_list_item_text_marginstart"
+    android:id="@+id/hotword_item_rootview">
+
+    <RelativeLayout
+        android:id="@+id/hotword_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/hotword_index_layout"
+            android:layout_width="22dp"
+            android:layout_centerVertical="true"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/hotword_index_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/hotword_index"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:textColor="@color/web_icon_background2"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+        </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/hotword_word"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/hotword_index_layout"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/hotword_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="姚策养母称偷换孩子明显是人为"
+            android:layout_marginLeft="2dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/browser_title_color"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/hotword_redtips"
+            android:layout_width="wrap_content"
+            android:maxWidth="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:includeFontPadding="false"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/hotword_trend"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:src="@drawable/browser_hot_word_up"/>
+
+        <TextView
+            android:id="@+id/hotword_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="760.2万"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textColor="@color/browser_tips_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/browser_hotword_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/settings_list_divider"/>
+</FrameLayout>

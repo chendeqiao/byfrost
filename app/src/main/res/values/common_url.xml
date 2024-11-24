@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--设置常用推荐网址, 首先设置key,然后设置对应的各个属性-->
+
+    <string name="user_agreement">https://sites.google.com/view/byfrost-user-agreement/</string>
+    <string name="user_privacy">https://sites.google.com/view/byfrost-privacy/</string>
+
+    <array name="facebook_url">
+        <item>@string/recommend_facebook</item><!--名称 -->
+        <item>https://www.facebook.com/</item> <!--地址-->
+        <item>ic_browser_recommend_facebook</item> <!--图片-->
+        <item>w-3</item>
+        <item>facebook</item>
+    </array>
+
+    <!--推荐常用url键值-->
+    <string-array name="recommend_websites_checking"></string-array>
+    <!--推荐常用url键值-->
+    <!--    <string-array name="recommend_websites">-->
+    <!--        <item>@string/browser_navigation</item>-->
+    <!--        <item>yunxin://browser/news?goods=1</item>-->
+    <!--        <item>browser_webicon_daohang</item>-->
+
+    <!--    </string-array>-->
+
+    <string name="recommend_amazon">Amazon</string>
+    <string name="recommend_facebook">Facebook</string>
+    <string name="recommend_google">Google</string>
+
+    <!--推荐常用url键值-->
+    <string-array name="recommend_websites">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_webicon_yahoo</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Reddit</item>
+        <item>http://www.reddit.com/.compact</item>
+        <item>browser_webicon_reddit</item>
+
+        <item>Facebook</item>
+        <item>https://m.facebook.com/ </item>
+        <item>browser_webicon_facebook</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Wikipedia</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>browser_webicon_wiki</item>
+
+
+    </string-array>
+
+    <string-array name="Recommended">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Facebook</item>
+        <item>https://m.facebook.com/ </item>
+        <item>browser_webicon_facebook</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>Wikipedia</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>browser_webicon_wiki</item>
+
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Instagram</item>
+        <item>https://www.instagram.com/accounts/login/</item>
+        <item>browser_webicon_ins</item>
+
+        <item>Microsoft</item>
+        <item>http://m.microsoft.com/en-us/default.mspx/</item>
+        <item>browser_webicon_mic</item>
+
+    </string-array>
+
+    <string-array name="Videos">
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>NextFix</item>
+        <item>https://www.netflix.com</item>
+        <item>browser_webicon_nextfix</item>
+
+        <item>Vimeo</item>
+        <item>https://www.vimeo.com</item>
+        <item>browser_webicon_vimeo</item>
+
+        <item>BBC iPlayer</item>
+        <item>https://www.bbc.co.uk/iplayer</item>
+        <item>browser_webicon_bbc</item>
+
+        <item>TED Talks</item>
+        <item>https://www.ted.com</item>
+        <item>browser_webicon_ted</item>
+
+        <item>Khan Academy</item>
+        <item>https://www.khanacademy.org</item>
+        <item>browser_webicon_ka</item>
+
+        <item>Dailymotion</item>
+        <item>https://www.dailymotion.com</item>
+        <item>browser_webicon_dm</item>
+
+        <item>Twitch</item>
+        <item>https://www.twitch.tv</item>
+        <item>browser_webicon_twitch</item>
+
+    </string-array>
+
+
+    <string-array name="AI">
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Google Bard</item>
+        <item>https://bard.google.com</item>
+        <item>browser_engine_google</item>
+
+        <item>Bing AI</item>
+        <item>https://www.bing.com</item>
+        <item>browser_webicon_biying</item>
+
+        <item>Pictory</item>
+        <item>https://pictory.ai</item>
+        <item>browser_webicon_pictory</item>
+
+        <item>Runway ML</item>
+        <item>https://runwayml.com</item>
+        <item>browser_webicon_runway</item>
+
+        <item>DeepL Translator</item>
+        <item>https://www.deepl.com</item>
+        <item>browser_webicon_deepl</item>
+
+        <item>Character AI</item>
+        <item> https://beta.character.ai</item>
+        <item>browser_webicon_cai</item>
+    </string-array>
+
+    <string-array name="Social">
+        <item>Facebook</item>
+        <item>https://m.facebook.com/</item>
+        <item>browser_webicon_facebook</item>
+
+        <item>Instagram</item>
+        <item>https://www.instagram.com/accounts/login/</item>
+        <item>browser_webicon_ins</item>
+
+        <item>X</item>
+        <item>https://x.com/</item>
+        <item>browser_webicon_x</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Meetme</item>
+        <item>http://m.meetme.com/</item>
+        <item>browser_webicon_meetme</item>
+    </string-array>
+
+    <string-array name="Lifestyle">
+        <item>Gmail</item>
+        <item>https://mail.google.com/</item>
+        <item>browser_webicon_gmail</item>
+
+        <item>Wikipedia</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>browser_webicon_wiki</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_engine_yahoo</item>
+
+        <item>Instagram</item>
+        <item>https://www.instagram.com/accounts/login/</item>
+        <item>browser_webicon_ins</item>
+
+        <item>Microsoft</item>
+        <item>http://m.microsoft.com/en-us/default.mspx</item>
+        <item>browser_webicon_mic</item>
+
+        <item>Bing</item>
+        <item>https://cn.bing.com/</item>
+        <item>browser_webicon_biying</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>Linkedin</item>
+        <item>https://touch.www.linkedin.com/login.html</item>
+        <item>browser_webicon_linkedin</item>
+
+        <item>Reddit</item>
+        <item>http://www.reddit.com/.compact</item>
+        <item>browser_webicon_reddit</item>
+
+        <item>Yelp</item>
+        <item>http://www.yelp.com/</item>
+        <item>browser_webicon_yelp</item>
+    </string-array>
+
+    <string-array name="News">
+        <item>Google News</item>
+        <item>https://news.google.com/</item>
+        <item>browser_webicon_googlenew</item>
+
+        <item>CNN</item>
+        <item>https://edition.cnn.com/</item>
+        <item>browser_webicon_cnn</item>
+
+        <item>NBC</item>
+        <item>https://www.nbcnews.com/</item>
+        <item>browser_webicon_nbc</item>
+
+        <item>Al Jazeera</item>
+        <item>https://www.aljazeera.com</item>
+        <item>browser_webicon_aj</item>
+
+        <item>BBC</item>
+        <item>https://www.bbc.co.uk/</item>
+        <item>browser_webicon_bbc</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_engine_yahoo</item>
+
+        <item>Foxnews</item>
+        <item>http://www.foxnews.mobi/</item>
+        <item>browser_webicon_fox</item>
+
+        <item>Deutsche Welle</item>
+        <item>https://www.dw.com</item>
+        <item>browser_webicon_de</item>
+
+        <item>Forbes</item>
+        <item>http://www.forbes.com/</item>
+        <item>browser_webicon_forbes</item>
+
+        <item>FIFA</item>
+        <item>https://inside.fifa.com/</item>
+        <item>browser_webicon_fifa</item>
+
+    </string-array>
+
+    <string-array name="Entertainment">
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Vimeo</item>
+        <item>https://vimeo.com/</item>
+        <item>browser_webicon_vimeo</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>Ebay</item>
+        <item>https://www.ebay.com/</item>
+        <item>browser_webicon_ebay</item>
+
+        <item>AliExpress</item>
+        <item>https://m.aliexpress.com/</item>
+        <item>browser_webicon_aliexpress</item>
+
+
+        <item>Groupon</item>
+        <item>https://www.groupon.com/</item>
+        <item>browser_webicon_groupon</item>
+    </string-array>
+
+    <string-array name="Tools">
+
+        <item>Translate</item>
+        <item>https://translate.google.com/</item>
+        <item>browser_webicon_translation</item>
+
+        <item>Maps</item>
+        <item>https://www.google.com/maps</item>
+        <item>browser_webicon_maps</item>
+
+        <item>Calendar</item>
+        <item>https://calendar.google.com/calendar/</item>
+        <item>browser_webicon_calendar</item>
+
+        <item>Calculator</item>
+        <item>https://www.desmos.com/scientific</item>
+        <item>browser_webicon_calculator</item>
+
+        <item>Google Drive</item>
+        <item>https://drive.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>Canva</item>
+        <item>https://www.canva.com</item>
+        <item>browser_webicon_canva</item>
+
+        <item>Reddit</item>
+        <item>http://www.reddit.com/.compact</item>
+        <item>browser_webicon_reddit</item>
+
+        <item>Gmail</item>
+        <item>https://mail.google.com/</item>
+        <item>browser_webicon_gmail</item>
+
+        <item>Stackoverflow</item>
+        <item>https://stackoverflow.com/</item>
+        <item>browser_webicon_stackoverflow</item>
+    </string-array>
+
+
+    <string-array name="weblables">
+        <item>@string/bookmarks</item>
+        <item>yunxin://browser/history?page_index=0</item>
+        <item>browser_webicon_daohang</item>
+
+        <item>@string/history</item>
+        <item>yunxin://browser/history?page_index=1</item>
+        <item>browser_engine_google</item>
+
+        <item>@string/download</item>
+        <item>yunxin://browser/download</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>@string/menu_browser_settings</item>
+        <item>yunxin://browser/home?page=103</item>
+        <item>browser_webicon_facebook</item>
+
+    </string-array>
+
+    <string-array name="weblables2">
+        <item>@string/lable_news</item>
+        <item>https://news.google.com/</item>
+        <item>news</item>
+
+        <item>@string/lable_video</item>
+        <item>@string/lable_video</item>
+        <item>videos</item>
+
+        <item>@string/lable_AI</item>
+        <item>https://calendar.google.com/calendar/</item>
+        <item>ai</item>
+
+        <item>@string/lable_lifestyle</item>
+        <item>https://calendar.google.com/calendar/</item>
+        <item>Lifestyle</item>
+
+        <item>@string/lable_Tools</item>
+        <item>https://www.google.com/maps</item>
+        <item>tools</item>
+
+    </string-array>
+
+    <string-array name="search_lables">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>Bing</item>
+        <item>https://cn.bing.com/</item>
+        <item>browser_webicon_biying</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_engine_yahoo</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Baidu</item>
+        <item>https://www.baidu.com</item>
+        <item>browser_webicon_baidu</item>
+
+        <item>Duckduckgo</item>
+        <item>https://duckduckgo.com/</item>
+        <item>browser_duckduckgo</item>
+
+        <item>yandex</item>
+        <item>https://yandex.ru/</item>
+        <item>browser_yandex_icon</item>
+
+    </string-array>
+</resources>

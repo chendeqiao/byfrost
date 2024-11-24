@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_most_visited_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginBottom="-2dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/search_most_visited_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="2dp">
+        <ImageView
+            android:id="@+id/search_most_visited_switch"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="4dp"
+            android:paddingBottom="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="24dp"
+            android:paddingEnd="4dp"
+            android:tint="@color/browser_title_color"
+            tools:ignore="UseAppTint"
+            android:src="@drawable/browser_search_most_visite_switch_open" />
+
+        <ImageView
+            android:id="@+id/most_visited_icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:tint="@color/browser_title_color"
+            tools:ignore="UseAppTint"
+            android:src="@drawable/browser_search_input_recommend"/>
+        <TextView
+            android:id="@+id/browser_most_visited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_toRightOf="@+id/most_visited_icon"
+            android:layout_toEndOf="@+id/most_visited_icon"
+            android:text="@string/most_visited"
+            android:includeFontPadding="false"
+            android:textColor="@color/browser_title_color"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="2dp"
+            android:paddingStart="2dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:tint="@color/browser_title_color"
+            tools:ignore="UseAppTint"
+            android:layout_marginStart="0dp"
+            android:layout_toRightOf="@+id/browser_most_visited"
+            android:layout_toEndOf="@+id/browser_most_visited"
+            android:src="@drawable/browser_most_visited_go"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_most_visited_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="6dp" />
+
+    <View
+        android:id="@+id/search_most_visited_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/browser_margin_left_right"
+        android:layout_marginStart="@dimen/browser_margin_left_right"
+        android:background="@color/settings_title_background_trans" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/dialog_button_color_enabled_false" android:state_enabled="false" />
+    <item android:color="@color/five_star_btn_color_p" android:state_pressed="true" />
+    <item android:color="@color/five_star_btn_color_high"  />
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recommend_url_recycler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/recommend_url_padding"
+    android:layout_marginLeft="@dimen/recommend_url_padding"
+    android:layout_marginEnd="@dimen/recommend_url_padding"
+    android:layout_marginRight="@dimen/recommend_url_padding"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:fadingEdge="none"
+    android:listSelector="@android:color/transparent"
+    android:overScrollMode="never" />

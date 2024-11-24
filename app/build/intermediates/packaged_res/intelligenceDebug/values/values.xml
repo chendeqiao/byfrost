@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="AI">
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Google Bard</item>
+        <item>https://bard.google.com</item>
+        <item>browser_engine_google</item>
+
+        <item>Bing AI</item>
+        <item>https://www.bing.com</item>
+        <item>browser_webicon_biying</item>
+
+        <item>Pictory</item>
+        <item>https://pictory.ai</item>
+        <item>browser_webicon_pictory</item>
+
+        <item>Runway ML</item>
+        <item>https://runwayml.com</item>
+        <item>browser_webicon_runway</item>
+
+        <item>DeepL Translator</item>
+        <item>https://www.deepl.com</item>
+        <item>browser_webicon_deepl</item>
+
+        <item>Character AI</item>
+        <item> https://beta.character.ai</item>
+        <item>browser_webicon_cai</item>
+    </string-array>
+    <string-array name="Entertainment">
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Vimeo</item>
+        <item>https://vimeo.com/</item>
+        <item>browser_webicon_vimeo</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>Ebay</item>
+        <item>https://www.ebay.com/</item>
+        <item>browser_webicon_ebay</item>
+
+        <item>AliExpress</item>
+        <item>https://m.aliexpress.com/</item>
+        <item>browser_webicon_aliexpress</item>
+
+
+        <item>Groupon</item>
+        <item>https://www.groupon.com/</item>
+        <item>browser_webicon_groupon</item>
+    </string-array>
+    <string-array name="Lifestyle">
+        <item>Gmail</item>
+        <item>https://mail.google.com/</item>
+        <item>browser_webicon_gmail</item>
+
+        <item>Wikipedia</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>browser_webicon_wiki</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_engine_yahoo</item>
+
+        <item>Instagram</item>
+        <item>https://www.instagram.com/accounts/login/</item>
+        <item>browser_webicon_ins</item>
+
+        <item>Microsoft</item>
+        <item>http://m.microsoft.com/en-us/default.mspx</item>
+        <item>browser_webicon_mic</item>
+
+        <item>Bing</item>
+        <item>https://cn.bing.com/</item>
+        <item>browser_webicon_biying</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>Linkedin</item>
+        <item>https://touch.www.linkedin.com/login.html</item>
+        <item>browser_webicon_linkedin</item>
+
+        <item>Reddit</item>
+        <item>http://www.reddit.com/.compact</item>
+        <item>browser_webicon_reddit</item>
+
+        <item>Yelp</item>
+        <item>http://www.yelp.com/</item>
+        <item>browser_webicon_yelp</item>
+    </string-array>
+    <string-array name="News">
+        <item>Google News</item>
+        <item>https://news.google.com/</item>
+        <item>browser_webicon_googlenew</item>
+
+        <item>CNN</item>
+        <item>https://edition.cnn.com/</item>
+        <item>browser_webicon_cnn</item>
+
+        <item>NBC</item>
+        <item>https://www.nbcnews.com/</item>
+        <item>browser_webicon_nbc</item>
+
+        <item>Al Jazeera</item>
+        <item>https://www.aljazeera.com</item>
+        <item>browser_webicon_aj</item>
+
+        <item>BBC</item>
+        <item>https://www.bbc.co.uk/</item>
+        <item>browser_webicon_bbc</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_engine_yahoo</item>
+
+        <item>Foxnews</item>
+        <item>http://www.foxnews.mobi/</item>
+        <item>browser_webicon_fox</item>
+
+        <item>Deutsche Welle</item>
+        <item>https://www.dw.com</item>
+        <item>browser_webicon_de</item>
+
+        <item>Forbes</item>
+        <item>http://www.forbes.com/</item>
+        <item>browser_webicon_forbes</item>
+
+        <item>FIFA</item>
+        <item>https://inside.fifa.com/</item>
+        <item>browser_webicon_fifa</item>
+
+    </string-array>
+    <string-array name="Recommended">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Facebook</item>
+        <item>https://m.facebook.com/ </item>
+        <item>browser_webicon_facebook</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>Wikipedia</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>browser_webicon_wiki</item>
+
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Instagram</item>
+        <item>https://www.instagram.com/accounts/login/</item>
+        <item>browser_webicon_ins</item>
+
+        <item>Microsoft</item>
+        <item>http://m.microsoft.com/en-us/default.mspx/</item>
+        <item>browser_webicon_mic</item>
+
+    </string-array>
+    <string-array name="Social">
+        <item>Facebook</item>
+        <item>https://m.facebook.com/</item>
+        <item>browser_webicon_facebook</item>
+
+        <item>Instagram</item>
+        <item>https://www.instagram.com/accounts/login/</item>
+        <item>browser_webicon_ins</item>
+
+        <item>X</item>
+        <item>https://x.com/</item>
+        <item>browser_webicon_x</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Meetme</item>
+        <item>http://m.meetme.com/</item>
+        <item>browser_webicon_meetme</item>
+    </string-array>
+    <string-array name="Tools">
+
+        <item>Translate</item>
+        <item>https://translate.google.com/</item>
+        <item>browser_webicon_translation</item>
+
+        <item>Maps</item>
+        <item>https://www.google.com/maps</item>
+        <item>browser_webicon_maps</item>
+
+        <item>Calendar</item>
+        <item>https://calendar.google.com/calendar/</item>
+        <item>browser_webicon_calendar</item>
+
+        <item>Calculator</item>
+        <item>https://www.desmos.com/scientific</item>
+        <item>browser_webicon_calculator</item>
+
+        <item>Google Drive</item>
+        <item>https://drive.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>Canva</item>
+        <item>https://www.canva.com</item>
+        <item>browser_webicon_canva</item>
+
+        <item>Reddit</item>
+        <item>http://www.reddit.com/.compact</item>
+        <item>browser_webicon_reddit</item>
+
+        <item>Gmail</item>
+        <item>https://mail.google.com/</item>
+        <item>browser_webicon_gmail</item>
+
+        <item>Stackoverflow</item>
+        <item>https://stackoverflow.com/</item>
+        <item>browser_webicon_stackoverflow</item>
+    </string-array>
+    <string-array name="Videos">
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>NextFix</item>
+        <item>https://www.netflix.com</item>
+        <item>browser_webicon_nextfix</item>
+
+        <item>Vimeo</item>
+        <item>https://www.vimeo.com</item>
+        <item>browser_webicon_vimeo</item>
+
+        <item>BBC iPlayer</item>
+        <item>https://www.bbc.co.uk/iplayer</item>
+        <item>browser_webicon_bbc</item>
+
+        <item>TED Talks</item>
+        <item>https://www.ted.com</item>
+        <item>browser_webicon_ted</item>
+
+        <item>Khan Academy</item>
+        <item>https://www.khanacademy.org</item>
+        <item>browser_webicon_ka</item>
+
+        <item>Dailymotion</item>
+        <item>https://www.dailymotion.com</item>
+        <item>browser_webicon_dm</item>
+
+        <item>Twitch</item>
+        <item>https://www.twitch.tv</item>
+        <item>browser_webicon_twitch</item>
+
+    </string-array>
+    <string-array name="baidu" translatable="false">
+    <item>百度</item>
+    <item>https://m.baidu.com/s?wd={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="bing" translatable="false">
+    <item>Bing</item>
+    <item>http://www.bing.com/search?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_zh_CN" translatable="false">
+    <item>必应</item>
+    <item>http://www.bing.com/search?setmkt=zh-CN&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <array name="bookmark_preloads">
+        <item>@drawable/browser_engine_google</item>
+        <item>@drawable/browser_engine_google</item>
+        <item>@drawable/browser_webicon_youtube</item>
+        <item>@drawable/browser_webicon_youtube</item>
+    </array>
+    <string-array name="bookmarks" translatable="false">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+    </string-array>
+    <string-array name="custom_search_engine" translatable="false">
+    <item>baidu</item>
+    <item>google</item>
+    <item>yahoo</item>
+    <item>bing</item>
+    <item>search_360</item>
+    <item>sougou</item>
+    <item>yandex</item>
+    <item>durkdurkgo</item>
+  </string-array>
+    <string-array name="durkdurkgo" translatable="false">
+    <item>Durkdurkgo</item>
+    <item>https://duckduckgo.com/?q=</item>
+    <item>UTF-8</item>
+    <item>https://duckduckgo.com/?q=</item>
+  </string-array>
+    <string-array name="exit_dialog_choices">
+        <item>Clear history &amp; cache</item>
+        <item>Don\'t ask again</item>
+    </string-array>
+    <string-array name="exit_dialog_value">
+        <item>clear_history_cache_exiting</item>
+        <item>confirm_on_exit</item>
+    </string-array>
+    <array name="facebook_url">
+        <item>@string/recommend_facebook</item>
+        <item>https://www.facebook.com/</item> 
+        <item>ic_browser_recommend_facebook</item> 
+        <item>w-3</item>
+        <item>facebook</item>
+    </array>
+    <string-array name="google" translatable="false">
+    <item>Google</item>
+    <item>https://www.google.com/search?ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>https://www.google.com/complete/search?client=android&amp;q={searchTerms}</item>
+  </string-array>
+    <string-array name="liangzi" translatable="false">
+    <item>百度</item>
+    <item>https://wap.sogou.com/web/sl?keyword={searchTerms}&amp;bid=sogou-mobp-95e62984b87e9064</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="lock_birth_months_number">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="lock_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May </item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Forms</item>
+        <item>History</item>
+        <item>Passwords</item>
+        <item>Location access</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Clear locally cached contents and databases</item>
+        <item>Clear all cookies</item>
+        <item>Clear all saved form data</item>
+        <item>Clear all browsing history</item>
+        <item>Clear all saved accounts and passwords</item>
+        <item>Cancel permission to all websites to obtain your location</item>
+    </string-array>
+    <string-array name="pref_clear_data_values">
+        <item>privacy_clear_cache</item>
+        <item>privacy_clear_cookies</item>
+        <item>privacy_clear_form_data</item>
+        <item>privacy_clear_history</item>
+        <item>privacy_clear_passwords</item>
+        <item>privacy_clear_geolocation_access</item>
+    </string-array>
+    <string-array name="pref_default_ad_time_limite" translatable="false">
+        <item>1 hour</item>
+        <item>12 hour</item>
+        <item>24 hour</item>
+        <item>Forever</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values" translatable="false">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Default</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Computer</item>
+    </string-array>
+    <string-array name="pref_user_video_choices">
+        <item>Default</item>
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+    <string-array name="recommend_websites">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_webicon_yahoo</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Reddit</item>
+        <item>http://www.reddit.com/.compact</item>
+        <item>browser_webicon_reddit</item>
+
+        <item>Facebook</item>
+        <item>https://m.facebook.com/ </item>
+        <item>browser_webicon_facebook</item>
+
+        <item>Amazon</item>
+        <item>https://www.amazon.com/</item>
+        <item>browser_webicon_amazon</item>
+
+        <item>IMDB</item>
+        <item>https://m.imdb.com/</item>
+        <item>browser_webicon_imdb</item>
+
+        <item>Wikipedia</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>browser_webicon_wiki</item>
+
+
+    </string-array>
+    <string-array name="recommend_websites_checking"/>
+    <string-array name="search_360" translatable="false">
+    <item>360搜索</item>
+    <item>https://www.so.com/s?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="search_engines" translatable="false">
+        <item>google</item>
+        <item>bing</item>
+        <item>yahoo</item>
+        <item>baidu</item>
+        <item>yandex</item>
+        <item>durkdurkgo</item>
+    </string-array>
+    <array name="search_input_hint_after">
+        <item>.</item>
+        <item>/</item>
+        <item>.cn</item>
+        <item>.com</item>
+        <item>.org</item>
+    </array>
+    <array name="search_input_hint_before">
+        <item>http://</item>
+        <item>https://</item>
+        <item>www.</item>
+        <item>m.</item>
+        <item>wap.</item>
+    </array>
+    <string-array name="search_lables">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>Bing</item>
+        <item>https://cn.bing.com/</item>
+        <item>browser_webicon_biying</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com/</item>
+        <item>browser_engine_yahoo</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+        <item>Baidu</item>
+        <item>https://www.baidu.com</item>
+        <item>browser_webicon_baidu</item>
+
+        <item>Duckduckgo</item>
+        <item>https://duckduckgo.com/</item>
+        <item>browser_duckduckgo</item>
+
+        <item>yandex</item>
+        <item>https://yandex.ru/</item>
+        <item>browser_yandex_icon</item>
+
+    </string-array>
+    <array name="share_default_appname">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>WhatsApp</item>
+    </array>
+    <array name="share_default_pkgname">
+        <item>com.facebook.katana</item>
+        <item>com.twitter.android</item>
+        <item>com.whatsapp</item>
+    </array>
+    <array name="share_local_default_appname">
+        <item>@string/contextmenu_share_app</item>
+        <item>@string/contextmenu_share_website</item>
+    </array>
+    <string-array name="shenma" translatable="false">
+    <item>神马</item>
+    <item>http://m.sm.cn/s?q={searchTerms}&amp;from=smor</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="sougou" translatable="false">
+    <item>搜狗</item>
+    <item>https://www.sogou.com/web?query={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="weblables">
+        <item>@string/bookmarks</item>
+        <item>yunxin://browser/history?page_index=0</item>
+        <item>browser_webicon_daohang</item>
+
+        <item>@string/history</item>
+        <item>yunxin://browser/history?page_index=1</item>
+        <item>browser_engine_google</item>
+
+        <item>@string/download</item>
+        <item>yunxin://browser/download</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>@string/menu_browser_settings</item>
+        <item>yunxin://browser/home?page=103</item>
+        <item>browser_webicon_facebook</item>
+
+    </string-array>
+    <string-array name="weblables2">
+        <item>@string/lable_news</item>
+        <item>https://news.google.com/</item>
+        <item>news</item>
+
+        <item>@string/lable_video</item>
+        <item>@string/lable_video</item>
+        <item>videos</item>
+
+        <item>@string/lable_AI</item>
+        <item>https://calendar.google.com/calendar/</item>
+        <item>ai</item>
+
+        <item>@string/lable_lifestyle</item>
+        <item>https://calendar.google.com/calendar/</item>
+        <item>Lifestyle</item>
+
+        <item>@string/lable_Tools</item>
+        <item>https://www.google.com/maps</item>
+        <item>tools</item>
+
+    </string-array>
+    <string-array name="yahoo" translatable="false">
+    <item>Yahoo!</item>
+    <item>http://search.yahoo.com/search?ei={inputEncoding}&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_cn" translatable="false">
+    <item>中国雅虎</item>
+    <item>http://search.cn.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yandex" translatable="false">
+    <item>Yandex</item>
+  
+    <item>https://yandex.ru/search/touch?clid=2249650&amp;text=</item>
+    <item>UTF-8</item>
+    <item>http://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}</item>
+  </string-array>
+    <attr format="dimension" name="borderRadius"/>
+    <attr name="type">
+        <enum name="circle" value="2"/>
+        <enum name="round" value="1"/>
+        <enum name="rectangle" value="0"/>
+    </attr>
+    <attr format="reference" name="yesNoPreferenceStyle"/>
+    <color name="NavigationBarBackground">#ffffff</color>
+    <color name="accent">#FF1AACA2</color>
+    <color name="activity_background">#ffffffff</color>
+    <color name="add_book_mark_line">#FFCACACA</color>
+    <color name="add_book_mark_save">#FF4FA3FE</color>
+    <color name="ahlib_common_ahwebview_bgcolor08">#da4643</color>
+    <color name="ahlib_common_bgcolor22">#F8F9FC</color>
+    <color name="ahlib_common_bgcolor30">#cccccc</color>
+    <color name="ahlib_common_color09">#ffffff</color>
+    <color name="ahlib_common_tabbar_color_normal_new">#7E8DA6</color>
+    <color name="article_indicator">#FF0055FF</color>
+    <color name="badge_red_color">#ff6600</color>
+    <color name="bgcolor10">#f1f1f1</color>
+    <color name="black">#ff000000</color>
+    <color name="bookmarkListFaviconBackground">#23ffffff</color>
+    <color name="bookmarkWidgetFaviconBackground">#23ffffff</color>
+    <color name="bookmark_edit_TextColor">#313131</color>
+    <color name="bookmark_pop_text_color">#7D7D7D</color>
+    <color name="boostengine_state_scale_btn_default_txt_disable">#AEB3C4</color>
+    <color name="browser_history_divider_color">#f0f0f0</color>
+    <color name="browser_info_color">#00000000</color>
+    <color name="browser_info_item_title">#DE000000</color>
+    <color name="browser_main_blue">#01beff</color>
+    <color name="browser_main_green">#00f5d4</color>
+    <color name="browser_main_pink">#f15bb5</color>
+    <color name="browser_main_purple">#9a5ce5</color>
+    <color name="browser_main_yellow">#ffe43c</color>
+    <color name="browser_search_engine_line">#E6E6E6</color>
+    <color name="browser_slogo_tips">#90070000</color>
+    <color name="browser_tab_bar_color">#f0f0f0</color>
+    <color name="browser_tips_color">#828CA0</color>
+    <color name="browser_title_blue">#0055FF</color>
+    <color name="browser_title_color">#111E36</color>
+    <color name="browser_voice_bg_color">#11787878</color>
+    <color name="browser_window_background">#ffffff</color>
+    <color name="c_b10">#0055FF</color>
+    <color name="c_b11">#111E36 </color>
+    <color name="card_title_color">#333333</color>
+    <color name="clear_default_browser_black">#DF000000</color>
+    <color name="clear_default_browser_gray">#8A000000</color>
+    <color name="color14">#f6f6f6</color>
+    <color name="comboViewActionBarColor">#ffffff</color>
+    <color name="common_menu_bg_click">#F2F2F2</color>
+    <color name="common_menu_item_pressed_color">#B2F2F2F2</color>
+    <color name="count_limit_toast_color_1">#aaa</color>
+    <color name="count_limit_toast_color_2">#e92208</color>
+    <color name="dialog_button_color">#121212</color>
+    <color name="dialog_button_color_enabled_false">#A0A0A0</color>
+    <color name="dialog_content_text_color">#121212</color>
+    <color name="dialog_title_text_color">#121212</color>
+    <color name="download_progress_bg">#FFE6EBF5</color>
+    <color name="file_picker_item_desc_color">#8A000000</color>
+    <color name="file_picker_item_title_color">#DE000000</color>
+    <color name="file_picker_recyclerview_divider">#FFD8D8D8</color>
+    <color name="find_pop_text_color">#61000000</color>
+    <color name="five_star_btn_color_high">#FF6600</color>
+    <color name="five_star_btn_color_p">#FFFFEB31</color>
+    <color name="flow_layout_abord_color">#33000000</color>
+    <color name="grid_common_text_color">#121212</color>
+    <color name="history_item_line">#E8E8E8</color>
+    <color name="history_markbook_color">#7d7d7d</color>
+    <color name="history_search_input_bg">#F4F4F4</color>
+    <color name="incognito_bg_color">#FF2F2F2F</color>
+    <color name="incognito_search_engine_line">#33D7D7D7</color>
+    <color name="indicator_bg">#FFE6EBF5</color>
+    <color name="item_text_color">#A0A0A0</color>
+    <color name="lock_bg">#113156</color>
+    <color name="lock_pattern_view_error_color">#ff5621</color>
+    <color name="lock_pattern_view_success_color">@color/white</color>
+    <color name="lowerPowerColor">#ff4d4d</color>
+    <color name="main_setting_layout_white_bg_color">#ffffff</color>
+    <color name="mb_blue">#ff5DA7FD</color>
+    <color name="mb_blue_dark">#ff00719b</color>
+    <color name="mb_gray">#a1dedede</color>
+    <color name="mb_white">#ffffff</color>
+    <color name="nav_tab_title_incognito_bg">#787878</color>
+    <color name="nav_tab_title_normal_bg">#f5f5f5</color>
+    <color name="navigation_bars">#101828</color>
+    <color name="navigation_on_select_bg">#FFF5F5F5</color>
+    <color name="navigation_place_bg">#42FFFFFF</color>
+    <color name="navscreen_backgroud_color">#CC000000</color>
+    <color name="new_client_dialog_button">#11AAFF</color>
+    <color name="normal_text_color">#8A000000</color>
+    <color name="offlineColor">#00d68d</color>
+    <color name="onlineColor">#ffffff</color>
+    <color name="pop_divider_line_color">#FFD8D8D8</color>
+    <color name="pop_item_press_color">#FFEEEEEE</color>
+    <color name="pop_toast_bg_color">#E0333333</color>
+    <color name="primary">#ffffff</color>
+    <color name="progress_text_size_seekbar_thumb_background">#00000000</color>
+    <color name="progress_text_size_seekbar_thumb_stroke_n">#5DA7FD</color>
+    <color name="progress_text_size_seekbar_thumb_stroke_p">#7f5DA7FD</color>
+    <color name="qrcode_lable">#77000000</color>
+    <color name="qrcode_paint_mask">#60000000</color>
+    <color name="qrcode_paint_result">#00bcd4</color>
+    <color name="ripple_color">#20000000</color>
+    <color name="rounded_progressbar_gray">#999999</color>
+    <color name="rounded_progressbar_white">#FFFFFF</color>
+    <color name="scroll_track_color">#462C2C2C</color>
+    <color name="search_card_color">#FF111E36</color>
+    <color name="search_url_input_color_incognito">#FF505050</color>
+    <color name="secondary_text">#727272</color>
+    <color name="select_searchengine_bg">#E5090D11</color>
+    <color name="setting_background">#fafafa</color>
+    <color name="setting_botton_selected_color">#1296db</color>
+    <color name="setting_item_first">#c6000000</color>
+    <color name="setting_item_second">#66000000</color>
+    <color name="settings_actionbar_background">#858585</color>
+    <color name="settings_background">#F8F9FC</color>
+    <color name="settings_item_background">#F7F7F8</color>
+    <color name="settings_item_summary_normal_color">#89000000</color>
+    <color name="settings_item_title_disabled_color">#66000000</color>
+    <color name="settings_item_title_normal_color">#de000000</color>
+    <color name="settings_list_divider">#F8F9FC</color>
+    <color name="settings_navigation_edit">#F2F2F2</color>
+    <color name="settings_progress_text_size_background">#42000000</color>
+    <color name="settings_text_enabled">#288dde</color>
+    <color name="settings_title_background">#F4F4F4</color>
+    <color name="settings_title_background_trans">#99F4F4F4</color>
+    <color name="settings_title_divider">#E6E6E6</color>
+    <color name="share_dialog_bg">#B2000000</color>
+    <color name="snap_item_backgroud">#FFFFFF</color>
+    <color name="status_bar_homepage">#858585</color>
+    <color name="status_bar_homepage_lock">#11AAFF</color>
+    <color name="status_bar_webview">#FFFFFF</color>
+    <color name="switch_thumb_n">#ECECEC</color>
+    <color name="switch_thumb_p">#5DA7FD</color>
+    <color name="switch_thumb_shadow_end">#0F000000</color>
+    <color name="switch_thumb_shadow_start">#22000000</color>
+    <color name="switch_track_n">#B9B9B9</color>
+    <color name="switch_track_p">#7f5DA7FD</color>
+    <color name="tabFocusHighlight">#FF99CC00</color>
+    <color name="text_select_handle_color">#5da7fd</color>
+    <color name="toast_background">#dd333333</color>
+    <color name="toolbar_background_color">#FFFFFF</color>
+    <color name="toolbar_page_number_color">#121212</color>
+    <color name="transparent">#00000000</color>
+    <color name="video_title_bar_background">#000000</color>
+    <color name="web_icon_background2">#FFFF6D1D</color>
+    <color name="web_icon_background3">#FFA4D902</color>
+    <color name="web_icon_background4">#FFFE565A</color>
+    <color name="web_icon_background5">#FF7F56D8</color>
+    <color name="web_icon_background6">#FF00C2FF</color>
+    <color name="web_icon_background7">#FF3CE0BB</color>
+    <color name="web_icon_background8">#FFFF5D98</color>
+    <color name="web_view_toolbar_background_color">#FFFFFF</color>
+    <color name="white">#ffffffff</color>
+    <color name="zxing_custom_possible_result_points">#903A89CF</color>
+    <color name="zxing_custom_result_view">#b0000000</color>
+    <color name="zxing_custom_viewfinder_laser">#1976D2</color>
+    <color name="zxing_custom_viewfinder_mask">#60000000</color>
+    <color name="zxing_possible_result_points">#c0ffbd21</color>
+    <color name="zxing_result_view">#b0000000</color>
+    <color name="zxing_status_text">#ffffffff</color>
+    <color name="zxing_transparent">#00000000</color>
+    <color name="zxing_viewfinder_laser">#ffcc0000</color>
+    <color name="zxing_viewfinder_mask">#60000000</color>
+    <dimen name="actionbar_height">48dp</dimen>
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="ahlib_advert_pull_tips_h_v2">80dp</dimen>
+    <dimen name="ahlib_common_textsize03">14sp</dimen>
+    <dimen name="ahlib_common_textsize06">14sp</dimen>
+    <dimen name="bookmarkThumbnailHeight">80dip</dimen>
+    <dimen name="bookmarkThumbnailWidth">90dip</dimen>
+    <dimen name="bookmark_item_height">40dp</dimen>
+    <dimen name="boostengine_state_scale_btn_default_height">48dp</dimen>
+    <dimen name="boostengine_state_scale_btn_default_left">10dp</dimen>
+    <dimen name="boostengine_state_scale_btn_default_radius">4dp</dimen>
+    <dimen name="boostengine_state_scale_btn_default_right">10dp</dimen>
+    <dimen name="boostengine_state_scale_btn_default_txt">15.4sp</dimen>
+    <dimen name="bottom_menu_item_text_size">11sp</dimen>
+    <dimen name="bottom_toolbar_height">55dp</dimen>
+    <dimen name="bottom_toolbar_scroll_animator_distance">25dp</dimen>
+    <dimen name="browser_TabPageIndicator_height">44dp</dimen>
+    <dimen name="browser_checkbox_icon_size">14dp</dimen>
+    <dimen name="browser_checkbox_icon_size_start">12dp</dimen>
+    <dimen name="browser_delete_all_width">100dp</dimen>
+    <dimen name="browser_delete_all_width_nav">105dp</dimen>
+    <dimen name="browser_download_icon_size">50dp</dimen>
+    <dimen name="browser_download_item_height">70dp</dimen>
+    <dimen name="browser_download_tips_height">150dp</dimen>
+    <dimen name="browser_empty_bottom_height">95dp</dimen>
+    <dimen name="browser_empty_logo_height">105dp</dimen>
+    <dimen name="browser_header_lable_size">24dp</dimen>
+    <dimen name="browser_header_lable_text_size">11sp</dimen>
+    <dimen name="browser_homepage_card_tips">100dp</dimen>
+    <dimen name="browser_indicator_height">4dp</dimen>
+    <dimen name="browser_indicator_margin_top">22dp</dimen>
+    <dimen name="browser_indicator_margin_top_tiny">8dp</dimen>
+    <dimen name="browser_indicator_width">24dp</dimen>
+    <dimen name="browser_info_empty_bottom">30dp</dimen>
+    <dimen name="browser_info_item">72dp</dimen>
+    <dimen name="browser_margin_left_right">20dp</dimen>
+    <dimen name="browser_navigation_combo_width">170dp</dimen>
+    <dimen name="browser_navigation_download_width">230dp</dimen>
+    <dimen name="browser_navigation_lables_margin_top">4dp</dimen>
+    <dimen name="browser_navigation_websites_margin_bottom">8dp</dimen>
+    <dimen name="browser_navigation_websites_margin_top">12dp</dimen>
+    <dimen name="browser_navigation_width">260dp</dimen>
+    <dimen name="browser_navigationbar_height">32dp</dimen>
+    <dimen name="browser_notification_icon_size">26dp</dimen>
+    <dimen name="browser_notification_top_padding">6dp</dimen>
+    <dimen name="browser_search_hint_height">40dp</dimen>
+    <dimen name="browser_search_input_height">60dp</dimen>
+    <dimen name="browser_select_engine_width">220dp</dimen>
+    <dimen name="browser_selete_engine_item">45dp</dimen>
+    <dimen name="browser_selete_engine_magin_top">5dp</dimen>
+    <dimen name="browser_setting_bottom_padding">5dp</dimen>
+    <dimen name="browser_setting_item_height">60dp</dimen>
+    <dimen name="browser_setting_item_minheight">60dp</dimen>
+    <dimen name="browser_slogo_point_size">10sp</dimen>
+    <dimen name="browser_slogo_size">13sp</dimen>
+    <dimen name="browser_start_slogo_margin_top">-10dp</dimen>
+    <dimen name="browser_start_title_width">140dp</dimen>
+    <dimen name="browser_switch_thumb_shadow_end_padding">-2dp</dimen>
+    <dimen name="browser_switch_thumb_shadow_start_padding">-1.5dp</dimen>
+    <dimen name="browser_switch_thumb_wh">23dp</dimen>
+    <dimen name="browser_toolbar_red_margin_bottom">8dp</dimen>
+    <dimen name="browser_web_lable_line_height">8dp</dimen>
+    <dimen name="browser_weblable_height">44dp</dimen>
+    <dimen name="browser_weblable_margin_bottom">4dp</dimen>
+    <dimen name="browser_weblable_margin_top">8dp</dimen>
+    <dimen name="card_margin_size">20dp</dimen>
+    <dimen name="clear_incognito_tabs_height">58dp</dimen>
+    <dimen name="combo_paddingTop">0dip</dimen>
+    <dimen name="context_menu_dialog_divider_height">1dp</dimen>
+    <dimen name="context_menu_dialog_margin_left_right">24dp</dimen>
+    <dimen name="context_menu_dialog_margin_top_btm">15dp</dimen>
+    <dimen name="context_menu_dialog_maxwidth">180dp</dimen>
+    <dimen name="context_menu_dialog_text_size">14sp</dimen>
+    <dimen name="default_slider_margin_btw_title">20dp</dimen>
+    <dimen name="dialog_bottom_layout_height">40dp</dimen>
+    <dimen name="dialog_button_five_star">25dp</dimen>
+    <dimen name="dialog_button_horizontal_padding">40dp</dimen>
+    <dimen name="dialog_button_size">16sp</dimen>
+    <dimen name="dialog_content_padding_bottom">15dp</dimen>
+    <dimen name="dialog_content_padding_top">12dp</dimen>
+    <dimen name="dialog_horizontal_padding">46dp</dimen>
+    <dimen name="dialog_item_text_size">12sp</dimen>
+    <dimen name="dialog_list_item_height">60dp</dimen>
+    <dimen name="dialog_title_size">16sp</dimen>
+    <dimen name="digit_number_layout_width">50dp</dimen>
+    <dimen name="digit_number_layout_width_theme">60dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="empty_history_icon_height">82dp</dimen>
+    <dimen name="empty_txt_top">10dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="favicon_padded_size">20dip</dimen>
+    <dimen name="favicon_size">16dip</dimen>
+    <dimen name="feedback_view_edit_height">195dp</dimen>
+    <dimen name="file_picker_default_loaction_text_height">44dp</dimen>
+    <dimen name="file_picker_item_desc_size">14sp</dimen>
+    <dimen name="file_picker_item_horizontal_padding">16dp</dimen>
+    <dimen name="file_picker_item_text_left_padding">10dp</dimen>
+    <dimen name="file_picker_item_title_size">16sp</dimen>
+    <dimen name="find_pop_view_height">48dp</dimen>
+    <dimen name="grid_recommond_text_size">12sp</dimen>
+    <dimen name="history_content_margin_right">70dp</dimen>
+    <dimen name="history_icon_left">16dp</dimen>
+    <dimen name="history_icon_title_gap">12dp</dimen>
+    <dimen name="history_icon_width">22dp</dimen>
+    <dimen name="history_image_height">40dp</dimen>
+    <dimen name="history_item_height">44dp</dimen>
+    <dimen name="history_item_height_size">54dp</dimen>
+    <dimen name="history_padding_top">20dp</dimen>
+    <dimen name="history_title_size">14sp</dimen>
+    <dimen name="history_url_size">11sp</dimen>
+    <dimen name="history_url_sp">12sp</dimen>
+    <dimen name="list_favicon_corner_radius">3dip</dimen>
+    <dimen name="list_favicon_padding">5dip</dimen>
+    <dimen name="lock_pattern_dot_line_width">4dp</dimen>
+    <dimen name="lock_pattern_dot_size">14dp</dimen>
+    <dimen name="lock_pattern_dot_size_activated">33dp</dimen>
+    <dimen name="main_uncard_height">420dp</dimen>
+    <dimen name="mb_button_bottom">37dp</dimen>
+    <dimen name="mb_corner_radius_2">2dp</dimen>
+    <dimen name="mb_corner_radius_4">4dp</dimen>
+    <dimen name="mb_height_4">4dp</dimen>
+    <dimen name="mb_height_56">56dp</dimen>
+    <dimen name="mb_height_8">8dp</dimen>
+    <dimen name="mb_width_100">100dp</dimen>
+    <dimen name="mb_width_120">120dp</dimen>
+    <dimen name="mb_width_150">150dp</dimen>
+    <dimen name="mb_width_237">237dp</dimen>
+    <dimen name="most_visited_pager_line_hight">1dp</dimen>
+    <dimen name="nav_icon_container_edit_height">28dp</dimen>
+    <dimen name="nav_icon_container_edit_width">58dp</dimen>
+    <dimen name="nav_icon_container_height">58dp</dimen>
+    <dimen name="nav_icon_container_width">56dp</dimen>
+    <dimen name="nav_icon_edit_size">32dp</dimen>
+    <dimen name="nav_icon_size">36dp</dimen>
+    <dimen name="nav_item_edit_size">52dp</dimen>
+    <dimen name="nav_item_edit_width_size">70dp</dimen>
+    <dimen name="nav_item_size">70dp</dimen>
+    <dimen name="nav_margin_left_on_edit">20dp</dimen>
+    <dimen name="nav_margin_top_on_edit">25dp</dimen>
+    <dimen name="nav_screen_title_text_size">12sp</dimen>
+    <dimen name="nav_tab_height">520dp</dimen>
+    <dimen name="nav_tab_titleheight">41dp</dimen>
+    <dimen name="nav_tab_width">328dp</dimen>
+    <dimen name="nav_view_pager_landscape_width">352dp</dimen>
+    <dimen name="navigation_grid_edit_height">258dp</dimen>
+    <dimen name="navigation_grid_height">160dp</dimen>
+    <dimen name="navigation_margin_top">-10dp</dimen>
+    <dimen name="navscreen_tab_views_offset">30dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_level_max_height">16dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_level_width">10dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_gap">0.5dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_head_corner">1dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_head_height">1dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_head_width">4dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_height">16dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_shell_corner">1dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_shell_height">16dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_shell_stroke_width">0.5dp
+    </dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_shell_width">10dp</dimen>
+    <dimen name="power_consumption_rankings_dimen_main_battery_view_width">10dp</dimen>
+    <dimen name="preference_screen_side_margin">0dp</dimen>
+    <dimen name="preference_screen_side_margin_down">6dp</dimen>
+    <dimen name="preference_screen_side_margin_negative">0dp</dimen>
+    <dimen name="progress_bar_height">2dp</dimen>
+    <dimen name="progress_seekbar_margin_bottom">19dp</dimen>
+    <dimen name="progress_text_size_height">48dp</dimen>
+    <dimen name="progress_text_size_seekbar_thumb_padding">8dp</dimen>
+    <dimen name="progress_text_size_seekbar_thumb_wh">30dp</dimen>
+    <dimen name="recommend_url_padding">7dp</dimen>
+    <dimen name="rounded_progress_border_width">5dp</dimen>
+    <dimen name="scroll_swipe_icon_width">38dp</dimen>
+    <dimen name="scroll_thumb_bar_height">37dp</dimen>
+    <dimen name="scroll_thumb_bar_width">26dp</dimen>
+    <dimen name="scroll_toolbar_horizontal_distance">55dp</dimen>
+    <dimen name="search_card_marigin_right">60dp</dimen>
+    <dimen name="search_card_view_padding">20dp</dimen>
+    <dimen name="search_card_view_padding_bottom">3dp</dimen>
+    <dimen name="search_engine_height">55dp</dimen>
+    <dimen name="search_hint_text_size">14sp</dimen>
+    <dimen name="select_search_engine_width">48dp</dimen>
+    <dimen name="select_searchengine_item_image_margin">10dp</dimen>
+    <dimen name="select_searchengine_item_image_wh">45dp</dimen>
+    <dimen name="setting_pane_margin">2dp</dimen>
+    <dimen name="settings_actionbar_img_padding">16dp</dimen>
+    <dimen name="settings_actionbar_title_leftpadding">8dp</dimen>
+    <dimen name="settings_actionbar_title_size">17sp</dimen>
+    <dimen name="settings_list_divider_margin">16dp</dimen>
+    <dimen name="settings_list_height">60dp</dimen>
+    <dimen name="settings_list_item_summary_size">12sp</dimen>
+    <dimen name="settings_list_item_text_marginstart">20dp</dimen>
+    <dimen name="settings_list_item_text_margintop">0dp</dimen>
+    <dimen name="settings_list_item_title_size">14sp</dimen>
+    <dimen name="settings_list_summary_height">60dp</dimen>
+    <dimen name="settings_seekbar_preference_height">100dp</dimen>
+    <dimen name="slide_back_or_forward_margin">-48dp</dimen>
+    <dimen name="snapshot_content_margin_right">60dp</dimen>
+    <dimen name="tab_button_horizontal_margin">4dp</dimen>
+    <dimen name="tab_button_width">48dp</dimen>
+    <dimen name="tab_card_item_padding">7dp</dimen>
+    <dimen name="tab_content_margin_top">19dp</dimen>
+    <dimen name="tab_thumbnail_height">413dp</dimen>
+    <dimen name="tab_thumbnail_width">314dp</dimen>
+    <dimen name="text_size_preference_webbview_height">220dp</dimen>
+    <dimen name="textsize01">17sp</dimen>
+    <dimen name="textsize03">14sp</dimen>
+    <dimen name="title_bar_text_size">10sp</dimen>
+    <dimen name="toast_horizontal_margin">24dp</dimen>
+    <dimen name="toast_margin_start">14dp</dimen>
+    <dimen name="toast_margin_top">14dp</dimen>
+    <dimen name="toast_message_size">15sp</dimen>
+    <dimen name="toolbar_common_button_padding_bottom">15dp</dimen>
+    <dimen name="toolbar_height">48dip</dimen>
+    <dimen name="url_search_item">52dp</dimen>
+    <dimen name="web_sites_title_size">16sp</dimen>
+    <dimen name="widgetColumnWidth">80dip</dimen>
+    <dimen name="widgetHorizontalSpacing">6dip</dimen>
+    <dimen name="widgetThumbnailHeight">94dip</dimen>
+    <dimen name="widgetVerticalSpacing">6dip</dimen>
+    <item name="add_contact_context_menu_id" type="id"/>
+    <item name="auto_focus" type="id"/>
+    <item name="browser_setting_item_addbookmark" type="id"/>
+    <item name="browser_setting_item_bookmark" type="id"/>
+    <item name="browser_setting_item_clear" type="id"/>
+    <item name="browser_setting_item_download" type="id"/>
+    <item name="browser_setting_item_history" type="id"/>
+    <item name="browser_setting_item_intelligence_no_picture" type="id"/>
+    <item name="browser_setting_item_nightmode" type="id"/>
+    <item name="browser_setting_item_no_cache" type="id"/>
+    <item name="browser_setting_item_offline" type="id"/>
+    <item name="browser_setting_item_quit" type="id"/>
+    <item name="browser_setting_item_refresh" type="id"/>
+    <item name="browser_setting_item_savedpage" type="id"/>
+    <item name="browser_setting_item_search_page" type="id"/>
+    <item name="browser_setting_item_setting" type="id"/>
+    <item name="browser_setting_item_share" type="id"/>
+    <item name="browser_setting_item_textsize" type="id"/>
+    <item name="browser_setting_item_ua" type="id"/>
+    <item name="child_id" type="id"/>
+    <item name="child_position" type="id"/>
+    <item name="copy_geo_context_menu_id" type="id"/>
+    <item name="copy_link_context_menu_id" type="id"/>
+    <item name="copy_mail_context_menu_id" type="id"/>
+    <item name="copy_phone_context_menu_id" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="dial_context_menu_id" type="id"/>
+    <item name="download_context_menu_id" type="id"/>
+    <item name="email_context_menu_id" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="group_position" type="id"/>
+    <item name="image_ad_mark" type="id"/>
+    <item name="item_tag" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="load_object" type="id"/>
+    <item name="map_context_menu_id" type="id"/>
+    <item name="menu_item_enter_anim_id" type="id"/>
+    <item name="nav_bar_id" type="id"/>
+    <item name="open_context_menu_id" type="id"/>
+    <item name="open_newtab_background_context_menu_id" type="id"/>
+    <item name="open_newtab_context_menu_id" type="id"/>
+    <item name="position" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="save_link_context_menu_id" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="select_text_menu_id" type="id"/>
+    <item name="set_wallpaper_context_menu_id" type="id"/>
+    <item name="share_link_context_menu_id" type="id"/>
+    <item name="status_bar_id" type="id"/>
+    <item name="swipe_load_more_footer" type="id"/>
+    <item name="swipe_refresh_header" type="id"/>
+    <item name="swipe_target" type="id"/>
+    <item name="tab_view" type="id"/>
+    <item name="view_image_context_menu_id" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="zxing_back_button" type="id"/>
+    <item name="zxing_camera_closed" type="id"/>
+    <item name="zxing_camera_error" type="id"/>
+    <item name="zxing_decode" type="id"/>
+    <item name="zxing_decode_failed" type="id"/>
+    <item name="zxing_decode_succeeded" type="id"/>
+    <item name="zxing_possible_result_points" type="id"/>
+    <item name="zxing_preview_failed" type="id"/>
+    <item name="zxing_prewiew_size_ready" type="id"/>
+    <integer name="activity_animation_duration">200</integer>
+    <integer name="max_bookmark_columns">1</integer>
+    <integer name="max_tabs">16</integer>
+    <integer name="mb_animation">500</integer>
+    <integer name="mb_animation_short">250</integer>
+    <integer name="most_visits_limit">10</integer>
+    <integer name="most_visits_search_limit">6</integer>
+    <integer name="navscreen_toolbar_hide">100</integer>
+    <integer name="recommend_item_max_count">10</integer>
+    <integer name="search_input_animation_duration">300</integer>
+    <integer name="settings_fragment_anima_time">250</integer>
+    <integer name="tab_animation_duration">300</integer>
+    <integer name="tab_count_greater_than_ten">11</integer>
+    <integer name="tab_count_less_than_ten">13</integer>
+    <string name="abnormal_recover_message">Restore the last webpage?</string>
+    <string name="abnormal_recover_ok">Restore</string>
+    <string name="abnormal_recover_recovered">Pages from the last session are restored.</string>
+    <string name="accessibility_button_addbookmark">Bookmark page</string>
+    <string name="accessibility_button_bookmarks_folder_up">Previous folder</string>
+    <string name="accessibility_button_closetab">Close tab</string>
+    <string name="accessibility_button_forward">Go forward</string>
+    <string name="accessibility_button_more">More options</string>
+    <string name="accessibility_button_newtab">Open new tab</string>
+    <string name="accessibility_button_refresh">Refresh page</string>
+    <string name="accessibility_button_search">Search</string>
+    <string name="accessibility_button_stop">Stop page load</string>
+    <string name="accessibility_button_uaswitch">Switch user agent</string>
+    <string name="accessibility_button_voice">Start voice search</string>
+    <string name="accessibility_state_frozen">Saved page</string>
+    <string name="accessibility_state_incognito">Incognito page</string>
+    <string name="accessibility_transition_navscreen">Tab management</string>
+    <string name="account">Account</string>
+    <string name="action">Sign in</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Ads located, enable AD Block now?</string>
+    <string name="adblock_rules_error_prompt">Syntax error, please edit again!</string>
+    <string name="adblockplus_label">Adblock Plus</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Add</string>
+    <string name="add_new_bookmark">Add bookmark</string>
+    <string name="add_pic">Add image:</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="add_to_desktop_success">Added to desktop</string>
+    <string name="add_to_homepage">Add to homepage</string>
+    <string name="add_to_homepage_success">Added to homepage</string>
+    <string name="add_to_homescreen_menu_option">Home screen</string>
+    <string name="add_to_other_folder_menu_option">Other folder</string>
+    <string name="add_up_to_15">Add up to 20</string>
+    <string name="added_new_bookmark">Add bookmark</string>
+    <string name="allow">Allow</string>
+    <string name="allow_download">Allow Download</string>
+    <string name="allow_download_no">Connect WiFi</string>
+    <string name="already_cleared">Cleared</string>
+    <string name="app_version" translatable="false">null</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Available</string>
+    <string name="base_settings_language_ar" translatable="false">العربية</string>
+    <string name="base_settings_language_bg" translatable="false">България</string>
+    <string name="base_settings_language_cs" translatable="false">Čeština</string>
+    <string name="base_settings_language_da" translatable="false">Dansk</string>
+    <string name="base_settings_language_de" translatable="false">Deutsch</string>
+    <string name="base_settings_language_el" translatable="false">Eλληνικά</string>
+    <string name="base_settings_language_en" translatable="false">English</string>
+    <string name="base_settings_language_es" translatable="false">Español (España)</string>
+    <string name="base_settings_language_es_es" translatable="false">Español (España)</string>
+    <string name="base_settings_language_es_la" translatable="false">Español (América Latina)</string>
+    <string name="base_settings_language_es_us" translatable="false">Español (Estados Unidos)</string>
+    <string name="base_settings_language_fr" translatable="false">Français</string>
+    <string name="base_settings_language_he" translatable="false">עברית</string>
+    <string name="base_settings_language_hi" translatable="false">हिन्दी</string>
+    <string name="base_settings_language_hr" translatable="false">Hrvatski</string>
+    <string name="base_settings_language_hu" translatable="false">Magyar</string>
+    <string name="base_settings_language_id" translatable="false">Indonesia</string>
+    <string name="base_settings_language_it" translatable="false">Italiano</string>
+    <string name="base_settings_language_ja" translatable="false">日本語</string>
+    <string name="base_settings_language_ko" translatable="false">한국어</string>
+    <string name="base_settings_language_ms" translatable="false">Malay</string>
+    <string name="base_settings_language_nb" translatable="false">Norsk</string>
+    <string name="base_settings_language_nl" translatable="false">Nederlands</string>
+    <string name="base_settings_language_pl" translatable="false">Polski</string>
+    <string name="base_settings_language_pt" translatable="false">Português (Portugal)</string>
+    <string name="base_settings_language_pt_br" translatable="false">Português (Brasil)</string>
+    <string name="base_settings_language_pt_pt" translatable="false">Português (Portugal)</string>
+    <string name="base_settings_language_ro" translatable="false">Română</string>
+    <string name="base_settings_language_ru" translatable="false">Pусский</string>
+    <string name="base_settings_language_sk" translatable="false">Slovenčina</string>
+    <string name="base_settings_language_sr" translatable="false">Cрпски</string>
+    <string name="base_settings_language_th" translatable="false">ภาษาไทย</string>
+    <string name="base_settings_language_tr" translatable="false">Türkçe</string>
+    <string name="base_settings_language_uk" translatable="false">Українська</string>
+    <string name="base_settings_language_vi" translatable="false">Tiếng Việt</string>
+    <string name="base_settings_language_zh_cn" translatable="false">中文 (简体)</string>
+    <string name="base_settings_language_zh_tw" translatable="false">中文 (繁體)</string>
+    <string name="block">Block</string>
+    <string name="bookmark_cannot_save_url">This URL can\'t be bookmarked</string>
+    <string name="bookmark_list">Bookmarks</string>
+    <string name="bookmark_needs_title">"Bookmark must have a name"</string>
+    <string name="bookmark_needs_url">"Bookmark must have a location"</string>
+    <string name="bookmark_not_saved">Couldn\'t save bookmark</string>
+    <string name="bookmark_saved">Saved to bookmarks</string>
+    <string name="bookmark_this_page">Bookmark this page</string>
+    <string name="bookmark_url_not_valid">This URL isn\'t valid</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmarks_add_page">Save bookmark</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">File problem</string>
+    <string name="browserFrameFormResubmitMessage">The page you\'re trying to view contains data that has already been submitted (\"POSTDATA\"). If you resend the data, any action the form on the page carried out (such as a search or online purchase) will be repeated.</string>
+    <string name="browserFrameNetworkErrorLabel">Connection problem</string>
+    <string name="browser_admin_panel">User Center</string>
+    <string name="browser_close_app_lock">Turn Off App Lock</string>
+    <string name="browser_default_setting_tips" translatable="false">Make us your default browser and enjoy faster, smarter, and smoother browsing!</string>
+    <string name="browser_full_video_orientation" translatable="false">Switch video fullscreen orientation</string>
+    <string name="browser_hide_most_visited" translatable="false">Hide \'Most Visited\' on the Homepage</string>
+    <string name="browser_hot_word_title" translatable="false">Hot search list</string>
+    <string name="browser_life_text">Life</string>
+    <string name="browser_navigation">Navigation</string>
+    <string name="browser_net_error_refresh" translatable="false">Click on the blank area to refresh the page</string>
+    <string name="browser_open_all_most_visited" translatable="false">Expand recommended website</string>
+    <string name="browser_permission_camera">Camera permission denied, please manually enable it</string>
+    <string name="browser_permission_notification">Notification bar permission denied, please manually enable it</string>
+    <string name="browser_permission_qr">This function requires memory access permission. Please manually enable the permission in the settings</string>
+    <string name="browser_permission_setwall">Setting phone wallpaper requires memory storage permission. Please manually open it on the settings page</string>
+    <string name="browser_permission_strone">Downloading files requires storage permission. Please manually open the storage permission in the settings</string>
+    <string name="browser_privacy_tips">Your personal data will be handled in accordance with our 《Privacy Policy》.</string>
+    <string name="browser_product_agree_tips">You need agree the policy.</string>
+    <string name="browser_product_start">Start</string>
+    <string name="browser_product_tips">Clicking on “Start” indicates agreement to  the \nPrivacy Policy and User Agreement.</string>
+    <string name="browser_rights">Copyright © 2024 Byfrost Browser. \nAll Rights Reserved.</string>
+    <string name="browser_search_hint" translatable="false">Search Anything.</string>
+    <string name="browser_setting_ad_time" translatable="false">Ad Marking Duration</string>
+    <string name="browser_setting_app_lock">Set Up App Lock</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_setting_guide_card_tips" translatable="false">Customize your unique browsing experience, set up personalized features now, and embark on a smarter browsing journey!</string>
+    <string name="browser_setting_guide_card_title" translatable="false">Customize Your Settings</string>
+    <string name="browser_setting_language_des">Welcome to the app! Please select your preferred language. You can change this later in settings.</string>
+    <string name="browser_setting_language_title">Choose Your Language</string>
+    <string name="browser_setting_multi_language">Language</string>
+    <string name="browser_setting_notify_button" translatable="false">Enable</string>
+    <string name="browser_setting_notify_title" translatable="false">Enable Quick Access for faster, easier use!</string>
+    <string name="browser_setting_swipe_closed" translatable="false">Swipe to Go Back/Forward is now disabled.</string>
+    <string name="browser_setting_swipe_enabled" translatable="false">Swipe to Go Back/Forward is now enabled.</string>
+    <string name="browser_setting_swipe_title" translatable="false">Swipe to Go Back/Forward</string>
+    <string name="browser_setting_video_title" translatable="false">Video Display Mode</string>
+    <string name="browser_show_most_visited" translatable="false">Show \'Most Visited\' on the Homepage</string>
+    <string name="browser_slogan" translatable="false">Search freely for everything you need</string>
+    <string name="browser_slogo_fast">Faster</string>
+    <string name="browser_slogo_intelligence">Smarter</string>
+    <string name="browser_slogo_safe">Safer</string>
+    <string name="browser_tab_close_all" translatable="false">Close All</string>
+    <string msgid="6709237687234102240" name="browser_tools">Tools</string>
+    <string name="btn_recommend_add">Add</string>
+    <string name="byfrost_hot_url">https://trends.google.com/trending</string>
+    <string name="byfrost_slogan">Byfrost AI Browser – Discover a Bigger, Smarter World!</string>
+    <string name="byfrost_suggestion">We have received your suggestion,thank you.</string>
+    <string name="byfrost_suggestion_time">The feedback time cannot be less than 1 minute from the last time.</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelDel">Undo delete？</string>
+    <string name="cannot_open_the_file">No procedure to open this type of file</string>
+    <string name="channel" translatable="false">00000000</string>
+    <string name="check_for_update">check for update...</string>
+    <string name="check_network">Submission failed due to network issue, please check.</string>
+    <string name="choosertitle_sharevia">Share via</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all">Clear all</string>
+    <string name="clear_all_already">Clear all data already!</string>
+    <string name="clear_data_success">Clear success</string>
+    <string name="clear_default_browser">Clear setting as default browser</string>
+    <string name="clear_default_setting_please">Another browser is set as default browser, please clear the browser\'s default setting.</string>
+    <string name="clear_history_all">Clear history all</string>
+    <string name="click_again_quit">Tap back to quit</string>
+    <string name="close_all_incognito_notification">Close all incognito tabs</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="commit_fail">Submission failed, Please try later</string>
+    <string name="confirm_deletion">Delete this?</string>
+    <string name="confirm_deletion_all">Delete all?</string>
+    <string name="contact_facebook">https://www.facebook.com/HiBrowserOfficial/</string>
+    <string name="contact_google">https://plus.google.com/101637698177270497475</string>
+    <string name="contact_instagram">https://www.instagram.com/hibrowserbest/</string>
+    <string name="contact_twitter">https://twitter.com/HiBrowserBest</string>
+    <string name="contact_us_on_facebook">Contact us on Facebook</string>
+    <string name="containing_folder">Add to</string>
+    <string name="contextheader_folder_bookmarkcount">%d bookmarks</string>
+    <string name="contextheader_folder_empty">Empty folder</string>
+    <string name="contextmenu_add_contact">Add contact</string>
+    <string name="contextmenu_copy">Copy</string>
+    <string name="contextmenu_copylink">Copy link URL</string>
+    <string name="contextmenu_dial_dot">Dial\u2026</string>
+    <string name="contextmenu_download_image">Save image</string>
+    <string name="contextmenu_map">Map</string>
+    <string name="contextmenu_openlink_newwindow">Open in new tab</string>
+    <string name="contextmenu_openlink_newwindow_background">Open in background</string>
+    <string name="contextmenu_savelink">Save link</string>
+    <string name="contextmenu_send_mail">Send email</string>
+    <string name="contextmenu_set_wallpaper">Set as wallpaper</string>
+    <string name="contextmenu_set_wallpaper_image">Wallpaper</string>
+    <string name="contextmenu_share_app">Share App</string>
+    <string name="contextmenu_share_website">Share Website</string>
+    <string name="contextmenu_sharelink">Share link</string>
+    <string name="contextmenu_view_image">View image</string>
+    <string name="copy_link">Copy link</string>
+    <string name="copylink_success">Link is copied</string>
+    <string name="create_shortcut_bookmark">Add shortcut to home</string>
+    <string name="custom_rules">Custom AdBlock\'s filters</string>
+    <string name="custom_rules_title">AdBlock\'s filters</string>
+    <string name="default_bookmark">Default Bookmark</string>
+    <string name="default_location">Default location:%1$s</string>
+    <string name="default_search_engine_value">google</string>
+    <string name="define_zxingandroidembedded" translatable="false"/>
+    <string name="delete">Delete</string>
+    <string name="delete_bookmark_warning">Delete bookmark \"%s\"?</string>
+    <string name="delete_folder">Delete folder</string>
+    <string name="deletion_all">Delete all</string>
+    <string name="desktop">Desktop</string>
+    <string name="done">DONE</string>
+    <string name="download">Download</string>
+    <string name="download_allow_mobile">Allow file download via mobile network?</string>
+    <string name="download_failed">download failed</string>
+    <string name="download_list">Download List</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">An SD card is required to download %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">No SD card</string>
+    <string name="download_pause">download pause</string>
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="download_removed">Has removed</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">The SD card is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD card unavailable</string>
+    <string formatted="false" name="download_size_text_format">%s/%s</string>
+    <string name="download_web_icons_url">www.baidu.com</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloadmanager_disabled">Download Manager is disabled. Please enable it.</string>
+    <string name="edit">Edit</string>
+    <string name="edit_bookmark">Edit bookmark</string>
+    <string name="edit_folder">Edit folder</string>
+    <string name="edited">EDITED</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Please enter the correct phone numble</string>
+    <string name="empty_bookmarks_folder">Your bookmarks are empty</string>
+    <string name="empty_history">No browsing history</string>
+    <string name="empty_info_most_visited">No record</string>
+    <string name="empty_snapshots_folder">No saved pages</string>
+    <string name="enter_incognito_mode">Switch to incognito</string>
+    <string name="enter_normal_mode">Switch to normal</string>
+    <string name="enter_settings_page">Enter Settings after clear is done, please.</string>
+    <string name="enter_website_name">Enter website name</string>
+    <string name="error_console_eval_button_text" translatable="false">Evaluate</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evaluate JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript console</string>
+    <string name="error_console_header_text_minimized" translatable="false">Show JavaScript console</string>
+    <string name="example_adblock_rule">example.com##div.textad</string>
+    <string name="example_host">example.com</string>
+    <string name="exit">Exit</string>
+    <string name="exit_dialog_title">Exit Browser?</string>
+    <string name="feed_back_sucess">We have received your comments and suggestions, thank you.</string>
+    <string name="feedback_other">Other:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Optional)</string>
+    <string name="feedback_submit">submit</string>
+    <string name="file_exist">File is exist</string>
+    <string name="file_name">File Name</string>
+    <string name="file_not_exist">File does not exist</string>
+    <string name="filename_empty">File name can\'t be empty</string>
+    <string name="find_on_page">Find on page</string>
+    <string name="firebase_database_url" translatable="false">https://byfrost-8864c-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="five_stars">5 stars</string>
+    <string name="five_stars_comment">give suguestion.</string>
+    <string name="five_stars_content">Your five stars rating matters a lot to us.</string>
+    <string name="five_stars_later">Later</string>
+    <string name="five_stars_titile">Enjoy %s?</string>
+    <string name="gcm_defaultSenderId" translatable="false">236876831712</string>
+    <string name="geolocation_permissions_prompt_dont_share">Decline</string>
+    <string name="geolocation_permissions_prompt_message">%s wants to know your location</string>
+    <string name="geolocation_permissions_prompt_share">Share location</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location. Change this on the Settings > Advanced > Website Settings.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location. Change this on the Settings > Advanced > Website Settings.</string>
+    <string name="geolocation_settings_page_dialog_message">Clear location access for this website?</string>
+    <string name="geolocation_settings_page_summary_allowed">This site can currently access your location</string>
+    <string name="geolocation_settings_page_summary_not_allowed">This site can\'t currently access your location</string>
+    <string name="geolocation_settings_page_title">Cancel permission  to obtain your location</string>
+    <string name="get_photo_failure">Failure to obtain pictures</string>
+    <string name="go">Go</string>
+    <string name="go_back">Go back</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVNUTrwE0gb0trQRpK2hRWbsPp7HtZAQA</string>
+    <string name="google_app_id" translatable="false">1:236876831712:android:b808d14d95a3749739e985</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVNUTrwE0gb0trQRpK2hRWbsPp7HtZAQA</string>
+    <string name="google_storage_bucket" translatable="false">byfrost-8864c.firebasestorage.app</string>
+    <string name="history">History</string>
+    <string name="home_page">Home Page</string>
+    <string name="homepage_base">x-native://homepage</string>
+    <string name="http">http://</string>
+    <string name="image_count">%1$d/%2$d</string>
+    <string name="incognito_home">You\'re in Incognito</string>
+    <string name="incognito_home_content">Now you are in incognito mode.</string>
+    <string name="incognito_home_tip">You can exit incognito and back to normal.</string>
+    <string name="input_over_flow">Submission failure for %1$d characters exceed the limit</string>
+    <string name="instructions_label">Instructions for use</string>
+    <string name="is_latest">Already the latest version!</string>
+    <string name="js_ad_block_count">Blocked JavaScript files</string>
+    <string name="js_disable_host_error_prompt">Domain error, please edit again!</string>
+    <string name="js_disable_hosts">Set advertising marker time limit</string>
+    <string name="js_disable_hosts_title">Certain domains</string>
+    <string name="keyboard_number_0">0</string>
+    <string name="keyboard_number_1">1</string>
+    <string name="keyboard_number_2">2</string>
+    <string name="keyboard_number_3">3</string>
+    <string name="keyboard_number_4">4</string>
+    <string name="keyboard_number_5">5</string>
+    <string name="keyboard_number_6">6</string>
+    <string name="keyboard_number_7">7</string>
+    <string name="keyboard_number_8">8</string>
+    <string name="keyboard_number_9">9</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Tools</string>
+    <string name="lable_calendar">Calendar</string>
+    <string name="lable_lifestyle">LifeStyle</string>
+    <string name="lable_maps">Maps</string>
+    <string name="lable_news">News</string>
+    <string name="lable_translate">Translate</string>
+    <string name="lable_video">Videos</string>
+    <string name="lable_weather">weather</string>
+    <string name="leadpage_back">Back</string>
+    <string name="leadpage_forward">Forward</string>
+    <string name="leadpage_home">Home</string>
+    <string name="library_zxingandroidembedded_author" translatable="false">JourneyApps</string>
+    <string name="library_zxingandroidembedded_authorWebsite" translatable="false">https://journeyapps.com/</string>
+    <string name="library_zxingandroidembedded_isOpenSource" translatable="false">true</string>
+    <string name="library_zxingandroidembedded_libraryDescription" translatable="false">Barcode scanning library for Android, using ZXing for decoding.</string>
+    <string name="library_zxingandroidembedded_libraryName" translatable="false">ZXing Android Embedded</string>
+    <string name="library_zxingandroidembedded_libraryVersion" translatable="false"/>
+    <string name="library_zxingandroidembedded_libraryWebsite" translatable="false">https://github.com/journeyapps/zxing-android-embedded</string>
+    <string name="library_zxingandroidembedded_licenseId" translatable="false">apache_2_0</string>
+    <string name="library_zxingandroidembedded_repositoryLink" translatable="false">https://github.com/journeyapps/zxing-android-embedded</string>
+    <string name="loading_video">Loading video\u2026</string>
+    <string name="local_bookmarks">Local</string>
+    <string name="location">Address</string>
+    <string name="lock_answer_error">Wrong answer</string>
+    <string name="lock_birth_day">Day</string>
+    <string name="lock_birth_month">Month</string>
+    <string name="lock_birth_year">Year</string>
+    <string name="lock_change_security_birth">Change the security question</string>
+    <string name="lock_change_security_birth_success">Changed successfully</string>
+    <string name="lock_check_birth_tv1">Answer the security question to reset password</string>
+    <string name="lock_confirm_lock_line">Confirm unlock pattern</string>
+    <string name="lock_confirm_lock_number">Confirm PIN Code</string>
+    <string name="lock_enter_password">Please enter the password</string>
+    <string name="lock_forgot_pwd">Forgot password?</string>
+    <string name="lock_lock_for_to_safe">Please set a password to ensure your privacy security.</string>
+    <string name="lock_lock_success_common">Locked</string>
+    <string name="lock_not_now">Not Now</string>
+    <string name="lock_pwd_error">Wrong password</string>
+    <string name="lock_pwd_has_reset">Reset successfully</string>
+    <string name="lock_reset_pwd">Reset password</string>
+    <string name="lock_set_new_lock_line">Please create an unlock pattern</string>
+    <string name="lock_set_new_lock_number">Please create a PIN code</string>
+    <string name="lock_set_protected_question_desc">Set a security question, you can reset your password when forget it.</string>
+    <string name="lock_turn_to_type_line">Change to pattern password</string>
+    <string name="lock_turn_to_type_number">Change to PIN Code</string>
+    <string name="lock_your_birth">When is your birthday?</string>
+    <string name="mark_image_ad">Mark Ad</string>
+    <string name="mark_image_ad_fail">Marked fail</string>
+    <string name="max_tabs_warning">No more tabs available</string>
+    <string name="menu_browser_Tools">Tools</string>
+    <string name="menu_browser_add_bookmark">Add Bookmark</string>
+    <string name="menu_browser_bookmarks">Bookmarks</string>
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_downloads">Downloads</string>
+    <string name="menu_browser_font_size">Font Size</string>
+    <string name="menu_browser_full_screen">Full Screen</string>
+    <string name="menu_browser_history">History</string>
+    <string name="menu_browser_incognito">Incognito</string>
+    <string name="menu_browser_night">Eyes Protector</string>
+    <string name="menu_browser_no_image">No Image</string>
+    <string name="menu_browser_quit">Quit</string>
+    <string name="menu_browser_search_page">Search in Page</string>
+    <string name="menu_browser_settings">Settings</string>
+    <string name="menu_browser_snapshots">Save Page</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_tools_box">Toolbox</string>
+    <string name="messageContent">There is a new version for %s, you can update it now.</string>
+    <string name="modify">Modify</string>
+    <string name="most_visited">Most visited</string>
+    <string name="my_qrcode" translatable="false">My QR code</string>
+    <string name="name">Label</string>
+    <string name="name_cannot_empty">Web name can\'t be empty</string>
+    <string name="new_file">Create new file</string>
+    <string name="new_folder">New folder</string>
+    <string name="new_incognito_tab">New incognito tab</string>
+    <string name="new_tab">New tab</string>
+    <string name="no_downloads">No Downloads</string>
+    <string name="no_prompt">Don\'t ask again</string>
+    <string name="no_subfolders">No subfolders.</string>
+    <string name="notification_content_text">Click to view</string>
+    <string name="notification_download_finish">Download completed</string>
+    <string name="null_rules_prompt">You can add your own rules. Your rules must follow the grammar rules of Adblock Plus. Instructions for use.</string>
+    <string name="ok">OK</string>
+    <string name="open">Open</string>
+    <string name="open_all_in_new_window">Open all in new tabs</string>
+    <string name="open_most_visited" translatable="false">open most visited>></string>
+    <string name="optional">(Optional)</string>
+    <string name="other_bookmarks">Other Bookmarks</string>
+    <string name="page_info">Page info</string>
+    <string name="page_info_address">Address:</string>
+    <string name="page_info_view">View page info</string>
+    <string name="password">Password</string>
+    <string name="permissions_prompt_deny">Deny</string>
+    <string name="permissions_prompt_message">%1$s wants to use your %2$s.</string>
+    <string name="pic_ad_block_count">Blocked Images</string>
+    <string name="picture_nocodeinfo" translatable="false">No recognition of QR code information in the image</string>
+    <string name="picture_scannoinfo" translatable="false">No QR code information was scanned</string>
+    <string name="please_input_over_six">Please enter 6 or more characters</string>
+    <string name="please_input_under_max">Please enter no more than %1$d characters</string>
+    <string name="please_leave_your_email">Please leave your email address</string>
+    <string name="popup_ad_block_count">Blocked Popups</string>
+    <string name="pref_about">About</string>
+    <string name="pref_ad_block">AD Block</string>
+    <string name="pref_agreement">User Terms</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_channel">Channel</string>
+    <string name="pref_check_update">Check Update</string>
+    <string name="pref_confirm_on_exit">Confirm on exit</string>
+    <string name="pref_contact_us">Contact us:</string>
+    <string name="pref_content_search_engine">Set search engine</string>
+    <string name="pref_default_ad_time">Ad Marking Time</string>
+    <string name="pref_default_browser">Set default browser</string>
+    <string name="pref_default_text_encoding">Text encoding</string>
+    <string name="pref_default_text_encoding_default">UTF-8</string>
+    <string name="pref_default_time_limite_default">1 hour</string>
+    <string name="pref_deverloper_options">Deverloper options</string>
+    <string name="pref_download">Download settings</string>
+    <string name="pref_download_path_setting_screen_title">Custom download path</string>
+    <string name="pref_download_with_ADM">Download with ADM</string>
+    <string name="pref_extras_reset_default">Reset to default</string>
+    <string name="pref_extras_reset_default_dlg">Revert settings to default values?</string>
+    <string name="pref_extras_website_settings">Website settings</string>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_five_star">five star</string>
+    <string name="pref_font_size">Text size</string>
+    <string name="pref_font_size_summary">Adjust size of text and fonts</string>
+    <string name="pref_force_userscalable">Force enable zoom</string>
+    <string name="pref_force_userscalable_summary">Override a website\'s request to control zoom behavior</string>
+    <string name="pref_min_font_size">Minimum font size</string>
+    <string name="pref_min_font_size_value">%dPT</string>
+    <string name="pref_new_features">New features</string>
+    <string name="pref_notification_tool_show">Show Search Bar in Notification Panel</string>
+    <string name="pref_open_debug">USB debugging</string>
+    <string name="pref_privacy_clear_data">Clear data</string>
+    <string name="pref_privacy_enable_geolocation">Enable location</string>
+    <string name="pref_privacy_enable_geolocation_summary">Allow sites to request access to your location</string>
+    <string name="pref_privacy_policy">Privacy Policy</string>
+    <string name="pref_privacy_security_title">Privacy &amp; Security</string>
+    <string name="pref_privacy_security_title_summary">Allow the browser to remember passwords, saved forms, etc.</string>
+    <string name="pref_search_engine_dialog_title">Choose engine</string>
+    <string name="pref_security_accept_cookies">Accept cookies</string>
+    <string name="pref_security_accept_cookies_summary">Allow sites to save and read cookie data</string>
+    <string name="pref_security_remember_passwords">Remember passwords</string>
+    <string name="pref_security_remember_passwords_summary">Save usernames and passwords for websites</string>
+    <string name="pref_security_save_form_data">Remember form data</string>
+    <string name="pref_security_save_form_data_summary">Remember the data I entered in the form</string>
+    <string name="pref_security_show_security_warning">Show security warnings</string>
+    <string name="pref_security_show_security_warning_summary">Show warning if there\'s a problem with a site\'s security</string>
+    <string name="pref_show_download_dialog">Show download dialog</string>
+    <string name="pref_show_header_news">Show time/weather/news of pre page</string>
+    <string name="pref_show_red_badge_notity">Show Red badge notify</string>
+    <string name="pref_show_status_bar">The status bar is displayed</string>
+    <string name="pref_text_zoom">Text scaling</string>
+    <string name="pref_version_summary">V %s</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Agree</string>
+    <string name="product_no_agree">no Agree</string>
+    <string name="progress_dialog_setting_wallpaper">Setting wallpaper\u2026</string>
+    <string name="project_id" translatable="false">byfrost-8864c</string>
+    <string name="prompt_already_saved_bookmark">You have already added this bookmark</string>
+    <string name="prompt_already_saved_off">You have already saved this page</string>
+    <string name="prompt_saved_off_line">Saved to offline pages</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Place the QR code inside the box and start scanning</string>
+    <string name="recommend_amazon">Amazon</string>
+    <string name="recommend_facebook">Facebook</string>
+    <string name="recommend_google">Google</string>
+    <string name="recommend_mark_add_icon">ic_browser_recommend_add</string>
+    <string name="recommend_mark_default_icon">ic_browser_recommend_blank</string>
+    <string name="refresh">Refresh</string>
+    <string name="remember_preference">Remember preference</string>
+    <string name="remove">Remove</string>
+    <string name="remove_bookmark">Delete bookmark</string>
+    <string name="remove_items_all">Remove items</string>
+    <string name="remove_snapshot">Delete saved page</string>
+    <string name="removed_from_bookmarks">Removed from bookmarks.</string>
+    <string name="rename">Rename files</string>
+    <string name="rename_failed">Rename Failed</string>
+    <string name="rename_success">Rename Success</string>
+    <string name="replace_file">Replace file</string>
+    <string name="request_fail">Request failed, please try later</string>
+    <string name="request_read_external_storage_error">Request failure to access the phone memory</string>
+    <string name="resource_audio_capture">microphone</string>
+    <string name="resource_protected_media_id">protected media ID</string>
+    <string name="resource_video_capture">camera</string>
+    <string name="right_recommend_add_link_not_title">Please enter title</string>
+    <string name="right_recommend_add_link_not_url">Please enter URL</string>
+    <string name="right_recommend_add_link_repeat">URL already exists</string>
+    <string name="right_recommend_add_link_saved">Saved</string>
+    <string name="right_recommend_add_link_url_format">This URL is wrong</string>
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Remove</string>
+    <string name="sdcard_free">%1$s Free/%2$s</string>
+    <string name="search_hint">Search or Type URL</string>
+    <string name="search_history">Search history</string>
+    <string name="search_settings_description">Bookmarks and web history</string>
+    <string name="search_the_web">Search the web</string>
+    <string name="security_warning">Security warning</string>
+    <string name="select_dot">Select text</string>
+    <string name="select_download_path">Select the folder \"%s\" as the download location</string>
+    <string name="select_location">Select location</string>
+    <string name="select_qr_code" translatable="false">Select QR code image</string>
+    <string name="sendText">Choose an action for text</string>
+    <string name="set_as_homepage">Set as homepage</string>
+    <string name="set_default_browser">Set default browser</string>
+    <string name="set_default_failure">Set default failure. Try again please.</string>
+    <string name="set_default_success">Setting up successful!</string>
+    <string name="setting_bottom_day">Light mode</string>
+    <string name="setting_bottom_expanding">expanding</string>
+    <string name="setting_bottom_night">Dark mode</string>
+    <string name="setting_update_speech_recognition">voice input forbidden, please update Google voice service</string>
+    <string name="share">Share</string>
+    <string name="share_dialog_title" translatable="false">Share webpage</string>
+    <string name="shortcut_bookmark">Bookmark</string>
+    <string name="shortcut_bookmark_title">Choose a bookmark</string>
+    <string name="show_dev_on">You are now a developer!</string>
+    <string name="sign_in_to">Sign in to %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Untitled</string>
+    <string name="ssl_certificate">Security certificate</string>
+    <string name="ssl_certificate_is_valid">This certificate is valid.</string>
+    <string name="ssl_continue">Continue</string>
+    <string name="ssl_date_invalid">This certificate has an invalid date.</string>
+    <string name="ssl_expired">This certificate has expired.</string>
+    <string name="ssl_invalid">This certificate is invalid.</string>
+    <string name="ssl_mismatch">The name of the site doesn\'t match the name on the certificate.</string>
+    <string name="ssl_not_yet_valid">This certificate isn\'t valid yet.</string>
+    <string name="ssl_unknown">Unknown certificate error.</string>
+    <string name="ssl_untrusted">This certificate isn\'t from a trusted authority.</string>
+    <string name="ssl_warnings_header">There are problems with the security certificate for this site.</string>
+    <string name="stopping">Stopping\u2026</string>
+    <string name="storage_space_lack">Not enough storage available</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Please confirm that you have selected the correct image</string>
+    <string name="swipe_up_tip">You can swipe up to delete the tab</string>
+    <string name="tab_snapshots">Saved pages</string>
+    <string name="text_count_can_input">%1$d characters can be inputed</string>
+    <string name="title_activity_add_link">Add link</string>
+    <string name="title_clear_all_history">Clear all history?</string>
+    <string name="title_clear_bookmark">Clear bookmark?</string>
+    <string name="title_clear_history">Clear history?</string>
+    <string name="title_clear_off_line">Clear saved pages?</string>
+    <string name="too_many_subwindows_dialog_message">Only one pop-up can be open at a time.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up already open</string>
+    <string name="too_many_windows_dialog_message">Can\'t open a new tab until you close one.</string>
+    <string name="toolbox_menu_off">OFF</string>
+    <string name="toolbox_menu_on">ON</string>
+    <string name="total">Total</string>
+    <string name="ua_switcher_desktop">Request desktop site</string>
+    <string name="unknown">unknown</string>
+    <string name="unknown_error">Unknown error, please try again.</string>
+    <string name="unknown_file">unknown file types</string>
+    <string name="update_at_once">Update</string>
+    <string name="update_content1">1. Our super-smart scientists have made web pages load lightning fast!</string>
+    <string name="update_content2">2. Our lovely designer worked her magic and made everything look even prettier!</string>
+    <string name="update_content3">3. And our amazing devs? They stayed up late sipping coffee, chasing away all those pesky bugs!</string>
+    <string name="update_later">Later update</string>
+    <string name="update_now">Go googleplay down app.</string>
+    <string name="update_remind">Update notice</string>
+    <string name="update_tips1">Yup, you guessed it! A brand-new update is here!</string>
+    <string name="update_tips2">✨All to make your experience better!\nGo ahead, update now and check it out! ✨</string>
+    <string name="update_title">New version found</string>
+    <string name="upload_image">Upload images</string>
+    <string name="uploads_disabled">File uploads are disabled.</string>
+    <string name="user_agreement">https://sites.google.com/view/byfrost-user-agreement/</string>
+    <string name="user_privacy">https://sites.google.com/view/byfrost-privacy/</string>
+    <string name="username">Name</string>
+    <string name="versionUpdate">Update</string>
+    <string name="video_mobile_pause">Cancel</string>
+    <string name="video_mobile_permission">You are using the mobile network. Still want to play?</string>
+    <string name="video_mobile_play">Play</string>
+    <string name="view">View</string>
+    <string name="view_certificate">View certificate</string>
+    <string name="view_select_all">Select All</string>
+    <string name="visit_url_ok">Visit</string>
+    <string name="visit_url_title">Visit this URL from your clipboard?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Hot</string>
+    <string name="website_lifestyle">LifeStyle</string>
+    <string name="website_news">News•Sport</string>
+    <string name="website_recommend">Recommended</string>
+    <string name="website_settings_list_header_text">Location Access</string>
+    <string name="website_shoping">Entertainment•Shopping</string>
+    <string name="website_social">Social</string>
+    <string name="website_tools">Tools</string>
+    <string name="website_videos">Videos</string>
+    <string name="webstorage_clear_data_title">Clear stored data</string>
+    <string name="webstorage_origin_summary_mb_stored">MB stored on your phone</string>
+    <string name="webstorage_outofspace_notification_text">Touch to free up space.</string>
+    <string name="webstorage_outofspace_notification_title">Browser storage full</string>
+    <string name="write_advice_please">Please describe your opinion or suggestion in words... (1000 words)</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="zxing_msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="android:windowFullscreen">true</item>
+        
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="BaseBrowserTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+    <style name="BrowserBase" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/navigation_bars</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/primary</item>
+        <item name="android:actionBarSize">@dimen/actionbar_height</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+    <style name="BrowserDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/browser_dialog_background</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.46</item>
+    </style>
+    <style name="BrowserEditText">
+        <item name="android:textSelectHandleLeft">@drawable/browser_text_select_handle_left_material</item>
+        <item name="android:textSelectHandleRight">@drawable/browser_text_select_handle_right_material</item>
+        <item name="android:textColorHighlight">@color/browser_tips_color</item>
+        <item name="android:textCursorDrawable">@drawable/browser_text_cursor</item>
+        <item name="android:textSelectHandle">@drawable/browser_text_select_handle_middle_material</item>
+    </style>
+    <style name="BrowserFullScreenDialog" parent="@style/BrowserDialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="BrowserTheme" parent="@style/BrowserBase">
+        <item name="android:windowBackground">@color/browser_window_background</item>
+
+
+
+
+
+
+
+
+    </style>
+    <style name="DialogExit" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/browser_dialog_dissmiss</item>
+    </style>
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:contentInsetEnd">0dp</item>
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:actionBarSize">@dimen/actionbar_height</item>
+    </style>
+    <style name="DownloadDialog" parent="@style/BrowserDialog">
+        <item name="android:windowAnimationStyle">@style/DialogExit</item>
+    </style>
+    <style name="FiveStarDialog" parent="@style/BrowserDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <style name="FullScreenTransparentDialog" parent="@style/BrowserDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="HoloButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+    <style name="HoloIcon">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+    <style name="LightActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/comboViewActionBarColor</item>
+    </style>
+    <style name="LightActionBarTabBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabBar">
+        <item name="android:background">@color/comboViewActionBarColor</item>
+    </style>
+    <style name="PickerEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="PopupMenuStyle" parent="@android:style/Widget.Material.Light.PopupMenu"/>
+    <style name="SettingsTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/accent</item>
+        <item name="android:actionBarTheme">@style/DialogWhenLarge</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/browser_scroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/browser_shape_scroll_track</item>
+    </style>
+    <style name="SettingsThemeWithoutTranslucentBackground" parent="@style/BrowserBase">
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse</item>
+    </style>
+    <style name="ShortcutTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/accent</item>
+        <item name="android:actionBarTheme">@style/DialogWhenLarge</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="SuggestionLineMedium" parent="@style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SuggestionLineSmall" parent="@style/TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Suggestions" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:popupBackground">@color/NavigationBarBackground</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+    </style>
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="TabTitleSelected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TabTitleUnselected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium"/>
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small"/>
+    <style name="TransparentActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="UrlSearchTheme" parent="@style/SettingsTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="animate_dialog">
+        <item name="android:windowEnterAnimation">@anim/browser_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/browser_dialog_out</item>
+    </style>
+    <style name="article_card_common_header_title">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginLeft">@dimen/card_margin_size</item>
+        <item name="android:layout_marginRight">@dimen/card_margin_size</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/textsize01</item>
+        <item name="android:textColor">@color/c_b11</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="browser_lable_line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">@dimen/browser_web_lable_line_height</item>
+        <item name="android:background">@color/ahlib_common_bgcolor30</item>
+    </style>
+    <style name="browser_lable_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#44787878</item>
+        <item name="android:shadowDx">0.5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowDy">0.5</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textSize">@dimen/ahlib_common_textsize06</item>
+        <item name="android:textColor">@color/browser_title_color</item>
+    </style>
+    <style name="default_statescalebutton" parent="@android:style/Widget.Material.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/boostengine_state_scale_btn_default_height</item>
+        <item name="android:background">@drawable/browser_boostengine_statescalebtn_default_bg</item>
+        <item name="android:textColor">@color/browser_boostengine_state_scale_btn_default_selector</item>
+        <item name="android:textSize">@dimen/boostengine_state_scale_btn_default_txt</item>
+        <item name="android:layout_marginLeft">@dimen/boostengine_state_scale_btn_default_left</item>
+        <item name="android:layout_marginStart">@dimen/boostengine_state_scale_btn_default_left</item>
+        <item name="android:layout_marginRight">@dimen/boostengine_state_scale_btn_default_right</item>
+        <item name="android:layout_marginEnd">@dimen/boostengine_state_scale_btn_default_right</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="mprogress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle_drawable</item>
+        <item name="android:minWidth">15dp</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxWidth">100dp</item>
+        <item name="android:maxHeight">100dp</item>
+    </style>
+    <style name="pin_keyboard_number_style">
+        <item name="android:layout_width">@dimen/digit_number_layout_width</item>
+        <item name="android:layout_height">@dimen/digit_number_layout_width</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="popup_push_bottom" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/browser_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/browser_push_bottom_out</item>
+    </style>
+    <style name="popwindow_push_bottom" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/browser_pop_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/browser_pop_bottom_out</item>
+    </style>
+    <style name="progress_text_size_style">
+        <item name="android:windowExitAnimation">@anim/browser_fade_out</item>
+    </style>
+    <style mce_bogus="1" name="select_engine_popwindow_arab" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/browser_select_engine_popwindow_enter_arab</item>
+        <item name="android:windowExitAnimation">@anim/browser_select_engine_popwindow_exit_arab</item>
+    </style>
+    <style mce_bogus="1" name="select_engine_popwindow_down" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/browser_select_engine_popwindow_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/browser_select_engine_popwindow_exit_down</item>
+    </style>
+    <style mce_bogus="1" name="select_website_popwindow_down" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/browser_select_web_site_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/browser_select_web_site_exit_down</item>
+    </style>
+    <style name="zxing_CaptureTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+  </style>
+    <declare-styleable name="AHHorizontalView">
+        <attr format="reference|boolean" name="dividerEnable"/>
+    </declare-styleable>
+    <declare-styleable name="ArcLayout">
+        <attr format="reference|string" name="fromDegrees"/>
+        <attr format="reference|string" name="toDegrees"/>
+        <attr format="reference|string" name="childSize"/>
+    </declare-styleable>
+    <declare-styleable name="Base_State_Scale_Button">
+        <attr format="float" name="scalefactor"/>
+    </declare-styleable>
+    <declare-styleable name="BounceBackViewPager">
+        <attr format="dimension" name="overscroll_translation"/>
+        <attr format="integer" name="overscroll_animation_duration"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        <attr format="color" name="civ_fill_color"/>
+    </declare-styleable>
+    <declare-styleable name="ColorPickerPreference">
+        <attr format="boolean" name="alphaSlider"/>
+        <attr format="boolean" name="lightnessSlider"/>
+        <attr format="integer" name="density"/>
+        <attr format="integer" name="initialColor"/>
+        <attr format="enum" name="wheelType">
+            <enum name="FLOWER" value="0"/>
+            <enum name="CIRCLE" value="1"/>
+        </attr>
+        <attr format="reference" name="lightnessSliderView"/>
+        <attr format="reference" name="alphaSliderView"/>
+        <attr format="integer" name="pickerColorEditTextColor"/>
+        <attr format="reference|string" name="pickerTitle"/>
+        <attr format="reference|string" name="pickerButtonOk"/>
+        <attr format="reference|string" name="pickerButtonCancel"/>
+    </declare-styleable>
+    <declare-styleable name="CropImageView">
+        <attr name="cropGuidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+        <attr name="cropScaleType">
+            <enum name="fitCenter" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="centerCrop" value="2"/>
+            <enum name="centerInside" value="3"/>
+        </attr>
+        <attr name="cropShape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr format="boolean" name="cropAutoZoomEnabled"/>
+        <attr format="integer" name="cropMaxZoom"/>
+        <attr format="boolean" name="cropMultiTouchEnabled"/>
+        <attr format="boolean" name="cropFixAspectRatio"/>
+        <attr format="integer" name="cropAspectRatioX"/>
+        <attr format="integer" name="cropAspectRatioY"/>
+        <attr format="float" name="cropInitialCropWindowPaddingRatio"/>
+        <attr format="dimension" name="cropBorderLineThickness"/>
+        <attr format="color" name="cropBorderLineColor"/>
+        <attr format="dimension" name="cropBorderCornerThickness"/>
+        <attr format="dimension" name="cropBorderCornerOffset"/>
+        <attr format="dimension" name="cropBorderCornerLength"/>
+        <attr format="color" name="cropBorderCornerColor"/>
+        <attr format="dimension" name="cropGuidelinesThickness"/>
+        <attr format="color" name="cropGuidelinesColor"/>
+        <attr format="color" name="cropBackgroundColor"/>
+        <attr format="dimension" name="cropSnapRadius"/>
+        <attr format="dimension" name="cropTouchRadius"/>
+        <attr format="boolean" name="cropShowCropOverlay"/>
+        <attr format="boolean" name="cropShowProgressBar"/>
+        <attr format="dimension" name="cropMinCropWindowWidth"/>
+        <attr format="dimension" name="cropMinCropWindowHeight"/>
+        <attr format="float" name="cropMinCropResultWidthPX"/>
+        <attr format="float" name="cropMinCropResultHeightPX"/>
+        <attr format="float" name="cropMaxCropResultWidthPX"/>
+        <attr format="float" name="cropMaxCropResultHeightPX"/>
+    </declare-styleable>
+    <declare-styleable name="MarkSizeView">
+        <attr format="color" name="markedColor"/>
+        <attr format="color" name="unMarkedColor"/>
+        <attr format="color" name="strokeColor"/>
+        <attr format="dimension" name="strokeWidth"/>
+        <attr format="color" name="vertexColor"/>
+        <attr format="dimension" name="vertexWidth"/>
+        <attr format="reference" name="confirmButtonRes"/>
+        <attr format="reference" name="cancleButtonRes"/>
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr format="color" name="pstsIndicatorColor"/>
+        <attr format="color" name="pstsUnderlineColor"/>
+        <attr format="color" name="pstsDividerColor"/>
+        <attr format="color" name="pstsSelectTextColor"/>
+        <attr format="dimension" name="pstsIndicatorHeight"/>
+        <attr format="dimension" name="pstsUnderlineHeight"/>
+        <attr format="dimension" name="pstsDividerPadding"/>
+        <attr format="dimension" name="pstsTabPaddingLeftRight"/>
+        <attr format="dimension" name="pstsScrollOffset"/>
+        <attr format="reference" name="pstsTabBackground"/>
+        <attr format="boolean" name="pstsShouldExpand"/>
+        <attr format="boolean" name="pstsTextAllCaps"/>
+        <attr format="dimension" name="pstsIndicatorOffset"/>
+    </declare-styleable>
+    <declare-styleable name="PowerConsumptionRankingsBatteryView">
+    
+    <attr format="color" name="batteryLowerPowerColor"/>
+    
+    <attr format="color" name="batteryOnlineColor"/>
+    
+    <attr format="color" name="batteryOfflineColor"/>
+    
+    <attr format="integer" name="batteryLevelMaxHeight"/>
+    
+    <attr format="integer" name="batteryLevelWidth"/>
+    
+    <attr format="dimension" name="batteryShellCornerRadius"/>
+    <attr format="dimension" name="batteryShellWidth"/>
+    <attr format="dimension" name="batteryShellHeight"/>
+    <attr format="dimension" name="batteryShellStrokeWidth"/>
+    
+    <attr format="dimension" name="batteryShellHeadCornerRadius"/>
+    <attr format="dimension" name="batteryShellHeadWidth"/>
+    <attr format="dimension" name="batteryShellHeadHeight"/>
+    
+    <attr format="dimension" name="batteryGap"/>
+    </declare-styleable>
+    <declare-styleable name="RefreshableView">
+        <attr format="reference|boolean" name="footerEnabled"/>
+        <attr format="reference|boolean" name="autoLoadMoreEnabled"/>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius"/>
+        <attr name="type"/>
+    </declare-styleable>
+    <declare-styleable name="RoundedProgressBar">
+        <attr format="color|reference" name="backColor"/>
+        <attr format="color|reference" name="frontColor"/>
+        <attr format="color|reference" name="textColor"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="dimension" name="borderWidth"/>
+        <attr name="mode">
+            <enum name="STROKE" value="0"/>
+            <enum name="STROKE_TEXT" value="1"/>
+            <enum name="FILL" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SwipeMenuLayout">
+        <attr format="reference" name="leftViewId"/>
+        <attr format="reference" name="rightViewId"/>
+        <attr format="reference" name="contentViewId"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeToLoadLayout">
+        <attr format="boolean" name="refresh_enabled"/>
+        <attr format="boolean" name="load_more_enabled"/>
+
+        <attr format="enum" name="swipe_style">
+            <enum name="classic" value="0"/>
+            <enum name="above" value="1"/>
+            <enum name="blew" value="2"/>
+            <enum name="scale" value="3"/>
+        </attr>
+
+        <attr format="float" name="drag_ratio"/>
+
+        <attr format="dimension" name="refresh_trigger_offset"/>
+        <attr format="dimension" name="load_more_trigger_offset"/>
+        <attr format="dimension" name="refresh_final_drag_offset"/>
+        <attr format="dimension" name="load_more_final_drag_offset"/>
+
+        <attr format="integer" name="swiping_to_refresh_to_default_scrolling_duration"/>
+        <attr format="integer" name="release_to_refreshing_scrolling_duration"/>
+        <attr format="integer" name="refresh_complete_delay_duration"/>
+        <attr format="integer" name="refresh_complete_to_default_scrolling_duration"/>
+        <attr format="integer" name="default_to_refreshing_scrolling_duration"/>
+        <attr format="integer" name="swiping_to_load_more_to_default_scrolling_duration"/>
+        <attr format="integer" name="release_to_loading_more_scrolling_duration"/>
+        <attr format="integer" name="load_more_complete_delay_duration"/>
+        <attr format="integer" name="load_more_complete_to_default_scrolling_duration"/>
+        <attr format="integer" name="default_to_loading_more_scrolling_duration"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr format="reference" name="browserThumbDrawable"/>
+        <attr format="color|reference" name="browserThumbColor"/>
+        <attr format="dimension|reference" name="browserThumbMargin"/>
+        <attr format="dimension|reference" name="browserThumbMarginTop"/>
+        <attr format="dimension|reference" name="browserThumbMarginBottom"/>
+        <attr format="dimension|reference" name="browserThumbMarginLeft"/>
+        <attr format="dimension|reference" name="browserThumbMarginRight"/>
+        <attr format="dimension|reference" name="browserThumbWidth"/>
+        <attr format="dimension|reference" name="browserThumbHeight"/>
+        <attr format="dimension|reference" name="browserThumbRadius"/>
+        <attr format="dimension|reference" name="browserBackRadius"/>
+        <attr format="reference" name="browserBackDrawable"/>
+        <attr format="color|reference" name="browserBackColor"/>
+        <attr format="boolean" name="browserFadeBack"/>
+        <attr format="float" name="browserBackMeasureRatio"/>
+        <attr format="integer" name="browserAnimationDuration"/>
+        <attr format="color|reference" name="browserTintColor"/>
+        <attr format="string" name="browserTextOn"/>
+        <attr format="string" name="browserTextOff"/>
+        <attr format="dimension" name="browserTextMarginH"/>
+    </declare-styleable>
+    <declare-styleable name="ratingstar">
+        <attr format="string" name="ratingstar_text"/>
+    </declare-styleable>
+    <declare-styleable name="zxing_camera_preview">
+    <attr format="dimension" name="zxing_framing_rect_width"/>
+    <attr format="dimension" name="zxing_framing_rect_height"/>
+    <attr format="boolean" name="zxing_use_texture_view"/>
+    <attr format="enum" name="zxing_preview_scaling_strategy">
+      <enum name="centerCrop" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitXY" value="3"/>
+    </attr>
+  </declare-styleable>
+    <declare-styleable name="zxing_finder">
+    <attr format="color" name="zxing_possible_result_points"/>
+    <attr format="color" name="zxing_result_view"/>
+    <attr format="color" name="zxing_viewfinder_laser"/>
+    <attr format="color" name="zxing_viewfinder_mask"/>
+    <attr format="boolean" name="zxing_viewfinder_laser_visibility"/>
+  </declare-styleable>
+    <declare-styleable name="zxing_view">
+    <attr format="reference" name="zxing_scanner_layout"/>
+  </declare-styleable>
+</resources>

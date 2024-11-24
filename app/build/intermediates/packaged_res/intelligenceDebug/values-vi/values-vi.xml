@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Xóa lịch sử &amp; bộ nhớ cache</item>
+        <item>Không hỏi lại</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Bộ nhớ đệm</item>
+        <item>Cookie</item>
+        <item>Biểu mẫu</item>
+        <item>Lịch sử</item>
+        <item>Mật khẩu</item>
+        <item>Quyền truy cập vị trí</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Xóa nội dung và cơ sở dữ liệu bộ nhớ đệm địa phương</item>
+        <item>Xóa tất cả cookie</item>
+        <item>Xóa tất cả dữ liệu biểu mẫu đã lưu</item>
+        <item>Xóa toàn bộ lịch sử duyệt web</item>
+        <item>Xóa tất cả tài khoản và mật khẩu đã lưu</item>
+        <item>Hủy quyền cho các trang web truy cập vị trí của bạn</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Nhỏ</item>
+        <item>Vừa</item>
+        <item>Bình thường</item>
+        <item>Lớn</item>
+        <item>Rất lớn</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Mặc định</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Máy tính</item>
+    </string-array>
+    <string name="abnormal_recover_message">Khôi phục trang web cuối cùng?</string>
+    <string name="abnormal_recover_ok">Khôi phục</string>
+    <string name="abnormal_recover_recovered">Các trang từ phiên trước đã được khôi phục.</string>
+    <string name="accessibility_button_addbookmark">Đánh dấu trang</string>
+    <string name="accessibility_button_bookmarks_folder_up">Thư mục trước</string>
+    <string name="accessibility_button_closetab">Đóng tab</string>
+    <string name="accessibility_button_forward">Đi tới trang tiếp theo</string>
+    <string name="accessibility_button_more">Tùy chọn khác</string>
+    <string name="accessibility_button_newtab">Mở tab mới</string>
+    <string name="accessibility_button_refresh">Tải lại trang</string>
+    <string name="accessibility_button_search">Tìm kiếm</string>
+    <string name="accessibility_button_stop">Dừng tải trang</string>
+    <string name="accessibility_button_uaswitch">Chuyển đổi tác nhân người dùng</string>
+    <string name="accessibility_button_voice">Bắt đầu tìm kiếm bằng giọng nói</string>
+    <string name="accessibility_state_frozen">Trang đã lưu</string>
+    <string name="accessibility_state_incognito">Trang ẩn danh</string>
+    <string name="accessibility_transition_navscreen">Quản lý tab</string>
+    <string name="account">Tài khoản</string>
+    <string name="action">Đăng nhập</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Đã phát hiện quảng cáo, bạn có muốn bật Chặn Quảng Cáo không?</string>
+    <string name="adblock_rules_error_prompt">Lỗi cú pháp, vui lòng chỉnh sửa lại!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Thêm</string>
+    <string name="add_new_bookmark">Thêm dấu trang</string>
+    <string name="add_pic">Thêm ảnh:</string>
+    <string name="add_to_desktop">Máy tính để bàn</string>
+    <string name="add_to_desktop_success">Đã thêm vào màn hình chính</string>
+    <string name="add_to_homepage">Thêm vào màn hình chính</string>
+    <string name="add_to_homepage_success">Đã thêm vào trang chủ</string>
+    <string name="add_to_homescreen_menu_option">Màn hình chính</string>
+    <string name="add_to_other_folder_menu_option">Thư mục khác</string>
+    <string name="add_up_to_15">Thêm tối đa 20</string>
+    <string name="added_new_bookmark">Đã thêm dấu trang</string>
+    <string name="allow">Cho phép</string>
+    <string name="allow_download">Cho phép tải về</string>
+    <string name="allow_download_no">Kết nối WiFi</string>
+    <string name="already_cleared">Đã xóa</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Có sẵn</string>
+    <string name="block">Chặn</string>
+    <string name="bookmark_cannot_save_url">Không thể lưu địa chỉ này</string>
+    <string name="bookmark_list">Danh sách mục ưa thích</string>
+    <string name="bookmark_needs_title">"Mục ưa thích phải có tên"</string>
+    <string name="bookmark_needs_url">"Mục ưa thích phải có địa chỉ"</string>
+    <string name="bookmark_not_saved">Không thể lưu mục ưa thích</string>
+    <string name="bookmark_saved">Đã lưu vào mục ưa thích</string>
+    <string name="bookmark_this_page">Đánh dấu trang này</string>
+    <string name="bookmark_url_not_valid">Địa chỉ này không hợp lệ</string>
+    <string name="bookmarks">Mục ưa thích</string>
+    <string name="bookmarks_add_page">Lưu vào mục ưa thích</string>
+    <string name="bookmarks_search">Trình duyệt</string>
+    <string name="browserFrameFileErrorLabel">Vấn đề tệp</string>
+    <string name="browserFrameFormResubmitMessage">Trang bạn đang cố xem chứa dữ liệu đã được gửi trước đó ("POSTDATA"). Nếu bạn gửi lại dữ liệu, các hành động mà biểu mẫu trên trang thực hiện (như tìm kiếm hoặc mua sắm trực tuyến) sẽ được lặp lại.</string>
+    <string name="browserFrameNetworkErrorLabel">Vấn đề kết nối</string>
+    <string name="browser_admin_panel">Trung tâm người dùng</string>
+    <string name="browser_hot_word_title" translatable="false">Danh sách tìm kiếm nóng</string>
+    <string name="browser_navigation">Dẫn hướng</string>
+    <string name="browser_net_error_refresh" translatable="false">Nhấp vào khu vực trống để làm mới trang</string>
+    <string name="browser_open_all_most_visited" translatable="false">Mở rộng trang web được đề xuất</string>
+    <string name="browser_permission_camera">Quyền truy cập camera bị từ chối, vui lòng bật thủ công trong cài đặt</string>
+    <string name="browser_permission_notification">Quyền truy cập thông báo bị từ chối, vui lòng bật thủ công trong cài đặt</string>
+    <string name="browser_permission_qr">Chức năng này yêu cầu quyền truy cập bộ nhớ. Vui lòng bật quyền này trong cài đặt</string>
+    <string name="browser_permission_setwall">Cài đặt hình nền điện thoại yêu cầu quyền truy cập bộ nhớ. Vui lòng bật quyền này trong cài đặt</string>
+    <string name="browser_permission_strone">Tải tệp yêu cầu quyền lưu trữ. Vui lòng mở quyền lưu trữ thủ công trong cài đặt</string>
+    <string name="browser_privacy_tips">Dữ liệu cá nhân của bạn sẽ được xử lý theo 《Chính Sách Bảo Mật》 của chúng tôi.</string>
+    <string name="browser_product_agree_tips">Bạn cần đồng ý với chính sách.</string>
+    <string name="browser_product_start">Bắt đầu</string>
+    <string name="browser_rights" translatable="false">Bản quyền © 2024 Trình duyệt Byfrost. \nTất cả quyền được bảo lưu.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Tìm kiếm tự do mọi thứ bạn cần</string>
+    <string name="browser_slogo_fast">Nhanh hơn</string>
+    <string name="browser_slogo_intelligence">Thông minh hơn</string>
+    <string name="browser_slogo_safe">An toàn hơn</string>
+    <string msgid="6709237687234102240" name="browser_tools">Công cụ</string>
+    <string name="btn_recommend_add">Thêm</string>
+    <string name="byfrost_slogan">Byfrost - Nhìn thấy một thế giới rộng lớn hơn!</string>
+    <string name="byfrost_suggestion">Chúng tôi đã nhận được đề xuất của bạn, cảm ơn bạn.</string>
+    <string name="byfrost_suggestion_time">Thời gian phản hồi không thể ít hơn 1 phút kể từ lần trước.</string>
+    <string name="cancel">Hủy</string>
+    <string name="cancelDel">Hủy xóa?</string>
+    <string name="cannot_open_the_file">Không có chương trình mở loại tệp này</string>
+    <string name="check_for_update">Đang kiểm tra cập nhật...</string>
+    <string name="check_network">Gửi không thành công do vấn đề mạng, vui lòng kiểm tra lại.</string>
+    <string name="choosertitle_sharevia">Chia sẻ qua</string>
+    <string name="clear">Xóa</string>
+    <string name="clear_all">Xóa tất cả</string>
+    <string name="clear_all_already">Đã xóa tất cả dữ liệu!</string>
+    <string name="clear_data_success">Xóa thành công</string>
+    <string name="clear_default_browser">Xóa cài đặt trình duyệt mặc định</string>
+    <string name="clear_default_setting_please">Trình duyệt khác đã được đặt làm mặc định, vui lòng xóa cài đặt mặc định của trình duyệt này.</string>
+    <string name="clear_history_all">Xóa toàn bộ lịch sử</string>
+    <string name="click_again_quit">Nhấn lại để thoát</string>
+    <string name="close_all_incognito_notification">Đóng tất cả tab ẩn danh</string>
+    <string name="commit_fail">Gửi không thành công, vui lòng thử lại sau</string>
+    <string name="confirm_deletion">Xóa cái này?</string>
+    <string name="confirm_deletion_all">Xóa tất cả?</string>
+    <string name="contact_us_on_facebook">Liên hệ với chúng tôi trên Facebook</string>
+    <string name="containing_folder">Thêm vào</string>
+    <string name="contextheader_folder_bookmarkcount">%d mục ưa thích</string>
+    <string name="contextheader_folder_empty">Thư mục trống</string>
+    <string name="contextmenu_add_contact">Thêm liên hệ</string>
+    <string name="contextmenu_copy">Sao chép</string>
+    <string name="contextmenu_copylink">Sao chép URL liên kết</string>
+    <string name="contextmenu_dial_dot">Gọi...</string>
+    <string name="contextmenu_download_image">Lưu hình ảnh</string>
+    <string name="contextmenu_map">Bản đồ</string>
+    <string name="contextmenu_openlink_newwindow">Mở trong tab mới</string>
+    <string name="contextmenu_openlink_newwindow_background">Mở trong nền</string>
+    <string name="contextmenu_savelink">Lưu liên kết</string>
+    <string name="contextmenu_send_mail">Gửi email</string>
+    <string name="contextmenu_set_wallpaper">Đặt làm hình nền</string>
+    <string name="contextmenu_set_wallpaper_image">Hình nền</string>
+    <string name="contextmenu_share_app">Chia sẻ ứng dụng</string>
+    <string name="contextmenu_share_website">Chia sẻ trang web</string>
+    <string name="contextmenu_sharelink">Chia sẻ liên kết</string>
+    <string name="contextmenu_view_image">Xem hình ảnh</string>
+    <string name="copy_link">Sao chép liên kết</string>
+    <string name="copylink_success">Liên kết đã sao chép</string>
+    <string name="create_shortcut_bookmark">Thêm phím tắt vào màn hình chính</string>
+    <string name="custom_rules">Bộ lọc tùy chỉnh AdBlock</string>
+    <string name="custom_rules_title">Bộ lọc AdBlock</string>
+    <string name="default_bookmark">Bookmark Mặc Định</string>
+    <string name="default_location">Vị trí mặc định:%1$s</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_bookmark_warning">Xóa mục ưa thích \"%s\"?</string>
+    <string name="delete_folder">Xóa thư mục</string>
+    <string name="deletion_all">Xóa tất cả</string>
+    <string name="desktop">Màn hình chính</string>
+    <string name="done">XONG</string>
+    <string name="download">Tải về</string>
+    <string name="download_allow_mobile">Cho phép tải tệp qua mạng di động?</string>
+    <string name="download_failed">Tải thất bại</string>
+    <string name="download_list">Danh sách tải về</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Cần thẻ SD để tải %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Không có thẻ SD</string>
+    <string name="download_pause">Tạm dừng tải</string>
+    <string name="download_pending">Đang bắt đầu tải xuống...</string>
+    <string name="download_removed">Đã xóa</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Thẻ SD đang bận. Để tải xuống, hãy tắt Lưu trữ USB trong thông báo.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Thẻ SD không khả dụng</string>
+    <string name="downloaded">Đã tải</string>
+    <string name="downloading">Đang tải</string>
+    <string name="downloadmanager_disabled">Trình quản lý tải về bị vô hiệu hóa. Vui lòng bật lại.</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="edit_bookmark">Chỉnh sửa mục ưa thích</string>
+    <string name="edit_folder">Chỉnh sửa thư mục</string>
+    <string name="edited">ĐÃ CHỈNH SỬA</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Vui lòng nhập đúng số điện thoại</string>
+    <string name="empty_bookmarks_folder">Thư mục đánh dấu của bạn rỗng</string>
+    <string name="empty_history">Không có lịch sử duyệt web</string>
+    <string name="empty_info_most_visited">Không có bản ghi</string>
+    <string name="empty_snapshots_folder">Không có trang lưu trữ nào</string>
+    <string name="enter_incognito_mode">Chuyển sang chế độ ẩn danh</string>
+    <string name="enter_normal_mode">Chuyển sang chế độ bình thường</string>
+    <string name="enter_settings_page">Vui lòng vào Cài đặt sau khi xóa xong.</string>
+    <string name="enter_website_name">Nhập tên website</string>
+    <string name="error_console_eval_button_text" translatable="false">Đánh giá</string>
+    <string name="error_console_eval_text_hint" translatable="false">Đánh giá JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Bảng điều khiển JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">Hiển thị bảng điều khiển JavaScript</string>
+    <string name="exit">Thoát</string>
+    <string name="exit_dialog_title">Thoát Trình Duyệt?</string>
+    <string name="feed_back_sucess">Chúng tôi đã nhận được ý kiến và đề xuất của bạn, cảm ơn bạn.</string>
+    <string name="feedback_other">Khác:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Tùy chọn)</string>
+    <string name="feedback_submit">Gửi</string>
+    <string name="file_exist">Tệp đã tồn tại</string>
+    <string name="file_name">Tên tệp</string>
+    <string name="file_not_exist">Tệp không tồn tại</string>
+    <string name="filename_empty">Tên tệp không thể trống</string>
+    <string name="find_on_page">Tìm trên trang</string>
+    <string name="five_stars">5 sao</string>
+    <string name="five_stars_comment">Đưa ra ý kiến của bạn.</string>
+    <string name="five_stars_content">Đánh giá 5 sao của bạn rất quan trọng với chúng tôi.</string>
+    <string name="five_stars_later">Sau</string>
+    <string name="five_stars_titile">Thích %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Từ chối</string>
+    <string name="geolocation_permissions_prompt_message">%s muốn biết vị trí của bạn</string>
+    <string name="geolocation_permissions_prompt_share">Chia sẻ vị trí</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Trang web này có thể truy cập vị trí của bạn. Thay đổi trong Cài đặt > Nâng cao > Cài đặt trang web.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Trang web này không thể truy cập vị trí của bạn. Thay đổi trong Cài đặt > Nâng cao > Cài đặt trang web.</string>
+    <string name="geolocation_settings_page_dialog_message">Xóa quyền truy cập vị trí cho trang web này?</string>
+    <string name="geolocation_settings_page_summary_allowed">Trang web này hiện có thể truy cập vị trí của bạn</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Trang web này không thể truy cập vị trí của bạn</string>
+    <string name="geolocation_settings_page_title">Hủy quyền truy cập vị trí của bạn</string>
+    <string name="get_photo_failure">Lỗi lấy hình ảnh</string>
+    <string name="go">Đi</string>
+    <string name="go_back">Quay lại</string>
+    <string name="history">Lịch sử</string>
+    <string name="home_page">Trang chủ</string>
+    <string name="incognito_home">Bạn đang ở chế độ ẩn danh</string>
+    <string name="incognito_home_content">Hiện tại bạn đang ở chế độ ẩn danh.</string>
+    <string name="incognito_home_tip">Bạn có thể thoát chế độ ẩn danh và quay lại chế độ bình thường.</string>
+    <string name="input_over_flow">Lỗi gửi đi, %1$d ký tự vượt quá giới hạn</string>
+    <string name="instructions_label">Hướng dẫn sử dụng</string>
+    <string name="is_latest">Đã là phiên bản mới nhất!</string>
+    <string name="js_ad_block_count">Tệp JavaScript bị chặn</string>
+    <string name="js_disable_host_error_prompt">Lỗi miền, vui lòng chỉnh sửa lại!</string>
+    <string name="js_disable_hosts">Đặt giới hạn thời gian đánh dấu quảng cáo</string>
+    <string name="js_disable_hosts_title">Miền cụ thể</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Công cụ</string>
+    <string name="lable_calendar">Lịch</string>
+    <string name="lable_lifestyle">Cuộc sống</string>
+    <string name="lable_maps">Bản đồ</string>
+    <string name="lable_news">Tin tức</string>
+    <string name="lable_translate">Dịch</string>
+    <string name="lable_video">Video</string>
+    <string name="lable_weather">Thời tiết</string>
+    <string name="leadpage_back">Quay lại</string>
+    <string name="leadpage_forward">Tiến tới</string>
+    <string name="leadpage_home">Trang chủ</string>
+    <string name="loading_video">Đang tải video...</string>
+    <string name="local_bookmarks">Đánh dấu cục bộ</string>
+    <string name="location">Địa chỉ</string>
+    <string name="mark_image_ad">Đánh dấu quảng cáo</string>
+    <string name="mark_image_ad_fail">Đánh dấu thất bại</string>
+    <string name="max_tabs_warning">Không còn tab nào có sẵn</string>
+    <string name="menu_browser_Tools">Công cụ</string>
+    <string name="menu_browser_add_bookmark">Thêm vào dấu trang</string>
+    <string name="menu_browser_bookmarks">Dấu trang</string>
+    <string name="menu_browser_close_incognito">Chế độ bình thường</string>
+    <string name="menu_browser_downloads">Tải về</string>
+    <string name="menu_browser_font_size">Cỡ chữ</string>
+    <string name="menu_browser_full_screen">Toàn màn hình</string>
+    <string name="menu_browser_history">Lịch sử</string>
+    <string name="menu_browser_incognito">Chế độ ẩn danh</string>
+    <string name="menu_browser_night">Bảo vệ mắt</string>
+    <string name="menu_browser_no_image">Không có hình ảnh</string>
+    <string name="menu_browser_quit">Thoát</string>
+    <string name="menu_browser_search_page">Tìm kiếm trên trang</string>
+    <string name="menu_browser_settings">Cài đặt</string>
+    <string name="menu_browser_snapshots">Lưu trang</string>
+    <string name="menu_preferences">Cài đặt</string>
+    <string name="menu_tools_box">Hộp công cụ</string>
+    <string name="messageContent">Có phiên bản mới của %s, bạn có thể cập nhật ngay bây giờ.</string>
+    <string name="modify">Chỉnh sửa</string>
+    <string name="most_visited">Truy cập nhiều nhất</string>
+    <string name="my_qrcode" translatable="false">Mã QR của tôi</string>
+    <string name="name">Nhãn</string>
+    <string name="name_cannot_empty">Tên web không thể trống</string>
+    <string name="new_file">Tạo tệp mới</string>
+    <string name="new_folder">Thư mục mới</string>
+    <string name="new_incognito_tab">Tab ẩn danh mới</string>
+    <string name="new_tab">Tab mới</string>
+    <string name="no_downloads">Không có tải về</string>
+    <string name="no_prompt">Không hỏi lại</string>
+    <string name="no_subfolders">Không có thư mục con.</string>
+    <string name="notification_content_text">Nhấn để xem</string>
+    <string name="notification_download_finish">Tải xuống hoàn tất</string>
+    <string name="null_rules_prompt">Bạn có thể thêm quy tắc của riêng mình. Quy tắc của bạn phải tuân theo cú pháp của Adblock Plus. Hướng dẫn sử dụng.</string>
+    <string name="ok">Đồng ý</string>
+    <string name="open">Mở</string>
+    <string name="open_all_in_new_window">Mở tất cả trong tab mới</string>
+    <string name="open_most_visited">Mở trang web thăm nhiều nhất>></string>
+    <string name="optional">(Tùy chọn)</string>
+    <string name="other_bookmarks">Các đánh dấu khác</string>
+    <string name="page_info">Thông tin trang</string>
+    <string name="page_info_address">Địa chỉ:</string>
+    <string name="page_info_view">Xem thông tin trang</string>
+    <string name="password">Mật khẩu</string>
+    <string name="permissions_prompt_deny">Từ chối</string>
+    <string name="permissions_prompt_message">%1$s muốn sử dụng %2$s của bạn.</string>
+    <string name="pic_ad_block_count">Hình ảnh bị chặn</string>
+    <string name="picture_nocodeinfo" translatable="false">Không nhận diện được thông tin mã QR trong hình ảnh</string>
+    <string name="picture_scannoinfo" translatable="false">Không có thông tin mã QR được quét</string>
+    <string name="please_input_over_six">Vui lòng nhập ít nhất 6 ký tự</string>
+    <string name="please_input_under_max">Vui lòng nhập không quá %1$d ký tự</string>
+    <string name="please_leave_your_email">Vui lòng để lại địa chỉ email của bạn</string>
+    <string name="popup_ad_block_count">Cửa sổ bật lên bị chặn</string>
+    <string name="pref_about">Giới thiệu</string>
+    <string name="pref_ad_block">Chặn quảng cáo</string>
+    <string name="pref_agreement">Điều khoản Người dùng</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_check_update">Kiểm tra Cập nhật</string>
+    <string name="pref_confirm_on_exit">Xác nhận khi thoát</string>
+    <string name="pref_contact_us">Liên hệ với chúng tôi:</string>
+    <string name="pref_content_search_engine">Cài đặt công cụ tìm kiếm</string>
+    <string name="pref_default_ad_time">Thời gian đánh dấu quảng cáo</string>
+    <string name="pref_default_browser">Đặt làm trình duyệt mặc định</string>
+    <string name="pref_default_text_encoding">Mã hóa văn bản</string>
+    <string name="pref_deverloper_options">Tùy chọn nhà phát triển</string>
+    <string name="pref_download">Cài đặt tải xuống</string>
+    <string name="pref_download_path_setting_screen_title">Đường dẫn tải về tùy chỉnh</string>
+    <string name="pref_download_with_ADM">Tải xuống với ADM</string>
+    <string name="pref_extras_reset_default">Đặt lại mặc định</string>
+    <string name="pref_extras_reset_default_dlg">Khôi phục cài đặt về giá trị mặc định?</string>
+    <string name="pref_extras_website_settings">Cài đặt trang web</string>
+    <string name="pref_feedback">Phản hồi</string>
+    <string name="pref_five_star">5 sao</string>
+    <string name="pref_font_size">Kích thước văn bản</string>
+    <string name="pref_font_size_summary">Điều chỉnh kích thước văn bản và phông chữ</string>
+    <string name="pref_force_userscalable">Bật zoom bắt buộc</string>
+    <string name="pref_force_userscalable_summary">Bỏ qua yêu cầu của trang web để kiểm soát hành vi zoom</string>
+    <string name="pref_min_font_size">Kích thước phông chữ tối thiểu</string>
+    <string name="pref_notification_tool_show">Hiển thị thanh tìm kiếm trong bảng thông báo</string>
+    <string name="pref_privacy_clear_data">Xóa dữ liệu</string>
+    <string name="pref_privacy_enable_geolocation">Bật vị trí</string>
+    <string name="pref_privacy_enable_geolocation_summary">Cho phép các trang web yêu cầu quyền truy cập vào vị trí của bạn</string>
+    <string name="pref_privacy_policy">Chính sách Quyền riêng tư</string>
+    <string name="pref_privacy_security_title">Quyền riêng tư &amp; Bảo mật</string>
+    <string name="pref_privacy_security_title_summary">Cho phép trình duyệt nhớ mật khẩu, mẫu đã lưu, v.v.</string>
+    <string name="pref_search_engine_dialog_title">Chọn công cụ tìm kiếm</string>
+    <string name="pref_security_accept_cookies">Chấp nhận cookie</string>
+    <string name="pref_security_accept_cookies_summary">Cho phép các trang web lưu và đọc dữ liệu cookie</string>
+    <string name="pref_security_remember_passwords">Nhớ mật khẩu</string>
+    <string name="pref_security_remember_passwords_summary">Lưu tên người dùng và mật khẩu cho các trang web</string>
+    <string name="pref_security_save_form_data">Nhớ dữ liệu biểu mẫu</string>
+    <string name="pref_security_save_form_data_summary">Nhớ dữ liệu tôi đã nhập trong biểu mẫu</string>
+    <string name="pref_security_show_security_warning">Hiển thị cảnh báo bảo mật</string>
+    <string name="pref_security_show_security_warning_summary">Hiển thị cảnh báo nếu có vấn đề bảo mật với trang web</string>
+    <string name="pref_show_download_dialog">Hiển thị hộp thoại tải xuống</string>
+    <string name="pref_show_header_news">Hiển thị thời gian/thời tiết/tin tức của trang trước</string>
+    <string name="pref_show_red_badge_notity">Hiển thị thông báo biểu tượng đỏ</string>
+    <string name="pref_show_status_bar">Hiển thị thanh trạng thái</string>
+    <string name="pref_text_zoom">Phóng to văn bản</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Đồng ý</string>
+    <string name="product_no_agree">Không đồng ý</string>
+    <string name="progress_dialog_setting_wallpaper">Đang thiết lập hình nền...</string>
+    <string name="prompt_already_saved_bookmark">Bạn đã thêm dấu trang này rồi</string>
+    <string name="prompt_already_saved_off">Bạn đã lưu trang này rồi</string>
+    <string name="prompt_saved_off_line">Đã lưu vào trang ngoại tuyến</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Đặt mã QR vào trong hộp và bắt đầu quét</string>
+    <string name="refresh">Làm mới</string>
+    <string name="remember_preference">Ghi nhớ sở thích</string>
+    <string name="remove">Xóa</string>
+    <string name="remove_bookmark">Xóa mục ưa thích</string>
+    <string name="remove_items_all">Xóa tất cả mục</string>
+    <string name="remove_snapshot">Xóa trang lưu trữ</string>
+    <string name="removed_from_bookmarks">Đã xóa khỏi mục ưa thích.</string>
+    <string name="rename">Đổi tên tệp</string>
+    <string name="rename_failed">Đổi tên thất bại</string>
+    <string name="rename_success">Đổi tên thành công</string>
+    <string name="replace_file">Thay thế tệp</string>
+    <string name="request_fail">Yêu cầu thất bại, vui lòng thử lại sau</string>
+    <string name="request_read_external_storage_error">Lỗi yêu cầu truy cập bộ nhớ điện thoại</string>
+    <string name="resource_audio_capture">microphone</string>
+    <string name="resource_protected_media_id">ID phương tiện bảo vệ</string>
+    <string name="resource_video_capture">máy ảnh</string>
+    <string name="right_recommend_add_link_not_title">Vui lòng nhập tiêu đề</string>
+    <string name="right_recommend_add_link_not_url">Vui lòng nhập URL</string>
+    <string name="right_recommend_add_link_repeat">URL đã tồn tại</string>
+    <string name="right_recommend_add_link_saved">Đã lưu</string>
+    <string name="right_recommend_add_link_url_format">URL này không đúng</string>
+    <string name="right_recommend_tools_desktop">Máy tính để bàn</string>
+    <string name="right_recommend_tools_remove">Xóa</string>
+    <string name="sdcard_free">%1$s Còn lại/%2$s</string>
+    <string name="search_hint">Tìm kiếm hoặc nhập URL</string>
+    <string name="search_history">Lịch sử tìm kiếm</string>
+    <string name="search_settings_description">Dấu trang và lịch sử web</string>
+    <string name="search_the_web">Tìm kiếm trên web</string>
+    <string name="security_warning">Cảnh báo bảo mật</string>
+    <string name="select_dot">Chọn văn bản</string>
+    <string name="select_download_path">Chọn thư mục \"%s\" làm vị trí tải xuống</string>
+    <string name="select_location">Chọn vị trí</string>
+    <string name="select_qr_code" translatable="false">Chọn hình ảnh mã QR</string>
+    <string name="sendText">Chọn hành động cho văn bản</string>
+    <string name="set_as_homepage">Đặt làm trang chủ</string>
+    <string name="set_default_browser">Đặt làm trình duyệt mặc định</string>
+    <string name="set_default_failure">Cài đặt mặc định thất bại. Vui lòng thử lại.</string>
+    <string name="set_default_success">Cài đặt thành công!</string>
+    <string name="setting_bottom_day">Chế độ sáng</string>
+    <string name="setting_bottom_expanding">Mở rộng</string>
+    <string name="setting_bottom_night">Chế độ tối</string>
+    <string name="setting_update_speech_recognition">Cấm nhập giọng nói, vui lòng cập nhật dịch vụ giọng nói Google</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_dialog_title" translatable="false">Chia sẻ trang web</string>
+    <string name="shortcut_bookmark">Mục ưa thích</string>
+    <string name="shortcut_bookmark_title">Chọn một mục ưa thích</string>
+    <string name="show_dev_on">Bạn đang là nhà phát triển!</string>
+    <string name="sign_in_to">Đăng nhập vào %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Không có tiêu đề</string>
+    <string name="ssl_certificate">Chứng chỉ bảo mật</string>
+    <string name="ssl_certificate_is_valid">Chứng chỉ này hợp lệ.</string>
+    <string name="ssl_continue">Tiếp tục</string>
+    <string name="ssl_date_invalid">Chứng chỉ này có ngày không hợp lệ.</string>
+    <string name="ssl_expired">Chứng chỉ này đã hết hạn.</string>
+    <string name="ssl_invalid">Chứng chỉ này không hợp lệ.</string>
+    <string name="ssl_mismatch">Tên trang không khớp với tên trên chứng chỉ.</string>
+    <string name="ssl_not_yet_valid">Chứng chỉ này chưa hợp lệ.</string>
+    <string name="ssl_unknown">Lỗi chứng chỉ không xác định.</string>
+    <string name="ssl_untrusted">Chứng chỉ này không đến từ một cơ quan đáng tin cậy.</string>
+    <string name="ssl_warnings_header">Có vấn đề với chứng chỉ bảo mật của trang này.</string>
+    <string name="stopping">Đang dừng...</string>
+    <string name="storage_space_lack">Không đủ dung lượng lưu trữ</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Vui lòng xác nhận rằng bạn đã chọn đúng hình ảnh</string>
+    <string name="swipe_up_tip">Bạn có thể vuốt lên để xóa tab</string>
+    <string name="tab_snapshots">Trang đã lưu</string>
+    <string name="text_count_can_input">%1$d ký tự có thể nhập</string>
+    <string name="title_activity_add_link">Thêm liên kết</string>
+    <string name="title_clear_all_history">Xóa tất cả lịch sử?</string>
+    <string name="title_clear_bookmark">Xóa dấu trang?</string>
+    <string name="title_clear_history">Xóa lịch sử?</string>
+    <string name="title_clear_off_line">Xóa các trang đã lưu?</string>
+    <string name="too_many_subwindows_dialog_message">Chỉ có thể mở một pop-up cùng lúc.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up đã mở</string>
+    <string name="too_many_windows_dialog_message">Không thể mở tab mới cho đến khi bạn đóng một tab.</string>
+    <string name="toolbox_menu_off">TẮT</string>
+    <string name="toolbox_menu_on">BẬT</string>
+    <string name="total">Tổng cộng</string>
+    <string name="ua_switcher_desktop">Yêu cầu trang desktop</string>
+    <string name="unknown">Không xác định</string>
+    <string name="unknown_error">Lỗi không xác định, vui lòng thử lại.</string>
+    <string name="unknown_file">Loại tệp không xác định</string>
+    <string name="update_at_once">Cập nhật</string>
+    <string name="update_content1">1. Các nhà khoa học siêu thông minh của chúng tôi đã làm trang web tải nhanh như chớp!</string>
+    <string name="update_content2">2. Nhà thiết kế đáng yêu của chúng tôi đã làm mọi thứ trở nên đẹp hơn!</string>
+    <string name="update_content3">3. Và các nhà phát triển tuyệt vời của chúng tôi? Họ thức khuya uống cà phê, xua đuổi tất cả những lỗi phiền phức!</string>
+    <string name="update_later">Cập nhật sau</string>
+    <string name="update_now">Tải ứng dụng trên Google Play.</string>
+    <string name="update_remind">Thông báo cập nhật</string>
+    <string name="update_tips1">Đúng vậy, bạn đoán đúng! Cập nhật mới đã có mặt!</string>
+    <string name="update_tips2">✨Tất cả đều nhằm mang đến trải nghiệm tốt hơn cho bạn!\nHãy cập nhật ngay và khám phá ngay bây giờ! ✨</string>
+    <string name="update_title">Phiên bản mới tìm thấy</string>
+    <string name="upload_image">Tải lên hình ảnh</string>
+    <string name="uploads_disabled">Tải tệp bị vô hiệu hóa.</string>
+    <string name="username">Tên</string>
+    <string name="versionUpdate">Cập nhật</string>
+    <string name="video_mobile_pause">Hủy</string>
+    <string name="video_mobile_permission">Bạn đang sử dụng mạng di động. Vẫn muốn phát video không?</string>
+    <string name="video_mobile_play">Phát</string>
+    <string name="view">Xem</string>
+    <string name="view_certificate">Xem chứng chỉ</string>
+    <string name="view_select_all">Chọn tất cả</string>
+    <string name="visit_url_ok">Truy cập</string>
+    <string name="visit_url_title">Truy cập URL này từ clipboard?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Nóng</string>
+    <string name="website_lifestyle">Cuộc sống</string>
+    <string name="website_news">Tin tức•Thể thao</string>
+    <string name="website_recommend">Gợi ý</string>
+    <string name="website_settings_list_header_text">Quyền truy cập vị trí</string>
+    <string name="website_shoping">Giải trí•Mua sắm</string>
+    <string name="website_social">Mạng xã hội</string>
+    <string name="website_tools">Công cụ</string>
+    <string name="website_videos">Video</string>
+    <string name="webstorage_clear_data_title">Xóa dữ liệu đã lưu</string>
+    <string name="webstorage_origin_summary_mb_stored">MB đã lưu trên điện thoại của bạn</string>
+    <string name="webstorage_outofspace_notification_text">Chạm vào để giải phóng không gian.</string>
+    <string name="webstorage_outofspace_notification_title">Lưu trữ trình duyệt đầy</string>
+    <string name="write_advice_please">Vui lòng mô tả ý kiến hoặc đề xuất của bạn... (tối đa 1000 từ)</string>
+</resources>

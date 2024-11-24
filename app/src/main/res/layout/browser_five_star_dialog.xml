@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rating="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/browser_fivestar_dialog_background">
+
+    <ImageView
+        android:id="@+id/five_start_close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:padding="8dp"
+        android:src="@drawable/browser_home_close"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_browser_user_rating" />
+
+        <LinearLayout
+            android:id="@+id/article_rating_star_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textStyle="bold"
+                android:textColor="@color/browser_tips_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/browser_five_star_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:text="@string/five_stars_titile"
+                android:textColor="@color/browser_tips_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textStyle="bold"
+                android:textColor="@color/browser_tips_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:text="@string/five_stars_content"
+            android:textColor="@color/browser_tips_color"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <com.intelligence.browser.ui.update.RatingStarItemView
+                android:id="@+id/article_rating_star_item_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rating:ratingstar_text="不喜欢" />
+
+            <com.intelligence.browser.ui.update.RatingStarItemView
+                android:id="@+id/article_rating_star_item_secound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rating:ratingstar_text="还行" />
+
+            <com.intelligence.browser.ui.update.RatingStarItemView
+                android:id="@+id/article_rating_star_item_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rating:ratingstar_text="一般" />
+
+            <com.intelligence.browser.ui.update.RatingStarItemView
+                android:id="@+id/article_rating_star_item_fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rating:ratingstar_text="喜欢" />
+
+            <com.intelligence.browser.ui.update.RatingStarItemView
+                android:id="@+id/article_rating_star_item_fifth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rating:ratingstar_text="非常喜欢" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_bottom_layout_height"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/star_negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:paddingEnd="@dimen/dialog_button_five_star"
+                android:paddingLeft="@dimen/dialog_button_five_star"
+                android:paddingRight="@dimen/dialog_button_five_star"
+                android:paddingStart="@dimen/dialog_button_five_star"
+                android:text="@string/five_stars_later"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/browser_tips_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/star_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/browser_update_position_bg"
+                android:layout_marginEnd="20dp"
+                android:paddingEnd="@dimen/dialog_button_five_star"
+                android:paddingLeft="@dimen/dialog_button_five_star"
+                android:paddingRight="@dimen/dialog_button_five_star"
+                android:paddingStart="@dimen/dialog_button_five_star"
+                android:text="@string/five_stars"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

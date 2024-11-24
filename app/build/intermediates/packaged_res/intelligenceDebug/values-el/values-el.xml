@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Διαγραφή ιστορικού και cache</item>
+        <item>Μην ρωτάς ξανά</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Φόρμες</item>
+        <item>Ιστορικό</item>
+        <item>Κωδικοί πρόσβασης</item>
+        <item>Πρόσβαση τοποθεσίας</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Καθαρίστε τα τοπικά αποθηκευμένα περιεχόμενα και βάσεις δεδομένων</item>
+        <item>Καθαρίστε όλα τα cookies</item>
+        <item>Καθαρίστε όλα τα αποθηκευμένα δεδομένα φόρμας</item>
+        <item>Καθαρίστε όλο το ιστορικό περιήγησης</item>
+        <item>Καθαρίστε όλους τους αποθηκευμένους κωδικούς πρόσβασης και λογαριασμούς</item>
+        <item>Ανακαλέστε την άδεια για πρόσβαση στην τοποθεσία σας από όλους τους ιστότοπους</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Κινεζικά (GBK)</item>
+        <item>Κινεζικά (Big5)</item>
+        <item>Ιαπωνικά (ISO-2022-JP)</item>
+        <item>Ιαπωνικά (SHIFT_JIS)</item>
+        <item>Ιαπωνικά (EUC-JP)</item>
+        <item>Κορεατικά (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+        <item>Πολύ Μεγάλο</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Προεπιλογή</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Υπολογιστής</item>
+    </string-array>
+    <string name="abnormal_recover_message">Να αποκαταστήσουμε την τελευταία ιστοσελίδα;</string>
+    <string name="abnormal_recover_ok">Αποκατάσταση</string>
+    <string name="abnormal_recover_recovered">Οι σελίδες από την τελευταία συνεδρία αποκαταστάθηκαν.</string>
+    <string name="accessibility_button_addbookmark">Προσθήκη σελιδοδείκτη</string>
+    <string name="accessibility_button_bookmarks_folder_up">Προηγούμενος φάκελος</string>
+    <string name="accessibility_button_closetab">Κλείσιμο καρτέλας</string>
+    <string name="accessibility_button_forward">Προχώρα</string>
+    <string name="accessibility_button_more">Περισσότερες επιλογές</string>
+    <string name="accessibility_button_newtab">Άνοιγμα νέας καρτέλας</string>
+    <string name="accessibility_button_refresh">Ανανέωση σελίδας</string>
+    <string name="accessibility_button_search">Αναζήτηση</string>
+    <string name="accessibility_button_stop">Σταματήστε τη φόρτωση της σελίδας</string>
+    <string name="accessibility_button_uaswitch">Αλλαγή user agent</string>
+    <string name="accessibility_button_voice">Έναρξη φωνητικής αναζήτησης</string>
+    <string name="accessibility_state_frozen">Αποθηκευμένη σελίδα</string>
+    <string name="accessibility_state_incognito">Σελίδα ανώνυμης περιήγησης</string>
+    <string name="accessibility_transition_navscreen">Διαχείριση καρτελών</string>
+    <string name="account">Λογαριασμός</string>
+    <string name="action">Σύνδεση</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Εντοπίστηκαν διαφημίσεις, να ενεργοποιήσουμε το μπλοκάρισμα;</string>
+    <string name="adblock_rules_error_prompt">Σφάλμα σύνταξης, παρακαλώ επεξεργαστείτε ξανά!</string>
+    <string name="adblockplus_url">https://adblockplus.org/el/filters</string>
+    <string name="add">Προσθήκη</string>
+    <string name="add_new_bookmark">Προσθήκη σελιδοδείκτη</string>
+    <string name="add_pic">Προσθήκη εικόνας:</string>
+    <string name="add_to_desktop">Επιφάνεια εργασίας</string>
+    <string name="add_to_desktop_success">Προστέθηκε στην επιφάνεια εργασίας</string>
+    <string name="add_to_homepage">Προσθήκη στην αρχική σελίδα</string>
+    <string name="add_to_homepage_success">Προστέθηκε στην αρχική σελίδα</string>
+    <string name="add_to_homescreen_menu_option">Αρχική οθόνη</string>
+    <string name="add_to_other_folder_menu_option">Άλλος φάκελος</string>
+    <string name="add_up_to_15">Προσθήκη μέχρι 20</string>
+    <string name="added_new_bookmark">Προσθήκη σελιδοδείκτη</string>
+    <string name="allow">Επιτρέπεται</string>
+    <string name="allow_download">Επιτρέψτε τη Λήψη</string>
+    <string name="allow_download_no">Συνδέστε το WiFi</string>
+    <string name="already_cleared">Εκκαθάριση ολοκληρώθηκε</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Διαθέσιμο</string>
+    <string name="block">Αποκλεισμός</string>
+    <string name="bookmark_cannot_save_url">Αυτή η διεύθυνση URL δεν μπορεί να προστεθεί στους σελιδοδείκτες</string>
+    <string name="bookmark_list">Σελιδοδείκτες</string>
+    <string name="bookmark_needs_title">«Ο σελιδοδείκτης πρέπει να έχει όνομα»</string>
+    <string name="bookmark_needs_url">«Ο σελιδοδείκτης πρέπει να έχει διεύθυνση URL»</string>
+    <string name="bookmark_not_saved">Δεν ήταν δυνατή η αποθήκευση του σελιδοδείκτη</string>
+    <string name="bookmark_saved">Αποθηκεύτηκε στους σελιδοδείκτες</string>
+    <string name="bookmark_this_page">Προσθήκη σελιδοδείκτη σε αυτή τη σελίδα</string>
+    <string name="bookmark_url_not_valid">Αυτή η διεύθυνση URL δεν είναι έγκυρη</string>
+    <string name="bookmarks">Σελιδοδείκτες</string>
+    <string name="bookmarks_add_page">Αποθήκευση σελιδοδείκτη</string>
+    <string name="bookmarks_search">Περιηγητής</string>
+    <string name="browserFrameFileErrorLabel">Πρόβλημα αρχείου</string>
+    <string name="browserFrameFormResubmitMessage">Η σελίδα που προσπαθείτε να δείτε περιέχει δεδομένα που έχουν ήδη υποβληθεί (\"POSTDATA\"). Αν επανυποβάλετε τα δεδομένα, οποιαδήποτε ενέργεια εκτελεί η φόρμα στη σελίδα (όπως αναζήτηση ή online αγορά) θα επαναληφθεί.</string>
+    <string name="browserFrameNetworkErrorLabel">Πρόβλημα σύνδεσης</string>
+    <string name="browser_admin_panel">Κέντρο Χρηστών</string>
+    <string name="browser_hot_word_title" translatable="false">Λίστα δημοφιλών αναζητήσεων</string>
+    <string name="browser_navigation">Πλοήγηση</string>
+    <string name="browser_net_error_refresh" translatable="false">Κάντε κλικ στην κενή περιοχή για να ανανεώσετε τη σελίδα</string>
+    <string name="browser_open_all_most_visited" translatable="false">Επέκταση προτεινόμενης ιστοσελίδας</string>
+    <string name="browser_permission_camera">Η άδεια για την κάμερα απορρίφθηκε, παρακαλούμε ενεργοποιήστε την χειροκίνητα</string>
+    <string name="browser_permission_notification">Η άδεια για την γραμμή ειδοποιήσεων απορρίφθηκε, παρακαλούμε ενεργοποιήστε την χειροκίνητα</string>
+    <string name="browser_permission_qr">Αυτή η λειτουργία απαιτεί άδεια πρόσβασης στη μνήμη. Παρακαλούμε ενεργοποιήστε την άδεια στις ρυθμίσεις</string>
+    <string name="browser_permission_setwall">Η ρύθμιση ταπετσαρίας απαιτεί άδεια αποθήκευσης μνήμης. Παρακαλούμε ανοίξτε την στις ρυθμίσεις</string>
+    <string name="browser_permission_strone">Η λήψη αρχείων απαιτεί άδεια αποθήκευσης. Παρακαλούμε ανοίξτε την άδεια αποθήκευσης στις ρυθμίσεις</string>
+    <string name="browser_privacy_tips">Τα προσωπικά σας δεδομένα θα επεξεργαστούν σύμφωνα με την «Πολιτική Απορρήτου» μας.</string>
+    <string name="browser_product_agree_tips">Πρέπει να συμφωνήσετε με την πολιτική.</string>
+    <string name="browser_product_start">Έναρξη</string>
+    <string name="browser_rights" translatable="false">Πνευματικά Δικαιώματα © 2024 Byfrost browser. \nΌλα τα Δικαιώματα Διατηρούνται.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Αναζητήστε ελεύθερα για ό,τι χρειάζεστε</string>
+    <string name="browser_slogo_fast">Ταχύτερο</string>
+    <string name="browser_slogo_intelligence">Εξυπνότερο</string>
+    <string name="browser_slogo_safe">Ασφαλέστερο</string>
+    <string msgid="6709237687234102240" name="browser_tools">Εργαλεία</string>
+    <string name="btn_recommend_add">Προσθήκη</string>
+    <string name="byfrost_slogan">Byfrost-Βλέποντας έναν μεγαλύτερο κόσμο!</string>
+    <string name="byfrost_suggestion">Λάβαμε την πρότασή σας, ευχαριστούμε.</string>
+    <string name="byfrost_suggestion_time">Ο χρόνος ανατροφοδότησης δεν μπορεί να είναι μικρότερος από 1 λεπτό από την τελευταία φορά.</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="cancelDel">Αναίρεση διαγραφής;</string>
+    <string name="cannot_open_the_file">Δεν υπάρχει διαδικασία για το άνοιγμα αυτού του τύπου αρχείου</string>
+    <string name="check_for_update">Έλεγχος για ενημέρωση...</string>
+    <string name="check_network">Η υποβολή απέτυχε λόγω προβλήματος δικτύου, παρακαλούμε ελέγξτε.</string>
+    <string name="choosertitle_sharevia">Κοινή χρήση μέσω</string>
+    <string name="clear">Εκκαθάριση</string>
+    <string name="clear_all">Εκκαθάριση όλων</string>
+    <string name="clear_all_already">Όλα τα δεδομένα έχουν διαγραφεί!</string>
+    <string name="clear_data_success">Εκκαθάριση επιτυχής</string>
+    <string name="clear_default_browser">Εκκαθάριση της ρύθμισης ως προεπιλεγμένου περιηγητή</string>
+    <string name="clear_default_setting_please">Ένας άλλος περιηγητής είναι ορισμένος ως προεπιλεγμένος, παρακαλώ διαγράψτε την προεπιλογή του περιηγητή.</string>
+    <string name="clear_history_all">Διαγραφή όλων των ιστορικών</string>
+    <string name="click_again_quit">Πατήστε πίσω για έξοδο</string>
+    <string name="close_all_incognito_notification">Κλείσιμο όλων των ιδιωτικών καρτελών</string>
+    <string name="commit_fail">Η υποβολή απέτυχε, παρακαλούμε προσπαθήστε αργότερα</string>
+    <string name="confirm_deletion">Διαγραφή αυτού;</string>
+    <string name="confirm_deletion_all">Διαγραφή όλων;</string>
+    <string name="contact_us_on_facebook">Επικοινωνήστε μαζί μας στο Facebook</string>
+    <string name="containing_folder">Προσθήκη σε</string>
+    <string name="contextheader_folder_bookmarkcount">%d σελιδοδείκτες</string>
+    <string name="contextheader_folder_empty">Άδειος φάκελος</string>
+    <string name="contextmenu_add_contact">Προσθήκη επαφής</string>
+    <string name="contextmenu_copy">Αντιγραφή</string>
+    <string name="contextmenu_copylink">Αντιγραφή διεύθυνσης URL συνδέσμου</string>
+    <string name="contextmenu_dial_dot">Κλήση\u2026</string>
+    <string name="contextmenu_download_image">Αποθήκευση εικόνας</string>
+    <string name="contextmenu_map">Χάρτης</string>
+    <string name="contextmenu_openlink_newwindow">Άνοιγμα σε νέα καρτέλα</string>
+    <string name="contextmenu_openlink_newwindow_background">Άνοιγμα στο παρασκήνιο</string>
+    <string name="contextmenu_savelink">Αποθήκευση συνδέσμου</string>
+    <string name="contextmenu_send_mail">Αποστολή email</string>
+    <string name="contextmenu_set_wallpaper">Ορισμός ως ταπετσαρία</string>
+    <string name="contextmenu_set_wallpaper_image">Ταπετσαρία</string>
+    <string name="contextmenu_share_app">Μοιραστείτε την Εφαρμογή</string>
+    <string name="contextmenu_share_website">Μοιραστείτε την Ιστοσελίδα</string>
+    <string name="contextmenu_sharelink">Κοινοποίηση συνδέσμου</string>
+    <string name="contextmenu_view_image">Προβολή εικόνας</string>
+    <string name="copy_link">Αντιγραφή συνδέσμου</string>
+    <string name="copylink_success">Ο σύνδεσμος αντιγράφηκε</string>
+    <string name="create_shortcut_bookmark">Προσθήκη συντόμευσης στην αρχική</string>
+    <string name="custom_rules">Προσαρμοσμένα φίλτρα AdBlock</string>
+    <string name="custom_rules_title">Φίλτρα AdBlock</string>
+    <string name="default_bookmark">Προεπιλεγμένος σελιδοδείκτης</string>
+    <string name="default_location">Προεπιλεγμένη τοποθεσία: %1$s</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="delete_bookmark_warning">Διαγραφή του σελιδοδείκτη \"%s\";</string>
+    <string name="delete_folder">Διαγραφή φακέλου</string>
+    <string name="deletion_all">Διαγραφή όλων</string>
+    <string name="desktop">Επιφάνεια Εργασίας</string>
+    <string name="done">ΟΛΟΚΛΗΡΩΘΗΚΕ</string>
+    <string name="download">Λήψη</string>
+    <string name="download_allow_mobile">Να επιτρέπεται η λήψη μέσω κινητού δικτύου;</string>
+    <string name="download_failed">Αποτυχία λήψης</string>
+    <string name="download_list">Λίστα Λήψεων</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Απαιτείται SD κάρτα για να κατεβάσετε το %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Δεν υπάρχει SD κάρτα</string>
+    <string name="download_pause">Πάυση λήψης</string>
+    <string name="download_pending">Ξεκινάει η λήψη…</string>
+    <string name="download_removed">Αφαιρέθηκε</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Η κάρτα SD είναι απασχολημένη. Για να επιτρέψετε τις λήψεις, αγγίξτε "Απενεργοποίηση Αποθήκευσης USB" στην ειδοποίηση.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Η SD κάρτα είναι μη διαθέσιμη</string>
+    <string name="downloaded">Κατέβηκε</string>
+    <string name="downloading">Κατέβασμα</string>
+    <string name="downloadmanager_disabled">Ο Διαχειριστής λήψεων είναι απενεργοποιημένος. Ενεργοποιήστε τον.</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="edit_bookmark">Επεξεργασία σελιδοδείκτη</string>
+    <string name="edit_folder">Επεξεργασία φακέλου</string>
+    <string name="edited">ΕΠΕΞΕΡΓΑΣΤΗΚΕ</string>
+    <string name="email">Ηλεκτρονικό ταχυδρομείο:</string>
+    <string name="email_is_error">Παρακαλώ εισάγετε τον σωστό αριθμό τηλεφώνου</string>
+    <string name="empty_bookmarks_folder">Τα σελιδοδείκτες σας είναι άδειοι</string>
+    <string name="empty_history">Δεν υπάρχει ιστορικό περιήγησης</string>
+    <string name="empty_info_most_visited">Χωρίς καταγραφές</string>
+    <string name="empty_snapshots_folder">Δεν υπάρχουν αποθηκευμένες σελίδες</string>
+    <string name="enter_incognito_mode">Μετάβαση σε Ιδιωτική Περιήγηση</string>
+    <string name="enter_normal_mode">Μετάβαση σε Κανονική Περιήγηση</string>
+    <string name="enter_settings_page">Εισέλθετε στις Ρυθμίσεις μετά την ολοκλήρωση της διαγραφής, παρακαλώ.</string>
+    <string name="enter_website_name">Εισάγετε το όνομα της ιστοσελίδας</string>
+    <string name="error_console_eval_button_text" translatable="false">Αξιολόγηση</string>
+    <string name="error_console_eval_text_hint" translatable="false">Αξιολόγηση JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Κονσόλα JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">Εμφάνιση κονσόλας JavaScript</string>
+    <string name="exit">Έξοδος</string>
+    <string name="exit_dialog_title">Θέλεις να κλείσεις τον περιηγητή;</string>
+    <string name="feed_back_sucess">Λάβαμε τα σχόλια και τις προτάσεις σας, ευχαριστούμε.</string>
+    <string name="feedback_other">Άλλο:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Προαιρετικό)</string>
+    <string name="feedback_submit">Υποβολή</string>
+    <string name="file_exist">Το αρχείο υπάρχει</string>
+    <string name="file_name">Όνομα αρχείου</string>
+    <string name="file_not_exist">Το αρχείο δεν υπάρχει</string>
+    <string name="filename_empty">Το όνομα αρχείου δεν μπορεί να είναι κενό</string>
+    <string name="find_on_page">Αναζήτηση στη σελίδα</string>
+    <string name="five_stars">5 αστέρια</string>
+    <string name="five_stars_comment">δώστε πρόταση.</string>
+    <string name="five_stars_content">Η βαθμολογία σας με πέντε αστέρια έχει μεγάλη σημασία για εμάς.</string>
+    <string name="five_stars_later">Αργότερα</string>
+    <string name="five_stars_titile">Απολαύσατε το %s;</string>
+    <string name="geolocation_permissions_prompt_dont_share">Αρνηθείτε</string>
+    <string name="geolocation_permissions_prompt_message">%s θέλει να γνωρίζει την τοποθεσία σας</string>
+    <string name="geolocation_permissions_prompt_share">Μοιραστείτε την τοποθεσία</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Αυτός ο ιστότοπος μπορεί να έχει πρόσβαση στην τοποθεσία σας. Αλλάξτε το στις Ρυθμίσεις > Προχωρημένες > Ρυθμίσεις Ιστότοπου.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Αυτός ο ιστότοπος δεν μπορεί να έχει πρόσβαση στην τοποθεσία σας. Αλλάξτε το στις Ρυθμίσεις > Προχωρημένες > Ρυθμίσεις Ιστότοπου.</string>
+    <string name="geolocation_settings_page_dialog_message">Να διαγραφεί η πρόσβαση στην τοποθεσία για αυτόν τον ιστότοπο;</string>
+    <string name="geolocation_settings_page_summary_allowed">Αυτός ο ιστότοπος μπορεί να έχει πρόσβαση στην τοποθεσία σας</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Αυτός ο ιστότοπος δεν μπορεί να έχει πρόσβαση στην τοποθεσία σας</string>
+    <string name="geolocation_settings_page_title">Αναίρεση άδειας για απόκτηση τοποθεσίας</string>
+    <string name="get_photo_failure">Αποτυχία λήψης εικόνας</string>
+    <string name="go">Μετάβαση</string>
+    <string name="go_back">Επιστροφή</string>
+    <string name="history">Ιστορικό</string>
+    <string name="home_page">Αρχική Σελίδα</string>
+    <string name="incognito_home">Βρίσκεστε σε Ιδιωτική Περιήγηση</string>
+    <string name="incognito_home_content">Τώρα βρίσκεστε σε λειτουργία ιδιωτικής περιήγησης.</string>
+    <string name="incognito_home_tip">Μπορείτε να εξέλθετε από την ιδιωτική περιήγηση και να επιστρέψετε στην κανονική λειτουργία.</string>
+    <string name="input_over_flow">Αποτυχία υποβολής για %1$d χαρακτήρες που υπερβαίνουν το όριο</string>
+    <string name="instructions_label">Οδηγίες χρήσης</string>
+    <string name="is_latest">Ήδη η τελευταία έκδοση!</string>
+    <string name="js_ad_block_count">Αποκλεισμένα JavaScript αρχεία</string>
+    <string name="js_disable_host_error_prompt">Σφάλμα domain, παρακαλώ επεξεργαστείτε ξανά!</string>
+    <string name="js_disable_hosts">Ρύθμιση ορίου χρόνου για δείκτες διαφημίσεων</string>
+    <string name="js_disable_hosts_title">Ορισμένα domains</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Εργαλεία</string>
+    <string name="lable_calendar">Ημερολόγιο</string>
+    <string name="lable_lifestyle">Ζωή</string>
+    <string name="lable_maps">Χάρτες</string>
+    <string name="lable_news">Νέα</string>
+    <string name="lable_translate">Μετάφραση</string>
+    <string name="lable_video">Βίντεο</string>
+    <string name="lable_weather">καιρός</string>
+    <string name="leadpage_back">Πίσω</string>
+    <string name="leadpage_forward">Μπροστά</string>
+    <string name="leadpage_home">Αρχική</string>
+    <string name="loading_video">Φορτώνει το βίντεο…</string>
+    <string name="local_bookmarks">Τοπικοί</string>
+    <string name="location">Διεύθυνση</string>
+    <string name="mark_image_ad">Σήμανση Διαφήμισης</string>
+    <string name="mark_image_ad_fail">Αποτυχία σήμανσης</string>
+    <string name="max_tabs_warning">Δεν υπάρχουν διαθέσιμοι άλλοι καρτέλες</string>
+    <string name="menu_browser_Tools">Εργαλεία</string>
+    <string name="menu_browser_add_bookmark">Προσθήκη σελιδοδείκτη</string>
+    <string name="menu_browser_bookmarks">Σελιδοδείκτες</string>
+    <string name="menu_browser_close_incognito">Κανονική</string>
+    <string name="menu_browser_downloads">Λήψεις</string>
+    <string name="menu_browser_font_size">Μέγεθος Γραμματοσειράς</string>
+    <string name="menu_browser_full_screen">Πλήρης Οθόνη</string>
+    <string name="menu_browser_history">Ιστορικό</string>
+    <string name="menu_browser_incognito">Ιδιωτική Περιήγηση</string>
+    <string name="menu_browser_night">Προστασία Ματιών</string>
+    <string name="menu_browser_no_image">Χωρίς Εικόνα</string>
+    <string name="menu_browser_quit">Έξοδος</string>
+    <string name="menu_browser_search_page">Αναζήτηση στη Σελίδα</string>
+    <string name="menu_browser_settings">Ρυθμίσεις</string>
+    <string name="menu_browser_snapshots">Αποθήκευση Σελίδας</string>
+    <string name="menu_preferences">Ρυθμίσεις</string>
+    <string name="menu_tools_box">Εργαλειοθήκη</string>
+    <string name="messageContent">Υπάρχει νέα έκδοση για το %s, μπορείτε να την ενημερώσετε τώρα.</string>
+    <string name="modify">Τροποποίηση</string>
+    <string name="most_visited">Πιο επισκεπτόμενες</string>
+    <string name="my_qrcode" translatable="false">Ο QR κωδικός μου</string>
+    <string name="name">Ετικέτα</string>
+    <string name="name_cannot_empty">Το όνομα της ιστοσελίδας δεν μπορεί να είναι κενό</string>
+    <string name="new_file">Δημιουργία νέου αρχείου</string>
+    <string name="new_folder">Νέος φάκελος</string>
+    <string name="new_incognito_tab">Νέα ανώνυμη καρτέλα</string>
+    <string name="new_tab">Νέα καρτέλα</string>
+    <string name="no_downloads">Χωρίς Λήψεις</string>
+    <string name="no_prompt">Μην ρωτάτε ξανά</string>
+    <string name="no_subfolders">Δεν υπάρχουν υποφακέλοι.</string>
+    <string name="notification_content_text">Κάντε κλικ για να δείτε</string>
+    <string name="notification_download_finish">Η λήψη ολοκληρώθηκε</string>
+    <string name="null_rules_prompt">Μπορείτε να προσθέσετε τους δικούς σας κανόνες. Οι κανόνες σας πρέπει να ακολουθούν τους κανόνες σύνταξης του Adblock Plus. Οδηγίες χρήσης.</string>
+    <string name="ok">Εντάξει</string>
+    <string name="open">Άνοιγμα</string>
+    <string name="open_all_in_new_window">Άνοιγμα όλων σε νέες καρτέλες</string>
+    <string name="open_most_visited">άνοιγμα των πιο επισκεπτόμενων>></string>
+    <string name="optional">(Προαιρετικό)</string>
+    <string name="other_bookmarks">Άλλοι Σελιδοδείκτες</string>
+    <string name="page_info">Πληροφορίες σελίδας</string>
+    <string name="page_info_address">Διεύθυνση:</string>
+    <string name="page_info_view">Προβολή πληροφοριών σελίδας</string>
+    <string name="password">Κωδικός</string>
+    <string name="permissions_prompt_deny">Άρνηση</string>
+    <string name="permissions_prompt_message">%1$s θέλει να χρησιμοποιήσει το %2$s σας.</string>
+    <string name="pic_ad_block_count">Αποκλεισμένες Εικόνες</string>
+    <string name="picture_nocodeinfo" translatable="false">Δεν αναγνωρίζεται καμία πληροφορία QR κωδικού στην εικόνα</string>
+    <string name="picture_scannoinfo" translatable="false">Δεν σαρώθηκε καμία πληροφορία QR κωδικού</string>
+    <string name="please_input_over_six">Παρακαλώ εισάγετε 6 ή περισσότερους χαρακτήρες</string>
+    <string name="please_input_under_max">Παρακαλώ εισάγετε όχι πάνω από %1$d χαρακτήρες</string>
+    <string name="please_leave_your_email">Παρακαλώ αφήστε τη διεύθυνση email σας</string>
+    <string name="popup_ad_block_count">Αποκλεισμένα Παράθυρα</string>
+    <string name="pref_about">Πληροφορίες</string>
+    <string name="pref_ad_block">Αποκλεισμός διαφημίσεων</string>
+    <string name="pref_agreement">Όροι χρήσης</string>
+    <string name="pref_always" translatable="false">ΠΑΝΤΑ</string>
+    <string name="pref_check_update">Έλεγχος για ενημέρωση</string>
+    <string name="pref_confirm_on_exit">Επιβεβαίωση κατά την έξοδο</string>
+    <string name="pref_contact_us">Επικοινωνήστε μαζί μας:</string>
+    <string name="pref_content_search_engine">Ρύθμιση μηχανής αναζήτησης</string>
+    <string name="pref_default_ad_time">Χρόνος Σήμανσης Διαφήμισης</string>
+    <string name="pref_default_browser">Ορισμός προεπιλεγμένου περιηγητή</string>
+    <string name="pref_default_text_encoding">Κωδικοποίηση κειμένου</string>
+    <string name="pref_deverloper_options">Επιλογές προγραμματιστή</string>
+    <string name="pref_download">Ρυθμίσεις λήψης</string>
+    <string name="pref_download_path_setting_screen_title">Προσαρμοσμένη διαδρομή λήψης</string>
+    <string name="pref_download_with_ADM">Λήψη με ADM</string>
+    <string name="pref_extras_reset_default">Επαναφορά στην προεπιλογή</string>
+    <string name="pref_extras_reset_default_dlg">Να επαναφέρετε τις ρυθμίσεις στις προεπιλεγμένες τιμές;</string>
+    <string name="pref_extras_website_settings">Ρυθμίσεις ιστοσελίδας</string>
+    <string name="pref_feedback">Ανατροφοδότηση</string>
+    <string name="pref_five_star">πέντε αστέρια</string>
+    <string name="pref_font_size">Μέγεθος γραμματοσειράς</string>
+    <string name="pref_font_size_summary">Ρυθμίστε το μέγεθος κειμένου και γραμματοσειρών</string>
+    <string name="pref_force_userscalable">Αναγκαστική ενεργοποίηση ζουμ</string>
+    <string name="pref_force_userscalable_summary">Αγνόηση του αιτήματος ενός ιστότοπου για έλεγχο της συμπεριφοράς ζουμ</string>
+    <string name="pref_min_font_size">Ελάχιστο μέγεθος γραμματοσειράς</string>
+    <string name="pref_notification_tool_show">Εμφάνιση γραμμής αναζήτησης στο Πίνακα Ειδοποιήσεων</string>
+    <string name="pref_privacy_clear_data">Καθαρισμός δεδομένων</string>
+    <string name="pref_privacy_enable_geolocation">Ενεργοποίηση τοποθεσίας</string>
+    <string name="pref_privacy_enable_geolocation_summary">Επιτρέψτε στους ιστότοπους να ζητούν πρόσβαση στην τοποθεσία σας</string>
+    <string name="pref_privacy_policy">Πολιτική απορρήτου</string>
+    <string name="pref_privacy_security_title">Απόρρητο &amp; Ασφάλεια</string>
+    <string name="pref_privacy_security_title_summary">Επιτρέψτε στον περιηγητή να θυμάται κωδικούς πρόσβασης, αποθηκευμένες φόρμες, κλπ.</string>
+    <string name="pref_search_engine_dialog_title">Επιλέξτε μηχανή αναζήτησης</string>
+    <string name="pref_security_accept_cookies">Αποδοχή cookies</string>
+    <string name="pref_security_accept_cookies_summary">Επιτρέψτε στους ιστότοπους να αποθηκεύουν και να διαβάζουν δεδομένα cookies</string>
+    <string name="pref_security_remember_passwords">Αποθήκευση κωδικών πρόσβασης</string>
+    <string name="pref_security_remember_passwords_summary">Αποθήκευση ονομάτων χρήστη και κωδικών πρόσβασης για ιστότοπους</string>
+    <string name="pref_security_save_form_data">Αποθήκευση δεδομένων φόρμας</string>
+    <string name="pref_security_save_form_data_summary">Αποθήκευση των δεδομένων που καταχωρίσατε στη φόρμα</string>
+    <string name="pref_security_show_security_warning">Εμφάνιση προειδοποιήσεων ασφαλείας</string>
+    <string name="pref_security_show_security_warning_summary">Εμφάνιση προειδοποίησης αν υπάρχει πρόβλημα με την ασφάλεια του ιστότοπου</string>
+    <string name="pref_show_download_dialog">Εμφάνιση διαλόγου λήψης</string>
+    <string name="pref_show_header_news">Εμφάνιση ώρας/καιρού/ειδήσεων από την προηγούμενη σελίδα</string>
+    <string name="pref_show_red_badge_notity">Εμφάνιση ειδοποίησης με κόκκινο εικονίδιο</string>
+    <string name="pref_show_status_bar">Εμφάνιση μπάρας κατάστασης</string>
+    <string name="pref_text_zoom">Κλίμακα κειμένου</string>
+    <string name="pref_wifi_only" translatable="false">ΜΟΝΟ WIFI</string>
+    <string name="product_agree">Συμφωνώ</string>
+    <string name="product_no_agree">Δεν συμφωνώ</string>
+    <string name="progress_dialog_setting_wallpaper">Ορισμός ταπετσαρίας…</string>
+    <string name="prompt_already_saved_bookmark">Αυτός ο σελιδοδείκτης έχει ήδη προστεθεί</string>
+    <string name="prompt_already_saved_off">Αυτή η σελίδα έχει ήδη αποθηκευτεί</string>
+    <string name="prompt_saved_off_line">Αποθηκεύτηκε στις offline σελίδες</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Τοποθετήστε τον QR κωδικό μέσα στο πλαίσιο και ξεκινήστε τη σάρωση</string>
+    <string name="refresh">Ανανέωση</string>
+    <string name="remember_preference">Αποθήκευση προτίμησης</string>
+    <string name="remove">Αφαίρεση</string>
+    <string name="remove_bookmark">Διαγραφή σελιδοδείκτη</string>
+    <string name="remove_items_all">Αφαίρεση όλων των αντικειμένων</string>
+    <string name="remove_snapshot">Διαγραφή αποθηκευμένης σελίδας</string>
+    <string name="removed_from_bookmarks">Αφαιρέθηκε από τα σελιδοδείκτες.</string>
+    <string name="rename">Μετονομασία αρχείων</string>
+    <string name="rename_failed">Αποτυχία μετονομασίας</string>
+    <string name="rename_success">Επιτυχής μετονομασία</string>
+    <string name="replace_file">Αντικατάσταση αρχείου</string>
+    <string name="request_fail">Η αίτηση απέτυχε, παρακαλούμε προσπαθήστε αργότερα</string>
+    <string name="request_read_external_storage_error">Αποτυχία αίτησης για πρόσβαση στην εσωτερική μνήμη του τηλεφώνου</string>
+    <string name="resource_audio_capture">μικρόφωνο</string>
+    <string name="resource_protected_media_id">προστατευμένο μέσο ID</string>
+    <string name="resource_video_capture">κάμερα</string>
+    <string name="right_recommend_add_link_not_title">Παρακαλώ εισάγετε τίτλο</string>
+    <string name="right_recommend_add_link_not_url">Παρακαλώ εισάγετε διεύθυνση URL</string>
+    <string name="right_recommend_add_link_repeat">Η διεύθυνση URL υπάρχει ήδη</string>
+    <string name="right_recommend_add_link_saved">Αποθηκεύτηκε</string>
+    <string name="right_recommend_add_link_url_format">Αυτή η διεύθυνση URL είναι λανθασμένη</string>
+    <string name="right_recommend_tools_desktop">Επιφάνεια Εργασίας</string>
+    <string name="right_recommend_tools_remove">Αφαίρεση</string>
+    <string name="sdcard_free">%1$s Ελεύθερο/%2$s</string>
+    <string name="search_hint">Αναζητήστε ή πληκτρολογήστε URL</string>
+    <string name="search_history">Ιστορικό Αναζητήσεων</string>
+    <string name="search_settings_description">Σελιδοδείκτες και ιστορικό ιστού</string>
+    <string name="search_the_web">Αναζήτηση στο διαδίκτυο</string>
+    <string name="security_warning">Προειδοποίηση ασφαλείας</string>
+    <string name="select_dot">Επιλογή κειμένου</string>
+    <string name="select_download_path">Επιλέξτε το φάκελο "%s" ως τοποθεσία λήψης</string>
+    <string name="select_location">Επιλέξτε τοποθεσία</string>
+    <string name="select_qr_code" translatable="false">Επιλέξτε εικόνα QR κωδικού</string>
+    <string name="sendText">Επιλέξτε μια ενέργεια για το κείμενο</string>
+    <string name="set_as_homepage">Ορισμός ως αρχική σελίδα</string>
+    <string name="set_default_browser">Ορισμός ως προεπιλεγμένος περιηγητής</string>
+    <string name="set_default_failure">Αποτυχία ορισμού προεπιλογής. Προσπαθήστε ξανά, παρακαλώ.</string>
+    <string name="set_default_success">Η ρύθμιση ολοκληρώθηκε επιτυχώς!</string>
+    <string name="setting_bottom_day">Φωτεινή λειτουργία</string>
+    <string name="setting_bottom_expanding">Επέκταση</string>
+    <string name="setting_bottom_night">Σκοτεινή λειτουργία</string>
+    <string name="setting_update_speech_recognition">Απαγορεύεται η φωνητική είσοδος, παρακαλώ ενημερώστε την υπηρεσία Google Voice</string>
+    <string name="share">Κοινοποίηση</string>
+    <string name="share_dialog_title" translatable="false">Μοιραστείτε τη σελίδα</string>
+    <string name="shortcut_bookmark">Σελιδοδείκτης</string>
+    <string name="shortcut_bookmark_title">Επιλέξτε έναν σελιδοδείκτη</string>
+    <string name="show_dev_on">Είστε τώρα προγραμματιστής!</string>
+    <string name="sign_in_to">Σύνδεση στο %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Χωρίς τίτλο</string>
+    <string name="ssl_certificate">Πιστοποιητικό ασφαλείας</string>
+    <string name="ssl_certificate_is_valid">Αυτό το πιστοποιητικό είναι έγκυρο.</string>
+    <string name="ssl_continue">Συνέχεια</string>
+    <string name="ssl_date_invalid">Αυτό το πιστοποιητικό έχει άκυρη ημερομηνία.</string>
+    <string name="ssl_expired">Αυτό το πιστοποιητικό έχει λήξει.</string>
+    <string name="ssl_invalid">Αυτό το πιστοποιητικό είναι άκυρο.</string>
+    <string name="ssl_mismatch">Το όνομα του ιστότοπου δεν ταιριάζει με το όνομα στο πιστοποιητικό.</string>
+    <string name="ssl_not_yet_valid">Αυτό το πιστοποιητικό δεν είναι ακόμη έγκυρο.</string>
+    <string name="ssl_unknown">Άγνωστο σφάλμα πιστοποιητικού.</string>
+    <string name="ssl_untrusted">Αυτό το πιστοποιητικό δεν προέρχεται από αξιόπιστη αρχή.</string>
+    <string name="ssl_warnings_header">Υπάρχουν προβλήματα με το πιστοποιητικό ασφαλείας αυτού του ιστότοπου.</string>
+    <string name="stopping">Διακοπή...</string>
+    <string name="storage_space_lack">Δεν υπάρχει αρκετός διαθέσιμος χώρος</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Παρακαλώ επιβεβαιώστε ότι έχετε επιλέξει την σωστή εικόνα</string>
+    <string name="swipe_up_tip">Μπορείτε να σύρετε προς τα πάνω για να διαγράψετε την καρτέλα</string>
+    <string name="tab_snapshots">Αποθηκευμένες σελίδες</string>
+    <string name="text_count_can_input">%1$d χαρακτήρες μπορούν να εισαχθούν</string>
+    <string name="title_activity_add_link">Προσθήκη συνδέσμου</string>
+    <string name="title_clear_all_history">Να διαγραφούν όλα τα ιστορικά;</string>
+    <string name="title_clear_bookmark">Να διαγραφεί ο σελιδοδείκτης;</string>
+    <string name="title_clear_history">Να διαγραφεί το ιστορικό;</string>
+    <string name="title_clear_off_line">Να διαγραφούν οι αποθηκευμένες σελίδες;</string>
+    <string name="too_many_subwindows_dialog_message">Μπορεί να είναι ανοιχτό μόνο ένα αναδυόμενο παράθυρο ταυτόχρονα.</string>
+    <string name="too_many_subwindows_dialog_title">Το αναδυόμενο παράθυρο είναι ήδη ανοιχτό</string>
+    <string name="too_many_windows_dialog_message">Δεν μπορείτε να ανοίξετε μια νέα καρτέλα μέχρι να κλείσετε μία.</string>
+    <string name="toolbox_menu_off">ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΟ</string>
+    <string name="toolbox_menu_on">ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ</string>
+    <string name="total">Σύνολο</string>
+    <string name="ua_switcher_desktop">Αίτημα για επιτραπέζιο ιστότοπο</string>
+    <string name="unknown">Άγνωστο</string>
+    <string name="unknown_error">Άγνωστο σφάλμα, παρακαλώ προσπαθήστε ξανά.</string>
+    <string name="unknown_file">Άγνωστος τύπος αρχείου</string>
+    <string name="update_at_once">Ενημέρωση</string>
+    <string name="update_content1">1. Οι υπερ-smart επιστήμονες μας έκαναν τις ιστοσελίδες να φορτώνουν με ταχύτητα φωτός!</string>
+    <string name="update_content2">2. Η γλυκιά μας σχεδιάστρια έκανε τη μαγεία της και έκανε τα πάντα ακόμα πιο όμορφα!</string>
+    <string name="update_content3">3. Και οι καταπληκτικοί μας προγραμματιστές; Έμειναν ξύπνιοι αργά πίνοντας καφέ, διώχνοντας όλα τα ενοχλητικά σφάλματα!</string>
+    <string name="update_later">Αναβάθμιση αργότερα</string>
+    <string name="update_now">Μεταβείτε στο Google Play για να κατεβάσετε την εφαρμογή.</string>
+    <string name="update_remind">Ειδοποίηση ενημέρωσης</string>
+    <string name="update_tips1">Ναι, το μαντέψατε! Έχει έρθει μια ολοκαίνουρια ενημέρωση!</string>
+    <string name="update_tips2">✨Όλα για να βελτιώσουμε την εμπειρία σας!\nΠροχωρήστε, κάντε ενημέρωση τώρα και δείτε το! ✨</string>
+    <string name="update_title">Βρέθηκε νέα έκδοση</string>
+    <string name="upload_image">Ανέβασμα εικόνας</string>
+    <string name="uploads_disabled">Οι μεταφορές αρχείων είναι απενεργοποιημένες.</string>
+    <string name="username">Όνομα</string>
+    <string name="versionUpdate">Ενημέρωση</string>
+    <string name="video_mobile_pause">Ακύρωση</string>
+    <string name="video_mobile_permission">Χρησιμοποιείτε το κινητό δίκτυο. Θέλετε να συνεχίσετε την αναπαραγωγή;</string>
+    <string name="video_mobile_play">Αναπαραγωγή</string>
+    <string name="view">Προβολή</string>
+    <string name="view_certificate">Προβολή πιστοποιητικού</string>
+    <string name="view_select_all">Επιλογή Όλων</string>
+    <string name="visit_url_ok">Επισκέψου</string>
+    <string name="visit_url_title">Να επισκεφτείτε αυτή τη διεύθυνση από το πρόχειρο;</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Δημοφιλή</string>
+    <string name="website_lifestyle">Ζωή</string>
+    <string name="website_news">Νέα•Αθλητικά</string>
+    <string name="website_recommend">Προτεινόμενα</string>
+    <string name="website_settings_list_header_text">Πρόσβαση στην τοποθεσία</string>
+    <string name="website_shoping">Ψυχαγωγία•Αγορές</string>
+    <string name="website_social">Κοινωνικά</string>
+    <string name="website_tools">Εργαλεία</string>
+    <string name="website_videos">Βίντεο</string>
+    <string name="webstorage_clear_data_title">Καθαρισμός αποθηκευμένων δεδομένων</string>
+    <string name="webstorage_origin_summary_mb_stored">MB αποθηκευμένα στο τηλέφωνό σας</string>
+    <string name="webstorage_outofspace_notification_text">Αγγίξτε για να ελευθερώσετε χώρο.</string>
+    <string name="webstorage_outofspace_notification_title">Η αποθήκευση του περιηγητή είναι γεμάτη</string>
+    <string name="write_advice_please">Παρακαλώ περιγράψτε τη γνώμη ή πρότασή σας με λόγια... (1000 λέξεις)</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Συγνώμη, προέκυψε ένα πρόβλημα με την κάμερα. Ίσως χρειαστεί να επανεκιννήσετε τη συσκευή.</string>
+    <string name="zxing_msg_default_status">Τοποθετήστε ένα barcode μέσα στο πλαίσιο για να το σκανάρετε.</string>
+</resources>

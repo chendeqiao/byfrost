@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Hapus riwayat &amp; cache</item>
+        <item>Jangan tanya lagi</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookie</item>
+        <item>Formulir</item>
+        <item>Riwayat</item>
+        <item>Kata sandi</item>
+        <item>Akses lokasi</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Hapus konten dan database yang disimpan secara lokal</item>
+        <item>Hapus semua cookie</item>
+        <item>Hapus semua data formulir yang disimpan</item>
+        <item>Hapus seluruh riwayat penelusuran</item>
+        <item>Hapus semua akun dan kata sandi yang disimpan</item>
+        <item>Batal izinkan situs untuk mengakses lokasi Anda</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Cina (GBK)</item>
+        <item>Cina (Big5)</item>
+        <item>Jepang (ISO-2022-JP)</item>
+        <item>Jepang (SHIFT_JIS)</item>
+        <item>Jepang (EUC-JP)</item>
+        <item>Korea (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+        <item>Sangat besar</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Default</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Komputer</item>
+    </string-array>
+    <string name="abnormal_recover_message">Pulihkan halaman web terakhir?</string>
+    <string name="abnormal_recover_ok">Pulihkan</string>
+    <string name="abnormal_recover_recovered">Halaman dari sesi terakhir dipulihkan.</string>
+    <string name="accessibility_button_addbookmark">Bookmark halaman</string>
+    <string name="accessibility_button_bookmarks_folder_up">Folder sebelumnya</string>
+    <string name="accessibility_button_closetab">Tutup tab</string>
+    <string name="accessibility_button_forward">Maju</string>
+    <string name="accessibility_button_more">Opsi lainnya</string>
+    <string name="accessibility_button_newtab">Buka tab baru</string>
+    <string name="accessibility_button_refresh">Segarkan halaman</string>
+    <string name="accessibility_button_search">Cari</string>
+    <string name="accessibility_button_stop">Hentikan pemuatan halaman</string>
+    <string name="accessibility_button_uaswitch">Ganti agen pengguna</string>
+    <string name="accessibility_button_voice">Mulai pencarian suara</string>
+    <string name="accessibility_state_frozen">Halaman yang disimpan</string>
+    <string name="accessibility_state_incognito">Halaman Incognito</string>
+    <string name="accessibility_transition_navscreen">Manajemen tab</string>
+    <string name="account">Akun</string>
+    <string name="action">Masuk</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Iklan terdeteksi, aktifkan Pemblokir Iklan sekarang?</string>
+    <string name="adblock_rules_error_prompt">Kesalahan sintaks, harap edit lagi!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Tambah</string>
+    <string name="add_new_bookmark">Tambahkan bookmark</string>
+    <string name="add_pic">Tambahkan gambar:</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="add_to_desktop_success">Ditambahkan ke desktop</string>
+    <string name="add_to_homepage">Tambahkan ke beranda</string>
+    <string name="add_to_homepage_success">Ditambahkan ke halaman utama</string>
+    <string name="add_to_homescreen_menu_option">Layar utama</string>
+    <string name="add_to_other_folder_menu_option">Folder lain</string>
+    <string name="add_up_to_15">Tambah hingga 20</string>
+    <string name="added_new_bookmark">Tambah bookmark</string>
+    <string name="allow">Izinkan</string>
+    <string name="allow_download">Izinkan Unduhan</string>
+    <string name="allow_download_no">Sambungkan ke WiFi</string>
+    <string name="already_cleared">Dibersihkan</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Tersedia</string>
+    <string name="block">Blokir</string>
+    <string name="bookmark_cannot_save_url">URL ini tidak dapat dibookmark</string>
+    <string name="bookmark_list">Daftar bookmark</string>
+    <string name="bookmark_needs_title">"Bookmark harus memiliki nama"</string>
+    <string name="bookmark_needs_url">"Bookmark harus memiliki lokasi"</string>
+    <string name="bookmark_not_saved">Gagal menyimpan bookmark</string>
+    <string name="bookmark_saved">Disimpan ke bookmark</string>
+    <string name="bookmark_this_page">Bookmark halaman ini</string>
+    <string name="bookmark_url_not_valid">URL ini tidak valid</string>
+    <string name="bookmarks">Bookmark</string>
+    <string name="bookmarks_add_page">Simpan bookmark</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">Masalah file</string>
+    <string name="browserFrameFormResubmitMessage">Halaman yang Anda coba buka berisi data yang sudah dikirim sebelumnya ("POSTDATA"). Jika Anda mengirim ulang data ini, tindakan apapun yang dilakukan formulir di halaman tersebut (seperti pencarian atau pembelian online) akan diulang.</string>
+    <string name="browserFrameNetworkErrorLabel">Masalah koneksi</string>
+    <string name="browser_admin_panel">Pusat Pengguna</string>
+    <string name="browser_hot_word_title" translatable="false">Daftar pencarian terpopuler</string>
+    <string name="browser_navigation">Navigasi</string>
+    <string name="browser_net_error_refresh" translatable="false">Klik area kosong untuk memuat ulang halaman</string>
+    <string name="browser_open_all_most_visited" translatable="false">Perluas situs web yang direkomendasikan</string>
+    <string name="browser_permission_camera">Izin kamera ditolak, silakan aktifkan secara manual</string>
+    <string name="browser_permission_notification">Izin pemberitahuan ditolak, silakan aktifkan secara manual</string>
+    <string name="browser_permission_qr">Fungsi ini memerlukan izin akses memori. Silakan aktifkan izin di pengaturan</string>
+    <string name="browser_permission_setwall">Mengatur wallpaper ponsel memerlukan izin penyimpanan memori. Silakan buka di halaman pengaturan</string>
+    <string name="browser_permission_strone">Unduhan file memerlukan izin penyimpanan. Silakan buka izin penyimpanan di pengaturan</string>
+    <string name="browser_privacy_tips">Data pribadi Anda akan diproses sesuai dengan 《Kebijakan Privasi》 kami.</string>
+    <string name="browser_product_agree_tips">Anda perlu setuju dengan kebijakan ini.</string>
+    <string name="browser_product_start">Mulai</string>
+    <string name="browser_rights" translatable="false">Hak Cipta © 2024 Browser Byfrost. \nSemua Hak Dilindungi.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Cari segala sesuatu yang Anda butuhkan dengan bebas</string>
+    <string name="browser_slogo_fast">Lebih Cepat</string>
+    <string name="browser_slogo_intelligence">Lebih Pintar</string>
+    <string name="browser_slogo_safe">Lebih Aman</string>
+    <string msgid="6709237687234102240" name="browser_tools">Alat</string>
+    <string name="btn_recommend_add">Tambah</string>
+    <string name="byfrost_slogan">Byfrost- Melihat dunia yang lebih besar!</string>
+    <string name="byfrost_suggestion">Kami telah menerima saran Anda, terima kasih.</string>
+    <string name="byfrost_suggestion_time">Waktu umpan balik tidak boleh kurang dari 1 menit dari yang terakhir.</string>
+    <string name="cancel">Batal</string>
+    <string name="cancelDel">Batalkan hapus?</string>
+    <string name="cannot_open_the_file">Tidak ada prosedur untuk membuka jenis file ini</string>
+    <string name="check_for_update">memeriksa pembaruan...</string>
+    <string name="check_network">Pengiriman gagal karena masalah jaringan, harap periksa.</string>
+    <string name="choosertitle_sharevia">Bagikan melalui</string>
+    <string name="clear">Bersihkan</string>
+    <string name="clear_all">Bersihkan semua</string>
+    <string name="clear_all_already">Semua data telah dibersihkan!</string>
+    <string name="clear_data_success">Bersihkan berhasil</string>
+    <string name="clear_default_browser">Hapus pengaturan browser default</string>
+    <string name="clear_default_setting_please">Browser lain telah disetel sebagai browser default, harap hapus pengaturan default browser tersebut.</string>
+    <string name="clear_history_all">Hapus semua riwayat</string>
+    <string name="click_again_quit">Ketuk kembali untuk keluar</string>
+    <string name="close_all_incognito_notification">Tutup semua tab penyamaran</string>
+    <string name="commit_fail">Pengiriman gagal, silakan coba lagi nanti</string>
+    <string name="confirm_deletion">Hapus ini?</string>
+    <string name="confirm_deletion_all">Hapus semua?</string>
+    <string name="contact_us_on_facebook">Hubungi kami di Facebook</string>
+    <string name="containing_folder">Tambahkan ke</string>
+    <string name="contextheader_folder_bookmarkcount">%d bookmark</string>
+    <string name="contextheader_folder_empty">Folder kosong</string>
+    <string name="contextmenu_add_contact">Tambahkan kontak</string>
+    <string name="contextmenu_copy">Salin</string>
+    <string name="contextmenu_copylink">Salin URL tautan</string>
+    <string name="contextmenu_dial_dot">Panggil...</string>
+    <string name="contextmenu_download_image">Simpan gambar</string>
+    <string name="contextmenu_map">Peta</string>
+    <string name="contextmenu_openlink_newwindow">Buka di tab baru</string>
+    <string name="contextmenu_openlink_newwindow_background">Buka di latar belakang</string>
+    <string name="contextmenu_savelink">Simpan tautan</string>
+    <string name="contextmenu_send_mail">Kirim email</string>
+    <string name="contextmenu_set_wallpaper">Jadikan sebagai wallpaper</string>
+    <string name="contextmenu_set_wallpaper_image">Wallpaper</string>
+    <string name="contextmenu_share_app">Bagikan Aplikasi</string>
+    <string name="contextmenu_share_website">Bagikan Situs Web</string>
+    <string name="contextmenu_sharelink">Bagikan tautan</string>
+    <string name="contextmenu_view_image">Lihat gambar</string>
+    <string name="copy_link">Salin tautan</string>
+    <string name="copylink_success">Tautan telah disalin</string>
+    <string name="create_shortcut_bookmark">Tambahkan pintasan ke beranda</string>
+    <string name="custom_rules">Filter AdBlock kustom</string>
+    <string name="custom_rules_title">Filter AdBlock</string>
+    <string name="default_bookmark">Bookmark Default</string>
+    <string name="default_location">Lokasi default: %1$s</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_bookmark_warning">Hapus bookmark \"%s\"?</string>
+    <string name="delete_folder">Hapus folder</string>
+    <string name="deletion_all">Hapus semua</string>
+    <string name="desktop">Desktop</string>
+    <string name="done">SELESAI</string>
+    <string name="download">Unduh</string>
+    <string name="download_allow_mobile">Izinkan unduhan file melalui jaringan seluler?</string>
+    <string name="download_failed">Unduhan gagal</string>
+    <string name="download_list">Daftar Unduhan</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Kartu SD diperlukan untuk mengunduh %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Tidak ada kartu SD</string>
+    <string name="download_pause">Unduhan terhenti</string>
+    <string name="download_pending">Memulai unduhan…</string>
+    <string name="download_removed">Telah dihapus</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">Kartu SD sedang sibuk. Untuk mengizinkan unduhan, sentuh Matikan Penyimpanan USB di pemberitahuan.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">Kartu SD tidak tersedia</string>
+    <string name="downloaded">Diunduh</string>
+    <string name="downloading">Mengunduh</string>
+    <string name="downloadmanager_disabled">Pengelola unduhan dinonaktifkan. Harap aktifkan.</string>
+    <string name="edit">Sunting</string>
+    <string name="edit_bookmark">Ubah bookmark</string>
+    <string name="edit_folder">Ubah folder</string>
+    <string name="edited">DIEDIT</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Harap masukkan nomor telepon yang benar</string>
+    <string name="empty_bookmarks_folder">Bookmark Anda kosong</string>
+    <string name="empty_history">Tidak ada riwayat penelusuran</string>
+    <string name="empty_info_most_visited">Tidak ada rekaman</string>
+    <string name="empty_snapshots_folder">Tidak ada halaman yang disimpan</string>
+    <string name="enter_incognito_mode">Berpindah ke mode pribadi</string>
+    <string name="enter_normal_mode">Berpindah ke mode normal</string>
+    <string name="enter_settings_page">Masuk ke Pengaturan setelah pembersihan selesai, harap.</string>
+    <string name="enter_website_name">Masukkan nama situs web</string>
+    <string name="error_console_eval_button_text" translatable="false">Evaluasi</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evaluasi JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Konsol JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">Tampilkan konsol JavaScript</string>
+    <string name="exit">Keluar</string>
+    <string name="exit_dialog_title">Keluar dari Browser?</string>
+    <string name="feed_back_sucess">Kami telah menerima komentar dan saran Anda, terima kasih.</string>
+    <string name="feedback_other">Lainnya:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Opsional)</string>
+    <string name="feedback_submit">Kirim</string>
+    <string name="file_exist">File sudah ada</string>
+    <string name="file_name">Nama File</string>
+    <string name="file_not_exist">File tidak ada</string>
+    <string name="filename_empty">Nama file tidak boleh kosong</string>
+    <string name="find_on_page">Temukan di halaman</string>
+    <string name="five_stars">5 bintang</string>
+    <string name="five_stars_comment">Berikan saran Anda.</string>
+    <string name="five_stars_content">Penilaian lima bintang Anda sangat berarti bagi kami.</string>
+    <string name="five_stars_later">Nanti</string>
+    <string name="five_stars_titile">Nikmati %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Tolak</string>
+    <string name="geolocation_permissions_prompt_message">%s ingin mengetahui lokasi Anda</string>
+    <string name="geolocation_permissions_prompt_share">Bagikan lokasi</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Situs ini dapat mengakses lokasi Anda. Ubah ini di Pengaturan > Lanjutan > Pengaturan Situs Web.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Situs ini tidak dapat mengakses lokasi Anda. Ubah ini di Pengaturan > Lanjutan > Pengaturan Situs Web.</string>
+    <string name="geolocation_settings_page_dialog_message">Hapus akses lokasi untuk situs web ini?</string>
+    <string name="geolocation_settings_page_summary_allowed">Situs ini saat ini dapat mengakses lokasi Anda</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Situs ini saat ini tidak dapat mengakses lokasi Anda</string>
+    <string name="geolocation_settings_page_title">Batalkan izin untuk mendapatkan lokasi Anda</string>
+    <string name="get_photo_failure">Gagal mendapatkan gambar</string>
+    <string name="go">Pergi</string>
+    <string name="go_back">Kembali</string>
+    <string name="history">Riwayat</string>
+    <string name="home_page">Halaman Utama</string>
+    <string name="incognito_home">Anda berada dalam Mode Pribadi</string>
+    <string name="incognito_home_content">Sekarang Anda berada dalam mode pribadi.</string>
+    <string name="incognito_home_tip">Anda dapat keluar dari mode pribadi dan kembali ke mode normal.</string>
+    <string name="input_over_flow">Gagal mengirimkan, %1$d karakter melebihi batas</string>
+    <string name="instructions_label">Instruksi penggunaan</string>
+    <string name="is_latest">Sudah versi terbaru!</string>
+    <string name="js_ad_block_count">File JavaScript Terblokir</string>
+    <string name="js_disable_host_error_prompt">Kesalahan domain, harap edit lagi!</string>
+    <string name="js_disable_hosts">Setel batas waktu penanda iklan</string>
+    <string name="js_disable_hosts_title">Domain tertentu</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Alat</string>
+    <string name="lable_calendar">Kalender</string>
+    <string name="lable_lifestyle">Gaya Hidup</string>
+    <string name="lable_maps">Peta</string>
+    <string name="lable_news">Berita</string>
+    <string name="lable_translate">Terjemahkan</string>
+    <string name="lable_video">Video</string>
+    <string name="lable_weather">Cuaca</string>
+    <string name="leadpage_back">Kembali</string>
+    <string name="leadpage_forward">Maju</string>
+    <string name="leadpage_home">Beranda</string>
+    <string name="loading_video">Memuat video...</string>
+    <string name="local_bookmarks">Lokal</string>
+    <string name="location">Alamat</string>
+    <string name="mark_image_ad">Tandai Iklan</string>
+    <string name="mark_image_ad_fail">Penandaan gagal</string>
+    <string name="max_tabs_warning">Tidak ada tab lagi yang tersedia</string>
+    <string name="menu_browser_Tools">Alat</string>
+    <string name="menu_browser_add_bookmark">Tambahkan Bookmark</string>
+    <string name="menu_browser_bookmarks">Bookmark</string>
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_downloads">Unduhan</string>
+    <string name="menu_browser_font_size">Ukuran Font</string>
+    <string name="menu_browser_full_screen">Layar Penuh</string>
+    <string name="menu_browser_history">Riwayat</string>
+    <string name="menu_browser_incognito">Mode Pribadi</string>
+    <string name="menu_browser_night">Proteksi Mata</string>
+    <string name="menu_browser_no_image">Tanpa Gambar</string>
+    <string name="menu_browser_quit">Keluar</string>
+    <string name="menu_browser_search_page">Cari di Halaman</string>
+    <string name="menu_browser_settings">Pengaturan</string>
+    <string name="menu_browser_snapshots">Simpan Halaman</string>
+    <string name="menu_preferences">Pengaturan</string>
+    <string name="menu_tools_box">Kotak Alat</string>
+    <string name="messageContent">Ada versi baru untuk %s, Anda bisa memperbaruinya sekarang.</string>
+    <string name="modify">Ubah</string>
+    <string name="most_visited">Kunjungan terbanyak</string>
+    <string name="my_qrcode" translatable="false">Kode QR saya</string>
+    <string name="name">Label</string>
+    <string name="name_cannot_empty">Nama web tidak boleh kosong</string>
+    <string name="new_file">Buat file baru</string>
+    <string name="new_folder">Folder baru</string>
+    <string name="new_incognito_tab">Tab penyamaran baru</string>
+    <string name="new_tab">Tab baru</string>
+    <string name="no_downloads">Tidak ada unduhan</string>
+    <string name="no_prompt">Jangan tanya lagi</string>
+    <string name="no_subfolders">Tidak ada subfolder.</string>
+    <string name="notification_content_text">Klik untuk melihat</string>
+    <string name="notification_download_finish">Unduhan selesai</string>
+    <string name="null_rules_prompt">Anda dapat menambahkan aturan Anda sendiri. Aturan Anda harus mengikuti aturan tata bahasa Adblock Plus. Instruksi penggunaan.</string>
+    <string name="ok">OK</string>
+    <string name="open">Buka</string>
+    <string name="open_all_in_new_window">Buka semua di tab baru</string>
+    <string name="open_most_visited">buka yang paling sering dikunjungi>></string>
+    <string name="optional">(Opsional)</string>
+    <string name="other_bookmarks">Bookmark Lain</string>
+    <string name="page_info">Info halaman</string>
+    <string name="page_info_address">Alamat:</string>
+    <string name="page_info_view">Lihat info halaman</string>
+    <string name="password">Kata sandi</string>
+    <string name="permissions_prompt_deny">Tolak</string>
+    <string name="permissions_prompt_message">%1$s ingin menggunakan %2$s Anda.</string>
+    <string name="pic_ad_block_count">Gambar Terblokir</string>
+    <string name="picture_nocodeinfo" translatable="false">Tidak ada informasi kode QR yang dikenali dalam gambar</string>
+    <string name="picture_scannoinfo" translatable="false">Tidak ada informasi kode QR yang dipindai</string>
+    <string name="please_input_over_six">Harap masukkan 6 karakter atau lebih</string>
+    <string name="please_input_under_max">Harap masukkan tidak lebih dari %1$d karakter</string>
+    <string name="please_leave_your_email">Harap tinggalkan alamat email Anda</string>
+    <string name="popup_ad_block_count">Popup Terblokir</string>
+    <string name="pref_about">Tentang</string>
+    <string name="pref_ad_block">Blokir Iklan</string>
+    <string name="pref_agreement">Syarat Pengguna</string>
+    <string name="pref_always" translatable="false">SELALU</string>
+    <string name="pref_check_update">Periksa Pembaruan</string>
+    <string name="pref_confirm_on_exit">Konfirmasi saat keluar</string>
+    <string name="pref_contact_us">Hubungi kami:</string>
+    <string name="pref_content_search_engine">Atur mesin pencari</string>
+    <string name="pref_default_ad_time">Waktu Penandaan Iklan</string>
+    <string name="pref_default_browser">Atur browser default</string>
+    <string name="pref_default_text_encoding">Penyandian teks</string>
+    <string name="pref_deverloper_options">Opsi pengembang</string>
+    <string name="pref_download">Pengaturan unduhan</string>
+    <string name="pref_download_path_setting_screen_title">Jalur unduhan kustom</string>
+    <string name="pref_download_with_ADM">Unduh dengan ADM</string>
+    <string name="pref_extras_reset_default">Setel ulang ke default</string>
+    <string name="pref_extras_reset_default_dlg">Kembalikan pengaturan ke nilai default?</string>
+    <string name="pref_extras_website_settings">Pengaturan situs</string>
+    <string name="pref_feedback">Umpan balik</string>
+    <string name="pref_five_star">lima bintang</string>
+    <string name="pref_font_size">Ukuran teks</string>
+    <string name="pref_font_size_summary">Sesuaikan ukuran teks dan font</string>
+    <string name="pref_force_userscalable">Paksa perbesar tampilan</string>
+    <string name="pref_force_userscalable_summary">Override permintaan situs untuk mengontrol perilaku zoom</string>
+    <string name="pref_min_font_size">Ukuran font minimum</string>
+    <string name="pref_notification_tool_show">Tampilkan Bilah Pencarian di Panel Notifikasi</string>
+    <string name="pref_privacy_clear_data">Hapus data</string>
+    <string name="pref_privacy_enable_geolocation">Aktifkan lokasi</string>
+    <string name="pref_privacy_enable_geolocation_summary">Izinkan situs untuk meminta akses lokasi Anda</string>
+    <string name="pref_privacy_policy">Kebijakan Privasi</string>
+    <string name="pref_privacy_security_title">Privasi &amp; Keamanan</string>
+    <string name="pref_privacy_security_title_summary">Izinkan browser untuk mengingat kata sandi, formulir yang disimpan, dll.</string>
+    <string name="pref_search_engine_dialog_title">Pilih mesin pencari</string>
+    <string name="pref_security_accept_cookies">Terima cookie</string>
+    <string name="pref_security_accept_cookies_summary">Izinkan situs untuk menyimpan dan membaca data cookie</string>
+    <string name="pref_security_remember_passwords">Ingat kata sandi</string>
+    <string name="pref_security_remember_passwords_summary">Simpan nama pengguna dan kata sandi untuk situs web</string>
+    <string name="pref_security_save_form_data">Ingat data formulir</string>
+    <string name="pref_security_save_form_data_summary">Ingat data yang saya masukkan dalam formulir</string>
+    <string name="pref_security_show_security_warning">Tampilkan peringatan keamanan</string>
+    <string name="pref_security_show_security_warning_summary">Tampilkan peringatan jika ada masalah dengan keamanan situs</string>
+    <string name="pref_show_download_dialog">Tampilkan dialog unduhan</string>
+    <string name="pref_show_header_news">Tampilkan waktu/cuaca/berita dari halaman sebelumnya</string>
+    <string name="pref_show_red_badge_notity">Tampilkan pemberitahuan tanda merah</string>
+    <string name="pref_show_status_bar">Bar status ditampilkan</string>
+    <string name="pref_text_zoom">Skala teks</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Setuju</string>
+    <string name="product_no_agree">Tidak Setuju</string>
+    <string name="progress_dialog_setting_wallpaper">Mengatur wallpaper...</string>
+    <string name="prompt_already_saved_bookmark">Bookmark sudah ditambahkan</string>
+    <string name="prompt_already_saved_off">Halaman ini sudah disimpan</string>
+    <string name="prompt_saved_off_line">Disimpan ke halaman offline</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Letakkan kode QR di dalam kotak dan mulai pemindaian</string>
+    <string name="refresh">Segarkan</string>
+    <string name="remember_preference">Ingat preferensi</string>
+    <string name="remove">Hapus</string>
+    <string name="remove_bookmark">Hapus bookmark</string>
+    <string name="remove_items_all">Hapus item</string>
+    <string name="remove_snapshot">Hapus halaman yang disimpan</string>
+    <string name="removed_from_bookmarks">Dihapus dari bookmark.</string>
+    <string name="rename">Ubah nama file</string>
+    <string name="rename_failed">Gagal mengganti nama</string>
+    <string name="rename_success">Berhasil mengganti nama</string>
+    <string name="replace_file">Ganti file</string>
+    <string name="request_fail">Permintaan gagal, harap coba lagi nanti</string>
+    <string name="request_read_external_storage_error">Gagal mengakses memori ponsel</string>
+    <string name="resource_audio_capture">mikrofon</string>
+    <string name="resource_protected_media_id">ID media terlindungi</string>
+    <string name="resource_video_capture">kamera</string>
+    <string name="right_recommend_add_link_not_title">Harap masukkan judul</string>
+    <string name="right_recommend_add_link_not_url">Harap masukkan URL</string>
+    <string name="right_recommend_add_link_repeat">URL sudah ada</string>
+    <string name="right_recommend_add_link_saved">Disimpan</string>
+    <string name="right_recommend_add_link_url_format">URL ini salah</string>
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Hapus</string>
+    <string name="sdcard_free">%1$s Gratis/%2$s</string>
+    <string name="search_hint">Cari atau Ketik URL</string>
+    <string name="search_history">Riwayat pencarian</string>
+    <string name="search_settings_description">Bookmark dan riwayat web</string>
+    <string name="search_the_web">Cari di web</string>
+    <string name="security_warning">Peringatan keamanan</string>
+    <string name="select_dot">Pilih teks</string>
+    <string name="select_download_path">Pilih folder \"%s\" sebagai lokasi unduhan</string>
+    <string name="select_location">Pilih lokasi</string>
+    <string name="select_qr_code" translatable="false">Pilih gambar kode QR</string>
+    <string name="sendText">Pilih tindakan untuk teks</string>
+    <string name="set_as_homepage">Jadikan beranda</string>
+    <string name="set_default_browser">Setel browser default</string>
+    <string name="set_default_failure">Gagal menetapkan default. Coba lagi.</string>
+    <string name="set_default_success">Pengaturan berhasil!</string>
+    <string name="setting_bottom_day">Mode Terang</string>
+    <string name="setting_bottom_expanding">memperluas</string>
+    <string name="setting_bottom_night">Mode Gelap</string>
+    <string name="setting_update_speech_recognition">input suara dilarang, harap perbarui layanan suara Google</string>
+    <string name="share">Bagikan</string>
+    <string name="share_dialog_title" translatable="false">Bagikan halaman web</string>
+    <string name="shortcut_bookmark">Bookmark</string>
+    <string name="shortcut_bookmark_title">Pilih bookmark</string>
+    <string name="show_dev_on">Anda sekarang adalah pengembang!</string>
+    <string name="sign_in_to">Masuk ke %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Tanpa Judul</string>
+    <string name="ssl_certificate">Sertifikat keamanan</string>
+    <string name="ssl_certificate_is_valid">Sertifikat ini valid.</string>
+    <string name="ssl_continue">Lanjutkan</string>
+    <string name="ssl_date_invalid">Sertifikat ini memiliki tanggal yang tidak valid.</string>
+    <string name="ssl_expired">Sertifikat ini telah kedaluwarsa.</string>
+    <string name="ssl_invalid">Sertifikat ini tidak valid.</string>
+    <string name="ssl_mismatch">Nama situs tidak sesuai dengan nama di sertifikat.</string>
+    <string name="ssl_not_yet_valid">Sertifikat ini belum valid.</string>
+    <string name="ssl_unknown">Kesalahan sertifikat yang tidak diketahui.</string>
+    <string name="ssl_untrusted">Sertifikat ini bukan dari otoritas yang terpercaya.</string>
+    <string name="ssl_warnings_header">Ada masalah dengan sertifikat keamanan untuk situs ini.</string>
+    <string name="stopping">Berhenti...</string>
+    <string name="storage_space_lack">Ruang penyimpanan tidak cukup</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Silakan konfirmasi bahwa Anda telah memilih gambar yang benar</string>
+    <string name="swipe_up_tip">Geser ke atas untuk menghapus tab</string>
+    <string name="tab_snapshots">Halaman yang disimpan</string>
+    <string name="text_count_can_input">%1$d karakter dapat dimasukkan</string>
+    <string name="title_activity_add_link">Tambahkan tautan</string>
+    <string name="title_clear_all_history">Hapus semua riwayat?</string>
+    <string name="title_clear_bookmark">Hapus bookmark?</string>
+    <string name="title_clear_history">Hapus riwayat?</string>
+    <string name="title_clear_off_line">Hapus halaman yang disimpan?</string>
+    <string name="too_many_subwindows_dialog_message">Hanya satu pop-up yang bisa terbuka pada satu waktu.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up sudah terbuka</string>
+    <string name="too_many_windows_dialog_message">Tidak bisa membuka tab baru sampai Anda menutup satu tab.</string>
+    <string name="toolbox_menu_off">MATIKAN</string>
+    <string name="toolbox_menu_on">NYALAKAN</string>
+    <string name="total">Total</string>
+    <string name="ua_switcher_desktop">Minta situs desktop</string>
+    <string name="unknown">tidak diketahui</string>
+    <string name="unknown_error">Kesalahan tidak dikenal, coba lagi.</string>
+    <string name="unknown_file">Jenis file tidak dikenal</string>
+    <string name="update_at_once">Perbarui</string>
+    <string name="update_content1">1. Ilmuwan super pintar kami telah membuat halaman web dimuat dengan sangat cepat!</string>
+    <string name="update_content2">2. Desainer kami yang cantik membuat semuanya terlihat lebih cantik!</string>
+    <string name="update_content3">3. Dan pengembang luar biasa kami? Mereka begadang sambil menyeruput kopi, mengusir semua bug yang mengganggu!</string>
+    <string name="update_later">Perbarui nanti</string>
+    <string name="update_now">Unduh aplikasi di Google Play.</string>
+    <string name="update_remind">Pemberitahuan pembaruan</string>
+    <string name="update_tips1">Ya, Anda menebaknya! Pembaruan baru hadir!</string>
+    <string name="update_tips2">✨Semua untuk membuat pengalaman Anda lebih baik!\nLanjutkan, perbarui sekarang dan lihat sendiri! ✨</string>
+    <string name="update_title">Versi baru ditemukan</string>
+    <string name="upload_image">Unggah gambar</string>
+    <string name="uploads_disabled">Unggahan file dinonaktifkan.</string>
+    <string name="username">Nama</string>
+    <string name="versionUpdate">Perbarui</string>
+    <string name="video_mobile_pause">Batalkan</string>
+    <string name="video_mobile_permission">Anda sedang menggunakan jaringan seluler. Tetap ingin memutar?</string>
+    <string name="video_mobile_play">Putar</string>
+    <string name="view">Lihat</string>
+    <string name="view_certificate">Lihat sertifikat</string>
+    <string name="view_select_all">Pilih Semua</string>
+    <string name="visit_url_ok">Kunjungi</string>
+    <string name="visit_url_title">Kunjungi URL dari papan klip Anda?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Populer</string>
+    <string name="website_lifestyle">Gaya Hidup</string>
+    <string name="website_news">Berita•Olahraga</string>
+    <string name="website_recommend">Rekomendasi</string>
+    <string name="website_settings_list_header_text">Akses Lokasi</string>
+    <string name="website_shoping">Hiburan•Belanja</string>
+    <string name="website_social">Sosial</string>
+    <string name="website_tools">Alat</string>
+    <string name="website_videos">Video</string>
+    <string name="webstorage_clear_data_title">Hapus data yang disimpan</string>
+    <string name="webstorage_origin_summary_mb_stored">MB disimpan di ponsel Anda</string>
+    <string name="webstorage_outofspace_notification_text">Sentuh untuk membebaskan ruang.</string>
+    <string name="webstorage_outofspace_notification_title">Penyimpanan browser penuh</string>
+    <string name="write_advice_please">Harap deskripsikan opini atau saran Anda dalam kata-kata... (1000 kata)</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Maaf, kamera mengalami masalah. Anda mungkin perlu me-restart perangkat.</string>
+    <string name="zxing_msg_default_status">Letakkan barcode di dalam kotak jendela untuk memindai.</string>
+</resources>

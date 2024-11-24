@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/actionbar_left_icon"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/settings_actionbar_img_padding"
+            android:scaleType="center"
+            android:src="@drawable/browser_back"
+            android:paddingLeft="@dimen/settings_actionbar_img_padding" />
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/actionbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/settings_actionbar_title_leftpadding"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="11dp"
+            android:textStyle="bold"
+            android:textColor="@color/browser_title_color"
+            android:textSize="@dimen/settings_actionbar_title_size"
+            android:layout_marginLeft="@dimen/settings_actionbar_title_leftpadding"
+            android:layout_centerHorizontal="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/actionbar_second_right_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:paddingEnd="@dimen/settings_actionbar_img_padding"
+        android:scaleType="center"
+        android:src="@drawable/browser_feedback_add_images"
+        android:visibility="gone"
+        android:layout_toLeftOf="@+id/actionbar_right_icon"
+        android:layout_toStartOf="@+id/actionbar_right_icon"
+        android:paddingRight="@dimen/settings_actionbar_img_padding" />
+
+    <ImageView
+        android:id="@+id/actionbar_right_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:paddingEnd="@dimen/settings_actionbar_img_padding"
+        android:src="@drawable/ic_browser_complete"
+        android:visibility="gone"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/settings_actionbar_img_padding" />
+
+</RelativeLayout>

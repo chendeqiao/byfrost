@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/scroll_toolbar_horizontal_distance"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.intelligence.componentlib.photoview.HackyViewPager
+                android:id="@+id/recommend_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"/>
+
+            <com.intelligence.componentlib.sugar.MagicIndicator
+                android:id="@+id/recommend_indicator"
+                android:layout_width="@dimen/browser_indicator_width"
+                android:layout_height="@dimen/browser_indicator_height"
+                android:layout_below="@+id/recommend_viewpager"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/browser_indicator_margin_top"
+                android:background="@drawable/browser_indicator_bg_color" />
+
+            <com.intelligence.browser.ui.home.navigation.CardTipsView
+                android:id="@+id/browser_card_tips"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/browser_homepage_card_tips"
+                android:visibility="gone"
+                android:layout_below="@+id/recommend_indicator"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

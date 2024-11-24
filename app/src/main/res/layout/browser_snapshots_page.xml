@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/snap_item_backgroud"
+             android:paddingTop="@dimen/combo_paddingTop">
+
+    <ListView
+        android:id="@+id/snapshot_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52dp"
+        android:paddingTop="4dp"
+        android:overScrollMode="never"
+        android:layout_gravity="center_horizontal"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="6dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"/>
+
+    <com.intelligence.browser.view.SearchHistoryBar
+        android:id="@+id/snapshots_search_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+    </com.intelligence.browser.view.SearchHistoryBar>
+
+    <LinearLayout
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/browser_empty_bottom_height"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/browser_bookmarks_empty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="@string/empty_snapshots_folder"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/flow_layout_abord_color"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <com.intelligence.browser.view.moplbutton.MorphingButton
+        android:id="@+id/morph_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/mb_button_bottom"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/mb_white"
+        android:visibility="gone"/>
+</FrameLayout>

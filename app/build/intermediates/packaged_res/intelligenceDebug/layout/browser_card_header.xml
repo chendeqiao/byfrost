@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ahlib_common_header"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.intelligence.news.news.cards.NoNullSpaceTextView
+        android:id="@+id/browser_card_title"
+        android:layout_width="match_parent"
+        android:includeFontPadding="false"
+        style="@style/article_card_common_header_title"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+</LinearLayout>

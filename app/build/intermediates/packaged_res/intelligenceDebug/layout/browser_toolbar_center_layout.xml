@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.intelligence.browser.view.ToolbarCenterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:background="@drawable/browser_webview_search_url_shape">
+
+    <RelativeLayout
+        android:id="@+id/title_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/web_view_title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:textColor="@color/browser_title_color"
+            android:textSize="@dimen/nav_screen_title_text_size"
+            android:paddingRight="6dp"
+            android:paddingLeft="6dp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/webview_incognito_icon"
+        android:src="@drawable/browser_incognito_in_searchbar"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent" />
+</com.intelligence.browser.view.ToolbarCenterView>

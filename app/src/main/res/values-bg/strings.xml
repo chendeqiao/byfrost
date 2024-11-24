@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="uploads_disabled">Качването на файлове е забранено.</string>
+        <string name="new_tab">Нова таб</string>
+        <string name="new_incognito_tab">Нова инкогнито таб</string>
+        <string name="tab_snapshots">Запазени страници</string>
+        <string name="removed_from_bookmarks">Премахнато от отметки.</string>
+        <string name="sign_in_to">Влезте в %1$s \"%2$s\"</string>
+        <string name="username">Потребителско име</string>
+        <string name="password">Парола</string>
+        <string name="action">Влезте</string>
+        <string name="bookmarks_add_page">Запази в отметки</string>
+        <string name="bookmarks_search">Търсачка</string>
+        <string name="cancel">Отказ</string>
+        <string name="ok">ОК</string>
+        <string name="delete">Изтрий</string>
+        <string name="modify">Промени</string>
+        <string name="add_to_homepage">Добави на началната страница</string>
+        <string name="add_to_desktop">Добави на десктоп</string>
+        <string name="rename">Преименувай файлове</string>
+        <string name="copy_link">Копирай линк</string>
+        <string name="share">Сподели</string>
+        <string name="most_visited">Най-посещавани</string>
+
+        <string name="allow">Позволи</string>
+        <string name="go_back">Назад</string>
+        <string name="bookmarks">Отметки</string>
+        <string name="bookmark_list">Списък с отметки</string>
+        <string name="go">Отиди</string>
+        <string name="clear">Изчисти</string>
+        <string name="clear_default_browser">Изчисти настройката като основен браузър</string>
+        <string name="already_cleared">Изчистено</string>
+        <string name="open">Отвори</string>
+        <string name="history">История</string>
+        <string name="remember_preference">Запомни предпочитанията</string>
+        <string name="block">Блокирай</string>
+        <string name="clear_data_success">Изчистването е успешно</string>
+        <string name="exit">Изход</string>
+        <string name="clear_all">Изчисти всичко</string>
+
+        <string name="page_info">Информация за страницата</string>
+        <string name="page_info_view">Преглед на информацията за страницата</string>
+        <string name="page_info_address">Адрес:</string>
+
+        <string name="ssl_warnings_header">Има проблеми със защитния сертификат за този сайт.</string>
+        <string name="ssl_continue">Продължи</string>
+        <string name="security_warning">Предупреждение за сигурност</string>
+        <string name="view_certificate">Преглед на сертификат</string>
+
+        <string name="ssl_certificate">Защитен сертификат</string>
+        <string name="ssl_untrusted">Този сертификат не е от доверена институция.</string>
+        <string name="ssl_mismatch">Името на сайта не съвпада с името в сертификата.</string>
+        <string name="ssl_expired">Този сертификат е изтекъл.</string>
+        <string name="ssl_not_yet_valid">Този сертификат още не е валиден.</string>
+        <string name="ssl_date_invalid">Този сертификат има невалидна дата.</string>
+        <string name="ssl_invalid">Този сертификат е невалиден.</string>
+        <string name="ssl_certificate_is_valid">Този сертификат е валиден.</string>
+        <string name="ssl_unknown">Невалидна грешка в сертификата.</string>
+        <string name="stopping">Спиране…</string>
+
+        <string name="location">Адрес</string>
+        <string name="account">Акаунт</string>
+        <string name="containing_folder">Добави в</string>
+        <string name="new_folder">Нова папка</string>
+        <string name="edit_folder">Редактирай папка</string>
+        <string name="delete_folder">Изтрий папка</string>
+        <string name="no_subfolders">Няма подкатегории.</string>
+        <string name="add_to_homescreen_menu_option">Начална страница</string>
+        <string name="add_to_other_folder_menu_option">Друга папка</string>
+        <string name="name">Етикет</string>
+        <string name="bookmark_this_page">Запази тази страница в отметки</string>
+        <string name="remove">Премахни</string>
+        <string name="edit_bookmark">Редактирай отметка</string>
+        <string name="create_shortcut_bookmark">Добави пряк път на началната страница</string>
+        <string name="remove_bookmark">Изтрий отметка</string>
+        <string name="set_as_homepage">Задай като начална страница</string>
+        <string name="bookmark_saved">Запазено в отметки</string>
+        <string name="bookmark_not_saved">Не можа да се запази отметката</string>
+        <string name="bookmark_needs_title">„Отметката трябва да има име“</string>
+        <string name="bookmark_needs_url">„Отметката трябва да има URL адрес“</string>
+        <string name="bookmark_url_not_valid">Този URL адрес не е валиден</string>
+        <string name="bookmark_cannot_save_url">Този URL не може да бъде добавен в отметки</string>
+        <string name="delete_bookmark_warning">Изтриване на отметка „%s“?</string>
+        <string name="open_all_in_new_window">Отвори всички в нови табове</string>
+        <string name="select_dot">Избери текст</string>
+        <string name="shortcut_bookmark">Отметка</string>
+        <string name="shortcut_bookmark_title">Изберете отметка</string>
+        <string name="contextheader_folder_bookmarkcount">%d отметки</string>
+        <string name="contextheader_folder_empty">Празна папка</string>
+        <string name="contextmenu_openlink_newwindow">Отвори в нов таб</string>
+        <string name="contextmenu_openlink_newwindow_background">Отвори на заден план</string>
+        <string name="contextmenu_savelink">Запази линк</string>
+        <string name="contextmenu_sharelink">Сподели линк</string>
+        <string name="contextmenu_copy">Копирай</string>
+        <string name="contextmenu_copylink">Копирай URL адрес на линка</string>
+        <string name="contextmenu_download_image">Запази изображение</string>
+        <string name="contextmenu_view_image">Преглед на изображението</string>
+        <string name="contextmenu_set_wallpaper">Задай като тапет</string>
+        <string name="contextmenu_set_wallpaper_image">Тапет</string>
+
+        <string name="contextmenu_dial_dot">Набери…</string>
+        <string name="contextmenu_add_contact">Добави контакт</string>
+        <string name="contextmenu_send_mail">Изпрати имейл</string>
+        <string name="contextmenu_map">Карта</string>
+        <string name="choosertitle_sharevia">Сподели чрез</string>
+        <string name="menu_preferences">Настройки</string>
+
+        <string name="pref_ad_block">Блокиране на реклама</string>
+        <string name="pref_notification_tool_show">Покажи лентата за търсене в уведомленията</string>
+        <string name="pref_force_userscalable_summary">Игнорирай заявката на сайта за контрол на мащабирането</string>
+        <string name="pref_default_text_encoding">Кодировка на текст</string>
+        <string name="pref_default_ad_time">Време за маркиране на реклама</string>
+        <string-array name="pref_default_text_encoding_choices">
+            <item>Латин-1 (ISO-8859-1)</item>
+            <item>Юникод (UTF-8)</item>
+            <item>Китайски (GBK)</item>
+            <item>Китайски (Big5)</item>
+            <item>Японски (ISO-2022-JP)</item>
+            <item>Японски (SHIFT_JIS)</item>
+            <item>Японски (EUC-JP)</item>
+            <item>Корейски (EUC-KR)</item>
+        </string-array>
+        <string name="pref_extras_website_settings">Настройки на сайта</string>
+        <string name="pref_content_search_engine">Настройка на търсачката</string>
+        <string name="pref_search_engine_dialog_title">Изберете търсачка</string>
+        <string name="pref_download_path_setting_screen_title">Потребителски път за изтегляне</string>
+        <string name="pref_privacy_security_title">Поверителност и сигурност</string>
+        <string name="pref_privacy_security_title_summary">Позволете на браузъра да запомня пароли, запазени форми и др.</string>
+
+        <string name="pref_privacy_clear_data">Изчистване на данни</string>
+        <string-array name="pref_clear_data_choices">
+            <item>Кеш</item>
+            <item>Бисквитки</item>
+            <item>Форми</item>
+            <item>История</item>
+            <item>Пароли</item>
+            <item>Достъп до местоположение</item>
+        </string-array>
+        <string-array name="pref_clear_data_descriptions">
+            <item>Изчисти локално съхранени съдържания и бази данни</item>
+            <item>Изчисти всички бисквитки</item>
+            <item>Изчисти всички запазени данни от форми</item>
+            <item>Изчисти цялата история на сърфиране</item>
+            <item>Изчисти всички запазени акаунти и пароли</item>
+            <item>Отмени разрешението за местоположение за всички сайтове</item>
+        </string-array>
+        <string name="pref_feedback">Обратна връзка</string>
+        <string name="pref_default_browser">Задай като основен браузър</string>
+        <string name="pref_confirm_on_exit">Потвърди при излизане</string>
+        <string name="pref_show_status_bar">Показване на статус лента</string>
+        <string name="pref_about">За</string>
+        <string name="pref_extras_reset_default">Възстанови по подразбиране</string>
+
+        <string name="pref_extras_reset_default_dlg">Да се върнат ли настройките към стойностите по подразбиране?</string>
+
+        <string name="accessibility_button_uaswitch">Смени потребителски агент</string>
+        <string-array name="pref_user_agent_choices">
+            <item>По подразбиране</item>
+            <item>iPhone</item>
+            <item>iPad</item>
+            <item>Компютър</item>
+        </string-array>
+        <string name="pref_font_size">Размер на шрифта</string>
+        <string name="pref_font_size_summary">Регулирайте размера на текста и шрифта</string>
+        <string name="pref_force_userscalable">Задължително включване на мащабиране</string>
+
+        <string name="pref_security_accept_cookies">Приеми бисквитки</string>
+        <string name="pref_security_accept_cookies_summary">Позволи на сайтовете да запазват и четат данни от бисквитки</string>
+        <string name="pref_privacy_enable_geolocation">Включи местоположение</string>
+        <string name="pref_privacy_enable_geolocation_summary">Позволи на сайтовете да поискат достъп до вашето местоположение</string>
+        <string name="pref_security_save_form_data">Запомни данни от форми</string>
+        <string name="pref_security_save_form_data_summary">Запомни въведените данни в формата</string>
+        <string name="pref_security_remember_passwords">Запомни пароли</string>
+        <string name="pref_security_remember_passwords_summary">Запази потребителски имена и пароли за сайтове</string>
+        <string name="pref_security_show_security_warning">Показвай предупреждения за сигурността</string>
+        <string name="pref_security_show_security_warning_summary">Показвай предупреждения, ако има проблем със сигурността на сайта</string>
+        <string name="pref_download_with_ADM">Изтегляне с ADM</string>
+        <string name="pref_show_download_dialog">Показвай диалог за изтегляне</string>
+
+        <string name="pref_download">Настройки за изтегляне</string>
+        <string-array name="pref_text_size_choices">
+            <item>Много малък</item>
+            <item>Малък</item>
+            <item>Нормален</item>
+            <item>Голям</item>
+            <item>Огромен</item>
+        </string-array>
+        <string name="pref_text_zoom">Мащабиране на текст</string>
+        <string name="pref_min_font_size">Минимален размер на шрифта</string>
+
+        <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+        <string name="pref_always" translatable="false">ALWAYS</string>
+
+        <string name="browserFrameNetworkErrorLabel">Проблем с връзката</string>
+        <string name="browserFrameFileErrorLabel">Проблем с файла</string>
+        <string name="browserFrameFormResubmitMessage">Страницата, която се опитвате да разгледате, съдържа данни, които вече са били изпратени („POSTDATA“). Ако изпратите отново данните, всяко действие, извършено от формата на страницата (като търсене или онлайн покупка), ще бъде повторено.</string>
+        <string name="empty_history">Няма история на сърфиране</string>
+        <string name="add_new_bookmark">Добави в отметки</string>
+        <string name="find_on_page">Търси на страницата</string>
+        <string name="search_hint">Търсене или въведете URL</string>
+        <string name="search_settings_description">Отметки и уеб история</string>
+
+        <string name="too_many_windows_dialog_message">Не може да се отвори нов таб, докато не затворите един.</string>
+        <string name="too_many_subwindows_dialog_title">Поп-ъп прозорец вече е отворен</string>
+        <string name="too_many_subwindows_dialog_message">Може да се отвори само един поп-ъп прозорец едновременно.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Няма SD карта</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Изисква се SD карта за изтегляне на %s.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD картата не е налична</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD картата е заета. За да разрешите изтегляния, докоснете Изключете USB съхранение в известията.</string>
+
+    <string name="download_pending">Започване на изтегляне...</string>
+    <string name="search_the_web">Търсене в интернет</string>
+
+    <string name="webstorage_outofspace_notification_title">Пълно съхранение на браузъра</string>
+    <string name="webstorage_outofspace_notification_text">Докоснете, за да освободите място.</string>
+    <string name="webstorage_clear_data_title">Изчистване на съхранени данни</string>
+    <string name="webstorage_origin_summary_mb_stored">MB съхранени на вашия телефон</string>
+    <string name="loading_video">Зареждане на видео...</string>
+    <string name="permissions_prompt_message">%1$s иска да използва вашия %2$s.</string>
+    <string name="permissions_prompt_deny">Отказ</string>
+    <string name="resource_protected_media_id">защитено медийно ID</string>
+    <string name="resource_video_capture">камера</string>
+    <string name="resource_audio_capture">микрофон</string>
+    <string name="geolocation_permissions_prompt_message">%s иска да узнае вашето местоположение</string>
+    <string name="geolocation_permissions_prompt_share">Споделете местоположение</string>
+    <string name="geolocation_permissions_prompt_dont_share">Отказ</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Този сайт може да достъпи вашето местоположение. Променете това в Настройки &gt; Разширени &gt; Настройки на сайта.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Този сайт не може да достъпи вашето местоположение. Променете това в Настройки &gt; Разширени &gt; Настройки на сайта.</string>
+    <string name="geolocation_settings_page_title">Отмяна на разрешението за достъп до местоположение</string>
+    <string name="geolocation_settings_page_summary_allowed">Този сайт може в момента да достъпи вашето местоположение</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Този сайт не може в момента да достъпи вашето местоположение</string>
+    <string name="geolocation_settings_page_dialog_message">Да изчистим достъпа до местоположение за този сайт?</string>
+    <string name="website_settings_list_header_text">Достъп до местоположение</string>
+
+    <string name="progress_dialog_setting_wallpaper">Настройване на тапет...</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">Показване на JavaScript конзола</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript конзола</string>
+    <string name="error_console_eval_text_hint" translatable="false">Оценка на JavaScript</string>
+    <string name="error_console_eval_button_text" translatable="false">Оценка</string>
+    <string name="empty_bookmarks_folder">Вашите отметки са празни</string>
+    <string name="other_bookmarks">Други отметки</string>
+
+    <string name="max_tabs_warning">Няма налични табове</string>
+    <string name="local_bookmarks">Локални</string>
+    <string name="empty_snapshots_folder">Няма записани страници</string>
+    <string name="remove_snapshot">Изтрий записана страница</string>
+    <string name="accessibility_button_forward">Отидете напред</string>
+    <string name="accessibility_button_refresh">Презареждане на страницата</string>
+    <string name="accessibility_button_stop">Спри зареждането на страницата</string>
+    <string name="accessibility_button_addbookmark">Добави отметка</string>
+    <string name="accessibility_button_search">Търсене</string>
+    <string name="accessibility_button_voice">Започни гласово търсене</string>
+    <string name="accessibility_button_closetab">Затвори таб</string>
+    <string name="accessibility_button_newtab">Отвори нов таб</string>
+    <string name="accessibility_button_more">Още опции</string>
+
+    <string name="accessibility_state_incognito">Инкогнито страница</string>
+    <string name="accessibility_state_frozen">Записана страница</string>
+
+    <string name="accessibility_transition_navscreen">Управление на табове</string>
+    <string name="accessibility_button_bookmarks_folder_up">Предишна папка</string>
+    <string name="sendText">Изберете действие за текст</string>
+
+    <string name="cancelDel">Отмени изтриване?</string>
+
+    <string name="write_advice_please">Моля, опишете вашето мнение или предложение с думи... (1000 думи)</string>
+    <string name="feed_back_sucess">Получихме вашите коментари и предложения, благодаря.</string>
+    <string name="check_network">Неуспешно изпращане поради проблем с мрежата, моля проверете.</string>
+    <string name="commit_fail">Неуспешно изпращане, моля опитайте отново по-късно</string>
+    <string name="please_input_over_six">Моля, въведете поне 6 символа</string>
+    <string name="please_input_under_max">Моля, въведете не повече от %1$d символа</string>
+    <string name="email">Имейл:</string>
+    <string name="email_is_error">Моля, въведете валиден телефонен номер</string>
+    <string name="add_pic">Добавете изображение:</string>
+    <string name="optional">(Не е задължително)</string>
+    <string name="please_leave_your_email">Моля, оставете вашия имейл адрес</string>
+    <string name="feedback_other">Друго:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Не е задължително)</string>
+    <string name="feedback_submit">Изпрати</string>
+
+    <string name="versionUpdate">Актуализация</string>
+    <string name="messageContent">Има нова версия за %s, можете да я актуализирате сега.</string>
+    <string name="update_at_once">Актуализирайте</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">Провери актуализация</string>
+    <string name="pref_contact_us">Свържете се с нас:</string>
+
+    <string name="pref_agreement">Потребителски условия</string>
+    <string name="pref_privacy_policy">Политика за конфиденциалност</string>
+
+    <string name="check_for_update">проверка за актуализация...</string>
+    <string name="request_fail">Заявката неуспешна, моля опитайте по-късно</string>
+    <string name="update_remind">Напомняне за актуализация</string>
+    <string name="is_latest">Вече е най-новата версия!</string>
+    <string name="no_prompt">Не питай отново</string>
+
+    <string name="download">Изтегляне</string>
+    <string name="downloading">Изтегляне в ход</string>
+    <string name="downloaded">Изтеглено</string>
+    <string name="download_removed">Премахнато</string>
+    <string name="download_pause">Изтеглянето е спряно</string>
+    <string name="download_failed">Изтеглянето неуспешно</string>
+    <string name="unknown_file">Непознат тип файл</string>
+    <string name="no_downloads">Няма изтегляния</string>
+    <string name="downloadmanager_disabled">Мениджърът за изтегляне е изключен. Моля, активирайте го.</string>
+    <string name="cannot_open_the_file">Няма процедура за отваряне на този тип файл</string>
+    <string name="download_allow_mobile">Позволява ли се изтегляне през мобилната мрежа?</string>
+    <string name="allow_download">Позволи изтегляне</string>
+    <string name="allow_download_no">Свържете се с WiFi</string>
+    <string name="download_list">Списък с изтегляния</string>
+    <string name="storage_space_lack">Няма достатъчно свободно място</string>
+    <string name="new_file">Създайте нов файл</string>
+    <string name="replace_file">Заменете файл</string>
+
+    <string name="default_location">По подразбиране местоположение: %1$s</string>
+    <string name="select_location">Изберете местоположение</string>
+    <string name="sdcard_free">%1$s Свободно / %2$s</string>
+    <string name="menu_browser_add_bookmark">Добави към отметки</string>
+
+    <string name="menu_browser_night">Защита на очите</string>
+    <string name="menu_browser_incognito">Инкогнито</string>
+    <string name="menu_browser_close_incognito">Нормален</string>
+    <string name="menu_browser_history">История</string>
+    <string name="menu_browser_bookmarks">Бележки</string>
+    <string name="menu_browser_downloads">Изтегляния</string>
+    <string name="menu_browser_no_image">Без изображения</string>
+    <string name="menu_browser_full_screen">Цял екран</string>
+    <string name="menu_browser_font_size">Размер на шрифта</string>
+    <string name="menu_browser_search_page">Търсене на страницата</string>
+    <string name="menu_browser_snapshots">Запис на страница</string>
+
+    <string name="menu_browser_settings">Настройки</string>
+    <string name="menu_browser_Tools">Инструменти</string>
+    <string name="menu_browser_quit">Изход</string>
+
+    <string name="title_clear_off_line">Изчистване на записаните страници?</string>
+    <string name="title_clear_history">Изчистване на историята?</string>
+    <string name="title_clear_all_history">Изчистване на цялата история?</string>
+    <string name="title_clear_bookmark">Изчистване на бележката?</string>
+    <string name="enter_incognito_mode">Преминете в инкогнито режим</string>
+    <string name="enter_normal_mode">Преминете в нормален режим</string>
+    <string name="swipe_up_tip">Можете да плъзнете нагоре, за да изтриете таба</string>
+    <string name="empty_info_most_visited">Няма записи</string>
+
+    <string name="prompt_saved_off_line">Записано в офлайн страниците</string>
+    <string name="prompt_already_saved_off">Вие вече сте записали тази страница</string>
+    <string name="prompt_already_saved_bookmark">Вие вече сте добавили тази бележка</string>
+    <string name="incognito_home">Вие сте в Инкогнито режим</string>
+    <string name="incognito_home_content">Сега сте в инкогнито режим.</string>
+    <string name="edit">Редактиране</string>
+
+    <string name="exit_dialog_title">Да напуснете браузъра?</string>
+    <string-array name="exit_dialog_choices">
+        <item>Изчисти история и кеш</item>
+        <item>Не ме питай отново</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">Намерени са реклами, да активираме блокиране на реклами?</string>
+    <string name="visit_url_title">Да посетите този URL от клипборда?</string>
+    <string name="visit_url_ok">Посети</string>
+    <string name="incognito_home_tip">Можете да излезете от инкогнито режим и да се върнете към нормалния режим.</string>
+    <string name="snap_shot_no_title">Без заглавие</string>
+    <string name="view_select_all">Избери всичко</string>
+    <string name="set_default_browser">Настройте като подразбиращ се браузър</string>
+    <string name="enter_settings_page">Влезте в Настройки след като изчистването е завършено.</string>
+    <string name="clear_default_setting_please">Друг браузър е настроен като подразбиращ се, моля изчистете настройката за подразбиращ се браузър.</string>
+    <string name="unknown_error">Неизвестна грешка, опитайте отново.</string>
+    <string name="set_default_success">Настройката е успешна!</string>
+    <string name="set_default_failure">Неуспешно задаване на подразбиращ се браузър. Моля, опитайте отново.</string>
+
+    <string name="default_bookmark">Подразбираща се бележка</string>
+
+    <string name="click_again_quit">Натиснете назад, за да излезете</string>
+    <string name="clear_all_already">Всички данни са изчистени!</string>
+    <string name="select_download_path">Изберете папката "%s" като местоположение за изтегляне</string>
+
+    <string name="contact_us_on_facebook">Свържете се с нас във Facebook</string>
+    <string name="text_count_can_input">%1$d знака могат да бъдат въведени</string>
+    <string name="input_over_flow">Неуспешно изпращане, защото %1$d знака надвишават лимита</string>
+    <string name="upload_image">Качване на изображения</string>
+    <string name="request_read_external_storage_error">Неуспешно искане за достъп до паметта на телефона</string>
+    <string name="get_photo_failure">Неуспешно получаване на снимки</string>
+
+    <string name="title_activity_add_link">Добави връзка</string>
+    <string name="btn_recommend_add">Добави</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">Моля, въведете заглавие</string>
+    <string name="right_recommend_add_link_not_url">Моля, въведете URL</string>
+    <string name="right_recommend_add_link_url_format">Този URL е грешен</string>
+    <string name="right_recommend_add_link_saved">Запазено</string>
+    <string name="right_recommend_add_link_repeat">URL вече съществува</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">Десктоп</string>
+    <string name="right_recommend_tools_remove">Премахни</string>
+
+    <string name="file_name">Име на файл</string>
+    <string name="copylink_success">Връзката е копирана</string>
+    <string name="add_to_homepage_success">Добавено към началната страница</string>
+    <string name="add_to_desktop_success">Добавено към десктопа</string>
+    <string name="clear_history_all">Изчисти цялата история</string>
+    <string name="remove_items_all">Премахни всички елементи</string>
+    <string name="rename_failed">Неуспешно преименуване</string>
+    <string name="rename_success">Успешно преименуване</string>
+    <string name="filename_empty">Името на файла не може да бъде празно</string>
+    <string name="file_exist">Файлът съществува</string>
+    <string name="file_not_exist">Файлът не съществува</string>
+
+    <string name="menu_tools_box">Инструменти</string>
+    <string name="toolbox_menu_on">ВКЛ.</string>
+    <string name="toolbox_menu_off">ИЗКЛ.</string>
+    <string name="home_page">Начална страница</string>
+    <string name="desktop">Десктоп</string>
+    <string name="name_cannot_empty">Името на уебсайта не може да бъде празно</string>
+
+    <string name="setting_update_speech_recognition">Гласовото въвеждане е забранено, моля актуализирайте Google Voice услугата</string>
+    <string name="done">ГОТОВО</string>
+    <string name="edited">РЕДАКТИРАНО</string>
+    <string name="enter_website_name">Въведете името на уебсайта</string>
+
+    <string name="unknown">неизвестно</string>
+    <string name="available">Наличен</string>
+    <string name="total">Общо</string>
+    <string name="notification_content_text">Кликнете, за да видите</string>
+    <string name="notification_download_finish">Изтеглянето е завършено</string>
+    <string name="view">Преглед</string>
+
+    <string name="five_stars_titile">Харесва ли ви %s?</string>
+    <string name="five_stars_content">Вашето оценяване с 5 звезди е много важно за нас.</string>
+    <string name="five_stars_later">По-късно</string>
+    <string name="five_stars">5 звезди</string>
+    <string name="refresh">Освежи</string>
+    <string name="ua_switcher_desktop">Заяви десктоп версия</string>
+
+    <string name="video_mobile_permission">Използвате мобилна мрежа. Искате ли все пак да възпроизведете?</string>
+    <string name="video_mobile_play">Възпроизвеждай</string>
+    <string name="video_mobile_pause">Отмени</string>
+    <string name="close_all_incognito_notification">Затвори всички инкогнито табове</string>
+    <string name="add_up_to_15">Добави до 20</string>
+    <string name="pref_deverloper_options">Опции за разработчици</string>
+    <string name="show_dev_on">Вие сте сега разработчик!</string>
+
+    <string name="pic_ad_block_count">Блокирани изображения</string>
+    <string name="js_ad_block_count">Блокирани JavaScript файлове</string>
+    <string name="popup_ad_block_count">Блокирани попъпи</string>
+    <string name="custom_rules">Персонализирани филтри за AdBlock</string>
+    <string name="custom_rules_title">Филтри на AdBlock</string>
+    <string name="confirm_deletion">Да изтрием това?</string>
+    <string name="add">Добави</string>
+    <string name="confirm_deletion_all">Да изтрием всичко?</string>
+
+    <string name="js_disable_hosts">Настройка на времевия лимит за рекламен маркер</string>
+    <string name="js_disable_hosts_title">Определени домейни</string>
+    <string name="null_rules_prompt">Можете да добавите собствени правила. Те трябва да спазват граматичните правила на Adblock Plus. Инструкции за употреба.</string>
+
+    <string name="instructions_label">Инструкции за употреба</string>
+    <string name="adblock_rules_error_prompt">Грешка в синтаксиса, моля редактирайте отново!</string>
+    <string name="js_disable_host_error_prompt">Грешка в домейна, моля редактирайте отново!</string>
+
+    <string name="leadpage_home">Начало</string>
+    <string name="leadpage_back">Назад</string>
+
+    <string name="leadpage_forward">Напред</string>
+    <string name="abnormal_recover_ok">Възстанови</string>
+    <string name="abnormal_recover_message">Да възстановим ли последната уеб страница?</string>
+    <string name="abnormal_recover_recovered">Страниците от последната сесия бяха възстановени.</string>
+
+    <string name="open_most_visited">отвори най-посещаваните>></string>
+    <string name="contextmenu_share_app">Сподели приложението</string>
+    <string name="contextmenu_share_website">Сподели уебсайт</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">Инструменти</string>
+
+    <string name="pref_show_red_badge_notity">Показване на червена значка за уведомления</string>
+    <string name="pref_show_header_news">Показване на време/погода/новини от предишната страница</string>
+
+    <string name="added_new_bookmark">Добавен нов маркер</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">пет звезди</string>
+    <string name="deletion_all">Изтриване на всичко</string>
+    <string name="adblockplus_url">https://adblockplus.org/bg/filters</string>
+    <string name="mark_image_ad">Маркирай реклама</string>
+    <string name="mark_image_ad_fail">Неуспешно маркиране</string>
+    <string name="product_agree">Съгласен съм</string>
+    <string name="product_no_agree">Не съм съгласен</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">разширяване</string>
+    <string name="setting_bottom_night">Тъмен режим</string>
+    <string name="setting_bottom_day">Светъл режим</string>
+
+    <string name="update_now">Отидете в Google Play, за да изтеглите приложението.</string>
+    <string name="update_title">Нова версия намерена</string>
+    <string name="update_later">По-късно</string>
+    <string name="five_stars_comment">Дайте предложения.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">История на търсене</string>
+    <string name="browser_admin_panel">Потребителски център</string>
+    <string name="browser_navigation">Навигация</string>
+
+    <string name="browser_slogo_fast">По-бързо</string>
+    <string name="browser_slogo_safe">По-безопасно</string>
+    <string name="browser_slogo_intelligence">По-умно</string>
+
+    <string name="browser_rights" translatable="false">Авторски права © 2024 Byfrost browser. \nВсички права запазени.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">Поставете QR кода в рамката и започнете сканиране</string>
+    <string name="picture_nocodeinfo" translatable="false">Не се разпознава информация от QR код в изображението</string>
+    <string name="picture_scannoinfo" translatable="false">Не бе сканирана информация от QR код</string>
+    <string name="share_dialog_title" translatable="false">Сподели уебстраница</string>
+    <string name="my_qrcode" translatable="false">Моят QR код</string>
+    <string name="select_qr_code" translatable="false">Изберете изображение на QR код</string>
+    <string name="sure_select_true_picture" translatable="false">Моля, уверете се, че сте избрали правилното изображение</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">Разширете препоръчаните уебсайтове</string>
+    <string name="browser_slogan" translatable="false">Търсете свободно всичко, което ви трябва</string>
+    <string name="browser_net_error_refresh" translatable="false">Щракнете върху празната област, за да обновите страницата</string>
+
+    <string name="browser_hot_word_title" translatable="false">Горещи търсения</string>
+    <string name="browser_permission_camera">Отказано е разрешение за камерата, моля, активирайте го ръчно</string>
+    <string name="browser_permission_notification">Отказано е разрешение за уведомления, моля, активирайте го ръчно</string>
+    <string name="browser_permission_strone">Изтеглянето на файлове изисква разрешение за съхранение. Моля, отворете ръчно разрешението за съхранение в настройките</string>
+
+    <string name="browser_permission_qr">Тази функция изисква разрешение за достъп до паметта. Моля, активирайте разрешението ръчно в настройките</string>
+    <string name="browser_permission_setwall">Настройването на тапета на телефона изисква разрешение за съхранение. Моля, активирайте го в настройките</string>
+    <string name="browser_product_start">Започнете</string>
+    <string name="browser_product_agree_tips">Трябва да се съгласите с политиката.</string>
+    <string name="browser_privacy_tips">Вашите лични данни ще бъдат обработени в съответствие с нашата 《Политика за конфиденциалност》.</string>
+
+    <string name="byfrost_slogan">Byfrost - Видете по-голям свят!</string>
+    <string name="byfrost_suggestion">Получихме вашето предложение, благодарим ви.</string>
+    <string name="byfrost_suggestion_time">Времето за обратна връзка не може да бъде по-малко от 1 минута от последното.</string>
+    <string name="update_tips2">✨Всичко е направено, за да подобрим вашето изживяване!\nПродължете с актуализацията и проверете сами! ✨</string>
+    <string name="update_tips1">Да, познахте! Новото обновление е тук!</string>
+    <string name="update_content1">1. Нашите супер-умни учени направиха зареждането на уеб страниците бързо като светкавица!</string>
+    <string name="update_content2">2. Нашият симпатичен дизайнер направи всичко още по-красиво!</string>
+    <string name="update_content3">3. А нашите невероятни разработчици? Те седяха до късно с кафе, прогонвайки досадните бъгове!</string>
+
+    <string name="lable_news">Новини</string>
+    <string name="lable_video">Видеа</string>
+    <string name="lable_lifestyle">Начин на живот</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Инструменти</string>
+
+    <string name="lable_weather">Погода</string>
+    <string name="lable_calendar">Календар</string>
+    <string name="lable_maps">Карти</string>
+    <string name="lable_translate">Превод</string>
+
+    <string name="website_recommend">Препоръчано</string>
+    <string name="website_social">Социално</string>
+    <string name="website_lifestyle">Начин на живот</string>
+    <string name="website_news">Новини•Спорт</string>
+    <string name="website_AI">AI</string>
+    <string name="website_videos">Видеа</string>
+    <string name="website_shoping">Развлечение•Пазаруване</string>
+    <string name="website_tools">Инструменти</string>
+    <string name="website_hot">Горещо</string>
+
+    <string name="zxing_app_name">Баркод Скенер</string>
+    <string name="zxing_button_ok">ОК</string>
+    <string name="zxing_msg_camera_framework_bug">Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.</string>
+    <string name="zxing_msg_default_status">Сложете баркода вътре в правоъгълника за да го сканирате.</string>
+</resources>

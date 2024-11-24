@@ -1,0 +1,581 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.bytedance.sdk.openadsdk" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_CLIPBOARD_SERVICE" />
+    <uses-permission android:name="android.permission.READ_CLIPBOARD" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.intelligence.browser.BrowserApplication"
+        android:backupAgent="com.intelligence.browser.manager.BrowserBackupAgent"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/browser_app_icon"
+        android:label="@string/application_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/browser_network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        android:screenOrientation="locked"
+        android:supportsRtl="true"
+        android:taskAffinity="${PACKAGE_NAME}"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute"
+        tools:overrideLibrary="com.bytedance.sdk.openadsdk"
+        tools:replace="android:icon, android:label">
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7100088665720611~5196594817" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${PACKAGE_NAME}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <!--广告配置-->
+        <!--        <provider-->
+        <!--            android:name="com.bytedance.sdk.openadsdk.TTFileProvider"-->
+        <!--            android:authorities="${applicationId}.TTFileProvider"-->
+        <!--            android:exported="false"-->
+        <!--            android:grantUriPermissions="true">-->
+        <!--            <meta-data-->
+        <!--                android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--                android:resource="@xml/file_paths" />-->
+        <!--        </provider>-->
+        <!--        <provider-->
+        <!--            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"-->
+        <!--            android:authorities="${applicationId}.TTMultiProvider"-->
+        <!--            android:exported="false" />-->
+
+        <provider
+            android:name="com.intelligence.browser.database.provider.BrowserProvider2"
+            android:authorities="${PACKAGE_NAME};${BROWSER_NAME}"
+            android:exported="true"
+            android:multiprocess="false"
+            android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
+            android:writePermission="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS">
+            <path-permission
+                android:path="/bookmarks/search_suggest_query"
+                android:readPermission="android.permission.GLOBAL_SEARCH" />
+        </provider>
+
+        <activity
+            android:name="com.intelligence.browser.ui.activity.SplashActivity"
+            android:alwaysRetainTaskState="true"
+            android:exported="true"
+            android:label="@string/application_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseBrowserTheme">
+            <intent-filter>
+                <action android:name="android.speech.action.VOICE_SEARCH_RESULTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- For these schemes were not particular MIME type has been
+                 supplied, we are a good candidate. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+            </intent-filter>
+            <!--  For these schemes where any of these particular MIME types
+                  have been supplied, we are a good candidate. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="inline" />
+                <data android:scheme="content" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/xhtml+xml" />
+                <data android:mimeType="application/vnd.wap.xhtml+xml" />
+            </intent-filter>
+
+            <intent-filter>
+                <!-- 文件类型的ACTION -->
+                <action android:name="android.intent.action.VIEW" />
+                <!-- CATEGORY，指定为能够启动的Activity -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- CATEGORY，支持外部应用发送的文件 -->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 指定支持的视频文件类型 -->
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 支持文件类型为图片 -->
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <!-- 接收外部打开的文件 -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 支持文件类型为图片 -->
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <!-- For viewing saved web archives. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/x-webarchive-xml" />
+            </intent-filter>
+            <!-- We are also the main entry point of the browser. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.APP_BROWSER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.ui.MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout"
+            android:exported="true"
+            android:label="@string/application_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseBrowserTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            tools:ignore="AppLinkUrlError">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/home"
+                    android:scheme="yunxin" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/browser_searchable" />
+
+        </activity>
+
+        <activity
+            android:name=".ui.media.PhotoViewPagerActivity"
+            android:exported="true"
+            android:icon="@drawable/browser_app_icon"
+            android:label="phtoto"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".settings.multilanguage.LanguageSettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseBrowserTheme"></activity>
+
+        <activity
+            android:name=".ui.media.VideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:screenOrientation="sensor"
+            android:theme="@style/BaseBrowserTheme">
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.historybookmark.BrowserShortcutActivity"
+            android:exported="true"
+            android:icon="@drawable/browser_app_icon"
+            android:label="@string/shortcut_bookmark"
+            android:screenOrientation="locked"
+            android:theme="@style/ShortcutTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.settings.BrowserSettingActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:label="@string/menu_preferences"
+            android:launchMode="singleTask"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseBrowserTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.historybookmark.BrowserBookmarkSearch"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/bookmarks_search"
+            android:screenOrientation="locked"
+            android:stateNotNeeded="true"
+            android:theme="@style/BaseBrowserTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/browser_bookmarks_searchable" />
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.historybookmark.BrowserAddBookmarkPage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/bookmarks_add_page"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseBrowserTheme"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/bookmark" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.downloads.BrowserDownloadRenamePage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/bookmarks_add_page"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseBrowserTheme"
+            android:windowSoftInputMode="stateVisible|adjustPan"></activity>
+
+        <activity
+            android:name="com.intelligence.browser.ui.activity.BrowserComboActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseBrowserTheme"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/history"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.ui.activity.BrowserDownloadActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseBrowserTheme"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/download"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.intelligence.browser.ui.activity.BrowserProductActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseBrowserTheme">
+
+        </activity>
+        <activity
+            android:name="com.intelligence.browser.ui.activity.BrowserSearchActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseBrowserTheme"
+            android:windowSoftInputMode="adjustPan|stateVisible"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/search"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.intelligence.browser.ui.widget.BookmarkThumbnailWidgetProvider"
+            android:exported="true"
+            android:label="@string/bookmarks">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.android.browser.BOOKMARK_APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/browser_bookmarkthumbnailwidget_info" />
+        </receiver>
+        <service
+            android:name="com.intelligence.browser.ui.widget.BookmarkThumbnailWidgetService"
+            android:exported="true"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <receiver
+            android:name="com.intelligence.browser.ui.widget.BookmarkWidgetProxy"
+            android:exported="true" />
+        <activity
+            android:name="com.intelligence.browser.ui.widget.BrowserBookmarkWidgetConfigure"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@android:style/Theme.Holo.DialogWhenLarge">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <!-- Makes .BrowserActivity the search target for any activity in Browser -->
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".BrowserActivity" />
+
+        <receiver
+            android:name="com.intelligence.browser.downloads.DownloadOpenReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- For custom home pages (like most visited) -->
+        <provider
+            android:name="com.intelligence.browser.ui.home.HomeProvider"
+            android:authorities="${PACKAGE_NAME}.home"
+            android:exported="false"
+            android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+
+        <receiver
+            android:name="com.intelligence.browser.base.BrowserReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="${PACKAGE_NAME}.action.checkconfiguration" />
+                <action android:name="${PACKAGE_NAME}.action.checkaction" />
+                <action android:name="${PACKAGE_NAME}.action.hoturl" />
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="${PACKAGE_NAME}.action.download.view" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.intelligence.browser.database.provider.SnapshotProvider"
+            android:authorities="${PACKAGE_NAME}.snapshots"
+            android:exported="true" />
+        <service
+            android:name="com.intelligence.browser.ui.widget.IncognitoNotificationService"
+            android:exported="true" />
+
+        <activity
+            android:name="com.intelligence.qr.BrowserQRCodeActivity"
+            android:exported="true"
+            android:label="@string/qr_code"
+            android:launchMode="singleTask"
+            android:screenOrientation="locked"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/qrcode"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.home.navigation.EditNavigationActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseBrowserTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/editnavigation"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.intelligence.news.news.NavigationActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="locked"
+            android:theme="@style/TransparentActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/news"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.intelligence.news.hotword.HotSearchActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="locked"
+            android:theme="@style/BaseFullBrowserTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="browser"
+                    android:path="/hotsearch"
+                    android:scheme="yunxin" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".markLock.MarkLockSetActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".markLock.MarkLockPassActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".markLock.CheckSecurityBirthActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.intelligence.qr.BrowserCaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+    </application>
+
+</manifest>
+

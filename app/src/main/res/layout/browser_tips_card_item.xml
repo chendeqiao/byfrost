@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/browser_card_tips_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/browser_homepage_card_tips"
+    android:layout_marginStart="20dp">
+
+    <FrameLayout
+        android:id="@+id/browser_native_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/browser_card_tips_bg"
+        android:padding="1dp"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_notify_search_home_card">
+        <TextView
+            android:id="@+id/browser_tips_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="end"
+            android:text="@string/pref_notification_tool_show"
+            android:textColor="@color/browser_title_color"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/browser_tips_title_open"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/new_client_dialog_button_shape"
+            android:text="@string/open"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </FrameLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/browser_default_browser_layout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/browser_card_tips_bg"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/browser_default_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/set_default_browser"
+            android:textColor="@color/browser_title_color"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/browser_default_card_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:layout_gravity="end"
+            android:layout_below="@+id/browser_default_card_title"
+            android:lines="2"
+            android:ellipsize="middle"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/browser_default_setting_tips"
+            android:textColor="@color/browser_tips_color"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/browser_tips_close"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="2dp"
+        android:src="@drawable/browser_home_close"></ImageView>
+
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/browser_ad_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_notify_search_home_card"
+        android:visibility="gone">
+
+        <!-- 广告标题 -->
+        <TextView
+            android:id="@+id/ad_headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <!-- 广告图标 -->
+        <ImageView
+            android:id="@+id/ad_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <!-- 广告按钮 -->
+        <Button
+            android:id="@+id/ad_call_to_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Install" />
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</FrameLayout>

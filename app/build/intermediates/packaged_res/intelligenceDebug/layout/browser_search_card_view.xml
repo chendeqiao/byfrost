@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/search_engine_height"
+    android:layout_alignParentBottom="true">
+
+    <RelativeLayout
+        android:id="@+id/select_search_engine_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/select_search_engine_icon"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/browser_select_searchengine"
+            android:paddingStart="9dp"
+            android:paddingLeft="9dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="6dp"
+            android:src="@drawable/browser_app_icon" />
+
+        <ImageView
+            android:id="@+id/select_engine_lable"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginBottom="18dp"
+            android:layout_toEndOf="@+id/select_search_engine_icon"
+            android:layout_toRightOf="@+id/select_search_engine_icon"
+            android:background="@drawable/browser_selete_engine_straige_icon" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/search_engine_height"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/select_search_engine_layout"
+        android:layout_toRightOf="@id/select_search_engine_layout"
+        android:gravity="center_vertical"
+        android:ellipsize="middle"
+        android:layout_marginEnd="100dp"
+        android:hint="@string/browser_search_hint"
+        android:singleLine="true"
+        android:textColorHint="@color/boostengine_state_scale_btn_default_txt_disable"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/incognito_icon"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/voice_icon"
+        android:layout_toLeftOf="@+id/voice_icon"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:src="@drawable/browser_incognito_in_searchbar"/>
+
+    <ImageView
+        android:id="@+id/searchbar_qr"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/browser_select_searchengine"
+        android:gravity="center"
+        android:paddingStart="13dp"
+        android:paddingLeft="13dp"
+        android:paddingEnd="13dp"
+        android:paddingRight="13dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/browser_qr" />
+
+
+    <ImageView
+        android:id="@+id/voice_icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/searchbar_qr"
+        android:layout_toLeftOf="@id/searchbar_qr"
+        android:background="@drawable/browser_select_searchengine"
+        android:paddingStart="19dp"
+        android:paddingLeft="19dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/browser_voice"/>
+</RelativeLayout>

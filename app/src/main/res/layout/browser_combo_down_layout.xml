@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+    <ImageView
+        android:id="@+id/combo_back"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:paddingStart="20dp"
+        android:paddingEnd="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/browser_back" />
+
+        <ImageView
+            android:id="@+id/combo_bookmark_selectall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:paddingTop="14dp"
+            android:paddingBottom="8dp"
+            android:layout_marginStart="6dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:visibility="gone"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/browser_select_all_icon"/>
+
+        <ImageView
+            android:id="@+id/combo_history_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/browser_input_search_delete"/>
+
+
+    <com.intelligence.componentlib.viewpagetabbar.PagerSlidingTabStrip
+        android:id="@+id/tab_page_indicator_combo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/browser_navigationbar_height"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        app:pstsIndicatorColor="@color/browser_title_color"
+        app:pstsIndicatorOffset="20dp"
+        app:pstsShouldExpand="true"
+        app:pstsTabPaddingLeftRight="8dp"
+        app:pstsTextAllCaps="false"
+        app:pstsSelectTextColor="@color/browser_title_color"
+        app:pstsUnderlineHeight="0dp" />
+
+    </RelativeLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_combo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbar"
+        android:layout_marginBottom="30dp"
+        android:background="#fff"
+        android:overScrollMode="never" />
+    <TextView
+        android:id="@+id/storage_space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/browser_info_empty_bottom"
+        android:background="@color/settings_list_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/settings_list_item_text_marginstart"
+        android:paddingStart="@dimen/settings_list_item_text_marginstart"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/browser_title_color"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

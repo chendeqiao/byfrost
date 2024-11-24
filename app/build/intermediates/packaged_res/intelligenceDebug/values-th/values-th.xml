@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>ล้างประวัติและแคช</item>
+        <item>ไม่ถามอีก</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>แคช</item>
+        <item>คุกกี้</item>
+        <item>ฟอร์ม</item>
+        <item>ประวัติการเข้าชม</item>
+        <item>รหัสผ่าน</item>
+        <item>การเข้าถึงที่ตั้ง</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>ลบเนื้อหาที่เก็บไว้ในแคชและฐานข้อมูล</item>
+        <item>ลบคุกกี้ทั้งหมด</item>
+        <item>ลบข้อมูลฟอร์มที่บันทึกไว้ทั้งหมด</item>
+        <item>ลบประวัติการเข้าชมทั้งหมด</item>
+        <item>ลบบัญชีผู้ใช้และรหัสผ่านที่บันทึกไว้ทั้งหมด</item>
+        <item>ยกเลิกสิทธิ์การเข้าถึงตำแหน่งสำหรับเว็บไซต์ทั้งหมด</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ละติน-1 (ISO-8859-1)</item>
+        <item>ยูนิโคด (UTF-8)</item>
+        <item>จีน (GBK)</item>
+        <item>จีน (Big5)</item>
+        <item>ญี่ปุ่น (ISO-2022-JP)</item>
+        <item>ญี่ปุ่น (SHIFT_JIS)</item>
+        <item>ญี่ปุ่น (EUC-JP)</item>
+        <item>เกาหลี (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>เล็กมาก</item>
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่มาก</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>ค่าเริ่มต้น</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>คอมพิวเตอร์</item>
+    </string-array>
+    <string name="abnormal_recover_message">กู้คืนหน้าเว็บล่าสุดไหม?</string>
+    <string name="abnormal_recover_ok">กู้คืน</string>
+    <string name="abnormal_recover_recovered">หน้าเว็บจากเซสชั่นล่าสุดได้รับการกู้คืนแล้ว</string>
+    <string name="accessibility_button_addbookmark">บันทึกหน้า</string>
+    <string name="accessibility_button_bookmarks_folder_up">โฟลเดอร์ก่อนหน้า</string>
+    <string name="accessibility_button_closetab">ปิดแท็บ</string>
+    <string name="accessibility_button_forward">ไปข้างหน้า</string>
+    <string name="accessibility_button_more">ตัวเลือกเพิ่มเติม</string>
+    <string name="accessibility_button_newtab">เปิดแท็บใหม่</string>
+    <string name="accessibility_button_refresh">รีเฟรชหน้า</string>
+    <string name="accessibility_button_search">ค้นหา</string>
+    <string name="accessibility_button_stop">หยุดโหลดหน้า</string>
+    <string name="accessibility_button_uaswitch">สลับตัวแทนผู้ใช้</string>
+    <string name="accessibility_button_voice">เริ่มการค้นหาด้วยเสียง</string>
+    <string name="accessibility_state_frozen">หน้าที่บันทึกไว้</string>
+    <string name="accessibility_state_incognito">โหมดไม่ระบุตัวตน</string>
+    <string name="accessibility_transition_navscreen">การจัดการแท็บ</string>
+    <string name="account">บัญชี</string>
+    <string name="action">ลงชื่อเข้าใช้</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">พบโฆษณา, ต้องการเปิดใช้งานบล็อกโฆษณาไหม?</string>
+    <string name="adblock_rules_error_prompt">เกิดข้อผิดพลาดในไวยากรณ์ โปรดแก้ไขอีกครั้ง!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">เพิ่ม</string>
+    <string name="add_new_bookmark">เพิ่มบุ๊กมาร์ค</string>
+    <string name="add_pic">เพิ่มรูปภาพ:</string>
+    <string name="add_to_desktop">เดสก์ท็อป</string>
+    <string name="add_to_desktop_success">เพิ่มไปยังเดสก์ท็อปแล้ว</string>
+    <string name="add_to_homepage">เพิ่มไปที่หน้าแรก</string>
+    <string name="add_to_homepage_success">เพิ่มไปยังหน้าหลักแล้ว</string>
+    <string name="add_to_homescreen_menu_option">หน้าจอหลัก</string>
+    <string name="add_to_other_folder_menu_option">โฟลเดอร์อื่น</string>
+    <string name="add_up_to_15">เพิ่มได้สูงสุด 20</string>
+    <string name="added_new_bookmark">เพิ่มบุ๊กมาร์ค</string>
+    <string name="allow">อนุญาต</string>
+    <string name="allow_download">อนุญาตดาวน์โหลด</string>
+    <string name="allow_download_no">เชื่อมต่อ WiFi</string>
+    <string name="already_cleared">ล้างแล้ว</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">พร้อมใช้งาน</string>
+    <string name="block">บล็อก</string>
+    <string name="bookmark_cannot_save_url">ไม่สามารถเพิ่ม URL นี้เป็นที่คั่นหน้าได้</string>
+    <string name="bookmark_list">รายการบุ๊คมาร์ก</string>
+    <string name="bookmark_needs_title">"ที่คั่นหน้าต้องมีชื่อ"</string>
+    <string name="bookmark_needs_url">"ที่คั่นหน้าต้องมีที่อยู่"</string>
+    <string name="bookmark_not_saved">ไม่สามารถบันทึกที่คั่นหน้าได้</string>
+    <string name="bookmark_saved">บันทึกลงที่คั่นหน้า</string>
+    <string name="bookmark_this_page">เพิ่มที่คั่นหน้านี้</string>
+    <string name="bookmark_url_not_valid">URL นี้ไม่ถูกต้อง</string>
+    <string name="bookmarks">บุ๊คมาร์ก</string>
+    <string name="bookmarks_add_page">บันทึกบุ๊คมาร์ก</string>
+    <string name="bookmarks_search">เบราว์เซอร์</string>
+    <string name="browserFrameFileErrorLabel">ปัญหาของไฟล์</string>
+    <string name="browserFrameFormResubmitMessage">หน้าที่คุณพยายามเปิดมีข้อมูลที่ได้ส่งไปแล้ว ("POSTDATA") หากคุณส่งข้อมูลอีกครั้ง การดำเนินการที่ฟอร์มบนหน้านั้นทำ (เช่น การค้นหาหรือการซื้อสินค้าออนไลน์) จะทำซ้ำ</string>
+    <string name="browserFrameNetworkErrorLabel">ปัญหาการเชื่อมต่อ</string>
+    <string name="browser_admin_panel">ศูนย์ผู้ใช้</string>
+    <string name="browser_hot_word_title" translatable="false">รายการค้นหายอดนิยม</string>
+    <string name="browser_navigation">การนำทาง</string>
+    <string name="browser_net_error_refresh" translatable="false">คลิกในพื้นที่ว่างเพื่อรีเฟรชหน้า</string>
+    <string name="browser_open_all_most_visited" translatable="false">ขยายเว็บไซต์ที่แนะนำ</string>
+    <string name="browser_permission_camera">การเข้าถึงกล้องถูกปฏิเสธ โปรดเปิดใช้งานกล้องในการตั้งค่า</string>
+    <string name="browser_permission_notification">การเข้าถึงการแจ้งเตือนถูกปฏิเสธ โปรดเปิดใช้งานในการตั้งค่า</string>
+    <string name="browser_permission_qr">ฟังก์ชันนี้ต้องการสิทธิ์การเข้าถึงหน่วยความจำ โปรดเปิดใช้งานในการตั้งค่า</string>
+    <string name="browser_permission_setwall">การตั้งค่าภาพพื้นหลังต้องการสิทธิ์การเข้าถึงหน่วยความจำ โปรดเปิดใช้งานในการตั้งค่า</string>
+    <string name="browser_permission_strone">การดาวน์โหลดไฟล์ต้องการสิทธิ์การเข้าถึงที่เก็บ โปรดเปิดใช้งานในการตั้งค่า</string>
+    <string name="browser_privacy_tips">ข้อมูลส่วนตัวของคุณจะได้รับการจัดการตาม《นโยบายความเป็นส่วนตัว》ของเรา</string>
+    <string name="browser_product_agree_tips">คุณต้องยอมรับนโยบาย</string>
+    <string name="browser_product_start">เริ่มต้น</string>
+    <string name="browser_rights" translatable="false">ลิขสิทธิ์ © 2024 Byfrost browser \nสงวนสิทธิ์ทั้งหมด</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">ค้นหาทุกสิ่งที่คุณต้องการได้อย่างอิสระ</string>
+    <string name="browser_slogo_fast">เร็วขึ้น</string>
+    <string name="browser_slogo_intelligence">อัจฉริยะขึ้น</string>
+    <string name="browser_slogo_safe">ปลอดภัยขึ้น</string>
+    <string msgid="6709237687234102240" name="browser_tools">เครื่องมือ</string>
+    <string name="btn_recommend_add">เพิ่ม</string>
+    <string name="byfrost_slogan">Byfrost-เห็นโลกที่ใหญ่ขึ้น!</string>
+    <string name="byfrost_suggestion">เราได้รับข้อเสนอแนะของคุณแล้ว ขอบคุณ</string>
+    <string name="byfrost_suggestion_time">เวลาของข้อเสนอแนะต้องไม่น้อยกว่า 1 นาทีจากครั้งก่อน</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="cancelDel">ยกเลิกการลบ?</string>
+    <string name="cannot_open_the_file">ไม่มีโปรแกรมที่สามารถเปิดไฟล์ประเภทนี้ได้</string>
+    <string name="check_for_update">กำลังตรวจสอบการอัปเดต...</string>
+    <string name="check_network">การส่งล้มเหลวเนื่องจากปัญหาการเชื่อมต่อ โปรดตรวจสอบ</string>
+    <string name="choosertitle_sharevia">แชร์ผ่าน</string>
+    <string name="clear">ล้าง</string>
+    <string name="clear_all">ล้างทั้งหมด</string>
+    <string name="clear_all_already">ลบข้อมูลทั้งหมดแล้ว!</string>
+    <string name="clear_data_success">ล้างข้อมูลสำเร็จ</string>
+    <string name="clear_default_browser">ล้างการตั้งค่าเป็นเบราว์เซอร์เริ่มต้น</string>
+    <string name="clear_default_setting_please">เบราว์เซอร์อื่นถูกตั้งเป็นเบราว์เซอร์เริ่มต้น, กรุณาล้างการตั้งค่าเบราว์เซอร์เริ่มต้น</string>
+    <string name="clear_history_all">ล้างประวัติทั้งหมด</string>
+    <string name="click_again_quit">แตะอีกครั้งเพื่อออก</string>
+    <string name="close_all_incognito_notification">ปิดแท็บไม่ระบุตัวตนทั้งหมด</string>
+    <string name="commit_fail">การส่งล้มเหลว โปรดลองใหม่ในภายหลัง</string>
+    <string name="confirm_deletion">ลบไหม?</string>
+    <string name="confirm_deletion_all">ลบทั้งหมดไหม?</string>
+    <string name="contact_us_on_facebook">ติดต่อเราผ่าน Facebook</string>
+    <string name="containing_folder">เพิ่มไปยัง</string>
+    <string name="contextheader_folder_bookmarkcount">%d ที่คั่นหน้า</string>
+    <string name="contextheader_folder_empty">โฟลเดอร์ว่างเปล่า</string>
+    <string name="contextmenu_add_contact">เพิ่มผู้ติดต่อ</string>
+    <string name="contextmenu_copy">คัดลอก</string>
+    <string name="contextmenu_copylink">คัดลอก URL ลิงค์</string>
+    <string name="contextmenu_dial_dot">โทร\u2026</string>
+    <string name="contextmenu_download_image">บันทึกรูปภาพ</string>
+    <string name="contextmenu_map">แผนที่</string>
+    <string name="contextmenu_openlink_newwindow">เปิดในแท็บใหม่</string>
+    <string name="contextmenu_openlink_newwindow_background">เปิดในเบื้องหลัง</string>
+    <string name="contextmenu_savelink">บันทึกลิงค์</string>
+    <string name="contextmenu_send_mail">ส่งอีเมล</string>
+    <string name="contextmenu_set_wallpaper">ตั้งเป็นภาพพื้นหลัง</string>
+    <string name="contextmenu_set_wallpaper_image">ภาพพื้นหลัง</string>
+    <string name="contextmenu_share_app">แชร์แอป</string>
+    <string name="contextmenu_share_website">แชร์เว็บไซต์</string>
+    <string name="contextmenu_sharelink">แชร์ลิงค์</string>
+    <string name="contextmenu_view_image">ดูรูปภาพ</string>
+    <string name="copy_link">คัดลอกลิงก์</string>
+    <string name="copylink_success">ลิงค์ถูกคัดลอกแล้ว</string>
+    <string name="create_shortcut_bookmark">เพิ่มทางลัดไปที่หน้าจอหลัก</string>
+    <string name="custom_rules">ฟิลเตอร์ AdBlock แบบกำหนดเอง</string>
+    <string name="custom_rules_title">ฟิลเตอร์ AdBlock</string>
+    <string name="default_bookmark">บุ๊กมาร์กเริ่มต้น</string>
+    <string name="default_location">ตำแหน่งเริ่มต้น: %1$s</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_bookmark_warning">ลบที่คั่นหน้า "%s"?</string>
+    <string name="delete_folder">ลบโฟลเดอร์</string>
+    <string name="deletion_all">ลบทั้งหมด</string>
+    <string name="desktop">เดสก์ท็อป</string>
+    <string name="done">เสร็จสิ้น</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="download_allow_mobile">อนุญาตให้ดาวน์โหลดไฟล์ผ่านเครือข่ายมือถือหรือไม่?</string>
+    <string name="download_failed">ดาวน์โหลดล้มเหลว</string>
+    <string name="download_list">รายการดาวน์โหลด</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">ต้องการการ์ด SD เพื่อดาวน์โหลด %s</string>
+    <string name="download_no_sdcard_dlg_title" product="default">ไม่มีการ์ด SD</string>
+    <string name="download_pause">หยุดดาวน์โหลด</string>
+    <string name="download_pending">กำลังเริ่มดาวน์โหลด\u2026</string>
+    <string name="download_removed">ลบแล้ว</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">การ์ด SD กำลังยุ่งอยู่ เพื่ออนุญาตให้ดาวน์โหลด ให้แตะที่ "ปิดการใช้งาน USB Storage" ในการแจ้งเตือน</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">การ์ด SD ไม่พร้อมใช้งาน</string>
+    <string name="downloaded">ดาวน์โหลดแล้ว</string>
+    <string name="downloading">กำลังดาวน์โหลด</string>
+    <string name="downloadmanager_disabled">ตัวจัดการดาวน์โหลดถูกปิดใช้งาน กรุณาเปิดใช้งาน</string>
+    <string name="edit">แก้ไข</string>
+    <string name="edit_bookmark">แก้ไขที่คั่นหน้า</string>
+    <string name="edit_folder">แก้ไขโฟลเดอร์</string>
+    <string name="edited">แก้ไขแล้ว</string>
+    <string name="email">อีเมล:</string>
+    <string name="email_is_error">กรุณากรอกหมายเลขโทรศัพท์ที่ถูกต้อง</string>
+    <string name="empty_bookmarks_folder">บุ๊คมาร์กของคุณว่างเปล่า</string>
+    <string name="empty_history">ไม่มีประวัติการท่องเว็บ</string>
+    <string name="empty_info_most_visited">ไม่มีบันทึก</string>
+    <string name="empty_snapshots_folder">ไม่มีหน้าที่บันทึก</string>
+    <string name="enter_incognito_mode">สลับไปโหมดไม่ระบุตัวตน</string>
+    <string name="enter_normal_mode">สลับไปโหมดปกติ</string>
+    <string name="enter_settings_page">กรุณาเข้าสู่การตั้งค่าหลังจากล้างข้อมูลเสร็จ</string>
+    <string name="enter_website_name">กรอกชื่อเว็บไซต์</string>
+    <string name="error_console_eval_button_text" translatable="false">ประเมิน</string>
+    <string name="error_console_eval_text_hint" translatable="false">ประเมิน JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">คอนโซล JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">แสดงคอนโซล JavaScript</string>
+    <string name="exit">ออก</string>
+    <string name="exit_dialog_title">ออกจากเบราว์เซอร์?</string>
+    <string name="feed_back_sucess">เราได้รับความคิดเห็นและข้อเสนอแนะของคุณ ขอบคุณ</string>
+    <string name="feedback_other">อื่นๆ:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (ไม่บังคับ)</string>
+    <string name="feedback_submit">ส่ง</string>
+    <string name="file_exist">ไฟล์มีอยู่แล้ว</string>
+    <string name="file_name">ชื่อไฟล์</string>
+    <string name="file_not_exist">ไฟล์ไม่มีอยู่</string>
+    <string name="filename_empty">ชื่อไฟล์ไม่สามารถเว้นว่างได้</string>
+    <string name="find_on_page">ค้นหาบนหน้า</string>
+    <string name="five_stars">5 ดาว</string>
+    <string name="five_stars_comment">ให้คำแนะนำ</string>
+    <string name="five_stars_content">คะแนน 5 ดาวของคุณสำคัญมากสำหรับเรา</string>
+    <string name="five_stars_later">ทีหลัง</string>
+    <string name="five_stars_titile">สนุกกับ %s หรือเปล่า?</string>
+    <string name="geolocation_permissions_prompt_dont_share">ปฏิเสธ</string>
+    <string name="geolocation_permissions_prompt_message">%s ต้องการทราบตำแหน่งของคุณ</string>
+    <string name="geolocation_permissions_prompt_share">แชร์ตำแหน่ง</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">เว็บไซต์นี้สามารถเข้าถึงตำแหน่งของคุณได้ เปลี่ยนได้ที่ การตั้งค่า > ขั้นสูง > การตั้งค่าเว็บไซต์</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">เว็บไซต์นี้ไม่สามารถเข้าถึงตำแหน่งของคุณได้ เปลี่ยนได้ที่ การตั้งค่า > ขั้นสูง > การตั้งค่าเว็บไซต์</string>
+    <string name="geolocation_settings_page_dialog_message">ลบการเข้าถึงตำแหน่งสำหรับเว็บไซต์นี้หรือไม่?</string>
+    <string name="geolocation_settings_page_summary_allowed">เว็บไซต์นี้สามารถเข้าถึงตำแหน่งของคุณได้ในขณะนี้</string>
+    <string name="geolocation_settings_page_summary_not_allowed">เว็บไซต์นี้ไม่สามารถเข้าถึงตำแหน่งของคุณได้ในขณะนี้</string>
+    <string name="geolocation_settings_page_title">ยกเลิกสิทธิ์การเข้าถึงตำแหน่งของคุณ</string>
+    <string name="get_photo_failure">ไม่สามารถดึงรูปภาพได้</string>
+    <string name="go">ไป</string>
+    <string name="go_back">ย้อนกลับ</string>
+    <string name="history">ประวัติ</string>
+    <string name="home_page">หน้าหลัก</string>
+    <string name="incognito_home">คุณอยู่ในโหมดไม่ระบุตัวตน</string>
+    <string name="incognito_home_content">ตอนนี้คุณอยู่ในโหมดไม่ระบุตัวตน</string>
+    <string name="incognito_home_tip">คุณสามารถออกจากโหมดไม่ระบุตัวตนและกลับไปโหมดปกติได้</string>
+    <string name="input_over_flow">การส่งล้มเหลวเนื่องจากมีตัวอักษรเกิน %1$d ตัว</string>
+    <string name="instructions_label">คำแนะนำการใช้งาน</string>
+    <string name="is_latest">เป็นเวอร์ชันล่าสุดแล้ว!</string>
+    <string name="js_ad_block_count">บล็อกไฟล์ JavaScript</string>
+    <string name="js_disable_host_error_prompt">ข้อผิดพลาดในโดเมน โปรดแก้ไขอีกครั้ง!</string>
+    <string name="js_disable_hosts">ตั้งเวลาสำหรับเครื่องหมายโฆษณา</string>
+    <string name="js_disable_hosts_title">โดเมนบางแห่ง</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">เครื่องมือ</string>
+    <string name="lable_calendar">ปฏิทิน</string>
+    <string name="lable_lifestyle">ชีวิต</string>
+    <string name="lable_maps">แผนที่</string>
+    <string name="lable_news">ข่าว</string>
+    <string name="lable_translate">แปลภาษา</string>
+    <string name="lable_video">วิดีโอ</string>
+    <string name="lable_weather">สภาพอากาศ</string>
+    <string name="leadpage_back">ย้อนกลับ</string>
+    <string name="leadpage_forward">ถัดไป</string>
+    <string name="leadpage_home">หน้าแรก</string>
+    <string name="loading_video">กำลังโหลดวิดีโอ\u2026</string>
+    <string name="local_bookmarks">บุ๊คมาร์กในเครื่อง</string>
+    <string name="location">ที่อยู่</string>
+    <string name="mark_image_ad">ทำเครื่องหมายโฆษณา</string>
+    <string name="mark_image_ad_fail">ทำเครื่องหมายล้มเหลว</string>
+    <string name="max_tabs_warning">ไม่สามารถเปิดแท็บเพิ่มได้</string>
+    <string name="menu_browser_Tools">เครื่องมือ</string>
+    <string name="menu_browser_add_bookmark">เพิ่มบุ๊คมาร์ค</string>
+    <string name="menu_browser_bookmarks">บุ๊คมาร์ค</string>
+    <string name="menu_browser_close_incognito">ปกติ</string>
+    <string name="menu_browser_downloads">ดาวน์โหลด</string>
+    <string name="menu_browser_font_size">ขนาดฟอนต์</string>
+    <string name="menu_browser_full_screen">เต็มจอ</string>
+    <string name="menu_browser_history">ประวัติ</string>
+    <string name="menu_browser_incognito">โหมดไม่ระบุตัวตน</string>
+    <string name="menu_browser_night">ปกป้องสายตา</string>
+    <string name="menu_browser_no_image">ไม่มีภาพ</string>
+    <string name="menu_browser_quit">ออกจากแอป</string>
+    <string name="menu_browser_search_page">ค้นหาในหน้า</string>
+    <string name="menu_browser_settings">การตั้งค่า</string>
+    <string name="menu_browser_snapshots">บันทึกหน้า</string>
+    <string name="menu_preferences">การตั้งค่า</string>
+    <string name="menu_tools_box">กล่องเครื่องมือ</string>
+    <string name="messageContent">มีเวอร์ชันใหม่สำหรับ %s, คุณสามารถอัปเดตได้แล้ว</string>
+    <string name="modify">แก้ไข</string>
+    <string name="most_visited">ที่เยี่ยมชมมากที่สุด</string>
+    <string name="my_qrcode" translatable="false">QR ของฉัน</string>
+    <string name="name">ป้ายชื่อ</string>
+    <string name="name_cannot_empty">ชื่อเว็บไซต์ไม่สามารถเว้นว่างได้</string>
+    <string name="new_file">สร้างไฟล์ใหม่</string>
+    <string name="new_folder">โฟลเดอร์ใหม่</string>
+    <string name="new_incognito_tab">แท็บไม่ระบุตัวตนใหม่</string>
+    <string name="new_tab">แท็บใหม่</string>
+    <string name="no_downloads">ไม่มีการดาวน์โหลด</string>
+    <string name="no_prompt">ไม่ถามอีก</string>
+    <string name="no_subfolders">ไม่มีโฟลเดอร์ย่อย</string>
+    <string name="notification_content_text">คลิกเพื่อดู</string>
+    <string name="notification_download_finish">ดาวน์โหลดเสร็จสมบูรณ์</string>
+    <string name="null_rules_prompt">คุณสามารถเพิ่มกฎของคุณเองได้ กฎของคุณต้องเป็นไปตามไวยากรณ์ของ Adblock Plus</string>
+    <string name="ok">ตกลง</string>
+    <string name="open">เปิด</string>
+    <string name="open_all_in_new_window">เปิดทั้งหมดในแท็บใหม่</string>
+    <string name="open_most_visited">เปิดเว็บไซต์ที่เยี่ยมชมมากที่สุด >></string>
+    <string name="optional">(ไม่บังคับ)</string>
+    <string name="other_bookmarks">บุ๊คมาร์กอื่นๆ</string>
+    <string name="page_info">ข้อมูลหน้า</string>
+    <string name="page_info_address">ที่อยู่:</string>
+    <string name="page_info_view">ดูข้อมูลหน้า</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="permissions_prompt_deny">ปฏิเสธ</string>
+    <string name="permissions_prompt_message">%1$s ต้องการใช้ %2$s ของคุณ</string>
+    <string name="pic_ad_block_count">บล็อกภาพ</string>
+    <string name="picture_nocodeinfo" translatable="false">ไม่พบข้อมูลรหัส QR ในภาพ</string>
+    <string name="picture_scannoinfo" translatable="false">ไม่พบข้อมูลรหัส QR ที่สแกน</string>
+    <string name="please_input_over_six">กรุณากรอกมากกว่า 6 ตัวอักษร</string>
+    <string name="please_input_under_max">กรุณากรอกไม่เกิน %1$d ตัวอักษร</string>
+    <string name="please_leave_your_email">กรุณาทิ้งอีเมลของคุณ</string>
+    <string name="popup_ad_block_count">บล็อกป็อปอัพ</string>
+    <string name="pref_about">เกี่ยวกับ</string>
+    <string name="pref_ad_block">บล็อกโฆษณา</string>
+    <string name="pref_agreement">ข้อกำหนดการใช้งาน</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_check_update">ตรวจสอบการอัปเดต</string>
+    <string name="pref_confirm_on_exit">ยืนยันเมื่อออกจากแอป</string>
+    <string name="pref_contact_us">ติดต่อเรา:</string>
+    <string name="pref_content_search_engine">ตั้งค่าปลายทางค้นหา</string>
+    <string name="pref_default_ad_time">เวลาการทำเครื่องหมายโฆษณา</string>
+    <string name="pref_default_browser">ตั้งเป็นเบราว์เซอร์เริ่มต้น</string>
+    <string name="pref_default_text_encoding">การเข้ารหัสข้อความ</string>
+    <string name="pref_deverloper_options">ตัวเลือกนักพัฒนา</string>
+    <string name="pref_download">การตั้งค่าการดาวน์โหลด</string>
+    <string name="pref_download_path_setting_screen_title">เส้นทางการดาวน์โหลดที่กำหนดเอง</string>
+    <string name="pref_download_with_ADM">ดาวน์โหลดด้วย ADM</string>
+    <string name="pref_extras_reset_default">รีเซ็ตเป็นค่าเริ่มต้น</string>
+    <string name="pref_extras_reset_default_dlg">คุณต้องการย้อนกลับการตั้งค่าทั้งหมดเป็นค่าเริ่มต้นหรือไม่?</string>
+    <string name="pref_extras_website_settings">การตั้งค่าเว็บไซต์</string>
+    <string name="pref_feedback">ข้อเสนอแนะ</string>
+    <string name="pref_five_star">ห้าดาว</string>
+    <string name="pref_font_size">ขนาดตัวอักษร</string>
+    <string name="pref_font_size_summary">ปรับขนาดของข้อความและฟอนต์</string>
+    <string name="pref_force_userscalable">บังคับเปิดการซูม</string>
+    <string name="pref_force_userscalable_summary">บังคับการควบคุมการซูมของเว็บไซต์</string>
+    <string name="pref_min_font_size">ขนาดฟอนต์ขั้นต่ำ</string>
+    <string name="pref_notification_tool_show">แสดงแถบค้นหาที่แผงการแจ้งเตือน</string>
+    <string name="pref_privacy_clear_data">ลบข้อมูล</string>
+    <string name="pref_privacy_enable_geolocation">เปิดใช้งานที่ตั้ง</string>
+    <string name="pref_privacy_enable_geolocation_summary">อนุญาตให้เว็บไซต์ขอเข้าถึงตำแหน่งของคุณ</string>
+    <string name="pref_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="pref_privacy_security_title">ความเป็นส่วนตัว &amp; ความปลอดภัย</string>
+    <string name="pref_privacy_security_title_summary">อนุญาตให้เบราว์เซอร์จดจำรหัสผ่าน, ฟอร์มที่บันทึก, ฯลฯ</string>
+    <string name="pref_search_engine_dialog_title">เลือกเครื่องมือค้นหา</string>
+    <string name="pref_security_accept_cookies">ยอมรับคุกกี้</string>
+    <string name="pref_security_accept_cookies_summary">อนุญาตให้เว็บไซต์บันทึกและอ่านข้อมูลคุกกี้</string>
+    <string name="pref_security_remember_passwords">จำรหัสผ่าน</string>
+    <string name="pref_security_remember_passwords_summary">บันทึกชื่อผู้ใช้และรหัสผ่านสำหรับเว็บไซต์</string>
+    <string name="pref_security_save_form_data">จำข้อมูลฟอร์ม</string>
+    <string name="pref_security_save_form_data_summary">จำข้อมูลที่ฉันกรอกในฟอร์ม</string>
+    <string name="pref_security_show_security_warning">แสดงคำเตือนด้านความปลอดภัย</string>
+    <string name="pref_security_show_security_warning_summary">แสดงคำเตือนหากมีปัญหาด้านความปลอดภัยของเว็บไซต์</string>
+    <string name="pref_show_download_dialog">แสดงกล่องโต้ตอบการดาวน์โหลด</string>
+    <string name="pref_show_header_news">แสดงเวลา/สภาพอากาศ/ข่าวของหน้าเพจที่แล้ว</string>
+    <string name="pref_show_red_badge_notity">แสดงการแจ้งเตือนป้ายแดง</string>
+    <string name="pref_show_status_bar">แสดงแถบสถานะ</string>
+    <string name="pref_text_zoom">การปรับขนาดข้อความ</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">ยอมรับ</string>
+    <string name="product_no_agree">ไม่ยอมรับ</string>
+    <string name="progress_dialog_setting_wallpaper">กำลังตั้งค่าภาพพื้นหลัง\u2026</string>
+    <string name="prompt_already_saved_bookmark">คุณได้เพิ่มบุ๊คมาร์คนี้แล้ว</string>
+    <string name="prompt_already_saved_off">คุณได้บันทึกหน้านี้แล้ว</string>
+    <string name="prompt_saved_off_line">บันทึกไปยังหน้าออฟไลน์แล้ว</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">วางรหัส QR ไว้ในกล่องแล้วเริ่มสแกน</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="remember_preference">จำการตั้งค่า</string>
+    <string name="remove">ลบ</string>
+    <string name="remove_bookmark">ลบที่คั่นหน้า</string>
+    <string name="remove_items_all">ลบรายการทั้งหมด</string>
+    <string name="remove_snapshot">ลบหน้าที่บันทึก</string>
+    <string name="removed_from_bookmarks">ลบออกจากบุ๊คมาร์กแล้ว</string>
+    <string name="rename">เปลี่ยนชื่อไฟล์</string>
+    <string name="rename_failed">การเปลี่ยนชื่อไม่สำเร็จ</string>
+    <string name="rename_success">การเปลี่ยนชื่อสำเร็จ</string>
+    <string name="replace_file">แทนที่ไฟล์</string>
+    <string name="request_fail">คำขอล้มเหลว โปรดลองใหม่ในภายหลัง</string>
+    <string name="request_read_external_storage_error">การเข้าถึงหน่วยความจำภายนอกล้มเหลว</string>
+    <string name="resource_audio_capture">ไมโครโฟน</string>
+    <string name="resource_protected_media_id">ID สื่อที่ได้รับการป้องกัน</string>
+    <string name="resource_video_capture">กล้อง</string>
+    <string name="right_recommend_add_link_not_title">กรุณากรอกชื่อ</string>
+    <string name="right_recommend_add_link_not_url">กรุณากรอก URL</string>
+    <string name="right_recommend_add_link_repeat">URL นี้มีอยู่แล้ว</string>
+    <string name="right_recommend_add_link_saved">บันทึกแล้ว</string>
+    <string name="right_recommend_add_link_url_format">URL นี้ไม่ถูกต้อง</string>
+    <string name="right_recommend_tools_desktop">เดสก์ท็อป</string>
+    <string name="right_recommend_tools_remove">ลบ</string>
+    <string name="sdcard_free">%1$s ว่าง/%2$s</string>
+    <string name="search_hint">ค้นหาหรือพิมพ์ URL</string>
+    <string name="search_history">ประวัติการค้นหา</string>
+    <string name="search_settings_description">บุ๊กมาร์คและประวัติการท่องเว็บ</string>
+    <string name="search_the_web">ค้นหาบนเว็บ</string>
+    <string name="security_warning">คำเตือนด้านความปลอดภัย</string>
+    <string name="select_dot">เลือกข้อความ</string>
+    <string name="select_download_path">เลือกโฟลเดอร์ \"%s\" เป็นที่ตั้งการดาวน์โหลด</string>
+    <string name="select_location">เลือกตำแหน่ง</string>
+    <string name="select_qr_code" translatable="false">เลือกภาพรหัส QR</string>
+    <string name="sendText">เลือกการกระทำสำหรับข้อความ</string>
+    <string name="set_as_homepage">ตั้งเป็นหน้าแรก</string>
+    <string name="set_default_browser">ตั้งค่าเป็นเบราว์เซอร์เริ่มต้น</string>
+    <string name="set_default_failure">ตั้งค่าเริ่มต้นล้มเหลว, กรุณาลองใหม่อีกครั้ง</string>
+    <string name="set_default_success">ตั้งค่าเสร็จสมบูรณ์!</string>
+    <string name="setting_bottom_day">โหมดสว่าง</string>
+    <string name="setting_bottom_expanding">ขยาย</string>
+    <string name="setting_bottom_night">โหมดมืด</string>
+    <string name="setting_update_speech_recognition">การป้อนด้วยเสียงถูกปิดใช้งาน, กรุณาอัปเดตบริการเสียงของ Google</string>
+    <string name="share">แชร์</string>
+    <string name="share_dialog_title" translatable="false">แชร์หน้าเว็บ</string>
+    <string name="shortcut_bookmark">ที่คั่นหน้า</string>
+    <string name="shortcut_bookmark_title">เลือกที่คั่นหน้า</string>
+    <string name="show_dev_on">ตอนนี้คุณเป็นนักพัฒนาแล้ว!</string>
+    <string name="sign_in_to">ลงชื่อเข้าใช้ %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">ไม่มีชื่อ</string>
+    <string name="ssl_certificate">ใบรับรองความปลอดภัย</string>
+    <string name="ssl_certificate_is_valid">ใบรับรองนี้ถูกต้อง</string>
+    <string name="ssl_continue">ดำเนินการต่อ</string>
+    <string name="ssl_date_invalid">ใบรับรองนี้มีวันที่ไม่ถูกต้อง</string>
+    <string name="ssl_expired">ใบรับรองนี้หมดอายุแล้ว</string>
+    <string name="ssl_invalid">ใบรับรองนี้ไม่ถูกต้อง</string>
+    <string name="ssl_mismatch">ชื่อของเว็บไซต์ไม่ตรงกับชื่อในใบรับรอง</string>
+    <string name="ssl_not_yet_valid">ใบรับรองนี้ยังไม่สามารถใช้งานได้</string>
+    <string name="ssl_unknown">ข้อผิดพลาดใบรับรองไม่รู้จัก</string>
+    <string name="ssl_untrusted">ใบรับรองนี้ไม่มาจากหน่วยงานที่เชื่อถือได้</string>
+    <string name="ssl_warnings_header">มีปัญหากับใบรับรองความปลอดภัยของเว็บไซต์นี้</string>
+    <string name="stopping">กำลังหยุด\u2026</string>
+    <string name="storage_space_lack">พื้นที่เก็บข้อมูลไม่เพียงพอ</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">โปรดยืนยันว่าคุณได้เลือกภาพที่ถูกต้องแล้ว</string>
+    <string name="swipe_up_tip">คุณสามารถปัดขึ้นเพื่อปิดแท็บได้</string>
+    <string name="tab_snapshots">หน้าที่บันทึก</string>
+    <string name="text_count_can_input">%1$d ตัวอักษรสามารถพิมพ์ได้</string>
+    <string name="title_activity_add_link">เพิ่มลิงค์</string>
+    <string name="title_clear_all_history">ลบประวัติทั้งหมดหรือไม่?</string>
+    <string name="title_clear_bookmark">ลบบุ๊คมาร์คหรือไม่?</string>
+    <string name="title_clear_history">ลบประวัติหรือไม่?</string>
+    <string name="title_clear_off_line">ลบหน้าที่บันทึกไว้หรือไม่?</string>
+    <string name="too_many_subwindows_dialog_message">สามารถเปิดป็อปอัพได้เพียงหนึ่งรายการเท่านั้น</string>
+    <string name="too_many_subwindows_dialog_title">ป็อปอัพเปิดอยู่แล้ว</string>
+    <string name="too_many_windows_dialog_message">ไม่สามารถเปิดแท็บใหม่ได้จนกว่าจะปิดแท็บหนึ่ง</string>
+    <string name="toolbox_menu_off">ปิดการใช้งาน</string>
+    <string name="toolbox_menu_on">เปิดใช้งาน</string>
+    <string name="total">รวม</string>
+    <string name="ua_switcher_desktop">ขอเว็บไซต์เวอร์ชันเดสก์ท็อป</string>
+    <string name="unknown">ไม่ทราบ</string>
+    <string name="unknown_error">ข้อผิดพลาดที่ไม่รู้จัก, กรุณาลองใหม่อีกครั้ง</string>
+    <string name="unknown_file">ประเภทไฟล์ไม่รู้จัก</string>
+    <string name="update_at_once">อัปเดต</string>
+    <string name="update_content1">1. นักวิทยาศาสตร์อัจฉริยะของเราเพิ่มความเร็วในการโหลดหน้าเว็บ!</string>
+    <string name="update_content2">2. นักออกแบบที่น่ารักของเราได้ทำให้ทุกอย่างดูสวยงามขึ้น!</string>
+    <string name="update_content3">3. และนักพัฒนาที่น่าทึ่งของเรา? พวกเขาต้องอดนอนและดื่มกาแฟเพื่อไล่ล่าบั๊ก!</string>
+    <string name="update_later">อัปเดตทีหลัง</string>
+    <string name="update_now">ไปที่ Google Play เพื่อดาวน์โหลดแอป</string>
+    <string name="update_remind">แจ้งเตือนการอัปเดต</string>
+    <string name="update_tips1">ใช่แล้ว! อัปเดตใหม่มาแล้ว!</string>
+    <string name="update_tips2">✨ทั้งหมดเพื่อประสบการณ์ที่ดีกว่า!\nอัปเดตเลยและลองดู!</string>
+    <string name="update_title">พบเวอร์ชันใหม่</string>
+    <string name="upload_image">อัปโหลดรูปภาพ</string>
+    <string name="uploads_disabled">การอัปโหลดไฟล์ถูกปิดใช้งาน</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="versionUpdate">อัปเดต</string>
+    <string name="video_mobile_pause">ยกเลิก</string>
+    <string name="video_mobile_permission">คุณกำลังใช้เครือข่ายมือถือ ต้องการเล่นไหม?</string>
+    <string name="video_mobile_play">เล่น</string>
+    <string name="view">ดู</string>
+    <string name="view_certificate">ดูใบรับรอง</string>
+    <string name="view_select_all">เลือกทั้งหมด</string>
+    <string name="visit_url_ok">เยี่ยมชม</string>
+    <string name="visit_url_title">เยี่ยมชม URL จากคลิปบอร์ดของคุณ?</string>
+    <string name="website_AI">ปัญญาประดิษฐ์</string>
+    <string name="website_hot">ฮอต</string>
+    <string name="website_lifestyle">ชีวิต</string>
+    <string name="website_news">ข่าว•กีฬา</string>
+    <string name="website_recommend">แนะนำ</string>
+    <string name="website_settings_list_header_text">การเข้าถึงตำแหน่ง</string>
+    <string name="website_shoping">บันเทิง•ช้อปปิ้ง</string>
+    <string name="website_social">โซเชียล</string>
+    <string name="website_tools">เครื่องมือ</string>
+    <string name="website_videos">วิดีโอ</string>
+    <string name="webstorage_clear_data_title">ลบข้อมูลที่เก็บไว้</string>
+    <string name="webstorage_origin_summary_mb_stored">MB ที่เก็บไว้ในโทรศัพท์ของคุณ</string>
+    <string name="webstorage_outofspace_notification_text">แตะเพื่อเพิ่มพื้นที่ว่าง</string>
+    <string name="webstorage_outofspace_notification_title">พื้นที่จัดเก็บเบราว์เซอร์เต็ม</string>
+    <string name="write_advice_please">โปรดอธิบายความคิดเห็นหรือข้อเสนอแนะของคุณ... (1000 คำ)</string>
+    <string name="zxing_button_ok">ตกลง</string>
+    <string name="zxing_msg_camera_framework_bug">ขออภัย พบปัญหาของกล้อง Android คุณอาจจะต้องรีสตาร์ทอุปกรณ์</string>
+    <string name="zxing_msg_default_status">วางบาร์โค้ดภายในสี่เหลี่ยมผืนผ้าที่ช่องมองภาพเพื่อสแกน</string>
+</resources>

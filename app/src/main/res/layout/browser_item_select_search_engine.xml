@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/browser_bg_pop_item"
+    android:paddingStart="20dp">
+
+    <ImageView
+        android:id="@+id/icon_search_engine"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:src="@drawable/browser_engine_google" />
+
+    <TextView
+        android:id="@+id/select_search_engine_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/browser_selete_engine_item"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_vertical|start"
+        android:text="google"
+        android:background="@color/transparent"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

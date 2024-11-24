@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Ryd historik &amp; cache</item>
+        <item>Spørg ikke igen</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Formularer</item>
+        <item>Historik</item>
+        <item>Adgangskoder</item>
+        <item>Placeringstilgang</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Ryd lokalt cachelagrede indhold og databaser</item>
+        <item>Ryd alle cookies</item>
+        <item>Ryd alle gemte formularoplysninger</item>
+        <item>Ryd al browserhistorik</item>
+        <item>Ryd alle gemte konti og adgangskoder</item>
+        <item>Fjern tilladelse for alle websider til at få adgang til din placering</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kinesisk (GBK)</item>
+        <item>Kinesisk (Big5)</item>
+        <item>Japansk (ISO-2022-JP)</item>
+        <item>Japansk (SHIFT_JIS)</item>
+        <item>Japansk (EUC-JP)</item>
+        <item>Koreansk (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Meget lille</item>
+        <item>Lille</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Kæmpestor</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Standard</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Computer</item>
+    </string-array>
+    <string name="abnormal_recover_message">Vil du gendanne den sidste webside?</string>
+    <string name="abnormal_recover_ok">Gendan</string>
+    <string name="abnormal_recover_recovered">Sider fra den sidste session er gendannet.</string>
+    <string name="accessibility_button_addbookmark">Bogmærk side</string>
+    <string name="accessibility_button_bookmarks_folder_up">Forrige mappe</string>
+    <string name="accessibility_button_closetab">Luk fane</string>
+    <string name="accessibility_button_forward">Gå frem</string>
+    <string name="accessibility_button_more">Flere muligheder</string>
+    <string name="accessibility_button_newtab">Åbn ny fane</string>
+    <string name="accessibility_button_refresh">Opdater side</string>
+    <string name="accessibility_button_search">Søg</string>
+    <string name="accessibility_button_stop">Stop sideindlæsning</string>
+    <string name="accessibility_button_uaswitch">Skift brugeragent</string>
+    <string name="accessibility_button_voice">Start stemmesøgning</string>
+    <string name="accessibility_state_frozen">Gemte side</string>
+    <string name="accessibility_state_incognito">Inkognito-side</string>
+    <string name="accessibility_transition_navscreen">Fanehåndtering</string>
+    <string name="account">Konto</string>
+    <string name="action">Log ind</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Annoncer fundet, aktiver AD Block nu?</string>
+    <string name="adblock_rules_error_prompt">Syntaksfejl, rediger venligst igen!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Tilføj</string>
+    <string name="add_new_bookmark">Tilføj bogmærke</string>
+    <string name="add_pic">Tilføj billede:</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="add_to_desktop_success">Tilføjet til desktop</string>
+    <string name="add_to_homepage">Tilføj til startskærm</string>
+    <string name="add_to_homepage_success">Tilføjet til startside</string>
+    <string name="add_to_homescreen_menu_option">Startskærm</string>
+    <string name="add_to_other_folder_menu_option">Anden mappe</string>
+    <string name="add_up_to_15">Tilføj op til 20</string>
+    <string name="added_new_bookmark">Tilføj bogmærke</string>
+    <string name="allow">Tillad</string>
+    <string name="allow_download">Tillad download</string>
+    <string name="allow_download_no">Forbind til WiFi</string>
+    <string name="already_cleared">Ryddet</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Tilgængelig</string>
+    <string name="block">Bloker</string>
+    <string name="bookmark_cannot_save_url">Denne URL kan ikke gemmes som bogmærke</string>
+    <string name="bookmark_list">Bogmærkeliste</string>
+    <string name="bookmark_needs_title">"Bogmærket skal have et navn"</string>
+    <string name="bookmark_needs_url">"Bogmærket skal have en adresse"</string>
+    <string name="bookmark_not_saved">Kunne ikke gemme bogmærke</string>
+    <string name="bookmark_saved">Gem til bogmærker</string>
+    <string name="bookmark_this_page">Bogmærk denne side</string>
+    <string name="bookmark_url_not_valid">Denne URL er ikke gyldig</string>
+    <string name="bookmarks">Bogmærker</string>
+    <string name="bookmarks_add_page">Gem bogmærke</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">Filproblem</string>
+    <string name="browserFrameFormResubmitMessage">Den side, du prøver at se, indeholder data, der allerede er blevet sendt ("POSTDATA"). Hvis du sender dataene igen, vil enhver handling, som formularen på siden udførte (f.eks. en søgning eller et onlinekøb), blive gentaget.</string>
+    <string name="browserFrameNetworkErrorLabel">Forbindelsesproblem</string>
+    <string name="browser_admin_panel">Brugercenter</string>
+    <string name="browser_hot_word_title" translatable="false">Hotte søgeresultater</string>
+    <string name="browser_navigation">Navigation</string>
+    <string name="browser_net_error_refresh" translatable="false">Klik på det tomme område for at opdatere siden</string>
+    <string name="browser_open_all_most_visited" translatable="false">Udvid anbefalede hjemmesider</string>
+    <string name="browser_permission_camera">Kameraadgang nægtet, venligst aktiver den manuelt</string>
+    <string name="browser_permission_notification">Notifikationsbar adgang nægtet, venligst aktiver den manuelt</string>
+    <string name="browser_permission_qr">Denne funktion kræver adgang til hukommelsen. Venligst aktiver adgangen manuelt i indstillingerne</string>
+    <string name="browser_permission_setwall">Indstilling af telefonens baggrundsbillede kræver adgang til hukommelsen. Venligst aktiver denne adgang manuelt i indstillingerne</string>
+    <string name="browser_permission_strone">Download af filer kræver lageradgang. Venligst aktiver lageradgang manuelt i indstillingerne</string>
+    <string name="browser_privacy_tips">Dine personlige data vil blive behandlet i henhold til vores 《Privatlivspolitik》.</string>
+    <string name="browser_product_agree_tips">Du skal acceptere politikken.</string>
+    <string name="browser_product_start">Start</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nAlle rettigheder forbeholdes.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Søg frit efter alt, hvad du behøver</string>
+    <string name="browser_slogo_fast">Hurtigere</string>
+    <string name="browser_slogo_intelligence">Intelligentere</string>
+    <string name="browser_slogo_safe">Sikre</string>
+    <string msgid="6709237687234102240" name="browser_tools">Værktøjer</string>
+    <string name="btn_recommend_add">Tilføj</string>
+    <string name="byfrost_slogan">Byfrost - Se en større verden!</string>
+    <string name="byfrost_suggestion">Vi har modtaget dit forslag, tak.</string>
+    <string name="byfrost_suggestion_time">Feedbacktiden kan ikke være mindre end 1 minut fra sidste gang.</string>
+    <string name="cancel">Annuller</string>
+    <string name="cancelDel">Fortryd sletning?</string>
+    <string name="cannot_open_the_file">Ingen procedure til at åbne denne filtype</string>
+    <string name="check_for_update">Tjek for opdatering...</string>
+    <string name="check_network">Indsendelsen mislykkedes på grund af netværksproblemer, venligst tjek.</string>
+    <string name="choosertitle_sharevia">Del via</string>
+    <string name="clear">Ryd</string>
+    <string name="clear_all">Ryd alt</string>
+    <string name="clear_all_already">Alle data er allerede ryddet!</string>
+    <string name="clear_data_success">Rydning lykkedes</string>
+    <string name="clear_default_browser">Fjern som standardbrowser</string>
+    <string name="clear_default_setting_please">En anden browser er indstillet som standardbrowser, venligst ryd den browser\'s standardindstilling.</string>
+    <string name="clear_history_all">Ryd alt historik</string>
+    <string name="click_again_quit">Tryk tilbage for at afslutte</string>
+    <string name="close_all_incognito_notification">Luk alle inkognito-faner</string>
+    <string name="commit_fail">Indsendelsen mislykkedes, prøv venligst senere</string>
+    <string name="confirm_deletion">Slet dette?</string>
+    <string name="confirm_deletion_all">Slet alle?</string>
+    <string name="contact_us_on_facebook">Kontakt os på Facebook</string>
+    <string name="containing_folder">Tilføj til</string>
+    <string name="contextheader_folder_bookmarkcount">%d bogmærker</string>
+    <string name="contextheader_folder_empty">Tom mappe</string>
+    <string name="contextmenu_add_contact">Tilføj kontakt</string>
+    <string name="contextmenu_copy">Kopier</string>
+    <string name="contextmenu_copylink">Kopier link URL</string>
+    <string name="contextmenu_dial_dot">Ring\u2026</string>
+    <string name="contextmenu_download_image">Gem billede</string>
+    <string name="contextmenu_map">Kort</string>
+    <string name="contextmenu_openlink_newwindow">Åbn i ny fane</string>
+    <string name="contextmenu_openlink_newwindow_background">Åbn i baggrund</string>
+    <string name="contextmenu_savelink">Gem link</string>
+    <string name="contextmenu_send_mail">Send e-mail</string>
+    <string name="contextmenu_set_wallpaper">Indstil som baggrund</string>
+    <string name="contextmenu_set_wallpaper_image">Baggrundsbillede</string>
+    <string name="contextmenu_share_app">Del app</string>
+    <string name="contextmenu_share_website">Del websted</string>
+    <string name="contextmenu_sharelink">Del link</string>
+    <string name="contextmenu_view_image">Vis billede</string>
+    <string name="copy_link">Kopier link</string>
+    <string name="copylink_success">Link er kopieret</string>
+    <string name="create_shortcut_bookmark">Tilføj genvej til startskærm</string>
+    <string name="custom_rules">Brugerdefinerede AdBlock-filtre</string>
+    <string name="custom_rules_title">AdBlock-filtre</string>
+    <string name="default_bookmark">Standard bogmærke</string>
+    <string name="default_location">Standard placering: %1$s</string>
+    <string name="delete">Slet</string>
+    <string name="delete_bookmark_warning">Slet bogmærke \"%s\"?</string>
+    <string name="delete_folder">Slet mappe</string>
+    <string name="deletion_all">Slet alt</string>
+    <string name="desktop">Desktop</string>
+    <string name="done">FÆRDIG</string>
+    <string name="download">Download</string>
+    <string name="download_allow_mobile">Tillad fildownload via mobilnetværk?</string>
+    <string name="download_failed">Download mislykkedes</string>
+    <string name="download_list">Downloadliste</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Et SD-kort er nødvendigt for at downloade %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Ingen SD-kort</string>
+    <string name="download_pause">Download pause</string>
+    <string name="download_pending">Starter download\u2026</string>
+    <string name="download_removed">Er fjernet</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD-kortet er optaget. For at tillade downloads skal du trykke på "Sluk USB-lager" i meddelelsen.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD-kort utilgængeligt</string>
+    <string name="downloaded">Downloadet</string>
+    <string name="downloading">Downloader</string>
+    <string name="downloadmanager_disabled">Download Manager er deaktiveret. Venligst aktiver den.</string>
+    <string name="edit">Rediger</string>
+    <string name="edit_bookmark">Rediger bogmærke</string>
+    <string name="edit_folder">Rediger mappe</string>
+    <string name="edited">RETTET</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Indtast venligst det korrekte telefonnummer</string>
+    <string name="empty_bookmarks_folder">Dine bogmærker er tomme</string>
+    <string name="empty_history">Ingen browserhistorik</string>
+    <string name="empty_info_most_visited">Ingen optegnelser</string>
+    <string name="empty_snapshots_folder">Ingen gemte sider</string>
+    <string name="enter_incognito_mode">Skift til inkognito</string>
+    <string name="enter_normal_mode">Skift til normal</string>
+    <string name="enter_settings_page">Gå til Indstillinger efter rydning er færdig.</string>
+    <string name="enter_website_name">Indtast webstedets navn</string>
+    <string name="error_console_eval_button_text" translatable="false">Evaluer</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evaluer JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript-konsol</string>
+    <string name="error_console_header_text_minimized" translatable="false">Vis JavaScript-konsol</string>
+    <string name="exit">Afslut</string>
+    <string name="exit_dialog_title">Afslut browser?</string>
+    <string name="feed_back_sucess">Vi har modtaget dine kommentarer og forslag, tak.</string>
+    <string name="feedback_other">Andet:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Valgfri)</string>
+    <string name="feedback_submit">Indsend</string>
+    <string name="file_exist">Fil eksisterer allerede</string>
+    <string name="file_name">Filnavn</string>
+    <string name="file_not_exist">Fil eksisterer ikke</string>
+    <string name="filename_empty">Filnavn kan ikke være tomt</string>
+    <string name="find_on_page">Find på siden</string>
+    <string name="five_stars">5 stjerner</string>
+    <string name="five_stars_comment">Giv en anbefaling.</string>
+    <string name="five_stars_content">Din fem-stjernes vurdering betyder meget for os.</string>
+    <string name="five_stars_later">Senere</string>
+    <string name="five_stars_titile">Er du glad for %s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Afvis</string>
+    <string name="geolocation_permissions_prompt_message">%s vil vide din placering</string>
+    <string name="geolocation_permissions_prompt_share">Del placering</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Dette websted kan få adgang til din placering. Ændr dette under Indstillinger > Avanceret > Webstedindstillinger.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Dette websted kan ikke få adgang til din placering. Ændr dette under Indstillinger > Avanceret > Webstedindstillinger.</string>
+    <string name="geolocation_settings_page_dialog_message">Vil du rydde placeringstilladelse for dette websted?</string>
+    <string name="geolocation_settings_page_summary_allowed">Dette websted kan i øjeblikket få adgang til din placering</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Dette websted kan ikke få adgang til din placering lige nu</string>
+    <string name="geolocation_settings_page_title">Annuller tilladelse til at få adgang til din placering</string>
+    <string name="get_photo_failure">Fejl ved hentning af billeder</string>
+    <string name="go">Gå</string>
+    <string name="go_back">Gå tilbage</string>
+    <string name="history">Historik</string>
+    <string name="home_page">Startside</string>
+    <string name="incognito_home">Du er i Inkognito</string>
+    <string name="incognito_home_content">Du er nu i inkognito tilstand.</string>
+    <string name="incognito_home_tip">Du kan forlade inkognito og gå tilbage til normal.</string>
+    <string name="input_over_flow">Indsendelsen mislykkedes, da %1$d tegn overskrider grænsen</string>
+    <string name="instructions_label">Brugsanvisning</string>
+    <string name="is_latest">Allerede den nyeste version!</string>
+    <string name="js_ad_block_count">Blokerede JavaScript-filer</string>
+    <string name="js_disable_host_error_prompt">Domænefejl, rediger venligst igen!</string>
+    <string name="js_disable_hosts">Indstil reklame-tidsbegrænsning for bestemte domæner</string>
+    <string name="js_disable_hosts_title">Visse domæner</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Værktøjer</string>
+    <string name="lable_calendar">Kalender</string>
+    <string name="lable_lifestyle">Livsstil</string>
+    <string name="lable_maps">Kort</string>
+    <string name="lable_news">Nyheder</string>
+    <string name="lable_translate">Oversæt</string>
+    <string name="lable_video">Videoer</string>
+    <string name="lable_weather">Vejr</string>
+    <string name="leadpage_back">Tilbage</string>
+    <string name="leadpage_forward">Fremad</string>
+    <string name="leadpage_home">Hjem</string>
+    <string name="loading_video">Indlæser video\u2026</string>
+    <string name="local_bookmarks">Lokale</string>
+    <string name="location">Adresse</string>
+    <string name="mark_image_ad">Marker reklame</string>
+    <string name="mark_image_ad_fail">Markering mislykkedes</string>
+    <string name="max_tabs_warning">Ingen flere faner tilgængelige</string>
+    <string name="menu_browser_Tools">Værktøjer</string>
+    <string name="menu_browser_add_bookmark">Tilføj bogmærke</string>
+    <string name="menu_browser_bookmarks">Bogmærker</string>
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_downloads">Downloads</string>
+    <string name="menu_browser_font_size">Skrifttype størrelse</string>
+    <string name="menu_browser_full_screen">Fuld skærm</string>
+    <string name="menu_browser_history">Historik</string>
+    <string name="menu_browser_incognito">Inkognito</string>
+    <string name="menu_browser_night">Øjenbeskytter</string>
+    <string name="menu_browser_no_image">Ingen billeder</string>
+    <string name="menu_browser_quit">Afslut</string>
+    <string name="menu_browser_search_page">Søg på siden</string>
+    <string name="menu_browser_settings">Indstillinger</string>
+    <string name="menu_browser_snapshots">Gem side</string>
+    <string name="menu_preferences">Indstillinger</string>
+    <string name="menu_tools_box">Værktøjskasse</string>
+    <string name="messageContent">Der er en ny version af %s, du kan opdatere den nu.</string>
+    <string name="modify">Rediger</string>
+    <string name="most_visited">Mest besøgte</string>
+    <string name="my_qrcode" translatable="false">Min QR-kode</string>
+    <string name="name">Mærke</string>
+    <string name="name_cannot_empty">Webnavn kan ikke være tomt</string>
+    <string name="new_file">Opret ny fil</string>
+    <string name="new_folder">Ny mappe</string>
+    <string name="new_incognito_tab">Ny inkognitofane</string>
+    <string name="new_tab">Ny fane</string>
+    <string name="no_downloads">Ingen downloads</string>
+    <string name="no_prompt">Spørg ikke igen</string>
+    <string name="no_subfolders">Ingen undermapper.</string>
+    <string name="notification_content_text">Klik for at se</string>
+    <string name="notification_download_finish">Download fuldført</string>
+    <string name="null_rules_prompt">Du kan tilføje dine egne regler. Dine regler skal følge Adblock Plus\' syntaks. Brugsanvisning.</string>
+    <string name="ok">OK</string>
+    <string name="open">Åbn</string>
+    <string name="open_all_in_new_window">Åbn alle i nye faner</string>
+    <string name="open_most_visited">Åbn mest besøgte >></string>
+    <string name="optional">(Valgfri)</string>
+    <string name="other_bookmarks">Andre bogmærker</string>
+    <string name="page_info">Sideinformation</string>
+    <string name="page_info_address">Adresse:</string>
+    <string name="page_info_view">Se sideinfo</string>
+    <string name="password">Adgangskode</string>
+    <string name="permissions_prompt_deny">Afvis</string>
+    <string name="permissions_prompt_message">%1$s vil bruge din %2$s.</string>
+    <string name="pic_ad_block_count">Blokerede billeder</string>
+    <string name="picture_nocodeinfo" translatable="false">Ingen QR-kodeinformation genkendt i billedet</string>
+    <string name="picture_scannoinfo" translatable="false">Ingen QR-kodeinformation blev scannet</string>
+    <string name="please_input_over_six">Indtast venligst 6 eller flere tegn</string>
+    <string name="please_input_under_max">Indtast venligst højst %1$d tegn</string>
+    <string name="please_leave_your_email">Efterlad venligst din emailadresse</string>
+    <string name="popup_ad_block_count">Blokerede pop-ups</string>
+    <string name="pref_about">Om</string>
+    <string name="pref_ad_block">Annonceblokering</string>
+    <string name="pref_agreement">Brugervilkår</string>
+    <string name="pref_always" translatable="false">ALTI</string>
+    <string name="pref_check_update">Tjek opdatering</string>
+    <string name="pref_confirm_on_exit">Bekræft ved afslutning</string>
+    <string name="pref_contact_us">Kontakt os:</string>
+    <string name="pref_content_search_engine">Indstil søgemaskine</string>
+    <string name="pref_default_ad_time">Tidsmarkering af annoncer</string>
+    <string name="pref_default_browser">Indstil som standardbrowser</string>
+    <string name="pref_default_text_encoding">Tekstkodning</string>
+    <string name="pref_deverloper_options">Udviklerindstillinger</string>
+    <string name="pref_download">Downloadindstillinger</string>
+    <string name="pref_download_path_setting_screen_title">Brugerdefineret downloadsti</string>
+    <string name="pref_download_with_ADM">Download med ADM</string>
+    <string name="pref_extras_reset_default">Nulstil til standard</string>
+    <string name="pref_extras_reset_default_dlg">Vil du gendanne standardindstillingerne?</string>
+    <string name="pref_extras_website_settings">Webstedsindstillinger</string>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_five_star">Fem stjerner</string>
+    <string name="pref_font_size">Tekststørrelse</string>
+    <string name="pref_font_size_summary">Juster størrelsen på tekst og skrifttyper</string>
+    <string name="pref_force_userscalable">Tving zoom aktiveret</string>
+    <string name="pref_force_userscalable_summary">Tving en webside til at kontrollere zoomadfærd</string>
+    <string name="pref_min_font_size">Minimum skrifttørrelse</string>
+    <string name="pref_notification_tool_show">Vis søgefelt i meddelelsespanel</string>
+    <string name="pref_privacy_clear_data">Ryd data</string>
+    <string name="pref_privacy_enable_geolocation">Aktivér placering</string>
+    <string name="pref_privacy_enable_geolocation_summary">Tillad websteder at anmode om adgang til din placering</string>
+    <string name="pref_privacy_policy">Privatlivspolitik</string>
+    <string name="pref_privacy_security_title">Privatliv &amp; Sikkerhed</string>
+    <string name="pref_privacy_security_title_summary">Tillad browseren at huske adgangskoder, gemte formularer osv.</string>
+    <string name="pref_search_engine_dialog_title">Vælg søgemaskine</string>
+    <string name="pref_security_accept_cookies">Accepter cookies</string>
+    <string name="pref_security_accept_cookies_summary">Tillad websteder at gemme og læse cookie-data</string>
+    <string name="pref_security_remember_passwords">Husk adgangskoder</string>
+    <string name="pref_security_remember_passwords_summary">Gem brugernavne og adgangskoder til websteder</string>
+    <string name="pref_security_save_form_data">Husk formulardata</string>
+    <string name="pref_security_save_form_data_summary">Husk de data, jeg indtastede i formularen</string>
+    <string name="pref_security_show_security_warning">Vis sikkerhedsadvarsler</string>
+    <string name="pref_security_show_security_warning_summary">Vis advarsel, hvis der er et problem med webstedets sikkerhed</string>
+    <string name="pref_show_download_dialog">Vis download-dialog</string>
+    <string name="pref_show_header_news">Vis tid/vejr/nyheder fra den forrige side</string>
+    <string name="pref_show_red_badge_notity">Vis rød badge-besked</string>
+    <string name="pref_show_status_bar">Vis statuslinje</string>
+    <string name="pref_text_zoom">Tekststørrelse</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Enig</string>
+    <string name="product_no_agree">Ikke enig</string>
+    <string name="progress_dialog_setting_wallpaper">Indstiller baggrundsbillede\u2026</string>
+    <string name="prompt_already_saved_bookmark">Du har allerede tilføjet dette bogmærke</string>
+    <string name="prompt_already_saved_off">Du har allerede gemt denne side</string>
+    <string name="prompt_saved_off_line">Gemmet til offline-sider</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Placer QR-koden i boksen og begynd at scanne</string>
+    <string name="refresh">Opdater</string>
+    <string name="remember_preference">Husk præference</string>
+    <string name="remove">Fjern</string>
+    <string name="remove_bookmark">Slet bogmærke</string>
+    <string name="remove_items_all">Fjern alle elementer</string>
+    <string name="remove_snapshot">Slet gemt side</string>
+    <string name="removed_from_bookmarks">Fjernet fra bogmærker.</string>
+    <string name="rename">Omnavngiv filer</string>
+    <string name="rename_failed">Omdøbning mislykkedes</string>
+    <string name="rename_success">Omdøbning succes</string>
+    <string name="replace_file">Erstat fil</string>
+    <string name="request_fail">Anmodning mislykkedes, prøv venligst senere</string>
+    <string name="request_read_external_storage_error">Fejl ved anmodning om adgang til telefonens hukommelse</string>
+    <string name="resource_audio_capture">mikrofon</string>
+    <string name="resource_protected_media_id">beskyttet medie-ID</string>
+    <string name="resource_video_capture">kamera</string>
+    <string name="right_recommend_add_link_not_title">Indtast titel</string>
+    <string name="right_recommend_add_link_not_url">Indtast URL</string>
+    <string name="right_recommend_add_link_repeat">URL findes allerede</string>
+    <string name="right_recommend_add_link_saved">Gemmes</string>
+    <string name="right_recommend_add_link_url_format">Denne URL er forkert</string>
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Fjern</string>
+    <string name="sdcard_free">%1$s fri/%2$s</string>
+    <string name="search_hint">Søg eller indtast URL</string>
+    <string name="search_history">Søgehistorik</string>
+    <string name="search_settings_description">Bogmærker og webhistorik</string>
+    <string name="search_the_web">Søg på nettet</string>
+    <string name="security_warning">Sikkerhedsadvarsel</string>
+    <string name="select_dot">Vælg tekst</string>
+    <string name="select_download_path">Vælg mappen \"%s\" som downloadplacering</string>
+    <string name="select_location">Vælg placering</string>
+    <string name="select_qr_code" translatable="false">Vælg QR-kodebillede</string>
+    <string name="sendText">Vælg en handling for tekst</string>
+    <string name="set_as_homepage">Indstil som startsiden</string>
+    <string name="set_default_browser">Indstil som standardbrowser</string>
+    <string name="set_default_failure">Opsætning mislykkedes. Prøv igen venligst.</string>
+    <string name="set_default_success">Opsætning vellykket!</string>
+    <string name="setting_bottom_day">Lys tilstand</string>
+    <string name="setting_bottom_expanding">Udvider</string>
+    <string name="setting_bottom_night">Mørk tilstand</string>
+    <string name="setting_update_speech_recognition">Taleinput er forbudt, opdater venligst Google tale-tjeneste</string>
+    <string name="share">Del</string>
+    <string name="share_dialog_title" translatable="false">Del webside</string>
+    <string name="shortcut_bookmark">Bogmærke</string>
+    <string name="shortcut_bookmark_title">Vælg et bogmærke</string>
+    <string name="show_dev_on">Du er nu en udvikler!</string>
+    <string name="sign_in_to">Log ind på %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Uden titel</string>
+    <string name="ssl_certificate">Sikkerhedscertifikat</string>
+    <string name="ssl_certificate_is_valid">Dette certifikat er gyldigt.</string>
+    <string name="ssl_continue">Fortsæt</string>
+    <string name="ssl_date_invalid">Dette certifikat har en ugyldig dato.</string>
+    <string name="ssl_expired">Dette certifikat er udløbet.</string>
+    <string name="ssl_invalid">Dette certifikat er ugyldigt.</string>
+    <string name="ssl_mismatch">Sidens navn stemmer ikke overens med certifikatets navn.</string>
+    <string name="ssl_not_yet_valid">Dette certifikat er ikke gyldigt endnu.</string>
+    <string name="ssl_unknown">Ukendt certifikatfejl.</string>
+    <string name="ssl_untrusted">Dette certifikat er ikke fra en betroet myndighed.</string>
+    <string name="ssl_warnings_header">Der er problemer med sikkerhedscertifikatet for denne side.</string>
+    <string name="stopping">Stopper…</string>
+    <string name="storage_space_lack">Ikke nok ledig lagerplads</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Bekræft at du har valgt det korrekte billede</string>
+    <string name="swipe_up_tip">Du kan sveipe op for at slette fanen</string>
+    <string name="tab_snapshots">Gemte sider</string>
+    <string name="text_count_can_input">%1$d tegn kan indtastes</string>
+    <string name="title_activity_add_link">Tilføj link</string>
+    <string name="title_clear_all_history">Ryd al historik?</string>
+    <string name="title_clear_bookmark">Ryd bogmærke?</string>
+    <string name="title_clear_history">Ryd historik?</string>
+    <string name="title_clear_off_line">Ryd gemte sider?</string>
+    <string name="too_many_subwindows_dialog_message">Kun én pop-up kan være åben ad gangen.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up allerede åbent</string>
+    <string name="too_many_windows_dialog_message">Kan ikke åbne en ny fane, før du lukker en.</string>
+    <string name="toolbox_menu_off">SLUKKET</string>
+    <string name="toolbox_menu_on">TÆNDT</string>
+    <string name="total">Samlet</string>
+    <string name="ua_switcher_desktop">Anmod om desktop-websted</string>
+    <string name="unknown">Ukendt</string>
+    <string name="unknown_error">Ukendt fejl, prøv venligst igen.</string>
+    <string name="unknown_file">Ukendt filtype</string>
+    <string name="update_at_once">Opdater</string>
+    <string name="update_content1">1. Vores superkloge videnskabsmænd har gjort web-sider lynhurtige!</string>
+    <string name="update_content2">2. Vores dejlige designer har arbejdet sin magi og gjort alt endnu smukkere!</string>
+    <string name="update_content3">3. Og vores fantastiske udviklere? De blev oppe sent og drak kaffe, og jagede alle de irriterende fejl!</string>
+    <string name="update_later">Opdater senere</string>
+    <string name="update_now">Gå til Google Play for at hente appen.</string>
+    <string name="update_remind">Opdateringsmeddelelse</string>
+    <string name="update_tips1">Ja, du gættede det! En helt ny opdatering er her!</string>
+    <string name="update_tips2">✨Alt for at gøre din oplevelse bedre!\nKom videre, opdater nu og tjek det ud! ✨</string>
+    <string name="update_title">Ny version fundet</string>
+    <string name="upload_image">Upload billeder</string>
+    <string name="uploads_disabled">Filupload er deaktiveret.</string>
+    <string name="username">Brugernavn</string>
+    <string name="versionUpdate">Opdater</string>
+    <string name="video_mobile_pause">Annuller</string>
+    <string name="video_mobile_permission">Du bruger mobilnetværk. Vil du stadig afspille?</string>
+    <string name="video_mobile_play">Afspil</string>
+    <string name="view">Vis</string>
+    <string name="view_certificate">Vis certifikat</string>
+    <string name="view_select_all">Vælg alle</string>
+    <string name="visit_url_ok">Besøg</string>
+    <string name="visit_url_title">Besøg denne URL fra din udklipsholder?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Hot</string>
+    <string name="website_lifestyle">Livsstil</string>
+    <string name="website_news">Nyheder•Sport</string>
+    <string name="website_recommend">Anbefalet</string>
+    <string name="website_settings_list_header_text">Placeringstilgang</string>
+    <string name="website_shoping">Underholdning•Shopping</string>
+    <string name="website_social">Social</string>
+    <string name="website_tools">Værktøjer</string>
+    <string name="website_videos">Videoer</string>
+    <string name="webstorage_clear_data_title">Ryd gemte data</string>
+    <string name="webstorage_origin_summary_mb_stored">MB gemt på din telefon</string>
+    <string name="webstorage_outofspace_notification_text">Tryk for at frigøre plads.</string>
+    <string name="webstorage_outofspace_notification_title">Browserlagring fuld</string>
+    <string name="write_advice_please">Beskriv venligst din mening eller forslag med ord... (1000 ord)</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.</string>
+    <string name="zxing_msg_default_status">Placér en stregkode inden i firkanten for at aflæse den.</string>
+</resources>

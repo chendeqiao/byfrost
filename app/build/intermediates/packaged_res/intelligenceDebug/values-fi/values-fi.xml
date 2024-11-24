@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Poista historia &amp; välimuisti</item>
+        <item>Älä kysy enää</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Välimuisti</item>
+        <item>Evästeet</item>
+        <item>Lomakkeet</item>
+        <item>Historia</item>
+        <item>Salasanat</item>
+        <item>Sijainti</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Tyhjennä paikallisesti välimuistiin tallennetut sisällöt ja tietokannat</item>
+        <item>Tyhjennä kaikki evästeet</item>
+        <item>Tyhjennä kaikki tallennetut lomaketiedot</item>
+        <item>Tyhjennä kaikki selaushistoria</item>
+        <item>Tyhjennä kaikki tallennetut tilit ja salasanat</item>
+        <item>Peruuta lupa kaikille verkkosivustoille käyttää sijaintiasi</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kiina (GBK)</item>
+        <item>Kiina (Big5)</item>
+        <item>Japani (ISO-2022-JP)</item>
+        <item>Japani (SHIFT_JIS)</item>
+        <item>Japani (EUC-JP)</item>
+        <item>Korea (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Suuri</item>
+        <item>Iso</item>
+        <item>Hyvin suuri</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Oletus</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Tietokone</item>
+    </string-array>
+    <string name="abnormal_recover_message">Palautetaanko viimeisin verkkosivu?</string>
+    <string name="abnormal_recover_ok">Palauta</string>
+    <string name="abnormal_recover_recovered">Viime session sivut on palautettu.</string>
+    <string name="accessibility_button_addbookmark">Tee kirjanmerkki</string>
+    <string name="accessibility_button_bookmarks_folder_up">Edellinen kansio</string>
+    <string name="accessibility_button_closetab">Sulje välilehti</string>
+    <string name="accessibility_button_forward">Siirry eteenpäin</string>
+    <string name="accessibility_button_more">Lisää vaihtoehtoja</string>
+    <string name="accessibility_button_newtab">Avaa uusi välilehti</string>
+    <string name="accessibility_button_refresh">Päivitä sivu</string>
+    <string name="accessibility_button_search">Hae</string>
+    <string name="accessibility_button_stop">Pysäytä sivun lataus</string>
+    <string name="accessibility_button_uaswitch">Vaihda käyttäjäagentti</string>
+    <string name="accessibility_button_voice">Aloita äänihaku</string>
+    <string name="accessibility_state_frozen">Tallennettu sivu</string>
+    <string name="accessibility_state_incognito">Yksityinen sivu</string>
+    <string name="accessibility_transition_navscreen">Välilehtien hallinta</string>
+    <string name="account">Tili</string>
+    <string name="action">Kirjaudu sisään</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Mainoksia löydetty, ota AdBlock käyttöön nyt?</string>
+    <string name="adblock_rules_error_prompt">Syntaksivirhe, muokkaa uudelleen!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Lisää</string>
+    <string name="add_new_bookmark">Lisää kirjanmerkki</string>
+    <string name="add_pic">Lisää kuva:</string>
+    <string name="add_to_desktop">Työpöytä</string>
+    <string name="add_to_desktop_success">Lisätty työpöydälle</string>
+    <string name="add_to_homepage">Lisää aloitusnäyttöön</string>
+    <string name="add_to_homepage_success">Lisätty kotisivulle</string>
+    <string name="add_to_homescreen_menu_option">Aloitusnäyttö</string>
+    <string name="add_to_other_folder_menu_option">Toinen kansio</string>
+    <string name="add_up_to_15">Lisää jopa 20</string>
+    <string name="added_new_bookmark">Lisää kirjanmerkki</string>
+    <string name="allow">Salli</string>
+    <string name="allow_download">Salli lataus</string>
+    <string name="allow_download_no">Yhdistä WiFi-verkkoon</string>
+    <string name="already_cleared">Tyhjennetty</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Saatavilla</string>
+    <string name="block">Estä</string>
+    <string name="bookmark_cannot_save_url">Tätä URL-osoitetta ei voi tallentaa kirjanmerkkeihin</string>
+    <string name="bookmark_list">Kirjanmerkit</string>
+    <string name="bookmark_needs_title">"Kirjanmerkillä täytyy olla nimi"</string>
+    <string name="bookmark_needs_url">"Kirjanmerkillä täytyy olla sijainti"</string>
+    <string name="bookmark_not_saved">Kirjanmerkkiä ei voitu tallentaa</string>
+    <string name="bookmark_saved">Tallennettu kirjanmerkkeihin</string>
+    <string name="bookmark_this_page">Lisää tämä sivu kirjanmerkkeihin</string>
+    <string name="bookmark_url_not_valid">Tämä URL-osoite ei ole kelvollinen</string>
+    <string name="bookmarks">Kirjanmerkit</string>
+    <string name="bookmarks_add_page">Tallenna kirjanmerkki</string>
+    <string name="bookmarks_search">Selaimen hakutoiminto</string>
+    <string name="browserFrameFileErrorLabel">Tiedosto-ongelma</string>
+    <string name="browserFrameFormResubmitMessage">Sivulla, jota yrität katsella, on tietoja, jotka on jo lähetetty ("POSTDATA"). Jos lähetät tiedot uudelleen, kaikki lomakkeen tekemät toimet (esimerkiksi haku tai verkkokauppaostos) toistuvat.</string>
+    <string name="browserFrameNetworkErrorLabel">Yhteysongelma</string>
+    <string name="browser_admin_panel">Käyttäjäkeskus</string>
+    <string name="browser_hot_word_title" translatable="false">Kuuma haku lista</string>
+    <string name="browser_navigation">Navigointi</string>
+    <string name="browser_net_error_refresh" translatable="false">Klikkaa tyhjää aluetta päivittääksesi sivun</string>
+    <string name="browser_open_all_most_visited" translatable="false">Laajenna suositeltu verkkosivusto</string>
+    <string name="browser_permission_camera">Kameran käyttöoikeus evätty, ota se käyttöön manuaalisesti</string>
+    <string name="browser_permission_notification">Ilmoituspalkin käyttöoikeus evätty, ota se käyttöön manuaalisesti</string>
+    <string name="browser_permission_qr">Tämä toiminto vaatii muistin käyttöoikeuden. Ota se käyttöön manuaalisesti asetuksista</string>
+    <string name="browser_permission_setwall">Puhelimen taustakuvan asettaminen vaatii muistin tallennusluvan. Ota se käyttöön asetuksista</string>
+    <string name="browser_permission_strone">Tiedostojen lataaminen vaatii tallennustilan käyttöoikeuden. Ota se käyttöön manuaalisesti asetuksista</string>
+    <string name="browser_privacy_tips">Henkilötietojasi käsitellään tietosuojakäytäntömme mukaisesti.</string>
+    <string name="browser_product_agree_tips">Sinun on hyväksyttävä käyttöehdot.</string>
+    <string name="browser_product_start">Aloita</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost selain. \nKaikki oikeudet pidätetään.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Etsi vapaasti kaikkea mitä tarvitset</string>
+    <string name="browser_slogo_fast">Nopeampi</string>
+    <string name="browser_slogo_intelligence">Älykkäämpi</string>
+    <string name="browser_slogo_safe">Turvallisempi</string>
+    <string msgid="6709237687234102240" name="browser_tools">Työkalut</string>
+    <string name="btn_recommend_add">Lisää</string>
+    <string name="byfrost_slogan">Byfrost - Näe suurempi maailma!</string>
+    <string name="byfrost_suggestion">Olemme vastaanottaneet ehdotuksesi, kiitos.</string>
+    <string name="byfrost_suggestion_time">Palauteajan on oltava vähintään 1 minuutti edellisestä kerrasta.</string>
+    <string name="cancel">Peruuta</string>
+    <string name="cancelDel">Peruuta poisto?</string>
+    <string name="cannot_open_the_file">Ei ohjelmaa tämän tiedostotyypin avaamiseen</string>
+    <string name="check_for_update">Tarkistetaan päivitystä...</string>
+    <string name="check_network">Lähetys epäonnistui verkko-ongelman vuoksi, tarkista yhteys.</string>
+    <string name="choosertitle_sharevia">Jaa kautta</string>
+    <string name="clear">Tyhjennä</string>
+    <string name="clear_all">Tyhjennä kaikki</string>
+    <string name="clear_all_already">Kaikki tiedot on jo poistettu!</string>
+    <string name="clear_data_success">Tyhjennys onnistui</string>
+    <string name="clear_default_browser">Poista oletusselaimen asetukset</string>
+    <string name="clear_default_setting_please">Toinen selain on asetettu oletusselaimeksi, poista sen oletusasetukset.</string>
+    <string name="clear_history_all">Tyhjennä koko historia</string>
+    <string name="click_again_quit">Napauta takaisin poistuaksesi</string>
+    <string name="close_all_incognito_notification">Sulje kaikki yksityiset välilehdet</string>
+    <string name="commit_fail">Lähetys epäonnistui, yritä myöhemmin uudelleen</string>
+    <string name="confirm_deletion">Poista tämä?</string>
+    <string name="confirm_deletion_all">Poista kaikki?</string>
+    <string name="contact_us_on_facebook">Ota yhteyttä meihin Facebookissa</string>
+    <string name="containing_folder">Lisää kansioon</string>
+    <string name="contextheader_folder_bookmarkcount">%d kirjanmerkkiä</string>
+    <string name="contextheader_folder_empty">Tyhjä kansio</string>
+    <string name="contextmenu_add_contact">Lisää yhteystieto</string>
+    <string name="contextmenu_copy">Kopioi</string>
+    <string name="contextmenu_copylink">Kopioi linkin URL</string>
+    <string name="contextmenu_dial_dot">Soita…</string>
+    <string name="contextmenu_download_image">Tallenna kuva</string>
+    <string name="contextmenu_map">Kartta</string>
+    <string name="contextmenu_openlink_newwindow">Avaa uudessa välilehdessä</string>
+    <string name="contextmenu_openlink_newwindow_background">Avaa taustalle</string>
+    <string name="contextmenu_savelink">Tallenna linkki</string>
+    <string name="contextmenu_send_mail">Lähetä sähköposti</string>
+    <string name="contextmenu_set_wallpaper">Aseta taustakuvaksi</string>
+    <string name="contextmenu_set_wallpaper_image">Taustakuva</string>
+    <string name="contextmenu_share_app">Jaa sovellus</string>
+    <string name="contextmenu_share_website">Jaa verkkosivusto</string>
+    <string name="contextmenu_sharelink">Jaa linkki</string>
+    <string name="contextmenu_view_image">Näytä kuva</string>
+    <string name="copy_link">Kopioi linkki</string>
+    <string name="copylink_success">Linkki kopioitu</string>
+    <string name="create_shortcut_bookmark">Lisää pikakuvake aloitusnäyttöön</string>
+    <string name="custom_rules">Mukautetut AdBlock-suodattimet</string>
+    <string name="custom_rules_title">AdBlock-suodattimet</string>
+    <string name="default_bookmark">Oletus kirjanmerkki</string>
+    <string name="default_location">Oletuspaikka: %1$s</string>
+    <string name="delete">Poista</string>
+    <string name="delete_bookmark_warning">Poistetaanko kirjanmerkki \"%s\"?</string>
+    <string name="delete_folder">Poista kansio</string>
+    <string name="deletion_all">Poista kaikki</string>
+    <string name="desktop">Työpöytä</string>
+    <string name="done">VALMIS</string>
+    <string name="download">Lataa</string>
+    <string name="download_allow_mobile">Sallitaanko tiedostojen lataaminen mobiiliverkossa?</string>
+    <string name="download_failed">Lataus epäonnistui</string>
+    <string name="download_list">Latauslista</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">SD-kortti tarvitaan %s lataamiseen.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">Ei SD-korttia</string>
+    <string name="download_pause">Lataus keskeytetty</string>
+    <string name="download_pending">Aloitetaan lataus…</string>
+    <string name="download_removed">Poistettu</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD-kortti on käytössä. Salli lataukset koskettamalla "Poista USB-tallennus käytöstä" ilmoituksessa.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD-kortti ei saatavilla</string>
+    <string name="downloaded">Ladattu</string>
+    <string name="downloading">Ladataan</string>
+    <string name="downloadmanager_disabled">Lataushallinta on pois päältä. Ota se käyttöön.</string>
+    <string name="edit">Muokkaa</string>
+    <string name="edit_bookmark">Muokkaa kirjanmerkkiä</string>
+    <string name="edit_folder">Muokkaa kansiota</string>
+    <string name="edited">MUOKATTU</string>
+    <string name="email">Sähköposti:</string>
+    <string name="email_is_error">Syötä oikea puhelinnumero</string>
+    <string name="empty_bookmarks_folder">Kirjanmerkkisi ovat tyhjät</string>
+    <string name="empty_history">Ei selaushistoriaa</string>
+    <string name="empty_info_most_visited">Ei tietoja</string>
+    <string name="empty_snapshots_folder">Ei tallennettuja sivuja</string>
+    <string name="enter_incognito_mode">Siirry yksityiseen tilaan</string>
+    <string name="enter_normal_mode">Siirry normaaliin tilaan</string>
+    <string name="enter_settings_page">Siirry asetuksiin, kun poisto on suoritettu.</string>
+    <string name="enter_website_name">Syötä verkkosivuston nimi</string>
+    <string name="error_console_eval_button_text" translatable="false">Arvioi</string>
+    <string name="error_console_eval_text_hint" translatable="false">Arvioi JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript-konsoli</string>
+    <string name="error_console_header_text_minimized" translatable="false">Näytä JavaScript-konsoli</string>
+    <string name="exit">Poistu</string>
+    <string name="exit_dialog_title">Poistu selaimesta?</string>
+    <string name="feed_back_sucess">Olemme vastaanottaneet kommenttisi ja ehdotuksesi, kiitos.</string>
+    <string name="feedback_other">Muut:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Valinnainen)</string>
+    <string name="feedback_submit">Lähetä</string>
+    <string name="file_exist">Tiedosto on jo olemassa</string>
+    <string name="file_name">Tiedoston nimi</string>
+    <string name="file_not_exist">Tiedostoa ei ole olemassa</string>
+    <string name="filename_empty">Tiedoston nimi ei voi olla tyhjä</string>
+    <string name="find_on_page">Etsi sivulta</string>
+    <string name="five_stars">5 tähteä</string>
+    <string name="five_stars_comment">Anna ehdotuksia.</string>
+    <string name="five_stars_content">Viiden tähden arvioinnillasi on suuri merkitys meille.</string>
+    <string name="five_stars_later">Myöhemmin</string>
+    <string name="five_stars_titile">Nautitko %s:stä?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Kieltäydy</string>
+    <string name="geolocation_permissions_prompt_message">%s haluaa tietää sijaintisi</string>
+    <string name="geolocation_permissions_prompt_share">Jaa sijainti</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Tämä sivusto voi käyttää sijaintiasi. Voit muuttaa tätä asetuksista > Lisäasetukset > Verkkosivuston asetukset.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Tämä sivusto ei voi käyttää sijaintiasi. Voit muuttaa tätä asetuksista > Lisäasetukset > Verkkosivuston asetukset.</string>
+    <string name="geolocation_settings_page_dialog_message">Poistetaanko sijaintipääsy tälle verkkosivustolle?</string>
+    <string name="geolocation_settings_page_summary_allowed">Tämä sivusto voi tällä hetkellä käyttää sijaintiasi</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Tämä sivusto ei voi tällä hetkellä käyttää sijaintiasi</string>
+    <string name="geolocation_settings_page_title">Peruuta lupa sijaintisi saamiseen</string>
+    <string name="get_photo_failure">Kuvien haku epäonnistui</string>
+    <string name="go">Mene</string>
+    <string name="go_back">Palaa takaisin</string>
+    <string name="history">Historia</string>
+    <string name="home_page">Aloitussivu</string>
+    <string name="incognito_home">Olet yksityisessä tilassa</string>
+    <string name="incognito_home_content">Olet nyt yksityisessä tilassa.</string>
+    <string name="incognito_home_tip">Voit poistua yksityisestä tilasta ja palata normaalitilaan.</string>
+    <string name="input_over_flow">Lähetys epäonnistui, koska %1$d merkkiä ylittää rajan</string>
+    <string name="instructions_label">Käyttöohjeet</string>
+    <string name="is_latest">Olet jo viimeisimmässä versiossa!</string>
+    <string name="js_ad_block_count">Estetyt JavaScript-tiedostot</string>
+    <string name="js_disable_host_error_prompt">Domainivirhe, muokkaa uudelleen!</string>
+    <string name="js_disable_hosts">Aseta mainostunnisteen aikaraja</string>
+    <string name="js_disable_hosts_title">Tietyt domainit</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Työkalut</string>
+    <string name="lable_calendar">Kalenteri</string>
+    <string name="lable_lifestyle">Elämäntapa</string>
+    <string name="lable_maps">Kartat</string>
+    <string name="lable_news">Uutiset</string>
+    <string name="lable_translate">Kääntää</string>
+    <string name="lable_video">Videot</string>
+    <string name="lable_weather">Sää</string>
+    <string name="leadpage_back">Takaisin</string>
+    <string name="leadpage_forward">Eteenpäin</string>
+    <string name="leadpage_home">Aloitussivu</string>
+    <string name="loading_video">Ladataan videota…</string>
+    <string name="local_bookmarks">Paikalliset</string>
+    <string name="location">Osoite</string>
+    <string name="mark_image_ad">Merkitse mainos</string>
+    <string name="mark_image_ad_fail">Merkitseminen epäonnistui</string>
+    <string name="max_tabs_warning">Ei lisää välilehtiä käytettävissä</string>
+    <string name="menu_browser_Tools">Työkalut</string>
+    <string name="menu_browser_add_bookmark">Lisää kirjanmerkki</string>
+    <string name="menu_browser_bookmarks">Kirjanmerkit</string>
+    <string name="menu_browser_close_incognito">Normaali</string>
+    <string name="menu_browser_downloads">Lataukset</string>
+    <string name="menu_browser_font_size">Fonttikoko</string>
+    <string name="menu_browser_full_screen">Koko näyttö</string>
+    <string name="menu_browser_history">Historia</string>
+    <string name="menu_browser_incognito">Yksityinen</string>
+    <string name="menu_browser_night">Silmänsuojus</string>
+    <string name="menu_browser_no_image">Ei kuvia</string>
+    <string name="menu_browser_quit">Poistu</string>
+    <string name="menu_browser_search_page">Etsi sivulta</string>
+    <string name="menu_browser_settings">Asetukset</string>
+    <string name="menu_browser_snapshots">Tallenna sivu</string>
+    <string name="menu_preferences">Asetukset</string>
+    <string name="menu_tools_box">Työkalupakki</string>
+    <string name="messageContent">Uusi versio on saatavilla %s:lle, voit päivittää sen nyt.</string>
+    <string name="modify">Muokkaa</string>
+    <string name="most_visited">Vieraillut eniten</string>
+    <string name="my_qrcode" translatable="false">Oma QR-koodi</string>
+    <string name="name">Tunnus</string>
+    <string name="name_cannot_empty">Verkkonimen ei voi olla tyhjä</string>
+    <string name="new_file">Luo uusi tiedosto</string>
+    <string name="new_folder">Uusi kansio</string>
+    <string name="new_incognito_tab">Uusi incognito-välilehti</string>
+    <string name="new_tab">Uusi välilehti</string>
+    <string name="no_downloads">Ei latauksia</string>
+    <string name="no_prompt">Älä kysy enää</string>
+    <string name="no_subfolders">Ei alikansioita.</string>
+    <string name="notification_content_text">Napauta nähdäksesi</string>
+    <string name="notification_download_finish">Lataus valmis</string>
+    <string name="null_rules_prompt">Voit lisätä omat sääntösi. Sääntöjen tulee noudattaa Adblock Plusin syntaksia. Käyttöohjeet.</string>
+    <string name="ok">OK</string>
+    <string name="open">Avaa</string>
+    <string name="open_all_in_new_window">Avaa kaikki uusissa välilehdissä</string>
+    <string name="open_most_visited">Avaa eniten vierailut>></string>
+    <string name="optional">(Valinnainen)</string>
+    <string name="other_bookmarks">Muut kirjanmerkit</string>
+    <string name="page_info">Sivun tiedot</string>
+    <string name="page_info_address">Osoite:</string>
+    <string name="page_info_view">Näytä sivun tiedot</string>
+    <string name="password">Salasana</string>
+    <string name="permissions_prompt_deny">Kiellä</string>
+    <string name="permissions_prompt_message">%1$s haluaa käyttää %2$s.</string>
+    <string name="pic_ad_block_count">Estetyt kuvat</string>
+    <string name="picture_nocodeinfo" translatable="false">Ei QR-koodin tietoja tunnistettu kuvassa</string>
+    <string name="picture_scannoinfo" translatable="false">QR-koodin tietoja ei skannattu</string>
+    <string name="please_input_over_six">Syötä vähintään 6 merkkiä</string>
+    <string name="please_input_under_max">Syötä enintään %1$d merkkiä</string>
+    <string name="please_leave_your_email">Jätä sähköpostiosoitteesi</string>
+    <string name="popup_ad_block_count">Estetyt ponnahdusikkunat</string>
+    <string name="pref_about">Tietoa</string>
+    <string name="pref_ad_block">Mainosten esto</string>
+    <string name="pref_agreement">Käyttöehdot</string>
+    <string name="pref_always" translatable="false">AINA</string>
+    <string name="pref_check_update">Tarkista päivitys</string>
+    <string name="pref_confirm_on_exit">Vahvista poistuminen</string>
+    <string name="pref_contact_us">Ota yhteyttä:</string>
+    <string name="pref_content_search_engine">Valitse hakukone</string>
+    <string name="pref_default_ad_time">Mainosmerkkauksen aika</string>
+    <string name="pref_default_browser">Aseta oletusselaimeksi</string>
+    <string name="pref_default_text_encoding">Tekstikoodaus</string>
+    <string name="pref_deverloper_options">Kehittäjäasetukset</string>
+    <string name="pref_download">Latausasetukset</string>
+    <string name="pref_download_path_setting_screen_title">Mukautettu latauspolku</string>
+    <string name="pref_download_with_ADM">Lataa ADM:n kanssa</string>
+    <string name="pref_extras_reset_default">Palauta oletusasetukset</string>
+    <string name="pref_extras_reset_default_dlg">Palautetaanko asetukset oletusarvoiksi?</string>
+    <string name="pref_extras_website_settings">Verkkosivuston asetukset</string>
+    <string name="pref_feedback">Palaute</string>
+    <string name="pref_five_star">Viisi tähteä</string>
+    <string name="pref_font_size">Fonttikoko</string>
+    <string name="pref_font_size_summary">Säädä tekstin ja fonttien kokoa</string>
+    <string name="pref_force_userscalable">Pakota zoomaus päälle</string>
+    <string name="pref_force_userscalable_summary">Ohita verkkosivuston zoomauskäyttäytymisen hallintapyyntö</string>
+    <string name="pref_min_font_size">Pienin fonttikoko</string>
+    <string name="pref_notification_tool_show">Näytä hakupalkki ilmoituspaneelissa</string>
+    <string name="pref_privacy_clear_data">Tyhjennä tiedot</string>
+    <string name="pref_privacy_enable_geolocation">Ota sijainti käyttöön</string>
+    <string name="pref_privacy_enable_geolocation_summary">Salli sivustojen pyytää pääsyä sijaintiisi</string>
+    <string name="pref_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="pref_privacy_security_title">Yksityisyys &amp; Turvallisuus</string>
+    <string name="pref_privacy_security_title_summary">Salli selaimen muistaa salasanat, tallennetut lomakkeet jne.</string>
+    <string name="pref_search_engine_dialog_title">Valitse hakukone</string>
+    <string name="pref_security_accept_cookies">Hyväksy evästeet</string>
+    <string name="pref_security_accept_cookies_summary">Salli sivustojen tallentaa ja lukea evästedataa</string>
+    <string name="pref_security_remember_passwords">Muista salasanat</string>
+    <string name="pref_security_remember_passwords_summary">Tallenna käyttäjätunnukset ja salasanat verkkosivustoille</string>
+    <string name="pref_security_save_form_data">Muista lomaketiedot</string>
+    <string name="pref_security_save_form_data_summary">Muista lomakkeelle syöttämäni tiedot</string>
+    <string name="pref_security_show_security_warning">Näytä turvallisuusvaroitukset</string>
+    <string name="pref_security_show_security_warning_summary">Näytä varoitus, jos sivuston turvallisuus on ongelmallinen</string>
+    <string name="pref_show_download_dialog">Näytä latausdialogi</string>
+    <string name="pref_show_header_news">Näytä aika/sää/uutiset edellisestä sivusta</string>
+    <string name="pref_show_red_badge_notity">Näytä punainen merkki-ilmoitus</string>
+    <string name="pref_show_status_bar">Näytä tilapalkki</string>
+    <string name="pref_text_zoom">Tekstin skaalaus</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_VAIN</string>
+    <string name="product_agree">Hyväksy</string>
+    <string name="product_no_agree">Älä hyväksy</string>
+    <string name="progress_dialog_setting_wallpaper">Asetetaan taustakuvaa…</string>
+    <string name="prompt_already_saved_bookmark">Olet jo lisännyt tämän kirjanmerkiksi</string>
+    <string name="prompt_already_saved_off">Olet jo tallentanut tämän sivun</string>
+    <string name="prompt_saved_off_line">Tallennettu offline-sivuille</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">Aseta QR-koodi laatikkoon ja aloita skannaus</string>
+    <string name="refresh">Päivitä</string>
+    <string name="remember_preference">Muista asetukset</string>
+    <string name="remove">Poista</string>
+    <string name="remove_bookmark">Poista kirjanmerkki</string>
+    <string name="remove_items_all">Poista kaikki kohteet</string>
+    <string name="remove_snapshot">Poista tallennettu sivu</string>
+    <string name="removed_from_bookmarks">Poistettu kirjanmerkeistä.</string>
+    <string name="rename">Nimeä tiedostot uudelleen</string>
+    <string name="rename_failed">Nimeäminen epäonnistui</string>
+    <string name="rename_success">Nimeäminen onnistui</string>
+    <string name="replace_file">Korvaa tiedosto</string>
+    <string name="request_fail">Pyyntö epäonnistui, yritä myöhemmin uudelleen</string>
+    <string name="request_read_external_storage_error">Pyyntö epäonnistui puhelimen muistiin pääsyssä</string>
+    <string name="resource_audio_capture">mikrofoni</string>
+    <string name="resource_protected_media_id">suojattu media-ID</string>
+    <string name="resource_video_capture">kamera</string>
+    <string name="right_recommend_add_link_not_title">Syötä otsikko</string>
+    <string name="right_recommend_add_link_not_url">Syötä URL</string>
+    <string name="right_recommend_add_link_repeat">URL on jo olemassa</string>
+    <string name="right_recommend_add_link_saved">Tallennettu</string>
+    <string name="right_recommend_add_link_url_format">Tämä URL on virheellinen</string>
+    <string name="right_recommend_tools_desktop">Työpöytä</string>
+    <string name="right_recommend_tools_remove">Poista</string>
+    <string name="sdcard_free">%1$s vapaata/%2$s</string>
+    <string name="search_hint">Hae tai kirjoita URL</string>
+    <string name="search_history">Hakuhistoria</string>
+    <string name="search_settings_description">Kirjanmerkit ja verkkohistoria</string>
+    <string name="search_the_web">Hae verkosta</string>
+    <string name="security_warning">Turvavaroitus</string>
+    <string name="select_dot">Valitse teksti</string>
+    <string name="select_download_path">Valitse kansio "%s" latauspaikaksi</string>
+    <string name="select_location">Valitse sijainti</string>
+    <string name="select_qr_code" translatable="false">Valitse QR-koodikuva</string>
+    <string name="sendText">Valitse toiminto tekstille</string>
+    <string name="set_as_homepage">Aseta aloitussivuksi</string>
+    <string name="set_default_browser">Aseta oletusselain</string>
+    <string name="set_default_failure">Oletusasetuksen asettaminen epäonnistui. Yritä uudelleen.</string>
+    <string name="set_default_success">Asetus onnistui!</string>
+    <string name="setting_bottom_day">Vaalea tila</string>
+    <string name="setting_bottom_expanding">Laajentaminen</string>
+    <string name="setting_bottom_night">Pimeä tila</string>
+    <string name="setting_update_speech_recognition">Äänikomento ei ole käytettävissä, päivitä Google-äänipalvelu</string>
+    <string name="share">Jaa</string>
+    <string name="share_dialog_title" translatable="false">Jaa verkkosivu</string>
+    <string name="shortcut_bookmark">Kirjanmerkki</string>
+    <string name="shortcut_bookmark_title">Valitse kirjanmerkki</string>
+    <string name="show_dev_on">Olet nyt kehittäjä!</string>
+    <string name="sign_in_to">Kirjaudu sisään %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Ilman nimeä</string>
+    <string name="ssl_certificate">Turvallisuussertifikaatti</string>
+    <string name="ssl_certificate_is_valid">Tämä sertifikaatti on voimassa.</string>
+    <string name="ssl_continue">Jatka</string>
+    <string name="ssl_date_invalid">Tässä sertifikaatissa on virheellinen päivämäärä.</string>
+    <string name="ssl_expired">Tämän sertifikaatin voimassaoloaika on päättynyt.</string>
+    <string name="ssl_invalid">Tämä sertifikaatti ei ole voimassa.</string>
+    <string name="ssl_mismatch">Sivuston nimi ei vastaa sertifikaatissa olevaa nimeä.</string>
+    <string name="ssl_not_yet_valid">Tämä sertifikaatti ei ole vielä voimassa.</string>
+    <string name="ssl_unknown">Tuntematon sertifikaattivirhe.</string>
+    <string name="ssl_untrusted">Tämä sertifikaatti ei ole luotettavalta viranomaiselta.</string>
+    <string name="ssl_warnings_header">Tässä sivustossa on ongelmia turvallisuussertifikaatin kanssa.</string>
+    <string name="stopping">Pysäytetään...</string>
+    <string name="storage_space_lack">Ei tarpeeksi tallennustilaa</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Varmista, että olet valinnut oikean kuvan</string>
+    <string name="swipe_up_tip">Vedä ylös poistaaksesi välilehden</string>
+    <string name="tab_snapshots">Tallennetut sivut</string>
+    <string name="text_count_can_input">%1$d merkkiä voi syöttää</string>
+    <string name="title_activity_add_link">Lisää linkki</string>
+    <string name="title_clear_all_history">Poista koko historia?</string>
+    <string name="title_clear_bookmark">Poista kirjanmerkki?</string>
+    <string name="title_clear_history">Poista historia?</string>
+    <string name="title_clear_off_line">Poista tallennetut sivut?</string>
+    <string name="too_many_subwindows_dialog_message">Vain yksi ponnahdusikkuna voi olla avoinna kerrallaan.</string>
+    <string name="too_many_subwindows_dialog_title">Ponnahdusikkuna jo avoinna</string>
+    <string name="too_many_windows_dialog_message">Et voi avata uutta välilehteä ennen kuin suljet yhden.</string>
+    <string name="toolbox_menu_off">POIS</string>
+    <string name="toolbox_menu_on">PÄÄLLÄ</string>
+    <string name="total">Yhteensä</string>
+    <string name="ua_switcher_desktop">Pyydä työpöytäsivustoa</string>
+    <string name="unknown">tuntematon</string>
+    <string name="unknown_error">Tuntematon virhe, yritä uudelleen.</string>
+    <string name="unknown_file">Tuntemattomat tiedostotyypit</string>
+    <string name="update_at_once">Päivitä</string>
+    <string name="update_content1">1. Superälykkäät tiedemiehemme ovat saaneet verkkosivut latautumaan salamannopeasti!</string>
+    <string name="update_content2">2. Ihana suunnittelijamme on taikonut kaiken näyttämään entistä kauniimmalta!</string>
+    <string name="update_content3">3. Ja upeat kehittäjämme? He valvoivat myöhään kahvia siemaillen, ja karkottivat kaikki kiusalliset bugit!</string>
+    <string name="update_later">Päivitä myöhemmin</string>
+    <string name="update_now">Siirry Google Playhin ladataksesi sovelluksen.</string>
+    <string name="update_remind">Päivitysviesti</string>
+    <string name="update_tips1">Kyllä, arvasit oikein! Uusi päivitys on täällä!</string>
+    <string name="update_tips2">✨Kaikki tämä parantaakseen käyttökokemustasi!\nPäivitä nyt ja tutustu! ✨</string>
+    <string name="update_title">Uusi versio löytyi</string>
+    <string name="upload_image">Lataa kuvia</string>
+    <string name="uploads_disabled">Tiedostojen lataus on poistettu käytöstä.</string>
+    <string name="username">Nimi</string>
+    <string name="versionUpdate">Päivitä</string>
+    <string name="video_mobile_pause">Peruuta</string>
+    <string name="video_mobile_permission">Käytät mobiiliverkkoa. Haluatko silti toistaa?</string>
+    <string name="video_mobile_play">Toista</string>
+    <string name="view">Näytä</string>
+    <string name="view_certificate">Näytä sertifikaatti</string>
+    <string name="view_select_all">Valitse kaikki</string>
+    <string name="visit_url_ok">Vieraile</string>
+    <string name="visit_url_title">Vieraile tällä URL-osoitteella leikepöydältä?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Kuuma</string>
+    <string name="website_lifestyle">Elämäntapa</string>
+    <string name="website_news">Uutiset•Urheilu</string>
+    <string name="website_recommend">Suositellut</string>
+    <string name="website_settings_list_header_text">Sijaintipääsy</string>
+    <string name="website_shoping">Viihde•Ostos</string>
+    <string name="website_social">Sosiaalinen</string>
+    <string name="website_tools">Työkalut</string>
+    <string name="website_videos">Videot</string>
+    <string name="webstorage_clear_data_title">Tyhjennä tallennetut tiedot</string>
+    <string name="webstorage_origin_summary_mb_stored">MB tallennettu puhelimeesi</string>
+    <string name="webstorage_outofspace_notification_text">Kosketa vapauttaaksesi tilaa.</string>
+    <string name="webstorage_outofspace_notification_title">Selaimen tallennustila täynnä</string>
+    <string name="write_advice_please">Kuvaile mielipiteesi tai ehdotuksesi sanoilla... (1000 sanaa)</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.</string>
+    <string name="zxing_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string>
+</resources>

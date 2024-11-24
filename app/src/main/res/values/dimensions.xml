@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Copyright (C) 2010 The Android Open Source Project Licensed under the
+    Apache License, Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License. You may obtain a copy of the
+    License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+    applicable law or agreed to in writing, software distributed under the
+    License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+    CONDITIONS OF ANY KIND, either express or implied. See the License for
+    the specific language governing permissions and limitations under the
+    License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="bookmarkThumbnailWidth">90dip</dimen>
+    <dimen name="bookmarkThumbnailHeight">80dip</dimen>
+    <!-- Height determined by measuring the TableLayout in
+        browser_add_bookmark_content and matching that. -->
+    <dimen name="favicon_size">16dip</dimen>
+    <dimen name="favicon_padded_size">20dip</dimen>
+    <!-- For the most visited page (we use px as these are adjusted by the browser) -->
+    <dimen name="list_favicon_padding">5dip</dimen>
+    <dimen name="list_favicon_corner_radius">3dip</dimen>
+    <dimen name="widgetThumbnailHeight">94dip</dimen>
+    <dimen name="widgetHorizontalSpacing">6dip</dimen>
+    <dimen name="widgetVerticalSpacing">6dip</dimen>
+    <dimen name="widgetColumnWidth">80dip</dimen>
+    <!-- For the combined Bookmarks History view -->
+    <dimen name="combo_paddingTop">0dip</dimen>
+    <!-- Preference activity side margins -->
+    <dimen name="preference_screen_side_margin">0dp</dimen>
+    <dimen name="preference_screen_side_margin_down">6dp</dimen>
+    <!-- Preference activity side margins negative-->
+    <dimen name="preference_screen_side_margin_negative">0dp</dimen>
+    <!-- Preference widget area width (to the left of the text) -->
+    <dimen name="toolbar_height">48dip</dimen>
+    <dimen name="tab_thumbnail_width">314dp</dimen>
+    <dimen name="tab_thumbnail_height">413dp</dimen>
+    <dimen name="nav_tab_width">328dp</dimen>
+    <dimen name="nav_tab_height">520dp</dimen>
+    <dimen name="nav_tab_titleheight">41dp</dimen>
+    <dimen name="navigation_grid_height">160dp</dimen>
+    <dimen name="navigation_margin_top">-10dp</dimen>
+    <dimen name="actionbar_height">48dp</dimen>
+
+    <!-- settings_radio -->
+    <!--history-->
+    <dimen name="history_image_height">40dp</dimen>
+    <dimen name="history_item_height">44dp</dimen>
+    <dimen name="history_url_sp">12sp</dimen>
+    <dimen name="history_content_margin_right">70dp</dimen>
+    <dimen name="snapshot_content_margin_right">60dp</dimen>
+
+    <dimen name="settings_list_height">60dp</dimen>
+    <dimen name="settings_list_summary_height">60dp</dimen>
+    <dimen name="settings_list_item_title_size">14sp</dimen>
+    <dimen name="settings_list_item_summary_size">12sp</dimen>
+    <dimen name="settings_seekbar_preference_height">100dp</dimen>
+    <dimen name="settings_actionbar_img_padding">16dp</dimen>
+    <dimen name="settings_actionbar_title_leftpadding">8dp</dimen>
+    <dimen name="settings_actionbar_title_size">17sp</dimen>
+    <dimen name="settings_list_divider_margin">16dp</dimen>
+    <dimen name="settings_list_item_text_marginstart">20dp</dimen>
+    <dimen name="settings_list_item_text_margintop">0dp</dimen>
+
+    <dimen name="history_padding_top">20dp</dimen>
+
+    <dimen name="browser_switch_thumb_wh">23dp</dimen>
+    <dimen name="browser_switch_thumb_shadow_start_padding">-1.5dp</dimen>
+    <dimen name="browser_switch_thumb_shadow_end_padding">-2dp</dimen>
+
+    <!--size of RoundProgressBar text-->
+    <!--size of RoundProgressBar border width-->
+    <dimen name="rounded_progress_border_width">5dp</dimen>
+
+    <dimen name="bottom_menu_item_text_size">11sp</dimen>
+
+    <!--dailog -->
+    <dimen name="dialog_horizontal_padding">46dp</dimen>
+    <dimen name="dialog_content_padding_top">12dp</dimen>
+    <dimen name="dialog_content_padding_bottom">15dp</dimen>
+
+    <dimen name="dialog_title_size">16sp</dimen>
+    <dimen name="dialog_bottom_layout_height">40dp</dimen>
+    <dimen name="dialog_button_size">16sp</dimen>
+    <dimen name="dialog_button_horizontal_padding">40dp</dimen>
+    <dimen name="dialog_button_five_star">25dp</dimen>
+
+    <dimen name="dialog_list_item_height">60dp</dimen>
+    <dimen name="dialog_item_text_size">12sp</dimen>
+    <dimen name="most_visited_pager_line_hight">1dp</dimen>
+    <dimen name="browser_select_engine_width">220dp</dimen>
+    <dimen name="browser_info_item">72dp</dimen>
+    <dimen name="search_engine_height">55dp</dimen>
+
+    <dimen name="browser_info_empty_bottom">30dp</dimen>
+
+    <dimen name="file_picker_default_loaction_text_height">44dp</dimen>
+    <dimen name="file_picker_item_horizontal_padding">16dp</dimen>
+    <dimen name="file_picker_item_text_left_padding">10dp</dimen>
+    <dimen name="file_picker_item_title_size">16sp</dimen>
+    <dimen name="file_picker_item_desc_size">14sp</dimen>
+
+    <dimen name="text_size_preference_webbview_height">220dp</dimen>
+
+    <dimen name="history_icon_width">22dp</dimen>
+    <dimen name="history_item_height_size">54dp</dimen>
+    <dimen name="history_title_size">14sp</dimen>
+    <dimen name="history_url_size">11sp</dimen>
+    <dimen name="history_icon_title_gap">12dp</dimen>
+    <dimen name="history_icon_left">16dp</dimen>
+
+    <dimen name="bottom_toolbar_height">55dp</dimen>
+    <dimen name="empty_history_icon_height">82dp</dimen>
+    <dimen name="progress_bar_height">2dp</dimen>
+
+    <!--首页文字大小修改-->
+    <dimen name="progress_text_size_height">48dp</dimen>
+    <dimen name="progress_text_size_seekbar_thumb_wh">30dp</dimen>
+    <dimen name="progress_text_size_seekbar_thumb_padding">8dp</dimen>
+
+    <dimen name="scroll_thumb_bar_height">37dp</dimen>
+    <dimen name="scroll_thumb_bar_width">26dp</dimen>
+    <dimen name="clear_incognito_tabs_height">58dp</dimen>
+    <dimen name="bookmark_item_height">40dp</dimen>
+    <dimen name="context_menu_dialog_maxwidth">180dp</dimen>
+    <dimen name="context_menu_dialog_divider_height">1dp</dimen>
+    <dimen name="context_menu_dialog_margin_left_right">24dp</dimen>
+    <dimen name="context_menu_dialog_margin_top_btm">15dp</dimen>
+    <dimen name="context_menu_dialog_text_size">14sp</dimen>
+
+    <dimen name="toolbar_common_button_padding_bottom">15dp</dimen>
+    <dimen name="tab_card_item_padding">7dp</dimen>
+    <dimen name="nav_screen_title_text_size">12sp</dimen>
+    <dimen name="title_bar_text_size">10sp</dimen>
+
+    <dimen name="toast_margin_start">14dp</dimen>
+    <dimen name="toast_margin_top">14dp</dimen>
+    <dimen name="toast_message_size">15sp</dimen>
+    <dimen name="select_search_engine_width">48dp</dimen>
+    <dimen name="recommend_url_padding">7dp</dimen>
+
+
+    <dimen name="bottom_toolbar_scroll_animator_distance">25dp</dimen>
+
+    <dimen name="scroll_toolbar_horizontal_distance">55dp</dimen>
+    <dimen name="scroll_swipe_icon_width">38dp</dimen>
+    <dimen name="search_hint_text_size">14sp</dimen>
+    <dimen name="url_search_item">52dp</dimen>
+    <dimen name="slide_back_or_forward_margin">-48dp</dimen>
+
+    <dimen name="navscreen_tab_views_offset">30dp</dimen>
+
+
+    <dimen name="tab_button_width">48dp</dimen>
+    <dimen name="tab_button_horizontal_margin">4dp</dimen>
+    <dimen name="tab_content_margin_top">19dp</dimen>
+    <dimen name="textsize03">14sp</dimen>
+    <dimen name="browser_download_tips_height">150dp</dimen>
+
+    <dimen name="browser_search_input_height">60dp</dimen>
+
+    <dimen name="mb_corner_radius_2">2dp</dimen>
+</resources>

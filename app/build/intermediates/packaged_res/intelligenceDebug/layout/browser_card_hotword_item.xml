@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/card_hotword_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:scrollbars="vertical"
+        android:paddingTop="0dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:divider="@color/settings_item_background"
+        android:dividerHeight="0dp"
+        android:paddingBottom="5dp"
+        android:scrollingCache="false"
+        android:overScrollMode="never"/>
+</RelativeLayout>

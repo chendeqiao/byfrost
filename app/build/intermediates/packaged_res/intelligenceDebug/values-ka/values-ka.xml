@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>Тарих пен кэшті тазалау</item>
+        <item>Қайталап сұрамау</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>Кэш</item>
+        <item>Кукилер</item>
+        <item>Формалар</item>
+        <item>Тарих</item>
+        <item>Парольдер</item>
+        <item>Мекенжайды қол жеткізу</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Жергілікті кэштер мен деректер базасын тазалау</item>
+        <item>Барлық кукилерді тазалау</item>
+        <item>Барлық сақталған форма деректерін тазалау</item>
+        <item>Барлық шолу тарихын тазалау</item>
+        <item>Барлық сақталған аккаунттар мен парольдерді тазалау</item>
+        <item>Барлық вебсайттарға орналасқан жеріңізді сұрауға рұқсатты тоқтату</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латын-1 (ISO-8859-1)</item>
+        <item>Юникод (UTF-8)</item>
+        <item>Қытай тілі (GBK)</item>
+        <item>Қытай тілі (Big5)</item>
+        <item>Жапон тілі (ISO-2022-JP)</item>
+        <item>Жапон тілі (SHIFT_JIS)</item>
+        <item>Жапон тілі (EUC-JP)</item>
+        <item>Корей тілі (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Өте кішкентай</item>
+        <item>Кішкентай</item>
+        <item>Әдеттегі</item>
+        <item>Үлкен</item>
+        <item>Өте үлкен</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>Әдепкі</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Компьютер</item>
+    </string-array>
+    <string name="abnormal_recover_message">Соңғы веб-бетті қалпына келтіресіз бе?</string>
+    <string name="abnormal_recover_ok">Қалпына келтіру</string>
+    <string name="abnormal_recover_recovered">Соңғы сессиядан беттер қалпына келтірілді.</string>
+    <string name="accessibility_button_addbookmark">Бетбелгіні қосу</string>
+    <string name="accessibility_button_bookmarks_folder_up">Алдыңғы қалта</string>
+    <string name="accessibility_button_closetab">Бетті жабу</string>
+    <string name="accessibility_button_forward">Алға өту</string>
+    <string name="accessibility_button_more">Қосымша опциялар</string>
+    <string name="accessibility_button_newtab">Жаңа бет ашу</string>
+    <string name="accessibility_button_refresh">Бетті жаңарту</string>
+    <string name="accessibility_button_search">Іздеу</string>
+    <string name="accessibility_button_stop">Бетті жүктеуді тоқтату</string>
+    <string name="accessibility_button_uaswitch">Пайдаланушы агентін ауыстыру</string>
+    <string name="accessibility_button_voice">Дыбыс іздеуін бастау</string>
+    <string name="accessibility_state_frozen">Сақталған бет</string>
+    <string name="accessibility_state_incognito">Жасырын бет</string>
+    <string name="accessibility_transition_navscreen">Беттерді басқару</string>
+    <string name="account">Аккаунт</string>
+    <string name="action">Кіру</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">Жарнамалар табылды, AD блокты қосу керек пе?</string>
+    <string name="adblock_rules_error_prompt">Синтаксистік қате, қайтадан өңдеңіз!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">Қосу</string>
+    <string name="add_new_bookmark">Таңбалау қосу</string>
+    <string name="add_pic">Сурет қосу:</string>
+    <string name="add_to_desktop">Жұмыс үстеліне қосу</string>
+    <string name="add_to_desktop_success">Десктопқа қосылды</string>
+    <string name="add_to_homepage">Басты бетке қосу</string>
+    <string name="add_to_homepage_success">Басты бетке қосылды</string>
+    <string name="add_to_homescreen_menu_option">Басты экран</string>
+    <string name="add_to_other_folder_menu_option">Басқа қалта</string>
+    <string name="add_up_to_15">20-ға дейін қосу</string>
+    <string name="added_new_bookmark">Бетбелгі қосылды</string>
+    <string name="allow">Рұқсат ету</string>
+    <string name="allow_download">Жүктеуге рұқсат ету</string>
+    <string name="allow_download_no">Wi-Fi қосыңыз</string>
+    <string name="already_cleared">Тазартылған</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">Қол жетімді</string>
+    <string name="block">Блоктау</string>
+    <string name="bookmark_cannot_save_url">Бұл URL таңдалып сақталмайды</string>
+    <string name="bookmark_list">Бұйрықтар тізімі</string>
+    <string name="bookmark_needs_title">"Таңдаудың атауы болуы керек"</string>
+    <string name="bookmark_needs_url">"Таңдаудың мекенжайы болуы керек"</string>
+    <string name="bookmark_not_saved">Таңдау сақталмады</string>
+    <string name="bookmark_saved">Таңдау сақталды</string>
+    <string name="bookmark_this_page">Бұл беті таңдау</string>
+    <string name="bookmark_url_not_valid">Бұл URL жарамсыз</string>
+    <string name="bookmarks">Бұйрықтар</string>
+    <string name="bookmarks_add_page">Бұйрықты сақтау</string>
+    <string name="bookmarks_search">Браузер</string>
+    <string name="browserFrameFileErrorLabel">Файл мәселесі</string>
+    <string name="browserFrameFormResubmitMessage">Қарап отырған бетіңізде бұрын жіберілген мәліметтер бар ("POSTDATA"). Мәліметтерді қайта жіберсеңіз, беттің орындаған әрекеттері қайталанады (мысалы, іздеу немесе онлайн сатып алу).</string>
+    <string name="browserFrameNetworkErrorLabel">Қосылу мәселесі</string>
+    <string name="browser_admin_panel">Пайдаланушы орталығы</string>
+    <string name="browser_hot_word_title" translatable="false">Жаңа іздеулер тізімі</string>
+    <string name="browser_navigation">Навигация</string>
+    <string name="browser_net_error_refresh" translatable="false">Бетті жаңарту үшін бос жерді басыңыз</string>
+    <string name="browser_open_all_most_visited" translatable="false">Ұсынылған веб-сайттарды кеңейту</string>
+    <string name="browser_permission_camera">Камера рұқсаты бас тартылды, оны қолмен қосыңыз</string>
+    <string name="browser_permission_notification">Хабарландырулар рұқсаты бас тартылды, оны қолмен қосыңыз</string>
+    <string name="browser_permission_qr">Бұл функция жадқа қол жеткізу рұқсаттарын қажет етеді. Оны баптаулардан қосыңыз</string>
+    <string name="browser_permission_setwall">Телефонның қоршауын орнату үшін сақтау рұқсаты қажет. Оны баптаулардан қосыңыз</string>
+    <string name="browser_permission_strone">Файлдарды жүктеу үшін сақтау рұқсаты қажет. Оны баптаулардан қосыңыз</string>
+    <string name="browser_privacy_tips">Жеке деректеріңіз біздің «Құпиялық саясатына» сәйкес өңделеді.</string>
+    <string name="browser_product_agree_tips">Саясатты қабылдауыңыз қажет.</string>
+    <string name="browser_product_start">Бастау</string>
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost браузері. \nБарлық құқықтар қорғалған.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">Қажет нәрсені еркін іздеңіз</string>
+    <string name="browser_slogo_fast">Жылдам</string>
+    <string name="browser_slogo_intelligence">Ақылды</string>
+    <string name="browser_slogo_safe">Қауіпсіз</string>
+    <string msgid="6709237687234102240" name="browser_tools">Құралдар</string>
+    <string name="btn_recommend_add">Қосу</string>
+    <string name="byfrost_slogan">Byfrost-Әлемді кеңірек көру!</string>
+    <string name="byfrost_suggestion">Ұсынысыңызды алдық, рахмет.</string>
+    <string name="byfrost_suggestion_time">Кері байланыс уақыт аралығы соңғы рет берілгеннен кейін 1 минуттан кем болмауы керек.</string>
+    <string name="cancel">Бас тарту</string>
+    <string name="cancelDel">Жоюды болдырмау?</string>
+    <string name="cannot_open_the_file">Бұл файл түрін ашуға арналған бағдарлама жоқ</string>
+    <string name="check_for_update">Жаңартуды тексеру...</string>
+    <string name="check_network">Желі мәселесіне байланысты жіберу сәтсіз болды, тексеріңіз.</string>
+    <string name="choosertitle_sharevia">Бөлісу</string>
+    <string name="clear">Тазалау</string>
+    <string name="clear_all">Барлығын тазалау</string>
+    <string name="clear_all_already">Барлық деректер тазаланды!</string>
+    <string name="clear_data_success">Тазалау сәтті өтті</string>
+    <string name="clear_default_browser">Әдепкі браузерді тазалау</string>
+    <string name="clear_default_setting_please">Басқа браузер әдепкі браузер ретінде орнатылған, оның әдепкі параметрлерін тазалаңыз.</string>
+    <string name="clear_history_all">Барлық тарихты тазалау</string>
+    <string name="click_again_quit">Шығу үшін қайтадан басыңыз</string>
+    <string name="close_all_incognito_notification">Барлық жасырын қойындыларды жабу</string>
+    <string name="commit_fail">Жіберу сәтсіз болды, кейінірек көріңіз</string>
+    <string name="confirm_deletion">Бұлты жоюыңыз қажет пе?</string>
+    <string name="confirm_deletion_all">Барлығын жоюыңыз қажет пе?</string>
+    <string name="contact_us_on_facebook">Бізбен Facebook-та хабарласыңыз</string>
+    <string name="containing_folder">Қосу үшін</string>
+    <string name="contextheader_folder_bookmarkcount">%d таңдау</string>
+    <string name="contextheader_folder_empty">Қалтасы бос</string>
+    <string name="contextmenu_add_contact">Контакт қосу</string>
+    <string name="contextmenu_copy">Көшіру</string>
+    <string name="contextmenu_copylink">Сілтеменің URL-ін көшіру</string>
+    <string name="contextmenu_dial_dot">Телефон нөмірін теру...</string>
+    <string name="contextmenu_download_image">Суретті сақтау</string>
+    <string name="contextmenu_map">Карта</string>
+    <string name="contextmenu_openlink_newwindow">Жаңа қойындыда ашу</string>
+    <string name="contextmenu_openlink_newwindow_background">Фондына ашу</string>
+    <string name="contextmenu_savelink">Сілтемені сақтау</string>
+    <string name="contextmenu_send_mail">Электронды пошта жіберу</string>
+    <string name="contextmenu_set_wallpaper">Тақта фоны ретінде орнату</string>
+    <string name="contextmenu_set_wallpaper_image">Тақта фоны</string>
+    <string name="contextmenu_share_app">Қосымшаны бөлісу</string>
+    <string name="contextmenu_share_website">Вебсайтты бөлісу</string>
+    <string name="contextmenu_sharelink">Сілтемені бөлісу</string>
+    <string name="contextmenu_view_image">Суретті қарау</string>
+    <string name="copy_link">Сілтемені көшіру</string>
+    <string name="copylink_success">Сілтеме көшірілді</string>
+    <string name="create_shortcut_bookmark">Басты экранға таңдау қосу</string>
+    <string name="custom_rules">Таңдамалы AdBlock сүзгілері</string>
+    <string name="custom_rules_title">AdBlock сүзгілері</string>
+    <string name="default_bookmark">Әдепкі белгі</string>
+    <string name="default_location">Әдепкі орын: %1$s</string>
+    <string name="delete">Жою</string>
+    <string name="delete_bookmark_warning">Таңдау \"%s\" жойылсын ба?</string>
+    <string name="delete_folder">Қалтаны жою</string>
+    <string name="deletion_all">Барлығын жою</string>
+    <string name="desktop">Десктоп</string>
+    <string name="done">Аяқталды</string>
+    <string name="download">Жүктеу</string>
+    <string name="download_allow_mobile">Мобильді желі арқылы файлдарды жүктеуге рұқсат ету керек пе?</string>
+    <string name="download_failed">Жүктеу сәтсіз болды</string>
+    <string name="download_list">Жүктеу тізімі</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">SD карта %s жүктеу үшін қажет.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">SD карта жоқ</string>
+    <string name="download_pause">Жүктеу тоқтатылды</string>
+    <string name="download_pending">Жүктеу басталуда...</string>
+    <string name="download_removed">Жойылған</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD карта бос емес. Жүктеу үшін USB сақтау құрылғысын өшіру үшін хабарландырудағы "Өшіру" батырмасын басыңыз.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD карта қолжетімсіз</string>
+    <string name="downloaded">Жүктелген</string>
+    <string name="downloading">Жүктелуде</string>
+    <string name="downloadmanager_disabled">Жүктеу менеджері өшірулі. Оны қосыңыз.</string>
+    <string name="edit">Өңдеу</string>
+    <string name="edit_bookmark">Таңдауды өңдеу</string>
+    <string name="edit_folder">Қалтаны өңдеу</string>
+    <string name="edited">Өзгертілді</string>
+    <string name="email">Электрондық пошта:</string>
+    <string name="email_is_error">Дұрыс телефон нөмірін енгізіңіз</string>
+    <string name="empty_bookmarks_folder">Сізде ешқандай бетбелгілер жоқ</string>
+    <string name="empty_history">Браузинг тарихы жоқ</string>
+    <string name="empty_info_most_visited">Жазбалар жоқ</string>
+    <string name="empty_snapshots_folder">Сақталған беттер жоқ</string>
+    <string name="enter_incognito_mode">Жасырын режимге өту</string>
+    <string name="enter_normal_mode">Қалыпты режимге өту</string>
+    <string name="enter_settings_page">Тазалау аяқталғаннан кейін Параметрлерге өтіңіз, өтінеміз.</string>
+    <string name="enter_website_name">Вебсайттың атын енгізіңіз</string>
+    <string name="error_console_eval_button_text" translatable="false">Бағалау</string>
+    <string name="error_console_eval_text_hint" translatable="false">JavaScript бағалау</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript консолі</string>
+    <string name="error_console_header_text_minimized" translatable="false">JavaScript консолін көрсету</string>
+    <string name="exit">Шығу</string>
+    <string name="exit_dialog_title">Браузерден шығу?</string>
+    <string name="feed_back_sucess">Сіздің пікірлеріңіз бен ұсыныстарыңызды алдық, рахмет.</string>
+    <string name="feedback_other">Басқа:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Қосымша)</string>
+    <string name="feedback_submit">жіберу</string>
+    <string name="file_exist">Файл бар</string>
+    <string name="file_name">Файл атауы</string>
+    <string name="file_not_exist">Файл жоқ</string>
+    <string name="filename_empty">Файл атауы бос болмауы керек</string>
+    <string name="find_on_page">Беттен іздеу</string>
+    <string name="five_stars">5 жұлдыз</string>
+    <string name="five_stars_comment">Ұсыныс беріңіз.</string>
+    <string name="five_stars_content">Сіздің бес жұлдызды бағалауыңыз біз үшін өте маңызды.</string>
+    <string name="five_stars_later">Кейін</string>
+    <string name="five_stars_titile">%s ұнатасыз ба?</string>
+    <string name="geolocation_permissions_prompt_dont_share">Бас тарту</string>
+    <string name="geolocation_permissions_prompt_message">%s сіздің орналасқан жеріңізді білуге ​​қалаушы</string>
+    <string name="geolocation_permissions_prompt_share">Орналасқан жерді бөлісу</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Бұл сайт сіздің орналасқан жеріңізге қол жеткізе алады. Мұны Параметрлер > Кеңейтілген > Веб-сайт параметрлері бөлімінде өзгертуге болады.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Бұл сайт сіздің орналасқан жеріңізге қол жеткізе алмайды. Мұны Параметрлер > Кеңейтілген > Веб-сайт параметрлері бөлімінде өзгертуге болады.</string>
+    <string name="geolocation_settings_page_dialog_message">Бұл веб-сайтқа орналасқан жеріңізге қол жеткізу рұқсатын жоюды қаласаңыз ба?</string>
+    <string name="geolocation_settings_page_summary_allowed">Бұл сайт қазір сіздің орналасқан жеріңізге қол жеткізе алады</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Бұл сайт қазір сіздің орналасқан жеріңізге қол жеткізе алмайды</string>
+    <string name="geolocation_settings_page_title">Орналасқан жеріңізді алу рұқсатын өшіру</string>
+    <string name="get_photo_failure">Суретті алу сәтсіз болды</string>
+    <string name="go">Кету</string>
+    <string name="go_back">Артқа қайту</string>
+    <string name="history">Тарих</string>
+    <string name="home_page">Басты бет</string>
+    <string name="incognito_home">Сіз Жасырын режимде тұрсыз</string>
+    <string name="incognito_home_content">Қазіргі уақытта сіз Жасырын режимде тұрсыз.</string>
+    <string name="incognito_home_tip">Сіз Жасырын режимнен шығып, қалыпты режимге орала аласыз.</string>
+    <string name="input_over_flow">%1$d таңбадан асқандықтан жіберу сәтсіз болды</string>
+    <string name="instructions_label">Пайдалану нұсқаулары</string>
+    <string name="is_latest">Ең соңғы нұсқа!</string>
+    <string name="js_ad_block_count">Блокталған JavaScript файлдары</string>
+    <string name="js_disable_host_error_prompt">Домен қатесі, қайтадан өңдеңіз!</string>
+    <string name="js_disable_hosts">Жарнама белгісі уақыт шегін орнату</string>
+    <string name="js_disable_hosts_title">Белгілі домендер</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Құралдар</string>
+    <string name="lable_calendar">Күнтізбе</string>
+    <string name="lable_lifestyle">Өмір</string>
+    <string name="lable_maps">Карталар</string>
+    <string name="lable_news">Жаңалықтар</string>
+    <string name="lable_translate">Аудару</string>
+    <string name="lable_video">Бейнемазмұн</string>
+    <string name="lable_weather">Ауа райы</string>
+    <string name="leadpage_back">Артқа</string>
+    <string name="leadpage_forward">Алға</string>
+    <string name="leadpage_home">Басты бет</string>
+    <string name="loading_video">Бейнемазмұнды жүктеу...</string>
+    <string name="local_bookmarks">Жергілікті</string>
+    <string name="location">Мекенжай</string>
+    <string name="mark_image_ad">Жарнаманы белгілеу</string>
+    <string name="mark_image_ad_fail">Белгілеу сәтсіз</string>
+    <string name="max_tabs_warning">Қосымша беттер жоқ</string>
+    <string name="menu_browser_Tools">Құралдар</string>
+    <string name="menu_browser_add_bookmark">Белгі қою</string>
+    <string name="menu_browser_bookmarks">Белгілер</string>
+    <string name="menu_browser_close_incognito">Қалыпты</string>
+    <string name="menu_browser_downloads">Жүктеулер</string>
+    <string name="menu_browser_font_size">Шрифт өлшемі</string>
+    <string name="menu_browser_full_screen">Толық экран</string>
+    <string name="menu_browser_history">Тарих</string>
+    <string name="menu_browser_incognito">Жасырын</string>
+    <string name="menu_browser_night">Көз қорғанысы</string>
+    <string name="menu_browser_no_image">Сурет жоқ</string>
+    <string name="menu_browser_quit">Шығу</string>
+    <string name="menu_browser_search_page">Бетте іздеу</string>
+    <string name="menu_browser_settings">Параметрлер</string>
+    <string name="menu_browser_snapshots">Бетті сақтау</string>
+    <string name="menu_preferences">Баптаулар</string>
+    <string name="menu_tools_box">Құралдар қорабы</string>
+    <string name="messageContent">%s үшін жаңа нұсқа бар, қазір жаңарта аласыз.</string>
+    <string name="modify">Өзгерту</string>
+    <string name="most_visited">Ең көп қаралған</string>
+    <string name="my_qrcode" translatable="false">Менің QR кодым</string>
+    <string name="name">Атау</string>
+    <string name="name_cannot_empty">Веб атауы бос болмауы керек</string>
+    <string name="new_file">Жаңа файл жасау</string>
+    <string name="new_folder">Жаңа қалта</string>
+    <string name="new_incognito_tab">Жаңа жасырын қойынды</string>
+    <string name="new_tab">Жаңа қойынды</string>
+    <string name="no_downloads">Жүктеулер жоқ</string>
+    <string name="no_prompt">Қайта сұрамаңыз</string>
+    <string name="no_subfolders">Қосымша қалталар жоқ.</string>
+    <string name="notification_content_text">Көру үшін басыңыз</string>
+    <string name="notification_download_finish">Жүктеу аяқталды</string>
+    <string name="null_rules_prompt">Өз ережелеріңізді қоса аласыз. Сіздің ережелеріңіз Adblock Plus грамматикалық ережелеріне сәйкес болуы керек. Пайдалану нұсқаулары.</string>
+    <string name="ok">Жарайды</string>
+    <string name="open">Ашу</string>
+    <string name="open_all_in_new_window">Барлығын жаңа қойындыларда ашу</string>
+    <string name="open_most_visited">Ең көп кіргендер ашыңыз >></string>
+    <string name="optional">(Қосымша)</string>
+    <string name="other_bookmarks">Басқа бетбелгілер</string>
+    <string name="page_info">Бет туралы ақпарат</string>
+    <string name="page_info_address">Мекенжай:</string>
+    <string name="page_info_view">Бет туралы ақпаратты көру</string>
+    <string name="password">Құпиясөз</string>
+    <string name="permissions_prompt_deny">Бас тарту</string>
+    <string name="permissions_prompt_message">%1$s сіздің %2$s пайдаланғысы келеді.</string>
+    <string name="pic_ad_block_count">Блокталған суреттер</string>
+    <string name="picture_nocodeinfo" translatable="false">Суретте QR код мәліметі анықталған жоқ</string>
+    <string name="picture_scannoinfo" translatable="false">QR код мәліметі сканерленген жоқ</string>
+    <string name="please_input_over_six">6 немесе одан көп таңбаларды енгізіңіз</string>
+    <string name="please_input_under_max">Енгізу саны %1$d таңбадан аспау керек</string>
+    <string name="please_leave_your_email">Өз электронды поштаңызды қалдырыңыз</string>
+    <string name="popup_ad_block_count">Блокталған қалқымалы терезелер</string>
+    <string name="pref_about">Бағдарлама туралы</string>
+    <string name="pref_ad_block">Жарнама блоктау</string>
+    <string name="pref_agreement">Пайдаланушы шарттары</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+    <string name="pref_check_update">Жаңартуды тексеру</string>
+    <string name="pref_confirm_on_exit">Шығу кезінде растауды қосу</string>
+    <string name="pref_contact_us">Бізбен байланысыңыз:</string>
+    <string name="pref_content_search_engine">Іздеу жүйесін орнату</string>
+    <string name="pref_default_ad_time">Жарнама белгілері уақытын орнату</string>
+    <string name="pref_default_browser">Әдепкі браузерді орнату</string>
+    <string name="pref_default_text_encoding">Мәтін кодировкасы</string>
+    <string name="pref_deverloper_options">Әзірлеуші опциялары</string>
+    <string name="pref_download">Жүктеу параметрлері</string>
+    <string name="pref_download_path_setting_screen_title">Қосымша жүктеу жолы</string>
+    <string name="pref_download_with_ADM">ADM арқылы жүктеу</string>
+    <string name="pref_extras_reset_default">Әдепкі күйіне қайтару</string>
+    <string name="pref_extras_reset_default_dlg">Баптауларды әдепкі мәндерге қайтару?</string>
+    <string name="pref_extras_website_settings">Вебсайт баптаулары</string>
+    <string name="pref_feedback">Кері байланыс</string>
+    <string name="pref_five_star">бес жұлдыз</string>
+    <string name="pref_font_size">Мәтіннің өлшемі</string>
+    <string name="pref_font_size_summary">Мәтін мен қаріп өлшемін реттеу</string>
+    <string name="pref_force_userscalable">Көбейтуді мәжбүрлеу</string>
+    <string name="pref_force_userscalable_summary">Вебсайттың зум басқаруын орнатуды басып озу</string>
+    <string name="pref_min_font_size">Ең төменгі қаріп өлшемі</string>
+    <string name="pref_notification_tool_show">Хабарландыру панелінде іздеу жолағын көрсету</string>
+    <string name="pref_privacy_clear_data">Деректерді тазарту</string>
+    <string name="pref_privacy_enable_geolocation">Орналасқан жерді қосу</string>
+    <string name="pref_privacy_enable_geolocation_summary">Сайттардың сіздің орныңызды сұрауына рұқсат беру</string>
+    <string name="pref_privacy_policy">Құпиялылық саясаты</string>
+    <string name="pref_privacy_security_title">Құпиялылық &amp; Қауіпсіздік</string>
+    <string name="pref_privacy_security_title_summary">Парольдер, сақталған формалар және т.б. браузердің есте сақтауын рұқсат ету</string>
+    <string name="pref_search_engine_dialog_title">Іздеу жүйесін таңдаңыз</string>
+    <string name="pref_security_accept_cookies">Кукилерді қабылдау</string>
+    <string name="pref_security_accept_cookies_summary">Сайттарға cookie мәліметтерін сақтау және оқу мүмкіндігін беру</string>
+    <string name="pref_security_remember_passwords">Құпия сөздерді сақтау</string>
+    <string name="pref_security_remember_passwords_summary">Веб-сайттар үшін пайдаланушы аттары мен құпия сөздерді сақтау</string>
+    <string name="pref_security_save_form_data">Форма мәліметтерін сақтау</string>
+    <string name="pref_security_save_form_data_summary">Формада енгізген мәліметтерді сақтау</string>
+    <string name="pref_security_show_security_warning">Қауіпсіздік туралы ескертулерді көрсету</string>
+    <string name="pref_security_show_security_warning_summary">Егер сайттың қауіпсіздігімен проблема болса, ескерту көрсету</string>
+    <string name="pref_show_download_dialog">Жүктеу диалогын көрсету</string>
+    <string name="pref_show_header_news">Бастапқы беттің уақыты/ауа райы/жаңалықтарын көрсету</string>
+    <string name="pref_show_red_badge_notity">Қызыл белгі хабарламасын көрсету</string>
+    <string name="pref_show_status_bar">Жағдай жолағын көрсету</string>
+    <string name="pref_text_zoom">Мәтінді масштабтау</string>
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="product_agree">Келісемін</string>
+    <string name="product_no_agree">Келіспеймін</string>
+    <string name="progress_dialog_setting_wallpaper">Қағазды орнату\u2026</string>
+    <string name="prompt_already_saved_bookmark">Бұл белгі бұрын қосылған</string>
+    <string name="prompt_already_saved_off">Бұл бет бұрын сақталды</string>
+    <string name="prompt_saved_off_line">Офлайн беттерге сақталды</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">QR кодты қораптың ішіне орналастырыңыз және сканерлеуді бастаңыз</string>
+    <string name="refresh">Жаңарту</string>
+    <string name="remember_preference">Пайдаланушы таңдауларын есте сақтау</string>
+    <string name="remove">Жою</string>
+    <string name="remove_bookmark">Таңдауды жою</string>
+    <string name="remove_items_all">Барлық элементтерді жою</string>
+    <string name="remove_snapshot">Сақталған бетті жою</string>
+    <string name="removed_from_bookmarks">Бұйрықтардан жойылды.</string>
+    <string name="rename">Атауды өзгерту</string>
+    <string name="rename_failed">Атау өзгерту сәтсіз болды</string>
+    <string name="rename_success">Атау өзгерту сәтті болды</string>
+    <string name="replace_file">Файлды ауыстыру</string>
+    <string name="request_fail">Сұрау сәтсіз болды, кейінірек көріңіз</string>
+    <string name="request_read_external_storage_error">Телефон жадына кіруге сұрау сәтсіз аяқталды</string>
+    <string name="resource_audio_capture">микрофон</string>
+    <string name="resource_protected_media_id">қорғалған медиа ID</string>
+    <string name="resource_video_capture">камера</string>
+    <string name="right_recommend_add_link_not_title">Атауды енгізіңіз</string>
+    <string name="right_recommend_add_link_not_url">URL енгізіңіз</string>
+    <string name="right_recommend_add_link_repeat">URL бұрыннан бар</string>
+    <string name="right_recommend_add_link_saved">Сақталды</string>
+    <string name="right_recommend_add_link_url_format">Бұл URL дұрыс емес</string>
+    <string name="right_recommend_tools_desktop">Десктоп</string>
+    <string name="right_recommend_tools_remove">Жою</string>
+    <string name="sdcard_free">%1$s бос/%2$s</string>
+    <string name="search_hint">Іздеңіз немесе URL енгізіңіз</string>
+    <string name="search_history">Іздеу тарихы</string>
+    <string name="search_settings_description">Таңбалар және веб тарихы</string>
+    <string name="search_the_web">Интернетті іздеу</string>
+    <string name="security_warning">Қауіпсіздік туралы ескерту</string>
+    <string name="select_dot">Мәтінді таңдау</string>
+    <string name="select_download_path">«%s» қалтасын жүктеу орны ретінде таңдаңыз</string>
+    <string name="select_location">Орынды таңдаңыз</string>
+    <string name="select_qr_code" translatable="false">QR код суретін таңдаңыз</string>
+    <string name="sendText">Мәтін үшін әрекетті таңдаңыз</string>
+    <string name="set_as_homepage">Негізгі бет етіп орнату</string>
+    <string name="set_default_browser">Әдепкі браузерді орнату</string>
+    <string name="set_default_failure">Әдепкі параметр орнатылмады. Қайтадан байқап көріңіз.</string>
+    <string name="set_default_success">Орнату сәтті аяқталды!</string>
+    <string name="setting_bottom_day">Жарық режим</string>
+    <string name="setting_bottom_expanding">Кеңейту</string>
+    <string name="setting_bottom_night">Қараңғы режим</string>
+    <string name="setting_update_speech_recognition">Дауыспен енгізу тыйым салынған, Google дауыс қызметін жаңартыңыз</string>
+    <string name="share">Бөлісу</string>
+    <string name="share_dialog_title" translatable="false">Веб-бетті бөлісу</string>
+    <string name="shortcut_bookmark">Таңдау</string>
+    <string name="shortcut_bookmark_title">Таңдауды таңдаңыз</string>
+    <string name="show_dev_on">Сіз әзірлеуші болдыңыз!</string>
+    <string name="sign_in_to">Кіру %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">Атауы жоқ</string>
+    <string name="ssl_certificate">Қауіпсіздік сертификаты</string>
+    <string name="ssl_certificate_is_valid">Бұл сертификат жарамды.</string>
+    <string name="ssl_continue">Жалғастыру</string>
+    <string name="ssl_date_invalid">Бұл сертификаттың мерзімі жарамсыз.</string>
+    <string name="ssl_expired">Бұл сертификат мерзімі өткен.</string>
+    <string name="ssl_invalid">Бұл сертификат жарамсыз.</string>
+    <string name="ssl_mismatch">Сайттың атауы сертификаттағы атаумен сәйкес келмейді.</string>
+    <string name="ssl_not_yet_valid">Бұл сертификат әлі жарамды емес.</string>
+    <string name="ssl_unknown">Белгісіз сертификат қатесі.</string>
+    <string name="ssl_untrusted">Бұл сертификат сенімді ұйымнан алынбаған.</string>
+    <string name="ssl_warnings_header">Бұл сайттың қауіпсіздік сертификатымен проблема бар.</string>
+    <string name="stopping">Тоқтату…</string>
+    <string name="storage_space_lack">Қол жетімді орын жеткіліксіз</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">Дұрыс суретті таңдағаныңызды растаңыз</string>
+    <string name="swipe_up_tip">Табты жою үшін жоғары сырғытыңыз</string>
+    <string name="tab_snapshots">Сақталған беттер</string>
+    <string name="text_count_can_input">%1$d таңба енгізуге болады</string>
+    <string name="title_activity_add_link">Сілтеме қосу</string>
+    <string name="title_clear_all_history">Барлық тарихты тазалау?</string>
+    <string name="title_clear_bookmark">Белгіні тазалау?</string>
+    <string name="title_clear_history">Тарихты тазалау?</string>
+    <string name="title_clear_off_line">Сақталған беттерді тазалау?</string>
+    <string name="too_many_subwindows_dialog_message">Бір уақытта тек бір поп-ап ашылуы мүмкін.</string>
+    <string name="too_many_subwindows_dialog_title">Поп-ап қазір ашылды</string>
+    <string name="too_many_windows_dialog_message">Жаңа бет ашу үшін біреуін жабуыңыз қажет.</string>
+    <string name="toolbox_menu_off">ӨШІРУ</string>
+    <string name="toolbox_menu_on">ҚОСУ</string>
+    <string name="total">Барлығы</string>
+    <string name="ua_switcher_desktop">ДК нұсқасын сұрау</string>
+    <string name="unknown">Белгісіз</string>
+    <string name="unknown_error">Белгісіз қате, қайтадан байқап көріңіз.</string>
+    <string name="unknown_file">Белгісіз файл түрлері</string>
+    <string name="update_at_once">Жаңарту</string>
+    <string name="update_content1">1. Біздің супер ақылды ғалымдар веб-беттерді жылдам жүктеу үшін жұмыс істеді!</string>
+    <string name="update_content2">2. Біздің сүйкімді дизайнеріміз бәрін әдемі етіп жасады!</string>
+    <string name="update_content3">3. Ал біздің керемет әзірлеушілеріміз? Олар кешке дейін кофе ішіп, барлық қателерді жойды!</string>
+    <string name="update_later">Кейінірек жаңарту</string>
+    <string name="update_now">Google Play дүкенінен қосымшаны жүктеңіз.</string>
+    <string name="update_remind">Жаңарту хабарламасы</string>
+    <string name="update_tips1">Дұрыс, жаңа жаңарту дайын!</string>
+    <string name="update_tips2">✨Барлығы да сіздің тәжірибеңізді жақсарту үшін! \nЖаңартыңыз, тексеріңіз! ✨</string>
+    <string name="update_title">Жаңа нұсқасы табылды</string>
+    <string name="upload_image">Суреттерді жүктеу</string>
+    <string name="uploads_disabled">Файлдарды жүктеу өшірілген.</string>
+    <string name="username">Аты</string>
+    <string name="versionUpdate">Жаңарту</string>
+    <string name="video_mobile_pause">Бас тарту</string>
+    <string name="video_mobile_permission">Сіз мобильді желіні қолданасыз. Ойнағыңыз келе ме?</string>
+    <string name="video_mobile_play">Ойнату</string>
+    <string name="view">Көру</string>
+    <string name="view_certificate">Сертификатты көру</string>
+    <string name="view_select_all">Барлығын таңдау</string>
+    <string name="visit_url_ok">Өту</string>
+    <string name="visit_url_title">Буферден осы URL-ге өту керек пе?</string>
+    <string name="website_AI">AI</string>
+    <string name="website_hot">Қызықты</string>
+    <string name="website_lifestyle">Өмір</string>
+    <string name="website_news">Жаңалықтар•Спорт</string>
+    <string name="website_recommend">Ұсынылған</string>
+    <string name="website_settings_list_header_text">Орналасқан жерге қол жеткізу</string>
+    <string name="website_shoping">Ойын-сауық•Сауда</string>
+    <string name="website_social">Әлеуметтік</string>
+    <string name="website_tools">Құралдар</string>
+    <string name="website_videos">Бейнемазмұн</string>
+    <string name="webstorage_clear_data_title">Сақталған мәліметтерді тазарту</string>
+    <string name="webstorage_origin_summary_mb_stored">Телефоныңызда сақталған MB</string>
+    <string name="webstorage_outofspace_notification_text">Қосымша орын босату үшін басыңыз.</string>
+    <string name="webstorage_outofspace_notification_title">Браузер сақтауы толды</string>
+    <string name="write_advice_please">Өз пікіріңізді немесе ұсынысыңызды сөзбен сипаттаңыз... (1000 сөз)</string>
+</resources>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>נקה היסטוריה &amp; מטמון</item>
+        <item>אל תשאל שוב</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>מטמון</item>
+        <item>עוגיות</item>
+        <item>טפסים</item>
+        <item>היסטוריה</item>
+        <item>סיסמאות</item>
+        <item>גישה למיקום</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>נקה תוכן ומסדי נתונים שמורים במחשב המקומי</item>
+        <item>נקה את כל העוגיות</item>
+        <item>נקה את כל הנתונים של הטפסים ששמרת</item>
+        <item>נקה את כל היסטוריית הגלישה</item>
+        <item>נקה את כל הסיסמאות והחשבונות ששמרת</item>
+        <item>בטל את ההרשאה לאתרים לגשת למיקומך</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>לטין-1 (ISO-8859-1)</item>
+        <item>יוניקוד (UTF-8)</item>
+        <item>סינית (GBK)</item>
+        <item>סינית (Big5)</item>
+        <item>יפנית (ISO-2022-JP)</item>
+        <item>יפנית (SHIFT_JIS)</item>
+        <item>יפנית (EUC-JP)</item>
+        <item>קוריאנית (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>זעיר</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+        <item>ענק</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>ברירת מחדל</item>
+        <item>אייפון</item>
+        <item>אייפד</item>
+        <item>מחשב</item>
+    </string-array>
+    <string name="abnormal_recover_message">שחזר את הדף האחרון?</string>
+    <string name="abnormal_recover_ok">שחזור</string>
+    <string name="abnormal_recover_recovered">הדפים מהישיבה האחרונה שוחזרו.</string>
+    <string name="accessibility_button_addbookmark">סמן את הדף</string>
+    <string name="accessibility_button_bookmarks_folder_up">תיקיה קודמת</string>
+    <string name="accessibility_button_closetab">סגור טאב</string>
+    <string name="accessibility_button_forward">התקדם קדימה</string>
+    <string name="accessibility_button_more">אפשרויות נוספות</string>
+    <string name="accessibility_button_newtab">פתח טאב חדש</string>
+    <string name="accessibility_button_refresh">רענן דף</string>
+    <string name="accessibility_button_search">חפש</string>
+    <string name="accessibility_button_stop">עצור טעינת דף</string>
+    <string name="accessibility_button_uaswitch">החלף סוכן משתמש</string>
+    <string name="accessibility_button_voice">התחל חיפוש קולי</string>
+    <string name="accessibility_state_frozen">דף שמור</string>
+    <string name="accessibility_state_incognito">דף אינקוגניטו</string>
+    <string name="accessibility_transition_navscreen">ניהול טאבים</string>
+    <string name="account">חשבון</string>
+    <string name="action">התחבר</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">פרסומות זוהו, להפעיל חוסם פרסומות עכשיו?</string>
+    <string name="adblock_rules_error_prompt">שגיאת תחביר, אנא ערוך שוב!</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">הוסף</string>
+    <string name="add_new_bookmark">הוסף לסימניות</string>
+    <string name="add_pic">הוסף תמונה:</string>
+    <string name="add_to_desktop">שולחן עבודה</string>
+    <string name="add_to_desktop_success">הוסף לשולחן עבודה</string>
+    <string name="add_to_homepage">הוסף לדף הבית</string>
+    <string name="add_to_homepage_success">הוסף לדף הבית</string>
+    <string name="add_to_homescreen_menu_option">דף הבית</string>
+    <string name="add_to_other_folder_menu_option">תיקיה אחרת</string>
+    <string name="add_up_to_15">הוסף עד 20</string>
+    <string name="added_new_bookmark">הוסף למועדפים</string>
+    <string name="allow">הרשה</string>
+    <string name="allow_download">אפשר הורדה</string>
+    <string name="allow_download_no">חבר לרשת WiFi</string>
+    <string name="already_cleared">נוקה</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">זמין</string>
+    <string name="block">חסום</string>
+    <string name="bookmark_cannot_save_url">לא ניתן לשמור מועדף על כתובת זו</string>
+    <string name="bookmark_list">רשימת מועדפים</string>
+    <string name="bookmark_needs_title">"המועדף חייב לכלול שם"</string>
+    <string name="bookmark_needs_url">"המועדף חייב לכלול כתובת"</string>
+    <string name="bookmark_not_saved">לא ניתן לשמור מועדף</string>
+    <string name="bookmark_saved">נשמר למועדפים</string>
+    <string name="bookmark_this_page">הוסף דף זה למועדפים</string>
+    <string name="bookmark_url_not_valid">כתובת זו אינה תקינה</string>
+    <string name="bookmarks">מועדפים</string>
+    <string name="bookmarks_add_page">שמור למועדפים</string>
+    <string name="bookmarks_search">דפדפן</string>
+    <string name="browserFrameFileErrorLabel">בעיה בקובץ</string>
+    <string name="browserFrameFormResubmitMessage">הדף שאתה מנסה לצפות בו מכיל נתונים שכבר נשלחו ("POSTDATA"). אם תשלח מחדש את הנתונים, כל פעולה שבוצעה בטופס (כמו חיפוש או רכישה באינטרנט) תחזור על עצמה.</string>
+    <string name="browserFrameNetworkErrorLabel">בעיה בחיבור</string>
+    <string name="browser_admin_panel">מרכז משתמש</string>
+    <string name="browser_hot_word_title" translatable="false">רשימת חיפושים חמים</string>
+    <string name="browser_navigation">ניווט</string>
+    <string name="browser_net_error_refresh" translatable="false">לחץ על האזור הריק כדי לרענן את הדף</string>
+    <string name="browser_open_all_most_visited" translatable="false">הרחב את האתר המומלץ</string>
+    <string name="browser_permission_camera">הרשאת מצלמה נדחתה, אנא הפעל אותה ידנית</string>
+    <string name="browser_permission_notification">הרשאת סרגל הודעות נדחתה, אנא הפעל אותה ידנית</string>
+    <string name="browser_permission_qr">פונקציה זו דורשת הרשאת גישה לאחסון. אנא הפעל את ההרשאה בהגדרות</string>
+    <string name="browser_permission_setwall">הגדרת רקע טלפון דורשת הרשאת אחסון. אנא הפעל אותה בדף ההגדרות</string>
+    <string name="browser_permission_strone">הורדת קבצים דורשת הרשאת אחסון. אנא הפעל את ההרשאה בהגדרות</string>
+    <string name="browser_privacy_tips">הנתונים האישיים שלך יטופלו בהתאם ל《מדיניות הפרטיות》שלנו.</string>
+    <string name="browser_product_agree_tips">אתה צריך להסכים למדיניות.</string>
+    <string name="browser_product_start">התחל</string>
+    <string name="browser_rights" translatable="false">זכויות יוצרים © 2024 דפדפן Byfrost. \nכל הזכויות שמורות.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+    <string name="browser_slogan" translatable="false">חפש בחופשיות כל מה שאתה צריך</string>
+    <string name="browser_slogo_fast">מהר יותר</string>
+    <string name="browser_slogo_intelligence">חכם יותר</string>
+    <string name="browser_slogo_safe">בטוח יותר</string>
+    <string msgid="6709237687234102240" name="browser_tools">כלים</string>
+    <string name="btn_recommend_add">הוסף</string>
+    <string name="byfrost_slogan">ביפרוסט - לראות עולם רחב יותר!</string>
+    <string name="byfrost_suggestion">קיבלנו את ההצעה שלך, תודה.</string>
+    <string name="byfrost_suggestion_time">הזמן בין המשוב האחרון לא יכול להיות פחות מדקה אחת.</string>
+    <string name="cancel">ביטול</string>
+    <string name="cancelDel">לבטל מחיקה?</string>
+    <string name="cannot_open_the_file">אין תוכנית לפתיחת סוג קובץ זה</string>
+    <string name="check_for_update">בודק עדכון...</string>
+    <string name="check_network">ההגשה נכשלה עקב בעיית רשת, אנא בדוק.</string>
+    <string name="choosertitle_sharevia">שתף דרך</string>
+    <string name="clear">נקה</string>
+    <string name="clear_all">נקה הכל</string>
+    <string name="clear_all_already">כל הנתונים נוקו כבר!</string>
+    <string name="clear_data_success">הצלחה בניקוי</string>
+    <string name="clear_default_browser">נקה כבחירה כברירת מחדל</string>
+    <string name="clear_default_setting_please">דפדפן אחר מוגדר כדפדפן ברירת מחדל, בבקשה נקה את הגדרת ברירת המחדל של הדפדפן.</string>
+    <string name="clear_history_all">נקה את כל ההיסטוריה</string>
+    <string name="click_again_quit">הקש חזור כדי לצאת</string>
+    <string name="close_all_incognito_notification">סגור את כל הכרטיסיות בסתר</string>
+    <string name="commit_fail">ההגשה נכשלה, אנא נסה שוב מאוחר יותר</string>
+    <string name="confirm_deletion">למחוק את זה?</string>
+    <string name="confirm_deletion_all">למחוק הכל?</string>
+    <string name="contact_us_on_facebook">צור קשר איתנו בפייסבוק</string>
+    <string name="containing_folder">הוסף ל</string>
+    <string name="contextheader_folder_bookmarkcount">%d מועדפים</string>
+    <string name="contextheader_folder_empty">תיקיה ריקה</string>
+    <string name="contextmenu_add_contact">הוסף קשר</string>
+    <string name="contextmenu_copy">העתק</string>
+    <string name="contextmenu_copylink">העתק כתובת קישור</string>
+    <string name="contextmenu_dial_dot">חייג...</string>
+    <string name="contextmenu_download_image">שמור תמונה</string>
+    <string name="contextmenu_map">מפה</string>
+    <string name="contextmenu_openlink_newwindow">פתח בכרטיסיה חדשה</string>
+    <string name="contextmenu_openlink_newwindow_background">פתח ברקע</string>
+    <string name="contextmenu_savelink">שמור קישור</string>
+    <string name="contextmenu_send_mail">שלח דואר אלקטרוני</string>
+    <string name="contextmenu_set_wallpaper">הגדר כרקע</string>
+    <string name="contextmenu_set_wallpaper_image">רקע</string>
+    <string name="contextmenu_share_app">שיתוף אפליקציה</string>
+    <string name="contextmenu_share_website">שיתוף אתר</string>
+    <string name="contextmenu_sharelink">שתף קישור</string>
+    <string name="contextmenu_view_image">צפה בתמונה</string>
+    <string name="copy_link">העתק קישור</string>
+    <string name="copylink_success">הקישור הועתק</string>
+    <string name="create_shortcut_bookmark">הוסף קיצור דרך לדף הבית</string>
+    <string name="custom_rules">סינונים מותאמים אישית של AdBlock</string>
+    <string name="custom_rules_title">סינונים של AdBlock</string>
+    <string name="default_bookmark">סימנייה ברירת מחדל</string>
+    <string name="default_location">מיקום ברירת מחדל: %1$s</string>
+    <string name="delete">מחק</string>
+    <string name="delete_bookmark_warning">למחוק את המועדף \"%s\"?</string>
+    <string name="delete_folder">מחק תיקיה</string>
+    <string name="deletion_all">מחק הכל</string>
+    <string name="desktop">שולחן עבודה</string>
+    <string name="done">בוצע</string>
+    <string name="download">הורד</string>
+    <string name="download_allow_mobile">האם לאפשר הורדת קובץ דרך רשת ניידת?</string>
+    <string name="download_failed">הורדה נכשלה</string>
+    <string name="download_list">רשימת הורדות</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">כרטיס SD נדרש להורדת %s.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">אין כרטיס SD</string>
+    <string name="download_pause">הורדה מושהית</string>
+    <string name="download_pending">הורדה מתחילה...</string>
+    <string name="download_removed">הוסרו</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">הכרטיס SD עסוק. כדי לאפשר הורדות, לחץ על כיבוי אחסון USB בהודעת ההתראה.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">כרטיס SD לא זמין</string>
+    <string name="downloaded">הורד</string>
+    <string name="downloading">מוריד</string>
+    <string name="downloadmanager_disabled">מנהל ההורדות מושבת. אנא הפעל אותו.</string>
+    <string name="edit">ערוך</string>
+    <string name="edit_bookmark">ערוך מועדף</string>
+    <string name="edit_folder">ערוך תיקיה</string>
+    <string name="edited">נערך</string>
+    <string name="email">דוא"ל:</string>
+    <string name="email_is_error">אנא הזן מספר טלפון נכון</string>
+    <string name="empty_bookmarks_folder">הסימניות שלך ריקות</string>
+    <string name="empty_history">אין היסטוריית גלישה</string>
+    <string name="empty_info_most_visited">אין רשומות</string>
+    <string name="empty_snapshots_folder">אין דפים שמורים</string>
+    <string name="enter_incognito_mode">מעבר לאינקוגניטו</string>
+    <string name="enter_normal_mode">מעבר רגיל</string>
+    <string name="enter_settings_page">הכנס להגדרות לאחר סיום הניקוי, בבקשה.</string>
+    <string name="enter_website_name">הכנס שם אתר</string>
+    <string name="error_console_eval_button_text" translatable="false">העריך</string>
+    <string name="error_console_eval_text_hint" translatable="false">העריך JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">קונסולת JavaScript</string>
+    <string name="error_console_header_text_minimized" translatable="false">הצג קונסולת JavaScript</string>
+    <string name="exit">צא</string>
+    <string name="exit_dialog_title">לצאת מהדפדפן?</string>
+    <string name="feed_back_sucess">קיבלנו את ההערות וההמלצות שלך, תודה.</string>
+    <string name="feedback_other">אחר:</string>
+    <string name="feedback_other_optional">פייסבוק/טוויטר/גוגל+ (אופציונלי)</string>
+    <string name="feedback_submit">שלח</string>
+    <string name="file_exist">הקובץ קיים</string>
+    <string name="file_name">שם קובץ</string>
+    <string name="file_not_exist">הקובץ לא קיים</string>
+    <string name="filename_empty">שם הקובץ לא יכול להיות ריק</string>
+    <string name="find_on_page">חפש בדף</string>
+    <string name="five_stars">5 כוכבים</string>
+    <string name="five_stars_comment">תן הצעה.</string>
+    <string name="five_stars_content">הדרוג שלך בחמשה כוכבים חשוב לנו מאוד.</string>
+    <string name="five_stars_later">בהמשך</string>
+    <string name="five_stars_titile">נהנית מ-%s?</string>
+    <string name="geolocation_permissions_prompt_dont_share">סירב</string>
+    <string name="geolocation_permissions_prompt_message">%s רוצה לדעת את המיקום שלך</string>
+    <string name="geolocation_permissions_prompt_share">שתף מיקום</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">אתר זה יכול לגשת למיקום שלך. שנה זאת בהגדרות > מתקדם > הגדרות אתר.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">אתר זה לא יכול לגשת למיקום שלך. שנה זאת בהגדרות > מתקדם > הגדרות אתר.</string>
+    <string name="geolocation_settings_page_dialog_message">לנקות גישה למיקום לאתר זה?</string>
+    <string name="geolocation_settings_page_summary_allowed">אתר זה יכול כעת לגשת למיקום שלך</string>
+    <string name="geolocation_settings_page_summary_not_allowed">אתר זה לא יכול לגשת למיקום שלך כרגע</string>
+    <string name="geolocation_settings_page_title">בטל את ההרשאה לגישה למיקום שלך</string>
+    <string name="get_photo_failure">כישלון בהשגת תמונות</string>
+    <string name="go">לך</string>
+    <string name="go_back">חזור</string>
+    <string name="history">היסטוריה</string>
+    <string name="home_page">דף הבית</string>
+    <string name="incognito_home">אתה במצב אינקוגניטו</string>
+    <string name="incognito_home_content">עכשיו אתה במצב אינקוגניטו.</string>
+    <string name="incognito_home_tip">אתה יכול לצאת ממצב גלישה בסתר ולחזור למצב רגיל.</string>
+    <string name="input_over_flow">שגיאת שליחה, %1$d תווים חורגים מהמגבלה</string>
+    <string name="instructions_label">הוראות שימוש</string>
+    <string name="is_latest">כבר הגרסה האחרונה!</string>
+    <string name="js_ad_block_count">קבצי JavaScript חסומים</string>
+    <string name="js_disable_host_error_prompt">שגיאת דומיין, אנא ערוך שוב!</string>
+    <string name="js_disable_hosts">הגדר מגבלת זמן עבור סימון פרסומות</string>
+    <string name="js_disable_hosts_title">דומיינים מסוימים</string>
+    <string name="lable_AI">בינה מלאכותית</string>
+    <string name="lable_Tools">כלים</string>
+    <string name="lable_calendar">לוח שנה</string>
+    <string name="lable_lifestyle">חיים</string>
+    <string name="lable_maps">מפות</string>
+    <string name="lable_news">חדשות</string>
+    <string name="lable_translate">תרגם</string>
+    <string name="lable_video">וידאו</string>
+    <string name="lable_weather">מזג אוויר</string>
+    <string name="leadpage_back">חזור</string>
+    <string name="leadpage_forward">המשך</string>
+    <string name="leadpage_home">דף הבית</string>
+    <string name="loading_video">טעינת וידאו...</string>
+    <string name="local_bookmarks">מקומי</string>
+    <string name="location">כתובת</string>
+    <string name="mark_image_ad">סמן פרסומת</string>
+    <string name="mark_image_ad_fail">הסימון נכשל</string>
+    <string name="max_tabs_warning">אין יותר טאבים זמינים</string>
+    <string name="menu_browser_Tools">כלים</string>
+    <string name="menu_browser_add_bookmark">הוסף למועדפים</string>
+    <string name="menu_browser_bookmarks">מועדפים</string>
+    <string name="menu_browser_close_incognito">רגיל</string>
+    <string name="menu_browser_downloads">הורדות</string>
+    <string name="menu_browser_font_size">גודל גופן</string>
+    <string name="menu_browser_full_screen">מסך מלא</string>
+    <string name="menu_browser_history">היסטוריה</string>
+    <string name="menu_browser_incognito">אינקוגניטו</string>
+    <string name="menu_browser_night">מגני עיניים</string>
+    <string name="menu_browser_no_image">ללא תמונה</string>
+    <string name="menu_browser_quit">סגור</string>
+    <string name="menu_browser_search_page">חפש בדף</string>
+    <string name="menu_browser_settings">הגדרות</string>
+    <string name="menu_browser_snapshots">שמור דף</string>
+    <string name="menu_preferences">הגדרות</string>
+    <string name="menu_tools_box">תיבת כלים</string>
+    <string name="messageContent">יש גרסה חדשה עבור %s, תוכל לעדכן אותה עכשיו.</string>
+    <string name="modify">שנה</string>
+    <string name="most_visited">הביקורים הנפוצים ביותר</string>
+    <string name="my_qrcode" translatable="false">הקוד QR שלי</string>
+    <string name="name">תווית</string>
+    <string name="name_cannot_empty">שם אתר לא יכול להיות ריק</string>
+    <string name="new_file">צור קובץ חדש</string>
+    <string name="new_folder">תיקיה חדשה</string>
+    <string name="new_incognito_tab">כרטיסיה בסתר חדשה</string>
+    <string name="new_tab">כרטיסיה חדשה</string>
+    <string name="no_downloads">אין הורדות</string>
+    <string name="no_prompt">אל תשאל שוב</string>
+    <string name="no_subfolders">אין תיקיות משנה.</string>
+    <string name="notification_content_text">לחץ לצפייה</string>
+    <string name="notification_download_finish">ההורדה הושלמה</string>
+    <string name="null_rules_prompt">אתה יכול להוסיף כללים משלך. הכללים שלך חייבים לעמוד בכלל התחביר של Adblock Plus. הוראות שימוש.</string>
+    <string name="ok">אישור</string>
+    <string name="open">פתח</string>
+    <string name="open_all_in_new_window">פתח הכל בכרטיסיות חדשות</string>
+    <string name="open_most_visited">פתח את האתרים הכי מבוקרים>></string>
+    <string name="optional">(אופציונלי)</string>
+    <string name="other_bookmarks">סימניות אחרות</string>
+    <string name="page_info">מידע על הדף</string>
+    <string name="page_info_address">כתובת:</string>
+    <string name="page_info_view">צפה במידע על הדף</string>
+    <string name="password">סיסמה</string>
+    <string name="permissions_prompt_deny">דחה</string>
+    <string name="permissions_prompt_message">%1$s רוצה להשתמש ב-%2$s שלך.</string>
+    <string name="pic_ad_block_count">תמונות חסומות</string>
+    <string name="picture_nocodeinfo" translatable="false">לא ניתן לזהות מידע מקוד QR בתמונה</string>
+    <string name="picture_scannoinfo" translatable="false">לא סרוק מידע מקוד QR</string>
+    <string name="please_input_over_six">אנא הזן 6 תווים או יותר</string>
+    <string name="please_input_under_max">אנא הזן לא יותר מ-%1$d תווים</string>
+    <string name="please_leave_your_email">אנא השאר את כתובת הדוא"ל שלך</string>
+    <string name="popup_ad_block_count">חלונות קופצים חסומים</string>
+    <string name="pref_about">אודות</string>
+    <string name="pref_ad_block">חסימת פרסומות</string>
+    <string name="pref_agreement">תנאי שימוש</string>
+    <string name="pref_always" translatable="false">תמיד</string>
+    <string name="pref_check_update">בדוק עדכון</string>
+    <string name="pref_confirm_on_exit">אשר יציאה</string>
+    <string name="pref_contact_us">צור קשר:</string>
+    <string name="pref_content_search_engine">הגדר מנוע חיפוש</string>
+    <string name="pref_default_ad_time">זמן סימון פרסומות</string>
+    <string name="pref_default_browser">הגדר דפדפן ברירת מחדל</string>
+    <string name="pref_default_text_encoding">קידוד טקסט</string>
+    <string name="pref_deverloper_options">אפשרויות מפתח</string>
+    <string name="pref_download">הגדרות הורדה</string>
+    <string name="pref_download_path_setting_screen_title">נתיב הורדה מותאם אישית</string>
+    <string name="pref_download_with_ADM">הורד באמצעות ADM</string>
+    <string name="pref_extras_reset_default">אפס לברירות מחדל</string>
+    <string name="pref_extras_reset_default_dlg">האם לשחזר את ההגדרות לברירות מחדל?</string>
+    <string name="pref_extras_website_settings">הגדרות אתר</string>
+    <string name="pref_feedback">משוב</string>
+    <string name="pref_five_star">חמישה כוכבים</string>
+    <string name="pref_font_size">גודל טקסט</string>
+    <string name="pref_font_size_summary">התאם את גודל הטקסט והגופנים</string>
+    <string name="pref_force_userscalable">כפה אפשרות זום</string>
+    <string name="pref_force_userscalable_summary">עקוף את הבקשה של האתר לשלוט בהתנהגות הזום</string>
+    <string name="pref_min_font_size">גודל גופן מינימלי</string>
+    <string name="pref_notification_tool_show">הצג סרגל חיפוש בלוח ההתראות</string>
+    <string name="pref_privacy_clear_data">נקה נתונים</string>
+    <string name="pref_privacy_enable_geolocation">הפעל מיקום</string>
+    <string name="pref_privacy_enable_geolocation_summary">אפשר לאתרים לבקש גישה למיקומך</string>
+    <string name="pref_privacy_policy">מדיניות פרטיות</string>
+    <string name="pref_privacy_security_title">פרטיות ואבטחה</string>
+    <string name="pref_privacy_security_title_summary">האפשר לדפדפן לזכור סיסמאות, טפסים נשמרים וכו׳</string>
+    <string name="pref_search_engine_dialog_title">בחר מנוע חיפוש</string>
+    <string name="pref_security_accept_cookies">קבל עוגיות</string>
+    <string name="pref_security_accept_cookies_summary">אפשר לאתרים לשמור ולקרוא את נתוני העוגיות</string>
+    <string name="pref_security_remember_passwords">זכור סיסמאות</string>
+    <string name="pref_security_remember_passwords_summary">שמור שם משתמש וסיסמאות לאתרים</string>
+    <string name="pref_security_save_form_data">זכור נתוני טפסים</string>
+    <string name="pref_security_save_form_data_summary">זכור את הנתונים שהכנסתי בטופס</string>
+    <string name="pref_security_show_security_warning">הצג אזהרות אבטחה</string>
+    <string name="pref_security_show_security_warning_summary">הצג אזהרה אם יש בעיה עם אבטחת האתר</string>
+    <string name="pref_show_download_dialog">הצג את דיאלוג ההורדה</string>
+    <string name="pref_show_header_news">הצג זמן/מזג אוויר/חדשות בדף הקודם</string>
+    <string name="pref_show_red_badge_notity">הצג התראה עם סמל אדום</string>
+    <string name="pref_show_status_bar">הצג את סרגל המצב</string>
+    <string name="pref_text_zoom">הגדלת טקסט</string>
+    <string name="pref_wifi_only" translatable="false">רק WIFI</string>
+    <string name="product_agree">הסכים</string>
+    <string name="product_no_agree">לא הסכים</string>
+    <string name="progress_dialog_setting_wallpaper">הגדרת תמונת רקע...</string>
+    <string name="prompt_already_saved_bookmark">כבר הוספת את המועדף הזה</string>
+    <string name="prompt_already_saved_off">כבר שמרת את הדף הזה</string>
+    <string name="prompt_saved_off_line">שמור לעמודים לא מקוונים</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="qrcode_tip" translatable="false">הנח את קוד ה-QR בתוך הקופסה והתחל סריקה</string>
+    <string name="refresh">רענן</string>
+    <string name="remember_preference">זכור העדפה</string>
+    <string name="remove">הסר</string>
+    <string name="remove_bookmark">מחק מועדף</string>
+    <string name="remove_items_all">הסר פריטים</string>
+    <string name="remove_snapshot">מחק דף שמור</string>
+    <string name="removed_from_bookmarks">הוסר מהמועדפים.</string>
+    <string name="rename">שנה שם קבצים</string>
+    <string name="rename_failed">שינוי שם נכשל</string>
+    <string name="rename_success">שינוי שם הצליח</string>
+    <string name="replace_file">החלף קובץ</string>
+    <string name="request_fail">הבקשה נכשלה, אנא נסה שוב מאוחר יותר</string>
+    <string name="request_read_external_storage_error">בקשה לגישה לאחסון החיצוני נכשלה</string>
+    <string name="resource_audio_capture">מיקרופון</string>
+    <string name="resource_protected_media_id">זיהוי מדיה מוגן</string>
+    <string name="resource_video_capture">מצלמה</string>
+    <string name="right_recommend_add_link_not_title">בבקשה הכנס כותרת</string>
+    <string name="right_recommend_add_link_not_url">בבקשה הכנס URL</string>
+    <string name="right_recommend_add_link_repeat">ה-URL כבר קיים</string>
+    <string name="right_recommend_add_link_saved">נשמר</string>
+    <string name="right_recommend_add_link_url_format">ה-URL לא נכון</string>
+    <string name="right_recommend_tools_desktop">מחשב שולחני</string>
+    <string name="right_recommend_tools_remove">הסר</string>
+    <string name="sdcard_free">%1$s פנוי/%2$s</string>
+    <string name="search_hint">חפש או הקלד כתובת URL</string>
+    <string name="search_history">היסטוריית חיפושים</string>
+    <string name="search_settings_description">סימניות והיסטוריית רשת</string>
+    <string name="search_the_web">חפש ברשת</string>
+    <string name="security_warning">אזהרת אבטחה</string>
+    <string name="select_dot">בחר טקסט</string>
+    <string name="select_download_path">בחר את התיקייה \"%s\" כמיקום ההורדה</string>
+    <string name="select_location">בחר מיקום</string>
+    <string name="select_qr_code" translatable="false">בחר תמונת קוד QR</string>
+    <string name="sendText">בחר פעולה לטקסט</string>
+    <string name="set_as_homepage">הגדר כדף הבית</string>
+    <string name="set_default_browser">הגדר דפדפן ברירת מחדל</string>
+    <string name="set_default_failure">הגדרת ברירת מחדל נכשלה. בבקשה נסה שוב.</string>
+    <string name="set_default_success">ההגדרה בוצעה בהצלחה!</string>
+    <string name="setting_bottom_day">מצב יום</string>
+    <string name="setting_bottom_expanding">מורחב</string>
+    <string name="setting_bottom_night">מצב לילה</string>
+    <string name="setting_update_speech_recognition">הכנסת קול אסורה, אנא עדכן את שירות הקול של גוגל</string>
+    <string name="share">שתף</string>
+    <string name="share_dialog_title" translatable="false">שיתוף דף אינטרנט</string>
+    <string name="shortcut_bookmark">מועדף</string>
+    <string name="shortcut_bookmark_title">בחר מועדף</string>
+    <string name="show_dev_on">אתה עכשיו מפתח!</string>
+    <string name="sign_in_to">התחבר ל-%1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">ללא כותרת</string>
+    <string name="ssl_certificate">תעודת אבטחה</string>
+    <string name="ssl_certificate_is_valid">תעודה זו תקינה.</string>
+    <string name="ssl_continue">המשך</string>
+    <string name="ssl_date_invalid">לתעודה יש תאריך לא תקין.</string>
+    <string name="ssl_expired">תעודה זו פגה תוקף.</string>
+    <string name="ssl_invalid">תעודה זו אינה תקינה.</string>
+    <string name="ssl_mismatch">השם של האתר אינו תואם לשם בתעודה.</string>
+    <string name="ssl_not_yet_valid">תעודה זו עדיין לא בתוקף.</string>
+    <string name="ssl_unknown">שגיאת תעודה לא ידועה.</string>
+    <string name="ssl_untrusted">תעודה זו אינה מאומתת על ידי רשות מהימנה.</string>
+    <string name="ssl_warnings_header">יש בעיות בתעודת האבטחה לאתר הזה.</string>
+    <string name="stopping">עוצר...</string>
+    <string name="storage_space_lack">אין מספיק מקום אחסון</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="sure_select_true_picture" translatable="false">אנא וודא שבחרת את התמונה הנכונה</string>
+    <string name="swipe_up_tip">ניתן להחלק למעלה כדי למחוק את הטאב</string>
+    <string name="tab_snapshots">דפים שמורים</string>
+    <string name="text_count_can_input">%1$d תווים יכולים להיכנס</string>
+    <string name="title_activity_add_link">הוסף קישור</string>
+    <string name="title_clear_all_history">למחוק את כל ההיסטוריה?</string>
+    <string name="title_clear_bookmark">למחוק מועדף?</string>
+    <string name="title_clear_history">למחוק היסטוריה?</string>
+    <string name="title_clear_off_line">למחוק דפים שמורים?</string>
+    <string name="too_many_subwindows_dialog_message">רק פופ-אפ אחד יכול להיות פתוח בו זמנית.</string>
+    <string name="too_many_subwindows_dialog_title">פופ-אפ פתוח כבר</string>
+    <string name="too_many_windows_dialog_message">לא ניתן לפתוח טאבל חדש עד שתסגור אחד.</string>
+    <string name="toolbox_menu_off">כבה</string>
+    <string name="toolbox_menu_on">הפעל</string>
+    <string name="total">סך הכל</string>
+    <string name="ua_switcher_desktop">בקש גרסה למחשב שולחני</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="unknown_error">שגיאה לא ידועה, בבקשה נסה שוב.</string>
+    <string name="unknown_file">סוגי קבצים לא ידועים</string>
+    <string name="update_at_once">עדכון</string>
+    <string name="update_content1">1. המדענים החכמים שלנו גרמו לדפים להיטען במהירות מסחררת!</string>
+    <string name="update_content2">2. המעצבת המקסימה שלנו עשתה קסמים והפכה את הכל ליפה יותר!</string>
+    <string name="update_content3">3. ומה עם המפתחים המדהימים שלנו? הם ישנו מאוחר ושתו קפה, כדי להילחם בבאגים המעצבנים!</string>
+    <string name="update_later">עדכון מאוחר יותר</string>
+    <string name="update_now">הורד את האפליקציה מ-Google Play.</string>
+    <string name="update_remind">הודעת עדכון</string>
+    <string name="update_tips1">כן, ניחשת נכון! עדכון חדש כאן!</string>
+    <string name="update_tips2">✨ הכל כדי לשפר את החוויה שלך!\nהמשך, עדכן עכשיו ותראה בעצמך! ✨</string>
+    <string name="update_title">גרסה חדשה נמצאה</string>
+    <string name="upload_image">העלה תמונות</string>
+    <string name="uploads_disabled">העלאת קבצים מושבתת.</string>
+    <string name="username">שם</string>
+    <string name="versionUpdate">עדכון</string>
+    <string name="video_mobile_pause">ביטול</string>
+    <string name="video_mobile_permission">אתה משתמש ברשת ניידת. עדיין רוצה לנגן?</string>
+    <string name="video_mobile_play">נגן</string>
+    <string name="view">צפייה</string>
+    <string name="view_certificate">צפה בתעודה</string>
+    <string name="view_select_all">בחר הכל</string>
+    <string name="visit_url_ok">בקר</string>
+    <string name="visit_url_title">לבקר ב-URL הזה מהלוח שלך?</string>
+    <string name="website_AI">בינה מלאכותית</string>
+    <string name="website_hot">חם</string>
+    <string name="website_lifestyle">חיים</string>
+    <string name="website_news">חדשות•ספורט</string>
+    <string name="website_recommend">מומלצים</string>
+    <string name="website_settings_list_header_text">גישה למיקום</string>
+    <string name="website_shoping">בידור•קניות</string>
+    <string name="website_social">חברתי</string>
+    <string name="website_tools">כלים</string>
+    <string name="website_videos">וידאו</string>
+    <string name="webstorage_clear_data_title">נקה נתונים מאוחסנים</string>
+    <string name="webstorage_origin_summary_mb_stored">MB מאוחסן על הטלפון שלך</string>
+    <string name="webstorage_outofspace_notification_text">לחץ כדי לפנות מקום.</string>
+    <string name="webstorage_outofspace_notification_title">אחסון דפדפן מלא</string>
+    <string name="write_advice_please">אנא תאר את דעתך או ההמלצה במילים... (1000 מילים)</string>
+    <string name="zxing_button_ok">אישור</string>
+    <string name="zxing_msg_camera_framework_bug">סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.</string>
+    <string name="zxing_msg_default_status">הצב ברקוד בתוך המלבן כדי לסרוק אותו.</string>
+</resources>

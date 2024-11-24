@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="ltr"
+    >
+    <com.intelligence.browser.ui.home.ToolBar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_toolbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="7dp"
+        android:layoutDirection="ltr">
+
+        <RelativeLayout
+            android:id="@+id/swipe_context"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.intelligence.browser.ui.view.PageProgressView
+                android:id="@+id/progress_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progress_bar_height"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/browser_theme_progress_blue_fg_normal"/>
+
+            <LinearLayout
+                android:id="@+id/browser_home_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_toolbar_height"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentBottom="true">
+
+                <FrameLayout
+                    android:id="@+id/toolbar_channel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/browser_common_menu_item_bg">
+
+                    <ImageView
+                        android:id="@+id/channel_toolbar_id"
+                        android:layout_width="50dp"
+                        android:paddingStart="12.5dp"
+                        android:paddingEnd="12.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/browser_toolbar_download" />
+
+                    <com.intelligence.componentlib.badge.BadgeView
+                        android:id="@+id/toolbar_news_red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/browser_toolbar_red_margin_bottom"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/toolbar_navigation"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/browser_common_menu_item_bg">
+
+                    <ImageView
+                        android:id="@+id/navigation_toolbar_id"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/browser_toolbar_bookmark_history" />
+
+                    <com.intelligence.componentlib.badge.BadgeView
+                        android:id="@+id/toolbar_navigation_red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/browser_toolbar_red_margin_bottom"
+                        android:layout_marginLeft="10dp"
+                        android:visibility="gone"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/toolbar_allsites"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/allsites_toolbar_id"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:paddingStart="6.5dp"
+                        android:paddingEnd="6.5dp"
+                        android:paddingBottom="2dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/browser_app_small_icon" />
+
+                    <com.intelligence.componentlib.badge.BadgeView
+                        android:id="@+id/toolbar_allsites_red"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/browser_toolbar_red_margin_bottom"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/tabswitcher_toolbar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/browser_common_menu_item_bg">
+
+                    <ImageView
+                        android:id="@+id/tabswitcher_toolbar_id"
+                        android:layout_width="40dp"
+                        android:padding="9.5dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/browser_label" />
+
+                    <TextView
+                        android:id="@+id/page_number_tab_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:minEms="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/toolbar_page_number_color"
+                        android:textSize="13sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/toolbar_voice"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp">
+
+                    <ImageView
+                        android:id="@+id/voice_toolbar_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:layout_marginBottom="2dp"
+                        android:src="@drawable/browser_voice"
+                        android:background="@drawable/browser_voice_bg"/>
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:id="@+id/menu_toolbar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/menu_toolbar_id"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/browser_more"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/browser_webview_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentBottom="true">
+                <FrameLayout
+                    android:id="@+id/browser_webview_toolbar_home"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/browser_common_menu_item_bg">
+
+                    <ImageView
+                        android:id="@+id/browser_webview_toolbar_home_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:paddingStart="4.5dp"
+                        android:paddingEnd="4.5dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/browser_toolbar_webview_home" />
+                </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/browser_webview_back_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/bottom_toolbar_height"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true">
+                <ImageView
+                    android:id="@+id/browser_webview_back"
+                    android:layout_width="35dp"
+                    android:padding="8dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/browser_webview_goback" />
+                <ImageView
+                    android:id="@+id/browser_webview_forward"
+                    android:layout_width="35dp"
+                    android:padding="8dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/browser_webview_forward" />
+            </LinearLayout>
+                <include
+                    android:id="@+id/toolbar_center_view"
+                    layout="@layout/browser_toolbar_center_layout"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="108dp"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"/>
+                <FrameLayout
+                    android:id="@+id/browser_tabswitcher_toolbar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/browser_common_menu_item_bg">
+
+                    <ImageView
+                        android:id="@+id/browser_tabswitcher_toolbar_id"
+                        android:layout_width="40dp"
+                        android:padding="9.5dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/browser_label" />
+
+                    <TextView
+                        android:id="@+id/browser_page_number_tab_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:minEms="1"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </FrameLayout>
+
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/browser_toolbar_channel"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="@drawable/browser_common_menu_item_bg">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/browser_channel_toolbar_id"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:src="@drawable/browser_home_new_icon" />-->
+
+<!--                    <com.intelligence.componentlib.badge.BadgeView-->
+<!--                        android:id="@+id/browser_toolbar_news_red"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_marginBottom="@dimen/browser_toolbar_red_margin_bottom"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_gravity="center"/>-->
+<!--                </FrameLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/browser_webview_menu_toolbar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/browser_webview_menu_toolbar_id"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/browser_more"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </com.intelligence.browser.ui.home.ToolBar>
+</RelativeLayout>

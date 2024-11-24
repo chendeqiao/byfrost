@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fe000000">
+
+    <com.intelligence.browser.ui.media.BrowserVideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/black"/>
+
+    <com.intelligence.browser.ui.media.FullVideoScreenHolder
+        android:id="@+id/full_video_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.intelligence.browser.ui.media.FullVideoScreenHolder>
+    <FrameLayout
+        android:id="@+id/video_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/video_loading_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/browser_app_small_icon"
+            />
+    </FrameLayout>
+</FrameLayout>

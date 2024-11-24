@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="uploads_disabled">Завантаження файлів вимкнено.</string>
+    <string name="new_tab">Нова вкладка</string>
+    <string name="new_incognito_tab">Нова інкогніто вкладка</string>
+    <string name="tab_snapshots">Збережені сторінки</string>
+    <string name="removed_from_bookmarks">Видалено з закладок.</string>
+    <string name="sign_in_to">Увійти в %1$s \"%2$s\"</string>
+    <string name="username">Ім’я</string>
+    <string name="password">Пароль</string>
+    <string name="action">Увійти</string>
+    <string name="bookmarks_add_page">Зберегти закладку</string>
+    <string name="bookmarks_search">Браузер</string>
+    <string name="cancel">Скасувати</string>
+    <string name="ok">ОК</string>
+    <string name="delete">Видалити</string>
+    <string name="modify">Змінити</string>
+    <string name="add_to_homepage">Додати на головну сторінку</string>
+    <string name="add_to_desktop">На робочий стіл</string>
+    <string name="rename">Перейменувати файли</string>
+    <string name="copy_link">Копіювати посилання</string>
+    <string name="share">Поділитися</string>
+    <string name="most_visited">Найвідвідуваніші</string>
+
+    <string name="allow">Дозволити</string>
+    <string name="go_back">Повернутися</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="bookmark_list">Список закладок</string>
+    <string name="go">Перейти</string>
+    <string name="clear">Очистити</string>
+    <string name="clear_default_browser">Очистити налаштування за замовчуванням браузера</string>
+    <string name="already_cleared">Очистлено</string>
+    <string name="open">Відкрити</string>
+    <string name="history">Історія</string>
+    <string name="remember_preference">Запам’ятати налаштування</string>
+    <string name="block">Блокувати</string>
+    <string name="clear_data_success">Успішно очищено</string>
+    <string name="exit">Вийти</string>
+    <string name="clear_all">Очистити все</string>
+
+    <string name="page_info">Інформація про сторінку</string>
+    <string name="page_info_view">Переглянути інформацію про сторінку</string>
+    <string name="page_info_address">Адреса:</string>
+
+    <string name="ssl_warnings_header">Є проблеми з сертифікатом безпеки для цього сайту.</string>
+    <string name="ssl_continue">Продовжити</string>
+    <string name="security_warning">Попередження про безпеку</string>
+    <string name="view_certificate">Переглянути сертифікат</string>
+
+    <string name="ssl_certificate">Сертифікат безпеки</string>
+    <string name="ssl_untrusted">Цей сертифікат не від авторитетного джерела.</string>
+    <string name="ssl_mismatch">Назва сайту не відповідає назві в сертифікаті.</string>
+    <string name="ssl_expired">Цей сертифікат вичерпав термін дії.</string>
+    <string name="ssl_not_yet_valid">Цей сертифікат ще не є дійсним.</string>
+    <string name="ssl_date_invalid">Цей сертифікат має недійсну дату.</string>
+    <string name="ssl_invalid">Цей сертифікат недійсний.</string>
+    <string name="ssl_certificate_is_valid">Цей сертифікат є дійсним.</string>
+    <string name="ssl_unknown">Невідома помилка сертифіката.</string>
+    <string name="stopping">Зупинка\u2026</string>
+
+    <string name="location">Адреса</string>
+    <string name="account">Обліковий запис</string>
+    <string name="containing_folder">Додати до</string>
+    <string name="new_folder">Нова папка</string>
+    <string name="edit_folder">Редагувати папку</string>
+    <string name="delete_folder">Видалити папку</string>
+    <string name="no_subfolders">Немає підпапок.</string>
+    <string name="add_to_homescreen_menu_option">На головний екран</string>
+    <string name="add_to_other_folder_menu_option">Інша папка</string>
+    <string name="name">Мітка</string>
+    <string name="bookmark_this_page">Додати сторінку до закладок</string>
+    <string name="remove">Видалити</string>
+    <string name="edit_bookmark">Редагувати закладку</string>
+    <string name="create_shortcut_bookmark">Додати ярлик на головний екран</string>
+    <string name="remove_bookmark">Видалити закладку</string>
+    <string name="set_as_homepage">Встановити як домашню сторінку</string>
+    <string name="bookmark_saved">Збережено в закладки</string>
+    <string name="bookmark_not_saved">Не вдалося зберегти закладку</string>
+    <string name="bookmark_needs_title">"Закладка повинна мати назву"</string>
+    <string name="bookmark_needs_url">"Закладка повинна мати адресу"</string>
+    <string name="bookmark_url_not_valid">Ця URL-адреса недійсна</string>
+    <string name="bookmark_cannot_save_url">Цю URL-адресу не можна додати до закладок</string>
+    <string name="delete_bookmark_warning">Видалити закладку \"%s\"?</string>
+    <string name="open_all_in_new_window">Відкрити всі в нових вкладках</string>
+    <string name="select_dot">Вибрати текст</string>
+    <string name="shortcut_bookmark">Закладка</string>
+    <string name="shortcut_bookmark_title">Виберіть закладку</string>
+    <string name="contextheader_folder_bookmarkcount">%d закладок</string>
+    <string name="contextheader_folder_empty">Порожня папка</string>
+    <string name="contextmenu_openlink_newwindow">Відкрити в новій вкладці</string>
+    <string name="contextmenu_openlink_newwindow_background">Відкрити у фоні</string>
+    <string name="contextmenu_savelink">Зберегти посилання</string>
+    <string name="contextmenu_sharelink">Поділитися посиланням</string>
+    <string name="contextmenu_copy">Копіювати</string>
+    <string name="contextmenu_copylink">Копіювати URL посилання</string>
+    <string name="contextmenu_download_image">Зберегти зображення</string>
+    <string name="contextmenu_view_image">Переглянути зображення</string>
+    <string name="contextmenu_set_wallpaper">Встановити як шпалери</string>
+    <string name="contextmenu_set_wallpaper_image">Шпалери</string>
+    <string name="contextmenu_dial_dot">Набрати…</string>
+    <string name="contextmenu_add_contact">Додати контакт</string>
+    <string name="contextmenu_send_mail">Відправити електронний лист</string>
+    <string name="contextmenu_map">Карта</string>
+    <string name="choosertitle_sharevia">Поділитися через</string>
+    <string name="menu_preferences">Налаштування</string>
+
+    <string name="pref_ad_block">Блокування реклами</string>
+    <string name="pref_notification_tool_show">Показати панель пошуку в панелі сповіщень</string>
+    <string name="pref_force_userscalable_summary">Перевизначити запит сайту на керування масштабуванням</string>
+    <string name="pref_default_text_encoding">Кодування тексту</string>
+    <string name="pref_default_ad_time">Час позначення реклами</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">Налаштування сайту</string>
+    <string name="pref_content_search_engine">Встановити пошукову систему</string>
+    <string name="pref_search_engine_dialog_title">Вибір пошукової системи</string>
+    <string name="pref_download_path_setting_screen_title">Користувацький шлях завантаження</string>
+    <string name="pref_privacy_security_title">Конфіденційність і безпека</string>
+    <string name="pref_privacy_security_title_summary">Дозволити браузеру запам\'ятовувати паролі, збережені форми тощо.</string>
+    <string name="pref_privacy_clear_data">Очистити дані</string>
+    <string-array name="pref_clear_data_choices">
+        <item>Кеш</item>
+        <item>Кукі</item>
+        <item>Форми</item>
+        <item>Історія</item>
+        <item>Паролі</item>
+        <item>Доступ до місцезнаходження</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Очистити локально збережені вмісти та бази даних</item>
+        <item>Очистити всі кукі</item>
+        <item>Очистити всі збережені дані форм</item>
+        <item>Очистити всю історію перегляду</item>
+        <item>Очистити всі збережені облікові записи та паролі</item>
+        <item>Скасувати дозвіл для всіх сайтів на отримання вашого місцезнаходження</item>
+    </string-array>
+    <string name="pref_feedback">Відгуки</string>
+    <string name="pref_default_browser">Встановити за замовчуванням браузер</string>
+    <string name="pref_confirm_on_exit">Підтвердити при виході</string>
+    <string name="pref_show_status_bar">Показати панель стану</string>
+    <string name="pref_about">Про програму</string>
+    <string name="pref_extras_reset_default">Скинути до значень за замовчуванням</string>
+    <string name="pref_extras_reset_default_dlg">Повернути налаштування до значень за замовчуванням?</string>
+    <string name="accessibility_button_uaswitch">Перемкнути агент користувача</string>
+    <string-array name="pref_user_agent_choices">
+        <item>За замовчуванням</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Комп\'ютер</item>
+    </string-array>
+    <string name="pref_font_size">Розмір шрифта</string>
+    <string name="pref_font_size_summary">Налаштувати розмір тексту та шрифтів</string>
+    <string name="pref_force_userscalable">Примусово увімкнути масштабування</string>
+    <string name="pref_security_accept_cookies">Приймати кукі</string>
+    <string name="pref_security_accept_cookies_summary">Дозволити сайтам зберігати та читати дані кукі</string>
+    <string name="pref_privacy_enable_geolocation">Увімкнути визначення місцезнаходження</string>
+    <string name="pref_privacy_enable_geolocation_summary">Дозволити сайтам запитувати доступ до вашого місцезнаходження</string>
+    <string name="pref_security_save_form_data">Запам\'ятовувати дані форм</string>
+    <string name="pref_security_save_form_data_summary">Запам\'ятовувати введені дані в форму</string>
+    <string name="pref_security_remember_passwords">Запам\'ятовувати паролі</string>
+    <string name="pref_security_remember_passwords_summary">Зберігати імена користувачів і паролі для сайтів</string>
+    <string name="pref_security_show_security_warning">Показувати попередження про безпеку</string>
+    <string name="pref_security_show_security_warning_summary">Показувати попередження, якщо виникне проблема з безпекою сайту</string>
+    <string name="pref_download_with_ADM">Завантажити за допомогою ADM</string>
+    <string name="pref_show_download_dialog">Показати діалог завантаження</string>
+    <string name="pref_download">Налаштування завантаження</string>
+    <string-array name="pref_text_size_choices">
+        <item>Малий</item>
+        <item>Середній</item>
+        <item>Нормальний</item>
+        <item>Великий</item>
+        <item>Гігантський</item>
+    </string-array>
+    <string name="pref_text_zoom">Масштабування тексту</string>
+    <string name="pref_min_font_size">Мінімальний розмір шрифта</string>
+    <string name="pref_wifi_only" translatable="false">ТІЛЬКИ WIFI</string>
+    <string name="pref_always" translatable="false">ЗАВЖДИ</string>
+    <string name="browserFrameNetworkErrorLabel">Проблема з підключенням</string>
+    <string name="browserFrameFileErrorLabel">Проблема з файлом</string>
+    <string name="browserFrameFormResubmitMessage">Сторінка, яку ви намагаєтесь переглянути, містить дані, які вже були надіслані ("POSTDATA"). Якщо ви надішлете дані знову, будь-яка дія, яку виконує форма на сторінці (наприклад, пошук або покупка), буде повторена.</string>
+    <string name="empty_history">Немає історії перегляду</string>
+    <string name="add_new_bookmark">Додати закладку</string>
+    <string name="find_on_page">Знайти на сторінці</string>
+    <string name="search_hint">Пошук або введіть URL</string>
+    <string name="search_settings_description">Закладки та історія веб-переглядів</string>
+
+    <string name="too_many_windows_dialog_message">Не можна відкрити нову вкладку, поки не закриєте одну.</string>
+    <string name="too_many_subwindows_dialog_title">Спливаюче вікно вже відкрите</string>
+    <string name="too_many_subwindows_dialog_message">Можна відкрити тільки одне спливаюче вікно одночасно.</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">Немає SD карти</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Для завантаження %s потрібна SD карта.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD карта недоступна</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD карта зайнята. Щоб дозволити завантаження, натисніть «Вимкнути USB зберігання» в повідомленні.</string>
+
+    <string name="download_pending">Завантаження починається…</string>
+    <string name="search_the_web">Шукати в Інтернеті</string>
+
+    <string name="webstorage_outofspace_notification_title">Пам\'ять браузера заповнена</string>
+    <string name="webstorage_outofspace_notification_text">Натисніть, щоб звільнити місце.</string>
+    <string name="webstorage_clear_data_title">Очистити збережені дані</string>
+    <string name="webstorage_origin_summary_mb_stored">МБ збережено на вашому телефоні</string>
+    <string name="loading_video">Завантаження відео…</string>
+    <string name="permissions_prompt_message">%1$s хоче використовувати ваш %2$s.</string>
+    <string name="permissions_prompt_deny">Відмовити</string>
+    <string name="resource_protected_media_id">ID захищених медіа</string>
+    <string name="resource_video_capture">камера</string>
+    <string name="resource_audio_capture">мікрофон</string>
+    <string name="geolocation_permissions_prompt_message">%s хоче знати ваше місцезнаходження</string>
+    <string name="geolocation_permissions_prompt_share">Поділитися місцезнаходженням</string>
+    <string name="geolocation_permissions_prompt_dont_share">Відмовитись</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Цей сайт може отримати доступ до вашого місцезнаходження. Змініть це в Налаштуваннях &gt; Додатково &gt; Налаштування вебсайтів.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Цей сайт не може отримати доступ до вашого місцезнаходження. Змініть це в Налаштуваннях &gt; Додатково &gt; Налаштування вебсайтів.</string>
+    <string name="geolocation_settings_page_title">Скасувати дозвіл на доступ до вашого місцезнаходження</string>
+    <string name="geolocation_settings_page_summary_allowed">Цей сайт зараз може отримати доступ до вашого місцезнаходження</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Цей сайт не може зараз отримати доступ до вашого місцезнаходження</string>
+    <string name="geolocation_settings_page_dialog_message">Очистити доступ до місцезнаходження для цього вебсайту?</string>
+    <string name="website_settings_list_header_text">Доступ до місцезнаходження</string>
+
+    <string name="progress_dialog_setting_wallpaper">Встановлення шпалер…</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">Показати консоль JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">Консоль JavaScript</string>
+    <string name="error_console_eval_text_hint" translatable="false">Оцінити JavaScript</string>
+    <string name="error_console_eval_button_text" translatable="false">Оцінити</string>
+    <string name="empty_bookmarks_folder">Ваші закладки порожні</string>
+    <string name="other_bookmarks">Інші закладки</string>
+
+    <string name="max_tabs_warning">Більше вкладок немає</string>
+    <string name="local_bookmarks">Локальні</string>
+    <string name="empty_snapshots_folder">Збережених сторінок немає</string>
+    <string name="remove_snapshot">Видалити збережену сторінку</string>
+    <string name="accessibility_button_forward">Перейти вперед</string>
+    <string name="accessibility_button_refresh">Оновити сторінку</string>
+    <string name="accessibility_button_stop">Зупинити завантаження сторінки</string>
+    <string name="accessibility_button_addbookmark">Додати сторінку в закладки</string>
+    <string name="accessibility_button_search">Шукати</string>
+    <string name="accessibility_button_voice">Запустити голосовий пошук</string>
+    <string name="accessibility_button_closetab">Закрити вкладку</string>
+    <string name="accessibility_button_newtab">Відкрити нову вкладку</string>
+    <string name="accessibility_button_more">Більше опцій</string>
+
+    <string name="accessibility_state_incognito">Режим інкогніто</string>
+    <string name="accessibility_state_frozen">Збережена сторінка</string>
+
+    <string name="accessibility_transition_navscreen">Управління вкладками</string>
+    <string name="accessibility_button_bookmarks_folder_up">Попередня папка</string>
+    <string name="sendText">Виберіть дію для тексту</string>
+
+    <string name="cancelDel">Скасувати видалення?</string>
+
+    <string name="write_advice_please">Будь ласка, опишіть свою думку чи пропозицію словами... (1000 слів)</string>
+    <string name="feed_back_sucess">Ми отримали ваші коментарі та пропозиції, дякуємо.</string>
+    <string name="check_network">Неможливо відправити через проблему з мережею, будь ласка, перевірте.</string>
+    <string name="commit_fail">Не вдалося надіслати, будь ласка, спробуйте пізніше</string>
+    <string name="please_input_over_six">Будь ласка, введіть не менше 6 символів</string>
+    <string name="please_input_under_max">Будь ласка, введіть не більше %1$d символів</string>
+    <string name="email">Email:</string>
+    <string name="email_is_error">Будь ласка, введіть правильний номер телефону</string>
+    <string name="add_pic">Додати зображення:</string>
+    <string name="optional">(Необов\'язково)</string>
+    <string name="please_leave_your_email">Будь ласка, залиште вашу електронну адресу</string>
+    <string name="feedback_other">Інше:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Необов\'язково)</string>
+    <string name="feedback_submit">Відправити</string>
+
+    <string name="versionUpdate">Оновлення</string>
+    <string name="messageContent">Для %s є нова версія, ви можете оновити її зараз.</string>
+    <string name="update_at_once">Оновити</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">Перевірити оновлення</string>
+    <string name="pref_contact_us">Зв\'язатися з нами:</string>
+
+    <string name="pref_agreement">Умови використання</string>
+    <string name="pref_privacy_policy">Політика конфіденційності</string>
+
+    <string name="check_for_update">перевірка оновлення...</string>
+    <string name="request_fail">Запит не вдалося виконати, спробуйте пізніше</string>
+    <string name="update_remind">Повідомлення про оновлення</string>
+    <string name="is_latest">Вже остання версія!</string>
+    <string name="no_prompt">Не запитувати більше</string>
+
+    <string name="download">Завантажити</string>
+    <string name="downloading">Завантаження</string>
+    <string name="downloaded">Завантажено</string>
+    <string name="download_removed">Видалено</string>
+    <string name="download_pause">Завантаження призупинено</string>
+    <string name="download_failed">Завантаження не вдалося</string>
+    <string name="unknown_file">Невідомий тип файлу</string>
+    <string name="no_downloads">Немає завантажень</string>
+    <string name="downloadmanager_disabled">Менеджер завантажень вимкнено. Будь ласка, увімкніть його.</string>
+    <string name="cannot_open_the_file">Немає програми для відкриття цього типу файлів</string>
+    <string name="download_allow_mobile">Дозволити завантаження через мобільну мережу?</string>
+    <string name="allow_download">Дозволити завантаження</string>
+    <string name="allow_download_no">Підключіть WiFi</string>
+    <string name="download_list">Список завантажень</string>
+    <string name="storage_space_lack">Недостатньо доступного місця</string>
+    <string name="new_file">Створити новий файл</string>
+    <string name="replace_file">Замінити файл</string>
+
+    <string name="default_location">Типове місце: %1$s</string>
+    <string name="select_location">Вибрати місце</string>
+    <string name="sdcard_free">%1$s Вільно/%2$s</string>
+
+    <!-- bottomMenuItem -->
+    <string name="menu_browser_add_bookmark">Додати закладку</string>
+    <string name="menu_browser_night">Захист для очей</string>
+    <string name="menu_browser_incognito">Інкогніто</string>
+    <string name="menu_browser_close_incognito">Звичайний</string>
+    <string name="menu_browser_history">Історія</string>
+    <string name="menu_browser_bookmarks">Закладки</string>
+    <string name="menu_browser_downloads">Завантаження</string>
+    <string name="menu_browser_no_image">Без зображень</string>
+    <string name="menu_browser_full_screen">На весь екран</string>
+    <string name="menu_browser_font_size">Розмір шрифту</string>
+    <string name="menu_browser_search_page">Пошук на сторінці</string>
+    <string name="menu_browser_snapshots">Зберегти сторінку</string>
+
+    <string name="menu_browser_settings">Налаштування</string>
+    <string name="menu_browser_Tools">Інструменти</string>
+    <string name="menu_browser_quit">Вийти</string>
+
+    <string name="title_clear_off_line">Очистити збережені сторінки?</string>
+    <string name="title_clear_history">Очистити історію?</string>
+    <string name="title_clear_all_history">Очистити всю історію?</string>
+    <string name="title_clear_bookmark">Очистити закладку?</string>
+    <string name="enter_incognito_mode">Перейти в інкогніто</string>
+    <string name="enter_normal_mode">Перейти в звичайний режим</string>
+    <string name="swipe_up_tip">Проведіть вгору, щоб видалити вкладку</string>
+    <string name="empty_info_most_visited">Немає записів</string>
+
+    <string name="prompt_saved_off_line">Збережено в офлайн-сторінках</string>
+    <string name="prompt_already_saved_off">Цю сторінку вже збережено</string>
+    <string name="prompt_already_saved_bookmark">Цю закладку вже додано</string>
+    <string name="incognito_home">Ви в режимі Інкогніто</string>
+    <string name="incognito_home_content">Тепер ви в режимі інкогніто.</string>
+    <string name="edit">Редагувати</string>
+
+    <string name="exit_dialog_title">Вийти з браузера?</string>
+    <string-array name="exit_dialog_choices">
+        <item>Очистити історію та кеш</item>
+        <item>Не запитувати більше</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">Знайдено рекламу, увімкнути блокування реклами?</string>
+    <string name="visit_url_title">Відкрити це URL з вашого буфера обміну?</string>
+    <string name="visit_url_ok">Перейти</string>
+    <string name="incognito_home_tip">Ви можете вийти з інкогніто і повернутися до звичайного режиму.</string>
+    <string name="snap_shot_no_title">Без назви</string>
+    <string name="view_select_all">Вибрати все</string>
+    <string name="set_default_browser">Встановити за замовчуванням браузер</string>
+    <string name="enter_settings_page">Перейдіть до налаштувань після очищення.</string>
+    <string name="clear_default_setting_please">Інший браузер встановлений за замовчуванням, будь ласка, скиньте налаштування за замовчуванням для браузера.</string>
+    <string name="unknown_error">Невідома помилка, будь ласка, спробуйте ще раз.</string>
+    <string name="set_default_success">Налаштування успішно виконано!</string>
+    <string name="set_default_failure">Не вдалося встановити за замовчуванням. Спробуйте ще раз.</string>
+
+    <string name="default_bookmark">Типова закладка</string>
+
+    <string name="click_again_quit">Натисніть назад, щоб вийти</string>
+    <string name="clear_all_already">Всі дані вже очищені!</string>
+    <string name="select_download_path">Виберіть папку "%s" як місце завантаження</string>
+
+    <string name="contact_us_on_facebook">Зв\'яжіться з нами у Facebook</string>
+    <string name="text_count_can_input">%1$d символів можна ввести</string>
+    <string name="input_over_flow">Не вдалося надіслати, %1$d символів перевищують ліміт</string>
+    <string name="upload_image">Завантажити зображення</string>
+    <string name="request_read_external_storage_error">Не вдалося отримати доступ до пам\'яті телефону</string>
+    <string name="get_photo_failure">Не вдалося отримати зображення</string>
+
+    <string name="title_activity_add_link">Додати посилання</string>
+    <string name="btn_recommend_add">Додати</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">Будь ласка, введіть заголовок</string>
+    <string name="right_recommend_add_link_not_url">Будь ласка, введіть URL</string>
+    <string name="right_recommend_add_link_url_format">Цей URL неправильний</string>
+    <string name="right_recommend_add_link_saved">Збережено</string>
+    <string name="right_recommend_add_link_repeat">URL вже існує</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">Десктоп</string>
+    <string name="right_recommend_tools_remove">Видалити</string>
+
+    <string name="file_name">Ім\'я файлу</string>
+    <string name="copylink_success">Посилання скопійовано</string>
+    <string name="add_to_homepage_success">Додано на головну сторінку</string>
+    <string name="add_to_desktop_success">Додано на робочий стіл</string>
+    <string name="clear_history_all">Очистити всю історію</string>
+    <string name="remove_items_all">Видалити елементи</string>
+    <string name="rename_failed">Не вдалося перейменувати</string>
+    <string name="rename_success">Перейменовано успішно</string>
+    <string name="filename_empty">Ім\'я файлу не може бути порожнім</string>
+    <string name="file_exist">Файл вже існує</string>
+    <string name="file_not_exist">Файл не існує</string>
+
+    <string name="menu_tools_box">Інструменти</string>
+    <string name="toolbox_menu_on">Увімкнено</string>
+    <string name="toolbox_menu_off">Вимкнено</string>
+    <string name="home_page">Головна сторінка</string>
+    <string name="desktop">Робочий стіл</string>
+    <string name="name_cannot_empty">Назва вебсайту не може бути порожньою</string>
+
+    <string name="setting_update_speech_recognition">Введення голосом заборонено, будь ласка, оновіть Google voice service</string>
+    <string name="done">ГОТОВО</string>
+    <string name="edited">ОТРИМАНО</string>
+    <string name="enter_website_name">Введіть назву вебсайту</string>
+
+    <string name="unknown">невідомо</string>
+    <string name="available">Доступно</string>
+    <string name="total">Всього</string>
+    <string name="notification_content_text">Натисніть, щоб переглянути</string>
+    <string name="notification_download_finish">Завантаження завершено</string>
+    <string name="view">Переглянути</string>
+
+    <string name="five_stars_titile">Тобі подобається %s?</string>
+    <string name="five_stars_content">Твоя оцінка в 5 зірок дуже важлива для нас.</string>
+    <string name="five_stars_later">Пізніше</string>
+    <string name="five_stars">5 зірок</string>
+    <string name="refresh">Оновити</string>
+    <string name="ua_switcher_desktop">Запитати десктопну версію сайту</string>
+
+    <string name="video_mobile_permission">Ти використовуєш мобільний інтернет. Хочеш продовжити?</string>
+    <string name="video_mobile_play">Відтворити</string>
+    <string name="video_mobile_pause">Скасувати</string>
+    <string name="close_all_incognito_notification">Закрити всі вкладки в інкогніто</string>
+    <string name="add_up_to_15">Додати до 20</string>
+    <string name="pref_deverloper_options">Опції для розробників</string>
+    <string name="show_dev_on">Тепер ти розробник!</string>
+
+    <string name="pic_ad_block_count">Заблоковані зображення</string>
+    <string name="js_ad_block_count">Заблоковані JavaScript файли</string>
+    <string name="popup_ad_block_count">Заблоковані спливаючі вікна</string>
+    <string name="custom_rules">Користувацькі фільтри AdBlock</string>
+    <string name="custom_rules_title">Фільтри AdBlock</string>
+    <string name="confirm_deletion">Видалити це?</string>
+    <string name="add">Додати</string>
+    <string name="confirm_deletion_all">Видалити все?</string>
+
+    <string name="js_disable_hosts">Встановити ліміт часу для маркерів реклами</string>
+    <string name="js_disable_hosts_title">Окремі домени</string>
+    <string name="null_rules_prompt">Ти можеш додати свої власні правила. Вони повинні відповідати граматичним вимогам Adblock Plus. Інструкція.</string>
+
+    <string name="instructions_label">Інструкція</string>
+    <string name="adblock_rules_error_prompt">Помилка синтаксису, відредагуй ще раз!</string>
+    <string name="js_disable_host_error_prompt">Помилка домену, відредагуй ще раз!</string>
+
+    <string name="leadpage_home">Головна</string>
+    <string name="leadpage_back">Назад</string>
+    <string name="leadpage_forward">Вперед</string>
+    <string name="abnormal_recover_ok">Відновити</string>
+    <string name="abnormal_recover_message">Відновити останню веб-сторінку?</string>
+    <string name="abnormal_recover_recovered">Сторінки з останньої сесії відновлено.</string>
+
+    <string name="open_most_visited">відкрити найпопулярніші >> </string>
+    <string name="contextmenu_share_app">Поділитися додатком</string>
+    <string name="contextmenu_share_website">Поділитися вебсайтом</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">Інструменти</string>
+
+    <string name="pref_show_red_badge_notity">Показати червону позначку</string>
+    <string name="pref_show_header_news">Показати час/погоду/новини попередньої сторінки</string>
+
+    <string name="added_new_bookmark">Додати в закладки</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">п’ять зірок</string>
+    <string name="deletion_all">Видалити все</string>
+    <string name="adblockplus_url">https://adblockplus.org/uk/filters</string>
+    <string name="mark_image_ad">Позначити рекламу</string>
+    <string name="mark_image_ad_fail">Не вдалося позначити</string>
+    <string name="product_agree">Згоден</string>
+    <string name="product_no_agree">Не згоден</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">Розгорнути</string>
+    <string name="setting_bottom_night">Темний режим</string>
+    <string name="setting_bottom_day">Світлий режим</string>
+
+    <string name="update_now">Завантажити оновлення в Google Play.</string>
+    <string name="update_title">Знайдено нову версію</string>
+    <string name="update_later">Оновити пізніше</string>
+    <string name="five_stars_comment">Залишити відгук.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">Історія пошуку</string>
+    <string name="browser_admin_panel">Особистий кабінет</string>
+    <string name="browser_navigation">Навігація</string>
+
+    <string name="browser_slogo_fast">Швидше</string>
+    <string name="browser_slogo_safe">Безпечніше</string>
+    <string name="browser_slogo_intelligence">Розумніше</string>
+
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nВсі права захищені.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">Помістіть QR-код всередину коробки та почніть сканування</string>
+    <string name="picture_nocodeinfo" translatable="false">Не знайдено QR-кодів в зображенні</string>
+    <string name="picture_scannoinfo" translatable="false">Не знайдено QR-кодів після сканування</string>
+    <string name="share_dialog_title" translatable="false">Поділитися веб-сторінкою</string>
+    <string name="my_qrcode" translatable="false">Мій QR-код</string>
+    <string name="select_qr_code" translatable="false">Виберіть зображення QR-коду</string>
+    <string name="sure_select_true_picture" translatable="false">Будь ласка, підтвердіть правильність вибраного зображення</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">Розгорнути рекомендовані сайти</string>
+    <string name="browser_slogan" translatable="false">Шукайте все, що вам потрібно</string>
+    <string name="browser_net_error_refresh" translatable="false">Натисніть на порожнє місце для оновлення сторінки</string>
+
+    <string name="browser_hot_word_title" translatable="false">Гарячі запити</string>
+    <string name="browser_permission_camera">Дозвіл на камеру відхилено, увімкніть вручну</string>
+    <string name="browser_permission_notification">Дозвіл на сповіщення відхилено, увімкніть вручну</string>
+    <string name="browser_permission_strone">Для завантаження файлів потрібен дозвіл на зберігання. Увімкніть вручну в налаштуваннях</string>
+
+    <string name="browser_permission_qr">Ця функція потребує дозволу на доступ до пам’яті. Увімкніть вручну в налаштуваннях</string>
+    <string name="browser_permission_setwall">Для встановлення шпалер потрібен дозвіл на пам’ять. Увімкніть вручну в налаштуваннях</string>
+    <string name="browser_product_start">Почати</string>
+    <string name="browser_product_agree_tips">Вам потрібно погодитись з політикою.</string>
+    <string name="browser_privacy_tips">Ваші особисті дані обробляються відповідно до нашої «Політики конфіденційності».</string>
+
+    <string name="byfrost_slogan">Byfrost — Дивись на більший світ!</string>
+    <string name="byfrost_suggestion">Ми отримали вашу пропозицію, дякуємо.</string>
+    <string name="byfrost_suggestion_time">Час відгуку не може бути менше 1 хвилини від останнього.</string>
+    <string name="update_tips2">✨Все для покращення вашого досвіду! Оновіть зараз та перевірте! ✨</string>
+    <string name="update_tips1">Так, ви вгадали! Ось нове оновлення!</string>
+    <string name="update_content1">1. Наші суперрозумні науковці зробили завантаження сторінок блискавично швидким!</string>
+    <string name="update_content2">2. Наша чарівна дизайнерка покращила вигляд інтерфейсу!</string>
+    <string name="update_content3">3. А наші дивовижні розробники? Вони пізно працювали, п\'ючи каву і виганяючи всі ці настирливі помилки!</string>
+
+    <string name="lable_news">Новини</string>
+    <string name="lable_video">Відео</string>
+    <string name="lable_lifestyle">Життя</string>
+    <string name="lable_AI">ШІ</string>
+    <string name="lable_Tools">Інструменти</string>
+
+    <string name="lable_weather">Погода</string>
+    <string name="lable_calendar">Календар</string>
+    <string name="lable_maps">Карти</string>
+    <string name="lable_translate">Переклад</string>
+
+    <string name="website_recommend">Рекомендовані</string>
+    <string name="website_social">Соціальні мережі</string>
+    <string name="website_lifestyle">Життя</string>
+    <string name="website_news">Новини•Спорт</string>
+    <string name="website_AI">ШІ</string>
+    <string name="website_videos">Відео</string>
+    <string name="website_shoping">Розваги•Шопінг</string>
+    <string name="website_tools">Інструменти</string>
+    <string name="website_hot">Гарячі</string>
+
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Нажаль, виникла помилка камери. Можливо, вам знадобиться перезавантажити пристрій.</string>
+    <string name="zxing_msg_default_status">Щоб відсканувати штрих-код, помістіть його в прямокутник видошукача.</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sugar_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/sugar_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.intelligence.componentlib.sugar.MagicIndicator
+        android:id="@+id/sugar_indicator"
+        android:layout_width="20dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/browser_indicator_bg_color"/>
+
+</LinearLayout>

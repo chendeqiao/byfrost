@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_dialog_choices">
+        <item>مسح المحفوظات وذاكرة التخزين المؤقت</item>
+        <item>لا تسأل مجددًا</item>
+    </string-array>
+    <string-array name="lock_months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو </item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="pref_clear_data_choices">
+        <item>ذاكرة التخزين المؤقت</item>
+        <item>ملفات تعريف الارتباط</item>
+        <item>ملفات تعريف الارتباط</item>
+        <item>نماذج</item>
+        <item>كلمات المرور</item>
+        <item>الموقع الجغرافي</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>مسح المحتويات وقواعد البيانات المخزنة محليًا</item>
+        <item>مسح جميع ملفات تعريف الارتباط</item>
+        <item>مسح جميع بيانات النموذج المحفوظة</item>
+        <item>مسح كل سجلالتصفح</item>
+        <item>مسح جميع الحسابات وكلمات المرور المحفوظة</item>
+        <item>إلغاء إذن الوصول إلى جميع مواقع الويب للحصول على موقعك</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>اللاتينية-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>الصينية (GBK)</item>
+        <item>الصينية (Big5)</item>
+        <item>اليابانية (ISO-2022-JP)</item>
+        <item>اليابانية (Shift_JIS)</item>
+        <item>اليابانية (EUC-JP)</item>
+        <item>الكورية (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>صغير جدًا</item>
+        <item>صغير</item>
+        <item>طبيعي</item>
+        <item>كبير</item>
+        <item>ضخم</item>
+    </string-array>
+    <string-array name="pref_user_agent_choices">
+        <item>افتراضي</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>الموقع الجغرافي</item>
+    </string-array>
+    <string name="abnormal_recover_message">تم اكتشاف صفحات لم يتم غلقها، هل تريد استردادها؟</string>
+    <string name="abnormal_recover_ok">استرداد</string>
+    <string name="abnormal_recover_recovered">تم استرداد صفحات من الجلسة الأخيرة.</string>
+    <string name="accessibility_button_addbookmark">تعيين الصفحة كعلامة مرجعية</string>
+    <string name="accessibility_button_bookmarks_folder_up">المجلد السابق</string>
+    <string name="accessibility_button_closetab">إغلاق علامة التبويب</string>
+    <string name="accessibility_button_forward">الانتقال للأمام</string>
+    <string name="accessibility_button_more">المزيد من الخيارات</string>
+    <string name="accessibility_button_newtab">فتح علامة تبويب جديدة</string>
+    <string name="accessibility_button_refresh">تحديث الصفحة</string>
+    <string name="accessibility_button_search">بحث</string>
+    <string name="accessibility_button_stop">إيقاف تحميل الصفحة</string>
+    <string name="accessibility_button_uaswitch">تبديل عميل مستخدم</string>
+    <string name="accessibility_button_voice">تشغيل البحث الصوتي</string>
+    <string name="accessibility_state_frozen">صفحة محفوظة</string>
+    <string name="accessibility_state_incognito">صفحة متخفية</string>
+    <string name="accessibility_transition_navscreen">إدارة علامات التبويب</string>
+    <string name="account">الحساب</string>
+    <string name="action">تسجيل الدخول</string>
+    <string name="ad_block_num">%d</string>
+    <string name="adblock_dialog_tips">تم تحديد موقع الإعلانات، هل ترغب في تمكين حظر الإعلانات الآن؟</string>
+    <string name="adblock_rules_error_prompt">خطأ في بناء الجملة، يرجى التحرير مجددًا.</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="add">إضافة</string>
+    <string name="add_new_bookmark"> إضافة العلامات</string>
+    <string name="add_pic">إضافة صورة:</string>
+    <string name="add_to_desktop">إضافة إلى سطح المكتب</string>
+    <string name="add_to_desktop_success">تمت الإضافة إلى سطح المكتب</string>
+    <string name="add_to_homepage">إضافة إلى الصفحة الرئيسية</string>
+    <string name="add_to_homepage_success">تمت الإضافة إلى الصفحة الرئيسية</string>
+    <string name="add_to_homescreen_menu_option">الشاشة الرئيسية</string>
+    <string name="add_to_other_folder_menu_option">مجلد آخر</string>
+    <string name="add_up_to_15">إضافة ما يصل إلى 20</string>
+    <string name="added_new_bookmark">إضافة إلى المفضلة</string>
+    <string name="allow">سماح</string>
+    <string name="allow_download">السماح بالتنزيل؟</string>
+    <string name="allow_download_no">الاتصال بـ Wi-Fi</string>
+    <string name="already_cleared">تم المسح</string>
+    <string name="application_name">Byfrost</string>
+    <string name="available">متاحة</string>
+    <string name="block">منع</string>
+    <string name="bookmark_cannot_save_url">يتعذر تعيين عنوان URL هذا كعلامة مرجعية.</string>
+    <string name="bookmark_list">قائمة العلامات المرجعية</string>
+    <string name="bookmark_needs_title">"يجب أن يكون للعلامة المرجعية اسم"</string>
+    <string name="bookmark_needs_url">"يجب أن يكون للعلامة المرجعية موقع جغرافي"</string>
+    <string name="bookmark_not_saved">تعذر حفظ العلامة المرجعية</string>
+    <string name="bookmark_saved">تم الحفظ إلى العلامات المرجعية</string>
+    <string name="bookmark_this_page">تعيين هذه الصفحة كعلامة مرجعية</string>
+    <string name="bookmark_url_not_valid">عنوان URL هذا غير صالح.</string>
+    <string name="bookmarks">العلامات المرجعية</string>
+    <string name="bookmarks_add_page">حفظ العلامة المرجعية</string>
+    <string name="bookmarks_search">بحث العلامات المرجعية</string>
+    <string name="browserFrameFileErrorLabel">خطأ في الملف</string>
+    <string name="browserFrameFormResubmitMessage">تحتوي الصفحة التي تحاول عرضها على بيانات تم إرسالها فعليًا (\"POSTDATA\"). إذا أعدت إرسال البيانات، فسيتم تكرار أي إجراء نفذه النموذج على الصفحة (مثل إجراء عملية بحث أو شراء عبر الإنترنت).</string>
+    <string name="browserFrameNetworkErrorLabel">خطأ في الاتصال</string>
+    <string name="browser_admin_panel">مركز المستخدم</string>
+    <string name="browser_navigation">ملاحة</string>
+    <string name="browser_permission_camera">الكاميرا تم رفض الإذن ، يرجى فتح يدويا</string>
+    <string name="browser_permission_notification">تم رفض إذن شريط الإشعارات، يرجى تمكينه يدويًا</string>
+    <string name="browser_permission_qr">تتطلب هذه الوظيفة إذن الوصول إلى الذاكرة. يرجى تمكين الإذن يدويًا في الإعدادات</string>
+    <string name="browser_permission_setwall">تتطلب إعداد خلفية الهاتف إذن تخزين الذاكرة. يرجى فتحه يدويًا في صفحة الإعدادات</string>
+    <string name="browser_permission_strone">تحميل الملف يتطلب أذونات التخزين ، يرجى تحديد أذونات التخزين يدويا داخل</string>
+    <string name="browser_privacy_tips">سيتم التعامل مع بياناتك الشخصية وفقًا لــ "سياسة الخصوصية" لدينا.</string>
+    <string name="browser_product_agree_tips">يجب أن توافق على السياسة.</string>
+    <string name="browser_product_start">ابدأ</string>
+    <string name="browser_slogo_fast">سريع</string>
+    <string name="browser_slogo_intelligence">فكري</string>
+    <string name="browser_slogo_safe">خزائن</string>
+    <string msgid="6709237687234102240" name="browser_tools">الأدوات</string>
+    <string name="btn_recommend_add">إضافة</string>
+    <string name="byfrost_slogan">Byfrost - رؤية عالم أكبر!</string>
+    <string name="byfrost_suggestion">لقد استلمنا اقتراحك، شكرًا لك.</string>
+    <string name="byfrost_suggestion_time">لا يمكن أن يكون وقت التعليق أقل من 1 دقيقة منذ آخر مرة.</string>
+    <string name="cancel">إلغاء</string>
+    <string name="cancelDel">تراجع حذف؟</string>
+    <string name="cannot_open_the_file">لا توجد إجراءات لمعالجة هذا النوع من الملفات</string>
+    <string name="check_for_update">جارٍ التحقق من تحديث...</string>
+    <string name="check_network">فشل الإرسال بسبب مشكلة في الشبكة، يرجى التحقق</string>
+    <string name="choosertitle_sharevia">مشاركة عبر</string>
+    <string name="clear">مسح</string>
+    <string name="clear_all">حذف الكل</string>
+    <string name="clear_all_already">تم مسح جميع البيانات</string>
+    <string name="clear_data_success">مسح النجاح</string>
+    <string name="clear_default_browser">مسح إعداد كالمتصفح الافتراضي</string>
+    <string name="clear_default_setting_please">هناكمتصفح آخر تم تعيينه كمتصفح افتراضي، يرجى مسح الإعدادات الافتراضية للمتصفح.</string>
+    <string name="clear_history_all">مسح جميع المحفوظات</string>
+    <string name="click_again_quit">اضغط السابق للخروج</string>
+    <string name="close_all_incognito_notification">إغلاق كل علامات التبويب الموجودة في الوضع المخفي</string>
+    <string name="commit_fail">فشلالإرسال، يرجى المحاولة لاحقًا</string>
+    <string name="confirm_deletion">حذف؟</string>
+    <string name="confirm_deletion_all">حذف الكل؟</string>
+    <string name="contact_us_on_facebook">اتصل بنا على Facebook</string>
+    <string name="containing_folder">إضافة إلى</string>
+    <string name="contextheader_folder_bookmarkcount">%d علامات مرجعية</string>
+    <string name="contextheader_folder_empty">مجلد فارغ</string>
+    <string name="contextmenu_add_contact">إضافة جهات اتصال</string>
+    <string name="contextmenu_copy">نسخ</string>
+    <string name="contextmenu_copylink">نسخ عنوان URL للارتباط</string>
+    <string name="contextmenu_dial_dot">طلب\u2026</string>
+    <string name="contextmenu_download_image">حفظ الصورة</string>
+    <string name="contextmenu_map">خريطة</string>
+    <string name="contextmenu_openlink_newwindow">فتح في علامة تبويب جديدة</string>
+    <string name="contextmenu_openlink_newwindow_background">"فتح في علامة تبويب جديدة في الخلفية"</string>
+    <string name="contextmenu_savelink">حفظ الارتباط</string>
+    <string name="contextmenu_send_mail">إرسال بريد إلكتروني</string>
+    <string name="contextmenu_set_wallpaper">تعيين خلفية الشاشة\u2026</string>
+    <string name="contextmenu_share_app">مشاركة التطبيق</string>
+    <string name="contextmenu_share_website">مشاركة الموقع</string>
+    <string name="contextmenu_sharelink">مشاركة الارتباط</string>
+    <string name="contextmenu_view_image">عرض الصورة</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="copylink_success">تم نسخ الرابط</string>
+    <string name="create_shortcut_bookmark">إضافة اختصار إلى الصفحة الرئيسية</string>
+    <string name="custom_rules">تخصيص مرشحات AdBlock</string>
+    <string name="custom_rules_title">مرشحات AdBlock</string>
+    <string name="default_bookmark">علامة مرجعية افتراضية</string>
+    <string name="default_location">الموقع الافتراضي:%1$s</string>
+    <string name="delete">حذف</string>
+    <string name="delete_bookmark_warning">هل تريد حذف العلامة المرجعية \"%s\"؟</string>
+    <string name="delete_folder">حذف مجلد</string>
+    <string name="deletion_all">حذف الكل</string>
+    <string name="desktop">سطح مكتب</string>
+    <string name="done">كامل</string>
+    <string name="download">تنزيل</string>
+    <string name="download_allow_mobile">السماح بتنزيل الملف عبر شبكة الجوال؟</string>
+    <string name="download_failed">فشل التنزيل</string>
+    <string name="download_list">قائمة التنزيل</string>
+    <string name="download_no_sdcard_dlg_msg">تلزم بطاقة SD للتنزيل %s.</string>
+    <string name="download_no_sdcard_dlg_title">ليست هناك بطاقة SD</string>
+    <string name="download_pause">إيقاف التنزيل مؤقتًا</string>
+    <string name="download_pending">جارٍ بدء التنزيل\u2026</string>
+    <string name="download_removed">تمت الإزالة</string>
+    <string name="download_sdcard_busy_dlg_msg">بطاقة SD مشغولة. للسماح بالتنزيلات، المس إيقاف تشغيل وحدة تخزين USB في الإخطار.</string>
+    <string name="download_sdcard_busy_dlg_title">بطاقة SD غير متوفرة</string>
+    <string name="downloaded">تم تنزيله</string>
+    <string name="downloading">جارٍ التنزيل</string>
+    <string name="downloadmanager_disabled">تم تعطيل مدير التنزيل. يرجى تمكينه.</string>
+    <string name="edit">تحرير</string>
+    <string name="edit_bookmark">تحرير العلامة المرجعية</string>
+    <string name="edit_folder">تحرير مجلد</string>
+    <string name="edited">تحرير</string>
+    <string name="email">البريد الإلكتروني:</string>
+    <string name="email_is_error">الرجاء إدخال عنوان بريد إلكتروني الصالح</string>
+    <string name="empty_bookmarks_folder">العلامات المرجعية لديك فارغة</string>
+    <string name="empty_history">لا توجد محفوظات تصفح</string>
+    <string name="empty_info_most_visited">لا توجد سجلات</string>
+    <string name="empty_snapshots_folder">لا توجد صفحات محفوظة</string>
+    <string name="enter_incognito_mode">التبديل إلى المتخفي</string>
+    <string name="enter_normal_mode">التبديل إلى العادي</string>
+    <string name="enter_settings_page">أدخل إعدادات بعد إتمام المسح، يرجى.</string>
+    <string name="enter_website_name">الرجاء إدخال اسم الموقع</string>
+    <string name="error_console_eval_button_text">التقييم</string>
+    <string name="error_console_eval_text_hint">تقييم جافا سكريبت</string>
+    <string name="error_console_header_text_maximized">وحدة تحكم جافا سكريبت</string>
+    <string name="error_console_header_text_minimized">إظهار وحدة تحكم جافا سكريبت</string>
+    <string name="exit">خروج</string>
+    <string name="exit_dialog_title">أتريد الخروج من المستعرض؟</string>
+    <string name="feed_back_sucess">لقد استلمنا تعليقاتك واقتراحاتك، شكرًا لك.</string>
+    <string name="feedback_other">أخرى:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (اختياري)</string>
+    <string name="feedback_submit">عرض</string>
+    <string name="file_exist">الملف موجود بالفعل</string>
+    <string name="file_name">اسم الملف</string>
+    <string name="file_not_exist">الملف غير موجود</string>
+    <string name="filename_empty">لا يمكن أن يكون اسم الملف فارغًا.</string>
+    <string name="find_on_page">بحث في الصفحة</string>
+    <string name="five_stars">5 نجوم</string>
+    <string name="five_stars_comment">أعطِ اقتراحات.</string>
+    <string name="five_stars_content">إن تقييمك لنا بخمس نجوم مهم جدًا لنا.</string>
+    <string name="five_stars_later">لاحقًا</string>
+    <string name="five_stars_titile">استمتع %s؟</string>
+    <string name="geolocation_permissions_prompt_dont_share">رفض</string>
+    <string name="geolocation_permissions_prompt_message">%s يريد معرفة مكانك</string>
+    <string name="geolocation_permissions_prompt_share">مشاركة الموقع الجغرافي</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">يتعذر على موقع الويب هذا الدخول إلى موقعك الجغرافي. يمكنك تغيير هذا من الإعدادات > متقدمة > إعدادات موقع الويب.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">لا يمكن لهذا الموقع الوصول إلى موقعك. قم بتغيير ذلك في الإعدادات > إعدادات متقدمة > إعدادات موقع الويب.</string>
+    <string name="geolocation_settings_page_dialog_message">أتريد مسح موقع الويب هذا من الوصول إلى الموقع الجغرافي؟</string>
+    <string name="geolocation_settings_page_summary_allowed">يمكن لهذا الموقع الوصول إلى موقعك حاليًا</string>
+    <string name="geolocation_settings_page_summary_not_allowed">لا يمكن لهذا الموقع الوصول إلى موقعك حاليًا</string>
+    <string name="geolocation_settings_page_title">إلغاء إذن الوصول للحصول على موقعك</string>
+    <string name="get_photo_failure">فشل الحصول على الصور</string>
+    <string name="go">انتقال</string>
+    <string name="go_back">عودة</string>
+    <string name="history">المحفوظات</string>
+    <string name="home_page">الصفحة الرئيسية</string>
+    <string name="incognito_home">أنتفي وضع التخفي</string>
+    <string name="incognito_home_content">أنت الآن في الوضع المتخفي.</string>
+    <string name="incognito_home_tip">يمكنك الخروج من التخفي والرجوع إلى الوضع العادي.</string>
+    <string name="input_over_flow">يتجاوز فشل الإرسال لحروف %1$d الحد المسموح به</string>
+    <string name="instructions_label">تعليمات الاستخدام</string>
+    <string name="is_latest">أحدث إصدار بالفعل</string>
+    <string name="js_ad_block_count">ملفات JavaScript المقفلة</string>
+    <string name="js_disable_host_error_prompt">خطأ في المجال، يرجى التحرير مجددًا.</string>
+    <string name="js_disable_hosts">تعطيل JavaScript في مجالات معينة</string>
+    <string name="js_disable_hosts_title">مجالات معينة</string>
+    <string name="lable_AI">الذكاء الاصطناعي</string>
+    <string name="lable_Tools">الأدوات</string>
+    <string name="lable_calendar">التقويم</string>
+    <string name="lable_lifestyle">أسلوب الحياة</string>
+    <string name="lable_maps">الخرائط</string>
+    <string name="lable_news">الأخبار</string>
+    <string name="lable_translate">الترجمة</string>
+    <string name="lable_video">الفيديوهات</string>
+    <string name="lable_weather">الطقس</string>
+    <string name="leadpage_back">رجوع</string>
+    <string name="leadpage_forward">تقدم</string>
+    <string name="leadpage_home">الصفحة الرئيسية</string>
+    <string name="loading_video">تحميل الفيديو\u2026</string>
+    <string name="local_bookmarks">محلي</string>
+    <string name="location">العنوان</string>
+    <string name="lock_answer_error">إجابة خاطئة</string>
+    <string name="lock_birth_day">يوم</string>
+    <string name="lock_birth_month">شهر</string>
+    <string name="lock_birth_year">سنة</string>
+    <string name="lock_change_security_birth">تغيير سؤال الأمان</string>
+    <string name="lock_change_security_birth_success">تم التغيير بنجاح</string>
+    <string name="lock_check_birth_tv1">أَجِبْ على سؤال الأمان لإعادة تعيين كلمة المرور</string>
+    <string name="lock_confirm_lock_line">تأكيد نمط فتح القفل</string>
+    <string name="lock_confirm_lock_number">تأكيد رمز التعريف الشخصي</string>
+    <string name="lock_enter_password">الرجاء إدخال كلمة المرور</string>
+    <string name="lock_forgot_pwd">هل نسيت كلمة المرور؟</string>
+    <string name="lock_lock_for_to_safe">يرجى تعيين كلمة مرور لضمان تأمين خصوصيتك.</string>
+    <string name="lock_lock_success_common">مُقْفَل</string>
+    <string name="lock_not_now">ليس الآن</string>
+    <string name="lock_pwd_error">كلمة مرور خاطئة</string>
+    <string name="lock_pwd_has_reset">تمت إعادة التعيين بنجاح</string>
+    <string name="lock_reset_pwd">إعادة تعيين كلمة المرور</string>
+    <string name="lock_set_new_lock_line">يرجى إنشاء نمط فتح القفل</string>
+    <string name="lock_set_new_lock_number">يرجى إنشاء رمز التعريف الشخصي</string>
+    <string name="lock_set_protected_question_desc">قم بتعيين سؤال أمان حتى يتسنى لك إعادة تعيين كلمة المرور عند نسيانها.</string>
+    <string name="lock_turn_to_type_line">التغيير إلى نمط قفل الشاشة</string>
+    <string name="lock_turn_to_type_number">التغيير إلى رمز التعريف الشخصي</string>
+    <string name="lock_your_birth">ما هو تاريخ ميلادك؟</string>
+    <string name="mark_image_ad">تحديد الإعلان</string>
+    <string name="mark_image_ad_fail">فشل التحديد</string>
+    <string name="max_tabs_warning">لا توجد علامات تبويب أخرى</string>
+    <string name="menu_browser_Tools">أدوات</string>
+    <string name="menu_browser_add_bookmark"> إضافة العلامات</string>
+    <string name="menu_browser_bookmarks">العلامات</string>
+    <string name="menu_browser_close_incognito">طبيعي</string>
+    <string name="menu_browser_downloads">التحميل</string>
+    <string name="menu_browser_font_size">حجم الخط</string>
+    <string name="menu_browser_full_screen">ملء الشاشة</string>
+    <string name="menu_browser_history">لتاريخ</string>
+    <string name="menu_browser_incognito">متخفي</string>
+    <string name="menu_browser_night">واقي العينين</string>
+    <string name="menu_browser_no_image">   لا توجد صور</string>
+    <string name="menu_browser_quit">خروج</string>
+    <string name="menu_browser_search_page">البحث في الصفحة</string>
+    <string name="menu_browser_settings">الإعدادات</string>
+    <string name="menu_browser_snapshots">حفظ الصفحة</string>
+    <string name="menu_preferences">الإعدادات</string>
+    <string name="menu_tools_box">صندوق الأدوات</string>
+    <string name="messageContent">يوجد إصدار جديد لـ %s، يمكنك تحديثه الآن.</string>
+    <string name="modify">تعديل</string>
+    <string name="most_visited">الأكثر زيارة</string>
+    <string name="name">تسمية</string>
+    <string name="name_cannot_empty">لا يمكن أن يكون اسم الويب فارغًا.</string>
+    <string name="new_file">جديدة</string>
+    <string name="new_folder">مجلد جديد</string>
+    <string name="new_incognito_tab">علامة تبويب متخفية جديدة</string>
+    <string name="new_tab">علامة تبويب جديدة</string>
+    <string name="no_downloads">لا توجد تنزيلات</string>
+    <string name="no_prompt">ا تسأل مجددًا</string>
+    <string name="no_subfolders">لا توجد مجلدات فرعية.</string>
+    <string name="notification_content_text">انقر للعرض</string>
+    <string name="notification_download_finish">اكتمل التنزيل</string>
+    <string name="null_rules_prompt">يمكنك إضافة القواعد الخاصة بك. يجب أن تتبع القواعد التي تضعها القواعد النحوية لـ Adblock Plus.</string>
+    <string name="ok">موافق</string>
+    <string name="open">فتح</string>
+    <string name="open_all_in_new_window">فتح الكل في علامات تبويب جديدة</string>
+    <string name="open_most_visited">افتح أكثر المواقع زيارة</string>
+    <string name="optional">(اختياري)</string>
+    <string name="other_bookmarks">علامات مرجعية أخرى</string>
+    <string name="page_info">معلومات الصفحة</string>
+    <string name="page_info_address">العنوان:</string>
+    <string name="page_info_view">عرض معلومات الصفحة</string>
+    <string name="password">كلمة المرور</string>
+    <string name="permissions_prompt_deny">رفض</string>
+    <string name="permissions_prompt_message">%1$s يرغب في استخدام %2$s الخاص بك.</string>
+    <string name="pic_ad_block_count">الصور المقفلة</string>
+    <string name="please_input_over_six">الرجاء إدخال 6 أو أكثر من الأحرف</string>
+    <string name="please_input_under_max">يرجى عدم إدخال أكثر من %1$d حرف (حروف) </string>
+    <string name="please_leave_your_email">يرجى ترك عنوان البريد الإلكتروني الخاص بك</string>
+    <string name="popup_ad_block_count">العناصر المنبثقة المقفلة</string>
+    <string name="pref_about">حول</string>
+    <string name="pref_ad_block">منع الإعلانات</string>
+    <string name="pref_agreement">شروطالمستخدم</string>
+    <string name="pref_always">دائما</string>
+    <string name="pref_check_update">تحقق تحديث</string>
+    <string name="pref_confirm_on_exit">التأكيد عند الخروج</string>
+    <string name="pref_contact_us">اتصل بنا</string>
+    <string name="pref_content_search_engine">تعيين محرك البحث</string>
+    <string name="pref_default_ad_time">إعلان مارك الوقت</string>
+    <string name="pref_default_browser">تعيين المتصفح الافتراضي</string>
+    <string name="pref_default_text_encoding">ترميز النص</string>
+    <string name="pref_deverloper_options">ﺦﻳﺍﺭﺎﺗ ﻢﻃﻭﺭ ﺎﻠﺑﺭﺎﻤﺟ</string>
+    <string name="pref_download">إعدادات التنزيل</string>
+    <string name="pref_download_path_setting_screen_title">تخصيص مسار التنزيلات</string>
+    <string name="pref_download_with_ADM">التنزيل باستخدام ADM</string>
+    <string name="pref_extras_reset_default">إعادة تعيين على الإعدادات الافتراضية</string>
+    <string name="pref_extras_reset_default_dlg">هل تريد إعادة الإعدادات إلى القيم الافتراضية؟</string>
+    <string name="pref_extras_website_settings">إعدادات موقع الويب</string>
+    <string name="pref_feedback">ملاحظات</string>
+    <string name="pref_five_star">خمس نجوم</string>
+    <string name="pref_font_size">حجم النص</string>
+    <string name="pref_font_size_summary">ضبط حجم النص/الخطوط</string>
+    <string name="pref_force_userscalable">فرض تمكين التكبير/التصغير</string>
+    <string name="pref_force_userscalable_summary">استبدال طلب موقع الويب للتحكم في سلوك التكبير/التصغير</string>
+    <string name="pref_min_font_size">تقليل حجم الخط</string>
+    <string name="pref_notification_tool_show">عرض شريط البحث في لوحة الإشعارات</string>
+    <string name="pref_privacy_clear_data">مسح البيانات</string>
+    <string name="pref_privacy_enable_geolocation">تمكين خدمة الموقع الجغرافي</string>
+    <string name="pref_privacy_enable_geolocation_summary">السماح للمواقع بطلب الوصول إلى موقعك</string>
+    <string name="pref_privacy_policy">سياسة الخصوصية</string>
+    <string name="pref_privacy_security_title">الخصوصية والأمان</string>
+    <string name="pref_privacy_security_title_summary">السماح للمتصفح بتذكر كلمات المرور والنماذج المحفوظة، وغيرهما.</string>
+    <string name="pref_search_engine_dialog_title">اختر محرك</string>
+    <string name="pref_security_accept_cookies">قبول ملفات تعريف الارتباط</string>
+    <string name="pref_security_accept_cookies_summary">السماح للمواقع بقراءة وحفظ بيانات ملفات تعريف الارتباط</string>
+    <string name="pref_security_remember_passwords">تذكر كلمات المرور</string>
+    <string name="pref_security_remember_passwords_summary">حفظ أسماء المستخدم وكلمات المرور الخاصة بمواقع الويب</string>
+    <string name="pref_security_save_form_data">تذكر بيانات النموذج</string>
+    <string name="pref_security_save_form_data_summary">تذكر البيانات التي أكتبها في النماذج للاستخدام لاحقًا</string>
+    <string name="pref_security_show_security_warning">إظهار تحذيرات الأمان</string>
+    <string name="pref_security_show_security_warning_summary">إظهار تحذير في حالة وجود مشكلة في أمان الموقع</string>
+    <string name="pref_show_download_dialog">عرض مربع حوار التنزيل</string>
+    <string name="pref_show_header_news">عرض الوقت/الطقس/الأخبار من الصفحة السابقة</string>
+    <string name="pref_show_red_badge_notity">عرض إشعار الشارة الحمراء</string>
+    <string name="pref_show_status_bar">يتم عرض شريط الحالة</string>
+    <string name="pref_text_zoom">ضبط حجم النص</string>
+    <string name="pref_wifi_only">واي فاي فقط</string>
+    <string name="product_agree">موافق</string>
+    <string name="product_no_agree">لا موافقة</string>
+    <string name="progress_dialog_setting_wallpaper">جار ضبط خلفية الشاشة...</string>
+    <string name="prompt_already_saved_bookmark">لقد قمت بإضافة العلامة المرجعية هذه بالفعل</string>
+    <string name="prompt_already_saved_off">لقد قمت بحفظ هذه الصفحة بالفعل</string>
+    <string name="prompt_saved_off_line">تم الحفظ إلى الصفحات غير المتصلة</string>
+    <string name="refresh">تحديث</string>
+    <string name="remember_preference">تذكر التفضيلات</string>
+    <string name="remove">إزالة</string>
+    <string name="remove_bookmark">حذف العلامة المرجعية</string>
+    <string name="remove_items_all">إزالة العناصر</string>
+    <string name="remove_snapshot">حذف الصفحة المحفوظة</string>
+    <string name="removed_from_bookmarks">تمت الإزالة من العلامات المرجعية.</string>
+    <string name="rename">إعادة تسمية الملفات</string>
+    <string name="rename_failed">فشلت إعادة التسمية.</string>
+    <string name="rename_success">تمت إعادة التسمية بنجاح.</string>
+    <string name="replace_file">استبدال الملف الأصلي</string>
+    <string name="request_fail">فشل الطلب. يرجى المحاولة لاحقًا</string>
+    <string name="request_read_external_storage_error">فشل طلب الوصول إلى ذاكرة الهاتف</string>
+    <string name="resource_audio_capture">الميكروفون</string>
+    <string name="resource_protected_media_id">معرف وسائط محمي</string>
+    <string name="resource_video_capture">الكاميرا</string>
+    <string name="right_recommend_add_link_not_title">يلزم وجود عنوان.</string>
+    <string name="right_recommend_add_link_not_url">يلزم وجود عنوان URL.</string>
+    <string name="right_recommend_add_link_repeat">ارتباط URL موجود بالفعل</string>
+    <string name="right_recommend_add_link_saved">تم الحفظ</string>
+    <string name="right_recommend_add_link_url_format">يرجى ملء عنوان URL الصحيح.</string>
+    <string name="right_recommend_tools_desktop">إرسال إلى سطح المكتب</string>
+    <string name="right_recommend_tools_remove">إزالة</string>
+    <string name="sdcard_free">%1$s متوفر لـ / %2$s</string>
+    <string name="search_hint">البحث أو إدخال  URL </string>
+    <string name="search_history">سجل البحث</string>
+    <string name="search_settings_description">العلامات المرجعية ومحفوظات الويب</string>
+    <string name="search_the_web">البحث في الويب</string>
+    <string name="security_warning">تحذير أمان</string>
+    <string name="select_dot">تحديد النص</string>
+    <string name="select_download_path">حدد المجلد \"%s\" كموقع للتنزيل</string>
+    <string name="select_location">تحديد الموقع</string>
+    <string name="sendText">اختيار إجراء للنص</string>
+    <string name="set_as_homepage">تعيين كصفحة رئيسية</string>
+    <string name="set_default_browser">تعيين كمتصفح افتراضي</string>
+    <string name="set_default_failure">وضع فشل، يرجى المحاولة مرة أخرى</string>
+    <string name="set_default_success">تم الإعداد بنجاح!</string>
+    <string name="setting_bottom_day">الوضع النهاري</string>
+    <string name="setting_bottom_expanding">التوسيع</string>
+    <string name="setting_bottom_night">الوضع الليلي</string>
+    <string name="setting_update_speech_recognition">تجاهل إدخال الصوت، يُرجى تحديث خدمة الصوت من Google</string>
+    <string name="share">مشاركة</string>
+    <string name="shortcut_bookmark">علامة مرجعية</string>
+    <string name="shortcut_bookmark_title">اختيار علامة مرجعية</string>
+    <string name="show_dev_on">لقد أصبحت الآن مطور برامج!</string>
+    <string name="sign_in_to">تسجيل الدخول %1$s \"%2$s\"</string>
+    <string name="snap_shot_no_title">بدون عنوان</string>
+    <string name="ssl_certificate">شهادة أمان</string>
+    <string name="ssl_certificate_is_valid">هذه الشهادة صالحة.</string>
+    <string name="ssl_continue">متابعة</string>
+    <string name="ssl_date_invalid">هذه الشهادة تتضمن تاريخًا غير صالح.</string>
+    <string name="ssl_expired">هذه الشهادة منتهية الصلاحية.</string>
+    <string name="ssl_invalid">هذه الشهادة غير صالحة.</string>
+    <string name="ssl_mismatch">اسم الموقع لا يتطابق مع الاسم الموجود بالشهادة.</string>
+    <string name="ssl_not_yet_valid">هذه الشهادة لم تعد صالحة بعد.</string>
+    <string name="ssl_unknown">خطأ شهادة غير معلوم.</string>
+    <string name="ssl_untrusted">هذه الشهادة ليست من جهة موثوقة.</string>
+    <string name="ssl_warnings_header">هناك مشكلة في شهادة أمان الموقع.</string>
+    <string name="stopping">جارٍ الإيقاف\u2026</string>
+    <string name="storage_space_lack">السعة التخزينية المتاحة ليست كافية</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="swipe_up_tip">يمكنك التمرير لأعلى لحذف علامة التبويب</string>
+    <string name="tab_snapshots">صفحات محفوظة</string>
+    <string name="text_count_can_input">يمكن إدخال %1$d حرف (حروف)</string>
+    <string name="title_activity_add_link">إضافة رابط</string>
+    <string name="title_clear_all_history">أتريد مسح جميع المحفوظات؟</string>
+    <string name="title_clear_bookmark">أتريد مسح العلامة المرجعية؟</string>
+    <string name="title_clear_history">أتريد مسح المحفوظات؟</string>
+    <string name="title_clear_off_line">أتريد حفظ الصفحات المحفوظة؟</string>
+    <string name="too_many_subwindows_dialog_message">في المرة الواحدة، لا يمكن فتح سوى نافذة منبثقة واحدة فقط.</string>
+    <string name="too_many_subwindows_dialog_title">النافذة المنبثقة مفتوحة بالفعل</string>
+    <string name="too_many_windows_dialog_message">يتعذر فتح علامة تبويب جديدة قبل غلق واحدة.</string>
+    <string name="toolbox_menu_off">إيقاف التشغيل</string>
+    <string name="toolbox_menu_on">تشغيل</string>
+    <string name="total">الإجمالي</string>
+    <string name="ua_switcher_desktop">طلب موقع سطح المكتب</string>
+    <string name="unknown">غير معروفة</string>
+    <string name="unknown_error">خطأ غير معروف، يرجى المحاولة مرة أخرى</string>
+    <string name="unknown_file">أنواع الملفات غير معروفة</string>
+    <string name="update_at_once">تحديث الآن</string>
+    <string name="update_content1">1. جعل علماءنا الأذكياء صفحات الويب تتحمل بسرعة البرق!</string>
+    <string name="update_content2">2. مصممتنا الرائعة أضافت لمستها السحرية وجعلت كل شيء يبدو أجمل!</string>
+    <string name="update_content3">3. ومطورونا المذهلون؟ بقوا مستيقظين حتى وقت متأخر، يحتسون القهوة، ويتخلصون من جميع الأخطاء المزعجة!</string>
+    <string name="update_later">التحديث لاحقاً</string>
+    <string name="update_now">قم بتحميل التطبيق من جوجل بلاي.</string>
+    <string name="update_remind">إشعار التحديث</string>
+    <string name="update_tips1">نعم، كما خمنت! التحديث الجديد هنا!</string>
+    <string name="update_tips2">✨ كل شيء لتحسين تجربتك!\nقم بالتحديث الآن واكتشفه! ✨</string>
+    <string name="update_title">تم العثور على إصدار جديد</string>
+    <string name="upload_image">تحميل الصور</string>
+    <string name="uploads_disabled">تم تعطيل تحميل الملف.</string>
+    <string name="username">الاسم</string>
+    <string name="versionUpdate">تحديث الإصدار</string>
+    <string name="video_mobile_pause">إلغاء</string>
+    <string name="video_mobile_permission">أنت تستخدم شبكة الجوال، ألا تزال تريد التشغيل؟</string>
+    <string name="video_mobile_play">تشغيل</string>
+    <string name="view">عرض</string>
+    <string name="view_certificate">عرض الشهادة</string>
+    <string name="view_select_all">اختر الكل</string>
+    <string name="visit_url_ok">زيارة</string>
+    <string name="visit_url_title">أتريد زيارة عنوان URL هذا من الحافظة؟</string>
+    <string name="website_AI">الذكاء الاصطناعي</string>
+    <string name="website_hot">الشهير</string>
+    <string name="website_lifestyle">أسلوب الحياة</string>
+    <string name="website_news">الأخبار•الرياضة</string>
+    <string name="website_recommend">موصى به</string>
+    <string name="website_settings_list_header_text">الوصول إلى الموقع الجغرافي</string>
+    <string name="website_shoping">الترفيه•التسوق</string>
+    <string name="website_social">الاجتماعي</string>
+    <string name="website_tools">الأدوات</string>
+    <string name="website_videos">الفيديوهات</string>
+    <string name="webstorage_clear_data_title">مسح البيانات المخزنة</string>
+    <string name="webstorage_origin_summary_mb_stored">عدد الميجابايت المخزنة على الكمبيوتر اللوحي الخاص بك</string>
+    <string name="webstorage_outofspace_notification_text">المس لتفريغ بعض المساحة.</string>
+    <string name="webstorage_outofspace_notification_title">وحدة تخزين المتصفح ممتلئة</string>
+    <string name="write_advice_please">يرجى وصف رأيك أو اقتراحك بكلمات…</string>
+    <string name="zxing_button_ok">موافق</string>
+    <string name="zxing_msg_camera_framework_bug">عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.</string>
+    <string name="zxing_msg_default_status">قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.</string>
+</resources>

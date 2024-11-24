@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.intelligence.browser.markLock.lock.BGLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:background="@drawable/browser_bg_main_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:id="@+id/iv_left_up"
+            android:src="@drawable/browser_back"
+            android:layout_gravity="center_vertical"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_left_up"
+            android:layout_marginLeft="9dp"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            tools:text="暂不"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_top2"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        tools:text="请设置新的解锁图案"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:maxLines="2"
+        android:gravity="center"
+        android:id="@+id/tv_top1"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_gravity="center_horizontal"
+        tools:text="为书签上锁, 安全点是不是为书签上锁, 安全点是不是为书签上锁, 安全点是不是为书签上锁, 安全点是不是为书签上锁, 安全点是不是为书签上锁, 安全点是不是"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.intelligence.browser.markLock.lock.LockPatternView
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/lock_pattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/layout_number_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.intelligence.browser.markLock.lock.NumberPasswordProcessor
+                android:id="@+id/number_processor"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <com.intelligence.browser.markLock.lock.NumberKeyboard
+                android:id="@+id/number_keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <com.intelligence.browser.markLock.lock.BirthdayPicker
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:id="@+id/birthdayPicker"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+
+    </FrameLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.intelligence.browser.markLock.lock.UnderlineTextView
+            android:layout_gravity="center|bottom"
+            android:textColor="#fff"
+            android:alpha="0.6"
+            android:textSize="12sp"
+            tools:text="切换为数字密码"
+            android:padding="8dp"
+            android:id="@+id/tv_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="@drawable/browser_button_complete"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_gravity="center|bottom"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/done"
+            android:id="@+id/btn_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </FrameLayout>
+
+
+</com.intelligence.browser.markLock.lock.BGLinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<RelativeLayout
+    android:id="@+id/title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:paddingBottom="100dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="106dp"
+        android:layout_height="126dp"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#3101beff"
+        android:shadowDx="4"
+        android:shadowDy="14"
+        android:shadowRadius="3"
+        android:src="@drawable/browser_app_icon" />
+
+    <ImageView
+        android:id="@+id/name"
+        android:layout_width="142dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/browser_app_name"/>
+
+    <LinearLayout
+        android:id="@+id/browser_slogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/browser_start_slogo_margin_top"
+        android:maxLines="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:text="@string/browser_slogo_fast"
+            android:textColor="@color/browser_slogo_tips"
+            android:textSize="@dimen/browser_slogo_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:text=" • "
+            android:textColor="#FF9E00"
+            android:textSize="@dimen/browser_slogo_point_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:text="@string/browser_slogo_intelligence"
+            android:textColor="@color/browser_slogo_tips"
+            android:textSize="@dimen/browser_slogo_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:text=" • "
+            android:textColor="#FF9E00"
+            android:textSize="@dimen/browser_slogo_point_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:text="@string/browser_slogo_safe"
+            android:textColor="@color/browser_slogo_tips"
+            android:textSize="@dimen/browser_slogo_size" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/policy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/checkoutbox1"
+                android:layout_width="@dimen/browser_checkbox_icon_size_start"
+                android:layout_height="@dimen/browser_checkbox_icon_size_start"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/browser_check_box_start" />
+
+            <TextView
+                android:id="@+id/content_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/browser_tips_color"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/content_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:visibility="gone"
+            android:layout_marginLeft="12dp"
+            android:text="@string/browser_privacy_tips"
+            android:textColor="@color/browser_tips_color"
+            android:textSize="@dimen/dialog_item_text_size" />
+        <Button
+            android:id="@+id/start_botton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/browser_start_botton_bg"
+            android:text="@string/browser_product_start"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:fadingEdge="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/browser_rights"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@color/settings_item_summary_normal_color"
+        android:textSize="12sp" />
+</RelativeLayout>

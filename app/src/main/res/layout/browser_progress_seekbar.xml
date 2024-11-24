@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="@color/transparent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progress_text_size_height"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/progress_icon"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/browser_text_white"
+            android:layout_centerVertical="true" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/progress_icon"
+            android:layout_toRightOf="@id/progress_icon"
+            android:paddingStart="16dp"
+            android:background="@color/transparent"
+            android:maxHeight="3dp"
+            android:progressDrawable="@drawable/browser_settings_seekbar_bg"
+            android:splitTrack="false"
+            android:thumb="@drawable/progress_text_size_seekbar_thumb" />
+    </RelativeLayout>
+</LinearLayout>

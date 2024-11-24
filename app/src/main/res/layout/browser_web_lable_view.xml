@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:id="@+id/weblabel1"
+        style="@style/browser_lable_style" />
+
+    <View
+        style="@style/browser_lable_line" />
+
+    <TextView
+        android:id="@+id/weblabel2"
+        style="@style/browser_lable_style" />
+
+    <View
+        style="@style/browser_lable_line" />
+
+    <TextView
+        android:id="@+id/weblabel3"
+        style="@style/browser_lable_style" />
+
+    <View
+        style="@style/browser_lable_line" />
+
+    <TextView
+        android:id="@+id/weblabel4"
+        style="@style/browser_lable_style" />
+
+    <View
+        style="@style/browser_lable_line"/>
+
+    <TextView
+        android:id="@+id/weblabel5"
+        style="@style/browser_lable_style" />
+
+</LinearLayout>
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimen_50dp"
+    android:layout_marginTop="6dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/search_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/browser_search_history_shape"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/search_bar_icon"
+            tools:ignore="UseAppTint"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/browser_search_icon"
+            android:tint="@color/bookmark_pop_text_color" />
+
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toEndOf="@id/search_bar_icon"
+            android:layout_toRightOf="@id/search_bar_icon"
+            android:background="@null"
+            android:gravity="center_vertical|start"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"
+            android:textColor="@color/browser_title_color"
+            android:inputType="textNoSuggestions|textWebEditText"
+            android:textColorHint="@color/browser_tips_color"
+            android:textDirection="locale"
+            android:textSize="@dimen/ahlib_common_textsize06" />
+
+        <ImageView
+            android:id="@+id/iv_view_url_txt_clear"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:paddingEnd="15dp"
+            android:src="@drawable/browser_search_input_delete_icon" />
+
+    </RelativeLayout>
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/search_card_line"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/browser_history_search_divider" />
+</FrameLayout>

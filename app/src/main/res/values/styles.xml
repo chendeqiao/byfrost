@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ *
+ * Copyright 2006,2007,2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+
+    <style name="HoloIcon">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+
+    <style name="HoloButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+
+    <style name="TabTitleSelected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TabTitleUnselected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="mprogress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle_drawable</item>
+        <item name="android:minWidth">15dp</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxWidth">100dp</item>
+        <item name="android:maxHeight">100dp</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="popwindow_push_bottom" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/browser_pop_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/browser_pop_bottom_out</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <declare-styleable name="RoundedProgressBar">
+        <attr name="backColor" format="color|reference"/>
+        <attr name="frontColor" format="color|reference"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="mode">
+            <enum name="STROKE" value="0"/>
+            <enum name="STROKE_TEXT" value="1"/>
+            <enum name="FILL" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <style name="BrowserDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/browser_dialog_background</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.46</item>
+    </style>
+
+    <style name="DownloadDialog" parent="@style/BrowserDialog">
+        <item name="android:windowAnimationStyle">@style/DialogExit</item>
+    </style>
+
+    <style name="DialogExit" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/browser_dialog_dissmiss</item>
+    </style>
+
+    <style name="FiveStarDialog" parent="@style/BrowserDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="BrowserFullScreenDialog" parent="@style/BrowserDialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="FullScreenTransparentDialog" parent="@style/BrowserDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="BrowserEditText">
+        <item name="android:textSelectHandleLeft">@drawable/browser_text_select_handle_left_material</item>
+        <item name="android:textSelectHandleRight">@drawable/browser_text_select_handle_right_material</item>
+        <item name="android:textColorHighlight">@color/browser_tips_color</item>
+        <item name="android:textCursorDrawable">@drawable/browser_text_cursor</item>
+        <item name="android:textSelectHandle">@drawable/browser_text_select_handle_middle_material</item>
+    </style>
+    <style name="PickerEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="default_statescalebutton" parent="@android:style/Widget.Material.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/boostengine_state_scale_btn_default_height</item>
+        <item name="android:background">@drawable/browser_boostengine_statescalebtn_default_bg</item>
+        <item name="android:textColor">@color/browser_boostengine_state_scale_btn_default_selector</item>
+        <item name="android:textSize">@dimen/boostengine_state_scale_btn_default_txt</item>
+        <item name="android:layout_marginLeft">@dimen/boostengine_state_scale_btn_default_left</item>
+        <item name="android:layout_marginStart">@dimen/boostengine_state_scale_btn_default_left</item>
+        <item name="android:layout_marginRight">@dimen/boostengine_state_scale_btn_default_right</item>
+        <item name="android:layout_marginEnd">@dimen/boostengine_state_scale_btn_default_right</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="select_engine_popwindow_arab" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/browser_select_engine_popwindow_enter_arab</item>
+        <item name="android:windowExitAnimation">@anim/browser_select_engine_popwindow_exit_arab</item>
+    </style>
+
+    <style name="select_engine_popwindow_down" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/browser_select_engine_popwindow_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/browser_select_engine_popwindow_exit_down</item>
+    </style>
+
+    <style name="select_website_popwindow_down" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/browser_select_web_site_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/browser_select_web_site_exit_down</item>
+    </style>
+
+    <style name="Suggestions" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:popupBackground">@color/NavigationBarBackground</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium" />
+
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small" />
+    <!-- common theme elements -->
+
+    <style name="BrowserTheme" parent="@style/BrowserBase">
+        <item name="android:windowBackground">@color/browser_window_background</item>
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:actionBarStyle">@style/LightActionBarStyle</item>-->
+<!--        <item name="android:actionBarTabBarStyle">@style/LightActionBarTabBarStyle</item>-->
+<!--        <item name="android:windowActionModeOverlay">true</item>-->
+<!--        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>-->
+<!--        <item name="android:drawSelectorOnTop">true</item>-->
+    </style>
+
+
+    <style name="BaseBrowserTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="TransparentActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 全屏显示 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 状态栏透明 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 状态栏字体颜色为浅色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="UrlSearchTheme" parent="@style/SettingsTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="SettingsThemeWithoutTranslucentBackground" parent="@style/BrowserBase">
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse</item>
+    </style>
+
+    <!--<style name="LightActionBarSolidStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid"></style>-->
+
+    <style name="LightActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/comboViewActionBarColor</item>
+    </style>
+
+    <style name="LightActionBarTabBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabBar">
+        <item name="android:background">@color/comboViewActionBarColor</item>
+    </style>
+
+    <style name="SuggestionLineMedium" parent="@style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SuggestionLineSmall" parent="@style/TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="BrowserBase" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- these are defined just in Material attrs -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/navigation_bars</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/primary</item>
+        <item name="android:actionBarSize">@dimen/actionbar_height</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+
+
+    <style name="PopupMenuStyle" parent="@android:style/Widget.Material.Light.PopupMenu" />
+
+    <style name="SettingsTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/accent</item>
+        <item name="android:actionBarTheme">@style/DialogWhenLarge</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/browser_scroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/browser_shape_scroll_track</item>
+    </style>
+
+    <style name="ShortcutTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorEdgeEffect">@color/accent</item>
+        <item name="android:actionBarTheme">@style/DialogWhenLarge</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:contentInsetEnd">0dp</item>
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:actionBarSize">@dimen/actionbar_height</item>
+    </style>
+
+    <style name="article_card_common_header_title">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginLeft">@dimen/card_margin_size</item>
+        <item name="android:layout_marginRight">@dimen/card_margin_size</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/textsize01</item>
+        <item name="android:textColor">@color/c_b11</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="browser_lable_line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">@dimen/browser_web_lable_line_height</item>
+        <item name="android:background">@color/ahlib_common_bgcolor30</item>
+    </style>
+
+    <style name="browser_lable_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#44787878</item>
+        <item name="android:shadowDx">0.5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowDy">0.5</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textSize">@dimen/ahlib_common_textsize06</item>
+        <item name="android:textColor">@color/browser_title_color</item>
+    </style>
+
+
+    <declare-styleable name="BounceBackViewPager">
+        <attr name="overscroll_translation" format="dimension" />
+        <attr name="overscroll_animation_duration" format="integer" />
+    </declare-styleable>
+
+    <style name="animate_dialog">
+        <item name="android:windowEnterAnimation">@anim/browser_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/browser_dialog_out</item>
+    </style>
+
+
+
+    <style name="pin_keyboard_number_style">
+        <item name="android:layout_width">@dimen/digit_number_layout_width</item>
+        <item name="android:layout_height">@dimen/digit_number_layout_width</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="progress_text_size_style">
+        <item name="android:windowExitAnimation">@anim/browser_fade_out</item>
+    </style>
+
+    <style name="popup_push_bottom" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/browser_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/browser_push_bottom_out</item>
+    </style>
+</resources>

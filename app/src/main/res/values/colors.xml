@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/* //device/apps/common/assets/res/any/http_authentication_colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+--><!-- FIXME: Change the name of this file!  It is now being used generically
+    for the browser -->
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="activity_background">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="bookmarkWidgetFaviconBackground">#23ffffff</color>
+    <color name="bookmarkListFaviconBackground">#23ffffff</color>
+
+    <color name="bookmark_edit_TextColor">#313131</color>
+
+    <!-- 选择图片变暗色-->
+    <color name="grid_common_text_color">#121212</color>
+    <color name="setting_background">#fafafa</color>
+
+
+    <color name="history_markbook_color">#7d7d7d</color>
+
+    <color name="item_text_color">#A0A0A0</color>
+
+
+    <color name="bookmark_pop_text_color">#7D7D7D</color>
+    <color name="snap_item_backgroud">#FFFFFF</color>
+
+    <color name="history_item_line">#E8E8E8</color>
+    <color name="history_search_input_bg">#F4F4F4</color>
+
+
+    <color name="settings_background">#F8F9FC</color>
+    <color name="settings_item_title_normal_color">#de000000</color>
+    <color name="settings_item_title_disabled_color">#66000000</color>
+    <color name="settings_item_summary_normal_color">#89000000</color>
+    <color name="settings_title_background">#F4F4F4</color>
+    <color name="settings_title_background_trans">#99F4F4F4</color>
+    <color name="settings_title_divider">#E6E6E6</color>
+    <color name="settings_text_enabled">#288dde</color>
+
+    <color name="common_menu_item_pressed_color">#B2F2F2F2</color>
+
+    <color name="switch_thumb_p">#5DA7FD</color>
+    <color name="switch_thumb_n">#ECECEC</color>
+    <color name="switch_thumb_shadow_start">#22000000</color>
+    <color name="switch_thumb_shadow_end">#0F000000</color>
+    <color name="switch_track_p">#7f5DA7FD</color>
+    <color name="switch_track_n">#B9B9B9</color>
+
+    <color name="rounded_progressbar_gray">#999999</color>
+    <color name="rounded_progressbar_white">#FFFFFF</color>
+
+    <color name="toolbar_background_color">#FFFFFF</color>
+    <color name="web_view_toolbar_background_color">#FFFFFF</color>
+
+    <color name="toolbar_page_number_color">#121212</color>
+
+    <color name="dialog_title_text_color">#121212</color>
+    <color name="dialog_content_text_color">#121212</color>
+    <color name="dialog_button_color">#121212</color>
+    <color name="dialog_button_color_enabled_false">#A0A0A0</color>
+    <color name="browser_info_item_title">#DE000000</color>
+
+    <color name="file_picker_item_title_color">#DE000000</color>
+    <color name="file_picker_item_desc_color">#8A000000</color>
+    <color name="file_picker_recyclerview_divider">#FFD8D8D8</color>
+    <color name="browser_search_engine_line">#E6E6E6</color>
+    <color name="browser_info_color">#00000000</color>
+    <color name="flow_layout_abord_color">#33000000</color>
+
+    <color name="add_book_mark_save">#FF4FA3FE</color>
+    <color name="add_book_mark_line">#FFCACACA</color>
+
+
+    <color name="pop_item_press_color">#FFEEEEEE</color>
+
+    <color name="video_title_bar_background">#000000</color>
+
+    <!--首页文字大小修改-->
+    <color name="settings_progress_text_size_background">#42000000</color>
+    <color name="progress_text_size_seekbar_thumb_stroke_n">#5DA7FD</color>
+    <color name="progress_text_size_seekbar_thumb_stroke_p">#7f5DA7FD</color>
+    <color name="progress_text_size_seekbar_thumb_background">#00000000</color>
+    <color name="incognito_search_engine_line">#33D7D7D7</color>
+
+    <color name="normal_text_color">#8A000000</color>
+
+
+    <color name="status_bar_webview">#FFFFFF</color>
+    <color name="status_bar_homepage">#858585</color>
+    <color name="nav_tab_title_incognito_bg">#787878</color>
+    <color name="nav_tab_title_normal_bg">#f5f5f5</color>
+    <color name="clear_default_browser_black">#DF000000</color>
+    <color name="clear_default_browser_gray">#8A000000</color>
+
+
+    <color name="download_progress_bg">#FFE6EBF5</color>
+
+    <color name="count_limit_toast_color_1">#aaa</color>
+    <color name="common_menu_bg_click">#F2F2F2</color>
+    <color name="pop_toast_bg_color">#E0333333</color>
+    <color name="toast_background">#dd333333</color>
+    <color name="share_dialog_bg">#B2000000</color>
+    <color name="navigation_on_select_bg">#FFF5F5F5</color>
+    <color name="navigation_place_bg">#42FFFFFF</color>
+    <color name="ripple_color">#20000000</color>
+    <color name="text_select_handle_color">#5da7fd</color>
+
+
+    <color name="navscreen_backgroud_color">#CC000000</color>
+    <color name="scroll_track_color">#462C2C2C</color>
+
+    <color name="search_url_input_color_incognito">#FF505050</color>
+    <color name="incognito_bg_color">#FF2F2F2F</color>
+
+
+    //bigbangBackgroundColor
+    <color name="secondary_text">#727272</color>
+
+    <color name="qrcode_paint_mask">#60000000</color>
+    <color name="qrcode_lable">#77000000</color>
+    <color name="qrcode_paint_result">#00bcd4</color>
+    <color name="browser_title_color">#111E36</color>
+    <color name="browser_tips_color">#828CA0</color>
+    <color name="browser_title_blue">#0055FF</color>
+
+    <color name="boostengine_state_scale_btn_default_txt_disable">#AEB3C4</color>
+    <color name="search_card_color">#FF111E36</color>
+    <color name="browser_voice_bg_color">#11787878</color>
+    <color name="browser_tab_bar_color">#f0f0f0</color>
+    <color name="browser_history_divider_color">#f0f0f0</color>
+    <color name="five_star_btn_color_p">#FFFFEB31</color>
+    <color name="five_star_btn_color_high">#FF6600</color>
+
+
+    <color name="browser_main_green">#00f5d4</color>
+    <color name="browser_main_blue">#01beff</color>
+    <color name="browser_main_pink">#f15bb5</color>
+    <color name="browser_main_purple">#9a5ce5</color>
+    <color name="browser_main_yellow">#ffe43c</color>
+
+    <color name="badge_red_color">#ff6600</color>
+    <color name="settings_actionbar_background">#858585</color>
+
+    <color name="article_indicator">#FF0055FF</color>
+    <color name="indicator_bg">#FFE6EBF5</color>
+    <color name="color14">#f6f6f6</color>
+    <color name="c_b10">#0055FF</color>
+    <color name="card_title_color">#333333</color>
+    <color name="c_b11">#111E36 </color>
+    <color name="bgcolor10">#f1f1f1</color>
+
+
+    <color name="ahlib_common_color09">#ffffff</color>
+
+    <!-- add by lff, 20170214，UED新设计的颜色值 end-->
+    <color name="web_icon_background2">#FFFF6D1D</color>
+    <color name="web_icon_background3">#FFA4D902</color>
+    <color name="web_icon_background4">#FFFE565A</color>
+    <color name="web_icon_background5">#FF7F56D8</color>
+    <color name="web_icon_background6">#FF00C2FF</color>
+    <color name="web_icon_background7">#FF3CE0BB</color>
+    <color name="web_icon_background8">#FFFF5D98</color>
+    <color name="count_limit_toast_color_2">#e92208</color>
+    <color name="tabFocusHighlight">#FF99CC00</color>
+    <color name="settings_item_background">#F7F7F8</color>
+    <color name="settings_navigation_edit">#F2F2F2</color>
+    <color name="settings_list_divider">#F8F9FC</color>
+    <color name="ahlib_common_bgcolor22">#F8F9FC</color>
+    <color name="ahlib_common_bgcolor30">#cccccc</color>
+    <color name="ahlib_common_ahwebview_bgcolor08">#da4643</color>
+    <color name="ahlib_common_tabbar_color_normal_new">#7E8DA6</color>
+
+    <color name="lowerPowerColor">#ff4d4d</color>
+    <color name="onlineColor">#ffffff</color>
+    <color name="offlineColor">#00d68d</color>
+
+    <color name="status_bar_homepage_lock">#11AAFF</color>
+
+
+    <color name="lock_pattern_view_error_color">#ff5621</color>
+    <color name="lock_pattern_view_success_color">@color/white</color>
+    <color name="main_setting_layout_white_bg_color">#ffffff</color>
+    <color name="lock_bg">#113156</color>
+    <color name="setting_item_first">#c6000000</color>
+    <color name="setting_item_second">#66000000</color>
+    <color name="new_client_dialog_button">#11AAFF</color>
+    <color name="browser_slogo_tips">#90070000</color>
+
+    <color name="select_searchengine_bg">#E5090D11</color>
+
+    <color name="browser_window_background">#ffffff</color>
+    <color name="NavigationBarBackground">#ffffff</color>
+    <color name="accent">#FF1AACA2</color>
+    <color name="comboViewActionBarColor">#ffffff</color>
+    <!-- location infobar color -->
+    <color name="primary">#ffffff</color>
+    <color name="navigation_bars">#101828</color>
+    <color name="mb_gray">#a1dedede</color>
+
+    <color name="pop_divider_line_color">#FFD8D8D8</color>
+    <color name="find_pop_text_color">#61000000</color>
+    <color name="setting_botton_selected_color">#1296db</color>
+</resources>

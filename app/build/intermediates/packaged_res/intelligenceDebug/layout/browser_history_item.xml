@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:attr/selectableItemBackground"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_history_item"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_height="@dimen/history_item_height_size"
+        android:background="@color/transparent">
+
+        <com.intelligence.browser.view.RoundImageView
+            android:id="@+id/logo_history_item"
+            android:layout_width="@dimen/history_icon_width"
+            android:layout_height="@dimen/history_icon_width"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/history_icon_left"
+            app:type="rectangle"
+            android:layout_marginLeft="@dimen/history_icon_left" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/history_content_margin_right"
+            android:layout_marginStart="@dimen/history_icon_title_gap"
+            android:layout_toEndOf="@id/logo_history_item"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/history_content_margin_right"
+            android:layout_marginLeft="@dimen/history_icon_title_gap"
+            android:layout_toRightOf="@id/logo_history_item">
+
+            <TextView
+                android:id="@+id/title_history_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/history_title_size"/>
+
+            <TextView
+                android:id="@+id/url_history_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/boostengine_state_scale_btn_default_txt_disable"
+                android:textSize="@dimen/history_url_size"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close_history_item"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="16dp"
+            android:padding="7dp"
+            android:src="@drawable/browser_home_close"
+            android:layout_marginRight="16dp" />
+
+    </RelativeLayout>
+</LinearLayout>

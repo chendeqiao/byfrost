@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--设置常用推荐网址, 首先设置key,然后设置对应的各个属性-->
+    <string name="user_agreement">https://sites.google.com/view/byfrost-user-agreement/</string>
+    <string name="user_privacy">https://sites.google.com/view/byfrost-privacy/</string>
+
+    <array name="facebook_url">
+        <item>@string/recommend_facebook</item><!--名称 -->
+        <item>https://www.facebook.com/</item> <!--地址-->
+        <item>ic_browser_recommend_facebook</item> <!--图片-->
+        <item>w-3</item>
+        <item>facebook</item>
+    </array>
+
+    <string name="recommend_amazon">Amazon</string>
+    <string name="recommend_facebook">Facebook</string>
+    <string name="recommend_google">Google</string>
+
+    <!--推荐常用url键值-->
+    <string-array name="recommend_websites_checking">
+    </string-array>
+
+    <!--推荐常用url键值-->
+    <string-array name="recommend_websites">
+        <item>百度</item>
+        <item>https://www.baidu.com</item>
+        <item>browser_webicon_baidu</item>
+
+        <item>天猫</item>
+        <item>https://www.tmall.com/</item>
+        <item>browser_webicon_tmall</item>
+
+        <item>微博</item>
+        <item>https://weibo.com</item>
+        <item>browser_webicon_weibo</item>
+
+        <item>哔哩哔哩</item>
+        <item>https://www.bilibili.com/</item>
+        <item>browser_webicon_bilibili</item>
+
+        <item>头条</item>
+        <item>https://m.toutiao.com/?W2atIF=1</item>
+        <item>browser_webicon_toutiao</item>
+
+        <item>西瓜视频</item>
+        <item>https://m.ixigua.com</item>
+        <item>browser_webicon_xigua</item>
+
+        <item>搜狐</item>
+        <item>https://www.sohu.com</item>
+        <item>browser_webicon_souhu</item>
+
+    </string-array>
+
+
+
+    <string-array name="search_lables">
+        <item>百度</item>
+        <item>https://www.baidu.com</item>
+        <item>browser_webicon_baidu</item>
+
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>browser_engine_google</item>
+
+        <item>微博</item>
+        <item>https://weibo.com</item>
+        <item>browser_webicon_weibo</item>
+
+        <item>头条</item>
+        <item>https://m.toutiao.com/?W2atIF=1</item>
+        <item>browser_webicon_toutiao</item>
+        <item>Bing</item>
+        <item>https://cn.bing.com/</item>
+        <item>browser_webicon_biying</item>
+
+        <item>ChatGPT</item>
+        <item>https://www.chatgpt.com/</item>
+        <item>browser_webicon_chatgpt</item>
+
+        <item>哔哩哔哩</item>
+        <item>https://www.bilibili.com/</item>
+        <item>browser_webicon_bilibili</item>
+
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+        <item>browser_webicon_youtube</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uploads_disabled">Nahrávanie súborov je zakázané.</string>
+    <string name="new_tab">Nová karta</string>
+    <string name="new_incognito_tab">Nová inkognito karta</string>
+    <string name="tab_snapshots">Uložené stránky</string>
+    <string name="removed_from_bookmarks">Odstránené z obľúbených.</string>
+    <string name="sign_in_to">Prihláste sa do %1$s \"%2$s\"</string>
+    <string name="username">Meno</string>
+    <string name="password">Heslo</string>
+    <string name="action">Prihlásiť sa</string>
+    <string name="bookmarks_add_page">Uložiť do záložiek</string>
+    <string name="bookmarks_search">Prehliadač</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="ok">OK</string>
+    <string name="delete">Odstrániť</string>
+    <string name="modify">Upravit</string>
+    <string name="add_to_homepage">Pridať na domovskú stránku</string>
+    <string name="add_to_desktop">Desktop</string>
+    <string name="rename">Premenovať súbory</string>
+    <string name="copy_link">Kopírovať odkaz</string>
+    <string name="share">Zdieľať</string>
+    <string name="most_visited">Najnavštevovanejšie</string>
+
+    <string name="allow">Povoliť</string>
+    <string name="go_back">Vrátiť sa</string>
+    <string name="bookmarks">Záložky</string>
+    <string name="bookmark_list">Záložky</string>
+    <string name="go">Ísť</string>
+    <string name="clear">Vymazať</string>
+    <string name="clear_default_browser">Zrušiť nastavenie ako predvolený prehliadač</string>
+    <string name="already_cleared">Vymazané</string>
+    <string name="open">Otvoriť</string>
+    <string name="history">História</string>
+    <string name="remember_preference">Zapamätať preferencie</string>
+    <string name="block">Blokovať</string>
+    <string name="clear_data_success">Úspešne vymazané</string>
+    <string name="exit">Ukončiť</string>
+    <string name="clear_all">Vymazať všetko</string>
+
+    <string name="page_info">Informácie o stránke</string>
+    <string name="page_info_view">Zobraziť informácie o stránke</string>
+    <string name="page_info_address">Adresa:</string>
+
+    <string name="ssl_warnings_header">Na tejto stránke sú problémy s bezpečnostným certifikátom.</string>
+    <string name="ssl_continue">Pokračovať</string>
+    <string name="security_warning">Bezpečnostné varovanie</string>
+    <string name="view_certificate">Zobraziť certifikát</string>
+
+    <string name="ssl_certificate">Bezpečnostný certifikát</string>
+    <string name="ssl_untrusted">Tento certifikát nie je od dôveryhodnej autority.</string>
+    <string name="ssl_mismatch">Názov stránky nezodpovedá názvu na certifikáte.</string>
+    <string name="ssl_expired">Tento certifikát vypršal.</string>
+    <string name="ssl_not_yet_valid">Tento certifikát ešte nie je platný.</string>
+    <string name="ssl_date_invalid">Tento certifikát má neplatný dátum.</string>
+    <string name="ssl_invalid">Tento certifikát je neplatný.</string>
+    <string name="ssl_certificate_is_valid">Tento certifikát je platný.</string>
+    <string name="ssl_unknown">Neznáma chyba certifikátu.</string>
+    <string name="stopping">Zastavovanie\u2026</string>
+
+    <string name="location">Adresa</string>
+    <string name="account">Účet</string>
+    <string name="containing_folder">Pridať do</string>
+    <string name="new_folder">Nová zložka</string>
+    <string name="edit_folder">Upraviť zložku</string>
+    <string name="delete_folder">Odstrániť zložku</string>
+    <string name="no_subfolders">Žiadne podzložky.</string>
+    <string name="add_to_homescreen_menu_option">Na domovskú obrazovku</string>
+    <string name="add_to_other_folder_menu_option">Iná zložka</string>
+    <string name="name">Názov</string>
+    <string name="bookmark_this_page">Pridať do záložiek</string>
+    <string name="remove">Odstrániť</string>
+    <string name="edit_bookmark">Upraviť záložku</string>
+    <string name="create_shortcut_bookmark">Pridať skratku na domovskú obrazovku</string>
+    <string name="remove_bookmark">Odstrániť záložku</string>
+    <string name="set_as_homepage">Nastaviť ako domovskú stránku</string>
+    <string name="bookmark_saved">Uložené do záložiek</string>
+    <string name="bookmark_not_saved">Záložku sa nepodarilo uložiť</string>
+    <string name="bookmark_needs_title">"Záložka musí mať názov"</string>
+    <string name="bookmark_needs_url">"Záložka musí mať adresu"</string>
+    <string name="bookmark_url_not_valid">Táto URL adresa nie je platná</string>
+    <string name="bookmark_cannot_save_url">Túto URL adresu nie je možné pridať do záložiek</string>
+    <string name="delete_bookmark_warning">Odstrániť záložku \"%s\"?</string>
+    <string name="open_all_in_new_window">Otvorenie všetkých v nových kartách</string>
+    <string name="select_dot">Vybrať text</string>
+    <string name="shortcut_bookmark">Záložka</string>
+    <string name="shortcut_bookmark_title">Vyberte záložku</string>
+    <string name="contextheader_folder_bookmarkcount">%d záložiek</string>
+    <string name="contextheader_folder_empty">Prázdna zložka</string>
+    <string name="contextmenu_openlink_newwindow">Otvoriť v novej karte</string>
+    <string name="contextmenu_openlink_newwindow_background">Otvoriť na pozadí</string>
+    <string name="contextmenu_savelink">Uložiť odkaz</string>
+    <string name="contextmenu_sharelink">Zdieľať odkaz</string>
+    <string name="contextmenu_copy">Kopírovať</string>
+    <string name="contextmenu_copylink">Kopírovať URL odkazu</string>
+    <string name="contextmenu_download_image">Uložiť obrázok</string>
+    <string name="contextmenu_view_image">Zobraziť obrázok</string>
+    <string name="contextmenu_set_wallpaper">Nastaviť ako tapetu</string>
+    <string name="contextmenu_set_wallpaper_image">Tapeta</string>
+    <string name="contextmenu_dial_dot">Volať\u2026</string>
+    <string name="contextmenu_add_contact">Pridať kontakt</string>
+    <string name="contextmenu_send_mail">Poslať e-mail</string>
+    <string name="contextmenu_map">Mapa</string>
+    <string name="choosertitle_sharevia">Zdieľať cez</string>
+    <string name="menu_preferences">Nastavenia</string>
+    <string name="pref_ad_block">Blokovanie reklám</string>
+    <string name="pref_notification_tool_show">Zobraziť panel vyhľadávania v notifikačnom paneli</string>
+    <string name="pref_force_userscalable_summary">Vynútiť správu priblíženia na webovej stránke</string>
+    <string name="pref_default_text_encoding">Kódovanie textu</string>
+    <string name="pref_default_ad_time">Čas označenia reklám</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Čínština (GBK)</item>
+        <item>Čínština (Big5)</item>
+        <item>Japončina (ISO-2022-JP)</item>
+        <item>Japončina (SHIFT_JIS)</item>
+        <item>Japončina (EUC-JP)</item>
+        <item>Kórejčina (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">Nastavenia webovej stránky</string>
+    <string name="pref_content_search_engine">Nastaviť vyhľadávač</string>
+    <string name="pref_search_engine_dialog_title">Vyberte vyhľadávač</string>
+    <string name="pref_download_path_setting_screen_title">Vlastná cesta pre stiahnutie</string>
+    <string name="pref_privacy_security_title">Ochrana osobných údajov a bezpečnosť</string>
+    <string name="pref_privacy_security_title_summary">Povoliť prehliadaču pamätať heslá, uložené formuláre a pod.</string>
+    <string name="pref_privacy_clear_data">Vymazať dáta</string>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Formuláre</item>
+        <item>História</item>
+        <item>Heslá</item>
+        <item>Prístup k polohe</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Vymazať miestne uložené údaje a databázy</item>
+        <item>Vymazať všetky cookies</item>
+        <item>Vymazať všetky uložené formuláre</item>
+        <item>Vymazať všetku históriu prehliadania</item>
+        <item>Vymazať všetky uložené účty a heslá</item>
+        <item>Zrušiť povolenie všetkým webovým stránkam prístup k vašej polohe</item>
+    </string-array>
+    <string name="pref_feedback">Spätná väzba</string>
+    <string name="pref_default_browser">Nastaviť ako predvolený prehliadač</string>
+    <string name="pref_confirm_on_exit">Potvrdiť pri ukončení</string>
+    <string name="pref_show_status_bar">Zobraziť stavový riadok</string>
+    <string name="pref_about">O aplikácii</string>
+    <string name="pref_extras_reset_default">Obnoviť na predvolené nastavenia</string>
+    <string name="pref_extras_reset_default_dlg">Obnoviť nastavenia na predvolené hodnoty?</string>
+    <string name="accessibility_button_uaswitch">Prepnúť používateľský agent</string>
+    <string-array name="pref_user_agent_choices">
+        <item>Predvolený</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Počítač</item>
+    </string-array>
+    <string name="pref_font_size">Veľkosť textu</string>
+    <string name="pref_font_size_summary">Upraviť veľkosť textu a písiem</string>
+    <string name="pref_force_userscalable">Vynútiť priblíženie</string>
+    <string name="pref_security_accept_cookies">Prijať cookies</string>
+    <string name="pref_security_accept_cookies_summary">Povoliť stránkam čítať a ukladať dáta cookies</string>
+    <string name="pref_privacy_enable_geolocation">Povoliť lokalizáciu</string>
+    <string name="pref_privacy_enable_geolocation_summary">Povoliť stránkam prístup k vašej polohe</string>
+    <string name="pref_security_save_form_data">Pamätať formuláre</string>
+    <string name="pref_security_save_form_data_summary">Pamätať dáta, ktoré zadávam do formulárov</string>
+    <string name="pref_security_remember_passwords">Pamätať heslá</string>
+    <string name="pref_security_remember_passwords_summary">Ukladať používateľské mená a heslá pre stránky</string>
+    <string name="pref_security_show_security_warning">Zobraziť varovania o bezpečnosti</string>
+    <string name="pref_security_show_security_warning_summary">Zobraziť varovanie, ak je problém s bezpečnosťou stránky</string>
+    <string name="pref_download_with_ADM">Stiahnuť s ADM</string>
+    <string name="pref_show_download_dialog">Zobraziť dialóg na stiahnutie</string>
+
+
+    <string name="pref_download">Nastavenia sťahovania</string>
+    <string-array name="pref_text_size_choices">
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Normálne</item>
+        <item>Veľké</item>
+        <item>Obrovské</item>
+    </string-array>
+    <string name="pref_text_zoom">Mierka textu</string>
+    <string name="pref_min_font_size">Minimálna veľkosť písma</string>
+
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+
+    <string name="browserFrameNetworkErrorLabel">Problém s pripojením</string>
+    <string name="browserFrameFileErrorLabel">Problém s dátum</string>
+    <string name="browserFrameFormResubmitMessage">Stránka, ktorú sa pokúšate zobraziť, obsahuje údaje, ktoré už boli odoslané ("POSTDATA"). Ak znova odošlete údaje, akcia, ktorú formulár na stránke vykonal (napríklad vyhľadávanie alebo online nákup), sa zopakuje.</string>
+    <string name="empty_history">Žiadna história prehliadania</string>
+    <string name="add_new_bookmark">Pridať záložku</string>
+    <string name="find_on_page">Hľadať na stránke</string>
+    <string name="search_hint">Hľadajte alebo zadajte URL</string>
+    <string name="search_settings_description">Záložky a história webu</string>
+
+    <string name="too_many_windows_dialog_message">Nemôžete otvoriť nový panel, kým nezatvoríte jeden.</string>
+    <string name="too_many_subwindows_dialog_title">Vyskakovacie okno už otvorené</string>
+    <string name="too_many_subwindows_dialog_message">Iba jedno vyskakovacie okno môže byť otvorené naraz.</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">Žiadna SD karta</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Pre stiahnutie %s je potrebná SD karta.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD karta nedostupná</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD karta je obsadená. Pre umožnenie sťahovania klepnite na Vypnúť USB úložisko v oznámení.</string>
+
+    <string name="download_pending">Začína sťahovanie...</string>
+    <string name="search_the_web">Hľadať na webe</string>
+
+    <string name="webstorage_outofspace_notification_title">Prehliadač má plné úložisko</string>
+    <string name="webstorage_outofspace_notification_text">Klepnite na uvoľnenie miesta.</string>
+    <string name="webstorage_clear_data_title">Vymazať uložené dáta</string>
+    <string name="webstorage_origin_summary_mb_stored">MB uložené vo vašom telefóne</string>
+    <string name="loading_video">Načítavanie videa...</string>
+    <string name="permissions_prompt_message">%1$s chce použiť vašu %2$s.</string>
+    <string name="permissions_prompt_deny">Zamietnuť</string>
+    <string name="resource_protected_media_id">chránené médiá ID</string>
+    <string name="resource_video_capture">kamera</string>
+    <string name="resource_audio_capture">mikrofón</string>
+    <string name="geolocation_permissions_prompt_message">%s chce vedieť vašu polohu</string>
+    <string name="geolocation_permissions_prompt_share">Zdieľať polohu</string>
+    <string name="geolocation_permissions_prompt_dont_share">Odmietnuť</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Táto stránka môže získať vašu polohu. Zmeňte to v Nastavenia > Pokročilé > Nastavenia webu.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Táto stránka nemôže získať vašu polohu. Zmeňte to v Nastavenia > Pokročilé > Nastavenia webu.</string>
+    <string name="geolocation_settings_page_title">Zrušiť povolenie na získanie vašej polohy</string>
+    <string name="geolocation_settings_page_summary_allowed">Táto stránka môže momentálne získať vašu polohu</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Táto stránka momentálne nemôže získať vašu polohu</string>
+    <string name="geolocation_settings_page_dialog_message">Zrušiť prístup k polohe pre túto stránku?</string>
+    <string name="website_settings_list_header_text">Prístup k polohe</string>
+
+    <string name="progress_dialog_setting_wallpaper">Nastavovanie tapety...</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">Zobraziť konzolu JavaScriptu</string>
+    <string name="error_console_header_text_maximized" translatable="false">Konzola JavaScriptu</string>
+    <string name="error_console_eval_text_hint" translatable="false">Vyhodnotiť JavaScript</string>
+    <string name="error_console_eval_button_text" translatable="false">Vyhodnotiť</string>
+    <string name="empty_bookmarks_folder">Vaše záložky sú prázdne</string>
+    <string name="other_bookmarks">Iné záložky</string>
+
+    <string name="max_tabs_warning">Nie sú dostupné ďalšie panely</string>
+    <string name="local_bookmarks">Lokálne</string>
+    <string name="empty_snapshots_folder">Žiadne uložené stránky</string>
+    <string name="remove_snapshot">Zmazať uloženú stránku</string>
+    <string name="accessibility_button_forward">Prejsť dopredu</string>
+    <string name="accessibility_button_refresh">Obnoviť stránku</string>
+    <string name="accessibility_button_stop">Zastaviť načítavanie stránky</string>
+    <string name="accessibility_button_addbookmark">Pridať stránku do záložiek</string>
+    <string name="accessibility_button_search">Hľadať</string>
+    <string name="accessibility_button_voice">Spustiť hlasové vyhľadávanie</string>
+    <string name="accessibility_button_closetab">Zatvoriť panel</string>
+    <string name="accessibility_button_newtab">Otvoriť nový panel</string>
+    <string name="accessibility_button_more">Viac možností</string>
+
+    <string name="accessibility_state_incognito">Inkognito stránka</string>
+    <string name="accessibility_state_frozen">Uložená stránka</string>
+
+    <string name="accessibility_transition_navscreen">Správa panelov</string>
+    <string name="accessibility_button_bookmarks_folder_up">Predchádzajúca složka</string>
+    <string name="sendText">Vyberte akciu pre text</string>
+
+    <string name="cancelDel">Zrušiť vymazanie?</string>
+
+    <string name="write_advice_please">Prosím, popíšte svoj názor alebo návrh slovami... (1000 slov)</string>
+    <string name="feed_back_sucess">Vaše pripomienky a návrhy sme prijali, ďakujeme.</string>
+    <string name="check_network">Odoslanie zlyhalo kvôli problémom s pripojením, prosím, skontrolujte sieť.</string>
+    <string name="commit_fail">Odoslanie zlyhalo, skúste to neskôr</string>
+    <string name="please_input_over_six">Prosím, zadajte 6 alebo viac znakov</string>
+    <string name="please_input_under_max">Prosím, zadajte najviac %1$d znakov</string>
+    <string name="email">E-mail:</string>
+    <string name="email_is_error">Prosím, zadajte správne telefónne číslo</string>
+    <string name="add_pic">Pridať obrázok:</string>
+    <string name="optional">(Voliteľné)</string>
+    <string name="please_leave_your_email">Prosím, zanechajte svoju e-mailovú adresu</string>
+    <string name="feedback_other">Iné:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Voliteľné)</string>
+    <string name="feedback_submit">Odoslať</string>
+
+    <string name="versionUpdate">Aktualizovať</string>
+    <string name="messageContent">Je k dispozícii nová verzia pre %s, môžete ju teraz aktualizovať.</string>
+    <string name="update_at_once">Aktualizovať</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">Skontrolovať aktualizácie</string>
+    <string name="pref_contact_us">Kontaktujte nás:</string>
+
+    <string name="pref_agreement">Podmienky používania</string>
+    <string name="pref_privacy_policy">Zásady ochrany osobných údajov</string>
+
+    <string name="check_for_update">skontrolovať aktualizácie...</string>
+    <string name="request_fail">Žiadosť zlyhala, skúste to neskôr</string>
+    <string name="update_remind">Oznámenie o aktualizácii</string>
+    <string name="is_latest">Už máte najnovšiu verziu!</string>
+    <string name="no_prompt">Nedopytovať sa znova</string>
+
+    <string name="download">Stiahnuť</string>
+    <string name="downloading">Sťahovanie</string>
+    <string name="downloaded">Stiahnuté</string>
+    <string name="download_removed">Odstránené</string>
+    <string name="download_pause">Pozastaviť sťahovanie</string>
+    <string name="download_failed">Sťahovanie zlyhalo</string>
+    <string name="unknown_file">Neznámy typ súboru</string>
+    <string name="no_downloads">Žiadne stiahnuté súbory</string>
+    <string name="downloadmanager_disabled">Správca sťahovania je zakázaný. Aktivujte ho prosím.</string>
+    <string name="cannot_open_the_file">Neexistuje žiadny postup na otvorenie tohto typu súboru</string>
+    <string name="download_allow_mobile">Povoliť sťahovanie súborov cez mobilnú sieť?</string>
+    <string name="allow_download">Povoliť sťahovanie</string>
+    <string name="allow_download_no">Pripojiť WiFi</string>
+    <string name="download_list">Zoznam sťahovaní</string>
+    <string name="storage_space_lack">Nedostatočný voľný priestor</string>
+    <string name="new_file">Vytvoriť nový súbor</string>
+    <string name="replace_file">Nahradiť súbor</string>
+
+    <string name="default_location">Predvolená poloha: %1$s</string>
+    <string name="select_location">Vyberte polohu</string>
+    <string name="sdcard_free">%1$s Voľné/%2$s</string>
+
+    <string name="menu_browser_add_bookmark">Pridať záložku</string>
+    <string name="menu_browser_night">Ochranca očí</string>
+    <string name="menu_browser_incognito">Inkognito</string>
+    <string name="menu_browser_close_incognito">Normálne</string>
+    <string name="menu_browser_history">História</string>
+    <string name="menu_browser_bookmarks">Záložky</string>
+    <string name="menu_browser_downloads">Stiahnuté</string>
+    <string name="menu_browser_no_image">Bez obrázkov</string>
+    <string name="menu_browser_full_screen">Celá obrazovka</string>
+    <string name="menu_browser_font_size">Veľkosť písma</string>
+    <string name="menu_browser_search_page">Hľadať na stránke</string>
+    <string name="menu_browser_snapshots">Uložiť stránku</string>
+
+    <string name="menu_browser_settings">Nastavenia</string>
+    <string name="menu_browser_Tools">Nástroje</string>
+    <string name="menu_browser_quit">Ukončiť</string>
+
+    <string name="title_clear_off_line">Vymazať uložené stránky?</string>
+    <string name="title_clear_history">Vymazať históriu?</string>
+    <string name="title_clear_all_history">Vymazať celú históriu?</string>
+    <string name="title_clear_bookmark">Vymazať záložku?</string>
+    <string name="enter_incognito_mode">Prejsť do inkognito režimu</string>
+    <string name="enter_normal_mode">Prejsť do normálneho režimu</string>
+    <string name="swipe_up_tip">Pre odstránenie karty potiahnite nahor</string>
+    <string name="empty_info_most_visited">Žiadny záznam</string>
+
+    <string name="prompt_saved_off_line">Uložené na offline stránky</string>
+    <string name="prompt_already_saved_off">Túto stránku ste už uložili</string>
+    <string name="prompt_already_saved_bookmark">Túto záložku ste už pridali</string>
+    <string name="incognito_home">Ste v inkognito režime</string>
+    <string name="incognito_home_content">Teraz ste v inkognito režime.</string>
+    <string name="edit">Upravit</string>
+
+    <string name="exit_dialog_title">Ukončiť prehliadač?</string>
+    <string-array name="exit_dialog_choices">
+        <item>Vymazať históriu &amp; vyrovnávaciu pamäť</item>
+        <item>Nezobrazovať znova</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">Reklamy boli nájdené, chcete zapnúť blokovanie reklám?</string>
+    <string name="visit_url_title">Navštíviť túto URL adresu z vašej schránky?</string>
+    <string name="visit_url_ok">Navštíviť</string>
+    <string name="incognito_home_tip">Môžete opustiť inkognito a prejsť na normálny režim.</string>
+    <string name="snap_shot_no_title">Bez názvu</string>
+    <string name="view_select_all">Vybrať všetko</string>
+    <string name="set_default_browser">Nastaviť ako predvolený prehliadač</string>
+    <string name="enter_settings_page">Prejdite do nastavení po dokončení vymazania.</string>
+    <string name="clear_default_setting_please">Iný prehliadač je nastavený ako predvolený, prosím, vymažte predvolené nastavenie prehliadača.</string>
+    <string name="unknown_error">Neznáma chyba, skúste to znova.</string>
+    <string name="set_default_success">Nastavenie bolo úspešné!</string>
+    <string name="set_default_failure">Nastavenie predvoleného prehliadača zlyhalo. Skúste to znova.</string>
+
+    <string name="default_bookmark">Predvolená záložka</string>
+
+    <string name="click_again_quit">Stlačte späť na ukončenie</string>
+    <string name="clear_all_already">Všetky dáta boli vymazané!</string>
+    <string name="select_download_path">Vyberte priečinok \"%s\" ako miesto pre sťahovanie</string>
+
+    <string name="contact_us_on_facebook">Kontaktujte nás na Facebooku</string>
+    <string name="text_count_can_input">%1$d znakov môžete zadať</string>
+    <string name="input_over_flow">Odoslanie zlyhalo, pretože %1$d znakov presahuje limit</string>
+    <string name="upload_image">Nahrať obrázky</string>
+    <string name="request_read_external_storage_error">Chyba pri žiadosti o prístup do pamäte telefónu</string>
+    <string name="get_photo_failure">Zlyhalo získanie obrázkov</string>
+
+    <string name="title_activity_add_link">Pridať odkaz</string>
+    <string name="btn_recommend_add">Pridať</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">Zadajte názov</string>
+    <string name="right_recommend_add_link_not_url">Zadajte URL</string>
+    <string name="right_recommend_add_link_url_format">Táto URL je nesprávna</string>
+    <string name="right_recommend_add_link_saved">Uložené</string>
+    <string name="right_recommend_add_link_repeat">URL už existuje</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">Desktop</string>
+    <string name="right_recommend_tools_remove">Odstrániť</string>
+
+    <string name="file_name">Názov súboru</string>
+    <string name="copylink_success">Odkaz bol skopírovaný</string>
+    <string name="add_to_homepage_success">Pridané na domácu stránku</string>
+    <string name="add_to_desktop_success">Pridané na desktop</string>
+    <string name="clear_history_all">Vymazať celú históriu</string>
+    <string name="remove_items_all">Odstrániť položky</string>
+    <string name="rename_failed">Premenovanie zlyhalo</string>
+    <string name="rename_success">Premenovanie bolo úspešné</string>
+    <string name="filename_empty">Názov súboru nemôže byť prázdny</string>
+    <string name="file_exist">Súbor už existuje</string>
+    <string name="file_not_exist">Súbor neexistuje</string>
+
+    <string name="menu_tools_box">Nástroje</string>
+    <string name="toolbox_menu_on">ZAPNUTÉ</string>
+    <string name="toolbox_menu_off">VYPNUTÉ</string>
+    <string name="home_page">Domovská stránka</string>
+    <string name="desktop">Desktop</string>
+    <string name="name_cannot_empty">Názov webu nemôže byť prázdny</string>
+
+    <string name="setting_update_speech_recognition">Vstup hlasom je zakázaný, prosím, aktualizujte službu Google Voice</string>
+    <string name="done">HOTOVO</string>
+    <string name="edited">Upravené</string>
+    <string name="enter_website_name">Zadajte názov webovej stránky</string>
+
+    <string name="unknown">neznáme</string>
+    <string name="available">Dostupné</string>
+    <string name="total">Celkom</string>
+    <string name="notification_content_text">Kliknite na zobrazenie</string>
+    <string name="notification_download_finish">Sťahovanie dokončené</string>
+    <string name="view">Zobraziť</string>
+
+    <string name="five_stars_titile">Páči sa vám %s?</string>
+    <string name="five_stars_content">Vaše hodnotenie 5 hviezdičkami pre nás veľmi znamená.</string>
+    <string name="five_stars_later">Neskôr</string>
+    <string name="five_stars">5 hviezdičiek</string>
+    <string name="refresh">Obnoviť</string>
+    <string name="ua_switcher_desktop">Požiadať o desktopovú verziu</string>
+
+    <string name="video_mobile_permission">Používate mobilnú sieť. Chcete stále prehrávať?</string>
+    <string name="video_mobile_play">Prehrať</string>
+    <string name="video_mobile_pause">Zrušiť</string>
+    <string name="close_all_incognito_notification">Zavrieť všetky inkognito karty</string>
+    <string name="add_up_to_15">Pridať až 20</string>
+    <string name="pref_deverloper_options">Možnosti vývojára</string>
+    <string name="show_dev_on">Teraz ste vývojár!</string>
+
+    <string name="pic_ad_block_count">Blokované obrázky</string>
+    <string name="js_ad_block_count">Blokované JavaScript súbory</string>
+    <string name="popup_ad_block_count">Blokované vyskakovacie okná</string>
+    <string name="custom_rules">Vlastné filtre AdBlock</string>
+    <string name="custom_rules_title">Filtre AdBlock</string>
+    <string name="confirm_deletion">Zmazať toto?</string>
+    <string name="add">Pridať</string>
+    <string name="confirm_deletion_all">Zmazať všetky?</string>
+
+    <string name="js_disable_hosts">Nastavte časový limit pre reklamy</string>
+    <string name="js_disable_hosts_title">Určité domény</string>
+    <string name="null_rules_prompt">Môžete pridať svoje vlastné pravidlá. Vaše pravidlá musia dodržiavať syntax Adblock Plus. Pokyny na použitie.</string>
+
+    <string name="instructions_label">Pokyny na použitie</string>
+    <string name="adblock_rules_error_prompt">Chyba syntaxe, upravte znova!</string>
+    <string name="js_disable_host_error_prompt">Chyba domény, upravte znova!</string>
+
+    <string name="leadpage_home">Domov</string>
+    <string name="leadpage_back">Späť</string>
+
+    <string name="leadpage_forward">Ďalej</string>
+    <string name="abnormal_recover_ok">Obnoviť</string>
+    <string name="abnormal_recover_message">Obnoviť poslednú stránku?</string>
+    <string name="abnormal_recover_recovered">Stránky z poslednej relácie boli obnovené.</string>
+
+    <string name="open_most_visited">otvoriť najnavštevovanejšie>></string>
+    <string name="contextmenu_share_app">Zdieľať aplikáciu</string>
+    <string name="contextmenu_share_website">Zdieľať webovú stránku</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">Nástroje</string>
+
+    <string name="pref_show_red_badge_notity">Zobraziť červenú notifikáciu</string>
+    <string name="pref_show_header_news">Zobraziť čas/pocasie/správy predchádzajúcej stránky</string>
+
+    <string name="added_new_bookmark">Pridať záložku</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">päť hviezdičiek</string>
+    <string name="deletion_all">Zmazať všetko</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="mark_image_ad">Označiť reklamu</string>
+    <string name="mark_image_ad_fail">Označenie zlyhalo</string>
+    <string name="product_agree">Súhlasím</string>
+    <string name="product_no_agree">Nezúhlasím</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">rozširovanie</string>
+    <string name="setting_bottom_night">Tmavý režim</string>
+    <string name="setting_bottom_day">Svetlý režim</string>
+
+    <string name="update_now">Prejdite na Google Play a stiahnite aplikáciu.</string>
+    <string name="update_title">Nájdená nová verzia</string>
+    <string name="update_later">Aktualizovať neskôr</string>
+    <string name="five_stars_comment">Dajte nám návrh.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">História vyhľadávania</string>
+    <string name="browser_admin_panel">Užívateľské centrum</string>
+    <string name="browser_navigation">Navigácia</string>
+
+    <string name="browser_slogo_fast">Rýchlejšie</string>
+    <string name="browser_slogo_safe">Bezpečnejšie</string>
+    <string name="browser_slogo_intelligence">Inteligentnejšie</string>
+
+    <string name="browser_rights" translatable="false">Autorské práva © 2024 Byfrost prehliadač. \nVšetky práva vyhradené.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">Umiestnite QR kód do rámčeka a začnite skenovať</string>
+    <string name="picture_nocodeinfo" translatable="false">Nezistili sme informácie z QR kódu na obrázku</string>
+    <string name="picture_scannoinfo" translatable="false">Neboli nájdené žiadne informácie z QR kódu</string>
+    <string name="share_dialog_title" translatable="false">Zdieľať webovú stránku</string>
+    <string name="my_qrcode" translatable="false">Môj QR kód</string>
+    <string name="select_qr_code" translatable="false">Vyberte obrázok QR kódu</string>
+    <string name="sure_select_true_picture" translatable="false">Potvrďte, že ste vybrali správny obrázok</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">Rozšíriť odporúčané weby</string>
+    <string name="browser_slogan" translatable="false">Hľadajte slobodne všetko, čo potrebujete</string>
+    <string name="browser_net_error_refresh" translatable="false">Kliknite na prázdnu oblasť na obnovenie stránky</string>
+
+    <string name="browser_hot_word_title" translatable="false">Horúca vyhľadávaná téma</string>
+    <string name="browser_permission_camera">Povolenie na kameru bolo zamietnuté, prosím, povoľte ho ručne</string>
+    <string name="browser_permission_notification">Povolenie pre oznámenia bolo zamietnuté, prosím, povoľte ho ručne</string>
+    <string name="browser_permission_strone">Sťahovanie súborov vyžaduje povolenie na úložisko. Prosím, povoľte ho ručne v nastaveniach</string>
+
+    <string name="browser_permission_qr">Táto funkcia vyžaduje povolenie na prístup k pamäti. Prosím, povoľte ho ručne v nastaveniach</string>
+    <string name="browser_permission_setwall">Nastavenie tapety telefónu vyžaduje povolenie na úložisko. Prosím, povoľte ho v nastaveniach</string>
+    <string name="browser_product_start">Štart</string>
+    <string name="browser_product_agree_tips">Musíte súhlasiť s pravidlami.</string>
+    <string name="browser_privacy_tips">Vaše osobné údaje budú spracované v súlade s našimi "Podmienkami ochrany osobných údajov".</string>
+
+    <string name="byfrost_slogan">Byfrost - Vidíte väčší svet!</string>
+    <string name="byfrost_suggestion">Vašu pripomienku sme prijali, ďakujeme.</string>
+    <string name="byfrost_suggestion_time">Čas na spätnú väzbu nemôže byť kratší ako 1 minúta od posledného.</string>
+    <string name="update_tips2">✨Všetko pre lepší zážitok! Pokračujte, aktualizujte teraz a pozrite sa na to!✨</string>
+    <string name="update_tips1">Áno, uhádli ste to! Tu je úplne nová aktualizácia!</string>
+    <string name="update_content1">1. Naši super-inteligentní vedci zrýchlili načítanie stránok na bleskovú rýchlosť!</string>
+    <string name="update_content2">2. Naša milá dizajnérka vykúzlila ešte krajší vzhľad všetkého!</string>
+    <string name="update_content3">3. A naši úžasní vývojári? Ostať hore do noci s kávou, aby sa zbavili všetkých nepríjemných chýb!</string>
+
+    <string name="lable_news">Správy</string>
+    <string name="lable_video">Videá</string>
+    <string name="lable_lifestyle">Životný štýl</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Nástroje</string>
+
+    <string name="lable_weather">Počasie</string>
+    <string name="lable_calendar">Kalendár</string>
+    <string name="lable_maps">Mapy</string>
+    <string name="lable_translate">Preklad</string>
+
+    <string name="website_recommend">Odporúčané</string>
+    <string name="website_social">Sociálne</string>
+    <string name="website_lifestyle">Životný štýl</string>
+    <string name="website_news">Správy•Šport</string>
+    <string name="website_AI">AI</string>
+    <string name="website_videos">Videá</string>
+    <string name="website_shoping">Zábava•Nakupovanie</string>
+    <string name="website_tools">Nástroje</string>
+    <string name="website_hot">Horúce</string>
+
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Ospravedlňujeme sa, fotoaparát narazil na problém. Možno bude potrebné reštartovať zariadenie.</string>
+    <string name="zxing_msg_default_status">Umiestnite čiarový kód do vnútra obdĺžnika hľadáčiku pre skenovanie</string>
+</resources>

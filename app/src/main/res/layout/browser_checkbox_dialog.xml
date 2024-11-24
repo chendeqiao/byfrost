@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dialog_horizontal_padding"
+        android:layout_marginStart="@dimen/dialog_horizontal_padding"
+        android:layout_marginTop="17dp"
+        android:textSize="@dimen/dialog_title_size"
+        android:textColor="@color/browser_info_item_title"/>
+
+    <RelativeLayout
+        android:id="@+id/browser_download_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="@dimen/dialog_horizontal_padding"
+        android:paddingRight="@dimen/dialog_horizontal_padding"
+        android:paddingEnd="@dimen/dialog_horizontal_padding"
+        android:paddingLeft="@dimen/dialog_horizontal_padding">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/browser_checkbox_icon_size"
+            android:layout_height="@dimen/browser_checkbox_icon_size"
+            android:layout_centerVertical="true"
+            android:background="@drawable/browser_check_box"/>
+
+        <TextView
+            android:id="@+id/content_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/image"
+            android:gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:textColor="@color/dialog_content_text_color"
+            android:textSize="@dimen/dialog_item_text_size"
+            android:layout_toRightOf="@id/image"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="11dp"
+            android:text="@string/no_prompt"
+            android:layout_marginBottom="13dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

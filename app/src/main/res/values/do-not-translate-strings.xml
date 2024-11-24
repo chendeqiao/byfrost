@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--SWE TODO: localize this for all languages -->
+
+
+    <!-- Add for Wap2Estore Feature -->
+
+    <!--Strings for auto update notification feature -->
+    <!--String for the download default path -->
+
+    <array name="share_default_pkgname">
+        <item>com.facebook.katana</item>
+        <item>com.twitter.android</item>
+        <item>com.whatsapp</item>
+    </array>
+
+    <array name="share_default_appname">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>WhatsApp</item>
+    </array>
+
+    <array name="share_local_default_appname">
+        <item>@string/contextmenu_share_app</item>
+        <item>@string/contextmenu_share_website</item>
+    </array>
+
+    <array name="search_input_hint_before">
+        <item>http://</item>
+        <item>https://</item>
+        <item>www.</item>
+        <item>m.</item>
+        <item>wap.</item>
+    </array>
+
+    <array name="search_input_hint_after">
+        <item>.</item>
+        <item>/</item>
+        <item>.cn</item>
+        <item>.com</item>
+        <item>.org</item>
+    </array>
+
+    <string name="download_web_icons_url">www.baidu.com</string>
+    <!--&lt;!&ndash; Initial value in Location field in Bookmark dialog box &ndash;&gt;-->
+    <string name="http">http://</string>
+    <!-- Do not translate. Actual encoding values. Must be valid text encodings understandable from WebKit. -->
+    <string-array name="pref_default_text_encoding_values" translatable="false">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+
+    <string-array name="pref_default_ad_time_limite" translatable="false">
+        <item>1 hour</item>
+        <item>12 hour</item>
+        <item>24 hour</item>
+        <item>Forever</item>
+    </string-array>
+
+    <string name="pref_default_text_encoding_default">UTF-8</string>
+    <string name="pref_default_time_limite_default">1 hour</string>
+
+    <string-array name="pref_clear_data_values">
+        <item>privacy_clear_cache</item>
+        <item>privacy_clear_cookies</item>
+        <item>privacy_clear_form_data</item>
+        <item>privacy_clear_history</item>
+        <item>privacy_clear_passwords</item>
+        <item>privacy_clear_geolocation_access</item>
+    </string-array>
+
+    <string name="pref_min_font_size_value">%dPT</string>
+    <string name="homepage_base">x-native://homepage</string>
+    <!-- Default Bookmarks -->
+    <string-array name="bookmarks" translatable="false">
+        <item>Google</item>
+        <item>https://www.google.com/</item>
+        <item>Youtube</item>
+        <item>https://m.youtube.com/</item>
+    </string-array>
+
+    <array name="bookmark_preloads">
+        <item>@drawable/browser_engine_google</item>
+        <item>@drawable/browser_engine_google</item>
+        <item>@drawable/browser_webicon_youtube</item>
+        <item>@drawable/browser_webicon_youtube</item>
+    </array>
+
+    <string name="pref_version_summary">V %s</string>
+    <string name="contact_google">https://plus.google.com/101637698177270497475</string>
+    <string name="contact_twitter">https://twitter.com/HiBrowserBest</string>
+    <string name="contact_facebook">https://www.facebook.com/HiBrowserOfficial/</string>
+    <string name="contact_instagram">https://www.instagram.com/hibrowserbest/</string>
+
+    <string-array name="exit_dialog_value">
+        <item>clear_history_cache_exiting</item>
+        <item>confirm_on_exit</item>
+    </string-array>
+
+    <string name="image_count">%1$d/%2$d</string>
+    <!-- 只需要英文的即可，不需要翻译成其他的语言 -->
+    <string name="recommend_mark_default_icon">ic_browser_recommend_blank</string>
+    <string name="recommend_mark_add_icon">ic_browser_recommend_add</string>
+    <string name="download_size_text_format" formatted="false">%s/%s</string>
+    <string name="example_adblock_rule">example.com##div.textad</string>
+    <string name="example_host">example.com</string>
+
+    <string name="pref_open_debug">USB debugging</string>
+    <string name="pref_channel">Channel</string>
+    <string name="pref_new_features">New features</string>
+
+    <string name="adblockplus_label">Adblock Plus</string>
+    <string name="browser_product_tips">Clicking on “Start” indicates agreement to  the \nPrivacy Policy and User Agreement.</string>
+    <string name="byfrost_hot_url">https://trends.google.com/trending</string>
+
+    <string name="keyboard_number_0">0</string>
+    <string name="keyboard_number_1">1</string>
+    <string name="keyboard_number_2">2</string>
+    <string name="keyboard_number_3">3</string>
+    <string name="keyboard_number_4">4</string>
+    <string name="keyboard_number_5">5</string>
+    <string name="keyboard_number_6">6</string>
+    <string name="keyboard_number_7">7</string>
+    <string name="keyboard_number_8">8</string>
+    <string name="keyboard_number_9">9</string>
+
+    <string-array name="lock_birth_months_number">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+
+
+    <string name="lock_birth_year">Year</string>
+    <string name="lock_birth_month">Month</string>
+    <string name="lock_birth_day">Day</string>
+
+    <string name="lock_not_now">Not Now</string>
+    <string name="lock_lock_for_to_safe">Please set a password to ensure your privacy security.</string>
+    <string name="lock_set_new_lock_line">Please create an unlock pattern</string>
+    <string name="lock_confirm_lock_line">Confirm unlock pattern</string>
+    <string name="lock_set_new_lock_number">Please create a PIN code</string>
+    <string name="lock_turn_to_type_number">Change to PIN Code</string>
+    <string name="lock_turn_to_type_line">Change to pattern password</string>
+    <string name="lock_set_protected_question_desc">Set a security question, you can reset your password when forget it.</string>
+    <string name="lock_your_birth">When is your birthday?</string>
+
+    <string name="lock_lock_success_common">Locked</string>
+    <string name="lock_enter_password">Please enter the password</string>
+    <string name="lock_confirm_lock_number">Confirm PIN Code</string>
+    <string name="lock_forgot_pwd">Forgot password?</string>
+    <string name="lock_reset_pwd">Reset password</string>
+
+    <string name="lock_pwd_has_reset">Reset successfully</string>
+    <string name="lock_check_birth_tv1">Answer the security question to reset password</string>
+    <string name="lock_answer_error">Wrong answer</string>
+    <string name="lock_pwd_error">Wrong password</string>
+    <string-array name="lock_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May </item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="lock_change_security_birth">Change the security question</string>
+    <string name="lock_change_security_birth_success">Changed successfully</string>
+
+
+    <string translatable="false" name="base_settings_language_ar">العربية</string>
+    <string translatable="false" name="base_settings_language_bg">България</string>
+    <string translatable="false" name="base_settings_language_cs">Čeština</string>
+    <string translatable="false" name="base_settings_language_da">Dansk</string>
+    <string translatable="false" name="base_settings_language_de">Deutsch</string>
+    <string translatable="false" name="base_settings_language_el">Eλληνικά</string>
+    <string translatable="false" name="base_settings_language_en">English</string>
+    <string translatable="false" name="base_settings_language_es">Español (España)</string>
+    <string translatable="false" name="base_settings_language_es_es">Español (España)</string>
+    <string translatable="false" name="base_settings_language_es_us">Español (Estados Unidos)</string>
+    <string translatable="false" name="base_settings_language_es_la">Español (América Latina)</string>
+    <string translatable="false" name="base_settings_language_fr">Français</string>
+    <string translatable="false" name="base_settings_language_he">עברית</string>
+    <string translatable="false" name="base_settings_language_hr">Hrvatski</string>
+    <string translatable="false" name="base_settings_language_hu">Magyar</string>
+    <string translatable="false" name="base_settings_language_id">Indonesia</string>
+    <string translatable="false" name="base_settings_language_it">Italiano</string>
+    <string translatable="false" name="base_settings_language_ja">日本語</string>
+    <string translatable="false" name="base_settings_language_ko">한국어</string>
+    <string translatable="false" name="base_settings_language_ms">Malay</string>
+    <string translatable="false" name="base_settings_language_nb">Norsk</string>
+    <string translatable="false" name="base_settings_language_nl">Nederlands</string>
+    <string translatable="false" name="base_settings_language_pl">Polski</string>
+    <string translatable="false" name="base_settings_language_pt">Português (Portugal)</string>
+    <string translatable="false" name="base_settings_language_pt_pt">Português (Portugal)</string>
+    <string translatable="false" name="base_settings_language_pt_br">Português (Brasil)</string>
+    <string translatable="false" name="base_settings_language_ro">Română</string>
+    <string translatable="false" name="base_settings_language_ru">Pусский</string>
+    <string translatable="false" name="base_settings_language_sk">Slovenčina</string>
+    <string translatable="false" name="base_settings_language_sr">Cрпски</string>
+    <string translatable="false" name="base_settings_language_th">ภาษาไทย</string>
+    <string translatable="false" name="base_settings_language_tr">Türkçe</string>
+    <string translatable="false" name="base_settings_language_uk">Українська</string>
+    <string translatable="false" name="base_settings_language_vi">Tiếng Việt</string>
+    <string translatable="false" name="base_settings_language_zh_cn">中文 (简体)</string>
+    <string translatable="false" name="base_settings_language_zh_tw">中文 (繁體)</string>
+    <string translatable="false" name="base_settings_language_hi">हिन्दी</string>
+</resources>
+
+

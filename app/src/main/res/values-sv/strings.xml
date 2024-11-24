@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="uploads_disabled">Filuppladdningar är inaktiverade.</string>
+    <string name="new_tab">Ny flik</string>
+    <string name="new_incognito_tab">Ny inkognitoflik</string>
+    <string name="tab_snapshots">Sparade sidor</string>
+    <string name="removed_from_bookmarks">Borttagen från bokmärken.</string>
+    <string name="sign_in_to">Logga in på %1$s \"%2$s\"</string>
+    <string name="username">Namn</string>
+    <string name="password">Lösenord</string>
+    <string name="action">Logga in</string>
+    <string name="bookmarks_add_page">Spara bokmärke</string>
+    <string name="bookmarks_search">Webbläsare</string>
+    <string name="cancel">Avbryt</string>
+    <string name="ok">OK</string>
+    <string name="delete">Ta bort</string>
+    <string name="modify">Ändra</string>
+    <string name="add_to_homepage">Lägg till på hemskärmen</string>
+    <string name="add_to_desktop">Skrivbord</string>
+    <string name="rename">Byt namn på filer</string>
+    <string name="copy_link">Kopiera länk</string>
+    <string name="share">Dela</string>
+    <string name="most_visited">Mest besökta</string>
+
+    <string name="allow">Tillåt</string>
+    <string name="go_back">Tillbaka</string>
+    <string name="bookmarks">Bokmärken</string>
+    <string name="bookmark_list">Bokmärken</string>
+    <string name="go">Gå</string>
+    <string name="clear">Rensa</string>
+    <string name="clear_default_browser">Rensa inställningen som standardwebbläsare</string>
+    <string name="already_cleared">Rensad</string>
+    <string name="open">Öppna</string>
+    <string name="history">Historik</string>
+    <string name="remember_preference">Kom ihåg preferens</string>
+    <string name="block">Blockera</string>
+    <string name="clear_data_success">Rensning lyckades</string>
+    <string name="exit">Avsluta</string>
+    <string name="clear_all">Rensa allt</string>
+
+    <string name="page_info">Sida information</string>
+    <string name="page_info_view">Visa sida information</string>
+    <string name="page_info_address">Adress:</string>
+
+    <string name="ssl_warnings_header">Det finns problem med säkerhetscertifikatet för denna sida.</string>
+    <string name="ssl_continue">Fortsätt</string>
+    <string name="security_warning">Säkerhetsvarning</string>
+    <string name="view_certificate">Visa certifikat</string>
+
+    <string name="ssl_certificate">Säkerhetscertifikat</string>
+    <string name="ssl_untrusted">Detta certifikat kommer inte från en betrodd auktoritet.</string>
+    <string name="ssl_mismatch">Webbplatsens namn stämmer inte överens med namnet på certifikatet.</string>
+    <string name="ssl_expired">Detta certifikat har gått ut.</string>
+    <string name="ssl_not_yet_valid">Detta certifikat är inte giltigt än.</string>
+    <string name="ssl_date_invalid">Detta certifikat har ett ogiltigt datum.</string>
+    <string name="ssl_invalid">Detta certifikat är ogiltigt.</string>
+    <string name="ssl_certificate_is_valid">Detta certifikat är giltigt.</string>
+    <string name="ssl_unknown">Okänt certifikatfel.</string>
+    <string name="stopping">Stoppar...</string>
+
+    <string name="location">Adress</string>
+    <string name="account">Konto</string>
+    <string name="containing_folder">Lägg till i</string>
+    <string name="new_folder">Ny mapp</string>
+    <string name="edit_folder">Redigera mapp</string>
+    <string name="delete_folder">Ta bort mapp</string>
+    <string name="no_subfolders">Inga undermappar.</string>
+    <string name="add_to_homescreen_menu_option">Hemsida</string>
+    <string name="add_to_other_folder_menu_option">Annan mapp</string>
+    <string name="name">Etikett</string>
+    <string name="bookmark_this_page">Bokmärk denna sida</string>
+    <string name="remove">Ta bort</string>
+    <string name="edit_bookmark">Redigera bokmärke</string>
+    <string name="create_shortcut_bookmark">Lägg till genväg på hemsidan</string>
+    <string name="remove_bookmark">Ta bort bokmärke</string>
+    <string name="set_as_homepage">Ställ in som startsida</string>
+    <string name="bookmark_saved">Sparad till bokmärken</string>
+    <string name="bookmark_not_saved">Kunde inte spara bokmärke</string>
+    <string name="bookmark_needs_title">"Bokmärk måste ha ett namn"</string>
+    <string name="bookmark_needs_url">"Bokmärk måste ha en plats"</string>
+    <string name="bookmark_url_not_valid">Denna URL är ogiltig</string>
+    <string name="bookmark_cannot_save_url">Denna URL kan inte bokmärkas</string>
+    <string name="delete_bookmark_warning">Ta bort bokmärke \"%s\"?</string>
+    <string name="open_all_in_new_window">Öppna alla i nya flikar</string>
+    <string name="select_dot">Välj text</string>
+    <string name="shortcut_bookmark">Bokmärke</string>
+    <string name="shortcut_bookmark_title">Välj ett bokmärke</string>
+    <string name="contextheader_folder_bookmarkcount">%d bokmärken</string>
+    <string name="contextheader_folder_empty">Tom mapp</string>
+    <string name="contextmenu_openlink_newwindow">Öppna i ny flik</string>
+    <string name="contextmenu_openlink_newwindow_background">Öppna i bakgrunden</string>
+    <string name="contextmenu_savelink">Spara länk</string>
+    <string name="contextmenu_sharelink">Dela länk</string>
+    <string name="contextmenu_copy">Kopiera</string>
+    <string name="contextmenu_copylink">Kopiera länk-URL</string>
+    <string name="contextmenu_download_image">Spara bild</string>
+    <string name="contextmenu_view_image">Visa bild</string>
+    <string name="contextmenu_set_wallpaper">Ställ in som bakgrundsbild</string>
+    <string name="contextmenu_set_wallpaper_image">Bakgrundsbild</string>
+
+    <string name="contextmenu_dial_dot">Ring...</string>
+    <string name="contextmenu_add_contact">Lägg till kontakt</string>
+    <string name="contextmenu_send_mail">Skicka e-post</string>
+    <string name="contextmenu_map">Karta</string>
+    <string name="choosertitle_sharevia">Dela via</string>
+    <string name="menu_preferences">Inställningar</string>
+
+    <string name="pref_ad_block">Annonsblockerare</string>
+    <string name="pref_notification_tool_show">Visa sökfält i meddelandepanelen</string>
+    <string name="pref_force_userscalable_summary">Åsidosätt en webbplats begäran om att kontrollera zoombeteende</string>
+    <string name="pref_default_text_encoding">Textkodning</string>
+    <string name="pref_default_ad_time">Tidsmarkering av annonser</string>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kinesiska (GBK)</item>
+        <item>Kinesiska (Big5)</item>
+        <item>Japanska (ISO-2022-JP)</item>
+        <item>Japanska (SHIFT_JIS)</item>
+        <item>Japanska (EUC-JP)</item>
+        <item>Koreanska (EUC-KR)</item>
+    </string-array>
+    <string name="pref_extras_website_settings">Webbplatsinställningar</string>
+    <string name="pref_content_search_engine">Ställ in sökmotor</string>
+    <string name="pref_search_engine_dialog_title">Välj motor</string>
+    <string name="pref_download_path_setting_screen_title">Anpassad nedladdningsväg</string>
+    <string name="pref_privacy_security_title">Integritet &amp; Säkerhet</string>
+    <string name="pref_privacy_security_title_summary">Tillåt webbläsaren att komma ihåg lösenord, sparade formulär osv.</string>
+    <string name="pref_privacy_clear_data">Rensa data</string>
+    <string-array name="pref_clear_data_choices">
+        <item>Cache</item>
+        <item>Cookies</item>
+        <item>Formulär</item>
+        <item>Historik</item>
+        <item>Lösenord</item>
+        <item>Platsåtkomst</item>
+    </string-array>
+    <string-array name="pref_clear_data_descriptions">
+        <item>Rensa lokalt cachelagrat innehåll och databaser</item>
+        <item>Rensa alla cookies</item>
+        <item>Rensa alla sparade formulärdata</item>
+        <item>Rensa all webbhistorik</item>
+        <item>Rensa alla sparade konton och lösenord</item>
+        <item>Ångra tillstånd för webbplatser att få åtkomst till din plats</item>
+    </string-array>
+    <string name="pref_feedback">Feedback</string>
+    <string name="pref_default_browser">Ställ in som standardwebbläsare</string>
+    <string name="pref_confirm_on_exit">Bekräfta vid avslutning</string>
+    <string name="pref_show_status_bar">Statusfältet visas</string>
+    <string name="pref_about">Om</string>
+    <string name="pref_extras_reset_default">Återställ till standard</string>
+
+    <string name="pref_extras_reset_default_dlg">Återställ inställningar till standardvärden?</string>
+
+    <string name="accessibility_button_uaswitch">Byt användaragents</string>
+    <string-array name="pref_user_agent_choices">
+        <item>Standard</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Dator</item>
+    </string-array>
+    <string name="pref_font_size">Textstorlek</string>
+    <string name="pref_font_size_summary">Justera storleken på text och typsnitt</string>
+    <string name="pref_force_userscalable">Tvinga zoom</string>
+
+    <string name="pref_security_accept_cookies">Acceptera cookies</string>
+    <string name="pref_security_accept_cookies_summary">Tillåt webbplatser att spara och läsa cookie-data</string>
+    <string name="pref_privacy_enable_geolocation">Aktivera plats</string>
+    <string name="pref_privacy_enable_geolocation_summary">Tillåt webbplatser att begära åtkomst till din plats</string>
+    <string name="pref_security_save_form_data">Kom ihåg formulärdata</string>
+    <string name="pref_security_save_form_data_summary">Kom ihåg de data jag skrev i formuläret</string>
+    <string name="pref_security_remember_passwords">Kom ihåg lösenord</string>
+    <string name="pref_security_remember_passwords_summary">Spara användarnamn och lösenord för webbplatser</string>
+    <string name="pref_security_show_security_warning">Visa säkerhetsvarningar</string>
+    <string name="pref_security_show_security_warning_summary">Visa varning om det finns ett problem med en webbplats säkerhet</string>
+    <string name="pref_download_with_ADM">Ladda ner med ADM</string>
+    <string name="pref_show_download_dialog">Visa nedladdningsdialog</string>
+
+    <string name="pref_download">Nedladdningsinställningar</string>
+    <string-array name="pref_text_size_choices">
+        <item>Mycket liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Jättestor</item>
+    </string-array>
+    <string name="pref_text_zoom">Textskalning</string>
+    <string name="pref_min_font_size">Minsta teckensnittsstorlek</string>
+
+    <string name="pref_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_always" translatable="false">ALWAYS</string>
+
+    <string name="browserFrameNetworkErrorLabel">Anslutningsproblem</string>
+    <string name="browserFrameFileErrorLabel">Filproblem</string>
+    <string name="browserFrameFormResubmitMessage">Sidan du försöker visa innehåller data som redan har skickats (\"POSTDATA\"). Om du skickar om data kommer alla åtgärder som formuläret på sidan utförde (t.ex. en sökning eller ett onlineköp) att upprepas.</string>
+    <string name="empty_history">Ingen webbhistorik</string>
+    <string name="add_new_bookmark">Lägg till bokmärke</string>
+    <string name="find_on_page">Hitta på sidan</string>
+    <string name="search_hint">Sök eller skriv URL</string>
+    <string name="search_settings_description">Bokmärken och webbhistorik</string>
+    <string name="too_many_windows_dialog_message">Kan inte öppna ett nytt fönster förrän du stänger ett.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up redan öppen</string>
+    <string name="too_many_subwindows_dialog_message">Endast en pop-up kan vara öppen åt gången.</string>
+
+    <string name="download_no_sdcard_dlg_title" product="default">Ingen SD-kort</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">Ett SD-kort krävs för att ladda ner %s.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD-kort otillgängligt</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD-kortet är upptaget. För att tillåta nedladdningar, tryck på Stäng av USB-lagring i meddelandet.</string>
+
+    <string name="download_pending">Startar nedladdning…</string>
+    <string name="search_the_web">Sök på webben</string>
+
+    <string name="webstorage_outofspace_notification_title">Webbläsarens lagring full</string>
+    <string name="webstorage_outofspace_notification_text">Tryck för att frigöra utrymme.</string>
+    <string name="webstorage_clear_data_title">Rensa lagrad data</string>
+    <string name="webstorage_origin_summary_mb_stored">MB lagrade på din telefon</string>
+    <string name="loading_video">Laddar video…</string>
+    <string name="permissions_prompt_message">%1$s vill använda din %2$s.</string>
+    <string name="permissions_prompt_deny">Nej</string>
+    <string name="resource_protected_media_id">skyddat media-ID</string>
+    <string name="resource_video_capture">kamera</string>
+    <string name="resource_audio_capture">mikrofon</string>
+    <string name="geolocation_permissions_prompt_message">%s vill veta din plats</string>
+    <string name="geolocation_permissions_prompt_share">Dela plats</string>
+    <string name="geolocation_permissions_prompt_dont_share">Avböj</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">Denna webbplats kan få åtkomst till din plats. Ändra detta i Inställningar > Avancerat > Webbplatsinställningar.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Denna webbplats kan inte få åtkomst till din plats. Ändra detta i Inställningar > Avancerat > Webbplatsinställningar.</string>
+    <string name="geolocation_settings_page_title">Avbryt tillgång till din plats</string>
+    <string name="geolocation_settings_page_summary_allowed">Denna webbplats kan för närvarande få åtkomst till din plats</string>
+    <string name="geolocation_settings_page_summary_not_allowed">Denna webbplats kan inte för närvarande få åtkomst till din plats</string>
+    <string name="geolocation_settings_page_dialog_message">Rensa platsåtkomst för denna webbplats?</string>
+    <string name="website_settings_list_header_text">Platsåtkomst</string>
+
+    <string name="progress_dialog_setting_wallpaper">Ställer in bakgrundsbild…</string>
+
+    <string name="error_console_header_text_minimized" translatable="false">Visa JavaScript-konsol</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript-konsol</string>
+    <string name="error_console_eval_text_hint" translatable="false">Utvärdera JavaScript</string>
+    <string name="error_console_eval_button_text" translatable="false">Utvärdera</string>
+    <string name="empty_bookmarks_folder">Dina bokmärken är tomma</string>
+    <string name="other_bookmarks">Andra bokmärken</string>
+
+    <string name="max_tabs_warning">Inga fler flikar tillgängliga</string>
+    <string name="local_bookmarks">Lokalt</string>
+    <string name="empty_snapshots_folder">Inga sparade sidor</string>
+    <string name="remove_snapshot">Radera sparad sida</string>
+    <string name="accessibility_button_forward">Gå framåt</string>
+    <string name="accessibility_button_refresh">Uppdatera sidan</string>
+    <string name="accessibility_button_stop">Stoppa sidladdning</string>
+    <string name="accessibility_button_addbookmark">Bokmärk sida</string>
+    <string name="accessibility_button_search">Sök</string>
+    <string name="accessibility_button_voice">Starta röst-sökning</string>
+    <string name="accessibility_button_closetab">Stäng flik</string>
+    <string name="accessibility_button_newtab">Öppna ny flik</string>
+    <string name="accessibility_button_more">Fler alternativ</string>
+
+    <string name="accessibility_state_incognito">Inkognitosida</string>
+    <string name="accessibility_state_frozen">Sparad sida</string>
+
+    <string name="accessibility_transition_navscreen">Flikhantering</string>
+    <string name="accessibility_button_bookmarks_folder_up">Föregående mapp</string>
+    <string name="sendText">Välj en åtgärd för text</string>
+
+    <string name="cancelDel">Ångra radering?</string>
+
+    <string name="write_advice_please">Beskriv gärna din åsikt eller förslag med ord... (max 1000 ord)</string>
+    <string name="feed_back_sucess">Vi har mottagit dina kommentarer och förslag, tack.</string>
+    <string name="check_network">Inlämningen misslyckades på grund av nätverksproblem, vänligen kontrollera.</string>
+    <string name="commit_fail">Inlämningen misslyckades, försök igen senare</string>
+    <string name="please_input_over_six">Ange minst 6 tecken</string>
+    <string name="please_input_under_max">Ange högst %1$d tecken</string>
+    <string name="email">E-post:</string>
+    <string name="email_is_error">Ange korrekt telefonnummer</string>
+    <string name="add_pic">Lägg till bild:</string>
+    <string name="optional">(Valfritt)</string>
+    <string name="please_leave_your_email">Vänligen lämna din e-postadress</string>
+    <string name="feedback_other">Annat:</string>
+    <string name="feedback_other_optional">Facebook/Twitter/Google+ (Valfritt)</string>
+    <string name="feedback_submit">Skicka</string>
+
+    <string name="versionUpdate">Uppdatera</string>
+    <string name="messageContent">En ny version finns för %s, du kan uppdatera nu.</string>
+    <string name="update_at_once">Uppdatera</string>
+
+    <!--AboutPreference-->
+    <string name="pref_check_update">Sök efter uppdatering</string>
+    <string name="pref_contact_us">Kontakta oss:</string>
+
+    <string name="pref_agreement">Användarvillkor</string>
+    <string name="pref_privacy_policy">Integritetspolicy</string>
+
+    <string name="check_for_update">Söker efter uppdatering...</string>
+    <string name="request_fail">Förfrågan misslyckades, försök igen senare</string>
+    <string name="update_remind">Uppdateringsmeddelande</string>
+    <string name="is_latest">Redan den senaste versionen!</string>
+    <string name="no_prompt">Fråga inte igen</string>
+
+    <string name="download">Ladda ner</string>
+    <string name="downloading">Laddar ner</string>
+    <string name="downloaded">Nedladdad</string>
+    <string name="download_removed">Har tagits bort</string>
+    <string name="download_pause">Nedladdning pausad</string>
+    <string name="download_failed">Nedladdning misslyckades</string>
+    <string name="unknown_file">Okända filtyper</string>
+    <string name="no_downloads">Inga nedladdningar</string>
+    <string name="downloadmanager_disabled">Nedladdningshanteraren är inaktiverad. Vänligen aktivera den.</string>
+    <string name="cannot_open_the_file">Inget program för att öppna denna filtyp</string>
+    <string name="download_allow_mobile">Tillåta filnedladdning via mobilt nätverk?</string>
+    <string name="allow_download">Tillåt nedladdning</string>
+    <string name="allow_download_no">Anslut till Wi-Fi</string>
+    <string name="download_list">Nedladdningslista</string>
+    <string name="storage_space_lack">Inte tillräckligt med lagringsutrymme</string>
+    <string name="new_file">Skapa ny fil</string>
+    <string name="replace_file">Ersätt fil</string>
+
+    <string name="default_location">Standardplats:%1$s</string>
+    <string name="select_location">Välj plats</string>
+    <string name="sdcard_free">%1$s Fri/%2$s</string>
+
+    <!--&lt;!&ndash;bottomMenuItem&ndash;&gt;-->
+    <string name="menu_browser_add_bookmark">Lägg till bokmärke</string>
+    <string name="menu_browser_night">Ögonvård</string>
+    <string name="menu_browser_incognito">Inkognito</string>
+    <string name="menu_browser_close_incognito">Normal</string>
+    <string name="menu_browser_history">Historik</string>
+    <string name="menu_browser_bookmarks">Bokmärken</string>
+    <string name="menu_browser_downloads">Nedladdningar</string>
+    <string name="menu_browser_no_image">Inga bilder</string>
+    <string name="menu_browser_full_screen">Fullskärm</string>
+    <string name="menu_browser_font_size">Teckenstorlek</string>
+    <string name="menu_browser_search_page">Sök på sidan</string>
+    <string name="menu_browser_snapshots">Spara sida</string>
+
+    <string name="menu_browser_settings">Inställningar</string>
+    <string name="menu_browser_Tools">Verktyg</string>
+    <string name="menu_browser_quit">Avsluta</string>
+
+    <string name="title_clear_off_line">Rensa sparade sidor?</string>
+    <string name="title_clear_history">Rensa historik?</string>
+    <string name="title_clear_all_history">Rensa all historik?</string>
+    <string name="title_clear_bookmark">Rensa bokmärke?</string>
+    <string name="enter_incognito_mode">Byt till inkognitoläge</string>
+    <string name="enter_normal_mode">Byt till normalt läge</string>
+    <string name="swipe_up_tip">Svep upp för att ta bort fliken</string>
+    <string name="empty_info_most_visited">Inga poster</string>
+
+    <string name="prompt_saved_off_line">Sparad till offline-sidor</string>
+    <string name="prompt_already_saved_off">Denna sida har redan sparats</string>
+    <string name="prompt_already_saved_bookmark">Du har redan lagt till detta bokmärke</string>
+    <string name="incognito_home">Du är i inkognitoläge</string>
+    <string name="incognito_home_content">Du är nu i inkognitoläge.</string>
+    <string name="edit">Redigera</string>
+
+    <string name="exit_dialog_title">Vill du avsluta webbläsaren?</string>
+    <string-array name="exit_dialog_choices">
+        <item>Rensa historik &amp; cache</item>
+        <item>Fråga inte igen</item>
+    </string-array>
+
+    <string name="adblock_dialog_tips">Annons hittad, vill du aktivera AdBlock nu?</string>
+    <string name="visit_url_title">Besöka denna URL från ditt urklipp?</string>
+    <string name="visit_url_ok">Besök</string>
+    <string name="incognito_home_tip">Du kan lämna inkognitoläget och återgå till normalt läge.</string>
+    <string name="snap_shot_no_title">Utan titel</string>
+    <string name="view_select_all">Välj alla</string>
+    <string name="set_default_browser">Ställ in som standardwebbläsare</string>
+    <string name="enter_settings_page">Vänligen gå till Inställningar efter att rensningen är klar.</string>
+    <string name="clear_default_setting_please">En annan webbläsare är inställd som standard, vänligen rensa standardinställningen.</string>
+    <string name="unknown_error">Okänt fel, försök igen.</string>
+    <string name="set_default_success">Inställning lyckades!</string>
+    <string name="set_default_failure">Misslyckades med att ställa in som standard. Försök igen.</string>
+
+    <string name="default_bookmark">Standardbokmärke</string>
+
+    <string name="click_again_quit">Tryck tillbaka för att avsluta</string>
+    <string name="clear_all_already">Alla data har rensats!</string>
+    <string name="select_download_path">Välj mappen \"%s\" som nedladdningsplats</string>
+
+    <string name="contact_us_on_facebook">Kontakta oss på Facebook</string>
+    <string name="text_count_can_input">%1$d tecken kan anges</string>
+    <string name="input_over_flow">Inlämning misslyckades, %1$d tecken överskrider gränsen</string>
+    <string name="upload_image">Ladda upp bilder</string>
+    <string name="request_read_external_storage_error">Misslyckades med att få åtkomst till telefonminnet</string>
+    <string name="get_photo_failure">Misslyckades med att hämta bilder</string>
+
+    <string name="title_activity_add_link">Lägg till länk</string>
+    <string name="btn_recommend_add">Lägg till</string>
+
+    <!-- right recommend -->
+    <string name="right_recommend_add_link_not_title">Vänligen ange titel</string>
+    <string name="right_recommend_add_link_not_url">Vänligen ange URL</string>
+    <string name="right_recommend_add_link_url_format">Denna URL är felaktig</string>
+    <string name="right_recommend_add_link_saved">Sparad</string>
+    <string name="right_recommend_add_link_repeat">URL finns redan</string>
+
+    <!-- right edit tools -->
+    <string name="right_recommend_tools_desktop">Skrivbord</string>
+    <string name="right_recommend_tools_remove">Ta bort</string>
+
+    <string name="file_name">Filnamn</string>
+    <string name="copylink_success">Länken har kopierats</string>
+    <string name="add_to_homepage_success">Lagt till på hemsidan</string>
+    <string name="add_to_desktop_success">Lagt till på skrivbordet</string>
+    <string name="clear_history_all">Rensa all historik</string>
+    <string name="remove_items_all">Ta bort objekt</string>
+    <string name="rename_failed">Misslyckades med att byta namn</string>
+    <string name="rename_success">Bytte namn</string>
+    <string name="filename_empty">Filnamnet kan inte vara tomt</string>
+    <string name="file_exist">Filen finns redan</string>
+    <string name="file_not_exist">Filen finns inte</string>
+
+    <string name="menu_tools_box">Verktygslåda</string>
+    <string name="toolbox_menu_on">PÅ</string>
+    <string name="toolbox_menu_off">AV</string>
+    <string name="home_page">Hemsida</string>
+    <string name="desktop">Skrivbord</string>
+    <string name="name_cannot_empty">Webbplatsens namn kan inte vara tomt</string>
+
+    <string name="setting_update_speech_recognition">Röstinmatning förbjuden, uppdatera Google rösttjänst</string>
+    <string name="done">KLAR</string>
+    <string name="edited">REDIGERAD</string>
+    <string name="enter_website_name">Ange webbplatsens namn</string>
+
+    <string name="unknown">okänd</string>
+    <string name="available">Tillgänglig</string>
+    <string name="total">Totalt</string>
+    <string name="notification_content_text">Klicka för att visa</string>
+    <string name="notification_download_finish">Nedladdning slutförd</string>
+    <string name="view">Visa</string>
+
+    <string name="five_stars_titile">Gillar du %s?</string>
+    <string name="five_stars_content">Din femstjärniga recension betyder mycket för oss.</string>
+    <string name="five_stars_later">Senare</string>
+    <string name="five_stars">5 stjärnor</string>
+    <string name="refresh">Uppdatera</string>
+    <string name="ua_switcher_desktop">Begär skrivbordsversion</string>
+
+    <string name="video_mobile_permission">Du använder mobilt nätverk. Vill du fortfarande spela upp?</string>
+    <string name="video_mobile_play">Spela</string>
+    <string name="video_mobile_pause">Avbryt</string>
+    <string name="close_all_incognito_notification">Stäng alla inkognitoflikar</string>
+    <string name="add_up_to_15">Lägg till upp till 20</string>
+    <string name="pref_deverloper_options">Utvecklaralternativ</string>
+    <string name="show_dev_on">Du är nu en utvecklare!</string>
+
+    <string name="pic_ad_block_count">Blockerade bilder</string>
+    <string name="js_ad_block_count">Blockerade JavaScript-filer</string>
+    <string name="popup_ad_block_count">Blockerade popups</string>
+    <string name="custom_rules">Anpassade AdBlock-filter</string>
+    <string name="custom_rules_title">AdBlock-filter</string>
+    <string name="confirm_deletion">Ta bort detta?</string>
+    <string name="add">Lägg till</string>
+    <string name="confirm_deletion_all">Ta bort alla?</string>
+
+    <string name="js_disable_hosts">Sätt tidsgräns för reklammarkörer</string>
+    <string name="js_disable_hosts_title">Vissa domäner</string>
+    <string name="null_rules_prompt">Du kan lägga till egna regler. Dina regler måste följa Adblock Plus syntaxregler. Användarinstruktioner.</string>
+
+    <string name="instructions_label">Användarinstruktioner</string>
+    <string name="adblock_rules_error_prompt">Syntaxfel, vänligen redigera igen!</string>
+    <string name="js_disable_host_error_prompt">Domänfel, vänligen redigera igen!</string>
+
+    <string name="leadpage_home">Hem</string>
+    <string name="leadpage_back">Tillbaka</string>
+
+    <string name="leadpage_forward">Framåt</string>
+    <string name="abnormal_recover_ok">Återställ</string>
+    <string name="abnormal_recover_message">Återställa den senaste webbsidan?</string>
+    <string name="abnormal_recover_recovered">Sidor från den senaste sessionen har återställts.</string>
+
+    <string name="open_most_visited">Öppna mest besökta>></string>
+    <string name="contextmenu_share_app">Dela appen</string>
+    <string name="contextmenu_share_website">Dela webbplats</string>
+
+    <string name="browser_tools" msgid="6709237687234102240">Verktyg</string>
+
+    <string name="pref_show_red_badge_notity">Visa röd meddelandebadge</string>
+    <string name="pref_show_header_news">Visa tid/väder/nyheter från föregående sida</string>
+
+    <string name="added_new_bookmark">Lägg till bokmärke</string>
+    <string name="str_bookmark_title_time">yyyy-MM</string>
+    <string name="pref_five_star">fem stjärnor</string>
+    <string name="deletion_all">Ta bort alla</string>
+    <string name="adblockplus_url">https://adblockplus.org/en/filters</string>
+    <string name="mark_image_ad">Markera annons</string>
+    <string name="mark_image_ad_fail">Misslyckades med att markera</string>
+    <string name="product_agree">Acceptera</string>
+    <string name="product_no_agree">Nej, acceptera inte</string>
+    <string name="application_name">Byfrost</string>
+    <string name="setting_bottom_expanding">Expanderar</string>
+    <string name="setting_bottom_night">Mörkt läge</string>
+    <string name="setting_bottom_day">Ljust läge</string>
+
+    <string name="update_now">Hämta appen från Google Play</string>
+    <string name="update_title">Ny version hittad</string>
+    <string name="update_later">Uppdatera senare</string>
+    <string name="five_stars_comment">Ge förslag.</string>
+    <string name="ad_block_num">%d</string>
+    <string name="search_history">Sökhistorik</string>
+    <string name="browser_admin_panel">Användarcenter</string>
+    <string name="browser_navigation">Navigation</string>
+
+    <string name="browser_slogo_fast">Snabbare</string>
+    <string name="browser_slogo_safe">Säkrare</string>
+    <string name="browser_slogo_intelligence">Smartare</string>
+
+    <string name="browser_rights" translatable="false">Copyright © 2024 Byfrost browser. \nAlla rättigheter förbehållna.</string>
+    <string name="browser_setting_bottom_night_mode" translatable="false">n5HTz8I4YP</string>
+
+    <string name="qrcode_tip" translatable="false">Placera QR-koden i rutan och börja skanna</string>
+    <string name="picture_nocodeinfo" translatable="false">Ingen QR-kodinformation känd i bilden</string>
+    <string name="picture_scannoinfo" translatable="false">Ingen QR-kodinformation skannades</string>
+    <string name="share_dialog_title" translatable="false">Dela webbplats</string>
+    <string name="my_qrcode" translatable="false">Min QR-kod</string>
+    <string name="select_qr_code" translatable="false">Välj QR-kodbild</string>
+    <string name="sure_select_true_picture" translatable="false">Vänligen bekräfta att du har valt rätt bild</string>
+    <string name="qr_code" translatable="false">QRCodeActivity</string>
+    <string name="browser_open_all_most_visited" translatable="false">Utöka rekommenderad webbplats</string>
+    <string name="browser_slogan" translatable="false">Sök fritt efter allt du behöver</string>
+    <string name="browser_net_error_refresh" translatable="false">Klicka på det tomma området för att uppdatera sidan</string>
+
+    <string name="browser_hot_word_title" translatable="false">Het söklista</string>
+    <string name="browser_permission_camera">Kameratillstånd nekades, vänligen aktivera det manuellt</string>
+    <string name="browser_permission_notification">Aviseringstillstånd nekades, vänligen aktivera det manuellt</string>
+    <string name="browser_permission_strone">Nedladdning kräver lagringstillstånd. Vänligen öppna lagringstillståndet i inställningarna</string>
+
+    <string name="browser_permission_qr">Den här funktionen kräver åtkomst till minnet. Vänligen aktivera det manuellt i inställningarna</string>
+    <string name="browser_permission_setwall">Inställning av telefonbakgrund kräver lagringstillstånd. Vänligen öppna det på inställningssidan</string>
+    <string name="browser_product_start">Starta</string>
+    <string name="browser_product_agree_tips">Du måste godkänna policyn.</string>
+    <string name="browser_privacy_tips">Dina personuppgifter hanteras i enlighet med vår 《Integritetspolicy》.</string>
+
+    <string name="byfrost_slogan">Byfrost – Se en större värld!</string>
+    <string name="byfrost_suggestion">Vi har mottagit ditt förslag, tack.</string>
+    <string name="byfrost_suggestion_time">Feedbacktiden får inte vara kortare än 1 minut från senaste gången.</string>
+    <string name="update_tips2">✨Allt för att göra din upplevelse bättre!\nUppdatera nu och kolla in det! ✨</string>
+    <string name="update_tips1">Ja, du gissade rätt! En helt ny uppdatering är här!</string>
+    <string name="update_content1">1. Våra superkloka forskare har gjort webbsidor blixtsnabba!</string>
+    <string name="update_content2">2. Vår härliga designer har förtrollat och gjort allt ännu vackrare!</string>
+    <string name="update_content3">3. Och våra fantastiska utvecklare? De stannade uppe sent och drack kaffe för att jaga bort alla envisa buggar!</string>
+
+    <string name="lable_news">Nyheter</string>
+    <string name="lable_video">Videor</string>
+    <string name="lable_lifestyle">Livsstil</string>
+    <string name="lable_AI">AI</string>
+    <string name="lable_Tools">Verktyg</string>
+
+    <string name="lable_weather">Väder</string>
+    <string name="lable_calendar">Kalender</string>
+    <string name="lable_maps">Kartor</string>
+    <string name="lable_translate">Översätt</string>
+
+    <string name="website_recommend">Rekommenderade</string>
+    <string name="website_social">Sociala</string>
+    <string name="website_lifestyle">Livsstil</string>
+    <string name="website_news">Nyheter•Sport</string>
+    <string name="website_AI">AI</string>
+    <string name="website_videos">Videor</string>
+    <string name="website_shoping">Underhållning•Shopping</string>
+    <string name="website_tools">Verktyg</string>
+    <string name="website_hot">Populärt</string>
+
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Det uppstod tyvärr ett fel med Androidkameran.</string>
+    <string name="zxing_msg_default_status">Placera steckkoden inom sökarens rektangel för att läsa den.</string>
+</resources>

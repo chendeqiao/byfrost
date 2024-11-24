@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/browser_common_menu_item_bg">
+
+    <com.intelligence.browser.view.SimpleRoundedImageView
+        android:id="@+id/sugar_page_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/browser_default_bg"/>
+
+    <TextView
+        android:id="@+id/sugar_page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/browser_title_color"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:id="@+id/sugar_page_add"
+        android:layout_width="28dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="4dp"
+        android:padding="3dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/browser_navigation_edit_icon_succuss"
+        android:background="@drawable/browser_navigation_edit_bg"/>
+</LinearLayout>

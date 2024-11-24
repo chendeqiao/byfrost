@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="liangzi" translatable="false">
+    <item>&#x767e;&#x5ea6;</item>
+    <item>https://wap.sogou.com/web/sl?keyword={searchTerms}&amp;bid=sogou-mobp-95e62984b87e9064</item>
+    <item>UTF-8</item>
+    <item></item>
+  </string-array>
+
+  <string-array name="baidu" translatable="false">
+    <item>&#x767e;&#x5ea6;</item>
+    <item>https://m.baidu.com/s?wd={searchTerms}</item>
+    <item>UTF-8</item>
+    <item></item>
+  </string-array>
+
+  <string-array name="search_360" translatable="false">
+    <item>&#x0033;&#x0036;&#x0030;&#x641c;&#x7d22;</item>
+    <item>https://www.so.com/s?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item></item>
+  </string-array>
+
+  <string-array name="sougou" translatable="false">
+    <item>&#x641c;&#x72d7;</item>
+    <item>https://www.sogou.com/web?query={searchTerms}</item>
+    <item>UTF-8</item>
+    <item></item>
+  </string-array>
+
+  <string-array name="shenma" translatable="false">
+    <item>&#x795e;&#x9a6c;</item>
+    <item>http://m.sm.cn/s?q={searchTerms}&amp;from=smor</item>
+    <item>UTF-8</item>
+    <item></item>
+  </string-array>
+
+  <string-array name="yahoo_cn" translatable="false">
+    <item>&#x4e2d;&#x56fd;&#x96c5;&#x864e;</item>
+    <item>http://search.cn.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item></item>
+  </string-array>
+  <string-array name="bing_zh_CN" translatable="false">
+    <item>&#24517;&#24212;</item>
+    <item>http://www.bing.com/search?setmkt=zh-CN&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+  <string-array name="google" translatable="false">
+    <item>Google</item>
+    <item>https://www.google.com/search?ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>https://www.google.com/complete/search?client=android&amp;q={searchTerms}</item>
+  </string-array>
+  <string-array name="yahoo" translatable="false">
+    <item>Yahoo!</item>
+    <item>http://search.yahoo.com/search?ei={inputEncoding}&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+  <string-array name="bing" translatable="false">
+    <item>Bing</item>
+    <item>http://www.bing.com/search?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+
+  <string-array name="yandex" translatable="false">
+    <item>Yandex</item>
+  <!--  <item>http://yandex.ru/yandsearch?text={searchTerms}</item>-->
+    <item>https://yandex.ru/search/touch?clid=2249650&amp;text=</item>
+    <item>UTF-8</item>
+    <item>http://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}</item>
+  </string-array>
+
+  <string-array name="durkdurkgo" translatable="false">
+    <item>Durkdurkgo</item>
+    <item>https://duckduckgo.com/?q=</item>
+    <item>UTF-8</item>
+    <item>https://duckduckgo.com/?q=</item>
+  </string-array>
+</resources>
+
+
+
+

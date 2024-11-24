@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/browser_hotword_scroll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/hotword_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="42dp"
+        android:paddingTop="60dp">
+
+        <ImageView
+            android:id="@+id/browser_hot_word_back"
+            android:layout_width="@dimen/search_card_marigin_right"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:src="@drawable/browser_white_back" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/browser_hot_word_icon" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/browser_hot_word_title"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.intelligence.componentlib.viewpagetabbar.PagerSlidingTabStrip
+        android:id="@+id/browser_hotword_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/browser_TabPageIndicator_height"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/browser_navigation_bar_shape"
+        app:pstsIndicatorColor="@color/browser_title_color"
+        app:pstsIndicatorOffset="50dp"
+        app:pstsSelectTextColor="@color/browser_title_color"
+        app:pstsShouldExpand="true"
+        app:pstsTextAllCaps="false"
+        android:layout_marginTop="-12dp"
+        app:pstsUnderlineHeight="0dp" />
+
+    <LinearLayout
+        android:id="@+id/browser_last_url_tips"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/setting_background"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/browser_hot_word_update_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/settings_list_item_text_marginstart"
+            android:textColor="@color/browser_tips_color"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/browser_hotword_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_page_indicator_combo"
+        android:background="#fff"
+        android:overScrollMode="never" />
+</LinearLayout>

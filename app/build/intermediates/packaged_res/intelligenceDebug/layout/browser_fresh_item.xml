@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/refresh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/browser_refresh_icon"
+        android:gravity="center"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:text="上次看到这里，点击刷新"
+        android:textColor="@color/c_b10"
+        android:background="@drawable/browser_intell_article_fresh_corner_bg"
+        android:textSize="@dimen/textsize03" />
+
+</RelativeLayout>

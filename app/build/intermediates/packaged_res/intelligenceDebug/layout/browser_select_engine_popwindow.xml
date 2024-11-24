@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="@dimen/browser_select_engine_width"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardElevation="@dimen/browser_selete_engine_magin_top"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <ListView
+        android:id="@+id/lv_select_engine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/browser_selete_engine_magin_top"
+        android:layout_marginTop="@dimen/browser_selete_engine_magin_top"
+        android:divider="@null"
+        android:scrollbars="none"></ListView>
+</androidx.cardview.widget.CardView>

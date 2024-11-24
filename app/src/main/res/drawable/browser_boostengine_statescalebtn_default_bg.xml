@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/browser_boostengine_statescalebtn_default_disable_shape"/>
+    <item android:state_pressed="true" android:drawable="@drawable/browser_boostengine_statescalebtn_default_press_shape"/>
+    <item android:drawable="@drawable/browser_boostengine_statescalebtn_default_shape"/>
+</selector>
