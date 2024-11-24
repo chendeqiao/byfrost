@@ -1,2 +1,3 @@
+init
 # byfrost
 browser code
